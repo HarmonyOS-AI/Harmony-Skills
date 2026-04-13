@@ -1,0 +1,3 @@
+登录[AppGallery Connect](https://developer.huawei.com/consumer/cn/service/josp/agc/index.html)网站选择对应的项目后，在‘全部功能’中搜索“鸿蒙支付服务”并固定到菜单导航栏中。在“支付服务（非虚拟类）> 待关联商户号”选择对应的商户点击“授权”即可。可参考下图所示：
+
+![](https://contentcenter-vali-drcn.dbankcdn.cn/pvt_2/DeveloperAlliance_scene_100_1/d1/v3/O_hXqQaIQjW2vhHsO8Mhsg/zh-cn_image_0000002419450448.png?HW-CC-KV=V1&HW-CC-Date=20260403T154312Z&HW-CC-Expire=86400&HW-CC-Sign=436A0B139C7EA626DB49C2B8EFE796115625D3C7BFB5788F4A1C24633C52CB8D "点击放大")
