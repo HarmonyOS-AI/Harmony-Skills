@@ -146,8 +146,9 @@ Grep: pattern="关键词" path="sdk/hms/ets/api/"
 
 1. **识别 API 调用链** — 读取相关 `.d.ts` 文件，分析实现该功能需要哪些 API、按什么顺序调用、API 之间如何传递数据
 2. **梳理前置条件** — 确认权限申请、系统能力依赖、初始化步骤
-3. **构建调用流程** — 将多个 API 按逻辑串联：初始化 → 配置 → 执行 → 结果处理 → 资源释放
-4. **生成代码示例** — 基于 `.d.ts` 中的真实签名编写 ArkTS 代码示例
+3. **识别状态归属与恢复点** — 涉及 setter/config、运行态对象生命周期、系统状态监听、外部可变状态或设置保持时，按本节模板输出；需要展开判断方法时读取 [references/stateful-api-analysis.md](references/stateful-api-analysis.md)
+4. **构建调用流程** — 将多个 API 按逻辑串联：初始化 → 配置 → 执行 → 结果处理 → 资源释放
+5. **生成代码示例** — 基于 `.d.ts` 中的真实签名编写 ArkTS 代码示例
 
 ```
 ### 功能: [功能名称]
@@ -166,6 +167,13 @@ Grep: pattern="关键词" path="sdk/hms/ets/api/"
 1. [步骤1说明] — 用到 `模块A.methodX()`
 2. [步骤2说明] — 用到 `模块B.methodY()`，输入来自步骤1的结果
 3. [步骤3说明] — 资源释放 / 回调处理
+
+**状态模型与恢复点**（如涉及）:
+- 状态归属对象: session / output / player / recorder / controller / connection / stream / 其他
+- 对象重建影响: 若后续动作会 create/release/recreate，说明是否需要在后续动作前重新应用用户设置
+- 当前快照 API: `get/is/query...`，用于应用恢复、页面重建或监听重新注册后的状态补偿
+- 状态监听 API: `on/off` 或 `register/unregister...`，用于覆盖注册之后的未来变化
+- 恢复建议: 外部可变状态不能只依赖事件；应用恢复后应重新查询当前快照并推送或同步
 
 **代码示例**:
 （基于 .d.ts 真实签名的 ArkTS 代码，包含 import、核心逻辑、错误处理）
@@ -191,7 +199,9 @@ import { yyy } from '@ohos.yyy';
 - **返回值→参数链**: 方法 A 返回 `TypeX`，方法 B 接收 `TypeX` 作为参数 → A 的输出是 B 的输入
 - **配置对象模式**: 一个功能通常有 `XxxConfig` / `XxxOptions` 接口 → 先构造配置再调用
 - **生命周期模式**: 有 `create/open` + `start/execute` + `stop/close/release` → 需完整管理
+- **设置保持模式**: setter/config 改变运行态对象状态，后续动作会重建对象时，必须缓存用户设置并在新对象配置完成后重新应用；展开判断见 [references/stateful-api-analysis.md](references/stateful-api-analysis.md)
 - **回调/监听模式**: 有 `on(event, callback)` / `off(event)` → 注册后需在适当时机取消
+- **外部可变状态模式**: 同时存在 `get/is/query` 当前状态和 `on/off` 状态事件时，事件只覆盖未来变化，应用恢复后还要重新查询当前快照；展开判断见 [references/stateful-api-analysis.md](references/stateful-api-analysis.md)
 - **错误码枚举**: 模块内有 `ErrorCode` enum → 用于错误处理分支
 
 ## 注意事项

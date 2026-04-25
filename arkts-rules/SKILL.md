@@ -398,3 +398,23 @@ export class GlobalContext {
   }
 }
 ```
+
+---
+
+## 十一、运行态时序与状态保持规则
+
+当编写或审查 ArkUI controller、ArkWeb `WebviewController`、MethodChannel 返回值、运行态对象重建、setter/config 设置保持相关代码时，必须应用本节规则。需要错误/正确示例或完整 gate 写法时，读取 [references/controller-runtime-state.md](references/controller-runtime-state.md)。
+
+### Controller attach 硬规则
+
+- 不能把 controller 对象已创建等同于 controller 已经与 ArkUI 组件绑定。
+- 依赖组件绑定状态的 controller 调用必须经过统一 attach gate、`waitControllerAttached()` 或任务队列。
+- 禁止只对 `loadUrl`、`registerJavaScriptProxy` 等个别方法特判；`currentUrl`、`runJavaScript`、导航、滚动、缓存、UA、回调注册等正式 API 必须走同一个 attach gate。
+- 带返回值的 MethodChannel 方法必须在队列任务内完成 `result.success()` / `result.error()`，不能在 controller 未绑定时提前返回占位值。
+- ArkUI 组件侧必须在 `onControllerAttached` 或等价 ready 回调中 flush 队列；没有该回调时必须查官方文档确认真实 ready / created / attached 时机，不能假设 `aboutToAppear` 可调用 controller。
+
+### 运行态对象重建硬规则
+
+- setter/config 修改 session、output、player、recorder、controller、connection、stream 等运行态对象时，用户设置必须先保存到插件自身状态，再应用到当前对象。
+- 后续流程会 `create` / `release` / `recreate` 运行态对象时，必须在新对象配置完成后、后续动作开始前重新应用已缓存设置，或明确说明该设置无法保持。
+- 禁止把“当前调用成功”当成“后续链路仍然生效”。
