@@ -335,6 +335,21 @@ import('./Calc').then((obj: ESObject) => {
 - 避免使用 `ESObject`（仅用于 TS/JS 互操作）
 - 数组遍历优先用 `map`/`filter`/`forEach` 等方法
 
+### 大对象与资源生命周期
+
+当代码涉及 `PixelMap`、`ImageSource`、`PdfPage`、`PdfDocument`、`AVPlayer`、`Surface`、`Texture`、`ArrayBuffer`、`Uint8Array`、文件句柄，或通过 `MethodChannel` 传输大字节数据时，先做资源与性能风险检查。
+
+检查重点：
+
+- create/use/release 是否对称。
+- 成功、失败、异常、提前 return 路径是否都会释放资源。
+- 是否同时保留 native 对象和 Dart/JS 大字节副本。
+- 单次数据量是否随图片、PDF 页、视频帧、文件大小线性增长。
+- 滚动、列表、预览、播放等高频路径是否有缓存上限和淘汰策略。
+- 全量字节数组是否能改成分块、降采样、按视口渲染或平台纹理路径。
+
+需要错误/正确示例时，读取 [references/resource-lifecycle-performance.md](references/resource-lifecycle-performance.md)。
+
 ---
 
 ## 九、常见替代模式速查
