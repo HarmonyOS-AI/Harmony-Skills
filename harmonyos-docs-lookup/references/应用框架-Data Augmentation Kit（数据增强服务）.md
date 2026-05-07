@@ -1,6 +1,6 @@
 * **[Data Augmentation Kit简介](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/dataaugmentation-introduction)**
-* **[RAG](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/dataaugmentation-rag)**
 * **[知识加工](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/data-augmentation-knowledge-processing)**
-* **[智慧化数据检索](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/dataaugmentation-retrieval)**
-* **[智慧化数据检索（C/C++）](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/dataaugmentation-retrieval-c)**
+* **[RAG](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/dataaugmentation-rag)**
+* **[智慧化数据检索-ArkTS](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/dataaugmentation-retrieval)**
+* **[智慧化数据检索-C++](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/dataaugmentation-retrieval-c)**
 * **[端侧问答模型](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/dataaugmentation-localchatmodel)**

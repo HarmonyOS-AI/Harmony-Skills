@@ -7,7 +7,8 @@
 * **[即时操作](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ui-design-snackbar)**
 * **[核心操作栏](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ui-design-actionbar)**
 * **[列表](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ui-design-list-item-card)**
-* **[应用加载自定义Symbol](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ui-design-config-custom-symbol)**
+* **[应用加载自定义Symbol](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ui-design-custom-symbol-res-register)**
 * **[视效](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ui-design-visual-effect)**
 * **[应用内多窗](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ui-design-multiwindowentryinapp)**
+* **[沉浸光感](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ui-design-hds-component-material)**
 * **[UI Design Kit常见问题](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ui-design-faq)**

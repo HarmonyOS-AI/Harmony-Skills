@@ -4,3 +4,4 @@
 * **[长时任务(ArkTS)](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/continuous-task)**
 * **[延迟任务(ArkTS)](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/work-scheduler)**
 * **[代理提醒(ArkTS)](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/agent-powered-reminder)**
+* **[Background Tasks Kit接入规范](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/bgtask-design-formula)**
