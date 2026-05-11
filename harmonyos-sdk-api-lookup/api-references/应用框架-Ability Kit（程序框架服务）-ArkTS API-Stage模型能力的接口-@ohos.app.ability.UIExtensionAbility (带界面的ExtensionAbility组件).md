@@ -14,13 +14,7 @@ UIExtensionAbility组件是带界面的ExtensionAbility组件，继承自[Extens
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIExtensionAbility } from '@kit.AbilityKit';
@@ -64,13 +58,7 @@ onCreate(launchParam: AbilityConstant.LaunchParam): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // UIExtensionAbility组件不支持三方应用直接继承，故以派生类ShareExtensionAbility举例说明。
@@ -106,13 +94,7 @@ onSessionCreate(want: Want, session: UIExtensionContentSession): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // UIExtensionAbility组件不支持三方应用直接继承，故以派生类ShareExtensionAbility举例说明。
@@ -155,13 +137,7 @@ onSessionDestroy(session: UIExtensionContentSession): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // UIExtensionAbility组件不支持三方应用直接继承，故以派生类ShareExtensionAbility举例说明。
@@ -188,13 +164,7 @@ onForeground(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // UIExtensionAbility组件不支持三方应用直接继承，故以派生类ShareExtensionAbility举例说明。
@@ -221,13 +191,7 @@ onBackground(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // UIExtensionAbility组件不支持三方应用直接继承，故以派生类ShareExtensionAbility举例说明。
@@ -266,13 +230,7 @@ onDestroy(): void | Promise<void>
 
 * 同步回调示例如下：
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. // UIExtensionAbility组件不支持三方应用直接继承，故以派生类ShareExtensionAbility举例说明。
@@ -288,13 +246,7 @@ onDestroy(): void | Promise<void>
   ```
 * 异步回调示例如下：
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. // UIExtensionAbility组件不支持三方应用直接继承，故以派生类ShareExtensionAbility举例说明。

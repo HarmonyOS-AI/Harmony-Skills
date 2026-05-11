@@ -14,13 +14,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { preferences } from '@kit.ArkData';
@@ -78,13 +72,7 @@ getPreferences(context: Context, name: string, callback: AsyncCallback<Preferenc
 
 FA模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { featureAbility } from '@kit.AbilityKit';
@@ -105,13 +93,7 @@ FA模型示例：
 
 Stage模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -178,13 +160,7 @@ getPreferences(context: Context, name: string): Promise<Preferences>
 
 FA模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 获取context
@@ -205,13 +181,7 @@ FA模型示例：
 
 Stage模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -273,13 +243,7 @@ getPreferences(context: Context, options: Options, callback: AsyncCallback<Prefe
 
 FA模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 获取context
@@ -302,13 +266,7 @@ FA模型示例：
 
 Stage模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -379,13 +337,7 @@ getPreferences(context: Context, options: Options): Promise<Preferences>
 
 FA模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 获取context
@@ -407,13 +359,7 @@ FA模型示例：
 
 Stage模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -483,13 +429,7 @@ getPreferencesSync(context: Context, options: Options): Preferences
 
 FA模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 获取context
@@ -504,13 +444,7 @@ FA模型示例：
 
 Stage模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -568,13 +502,7 @@ deletePreferences(context: Context, name: string, callback: AsyncCallback<void>)
 
 FA模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 获取context
@@ -594,13 +522,7 @@ FA模型示例：
 
 Stage模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -669,13 +591,7 @@ deletePreferences(context: Context, name: string): Promise<void>
 
 FA模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 获取context
@@ -694,13 +610,7 @@ FA模型示例：
 
 Stage模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -764,13 +674,7 @@ deletePreferences(context: Context, options: Options, callback: AsyncCallback<vo
 
 FA模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 获取context
@@ -791,13 +695,7 @@ FA模型示例：
 
 Stage模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -870,13 +768,7 @@ deletePreferences(context: Context, options: Options): Promise<void>
 
 FA模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 获取context
@@ -896,13 +788,7 @@ FA模型示例：
 
 Stage模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -965,13 +851,7 @@ removePreferencesFromCache(context: Context, name: string, callback: AsyncCallba
 
 FA模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 获取context
@@ -990,13 +870,7 @@ FA模型示例：
 
 Stage模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -1066,13 +940,7 @@ removePreferencesFromCache(context: Context, name: string): Promise<void>
 
 FA模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 获取context
@@ -1090,13 +958,7 @@ FA模型示例：
 
 Stage模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -1157,13 +1019,7 @@ removePreferencesFromCacheSync(context: Context, name: string): void
 
 FA模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 获取context
@@ -1174,13 +1030,7 @@ FA模型示例：
 
 Stage模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -1239,13 +1089,7 @@ removePreferencesFromCache(context: Context, options: Options, callback: AsyncCa
 
 FA模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 获取context
@@ -1265,13 +1109,7 @@ FA模型示例：
 
 Stage模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -1345,13 +1183,7 @@ removePreferencesFromCache(context: Context, options: Options): Promise<void>
 
 FA模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 获取context
@@ -1370,13 +1202,7 @@ FA模型示例：
 
 Stage模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -1441,13 +1267,7 @@ removePreferencesFromCacheSync(context: Context, options: Options):void
 
 FA模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 获取context
@@ -1459,13 +1279,7 @@ FA模型示例：
 
 Stage模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -1543,13 +1357,7 @@ isStorageTypeSupported(type: StorageType): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let xmlType = preferences.StorageType.XML;
@@ -1619,13 +1427,7 @@ get(key: string, defValue: ValueType, callback: AsyncCallback<ValueType>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1681,13 +1483,7 @@ get(key: string, defValue: ValueType): Promise<ValueType>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1742,13 +1538,7 @@ getSync(key: string, defValue: ValueType): ValueType
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let value: preferences.ValueType = dataPreferences.getSync('startup', 'default');
@@ -1787,13 +1577,7 @@ getAll(callback: AsyncCallback<Object>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1848,13 +1632,7 @@ getAll(): Promise<Object>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1908,13 +1686,7 @@ getAllSync(): Object
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 由于ArkTS中无Object.keys，且无法使用for..in...
@@ -1971,13 +1743,7 @@ put(key: string, value: ValueType, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2039,13 +1805,7 @@ put(key: string, value: ValueType): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2098,13 +1858,7 @@ putSync(key: string, value: ValueType): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. dataPreferences.putSync('startup', 'auto');
@@ -2144,13 +1898,7 @@ has(key: string, callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2209,13 +1957,7 @@ has(key: string): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2273,13 +2015,7 @@ hasSync(key: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let isExist: boolean = dataPreferences.hasSync('startup');
@@ -2324,13 +2060,7 @@ delete(key: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2385,13 +2115,7 @@ delete(key: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2437,13 +2161,7 @@ deleteSync(key: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. dataPreferences.deleteSync('startup');
@@ -2488,13 +2206,7 @@ flush(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2546,13 +2258,7 @@ flush(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2593,13 +2299,7 @@ flushSync(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. dataPreferences.flushSync();
@@ -2638,13 +2338,7 @@ clear(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2690,13 +2384,7 @@ clear(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2723,13 +2411,7 @@ clearSync(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. dataPreferences.clearSync();
@@ -2773,13 +2455,7 @@ on(type: 'change', callback: Callback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2841,13 +2517,7 @@ on(type: 'multiProcessChange', callback: Callback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2905,13 +2575,7 @@ on(type: 'dataChange', keys: Array<string>, callback: Callback<Record<string, Va
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2969,13 +2633,7 @@ off(type: 'change', callback?: Callback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3031,13 +2689,7 @@ off(type: 'multiProcessChange', callback?: Callback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3092,13 +2744,7 @@ off(type: 'dataChange', keys: Array<string>, callback?: Callback<Record<string, 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

@@ -12,13 +12,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudData } from '@kit.ArkData';
@@ -93,13 +87,7 @@ setCloudStrategy(strategy: StrategyType, param?: Array<commonType.ValueType>): P
 
 **样例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

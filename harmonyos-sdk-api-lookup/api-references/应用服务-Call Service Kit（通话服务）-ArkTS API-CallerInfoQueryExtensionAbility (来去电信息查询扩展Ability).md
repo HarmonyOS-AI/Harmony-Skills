@@ -10,13 +10,7 @@ CallerInfoQueryExtensionAbility是来去电信息查询扩展Ability，提供通
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { CallerInfoQueryExtensionAbility, CallerInfo } from '@kit.CallServiceKit';
@@ -74,13 +68,7 @@ onQueryCallerInfo(phoneNumber: string):Promise<[CallerInfo](/consumer/cn/doc/har
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { CallerInfoQueryExtensionAbility, CallerInfo } from '@kit.CallServiceKit';
@@ -109,13 +97,7 @@ onQueryCallerInfo(phoneNumber: string):Promise<[CallerInfo](/consumer/cn/doc/har
 
 **RDB场景示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';

@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearableLite Wearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Available, SuppressWarnings, SuppressWarningsType } from '@kit.BasicServicesKit';
@@ -44,13 +38,7 @@ PhonePC/2in1TabletTVWearableLite Wearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Available, deviceInfo } from '@kit.BasicServicesKit';
@@ -108,13 +96,7 @@ rules: Array<SuppressWarningsType>;
 
 预置条件：工程根目录下build-profile.json5文件设置的compatibleSdkVersion值为20。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Available, SuppressWarnings, SuppressWarningsType } from '@kit.BasicServicesKit';
@@ -147,13 +129,7 @@ rules: Array<SuppressWarningsType>;
 
 预置条件：工程根目录下build-profile.json5文件设置的compatibleSdkVersion值为20。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Available } from '@kit.BasicServicesKit';

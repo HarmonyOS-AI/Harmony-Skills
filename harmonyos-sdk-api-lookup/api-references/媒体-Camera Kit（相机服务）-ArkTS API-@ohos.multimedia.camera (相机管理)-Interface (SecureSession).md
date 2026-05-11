@@ -13,13 +13,7 @@ SecureSession继承自[Session](https://developer.huawei.com/consumer/cn/doc/har
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { camera } from '@kit.CameraKit';
@@ -58,13 +52,7 @@ addSecureOutput(previewOutput: PreviewOutput): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -107,13 +95,7 @@ on(type: 'error', callback: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -150,13 +132,7 @@ off(type: 'error', callback?: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function unregisterSessionError(secureSession: camera.SecureSession): void {
@@ -191,13 +167,7 @@ on(type: 'focusStateChange', callback: AsyncCallback<FocusState>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -238,13 +208,7 @@ off(type: 'focusStateChange', callback?: AsyncCallback<FocusState>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function unregisterFocusStateChange(secureSession: camera.SecureSession): void {

@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { GridObjectSortComponent, GridObjectSortComponentItem, GridObjectSortComponentOptions, GridObjectSortComponentType , SymbolGlyphModifier } from '@kit.ArkUI';
@@ -128,13 +122,7 @@ PhonePC/2in1TabletTVWearable
 
 网格对象的编辑排序组件基础用法，涉及对组件配置信息初始化，数据初始化，保存、取消方法的使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { GridObjectSortComponent, GridObjectSortComponentItem, GridObjectSortComponentOptions, GridObjectSortComponentType, SymbolGlyphModifier } from '@kit.ArkUI';

@@ -22,13 +22,7 @@
 
 ### displayName
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. char* FIDO2_PublicKeyCredentialUserEntity::displayName
@@ -40,13 +34,7 @@
 
 ### id
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Uint8Buff FIDO2_PublicKeyCredentialUserEntity::id
@@ -58,13 +46,7 @@
 
 ### name
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. char* FIDO2_PublicKeyCredentialUserEntity::name

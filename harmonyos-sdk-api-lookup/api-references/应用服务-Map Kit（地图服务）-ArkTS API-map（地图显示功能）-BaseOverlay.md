@@ -2,13 +2,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { map, mapCommon } from '@kit.MapKit';
@@ -67,13 +61,7 @@ getId(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 以marker为例
@@ -113,13 +101,7 @@ getZIndex(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 以marker为例
@@ -152,13 +134,7 @@ getTag(): Object
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 以marker为例
@@ -191,13 +167,7 @@ isVisible(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 以marker为例
@@ -222,13 +192,7 @@ remove(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 以marker为例
@@ -261,13 +225,7 @@ setZIndex(zIndex: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 以marker为例
@@ -300,13 +258,7 @@ setTag(tag: Object): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 以marker为例
@@ -340,13 +292,7 @@ setVisible(visible: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 以marker为例

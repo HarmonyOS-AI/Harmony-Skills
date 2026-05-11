@@ -7,13 +7,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { window } from '@kit.ArkUI';
@@ -65,13 +59,7 @@ createWindow(config: Configuration, callback: AsyncCallback<Window>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -157,13 +145,7 @@ createWindow(config: Configuration): Promise<Window>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -234,13 +216,7 @@ findWindow(name: string): Window
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let windowClass: window.Window | undefined = undefined;
@@ -288,13 +264,7 @@ getLastWindow(ctx: BaseContext, callback: AsyncCallback<Window>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -383,13 +353,7 @@ getLastWindow(ctx: BaseContext): Promise<Window>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -483,13 +447,7 @@ shiftAppWindowFocus(sourceWindowId: number, targetWindowId: number): Promise<voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -605,13 +563,7 @@ shiftAppWindowPointerEvent(sourceWindowId: number, targetWindowId: number): Prom
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // ets/pages/Index.ets
@@ -695,13 +647,7 @@ shiftAppWindowTouchEvent(sourceWindowId: number, targetWindowId: number, fingerI
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // ets/pages/Index.ets
@@ -783,13 +729,7 @@ getWindowsByCoordinate(displayId: number, windowNumber?: number, x?: number, y?:
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { window } from '@kit.ArkUI';
@@ -867,13 +807,7 @@ getAllWindowLayoutInfo(displayId: number): Promise<Array<WindowLayoutInfo>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { window } from '@kit.ArkUI';
@@ -926,13 +860,7 @@ getVisibleWindowInfo(): Promise<Array<WindowInfo>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { window } from '@kit.ArkUI';
@@ -1003,13 +931,7 @@ getGlobalWindowMode(displayId?: number): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { window } from '@kit.ArkUI';
@@ -1068,13 +990,7 @@ setWatermarkImageForAppWindows(pixelMap: image.PixelMap | undefined): Promise<vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from "@kit.ImageKit";
@@ -1152,13 +1068,7 @@ setStartWindowBackgroundColor(moduleName: string, abilityName: string, color: Co
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1212,13 +1122,7 @@ getAllMainWindowInfo(): Promise<Array<MainWindowInfo>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1313,13 +1217,7 @@ getMainWindowSnapshot(windowId: Array<number>, config: WindowSnapshotConfigurati
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1414,13 +1312,7 @@ create(id: string, type: WindowType, callback: AsyncCallback<Window>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1474,13 +1366,7 @@ create(id: string, type: WindowType): Promise<Window>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1522,13 +1408,7 @@ create(ctx: BaseContext, id: string, type: WindowType, callback: AsyncCallback<W
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1580,13 +1460,7 @@ create(ctx: BaseContext, id: string, type: WindowType): Promise<Window>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1626,13 +1500,7 @@ find(id: string, callback: AsyncCallback<Window>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1681,13 +1549,7 @@ find(id: string): Promise<Window>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1728,13 +1590,7 @@ getTopWindow(callback: AsyncCallback<Window>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1777,13 +1633,7 @@ getTopWindow(): Promise<Window>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1823,13 +1673,7 @@ getTopWindow(ctx: BaseContext, callback: AsyncCallback<Window>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -1889,13 +1733,7 @@ getTopWindow(ctx: BaseContext): Promise<Window>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets

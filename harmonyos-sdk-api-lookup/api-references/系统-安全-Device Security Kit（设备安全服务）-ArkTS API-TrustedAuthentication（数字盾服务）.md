@@ -6,13 +6,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { trustedAuthentication } from '@kit.DeviceSecurityKit';
@@ -68,13 +62,7 @@ enableTrustedAuthentication(challenge: Uint8Array, pwdInfo: PasswordInfo, label:
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { trustedAuthentication} from '@kit.DeviceSecurityKit';
@@ -164,13 +152,7 @@ modifyTrustedAuthenticationPwd(challenge: Uint8Array, pwdInfo: PasswordInfo, aut
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { trustedAuthentication} from '@kit.DeviceSecurityKit';
@@ -262,13 +244,7 @@ disableTrustedAuthentication(challenge: Uint8Array, needAuth: boolean, authID: b
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { trustedAuthentication} from '@kit.DeviceSecurityKit';
@@ -351,13 +327,7 @@ trustedAuthentication(challenge: Uint8Array, authID: bigint, label: TUILable): P
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { trustedAuthentication} from '@kit.DeviceSecurityKit';
@@ -441,13 +411,7 @@ procContentAuthentication(challenge: Uint8Array, authID: bigint, authMsg: AuthRe
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { trustedAuthentication} from '@kit.DeviceSecurityKit';
@@ -532,13 +496,7 @@ getBiometricAuthToken(operType: OperateType, tuiAuthToken: Uint8Array, bioAuthTo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { userAuth } from '@kit.UserAuthenticationKit';
@@ -651,13 +609,7 @@ importData(data: ArrayBuffer, authID: bigint): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { trustedAuthentication} from '@kit.DeviceSecurityKit';
@@ -725,13 +677,7 @@ exportData(authID: bigint, label: TUILable): Promise<ArrayBuffer>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { trustedAuthentication} from '@kit.DeviceSecurityKit';
@@ -804,13 +750,7 @@ checkConfirmUITextFormat(text: string): Promise<TextCheckResult>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { trustedAuthentication} from '@kit.DeviceSecurityKit';
@@ -834,13 +774,7 @@ checkConfirmUITextFormat(text: string): Promise<TextCheckResult>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { trustedAuthentication} from '@kit.DeviceSecurityKit';
@@ -911,13 +845,7 @@ getRemainAuthTimes(authID: bigint): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { trustedAuthentication} from '@kit.DeviceSecurityKit';
@@ -982,13 +910,7 @@ disableTrustedBioAuthentication(authID: bigint, authType: AuthType): Promise<voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { trustedAuthentication} from '@kit.DeviceSecurityKit';

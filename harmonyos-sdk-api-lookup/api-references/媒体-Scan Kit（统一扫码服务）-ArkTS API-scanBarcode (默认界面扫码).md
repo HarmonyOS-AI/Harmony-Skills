@@ -8,13 +8,7 @@
 
 PhoneTabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { scanBarcode } from '@kit.ScanKit';
@@ -103,13 +97,7 @@ PhoneTabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { scanBarcode, scanCore } from '@kit.ScanKit';
@@ -184,13 +172,7 @@ startScanForResult(context: common.Context, options?: ScanOptions): Promise<Scan
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { scanBarcode, scanCore } from '@kit.ScanKit';
@@ -257,13 +239,7 @@ startScanForResult(context: common.Context, callback: AsyncCallback<ScanResult>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { scanBarcode } from '@kit.ScanKit';
@@ -332,13 +308,7 @@ startScanForResult(context: common.Context, options: ScanOptions, callback: Asyn
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { scanCore, scanBarcode } from '@kit.ScanKit';
@@ -412,13 +382,7 @@ startScan(options?: ScanOptions): Promise<ScanResult>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { scanCore, scanBarcode } from '@kit.ScanKit';
@@ -477,13 +441,7 @@ startScan(callback: AsyncCallback<ScanResult>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { scanBarcode } from '@kit.ScanKit';
@@ -543,13 +501,7 @@ startScan(options: ScanOptions, callback: AsyncCallback<ScanResult>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { scanCore, scanBarcode } from '@kit.ScanKit';

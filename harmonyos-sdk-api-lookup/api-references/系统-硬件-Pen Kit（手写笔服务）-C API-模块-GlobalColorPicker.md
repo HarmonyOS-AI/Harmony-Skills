@@ -72,13 +72,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef void(* HMS_GCP_OnResult) (void *userData, HMS_GCP_PickedColorInfo colorInfo, const int32_t code)
@@ -108,13 +102,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum HMS_GCP_ColorSpace
@@ -165,13 +153,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t HMS_GCP_StartColorPicker (int32_t initialPosX, int32_t initialPosY, HMS_GCP_OnResult onResultCallback, void *userData)
@@ -198,13 +180,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t HMS_GCP_StartColorPickerWithColorValue (int32_t initialPosX, int32_t initialPosY, HMS_GCP_OnResult onResultCallback, void *userData)

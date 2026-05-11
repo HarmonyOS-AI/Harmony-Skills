@@ -90,13 +90,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例展示了状态为pressed和disabled时Text组件的样式变化。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -204,13 +198,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例展示了状态为selected时Radio组件的样式变化。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -278,13 +266,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例展示了状态为pressed时Builder组件的样式变化。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ComponentContent } from '@kit.ArkUI';

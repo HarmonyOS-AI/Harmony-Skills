@@ -11,13 +11,7 @@ SelectionExtensionContext是[SelectionExtensionAbility](https://developer.huawei
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SelectionExtensionContext } from '@kit.BasicServicesKit';
@@ -90,13 +84,7 @@ startAbility(want: Want): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SelectionExtensionAbility, BusinessError } from '@kit.BasicServicesKit';

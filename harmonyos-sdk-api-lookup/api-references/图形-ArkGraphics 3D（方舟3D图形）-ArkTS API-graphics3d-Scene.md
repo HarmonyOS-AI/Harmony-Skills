@@ -9,13 +9,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SceneResourceParameters, SceneNodeParameters, RaycastResult, RaycastParameters,RenderResourceFactory,
@@ -39,13 +33,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Shader, SceneResourceParameters, SceneResourceFactory, Scene } from '@kit.ArkGraphics3D';
@@ -87,13 +75,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SceneNodeParameters, SceneResourceFactory, Scene, Node } from '@kit.ArkGraphics3D';
@@ -182,13 +164,7 @@ createShader(params: SceneResourceParameters): Promise<Shader>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Shader, SceneResourceParameters, Scene, RenderContext, RenderResourceFactory } from '@kit.ArkGraphics3D';
@@ -236,13 +212,7 @@ createImage(params: SceneResourceParameters): Promise<Image>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Image, SceneResourceParameters, Scene, RenderContext, RenderResourceFactory } from '@kit.ArkGraphics3D';
@@ -291,13 +261,7 @@ createMesh(params: SceneResourceParameters, geometry: GeometryDefinition): Promi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SceneResourceParameters, Scene, CustomGeometry, PrimitiveTopology, RenderContext, RenderResourceFactory,
@@ -396,13 +360,7 @@ createSampler(params:SceneResourceParameters): Promise<Sampler>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SceneResourceParameters, Scene, RenderContext, RenderResourceFactory, Sampler } from '@kit.ArkGraphics3D';
@@ -450,13 +408,7 @@ createScene(uri?: ResourceStr): Promise<Scene>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Scene, RenderContext, RenderResourceFactory } from '@kit.ArkGraphics3D';
@@ -542,13 +494,7 @@ createCamera(params: SceneNodeParameters): Promise<Camera>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SceneNodeParameters, Camera, SceneResourceFactory, Scene } from '@kit.ArkGraphics3D';
@@ -600,13 +546,7 @@ createCamera(params: SceneNodeParameters, cameraParams: CameraParameters): Promi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SceneNodeParameters, Camera, SceneResourceFactory, Scene, CameraParameters,
@@ -660,13 +600,7 @@ createLight(params: SceneNodeParameters, lightType: LightType): Promise<Light>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SceneNodeParameters, LightType, Light, SceneResourceFactory, Scene } from '@kit.ArkGraphics3D';
@@ -717,13 +651,7 @@ createNode(params: SceneNodeParameters): Promise<Node>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SceneNodeParameters, SceneResourceFactory, Scene, Node } from '@kit.ArkGraphics3D';
@@ -776,13 +704,7 @@ createMaterial(params: SceneResourceParameters, materialType: MaterialType): Pro
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { MaterialType, Material, SceneResourceParameters, SceneResourceFactory, Scene } from '@kit.ArkGraphics3D';
@@ -833,13 +755,7 @@ createEnvironment(params: SceneResourceParameters): Promise<Environment>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Environment, SceneResourceParameters, SceneResourceFactory, Scene } from '@kit.ArkGraphics3D';
@@ -892,13 +808,7 @@ createGeometry(params: SceneNodeParameters, mesh:MeshResource): Promise<Geometry
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SceneResourceFactory, Scene, Geometry, CubeGeometry } from '@kit.ArkGraphics3D';
@@ -956,13 +866,7 @@ createEffect(params: EffectParameters): Promise<Effect>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SceneResourceFactory, Scene, Effect, EffectParameters } from '@kit.ArkGraphics3D';
@@ -1028,13 +932,7 @@ getRenderResourceFactory() : RenderResourceFactory
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Scene, RenderContext, RenderResourceFactory } from '@kit.ArkGraphics3D';
@@ -1078,13 +976,7 @@ loadPlugin(name: string): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Scene, RenderContext } from '@kit.ArkGraphics3D';
@@ -1128,13 +1020,7 @@ registerResourcePath(protocol: string, uri: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Scene, RenderContext } from '@kit.ArkGraphics3D';
@@ -1243,13 +1129,7 @@ static load(uri?: ResourceStr): Promise<Scene>
 
 示例1：通过rawfile加载（相对路径）
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Scene } from '@kit.ArkGraphics3D';
@@ -1265,13 +1145,7 @@ static load(uri?: ResourceStr): Promise<Scene>
 
 示例2：通过绝对路径加载（从应用沙盒目录/data/storage/el2/base/files加载模型）
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -1332,13 +1206,7 @@ getNodeByPath(path: string, type?: NodeType): Node | null
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Scene, Node } from '@kit.ArkGraphics3D';
@@ -1375,13 +1243,7 @@ getResourceFactory(): SceneResourceFactory
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SceneResourceFactory, Scene } from '@kit.ArkGraphics3D';
@@ -1410,13 +1272,7 @@ destroy(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Scene } from '@kit.ArkGraphics3D';
@@ -1463,13 +1319,7 @@ importNode(name: string, node: Node, parent: Node | null): Node
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Scene } from '@kit.ArkGraphics3D';
@@ -1523,13 +1373,7 @@ importScene(name: string, scene: Scene, parent: Node | null): Node
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Scene } from '@kit.ArkGraphics3D';
@@ -1575,13 +1419,7 @@ renderFrame(params?: RenderParameters): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Scene } from '@kit.ArkGraphics3D';
@@ -1628,13 +1466,7 @@ createComponent(node: Node, name: string): Promise<SceneComponent>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Scene, SceneComponent } from '@kit.ArkGraphics3D';
@@ -1687,13 +1519,7 @@ getComponent(node: Node, name: string): SceneComponent | null
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Scene } from '@kit.ArkGraphics3D';
@@ -1737,13 +1563,7 @@ static getDefaultRenderContext(): RenderContext | null
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Scene, RenderContext } from '@kit.ArkGraphics3D';
@@ -1789,13 +1609,7 @@ cloneNode(node: Node, parent: Node, name: string): Node | null
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Scene, Node } from '@kit.ArkGraphics3D';

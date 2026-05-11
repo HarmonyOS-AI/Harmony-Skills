@@ -11,13 +11,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { audio } from '@kit.AudioKit';
@@ -47,13 +41,7 @@ getCurrentAudioRendererInfoArray(callback: AsyncCallback<AudioRendererChangeInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -91,13 +79,7 @@ getCurrentAudioRendererInfoArray(): Promise<AudioRendererChangeInfoArray>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -133,13 +115,7 @@ getCurrentAudioRendererInfoArraySync(): AudioRendererChangeInfoArray
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -177,13 +153,7 @@ getCurrentAudioCapturerInfoArray(callback: AsyncCallback<AudioCapturerChangeInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -221,13 +191,7 @@ getCurrentAudioCapturerInfoArray(): Promise<AudioCapturerChangeInfoArray>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -263,13 +227,7 @@ getCurrentAudioCapturerInfoArraySync(): AudioCapturerChangeInfoArray
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -319,13 +277,7 @@ on(type: 'audioRendererChange', callback: Callback<AudioRendererChangeInfoArray>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioStreamManager.on('audioRendererChange',  (audioRendererChangeInfoArray: audio.AudioRendererChangeInfoArray) => {
@@ -368,13 +320,7 @@ off(type: 'audioRendererChange', callback?: Callback<AudioRendererChangeInfoArra
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 同一监听事件中，on方法和off方法传入callback参数一致，off方法取消对应on方法订阅的监听。
@@ -424,13 +370,7 @@ on(type: 'audioCapturerChange', callback: Callback<AudioCapturerChangeInfoArray>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioStreamManager.on('audioCapturerChange', (audioCapturerChangeInfoArray: audio.AudioCapturerChangeInfoArray) =>  {
@@ -473,13 +413,7 @@ off(type: 'audioCapturerChange', callback?: Callback<AudioCapturerChangeInfoArra
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 同一监听事件中，on方法和off方法传入callback参数一致，off方法取消对应on方法订阅的监听。
@@ -518,13 +452,7 @@ isActive(volumeType: AudioVolumeType, callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -570,13 +498,7 @@ isActive(volumeType: AudioVolumeType): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioStreamManager.isActive(audio.AudioVolumeType.MEDIA).then((value: boolean) => {
@@ -627,13 +549,7 @@ isActiveSync(volumeType: AudioVolumeType): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -685,13 +601,7 @@ isStreamActive(streamUsage: StreamUsage): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -737,13 +647,7 @@ getAudioEffectInfoArray(usage: StreamUsage, callback: AsyncCallback<AudioEffectI
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -796,13 +700,7 @@ getAudioEffectInfoArray(usage: StreamUsage): Promise<AudioEffectInfoArray>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -853,13 +751,7 @@ getAudioEffectInfoArraySync(usage: StreamUsage): AudioEffectInfoArray
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -911,13 +803,7 @@ isAcousticEchoCancelerSupported(sourceType: SourceType): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -969,13 +855,7 @@ isAudioLoopbackSupported(mode: AudioLoopbackMode): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1027,13 +907,7 @@ isRecordingAvailable(capturerInfo: AudioCapturerInfo): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1109,13 +983,7 @@ isIntelligentNoiseReductionEnabledForCurrentDevice(sourceType: SourceType): bool
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

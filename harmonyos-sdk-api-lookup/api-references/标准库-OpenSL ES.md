@@ -10,13 +10,7 @@ OpenSL ES（Open Sound Library for Embedded System）即嵌入式音频加速标
 
 如果开发者需要使用OpenSL ES相关功能，首先请添加头文件：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <SLES/OpenSLES.h>
@@ -26,13 +20,7 @@ OpenSL ES（Open Sound Library for Embedded System）即嵌入式音频加速标
 
 其次在CMakeLists.txt中添加以下链接动态库：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. libOpenSLES.so

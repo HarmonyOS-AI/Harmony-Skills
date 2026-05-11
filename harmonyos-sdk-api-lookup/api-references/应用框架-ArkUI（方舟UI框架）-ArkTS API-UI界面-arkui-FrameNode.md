@@ -12,13 +12,7 @@ FrameNode表示组件树的实体节点。[NodeController](https://developer.hua
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode, LayoutConstraint, ExpandMode, typeNode, NodeAdapter } from "@kit.ArkUI";
@@ -182,13 +176,7 @@ getRenderNode(): RenderNode | null
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode } from '@kit.ArkUI';
@@ -676,13 +664,7 @@ getPositionToWindow(): Position
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, UIContext } from '@kit.ArkUI';
@@ -770,13 +752,7 @@ getPositionToParent(): Position
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, UIContext } from '@kit.ArkUI';
@@ -865,13 +841,7 @@ getPositionToScreen(): Position
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, UIContext } from '@kit.ArkUI';
@@ -984,13 +954,7 @@ getPositionToParentWithTransform(): Position
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, UIContext } from '@kit.ArkUI';
@@ -1079,13 +1043,7 @@ getPositionToWindowWithTransform(): Position
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, UIContext } from '@kit.ArkUI';
@@ -1173,13 +1131,7 @@ getPositionToScreenWithTransform(): Position
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, UIContext } from '@kit.ArkUI';
@@ -1612,13 +1564,7 @@ getInspectorInfo接口用于获取所有节点的信息，作为调试接口使�
 
 以查询[Button](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-basic-components-button)组件节点为例获取到的Object结果部分值如下。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. {
@@ -1699,13 +1645,7 @@ dispose(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, BuilderNode } from '@kit.ArkUI';
@@ -2105,13 +2045,7 @@ addComponentContent<T>(content: ComponentContent<T> | ReactiveComponentContent<T
 | --- | --- |
 | 100021 | The FrameNode is not modifiable. |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, ComponentContent, typeNode } from '@kit.ArkUI';
@@ -2178,13 +2112,7 @@ disposeTree(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode, NodeController, BuilderNode } from '@kit.ArkUI';
@@ -2660,13 +2588,7 @@ invalidateAttributes(): void
 
 从API version 21开始，通过if else动态切换两个节点，并且在节点创建时调用invalidateAttributes即时触发节点属性更新，避免组件切换过程中出现闪烁。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // index.ets
@@ -2882,13 +2804,7 @@ convertPosition(position: Position, targetNode: FrameNode): Position
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -2981,13 +2897,7 @@ isInRenderState(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -3086,13 +2996,7 @@ isOnMainTree(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, UIContext, typeNode } from '@kit.ArkUI';
@@ -3785,13 +3689,7 @@ createNode(context: UIContext, nodeType: 'Text'): Text
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode, NodeController, typeNode } from '@kit.ArkUI';
@@ -3858,13 +3756,7 @@ getAttribute(node: FrameNode, nodeType: 'Text'): TextAttribute | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode, NodeController, typeNode } from '@kit.ArkUI';
@@ -3940,13 +3832,7 @@ bindController(node: FrameNode, controller: TextController, nodeType: 'Text'): v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode, NodeController, typeNode } from '@kit.ArkUI';
@@ -4042,13 +3928,7 @@ createNode(context: UIContext, nodeType: 'Column'): Column
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, typeNode } from '@kit.ArkUI';
@@ -4114,13 +3994,7 @@ getAttribute(node: FrameNode, nodeType: 'Column'): ColumnAttribute | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode, NodeController, typeNode } from '@kit.ArkUI';
@@ -4209,13 +4083,7 @@ createNode(context: UIContext, nodeType: 'Row'): Row
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, typeNode } from '@kit.ArkUI';
@@ -4281,13 +4149,7 @@ getAttribute(node: FrameNode, nodeType: 'Row'): RowAttribute | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode, NodeController, typeNode } from '@kit.ArkUI';
@@ -4376,13 +4238,7 @@ createNode(context: UIContext, nodeType: 'Stack'): Stack
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, typeNode } from '@kit.ArkUI';
@@ -4452,13 +4308,7 @@ getAttribute(node: FrameNode, nodeType: 'Stack'): StackAttribute | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode, NodeController, typeNode } from '@kit.ArkUI';
@@ -4547,13 +4397,7 @@ createNode(context: UIContext, nodeType: 'GridRow'): GridRow
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, typeNode } from '@kit.ArkUI';
@@ -4644,13 +4488,7 @@ createNode(context: UIContext, nodeType: 'GridCol'): GridCol
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, typeNode } from '@kit.ArkUI';
@@ -4741,13 +4579,7 @@ createNode(context: UIContext, nodeType: 'Flex'): Flex
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, typeNode } from '@kit.ArkUI';
@@ -4813,13 +4645,7 @@ getAttribute(node: FrameNode, nodeType: 'Flex'): FlexAttribute | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode, NodeController, typeNode } from '@kit.ArkUI';
@@ -4908,13 +4734,7 @@ createNode(context: UIContext, nodeType: 'Swiper'): Swiper
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode, NodeController, typeNode } from '@kit.ArkUI';
@@ -5087,13 +4907,7 @@ createNode(context: UIContext, nodeType: 'Progress'): Progress
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode, NodeController, typeNode } from '@kit.ArkUI';
@@ -5162,13 +4976,7 @@ getAttribute(node: FrameNode, nodeType: 'Progress'): ProgressAttribute | undefin
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode, NodeController, typeNode } from '@kit.ArkUI';
@@ -5256,13 +5064,7 @@ createNode(context: UIContext, nodeType: 'Scroll'): Scroll
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, typeNode } from '@kit.ArkUI';
@@ -5415,13 +5217,7 @@ bindController(node: FrameNode, controller: Scroller, nodeType: 'Scroll'): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typeNode.bindController(node, scroller, 'Scroll');
@@ -5476,13 +5272,7 @@ createNode(context: UIContext, nodeType: 'RelativeContainer'): RelativeContainer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, typeNode } from '@kit.ArkUI';
@@ -5548,13 +5338,7 @@ getAttribute(node: FrameNode, nodeType: 'RelativeContainer'): RelativeContainerA
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode, NodeController, typeNode } from '@kit.ArkUI';
@@ -5643,13 +5427,7 @@ createNode(context: UIContext, nodeType: 'Divider'): Divider
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, typeNode } from '@kit.ArkUI';
@@ -5739,13 +5517,7 @@ createNode(context: UIContext, nodeType: 'LoadingProgress'): LoadingProgress
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode, NodeController, typeNode } from '@kit.ArkUI';
@@ -5812,13 +5584,7 @@ getAttribute(node: FrameNode, nodeType: 'LoadingProgress'): LoadingProgressAttri
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode, NodeController, typeNode } from '@kit.ArkUI';
@@ -5904,13 +5670,7 @@ createNode(context: UIContext, nodeType: 'Search'): Search
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode, NodeController, typeNode } from '@kit.ArkUI';
@@ -5996,13 +5756,7 @@ createNode(context: UIContext, nodeType: 'Blank'): Blank
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, typeNode } from '@kit.ArkUI';
@@ -6093,13 +5847,7 @@ createNode(context: UIContext, nodeType: 'Image'): Image
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode, NodeController, typeNode } from '@kit.ArkUI';
@@ -6176,13 +5924,7 @@ getAttribute(node: FrameNode, nodeType: 'Image'): ImageAttribute | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode, NodeController, typeNode } from '@kit.ArkUI';
@@ -6277,13 +6019,7 @@ createNode(context: UIContext, nodeType: 'List'): List
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, typeNode } from '@kit.ArkUI';
@@ -6443,13 +6179,7 @@ bindController(node: FrameNode, controller: Scroller, nodeType: 'List'): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typeNode.bindController(node, scroller, 'List');
@@ -6588,13 +6318,7 @@ createNode(context: UIContext, nodeType: 'TextInput'): TextInput
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode, NodeController, typeNode } from '@kit.ArkUI';
@@ -6660,13 +6384,7 @@ getAttribute(node: FrameNode, nodeType: 'TextInput'): TextInputAttribute | undef
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode, NodeController, typeNode } from '@kit.ArkUI';
@@ -6738,13 +6456,7 @@ bindController(node: FrameNode, controller: TextInputController, nodeType: 'Text
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode, NodeController, typeNode } from '@kit.ArkUI';
@@ -6833,13 +6545,7 @@ createNode(context: UIContext, nodeType: 'Button'): Button
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, typeNode } from '@kit.ArkUI';
@@ -6912,13 +6618,7 @@ getAttribute(node: FrameNode, nodeType: 'Button'): ButtonAttribute | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, typeNode } from '@kit.ArkUI';
@@ -7043,13 +6743,7 @@ getAttribute(node: FrameNode, nodeType: 'ListItemGroup'): ListItemGroupAttribute
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typeNode.getAttribute(node, 'ListItemGroup');
@@ -7104,13 +6798,7 @@ createNode(context: UIContext, nodeType: 'WaterFlow'): WaterFlow
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, typeNode } from '@kit.ArkUI';
@@ -7274,13 +6962,7 @@ bindController(node: FrameNode, controller: Scroller, nodeType: 'WaterFlow'): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typeNode.bindController(node, scroller, 'WaterFlow');
@@ -7419,13 +7101,7 @@ createNode(context: UIContext, nodeType: 'XComponent'): XComponent
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, typeNode } from '@kit.ArkUI';
@@ -7493,13 +7169,7 @@ createNode(context: UIContext, nodeType: 'XComponent', options: XComponentOption
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, typeNode } from '@kit.ArkUI';
@@ -7573,13 +7243,7 @@ createNode(context: UIContext, nodeType: 'XComponent', parameters: NativeXCompon
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, typeNode } from '@kit.ArkUI';
@@ -7650,13 +7314,7 @@ getAttribute(node: FrameNode, nodeType: 'XComponent'): XComponentAttribute | und
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typeNode.getAttribute(node, 'XComponent');
@@ -7711,13 +7369,7 @@ createNode(context: UIContext, nodeType: 'QRCode'): QRCode
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typeNode.createNode(uiContext, 'QRCode');
@@ -7772,13 +7424,7 @@ createNode(context: UIContext, nodeType: 'Badge'): Badge
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typeNode.createNode(uiContext, 'Badge');
@@ -7833,13 +7479,7 @@ createNode(context: UIContext, nodeType: 'Grid'): Grid
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, typeNode } from '@kit.ArkUI';
@@ -7998,13 +7638,7 @@ bindController(node: FrameNode, controller: Scroller, nodeType: 'Grid'): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typeNode.bindController(node, scroller, 'Grid');
@@ -8143,13 +7777,7 @@ createNode(context: UIContext, nodeType: 'TextClock'): TextClock
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typeNode.createNode(uiContext, 'TextClock');
@@ -8204,13 +7832,7 @@ createNode(context: UIContext, nodeType: 'TextTimer'): TextTimer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typeNode.createNode(uiContext, 'TextTimer');
@@ -8265,13 +7887,7 @@ createNode(context: UIContext, nodeType: 'Marquee'): Marquee
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode, NodeController, typeNode } from '@kit.ArkUI';
@@ -8356,13 +7972,7 @@ createNode(context: UIContext, nodeType: 'TextArea'): TextArea
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode, NodeController, typeNode } from '@kit.ArkUI';
@@ -8428,13 +8038,7 @@ getAttribute(node: FrameNode, nodeType: 'TextArea'): TextAreaAttribute | undefin
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode, NodeController, typeNode } from '@kit.ArkUI';
@@ -8506,13 +8110,7 @@ bindController(node: FrameNode, controller: TextAreaController, nodeType: 'TextA
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode, NodeController, typeNode } from '@kit.ArkUI';
@@ -8601,13 +8199,7 @@ createNode(context: UIContext, nodeType: 'SymbolGlyph'): SymbolGlyph
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode, NodeController, typeNode } from '@kit.ArkUI';
@@ -8691,13 +8283,7 @@ createNode(context: UIContext, nodeType: 'Checkbox'): Checkbox
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, typeNode } from '@kit.ArkUI';
@@ -8772,13 +8358,7 @@ getAttribute(node: FrameNode, nodeType: 'Checkbox'): CheckboxAttribute | undefin
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, typeNode } from '@kit.ArkUI';
@@ -8872,13 +8452,7 @@ createNode(context: UIContext, nodeType: 'CheckboxGroup'): CheckboxGroup
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, typeNode } from '@kit.ArkUI';
@@ -8973,13 +8547,7 @@ createNode(context: UIContext, nodeType: 'Rating'): Rating
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, typeNode } from '@kit.ArkUI';
@@ -9067,13 +8635,7 @@ createNode(context: UIContext, nodeType: 'Radio'): Radio
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, typeNode } from '@kit.ArkUI';
@@ -9147,13 +8709,7 @@ getAttribute(node: FrameNode, nodeType: 'Radio'): RadioAttribute | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, typeNode } from '@kit.ArkUI';
@@ -9246,13 +8802,7 @@ createNode(context: UIContext, nodeType: 'Slider'): Slider
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, typeNode } from '@kit.ArkUI';
@@ -9321,13 +8871,7 @@ getAttribute(node: FrameNode, nodeType: 'Slider'): SliderAttribute | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, typeNode } from '@kit.ArkUI';
@@ -9415,13 +8959,7 @@ createNode(context: UIContext, nodeType: 'Select'): Select
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, typeNode } from '@kit.ArkUI';
@@ -9508,13 +9046,7 @@ createNode(context: UIContext, nodeType: 'Toggle', options?: ToggleOptions): Tog
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, typeNode } from '@kit.ArkUI';
@@ -9584,13 +9116,7 @@ getAttribute(node: FrameNode, nodeType: 'Toggle'): ToggleAttribute | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, typeNode } from '@kit.ArkUI';
@@ -10032,13 +9558,7 @@ PhonePC/2in1TabletTVWearable
 
 以Text节点为例，创建Text类型节点。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, typeNode } from '@kit.ArkUI';
@@ -10082,13 +9602,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, UIContext, typeNode } from '@kit.ArkUI';
@@ -10620,13 +10134,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, UIContext, BuilderNode, ExpandMode, LengthUnit } from '@kit.ArkUI';
@@ -10892,13 +10400,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode } from '@kit.ArkUI';
@@ -11032,13 +10534,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // index.ets
@@ -11192,13 +10688,7 @@ PhonePC/2in1TabletTVWearable
 149. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // ./track.ets
@@ -11372,13 +10862,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode } from '@kit.ArkUI';
@@ -11452,13 +10936,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIContext, DrawContext, FrameNode, NodeController, LayoutConstraint, Size, Position } from '@kit.ArkUI';
@@ -11589,13 +11067,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode, NodeController, NodeAdapter, typeNode } from '@kit.ArkUI';
@@ -11797,13 +11269,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, BuilderNode, FrameNode, UIContext } from '@kit.ArkUI';
@@ -11907,13 +11373,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, typeNode, UIState } from '@kit.ArkUI';
@@ -12035,13 +11495,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例说明在FrameNode上[createAnimation](/consumer/cn/doc/harmonyos-references/js-apis-arkui-framenode#createanimation20)、[cancelAnimations](/consumer/cn/doc/harmonyos-references/js-apis-arkui-framenode#cancelanimations20)、[getNodePropertyValue](/consumer/cn/doc/harmonyos-references/js-apis-arkui-framenode#getnodepropertyvalue20)接口的用法。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode, NodeController, UIContext } from '@kit.ArkUI';
@@ -12146,13 +11600,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, typeNode } from '@kit.ArkUI';
@@ -12250,13 +11698,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例演示了FrameNode释放节点前后分别使用[isDisposed](/consumer/cn/doc/harmonyos-references/js-apis-arkui-framenode#isdisposed20)接口验证节点的状态，释放节点前节点调用isDisposed接口返回true，释放节点后节点调用isDisposed接口返回false。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, BuilderNode } from '@kit.ArkUI';
@@ -12375,13 +11817,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例演示了[NodeAdapter](/consumer/cn/doc/harmonyos-references/js-apis-arkui-framenode#nodeadapter12)释放节点前后分别使用[isDisposed](/consumer/cn/doc/harmonyos-references/js-apis-arkui-framenode#isdisposed20)接口验证节点的状态，释放节点前节点调用isDisposed接口返回true，释放节点后节点调用isDisposed接口返回false。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode, NodeController, NodeAdapter, typeNode } from '@kit.ArkUI';
@@ -12504,13 +11940,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例演示了如何通过FrameNode的[getParent](/consumer/cn/doc/harmonyos-references/js-apis-arkui-framenode#getparent12)接口获取当前页面根节点。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Component
@@ -12566,13 +11996,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 22开始，该示例演示了如何通过FrameNode的[adoptChild](/consumer/cn/doc/harmonyos-references/js-apis-arkui-framenode#adoptchild22)和[removeAdoptedChild](/consumer/cn/doc/harmonyos-references/js-apis-arkui-framenode#removeadoptedchild22)接口进行接纳为附属节点的相关操作。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, UIContext } from '@kit.ArkUI';
@@ -12659,13 +12083,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 23开始，新增convertPositionToWindow和convertPositionFromWindow接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Position } from '@kit.ArkUI';

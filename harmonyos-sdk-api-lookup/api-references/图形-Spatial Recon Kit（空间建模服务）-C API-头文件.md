@@ -1,1 +1,0 @@
-* **[spatial\_recon\_interface.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-spatial-recon-interface-h)**

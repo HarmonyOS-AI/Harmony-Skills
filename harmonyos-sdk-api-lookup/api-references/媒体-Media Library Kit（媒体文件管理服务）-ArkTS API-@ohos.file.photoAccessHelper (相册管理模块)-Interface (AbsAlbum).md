@@ -6,13 +6,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { photoAccessHelper } from '@kit.MediaLibraryKit';
@@ -77,13 +71,7 @@ getAssets(options: FetchOptions, callback: AsyncCallback<FetchResult<PhotoAsset>
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -160,13 +148,7 @@ getAssets(options: FetchOptions): Promise<FetchResult<PhotoAsset>>
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';

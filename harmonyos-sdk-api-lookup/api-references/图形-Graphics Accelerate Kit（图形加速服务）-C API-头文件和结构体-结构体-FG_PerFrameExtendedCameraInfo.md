@@ -36,13 +36,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FG_Mat4x4 FG_PerFrameExtendedCameraInfo::proj
@@ -56,13 +50,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FG_Mat4x4 FG_PerFrameExtendedCameraInfo::translatedInvViewProj
@@ -76,13 +64,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FG_Mat4x4 FG_PerFrameExtendedCameraInfo::translatedView
@@ -96,13 +78,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FG_Mat4x4 FG_PerFrameExtendedCameraInfo::translatedViewProj
@@ -116,13 +92,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FG_Vec3D FG_PerFrameExtendedCameraInfo::worldPosition

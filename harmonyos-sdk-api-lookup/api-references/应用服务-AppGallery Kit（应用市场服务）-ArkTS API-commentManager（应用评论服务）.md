@@ -10,13 +10,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { commentManager } from '@kit.AppGalleryKit';
@@ -72,13 +66,7 @@ showCommentDialog(context: common.UIExtensionContext | common.UIAbilityContext):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { commentManager } from '@kit.AppGalleryKit';

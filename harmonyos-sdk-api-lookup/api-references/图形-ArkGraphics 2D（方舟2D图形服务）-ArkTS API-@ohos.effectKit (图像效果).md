@@ -14,13 +14,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { effectKit } from "@kit.ArkGraphics2D";
@@ -58,13 +52,7 @@ createEffect(source: image.PixelMap): Filter
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from "@kit.ImageKit";
@@ -126,13 +114,7 @@ createColorPicker(source: image.PixelMap): Promise<ColorPicker>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from "@kit.ImageKit";
@@ -201,13 +183,7 @@ createColorPicker(source: image.PixelMap, region: Array<number>): Promise<ColorP
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from "@kit.ImageKit";
@@ -268,13 +244,7 @@ createColorPicker(source: image.PixelMap, callback: AsyncCallback<ColorPicker>):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from "@kit.ImageKit";
@@ -336,13 +306,7 @@ createColorPicker(source: image.PixelMap, region:Array<number>, callback: AsyncC
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from "@kit.ImageKit";
@@ -436,13 +400,7 @@ getMainColor(): Promise<Color>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from "@kit.ImageKit";
@@ -498,13 +456,7 @@ getMainColorSync(): Color
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from "@kit.ImageKit";
@@ -558,13 +510,7 @@ getLargestProportionColor(): Color
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from "@kit.ImageKit";
@@ -626,13 +572,7 @@ getTopProportionColors(colorCount: number): Array<Color | null>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from "@kit.ImageKit";
@@ -690,13 +630,7 @@ getHighestSaturationColor(): Color
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from "@kit.ImageKit";
@@ -750,13 +684,7 @@ getAverageColor(): Color
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from "@kit.ImageKit";
@@ -818,13 +746,7 @@ isBlackOrWhiteOrGrayColor(color: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from "@kit.ImageKit";
@@ -894,13 +816,7 @@ blur(radius: number): Filter
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from '@kit.ImageKit';
@@ -998,13 +914,7 @@ blur(radius: number, tileMode: TileMode): Filter
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from '@kit.ImageKit';
@@ -1089,13 +999,7 @@ invert(): Filter
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from '@kit.ImageKit';
@@ -1197,13 +1101,7 @@ setColorMatrix(colorMatrix: Array<number>): Filter
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from '@kit.ImageKit';
@@ -1305,13 +1203,7 @@ brightness(bright: number): Filter
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from '@kit.ImageKit';
@@ -1400,13 +1292,7 @@ grayscale(): Filter
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from '@kit.ImageKit';
@@ -1494,13 +1380,7 @@ getEffectPixelMap(): Promise<image.PixelMap>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from "@kit.ImageKit";
@@ -1554,13 +1434,7 @@ getEffectPixelMap(useCpuRender : boolean): Promise<image.PixelMap>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from "@kit.ImageKit";
@@ -1606,13 +1480,7 @@ getPixelMap(): image.PixelMap
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from "@kit.ImageKit";

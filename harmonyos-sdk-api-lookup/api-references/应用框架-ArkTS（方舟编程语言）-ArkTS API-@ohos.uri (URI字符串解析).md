@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uri } from '@kit.ArkTS';
@@ -74,13 +68,7 @@ PhonePC/2in1TabletTVWearable
 
 **URI示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const uriObj1 = new uri.URI("ftp://ftp.aaa.bbb.ccc/dddd/eee.txt");
@@ -181,26 +169,14 @@ constructor(uri: string)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let mm = 'https://username:password@host:8080/directory/file?foo=1&bar=2#fragment';
 2. new uri.URI(mm);
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. new uri.URI('https://username:password@host:8080');
@@ -228,13 +204,7 @@ toString(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const result = new uri.URI('https://username:password@host:8080/directory/file?ab=pppppp#qwer da');
@@ -281,13 +251,7 @@ equalsTo(other: URI): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const uriInstance = new uri.URI('https://username:password@host:8080/directory/file?query=pppppp#qwer=da');
@@ -317,13 +281,7 @@ checkIsAbsolute(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const uriInstance = new uri.URI('https://username:password@www.qwer.com:8080?query=pppppp');
@@ -364,13 +322,7 @@ normalize(): URI
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const uriInstance = new uri.URI('https://username:password@www.qwer.com:8080/path/path1/../path2/./path3?query=pppppp');
@@ -407,13 +359,7 @@ checkRelative(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const uriInstance = new uri.URI("https://username:password@www.qwer.com:8080?query=p");
@@ -444,13 +390,7 @@ checkOpaque(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const uriInstance = new uri.URI("http://www.test.com/images/pic.jpg");
@@ -481,13 +421,7 @@ checkHierarchical(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const uriInstance = new uri.URI("http://www.test.com/images/pic.jpg");
@@ -538,13 +472,7 @@ getQueryValue(key: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const uriInstance = new uri.URI("https://www.com?param1=value1&param2=value2");
@@ -595,13 +523,7 @@ addQueryValue(key: string, value: string): URI
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const uriInstance = new uri.URI("https://www.test.com");
@@ -649,13 +571,7 @@ addSegment(pathSegment: string): URI
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const uriInstance = new uri.URI("http://www.test.com");
@@ -703,13 +619,7 @@ addEncodedSegment(pathSegment: string): URI
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const uriInstance = new uri.URI("http://www.test.com");
@@ -739,13 +649,7 @@ getQueryNames(): string[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const uriInstance = new uri.URI("https://www.test.com?param1=value1&param2=value2");
@@ -795,13 +699,7 @@ getQueryValues(key: string): string[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const uriInstance = new uri.URI("https://www.test.com/search?query=name&query=my");
@@ -850,13 +748,7 @@ getBooleanQueryValue(key: string, defaultValue: boolean): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const uriInstance = new uri.URI("https://www.test.com/search?active=true");
@@ -893,13 +785,7 @@ clearQuery(): URI
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const uriInstance = new uri.URI("https://www.test.com?param1=value1");
@@ -928,13 +814,7 @@ getLastSegment(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const uriInstance = new uri.URI("content://com.test.provider/files/image.jpg");
@@ -963,13 +843,7 @@ getSegment(): string[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const uriInstance = new uri.URI("http://www.test.com/path/to/image.jpg");
@@ -1018,13 +892,7 @@ createFromParts(scheme: string, ssp: string, fragment: string): URI
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const uriInstance = uri.URI.createFromParts("mailto", "no body", "top");
@@ -1063,13 +931,7 @@ equals(other: URI): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const uriInstance = new uri.URI('https://username:password@host:8080/directory/file?query=pppppp#qwer=da');

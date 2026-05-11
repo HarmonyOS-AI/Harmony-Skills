@@ -44,13 +44,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. double FAST_BiquadCoefficientsD::a1
@@ -64,13 +58,7 @@ z⁻¹ 分母系数。
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. double FAST_BiquadCoefficientsD::a2
@@ -84,13 +72,7 @@ z⁻² 分母系数。
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. double FAST_BiquadCoefficientsD::b0
@@ -104,13 +86,7 @@ z⁰ 分子系数。
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. double FAST_BiquadCoefficientsD::b1
@@ -124,13 +100,7 @@ z⁻¹ 分子系数。
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. double FAST_BiquadCoefficientsD::b2

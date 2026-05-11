@@ -32,13 +32,7 @@ PhonePC/2in1TabletTVWearable
 
 推荐通过使用[UIContext](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-uicontext)中的[getContextMenuController](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-uicontext#getcontextmenucontroller12)来明确UI的执行上下文。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

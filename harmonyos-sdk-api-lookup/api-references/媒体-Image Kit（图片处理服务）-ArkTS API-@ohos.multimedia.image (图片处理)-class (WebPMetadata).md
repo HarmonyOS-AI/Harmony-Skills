@@ -10,13 +10,7 @@ WebP图像元数据类，用于存储图像的元数据。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from '@kit.ImageKit';

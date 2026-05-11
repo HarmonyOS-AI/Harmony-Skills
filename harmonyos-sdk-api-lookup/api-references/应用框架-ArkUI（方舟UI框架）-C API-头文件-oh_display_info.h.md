@@ -67,13 +67,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum NativeDisplayManager_Rotation
@@ -98,13 +92,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum NativeDisplayManager_Orientation
@@ -130,13 +118,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum NativeDisplayManager_ErrorCode
@@ -166,13 +148,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum NativeDisplayManager_FoldDisplayMode
@@ -198,13 +174,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum NativeDisplayManager_DisplayState
@@ -232,13 +202,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum NativeDisplayManager_SourceMode

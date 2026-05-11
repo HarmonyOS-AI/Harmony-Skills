@@ -211,13 +211,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct HiAI_AippParam HiAI_AippParam
@@ -233,13 +227,7 @@ AIPP参数对象。
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct HiAI_SingleOpBuffer HiAI_SingleOpBuffer
@@ -255,13 +243,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct HiAI_SingleOpDescriptor HiAI_SingleOpDescriptor
@@ -277,13 +259,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct HiAISingleOpDescriptor_ConvolutionParam
@@ -299,13 +275,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct HiAI_SingleOpExecutor HiAI_SingleOpExecutor
@@ -321,13 +291,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct HiAI_SingleOpExecutorConvolutionParam
@@ -343,13 +307,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct HiAI_SingleOpExecutorFusedConvolutionActivationParam
@@ -365,13 +323,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct HiAI_SingleOpOptions HiAI_SingleOpOptions
@@ -387,13 +339,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct HiAI_SingleOpTensor HiAI_SingleOpTensor
@@ -409,13 +355,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct HiAI_SingleOpTensorDesc HiAI_SingleOpTensorDesc
@@ -435,13 +375,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum HiAI_BandMode
@@ -466,13 +400,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum HiAI_Compatibility
@@ -495,13 +423,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum HiAI_DeviceMemoryReusePlan
@@ -525,13 +447,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum HiAI_DynamicShapeCacheMode
@@ -554,13 +470,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum HiAI_DynamicShapeStatus
@@ -583,13 +493,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum HiAI_ExecuteDevice
@@ -613,13 +517,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum HiAI_FallbackMode
@@ -642,13 +540,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum HiAI_FormatMode
@@ -671,13 +563,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum HiAI_ImageColorSpace
@@ -703,13 +589,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum HiAI_ImageFormat
@@ -742,13 +622,7 @@ CANN Kit推理支持的输入和输出Tensor的图片格式的枚举。
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum HiAI_OmType
@@ -772,13 +646,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum HiAI_SingleOpActivationType
@@ -801,13 +669,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum HiAI_SingleOpConvMode
@@ -831,13 +693,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum HiAI_SingleOpDataType
@@ -861,13 +717,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum HiAI_SingleOpFormat
@@ -895,13 +745,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum HiAI_SingleOpPadMode
@@ -927,13 +771,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum HiAI_SingleOpSupportStatus
@@ -957,13 +795,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum HiAI_TuningMode
@@ -987,13 +819,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum HiAI_TuningStrategy
@@ -1022,13 +848,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char* HMS_HiAI_GetVersion (void)
@@ -1048,13 +868,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HiAI_AippParam* HMS_HiAIAippParam_Create (uint32_t batchNum)
@@ -1084,13 +898,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void HMS_HiAIAippParam_Destroy (HiAI_AippParam ** aippParam)
@@ -1116,13 +924,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint32_t HMS_HiAIAippParam_GetBatchCount (HiAI_AippParam * aippParam)
@@ -1152,13 +954,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIAippParam_GetChannelPadding (HiAI_AippParam * aippParam, uint32_t batchIndex, uint32_t paddingValues[], uint32_t channelCount)
@@ -1191,13 +987,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIAippParam_GetChannelSwapConfig (HiAI_AippParam * aippParam, bool * rbuvSwapSwitch, bool * axSwapSwitch)
@@ -1229,13 +1019,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIAippParam_GetCropConfig (HiAI_AippParam * aippParam, uint32_t batchIndex, uint32_t * startPosW, uint32_t * startPosH, uint32_t * croppedW, uint32_t * croppedH)
@@ -1270,13 +1054,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIAippParam_GetCscConfig (HiAI_AippParam * aippParam, HiAI_ImageFormat * inputFormat, HiAI_ImageFormat * outputFormat, HiAI_ImageColorSpace * space)
@@ -1309,13 +1087,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void* HMS_HiAIAippParam_GetData (HiAI_AippParam * aippParam)
@@ -1345,13 +1117,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint32_t HMS_HiAIAippParam_GetDataSize (HiAI_AippParam * aippParam)
@@ -1381,13 +1147,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIAippParam_GetDtcMeanPixel (HiAI_AippParam * aippParam, uint32_t batchIndex, uint32_t meanPixel[], uint32_t channelCount)
@@ -1420,13 +1180,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIAippParam_GetDtcMinPixel (HiAI_AippParam * aippParam, uint32_t batchIndex, float minPixel[], uint32_t channelCount)
@@ -1459,13 +1213,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIAippParam_GetDtcVarReciPixel (HiAI_AippParam * aippParam, uint32_t batchIndex, float varReciPixel[], uint32_t channelCount)
@@ -1498,13 +1246,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int HMS_HiAIAippParam_GetInputAippIndex (HiAI_AippParam * aippParam)
@@ -1534,13 +1276,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HiAI_ImageFormat HMS_HiAIAippParam_GetInputFormat (HiAI_AippParam * aippParam)
@@ -1570,13 +1306,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int HMS_HiAIAippParam_GetInputIndex (HiAI_AippParam * aippParam)
@@ -1606,13 +1336,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIAippParam_GetInputShape (HiAI_AippParam * aippParam, uint32_t * srcImageW, uint32_t * srcImageH)
@@ -1644,13 +1368,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIAippParam_GetPadConfig (HiAI_AippParam * aippParam, uint32_t batchIndex, uint32_t * leftPadSize, uint32_t * rightPadSize, uint32_t * topPadSize, uint32_t * bottomPadSize)
@@ -1685,13 +1403,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIAippParam_GetResizeConfig (HiAI_AippParam * aippParam, uint32_t batchIndex, uint32_t * resizedW, uint32_t * resizedH)
@@ -1724,13 +1436,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIAippParam_GetRotationAngle (HiAI_AippParam * aippParam, uint32_t batchIndex, float * rotationAngle)
@@ -1762,13 +1468,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bool HMS_HiAIAippParam_GetSingleBatchMultiCrop (HiAI_AippParam * aippParam)
@@ -1798,13 +1498,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIAippParam_SetChannelPadding (HiAI_AippParam * aippParam, uint32_t batchIndex, uint32_t paddingValues[], uint32_t channelCount)
@@ -1837,13 +1531,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIAippParam_SetChannelSwapConfig (HiAI_AippParam * aippParam, bool rbuvSwapSwitch, bool axSwapSwitch)
@@ -1892,13 +1580,7 @@ YUV400\_U8是灰度图，不支持通道交换。
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIAippParam_SetCropConfig (HiAI_AippParam * aippParam, uint32_t batchIndex, uint32_t startPosW, uint32_t startPosH, uint32_t croppedW, uint32_t croppedH)
@@ -1933,13 +1615,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIAippParam_SetCscConfig (HiAI_AippParam * aippParam, HiAI_ImageFormat inputFormat, HiAI_ImageFormat outputFormat, HiAI_ImageColorSpace space)
@@ -1972,13 +1648,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIAippParam_SetDtcMeanPixel (HiAI_AippParam * aippParam, uint32_t batchIndex, uint32_t meanPixel[], uint32_t channelCount)
@@ -2015,13 +1685,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIAippParam_SetDtcMinPixel (HiAI_AippParam * aippParam, uint32_t batchIndex, float minPixel[], uint32_t channelCount)
@@ -2054,13 +1718,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIAippParam_SetDtcVarReciPixel (HiAI_AippParam * aippParam, uint32_t batchIndex, float varReciPixel[], uint32_t channelCount)
@@ -2093,13 +1751,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIAippParam_SetInputAippIndex (HiAI_AippParam * aippParam, uint32_t inputAippIndex)
@@ -2130,13 +1782,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIAippParam_SetInputFormat (HiAI_AippParam * aippParam, HiAI_ImageFormat inputFormat)
@@ -2167,13 +1813,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIAippParam_SetInputIndex (HiAI_AippParam * aippParam, uint32_t inputIndex)
@@ -2204,13 +1844,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIAippParam_SetInputShape (HiAI_AippParam * aippParam, uint32_t srcImageW, uint32_t srcImageH)
@@ -2242,13 +1876,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIAippParam_SetPadConfig (HiAI_AippParam * aippParam, uint32_t batchIndex, uint32_t leftPadSize, uint32_t rightPadSize, uint32_t topPadSize, uint32_t bottomPadSize)
@@ -2283,13 +1911,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIAippParam_SetResizeConfig (HiAI_AippParam * aippParam, uint32_t batchIndex, uint32_t resizedW, uint32_t resizedH)
@@ -2322,13 +1944,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIAippParam_SetRotationAngle (HiAI_AippParam * aippParam, uint32_t batchIndex, float rotationAngle)
@@ -2360,13 +1976,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIAippParam_SetSingleBatchMultiCrop (HiAI_AippParam * aippParam, bool singleBatchMultiCrop)
@@ -2397,13 +2007,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HiAI_Compatibility HMS_HiAICompatibility_CheckFromBuffer (const void * data, size_t size)
@@ -2432,13 +2036,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HiAI_Compatibility HMS_HiAICompatibility_CheckFromFile (const char * file)
@@ -2466,13 +2064,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HiAI_BandMode HMS_HiAIOptions_GetBandMode (const OH_NNCompilation * compilation)
@@ -2500,13 +2092,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HiAI_DeviceMemoryReusePlan HMS_HiAIOptions_GetDeviceMemoryReusePlan (const OH_NNCompilation * compilation)
@@ -2534,13 +2120,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HiAI_DynamicShapeCacheMode HMS_HiAIOptions_GetDynamicShapeCacheMode (const OH_NNCompilation * compilation)
@@ -2568,13 +2148,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. size_t HMS_HiAIOptions_GetDynamicShapeMaxCache (const OH_NNCompilation * compilation)
@@ -2602,13 +2176,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HiAI_DynamicShapeStatus HMS_HiAIOptions_GetDynamicShapeStatus (const OH_NNCompilation * compilation)
@@ -2636,13 +2204,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HiAI_FallbackMode HMS_HiAIOptions_GetFallbackMode (const OH_NNCompilation * compilation)
@@ -2670,13 +2232,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HiAI_FormatMode HMS_HiAIOptions_GetFormatMode (const OH_NNCompilation * compilation)
@@ -2704,13 +2260,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NN_TensorDesc* HMS_HiAIOptions_GetInputTensorShape (const OH_NNCompilation * compilation, size_t index)
@@ -2739,13 +2289,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. size_t HMS_HiAIOptions_GetInputTensorShapeSize (const OH_NNCompilation * compilation)
@@ -2773,13 +2317,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. size_t HMS_HiAIOptions_GetModelDeviceCount (const OH_NNCompilation * compilation)
@@ -2807,13 +2345,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HiAI_ExecuteDevice* HMS_HiAIOptions_GetModelDeviceOrder (const OH_NNCompilation * compilation)
@@ -2841,13 +2373,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. size_t HMS_HiAIOptions_GetOperatorDeviceCount (const OH_NNCompilation * compilation, const char * operatorName)
@@ -2876,13 +2402,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HiAI_ExecuteDevice* HMS_HiAIOptions_GetOperatorDeviceOrder (const OH_NNCompilation * compilation, const char * operatorName)
@@ -2911,13 +2431,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void* HMS_HiAIOptions_GetQuantConfigData (const OH_NNCompilation * compilation)
@@ -2945,13 +2459,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. size_t HMS_HiAIOptions_GetQuantConfigSize (const OH_NNCompilation * compilation)
@@ -2979,13 +2487,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char* HMS_HiAIOptions_GetTuningCacheDir (const OH_NNCompilation * compilation)
@@ -3013,13 +2515,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HiAI_TuningMode HMS_HiAIOptions_GetTuningMode (const OH_NNCompilation * compilation)
@@ -3047,13 +2543,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HiAI_TuningStrategy HMS_HiAIOptions_GetTuningStrategy (const OH_NNCompilation * compilation)
@@ -3081,13 +2571,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIOptions_SetBandMode (OH_NNCompilation * compilation, HiAI_BandMode bandMode)
@@ -3118,13 +2602,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIOptions_SetDeviceMemoryReusePlan (OH_NNCompilation * compilation, HiAI_DeviceMemoryReusePlan deviceMemoryReusePlan)
@@ -3155,13 +2633,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIOptions_SetDynamicShapeCacheMode (OH_NNCompilation * compilation, HiAI_DynamicShapeCacheMode mode)
@@ -3192,13 +2664,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIOptions_SetDynamicShapeMaxCache (OH_NNCompilation * compilation, size_t maxCacheCount)
@@ -3229,13 +2695,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIOptions_SetDynamicShapeStatus (OH_NNCompilation * compilation, HiAI_DynamicShapeStatus status)
@@ -3266,13 +2726,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIOptions_SetFallbackMode (OH_NNCompilation * compilation, HiAI_FallbackMode fallbackMode)
@@ -3303,13 +2757,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIOptions_SetFormatMode (OH_NNCompilation * compilation, HiAI_FormatMode formatMode)
@@ -3340,13 +2788,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIOptions_SetInputTensorShapes (OH_NNCompilation * compilation, NN_TensorDesc * inputTensorDescs[], size_t shapeCount)
@@ -3378,13 +2820,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIOptions_SetModelDeviceOrder (OH_NNCompilation * compilation, HiAI_ExecuteDevice * executeDevices, size_t deviceCount)
@@ -3416,13 +2852,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIOptions_SetOmOptions (OH_NNCompilation * compilation, HiAI_OmType type, const char * outputDir)
@@ -3454,13 +2884,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIOptions_SetOperatorDeviceOrder (OH_NNCompilation * compilation, const char * operatorName, HiAI_ExecuteDevice * executeDevices, size_t deviceCount)
@@ -3493,13 +2917,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIOptions_SetQuantConfig (OH_NNCompilation * compilation, void * data, size_t size)
@@ -3531,13 +2949,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIOptions_SetTuningCacheDir (OH_NNCompilation * compilation, const char * cacheDir)
@@ -3568,13 +2980,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIOptions_SetTuningMode (OH_NNCompilation * compilation, HiAI_TuningMode tuningMode)
@@ -3605,13 +3011,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAIOptions_SetTuningStrategy (OH_NNCompilation * compilation, HiAI_TuningStrategy tuningStrategy)
@@ -3642,13 +3042,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HiAI_SingleOpBuffer* HMS_HiAISingleOpBuffer_Create (size_t dataSize)
@@ -3678,13 +3072,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAISingleOpBuffer_Destroy (HiAI_SingleOpBuffer ** buffer)
@@ -3714,13 +3102,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void* HMS_HiAISingleOpBuffer_GetData (const HiAI_SingleOpBuffer * buffer)
@@ -3750,13 +3132,7 @@ Buffer的内存地址。
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. size_t HMS_HiAISingleOpBuffer_GetSize (const HiAI_SingleOpBuffer * buffer)
@@ -3786,13 +3162,7 @@ Buffer的字节大小。
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HiAI_SingleOpDescriptor* HMS_HiAISingleOpDescriptor_CreateActivation (HiAI_SingleOpActivationType activationType, float coef)
@@ -3823,13 +3193,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HiAI_SingleOpDescriptor* HMS_HiAISingleOpDescriptor_CreateConvolution (HiAISingleOpDescriptor_ConvolutionParam param)
@@ -3859,13 +3223,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void HMS_HiAISingleOpDescriptor_Destroy (HiAI_SingleOpDescriptor ** opDesc)
@@ -3891,13 +3249,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HiAI_SingleOpExecutor* HMS_HiAISingleOpExecutor_CreateConvolution (HiAI_SingleOpExecutorConvolutionParam param)
@@ -3929,13 +3281,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HiAI_SingleOpExecutor* HMS_HiAISingleOpExecutor_CreateFusedConvolutionActivation (HiAI_SingleOpExecutorFusedConvolutionActivationParam param)
@@ -3967,13 +3313,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAISingleOpExecutor_Destroy (HiAI_SingleOpExecutor ** executor)
@@ -4005,13 +3345,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAISingleOpExecutor_Execute (HiAI_SingleOpExecutor * executor, HiAI_SingleOpTensor * input[], int32_t inputNum, HiAI_SingleOpTensor * output[], int32_t outputNum)
@@ -4045,13 +3379,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. size_t HMS_HiAISingleOpExecutor_GetWorkspaceSize (const HiAI_SingleOpExecutor * executor)
@@ -4083,13 +3411,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAISingleOpExecutor_Init (HiAI_SingleOpExecutor * executor, void * workspace, size_t workspaceSize)
@@ -4121,13 +3443,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HiAI_SingleOpSupportStatus HMS_HiAISingleOpExecutor_PreCheckConvolution (HiAI_SingleOpExecutorConvolutionParam param)
@@ -4157,13 +3473,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HiAI_SingleOpSupportStatus HMS_HiAISingleOpExecutor_PreCheckFusedConvolutionActivation (HiAI_SingleOpExecutorFusedConvolutionActivationParam param)
@@ -4193,13 +3503,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAISingleOpExecutor_UpdateOutputTensorDesc (const HiAI_SingleOpExecutor * executor, uint32_t index, HiAI_SingleOpTensorDesc * output)
@@ -4231,13 +3535,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HiAI_SingleOpOptions* HMS_HiAISingleOpOptions_Create (void)
@@ -4259,13 +3557,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void HMS_HiAISingleOpOptions_Destroy (HiAI_SingleOpOptions ** options)
@@ -4291,13 +3583,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HiAI_SingleOpTensor* HMS_HiAISingleOpTensor_CreateFromConst (const HiAI_SingleOpTensorDesc * desc, void * data, size_t dataSize)
@@ -4335,13 +3621,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HiAI_SingleOpTensor* HMS_HiAISingleOpTensor_CreateFromSingleOpBuffer (const HiAI_SingleOpTensorDesc * desc, void * data, size_t dataSize)
@@ -4377,13 +3657,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HiAI_SingleOpTensor* HMS_HiAISingleOpTensor_CreateFromTensorDesc (const HiAI_SingleOpTensorDesc * desc)
@@ -4417,13 +3691,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAISingleOpTensor_Destroy (HiAI_SingleOpTensor ** tensor)
@@ -4453,13 +3721,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HiAI_SingleOpBuffer* HMS_HiAISingleOpTensor_GetBuffer (const HiAI_SingleOpTensor * tensor)
@@ -4489,13 +3751,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HiAI_SingleOpTensorDesc* HMS_HiAISingleOpTensor_GetTensorDesc (const HiAI_SingleOpTensor * tensor)
@@ -4525,13 +3781,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HiAI_SingleOpTensorDesc* HMS_HiAISingleOpTensorDesc_Create (const int64_t * dims, size_t dimNum, HiAI_SingleOpDataType dataType, HiAI_SingleOpFormat format, bool isVirtual)
@@ -4569,13 +3819,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void HMS_HiAISingleOpTensorDesc_Destroy (HiAI_SingleOpTensorDesc ** tensorDesc)
@@ -4601,13 +3845,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. size_t HMS_HiAISingleOpTensorDesc_GetByteSize (const HiAI_SingleOpTensorDesc * tensorDesc)
@@ -4637,13 +3875,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HiAI_SingleOpDataType HMS_HiAISingleOpTensorDesc_GetDataType (const HiAI_SingleOpTensorDesc * tensorDesc)
@@ -4673,13 +3905,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int64_t HMS_HiAISingleOpTensorDesc_GetDimension (const HiAI_SingleOpTensorDesc * tensorDesc, size_t index)
@@ -4710,13 +3936,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. size_t HMS_HiAISingleOpTensorDesc_GetDimensionCount (const HiAI_SingleOpTensorDesc * tensorDesc)
@@ -4746,13 +3966,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HiAI_SingleOpFormat HMS_HiAISingleOpTensorDesc_GetFormat (const HiAI_SingleOpTensorDesc * tensorDesc)
@@ -4782,13 +3996,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bool HMS_HiAISingleOpTensorDesc_IsVirtual (const HiAI_SingleOpTensorDesc * tensorDesc)
@@ -4818,13 +4026,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. size_t HMS_HiAITensor_GetSizeWithImageFormat (NN_TensorDesc * desc, HiAI_ImageFormat format)
@@ -4853,13 +4055,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_NN_ReturnCode HMS_HiAITensor_SetAippParams (NN_Tensor * tensor, HiAI_AippParam * aippParams[], size_t aippNum)

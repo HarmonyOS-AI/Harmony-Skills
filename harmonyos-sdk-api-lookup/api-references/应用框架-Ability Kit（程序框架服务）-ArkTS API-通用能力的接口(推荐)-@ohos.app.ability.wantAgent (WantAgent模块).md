@@ -10,13 +10,7 @@ WantAgent模块封装了[Want](https://developer.huawei.com/consumer/cn/doc/harm
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wantAgent } from '@kit.AbilityKit';
@@ -57,13 +51,7 @@ getWantAgent(info: WantAgentInfo, callback: AsyncCallback<WantAgent>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wantAgent, Want } from '@kit.AbilityKit';
@@ -158,13 +146,7 @@ getWantAgent(info: WantAgentInfo): Promise<WantAgent>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wantAgent, Want } from '@kit.AbilityKit';
@@ -246,13 +228,7 @@ getBundleName(agent: WantAgent, callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wantAgent, Want } from '@kit.AbilityKit';
@@ -360,13 +336,7 @@ getBundleName(agent: WantAgent): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wantAgent, Want } from '@kit.AbilityKit';
@@ -462,13 +432,7 @@ getUid(agent: WantAgent, callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wantAgent, Want } from '@kit.AbilityKit';
@@ -580,13 +544,7 @@ getUid(agent: WantAgent): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wantAgent, Want } from '@kit.AbilityKit';
@@ -687,13 +645,7 @@ cancel(agent: WantAgent, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wantAgent, Want } from '@kit.AbilityKit';
@@ -805,13 +757,7 @@ cancel(agent: WantAgent): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wantAgent, Want } from '@kit.AbilityKit';
@@ -913,13 +859,7 @@ trigger(agent: WantAgent, triggerInfo: TriggerInfo, callback?: AsyncCallback<Com
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wantAgent, Want } from '@kit.AbilityKit';
@@ -1029,13 +969,7 @@ equal(agent: WantAgent, otherAgent: WantAgent, callback: AsyncCallback<boolean>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wantAgent, Want } from '@kit.AbilityKit';
@@ -1146,13 +1080,7 @@ equal(agent: WantAgent, otherAgent: WantAgent): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wantAgent, Want } from '@kit.AbilityKit';
@@ -1252,13 +1180,7 @@ getOperationType(agent: WantAgent, callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wantAgent, Want } from '@kit.AbilityKit';
@@ -1367,13 +1289,7 @@ getOperationType(agent: WantAgent): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wantAgent, Want } from '@kit.AbilityKit';

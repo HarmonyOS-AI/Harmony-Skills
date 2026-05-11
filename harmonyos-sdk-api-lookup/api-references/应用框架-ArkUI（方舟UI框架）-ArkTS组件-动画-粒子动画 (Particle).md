@@ -17,13 +17,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. interface ParticleInterface {
@@ -155,13 +149,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. interface ParticleOptions<
@@ -205,13 +193,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. interface EmitterOptions<PARTICLE extends ParticleType> {
@@ -294,13 +276,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. interface ParticleColorPropertyOptions<UPDATER extends ParticleUpdater> {
@@ -344,13 +320,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. interface ParticlePropertyOptions<TYPE, UPDATER extends ParticleUpdater> {
@@ -376,13 +346,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. interface ParticlePropertyUpdaterConfigs<T> {
@@ -410,13 +374,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. interface ParticlePropertyAnimation<T> {
@@ -576,13 +534,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. declare type ParticleTuple<T1, T2> = [T1, T2];
@@ -604,13 +556,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. interface Particles<
@@ -677,13 +623,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. declare interface AccelerationOptions<
@@ -716,13 +656,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. interface EmitterParticleOptions<PARTICLE extends ParticleType> {
@@ -758,13 +692,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. interface ParticleUpdaterOptions<TYPE, UPDATER extends ParticleUpdater> {
@@ -794,13 +722,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. interface ParticleColorUpdaterOptions<UPDATER extends ParticleUpdater> {
@@ -963,13 +885,7 @@ PhonePC/2in1TabletTVWearable
 
 描述粒子动画基础用法，通过圆形初始化粒子。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -1093,13 +1009,7 @@ PhonePC/2in1TabletTVWearable
 
 描述粒子动画基础用法，通过图片初始化粒子。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -1495,13 +1405,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示如何通过粒子扰动场的干扰下来实现运动轨迹发生变化的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -1632,13 +1536,7 @@ PhonePC/2in1TabletTVWearable
 
 通过emitter()调整粒子发射器的位置。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -1721,13 +1619,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例实现了粒子动画环形发射器每隔一秒钟沿着圆弧30度递增，周期性发射粒子，直至布满整个圆环。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LengthMetrics } from '@kit.ArkUI';
@@ -1818,13 +1710,7 @@ PhonePC/2in1TabletTVWearable
 
 描述粒子动画环形发射器更新的基础用法。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LengthMetrics } from '@kit.ArkUI';
@@ -1944,13 +1830,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 22开始，支持设置粒子波动场和速度场。该示例演示如何通过rippleFields接口设置粒子波动场，产生类似波纹扩散的效果。通过velocityFields接口设置粒子速度场，使粒子在原有速度的基础上叠加速度场指定的速度。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

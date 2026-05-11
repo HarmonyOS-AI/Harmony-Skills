@@ -505,13 +505,7 @@ PhonePC/2in1TabletTVWearable
 
 自定义布局代码示例。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -586,13 +580,7 @@ PhonePC/2in1TabletTVWearable
 
 通过组件的位置灵活判断是否参与布局计算。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -697,13 +685,7 @@ PhonePC/2in1TabletTVWearable
 
 通过uniqueId获取子组件的[FrameNode](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-arkui-framenode)，并调用FrameNode的API接口修改尺寸、背景颜色。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode, NodeController } from '@kit.ArkUI';
@@ -781,13 +763,7 @@ PhonePC/2in1TabletTVWearable
 
 在自定义布局的自定义组件中，为子组件设置了[LayoutPolicy](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-size#layoutpolicy15)对象的fixAtIdealSize属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry

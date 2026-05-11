@@ -34,13 +34,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkFormat FG_ImageFormat_VK::inputColorFormat
@@ -54,13 +48,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkFormat FG_ImageFormat_VK::inputDepthStencilFormat
@@ -74,13 +62,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkFormat FG_ImageFormat_VK::outputColorFormat

@@ -33,13 +33,7 @@ PhonePC/2in1TabletTVWearable
 
 以Text组件为例，完整示例请参考Text组件的[示例10获取文本信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-basic-components-text#示例10获取文本信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. controller: TextController = new TextController();

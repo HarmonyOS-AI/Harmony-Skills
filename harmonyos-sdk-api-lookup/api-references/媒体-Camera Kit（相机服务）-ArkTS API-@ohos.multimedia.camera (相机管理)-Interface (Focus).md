@@ -11,13 +11,7 @@ Focus继承自[FocusQuery](https://developer.huawei.com/consumer/cn/doc/harmonyo
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { camera } from '@kit.CameraKit';
@@ -57,13 +51,7 @@ setFocusMode(afMode: FocusMode): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -111,13 +99,7 @@ getFocusMode(): FocusMode
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -169,13 +151,7 @@ setFocusPoint(point: Point): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -224,13 +200,7 @@ getFocusPoint(): Point
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -280,13 +250,7 @@ getFocalLength(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

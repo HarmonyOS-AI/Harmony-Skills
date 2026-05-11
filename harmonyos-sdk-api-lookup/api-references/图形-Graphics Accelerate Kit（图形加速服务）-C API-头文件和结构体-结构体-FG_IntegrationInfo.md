@@ -35,13 +35,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FG_PresentMode FG_IntegrationInfo::presentMode
@@ -55,13 +49,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bool FG_IntegrationInfo::textureCachedByGame
@@ -75,13 +63,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bool FG_IntegrationInfo::needFlipInputColor
@@ -95,13 +77,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bool FG_IntegrationInfo::needFlipOutputColor

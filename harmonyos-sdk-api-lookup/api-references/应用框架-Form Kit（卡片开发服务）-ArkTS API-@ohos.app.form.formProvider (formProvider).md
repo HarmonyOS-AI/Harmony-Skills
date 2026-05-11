@@ -8,13 +8,7 @@ formProvider模块提供了获取卡片信息、更新卡片、设置卡片更�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { formProvider } from '@kit.FormKit';
@@ -61,13 +55,7 @@ setFormNextRefreshTime(formId: string, minute: number, callback: AsyncCallback<v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { formProvider } from '@kit.FormKit';
@@ -135,13 +123,7 @@ setFormNextRefreshTime(formId: string, minute: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { formProvider } from '@kit.FormKit';
@@ -203,13 +185,7 @@ updateForm(formId: string, formBindingData: formBindingData.FormBindingData, cal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { formBindingData, formProvider } from '@kit.FormKit';
@@ -285,13 +261,7 @@ updateForm(formId: string, formBindingData: formBindingData.FormBindingData): Pr
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { formBindingData, formProvider } from '@kit.FormKit';
@@ -349,13 +319,7 @@ getFormsInfo(callback: AsyncCallback<Array<formInfo.FormInfo>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { formProvider } from '@kit.FormKit';
@@ -410,13 +374,7 @@ getFormsInfo(filter: formInfo.FormInfoFilter, callback: AsyncCallback<Array<form
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { formInfo, formProvider } from '@kit.FormKit';
@@ -482,13 +440,7 @@ getFormsInfo(filter?: formInfo.FormInfoFilter): Promise<Array<formInfo.FormInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { formInfo, formProvider } from '@kit.FormKit';
@@ -546,13 +498,7 @@ openFormEditAbility(abilityName: string, formId: string, isMainPage?: boolean): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { formProvider } from '@kit.FormKit';
@@ -623,13 +569,7 @@ closeFormEditAbility(isMainPage?: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { formProvider } from '@kit.FormKit';
@@ -709,13 +649,7 @@ openFormManager(want: Want): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { formProvider } from '@kit.FormKit';
@@ -784,13 +718,7 @@ getPublishedFormInfoById(formId: string): Promise<formInfo.FormInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { formInfo, formProvider } from '@kit.FormKit';
@@ -846,13 +774,7 @@ getPublishedFormInfos(): Promise<Array<formInfo.FormInfo>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { formInfo, formProvider } from '@kit.FormKit';
@@ -922,13 +844,7 @@ requestOverflow(formId: string, overflowInfo: formInfo.OverflowInfo): Promise<vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { formInfo, formProvider } from '@kit.FormKit';
@@ -1004,13 +920,7 @@ cancelOverflow(formId: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { formProvider } from '@kit.FormKit';
@@ -1075,13 +985,7 @@ getFormRect(formId: string): Promise<formInfo.Rect>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { formInfo, formProvider } from '@kit.FormKit';
@@ -1142,13 +1046,7 @@ getPublishedRunningFormInfoById(formId: string): Promise<formInfo.RunningFormInf
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { formInfo, formProvider } from '@kit.FormKit';
@@ -1201,13 +1099,7 @@ getPublishedRunningFormInfos(): Promise<Array<formInfo.RunningFormInfo>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { formInfo, formProvider } from '@kit.FormKit';
@@ -1269,13 +1161,7 @@ reloadForms(context: UIAbilityContext, moduleName: string, abilityName: string, 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -1341,13 +1227,7 @@ reloadAllForms(context: UIAbilityContext): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';

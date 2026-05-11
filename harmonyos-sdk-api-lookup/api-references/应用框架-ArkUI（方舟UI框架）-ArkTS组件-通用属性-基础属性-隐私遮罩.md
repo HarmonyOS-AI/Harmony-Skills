@@ -38,13 +38,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过obscured对Text、Image组件实现了隐私遮罩效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

@@ -1,10 +1,4 @@
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct {...} JSVM_PropertyHandlerConfigurationStruct
@@ -62,13 +56,7 @@ PhonePC/2in1TabletWearable
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. JSVM_Value (JSVM_CDECL* genericNamedPropertyGetterCallback)(JSVM_Env env,JSVM_Value name,JSVM_Value thisArg,JSVM_Value namedPropertyData)
@@ -82,13 +70,7 @@ PhonePC/2in1TabletWearable
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. JSVM_Value (JSVM_CDECL* genericNamedPropertySetterCallback)(JSVM_Env env,JSVM_Value name,JSVM_Value property,JSVM_Value thisArg,JSVM_Value namedPropertyData)
@@ -102,13 +84,7 @@ PhonePC/2in1TabletWearable
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. JSVM_Value (JSVM_CDECL* genericNamedPropertyDeleterCallback)(JSVM_Env env,JSVM_Value name,JSVM_Value thisArg,JSVM_Value namedPropertyData)
@@ -122,13 +98,7 @@ PhonePC/2in1TabletWearable
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. JSVM_Value (JSVM_CDECL* genericNamedPropertyEnumeratorCallback)(JSVM_Env env,JSVM_Value thisArg,JSVM_Value namedPropertyData)
@@ -142,13 +112,7 @@ PhonePC/2in1TabletWearable
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. JSVM_Value (JSVM_CDECL* genericIndexedPropertyGetterCallback)(JSVM_Env env,JSVM_Value index,JSVM_Value thisArg,JSVM_Value indexedPropertyData)
@@ -162,13 +126,7 @@ PhonePC/2in1TabletWearable
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. JSVM_Value (JSVM_CDECL* genericIndexedPropertySetterCallback)(JSVM_Env env,JSVM_Value index,JSVM_Value property,JSVM_Value thisArg,JSVM_Value indexedPropertyData)
@@ -182,13 +140,7 @@ PhonePC/2in1TabletWearable
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. JSVM_Value (JSVM_CDECL* genericIndexedPropertyDeleterCallback)(JSVM_Env env,JSVM_Value index,JSVM_Value thisArg,JSVM_Value indexedPropertyData)
@@ -202,13 +154,7 @@ PhonePC/2in1TabletWearable
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. JSVM_Value (JSVM_CDECL* genericIndexedPropertyEnumeratorCallback)(JSVM_Env env,JSVM_Value thisArg,JSVM_Value indexedPropertyData)

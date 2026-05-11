@@ -1386,13 +1386,7 @@ PhonePC/2in1TabletTVWearable
 
 本示例通过[barMode](/consumer/cn/doc/harmonyos-references/ts-container-tabs#barmode)分别实现了页签均分布局和以实际长度布局，且展示了当页签布局长度之和超过了TabBar总长度后可滑动的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1470,13 +1464,7 @@ PhonePC/2in1TabletTVWearable
 
 本示例实现了[barMode](/consumer/cn/doc/harmonyos-references/ts-container-tabs#barmode10-1)的ScrollableBarModeOptions参数，该参数仅在Scrollable模式下有效。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1596,13 +1584,7 @@ PhonePC/2in1TabletTVWearable
 
 本示例通过[onAnimationStart](/consumer/cn/doc/harmonyos-references/ts-container-tabs#onanimationstart11)、[onChange](/consumer/cn/doc/harmonyos-references/ts-container-tabs#onchange)实现切换时自定义tabBar和TabContent的联动。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1681,13 +1663,7 @@ PhonePC/2in1TabletTVWearable
 
 本示例通过[divider](/consumer/cn/doc/harmonyos-references/ts-container-tabs#divider10)实现了分割线各种属性的展示。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1799,13 +1775,7 @@ PhonePC/2in1TabletTVWearable
 
 本示例通过[fadingEdge](/consumer/cn/doc/harmonyos-references/ts-container-tabs#fadingedge10)实现了切换子页签渐隐和不渐隐。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1920,13 +1890,7 @@ PhonePC/2in1TabletTVWearable
 
 本示例通过[barOverlap](/consumer/cn/doc/harmonyos-references/ts-container-tabs#baroverlap10)实现了TabBar是否背后变模糊并叠加在TabContent之上。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1980,13 +1944,7 @@ PhonePC/2in1TabletTVWearable
 
 本示例通过[barGridAlign](/consumer/cn/doc/harmonyos-references/ts-container-tabs#bargridalign10)实现了以栅格化方式设置TabBar的可见区域。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2093,13 +2051,7 @@ PhonePC/2in1TabletTVWearable
 
 本示例通过[customContentTransition](/consumer/cn/doc/harmonyos-references/ts-container-tabs#customcontenttransition11)实现了自定义Tabs页面的切换动画。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2191,13 +2143,7 @@ PhonePC/2in1TabletTVWearable
 
 本示例通过[onContentWillChange](/consumer/cn/doc/harmonyos-references/ts-container-tabs#oncontentwillchange12)实现了自定义页面手势滑动切换拦截。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2291,13 +2237,7 @@ PhonePC/2in1TabletTVWearable
 
 本示例通过[onChange](/consumer/cn/doc/harmonyos-references/ts-container-tabs#onchange)、[onAnimationStart](/consumer/cn/doc/harmonyos-references/ts-container-tabs#onanimationstart11)、[onAnimationEnd](/consumer/cn/doc/harmonyos-references/ts-container-tabs#onanimationend11)、[onGestureSwipe](/consumer/cn/doc/harmonyos-references/ts-container-tabs#ongestureswipe11)等接口实现了自定义TabBar的切换动画。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -2315,13 +2255,7 @@ PhonePC/2in1TabletTVWearable
 13. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // CommonUtil.ets
@@ -2338,13 +2272,7 @@ PhonePC/2in1TabletTVWearable
 12. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2486,13 +2414,7 @@ PhonePC/2in1TabletTVWearable
 
 本示例通过[preloadItems](/consumer/cn/doc/harmonyos-references/ts-container-tabs#preloaditems12)接口实现了预加载指定子节点。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2571,13 +2493,7 @@ PhonePC/2in1TabletTVWearable
 
 本示例通过[setTabBarTranslate](/consumer/cn/doc/harmonyos-references/ts-container-tabs#settabbartranslate13)、[setTabBarOpacity](/consumer/cn/doc/harmonyos-references/ts-container-tabs#settabbaropacity13)等接口设置了TabBar的平移距离和不透明度。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2631,13 +2547,7 @@ PhonePC/2in1TabletTVWearable
 
 本示例通过使用自定义[TabBar](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-container-tabcontent#tabbar)与[Swiper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-container-swiper)配合[LazyForEach](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-rendering-control-lazyforeach)实现页面懒加载和释放。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2747,13 +2657,7 @@ PhonePC/2in1TabletTVWearable
 
 本示例通过设置[animationMode](/consumer/cn/doc/harmonyos-references/ts-container-tabs#animationmode12)属性，实现了翻页的动效。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2831,13 +2735,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 15开始，在TabsOptions中新增了barModifier接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2931,13 +2829,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 15开始，在TabsOptions中新增了barModifier接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3044,13 +2936,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 18开始，新增了onSelected接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3130,13 +3016,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 19开始，新增了cachedMaxCount接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -3194,13 +3074,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 18开始，新增了barBackgroundBlurStyle和barBackgroundEffect接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3272,13 +3146,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[edgeEffect](/consumer/cn/doc/harmonyos-references/ts-container-tabs#edgeeffect12)实现了不同的边缘回弹效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3339,13 +3207,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，新增了animationCurve接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { curves } from '@kit.ArkUI';
@@ -3439,13 +3301,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 23开始，新增onContentDidScroll接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3548,13 +3404,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 24开始，新增nestedScroll接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

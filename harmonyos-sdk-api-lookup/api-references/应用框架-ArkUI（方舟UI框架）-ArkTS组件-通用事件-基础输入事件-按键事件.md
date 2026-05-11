@@ -210,13 +210,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过按钮设置了按键事件。按钮获焦时，按下按键可触发onKeyEvent回调。按键事件触发的流程和具体时机参考[按键事件数据流](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/arkts-interaction-development-guide-keyboard#按键事件数据流)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -254,13 +248,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过按键事件获取所按按键的Unicode码值。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -306,13 +294,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例使用onKeyPreIme屏蔽输入框中的方向左键。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { KeyCode } from '@kit.InputKit';
@@ -355,13 +337,7 @@ PhonePC/2in1TabletTVWearable
 2. 事件冒泡：在一个树形结构中，当子节点处理完一个事件后，再将该事件交给它的父节点处理。
 3. 可以在[onKeyEvent15+](/consumer/cn/doc/harmonyos-references/ts-universal-events-key#onkeyevent15)中，通过返回true消费按键事件阻止冒泡，效果等同于stopPropagation。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry

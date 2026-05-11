@@ -11,13 +11,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { media } from '@kit.MediaKit';
@@ -82,13 +76,7 @@ prepare(config: AVTranscoderConfig): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -150,13 +138,7 @@ start(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -209,13 +191,7 @@ pause(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -268,13 +244,7 @@ resume(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -327,13 +297,7 @@ cancel(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -385,13 +349,7 @@ release(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -431,13 +389,7 @@ on(type:'progressUpdate', callback: Callback<number>):void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { media } from '@kit.MediaKit';
@@ -474,13 +426,7 @@ off(type:'progressUpdate', callback?: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { media } from '@kit.MediaKit';
@@ -534,13 +480,7 @@ on(type: 'error', callback: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -578,13 +518,7 @@ off(type:'error', callback?: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { media } from '@kit.MediaKit';
@@ -621,13 +555,7 @@ on(type: 'complete', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { media } from '@kit.MediaKit';
@@ -671,13 +599,7 @@ off(type:'complete', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { media } from '@kit.MediaKit';

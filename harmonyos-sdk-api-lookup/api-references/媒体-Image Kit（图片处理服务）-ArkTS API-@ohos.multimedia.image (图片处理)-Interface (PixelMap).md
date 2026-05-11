@@ -17,13 +17,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from '@kit.ImageKit';
@@ -74,13 +68,7 @@ readPixelsToBuffer(dst: ArrayBuffer): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -122,13 +110,7 @@ readPixelsToBuffer(dst: ArrayBuffer, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -183,13 +165,7 @@ readPixelsToBufferSync(dst: ArrayBuffer): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function ReadPixelsToBufferSync(pixelMap : image.PixelMap) {
@@ -239,13 +215,7 @@ RGBA的区域计算公式：读取区域（region.size{width \* height}）\* 4 �
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -316,13 +286,7 @@ RGBA的区域计算公式：读取区域（region.size{width \* height}）\* 4 �
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -401,13 +365,7 @@ readPixelsSync(area: PositionArea): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function ReadPixelsSync(pixelMap : image.PixelMap) {
@@ -461,13 +419,7 @@ RGBA的区域计算公式：读取区域（region.size{width \* height}）\* 4 �
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -544,13 +496,7 @@ RGBA的区域计算公式：读取区域（region.size{width \* height}）\* 4 �
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -635,13 +581,7 @@ writePixelsSync(area: PositionArea): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function WritePixelsSync(pixelMap:image.PixelMap) {
@@ -693,13 +633,7 @@ writeBufferToPixels(src: ArrayBuffer): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -745,13 +679,7 @@ writeBufferToPixels(src: ArrayBuffer, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -808,13 +736,7 @@ writeBufferToPixelsSync(src: ArrayBuffer): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function WriteBufferToPixelsSync(pixelMap:image.PixelMap) {
@@ -853,13 +775,7 @@ getImageInfo(): Promise<ImageInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -901,13 +817,7 @@ getImageInfo(callback: AsyncCallback<ImageInfo>): void
 
 **示例:**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -960,13 +870,7 @@ getImageInfoSync(): ImageInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function GetImageInfoSync(pixelMap:image.PixelMap) {
@@ -1002,13 +906,7 @@ getBytesNumberPerRow(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function GetBytesNumberPerRow(pixelMap: image.PixelMap) {
@@ -1040,13 +938,7 @@ getPixelBytesNumber(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function GetPixelBytesNumber(pixelMap: image.PixelMap) {
@@ -1078,13 +970,7 @@ getDensity():number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function GetDensity(pixelMap: image.PixelMap) {
@@ -1117,13 +1003,7 @@ opacity(rate: number, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1175,13 +1055,7 @@ opacity(rate: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1231,13 +1105,7 @@ opacitySync(rate: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function OpacitySync(pixelMap:image.PixelMap) {
@@ -1272,13 +1140,7 @@ createAlphaPixelmap(): Promise<PixelMap>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1318,13 +1180,7 @@ createAlphaPixelmap(callback: AsyncCallback<PixelMap>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1376,13 +1232,7 @@ createAlphaPixelmapSync(): PixelMap
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function CreateAlphaPixelmapSync(pixelMap:image.PixelMap) {
@@ -1425,13 +1275,7 @@ scale(x: number, y: number, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1490,13 +1334,7 @@ scale(x: number, y: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1553,13 +1391,7 @@ scaleSync(x: number, y: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function ScaleSync(pixelMap: image.PixelMap) {
@@ -1621,13 +1453,7 @@ scale(x: number, y: number, level: AntiAliasingLevel): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1685,13 +1511,7 @@ scaleSync(x: number, y: number, level: AntiAliasingLevel): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function ScaleSync(pixelMap: image.PixelMap) {
@@ -1744,13 +1564,7 @@ createScaledPixelMap(x: number, y: number, level?: AntiAliasingLevel): Promise<P
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1809,13 +1623,7 @@ createScaledPixelMapSync(x: number, y: number, level?: AntiAliasingLevel): Pixel
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function CreateScaledPixelMapSync(pixelMap:image.PixelMap) {
@@ -1871,13 +1679,7 @@ createCroppedAndScaledPixelMap(region: Region, x: number, y: number, level?: Ant
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1945,13 +1747,7 @@ createCroppedAndScaledPixelMapSync(region: Region, x: number, y: number, level?:
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2008,13 +1804,7 @@ clone(): Promise<PixelMap>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2064,13 +1854,7 @@ cloneSync(): PixelMap
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2115,13 +1899,7 @@ translate后的图片尺寸改变为：width+X ，height+Y，建议translate后�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2177,13 +1955,7 @@ translate后的图片尺寸改变为：width+X ，height+Y，建议translate后�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2237,13 +2009,7 @@ translate后的图片尺寸改变为：width+X ，height+Y，建议translate后�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function TranslateSync(pixelMap:image.PixelMap) {
@@ -2285,13 +2051,7 @@ rotate(angle: number, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2348,13 +2108,7 @@ rotate(angle: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2409,13 +2163,7 @@ rotateSync(angle: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function RotateSync(pixelMap: image.PixelMap) {
@@ -2452,13 +2200,7 @@ flip(horizontal: boolean, vertical: boolean, callback: AsyncCallback<void>): voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2512,13 +2254,7 @@ flip(horizontal: boolean, vertical: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2570,13 +2306,7 @@ flipSync(horizontal: boolean, vertical: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2615,13 +2345,7 @@ crop(region: Region, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2673,13 +2397,7 @@ crop(region: Region): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2730,13 +2448,7 @@ cropSync(region: Region): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2781,13 +2493,7 @@ getColorSpace(): colorSpaceManager.ColorSpaceManager
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2830,13 +2536,7 @@ setColorSpace(colorSpace: colorSpaceManager.ColorSpaceManager): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { colorSpaceManager } from '@kit.ArkGraphics2D';
@@ -2884,13 +2584,7 @@ applyColorSpace(targetColorSpace: colorSpaceManager.ColorSpaceManager, callback:
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { colorSpaceManager } from '@kit.ArkGraphics2D';
@@ -2959,13 +2653,7 @@ applyColorSpace(targetColorSpace: colorSpaceManager.ColorSpaceManager): Promise<
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { colorSpaceManager } from '@kit.ArkGraphics2D';
@@ -3015,13 +2703,7 @@ toSdr(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3089,13 +2771,7 @@ getMetadata(key: HdrMetadataKey): HdrMetadataValue
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function GetMetadata(context: Context) {
@@ -3164,13 +2840,7 @@ setMetadata(key: HdrMetadataKey, value: HdrMetadataValue): Promise<void>
 
 创建DMA\_ALLOC内存的PixelMap方法请参考: [系统默认的内存分配方式](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/image-allocator-type#系统默认的内存分配方式)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3225,13 +2895,7 @@ pixelmap在跨线程传输时，断开原线程的引用。适用于需立即释
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -3311,13 +2975,7 @@ marshalling(sequence: rpc.MessageSequence): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -3413,13 +3071,7 @@ unmarshalling(sequence: rpc.MessageSequence): Promise<PixelMap>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -3507,13 +3159,7 @@ release(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3561,13 +3207,7 @@ release(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3636,13 +3276,7 @@ YUV和RGB类型互转。使用Promise异步回调。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3694,13 +3328,7 @@ setMemoryNameSync(name: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3747,13 +3375,7 @@ getUniqueId(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function DemoGetUniqueId(pixelMap: PixelMap) {
@@ -3785,13 +3407,7 @@ isReleased(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function DemoIsReleased(pixelMap: PixelMap) { // 未释放的PixelMap。

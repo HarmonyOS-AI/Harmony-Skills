@@ -116,13 +116,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置[onGestureJudgeBegin](/consumer/cn/doc/harmonyos-references/ts-gesture-customize-judge#ongesturejudgebegin)实现了对长按、快滑和滑动手势的自定义判定。从API version 21开始，支持通过[BaseEvent](/consumer/cn/doc/harmonyos-references/ts-gesture-customize-judge#baseevent8)的axisPinch属性获取双指缩放比例。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -221,13 +215,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置onGestureJudgeBegin判定区域决定长按手势和拖拽是否响应。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -307,13 +295,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置fingerInfos实时检测参与手势的有效触点数量、各个触点ID及其坐标
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

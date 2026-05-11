@@ -94,13 +94,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过设置direction实现不同的子组件排列方向效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -169,13 +163,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过设置wrap实现子组件单行或多行的排列效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -227,13 +215,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过设置justifyContent实现子组件在主轴上不同的对齐效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -288,13 +270,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过设置alignItems实现子组件在交叉轴上的不同的对齐效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -349,13 +325,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过设置alignContent实现多行内容的不同对齐效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -422,13 +392,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过设置space为单/多行排列的子组件确定在主/交叉轴上的间距。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {LengthMetrics} from '@kit.ArkUI';
@@ -481,13 +445,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例实现了Flex在宽度设置auto后可以自适应子组件布局的能力。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Component

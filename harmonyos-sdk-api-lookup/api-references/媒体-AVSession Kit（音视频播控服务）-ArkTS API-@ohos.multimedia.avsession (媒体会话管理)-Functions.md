@@ -6,13 +6,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avSession } from '@kit.AVSessionKit';
@@ -65,13 +59,7 @@ createAVSession(context: Context, tag: string, type: AVSessionType): Promise<AVS
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avSession } from '@kit.AVSessionKit';
@@ -140,13 +128,7 @@ createAVSession(context: Context, tag: string, type: AVSessionType, callback: As
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avSession } from '@kit.AVSessionKit';
@@ -220,13 +202,7 @@ getAVSession(context: Context): Promise<AVSession>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avSession } from '@kit.AVSessionKit';
@@ -293,13 +269,7 @@ getAllSessionDescriptors(): Promise<Array<Readonly<AVSessionDescriptor>>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avSession } from '@kit.AVSessionKit';
@@ -372,13 +342,7 @@ createController(sessionId: string): Promise<AVSessionController>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avSession } from '@kit.AVSessionKit';
@@ -440,13 +404,7 @@ onSessionCreate(callback: Callback<AVSessionDescriptor>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avSession } from '@kit.AVSessionKit';
@@ -505,13 +463,7 @@ onSessionDestroy(callback: Callback<AVSessionDescriptor>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avSession } from '@kit.AVSessionKit';
@@ -568,13 +520,7 @@ onTopSessionChange(callback: Callback<AVSessionDescriptor>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avSession } from '@kit.AVSessionKit';
@@ -633,13 +579,7 @@ offSessionCreate(callback?: Callback<AVSessionDescriptor>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avSession } from '@kit.AVSessionKit';
@@ -696,13 +636,7 @@ offSessionDestroy(callback?: Callback<AVSessionDescriptor>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avSession } from '@kit.AVSessionKit';
@@ -759,13 +693,7 @@ offTopSessionChange(callback?: Callback<AVSessionDescriptor>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avSession } from '@kit.AVSessionKit';
@@ -821,13 +749,7 @@ isDesktopLyricSupported(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avSession } from '@kit.AVSessionKit';

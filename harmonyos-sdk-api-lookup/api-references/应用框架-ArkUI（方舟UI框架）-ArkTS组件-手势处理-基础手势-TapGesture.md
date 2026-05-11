@@ -107,13 +107,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过TapGesture实现了双击手势的识别。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -151,13 +145,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过TapGesture获取单击手势点击位置的坐标。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

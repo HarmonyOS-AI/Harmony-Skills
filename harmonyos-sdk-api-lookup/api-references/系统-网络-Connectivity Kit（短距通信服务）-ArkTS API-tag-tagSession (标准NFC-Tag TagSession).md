@@ -12,13 +12,7 @@
 
 PhoneWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -60,13 +54,7 @@ getTagInfo(): tag.TagInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -104,13 +92,7 @@ connectTag(): boolean;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -150,13 +132,7 @@ connect(): void;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -190,13 +166,7 @@ reset(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -235,13 +205,7 @@ resetConnection(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -281,13 +245,7 @@ isTagConnected(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -331,13 +289,7 @@ isConnected(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -379,13 +331,7 @@ getMaxSendLength(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -433,13 +379,7 @@ getMaxTransmitSize(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -481,13 +421,7 @@ getSendDataTimeout(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -535,13 +469,7 @@ getTimeout(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -591,13 +519,7 @@ setSendDataTimeout(timeout: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -647,13 +569,7 @@ setTimeout(timeout: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -704,13 +620,7 @@ sendData(data: number[]): Promise<number[]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import tag from '@kit.ConnectivityKit';
@@ -764,13 +674,7 @@ sendData(data: number[], callback: AsyncCallback<number[]>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -844,13 +748,7 @@ transmit(data: number[]): Promise<number[]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -923,13 +821,7 @@ transmit(data: number[], callback: AsyncCallback<number[]>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';

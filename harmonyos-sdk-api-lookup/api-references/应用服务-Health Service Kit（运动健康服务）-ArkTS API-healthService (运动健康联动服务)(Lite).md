@@ -6,13 +6,7 @@
 
 Lite Wearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import healthService from '@hms.health.service';
@@ -293,13 +287,7 @@ config(workoutConfig: WorkoutConfig): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import healthService from '@hms.health.service'
@@ -359,13 +347,7 @@ start(): StartResult
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import healthService from '@hms.health.service'
@@ -411,13 +393,7 @@ pause(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import healthService from '@hms.health.service'
@@ -462,13 +438,7 @@ resume(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import healthService from '@hms.health.service'
@@ -512,13 +482,7 @@ stop(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import healthService from '@hms.health.service'
@@ -572,13 +536,7 @@ onData(dataType: undefined, listener: Callback<SampleReal[]>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import healthService from '@hms.health.service'
@@ -635,13 +593,7 @@ offData(dataType: undefined, listener?: Callback<SampleReal[]>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import healthService from '@hms.health.service'
@@ -697,13 +649,7 @@ sendData(sampleReal: SampleReal[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import healthService from '@hms.health.service'
@@ -762,13 +708,7 @@ load(path: String): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import healthService from '@hms.health.service'
@@ -822,13 +762,7 @@ load(path: String, callback: Callback<[DynamicLibResult](/consumer/cn/doc/harmon
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import healthService from '@hms.health.service'
@@ -898,13 +832,7 @@ unload(path: String): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import healthService from '@hms.health.service'
@@ -958,13 +886,7 @@ unload(path: String, callback: Callback<[DynamicLibResult](/consumer/cn/doc/harm
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import healthService from '@hms.health.service'

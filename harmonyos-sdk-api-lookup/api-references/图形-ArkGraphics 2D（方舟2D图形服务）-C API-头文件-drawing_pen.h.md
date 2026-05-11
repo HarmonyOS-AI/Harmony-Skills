@@ -88,13 +88,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_Drawing_PenLineCapStyle
@@ -118,13 +112,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_Drawing_PenLineJoinStyle
@@ -152,13 +140,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_Drawing_Pen* OH_Drawing_PenCreate(void)
@@ -184,13 +166,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_Drawing_Pen* OH_Drawing_PenCopy(OH_Drawing_Pen* pen)
@@ -228,13 +204,7 @@ pen为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_Drawing_PenDestroy(OH_Drawing_Pen* pen)
@@ -260,13 +230,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bool OH_Drawing_PenIsAntiAlias(const OH_Drawing_Pen* pen)
@@ -304,13 +268,7 @@ pen为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_Drawing_PenSetAntiAlias(OH_Drawing_Pen* pen, bool antiAlias)
@@ -341,13 +299,7 @@ pen为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint32_t OH_Drawing_PenGetColor(const OH_Drawing_Pen* pen)
@@ -385,13 +337,7 @@ pen为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_Drawing_PenSetColor(OH_Drawing_Pen* pen, uint32_t color)
@@ -422,13 +368,7 @@ pen为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint8_t OH_Drawing_PenGetAlpha(const OH_Drawing_Pen* pen)
@@ -466,13 +406,7 @@ pen为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_Drawing_PenSetAlpha(OH_Drawing_Pen* pen, uint8_t alpha)
@@ -503,13 +437,7 @@ pen为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. float OH_Drawing_PenGetWidth(const OH_Drawing_Pen* pen)
@@ -547,13 +475,7 @@ pen为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_Drawing_PenSetWidth(OH_Drawing_Pen* pen, float width)
@@ -584,13 +506,7 @@ pen为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. float OH_Drawing_PenGetMiterLimit(const OH_Drawing_Pen* pen)
@@ -628,13 +544,7 @@ pen为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_Drawing_PenSetMiterLimit(OH_Drawing_Pen* pen, float miter)
@@ -665,13 +575,7 @@ pen为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_Drawing_PenLineCapStyle OH_Drawing_PenGetCap(const OH_Drawing_Pen* pen)
@@ -709,13 +613,7 @@ pen为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_Drawing_PenSetCap(OH_Drawing_Pen* pen, OH_Drawing_PenLineCapStyle capStyle)
@@ -748,13 +646,7 @@ capStyle不在枚举范围内时返回OH\_DRAWING\_ERROR\_PARAMETER\_OUT\_OF\_RA
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_Drawing_PenLineJoinStyle OH_Drawing_PenGetJoin(const OH_Drawing_Pen* pen)
@@ -792,13 +684,7 @@ pen为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_Drawing_PenSetJoin(OH_Drawing_Pen* pen, OH_Drawing_PenLineJoinStyle joinStyle)
@@ -831,13 +717,7 @@ joinStyle不在枚举范围内时返回OH\_DRAWING\_ERROR\_PARAMETER\_OUT\_OF\_R
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_Drawing_PenSetShaderEffect(OH_Drawing_Pen* pen, OH_Drawing_ShaderEffect* shaderEffect)
@@ -868,13 +748,7 @@ pen为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_Drawing_PenSetShadowLayer(OH_Drawing_Pen* pen, OH_Drawing_ShadowLayer* shadowLayer)
@@ -905,13 +779,7 @@ pen为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_Drawing_PenSetPathEffect(OH_Drawing_Pen* pen, OH_Drawing_PathEffect* pathEffect)
@@ -942,13 +810,7 @@ pen为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_Drawing_PenSetFilter(OH_Drawing_Pen* pen, OH_Drawing_Filter* filter)
@@ -979,13 +841,7 @@ pen为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_Drawing_PenGetFilter(OH_Drawing_Pen* pen, OH_Drawing_Filter* filter)
@@ -1016,13 +872,7 @@ pen、filter任意一个为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_Drawing_PenSetBlendMode(OH_Drawing_Pen* pen, OH_Drawing_BlendMode blendMode)
@@ -1055,13 +905,7 @@ blendMode不在枚举范围内时返回OH\_DRAWING\_ERROR\_PARAMETER\_OUT\_OF\_R
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bool OH_Drawing_PenGetFillPath(OH_Drawing_Pen* pen, const OH_Drawing_Path* src, OH_Drawing_Path* dst,const OH_Drawing_Rect* rect, const OH_Drawing_Matrix* matrix)
@@ -1103,13 +947,7 @@ pen、src、dst任意一个为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETE
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_Drawing_PenReset(OH_Drawing_Pen* pen)
@@ -1139,13 +977,7 @@ pen为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_Drawing_ErrorCode OH_Drawing_PenSetColor4f(OH_Drawing_Pen* pen, float a, float r, float g, float b,OH_NativeColorSpaceManager* colorSpaceManager)
@@ -1188,13 +1020,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_Drawing_ErrorCode OH_Drawing_PenGetAlphaFloat(OH_Drawing_Pen* pen, float* a)
@@ -1229,13 +1055,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_Drawing_ErrorCode OH_Drawing_PenGetRedFloat(OH_Drawing_Pen* pen, float* r)
@@ -1270,13 +1090,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_Drawing_ErrorCode OH_Drawing_PenGetGreenFloat(OH_Drawing_Pen* pen, float* g)
@@ -1311,13 +1125,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_Drawing_ErrorCode OH_Drawing_PenGetBlueFloat(OH_Drawing_Pen* pen, float* b)

@@ -35,13 +35,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bool Rcp_TransferConfiguration::assumesHTTP3Capable
@@ -55,13 +49,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bool Rcp_TransferConfiguration::autoRedirect
@@ -75,13 +63,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Rcp_PathPreference Rcp_TransferConfiguration::pathPreference
@@ -95,13 +77,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Rcp_Timeout Rcp_TransferConfiguration::timeout

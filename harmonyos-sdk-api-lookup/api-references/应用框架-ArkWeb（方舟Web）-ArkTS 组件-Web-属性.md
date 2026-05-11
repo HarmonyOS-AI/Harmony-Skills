@@ -29,13 +29,7 @@ domStorageAccess(domStorageAccess: boolean)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -75,13 +69,7 @@ fileAccess(fileAccess: boolean)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -121,13 +109,7 @@ imageAccess(imageAccess: boolean)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -177,13 +159,7 @@ javaScriptProxy对象的所有参数不支持更新。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -259,13 +235,7 @@ javaScriptAccess(javaScriptAccess: boolean)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -304,13 +274,7 @@ overScrollMode(mode: OverScrollMode)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -350,13 +314,7 @@ mixedMode(mixedMode: MixedMode)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -396,13 +354,7 @@ onlineImageAccess(onlineImageAccess: boolean)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -442,13 +394,7 @@ zoomAccess(zoomAccess: boolean)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -490,13 +436,7 @@ overviewModeAccess(overviewModeAccess: boolean)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -540,13 +480,7 @@ databaseAccess(databaseAccess: boolean)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -586,13 +520,7 @@ geolocationAccess(geolocationAccess: boolean)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -632,13 +560,7 @@ mediaPlayGestureAccess(access: boolean)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -661,13 +583,7 @@ mediaPlayGestureAccess(access: boolean)
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!--index.html-->
@@ -732,13 +648,7 @@ horizontalScrollBarAccess(horizontalScrollBar: boolean)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -779,13 +689,7 @@ horizontalScrollBarAccess(horizontalScrollBar: boolean)
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!--index.html-->
@@ -835,13 +739,7 @@ verticalScrollBarAccess(verticalScrollBar: boolean)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -882,13 +780,7 @@ verticalScrollBarAccess(verticalScrollBar: boolean)
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!--index.html-->
@@ -933,13 +825,7 @@ cacheMode(cacheMode: CacheMode)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -980,13 +866,7 @@ copyOptions(value: CopyOptions)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1026,13 +906,7 @@ textZoomRatio(textZoomRatio: number)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1073,13 +947,7 @@ initialScale(percent: number)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1120,13 +988,7 @@ blockNetwork(block: boolean)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1169,13 +1031,7 @@ defaultFixedFontSize(size: number)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1218,13 +1074,7 @@ defaultFontSize(size: number)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1267,13 +1117,7 @@ minFontSize(size: number)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1321,13 +1165,7 @@ minLogicalFontSize(size: number)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1370,13 +1208,7 @@ webFixedFont(family: string)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1419,13 +1251,7 @@ webSansSerifFont(family: string)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1468,13 +1294,7 @@ webSerifFont(family: string)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1517,13 +1337,7 @@ webStandardFont(family: string)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1566,13 +1380,7 @@ webFantasyFont(family: string)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1614,13 +1422,7 @@ webCursiveFont(family: string)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1663,13 +1465,7 @@ darkMode(mode: WebDarkMode)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1710,13 +1506,7 @@ forceDarkAccess(access: boolean)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1759,13 +1549,7 @@ pinchSmooth(isEnabled: boolean)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1812,13 +1596,7 @@ allowWindowOpenMethod(flag: boolean)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1885,13 +1663,7 @@ allowWindowOpenMethod(flag: boolean)
 
 **HTML示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -1941,13 +1713,7 @@ mediaOptions(options: WebMediaOptions)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1995,13 +1761,7 @@ javaScriptOnDocumentStart(scripts: Array<ScriptItem>)
 
 **ets示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2035,13 +1795,7 @@ javaScriptOnDocumentStart(scripts: Array<ScriptItem>)
 
 **HTML示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -2093,13 +1847,7 @@ javaScriptOnDocumentEnd(scripts: Array<ScriptItem>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2129,13 +1877,7 @@ javaScriptOnDocumentEnd(scripts: Array<ScriptItem>)
 25. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!--index.html-->
@@ -2178,13 +1920,7 @@ runJavaScriptOnDocumentStart(scripts: Array<ScriptItem>)
 
 **ets示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2221,13 +1957,7 @@ runJavaScriptOnDocumentStart(scripts: Array<ScriptItem>)
 
 **HTML示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -2279,13 +2009,7 @@ runJavaScriptOnDocumentEnd(scripts: Array<ScriptItem>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2317,13 +2041,7 @@ runJavaScriptOnDocumentEnd(scripts: Array<ScriptItem>)
 27. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!--index.html-->
@@ -2364,13 +2082,7 @@ runJavaScriptOnHeadEnd(scripts: Array<ScriptItem>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2402,13 +2114,7 @@ runJavaScriptOnHeadEnd(scripts: Array<ScriptItem>)
 27. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!--index.html-->
@@ -2460,13 +2166,7 @@ Web组件高度基于前端页面自适应布局有如下限制：
 
 1、指明layoutMode为WebLayoutMode.FIT\_CONTENT模式，为避免默认渲染模式下(RenderMode.ASYNC\_RENDER)视口高度超过7680px导致页面渲染出错，需要显式指明渲染模式(RenderMode.SYNC\_RENDER)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2489,13 +2189,7 @@ Web组件高度基于前端页面自适应布局有如下限制：
 
 2、指明layoutMode为WebLayoutMode.FIT\_CONTENT模式，为避免嵌套滚动场景下，Web滚动到边缘时会优先触发过滚动的过界回弹效果影响用户体验，建议指定[overScrollMode](/consumer/cn/doc/harmonyos-references/arkts-basic-components-web-attributes#overscrollmode11)为OverScrollMode.NEVER。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2545,13 +2239,7 @@ nestedScroll(value: NestedScrollOptions | NestedScrollOptionsExt)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2573,13 +2261,7 @@ nestedScroll(value: NestedScrollOptions | NestedScrollOptionsExt)
 17. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2612,13 +2294,7 @@ nestedScroll(value: NestedScrollOptions | NestedScrollOptionsExt)
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -2673,13 +2349,7 @@ bypassVsyncCondition(condition: WebBypassVsyncCondition)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2724,13 +2394,7 @@ enableNativeEmbedMode(enabled: boolean)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2771,13 +2435,7 @@ forceDisplayScrollBar(enabled: boolean)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2799,13 +2457,7 @@ forceDisplayScrollBar(enabled: boolean)
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!--index.html-->
@@ -2857,13 +2509,7 @@ registerNativeEmbedRule(tag: string, type: string)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2968,13 +2614,7 @@ registerNativeEmbedRule(tag: string, type: string)
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!--index.html-->
@@ -3015,13 +2655,7 @@ defaultTextEncodingFormat(textEncodingFormat: string)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3046,13 +2680,7 @@ defaultTextEncodingFormat(textEncodingFormat: string)
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!--index.html-->
@@ -3094,13 +2722,7 @@ metaViewport(enabled: boolean)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3122,13 +2744,7 @@ metaViewport(enabled: boolean)
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!--index.html-->
@@ -3175,13 +2791,7 @@ textAutosizing(textAutosizing: boolean)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3221,13 +2831,7 @@ enableNativeMediaPlayer(config: NativeMediaPlayerConfig)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3267,13 +2871,7 @@ onAdsBlocked(callback: OnAdsBlockedCallback)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3323,13 +2921,7 @@ Web组件自定义软件键盘避让模式。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3352,13 +2944,7 @@ Web组件自定义软件键盘避让模式。
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!--index.html-->
@@ -3403,13 +2989,7 @@ editMenuOptions(editMenu: EditMenuOptions)
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3512,13 +3092,7 @@ editMenuOptions(editMenu: EditMenuOptions)
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!--index.html-->
@@ -3563,13 +3137,7 @@ enableHapticFeedback(enabled: boolean)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3591,13 +3159,7 @@ enableHapticFeedback(enabled: boolean)
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!--index.html-->
@@ -3636,13 +3198,7 @@ bindSelectionMenu(elementType: WebElementType, content: CustomBuilder, responseT
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3866,13 +3422,7 @@ bindSelectionMenu(elementType: WebElementType, content: CustomBuilder, responseT
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!--index.html-->
@@ -3988,13 +3538,7 @@ blurOnKeyboardHideMode(mode: BlurOnKeyboardHideMode)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4016,13 +3560,7 @@ blurOnKeyboardHideMode(mode: BlurOnKeyboardHideMode)
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!--index.html-->
@@ -4068,13 +3606,7 @@ enableFollowSystemFontWeight(follow: boolean)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4119,13 +3651,7 @@ ArkWeb内核在解析HTML文档结构时采取分段解析策略，旨在避免�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4164,13 +3690,7 @@ enableWebAVSession(enabled: boolean)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4191,13 +3711,7 @@ enableWebAVSession(enabled: boolean)
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!--index.html-->
@@ -4236,13 +3750,7 @@ nativeEmbedOptions(options?: EmbedOptions)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4266,13 +3774,7 @@ nativeEmbedOptions(options?: EmbedOptions)
 
 加载的html文件
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -4299,13 +3801,7 @@ enableDataDetector(enable: boolean)
 
 当enableDataDetector设置为true，同时不设置[dataDetectorConfig](/consumer/cn/doc/harmonyos-references/arkts-basic-components-web-attributes#datadetectorconfig20)属性时，默认识别所有类型的实体，所识别实体的color和decoration会被更改为如下样式：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. color: '#ff0a59f7',
@@ -4338,13 +3834,7 @@ AI菜单生效时，需在选中范围内，包括一个完整的AI实体，才�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4366,13 +3856,7 @@ AI菜单生效时，需在选中范围内，包括一个完整的AI实体，才�
 
 加载的html文件
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -4423,13 +3907,7 @@ TextDataDetectorConfig中的onDetectResultUpdate在Web组件中不支持，设�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4463,13 +3941,7 @@ TextDataDetectorConfig中的onDetectResultUpdate在Web组件中不支持，设�
 
 加载的html文件
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -4518,13 +3990,7 @@ AI菜单生效时，需在选中范围内，包括一个完整的AI实体，才�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4546,13 +4012,7 @@ AI菜单生效时，需在选中范围内，包括一个完整的AI实体，才�
 
 加载的html文件
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -4588,13 +4048,7 @@ gestureFocusMode(mode: GestureFocusMode)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4616,13 +4070,7 @@ gestureFocusMode(mode: GestureFocusMode)
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!--index.html-->
@@ -4657,13 +4105,7 @@ rotateRenderEffect(effect: WebRotateEffect)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4685,13 +4127,7 @@ rotateRenderEffect(effect: WebRotateEffect)
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!--index.html-->
@@ -4726,13 +4162,7 @@ forceEnableZoom(enable: boolean)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4754,13 +4184,7 @@ forceEnableZoom(enable: boolean)
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!--index.html-->
@@ -4797,13 +4221,7 @@ backToTop(backToTop: boolean)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4825,13 +4243,7 @@ backToTop(backToTop: boolean)
 
 加载的html文件：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -4895,13 +4307,7 @@ blankScreenDetectionConfig(detectConfig: BlankScreenDetectionConfig)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // blankScreenDetectionConfig.ets
@@ -4958,13 +4364,7 @@ enableImageAnalyzer(enable: boolean)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4986,13 +4386,7 @@ enableImageAnalyzer(enable: boolean)
 
 加载的html文件：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -5043,13 +4437,7 @@ enableAutoFill(value: boolean)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -5071,13 +4459,7 @@ enableAutoFill(value: boolean)
 
 加载的html文件：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -5131,13 +4513,7 @@ enableDefaultContextMenu(enable: boolean)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -5203,13 +4579,7 @@ textZoomAtio(textZoomAtio: number)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -5251,13 +4621,7 @@ userAgent(userAgent: string)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -5348,13 +4712,7 @@ Web组件自定义菜单扩展项接口，允许用户设置扩展项的文本�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -5384,13 +4742,7 @@ Web组件自定义菜单扩展项接口，允许用户设置扩展项的文本�
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!--index.html-->
@@ -5428,13 +4780,7 @@ zoomControlAccess(zoomControlAccess: boolean)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -5456,13 +4802,7 @@ zoomControlAccess(zoomControlAccess: boolean)
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!--index.html-->

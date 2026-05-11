@@ -23,13 +23,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { filePreview } from '@kit.PreviewKit';
@@ -120,13 +114,7 @@ openPreview(context: Context, file: PreviewInfo, info?: DisplayInfo): Promise<vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -188,13 +176,7 @@ openPreview(context: Context, file: PreviewInfo, info: DisplayInfo, callback: As
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { filePreview } from '@kit.PreviewKit';
@@ -267,13 +249,7 @@ openPreview(context: Context, files: Array<PreviewInfo>, index?: number): Promis
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -337,13 +313,7 @@ canPreview(context: Context, uri: string): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -359,13 +329,7 @@ canPreview(context: Context, uri: string): Promise<boolean>
 11. })
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -417,13 +381,7 @@ canPreview(context: Context, uri: string, callback: AsyncCallback<boolean>): voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { filePreview } from '@kit.PreviewKit';
@@ -440,13 +398,7 @@ canPreview(context: Context, uri: string, callback: AsyncCallback<boolean>): voi
 12. });
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { filePreview } from '@kit.PreviewKit';
@@ -503,13 +455,7 @@ hasDisplayed(context: Context): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -524,13 +470,7 @@ hasDisplayed(context: Context): Promise<boolean>
 10. });
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -578,13 +518,7 @@ hasDisplayed(context: Context, callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { filePreview } from '@kit.PreviewKit';
@@ -600,13 +534,7 @@ hasDisplayed(context: Context, callback: AsyncCallback<boolean>): void
 11. });
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { filePreview } from '@kit.PreviewKit';
@@ -662,13 +590,7 @@ closePreview(context: Context): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -715,13 +637,7 @@ closePreview(context: Context, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { filePreview } from '@kit.PreviewKit';
@@ -777,13 +693,7 @@ loadData(context: Context, file: PreviewInfo): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -836,13 +746,7 @@ loadData(context: Context, file: PreviewInfo, callback: AsyncCallback<void>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { filePreview } from '@kit.PreviewKit';
@@ -907,13 +811,7 @@ loadData(context: Context, files: Array<PreviewInfo>, index?: number): Promise<v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

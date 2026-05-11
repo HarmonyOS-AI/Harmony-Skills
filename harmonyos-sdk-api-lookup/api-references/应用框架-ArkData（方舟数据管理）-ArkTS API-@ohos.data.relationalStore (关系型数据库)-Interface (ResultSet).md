@@ -12,13 +12,7 @@ ResultSet实例不会实时刷新。使用结果集后，如果数据库中的�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { relationalStore } from '@kit.ArkData';
@@ -85,13 +79,7 @@ getColumnNames(): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -162,13 +150,7 @@ getColumnIndex(columnName: string): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. if (resultSet != undefined) {
@@ -236,13 +218,7 @@ getColumnName(columnIndex: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. if (resultSet != undefined) {
@@ -310,13 +286,7 @@ getColumnType(columnIdentifier: number | string): Promise<ColumnType>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. if (resultSet != undefined) {
@@ -390,13 +360,7 @@ getColumnTypeSync(columnIdentifier: number | string): ColumnType
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. if (resultSet != undefined) {
@@ -469,13 +433,7 @@ goTo(offset:number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. if (resultSet != undefined) {
@@ -540,13 +498,7 @@ goToRow(position: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. if (resultSet != undefined) {
@@ -602,13 +554,7 @@ goToFirstRow(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. if (resultSet != undefined) {
@@ -664,13 +610,7 @@ goToLastRow(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. if (resultSet != undefined) {
@@ -726,13 +666,7 @@ goToNextRow(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. if (resultSet != undefined) {
@@ -788,13 +722,7 @@ goToPreviousRow(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. if (resultSet != undefined) {
@@ -859,13 +787,7 @@ getValue(columnIndex: number): ValueType
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. if (resultSet !== undefined) {
@@ -936,13 +858,7 @@ getBlob(columnIndex: number): Uint8Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. if (resultSet != undefined) {
@@ -1007,13 +923,7 @@ getString(columnIndex: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. if (resultSet != undefined) {
@@ -1078,13 +988,7 @@ getLong(columnIndex: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. if (resultSet !== undefined) {
@@ -1155,13 +1059,7 @@ getDouble(columnIndex: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. if (resultSet !== undefined) {
@@ -1232,13 +1130,7 @@ getAsset(columnIndex: number): Asset
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. if (resultSet != undefined) {
@@ -1303,13 +1195,7 @@ getAssets(columnIndex: number): Assets
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. if (resultSet != undefined) {
@@ -1365,13 +1251,7 @@ getRow(): ValuesBucket
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. if (resultSet != undefined) {
@@ -1434,13 +1314,7 @@ getRows(maxCount: number, position?: number): Promise<Array<ValuesBucket>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 以查到100条数据为例
@@ -1509,13 +1383,7 @@ getCurrentRowData(): RowData
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -1580,13 +1448,7 @@ getRowsData(maxCount: number, position?: number): Promise<RowsData>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -1677,13 +1539,7 @@ getSendableRow(): sendableRelationalStore.ValuesBucket
 
 示例代码中this.context定义见Stage模型的应用[Context](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-inner-application-context)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { window } from '@kit.ArkUI';
@@ -1785,13 +1641,7 @@ isColumnNull(columnIndex: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. if (resultSet !== undefined) {
@@ -1817,13 +1667,7 @@ close(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. if (resultSet != undefined) {

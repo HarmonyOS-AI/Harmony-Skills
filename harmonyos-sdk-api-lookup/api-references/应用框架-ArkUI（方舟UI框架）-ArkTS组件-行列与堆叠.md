@@ -1,5 +1,0 @@
-* **[Flex](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-container-flex)**
-* **[Column](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-container-column)**
-* **[Row](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-container-row)**
-* **[Stack](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-container-stack)**
-* **[RelativeContainer](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-container-relativecontainer)**

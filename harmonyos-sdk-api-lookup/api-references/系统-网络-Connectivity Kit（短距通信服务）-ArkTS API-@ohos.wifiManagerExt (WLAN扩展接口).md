@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManagerExt } from '@kit.ConnectivityKit';
@@ -52,13 +46,7 @@ enableHotspot(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManagerExt } from '@kit.ConnectivityKit';
@@ -100,13 +88,7 @@ disableHotspot(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManagerExt } from '@kit.ConnectivityKit';
@@ -200,13 +182,7 @@ getSupportedPowerMode(callback: AsyncCallback<Array<PowerMode>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManagerExt } from '@kit.ConnectivityKit';
@@ -254,13 +230,7 @@ getPowerMode(): Promise<PowerMode>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManagerExt } from '@kit.ConnectivityKit';
@@ -312,13 +282,7 @@ getPowerMode(callback: AsyncCallback<PowerMode>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManagerExt } from '@kit.ConnectivityKit';
@@ -376,13 +340,7 @@ setPowerMode(mode: PowerMode) : void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManagerExt } from '@kit.ConnectivityKit';

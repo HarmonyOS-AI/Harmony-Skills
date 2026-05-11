@@ -18,13 +18,7 @@ Stack和[Queue](https://developer.huawei.com/consumer/cn/doc/harmonyos-reference
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Stack } from '@kit.ArkTS';
@@ -72,13 +66,7 @@ Stack的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let stack = new Stack<number | string | Object>();
@@ -124,13 +112,7 @@ push(item: T): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class C1 {
@@ -177,13 +159,7 @@ pop(): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let stack = new Stack<number>();
@@ -228,13 +204,7 @@ peek(): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let stack = new Stack<number>();
@@ -286,13 +256,7 @@ locate(element: T): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let stack = new Stack<number>();
@@ -348,13 +312,7 @@ callbackFn的参数说明：
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let stack = new Stack<number>();
@@ -403,13 +361,7 @@ isEmpty(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let stack = new Stack<number>();
@@ -453,13 +405,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let stack = new Stack<number>();

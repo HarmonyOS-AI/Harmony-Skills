@@ -6,13 +6,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from '@kit.ImageKit';
@@ -58,13 +52,7 @@ createPicture(mainPixelmap : PixelMap): Picture
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function CreatePicture(context: Context) {
@@ -125,13 +113,7 @@ createPictureFromParcel(sequence: rpc.MessageSequence): Picture
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -217,13 +199,7 @@ createPixelMap(colors: ArrayBuffer, options: InitializationOptions): Promise<Pix
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -268,13 +244,7 @@ createPixelMap(colors: ArrayBuffer, options: InitializationOptions, callback: As
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -342,13 +312,7 @@ createPixelMapUsingAllocator(colors: ArrayBuffer, param: InitializationOptions, 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -417,13 +381,7 @@ createPixelMapFromParcel(sequence: rpc.MessageSequence): PixelMap
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -528,13 +486,7 @@ createPixelMapFromSurface(surfaceId: string, region: Region): Promise<PixelMap>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -596,13 +548,7 @@ createPixelMapFromSurfaceSync(surfaceId: string, region: Region): PixelMap
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function Demo(surfaceId: string) {
@@ -654,13 +600,7 @@ createPixelMapFromSurface(surfaceId: string): Promise<PixelMap>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -716,13 +656,7 @@ createPixelMapFromSurfaceSync(surfaceId: string): PixelMap
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function CreatePixelMapFromSurfaceSync(surfaceId: string) {
@@ -775,13 +709,7 @@ createPixelMapFromSurfaceWithTransformation(surfaceId: string, transformEnabled:
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function DemoCreatePixelMapFromSurfaceWithTransformation(surfaceId: string, transformEnabled: boolean) {
@@ -837,13 +765,7 @@ createPixelMapFromSurfaceWithTransformationSync(surfaceId: string, transformEnab
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -900,13 +822,7 @@ createPixelMapSync(colors: ArrayBuffer, options: InitializationOptions): PixelMa
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function CreatePixelMapSync() {
@@ -962,13 +878,7 @@ createPixelMapSync(options: InitializationOptions): PixelMap
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function CreatePixelMapSync() {
@@ -1022,13 +932,7 @@ createPixelMapUsingAllocatorSync(colors: ArrayBuffer, param: InitializationOptio
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function CreatePixelMapSync() {
@@ -1086,13 +990,7 @@ createPixelMapUsingAllocatorSync(param: InitializationOptions, allocatorType?: A
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function CreatePixelMapSync() {
@@ -1139,13 +1037,7 @@ createPremultipliedPixelMap(src: PixelMap, dst: PixelMap, callback: AsyncCallbac
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1218,13 +1110,7 @@ createPremultipliedPixelMap(src: PixelMap, dst: PixelMap): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1287,13 +1173,7 @@ createUnpremultipliedPixelMap(src: PixelMap, dst: PixelMap, callback: AsyncCallb
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1366,13 +1246,7 @@ createUnpremultipliedPixelMap(src: PixelMap, dst: PixelMap): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1430,13 +1304,7 @@ createImageSource(uri: string): ImageSource
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function CreateImageSource(context : Context) {
@@ -1481,13 +1349,7 @@ createImageSource(uri: string, options: SourceOptions): ImageSource
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function CreateImageSource(context : Context) {
@@ -1530,13 +1392,7 @@ createImageSource(fd: number): ImageSource
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileIo } from '@kit.CoreFileKit';
@@ -1584,13 +1440,7 @@ createImageSource(fd: number, options: SourceOptions): ImageSource
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileIo } from '@kit.CoreFileKit';
@@ -1638,13 +1488,7 @@ createImageSource(buf: ArrayBuffer): ImageSource
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function CreateImageSource() {
@@ -1688,13 +1532,7 @@ createImageSource(buf: ArrayBuffer, options: SourceOptions): ImageSource
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function CreateImageSource() {
@@ -1737,13 +1575,7 @@ createImageSource(rawfile: resourceManager.RawFileDescriptor, options?: SourceOp
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { resourceManager } from '@kit.LocalizationKit';
@@ -1800,13 +1632,7 @@ CreateIncrementalSource(buf: ArrayBuffer): ImageSource
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1864,13 +1690,7 @@ CreateIncrementalSource(buf: ArrayBuffer, options?: SourceOptions): ImageSource
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1917,13 +1737,7 @@ getImageSourceSupportedFormats(): string[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function GetImageSourceSupportedFormats() {
@@ -1961,13 +1775,7 @@ createImagePacker(): ImagePacker
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function CreateImagePacker() {
@@ -1995,13 +1803,7 @@ getImagePackerSupportedFormats(): string[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function GetImagePackerSupportedFormats() {
@@ -2052,13 +1854,7 @@ createAuxiliaryPicture(buffer: ArrayBuffer, size: Size, type: AuxiliaryPictureTy
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function CreateAuxiliaryPicture(context: Context) {
@@ -2130,13 +1926,7 @@ createAuxiliaryPictureUsingAllocator(auxiliaryPictureInfo: AuxiliaryPictureInfo,
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from '@kit.ImageKit';
@@ -2193,13 +1983,7 @@ createImageReceiver(size: Size, format: ImageFormat, capacity: number): ImageRec
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let size: image.Size = {
@@ -2251,13 +2035,7 @@ createImageReceiver(options?: ImageReceiverOptions): ImageReceiver | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let options: image.ImageReceiverOptions = {
@@ -2309,13 +2087,7 @@ createImageCreator(size: Size, format: ImageFormat, capacity: number): ImageCrea
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let size: image.Size = {
@@ -2362,13 +2134,7 @@ createImageReceiver(width: number, height: number, format: number, capacity: num
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let receiver: image.ImageReceiver = image.createImageReceiver(8192, 8192, image.ImageFormat.JPEG, 8);
@@ -2411,13 +2177,7 @@ createImageCreator(width: number, height: number, format: number, capacity: numb
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let creator: image.ImageCreator = image.createImageCreator(8192, 8192, image.ImageFormat.JPEG, 8);

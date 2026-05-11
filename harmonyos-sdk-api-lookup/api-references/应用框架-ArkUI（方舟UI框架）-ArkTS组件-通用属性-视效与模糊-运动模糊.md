@@ -121,13 +121,7 @@ PhonePC/2in1TabletTVWearable
 
 属性动画状态下添加运动模糊效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

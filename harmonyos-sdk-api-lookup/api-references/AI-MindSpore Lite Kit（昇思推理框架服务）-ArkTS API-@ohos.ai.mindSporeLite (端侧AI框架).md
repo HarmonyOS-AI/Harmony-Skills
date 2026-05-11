@@ -11,13 +11,7 @@ MindSpore Lite是一个轻量化、高性能的端侧AI引擎，提供了标准�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { mindSporeLite } from '@kit.MindSporeLiteKit';
@@ -44,13 +38,7 @@ loadModelFromFile(model: string, callback: Callback<Model>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let modelFile: string = '/path/to/xxx.ms';
@@ -86,13 +74,7 @@ loadModelFromFile(model: string, context: Context, callback: Callback<Model>): v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let context: mindSporeLite.Context = {};
@@ -137,13 +119,7 @@ loadModelFromFile(model: string, context?: Context): Promise<Model>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let modelFile = '/path/to/xxx.ms';
@@ -178,13 +154,7 @@ loadModelFromBuffer(model: ArrayBuffer, callback: Callback<Model>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -230,13 +200,7 @@ loadModelFromBuffer(model: ArrayBuffer, context: Context, callback: Callback<Mod
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -291,13 +255,7 @@ loadModelFromBuffer(model: ArrayBuffer, context?: Context): Promise<Model>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -342,13 +300,7 @@ loadModelFromFd(model: number, callback: Callback<Model>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileIo } from '@kit.CoreFileKit';
@@ -387,13 +339,7 @@ loadModelFromFd(model: number, context: Context, callback: Callback<Model>): voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileIo } from '@kit.CoreFileKit';
@@ -441,13 +387,7 @@ loadModelFromFd(model: number, context?: Context): Promise<Model>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileIo } from '@kit.CoreFileKit';
@@ -494,13 +434,7 @@ loadTrainModelFromFile(model: string, trainCfg?: TrainCfg, context?: Context): P
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let modelFile = '/path/to/xxx.ms';
@@ -544,13 +478,7 @@ loadTrainModelFromBuffer(model: ArrayBuffer, trainCfg?: TrainCfg, context?: Cont
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -603,13 +531,7 @@ loadTrainModelFromFd(model: number, trainCfg?: TrainCfg, context?: Context): Pro
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileIo } from '@kit.CoreFileKit';
@@ -641,13 +563,7 @@ getAllNNRTDeviceDescriptions() : NNRTDeviceDescription[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let allDevices = mindSporeLite.getAllNNRTDeviceDescriptions();
@@ -674,13 +590,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let context: mindSporeLite.Context = {};
@@ -708,13 +618,7 @@ CPU后端设备选项。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let context: mindSporeLite.Context = {};
@@ -837,13 +741,7 @@ deviceID() : bigint
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let context: mindSporeLite.Context = {};
@@ -879,13 +777,7 @@ deviceType() : NNRTDeviceType
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let context: mindSporeLite.Context = {};
@@ -921,13 +813,7 @@ deviceName() : string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let context: mindSporeLite.Context = {};
@@ -977,13 +863,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let cfg: mindSporeLite.TrainCfg = {};
@@ -1065,13 +945,7 @@ getInputs(): MSTensor[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let modelFile = '/path/to/xxx.ms';
@@ -1106,13 +980,7 @@ predict(inputs: MSTensor[], callback: Callback<MSTensor[]>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -1171,13 +1039,7 @@ predict(inputs: MSTensor[]): Promise<MSTensor[]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -1236,13 +1098,7 @@ resize(inputs: MSTensor[], dims: Array<Array<number>>): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let modelFile = '/path/to/xxx.ms';
@@ -1281,13 +1137,7 @@ runStep(inputs: MSTensor[]): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let modelFile = '/path/to/xxx.ms';
@@ -1321,13 +1171,7 @@ getWeights(): MSTensor[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -1387,13 +1231,7 @@ updateWeights(weights: MSTensor[]): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -1451,13 +1289,7 @@ setupVirtualBatch(virtualBatchMultiplier: number, lr: number, momentum: number):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -1515,13 +1347,7 @@ exportModel(modelFile: string, quantizationType?: QuantizationType, exportInfere
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let modelFile = '/path/to/xxx.ms';
@@ -1568,13 +1394,7 @@ exportWeightsCollaborateWithMicro(weightFile: string, isInference?: boolean, ena
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let modelFile = '/path/to/xxx.ms';
@@ -1614,13 +1434,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let modelFile = '/path/to/xxx.ms';
@@ -1655,13 +1469,7 @@ getData(): ArrayBuffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -1711,13 +1519,7 @@ setData(inputArray: ArrayBuffer): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';

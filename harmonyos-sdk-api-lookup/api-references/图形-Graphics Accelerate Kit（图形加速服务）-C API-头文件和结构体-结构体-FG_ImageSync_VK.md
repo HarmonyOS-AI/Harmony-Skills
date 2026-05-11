@@ -34,13 +34,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkAccessFlagBits FG_ImageSync_VK::accessMask
@@ -54,13 +48,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkImageLayout FG_ImageSync_VK::layout
@@ -74,13 +62,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkPipelineStageFlagBits FG_ImageSync_VK::stages

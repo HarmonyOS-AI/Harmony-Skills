@@ -8,13 +8,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { textToSpeech } from '@kit.CoreSpeechKit';
@@ -58,13 +52,7 @@ createEngine(createEngineParams: CreateEngineParams, callback: AsyncCallback<Tex
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -145,13 +133,7 @@ createEngine(createEngineParams: CreateEngineParams): Promise<TextToSpeechEngine
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -228,13 +210,7 @@ listVoices(queryParams: VoiceQuery): Promise<VoiceInfo[]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -304,13 +280,7 @@ downloadVoice(downloadParams: VoiceDownload, callback: AsyncCallback<DownloadRes
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError, Callback, ErrorCallback } from '@kit.BasicServicesKit';
@@ -447,13 +417,7 @@ listVoices(params: VoiceQuery, callback: AsyncCallback<Array<VoiceInfo>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -529,13 +493,7 @@ listVoices(params: VoiceQuery): Promise<Array<VoiceInfo>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -591,13 +549,7 @@ setListener(listener: SpeakListener): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { textToSpeech } from '@kit.CoreSpeechKit';
@@ -677,13 +629,7 @@ speak(text: string, speakParams: SpeakParams): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { textToSpeech } from '@kit.CoreSpeechKit';
@@ -736,13 +682,7 @@ stop(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { textToSpeech } from '@kit.CoreSpeechKit';
@@ -811,13 +751,7 @@ isBusy(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { textToSpeech } from '@kit.CoreSpeechKit';
@@ -879,13 +813,7 @@ shutdown(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { textToSpeech } from '@kit.CoreSpeechKit';
@@ -967,13 +895,7 @@ onStart(requestId: string, response: StartResponse): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { textToSpeech } from '@kit.CoreSpeechKit';
@@ -1042,13 +964,7 @@ onStop(requestId: string, response: StopResponse): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { textToSpeech } from '@kit.CoreSpeechKit';
@@ -1121,13 +1037,7 @@ onData 可能并未返回完毕，请继续接收 onData 回调。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { textToSpeech } from '@kit.CoreSpeechKit';
@@ -1199,13 +1109,7 @@ onData?: OnDataCallback
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { textToSpeech } from '@kit.CoreSpeechKit';
@@ -1275,13 +1179,7 @@ onError(requestId: string, errorCode: number, errorMessage: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { textToSpeech } from '@kit.CoreSpeechKit';
@@ -1372,13 +1270,7 @@ PhonePC/2in1Tablet
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { textToSpeech } from '@kit.CoreSpeechKit';
@@ -1424,13 +1316,7 @@ PhonePC/2in1Tablet
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { textToSpeech } from '@kit.CoreSpeechKit';
@@ -1476,13 +1362,7 @@ PhonePC/2in1Tablet
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { textToSpeech } from '@kit.CoreSpeechKit';
@@ -1541,13 +1421,7 @@ on(type: 'start', callback: Callback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 定义函数
@@ -1587,13 +1461,7 @@ on(type: 'progress', callback: Callback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 定义函数
@@ -1633,13 +1501,7 @@ on(type: 'complete', callback: Callback<VoiceInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { textToSpeech } from '@kit.CoreSpeechKit';
@@ -1684,13 +1546,7 @@ on(type: 'cancel', callback: Callback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 定义函数
@@ -1730,13 +1586,7 @@ on(type: 'error', callback: ErrorCallback<BusinessError>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError, ErrorCallback } from '@kit.BasicServicesKit';
@@ -1777,13 +1627,7 @@ off(type: 'start', callback?: Callback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 定义函数
@@ -1823,13 +1667,7 @@ off(type: 'progress', callback?: Callback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 定义函数
@@ -1869,13 +1707,7 @@ off(type: 'complete', callback?: Callback<VoiceInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { textToSpeech } from '@kit.CoreSpeechKit';
@@ -1916,13 +1748,7 @@ off(type: 'cancel', callback?: Callback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 定义函数
@@ -1962,13 +1788,7 @@ off(type: 'error', callback?: ErrorCallback<BusinessError>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError, ErrorCallback } from '@kit.BasicServicesKit';
@@ -2005,13 +1825,7 @@ PhonePC/2in1Tablet
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { textToSpeech } from '@kit.CoreSpeechKit';

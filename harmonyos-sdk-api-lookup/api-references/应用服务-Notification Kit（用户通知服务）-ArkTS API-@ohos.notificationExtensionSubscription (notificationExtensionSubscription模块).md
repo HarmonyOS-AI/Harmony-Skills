@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { notificationExtensionSubscription } from '@kit.NotificationKit';
@@ -64,13 +58,7 @@ openSubscriptionSettings(context: UIAbilityContext): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -132,13 +120,7 @@ subscribe(info: NotificationExtensionSubscriptionInfo[]): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let infos: notificationExtensionSubscription.NotificationExtensionSubscriptionInfo[] = [
@@ -188,13 +170,7 @@ unsubscribe(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. notificationExtensionSubscription.unsubscribe().then(() => {
@@ -238,13 +214,7 @@ getSubscribeInfo(): Promise<NotificationExtensionSubscriptionInfo[]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. notificationExtensionSubscription.getSubscribeInfo().then((data: notificationExtensionSubscription.NotificationExtensionSubscriptionInfo[]) => {
@@ -288,13 +258,7 @@ isUserGranted(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. notificationExtensionSubscription.isUserGranted().then((isOpen: boolean) => {
@@ -342,13 +306,7 @@ getUserGrantedEnabledBundles(): Promise<GrantedBundleInfo[]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. notificationExtensionSubscription.getUserGrantedEnabledBundles().then((data: notificationExtensionSubscription.GrantedBundleInfo[]) => {

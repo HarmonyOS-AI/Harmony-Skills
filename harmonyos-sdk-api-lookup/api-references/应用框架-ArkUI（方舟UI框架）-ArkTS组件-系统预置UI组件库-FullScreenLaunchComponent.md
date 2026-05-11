@@ -12,13 +12,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FullScreenLaunchComponent } from '@kit.ArkUI';
@@ -79,13 +73,7 @@ FullScreenLaunchComponent组件需要由使用方调用。在提供方完成本�
 
 **使用方**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 使用方入口界面Index.ets内容如下:
@@ -135,13 +123,7 @@ FullScreenLaunchComponent组件需要由使用方调用。在提供方完成本�
 
 * 提供方入口文件：/src/main/ets/entryability/EntryAbility.ets。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, Want, EmbeddableUIAbility } from '@kit.AbilityKit';
@@ -184,13 +166,7 @@ FullScreenLaunchComponent组件需要由使用方调用。在提供方完成本�
 
 * 提供方扩展Ability入口页面文件：/src/main/ets/pages/Index.ets。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

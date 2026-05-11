@@ -219,13 +219,7 @@ PhonePC/2in1TabletTVWearable
 
 本示例通过alignRules接口实现了以容器和容器内组件作为锚点进行布局的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -312,13 +306,7 @@ PhonePC/2in1TabletTVWearable
 
 本示例展示容器内子组件设置外边距的方法。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -396,13 +384,7 @@ PhonePC/2in1TabletTVWearable
 
 本示例展示了容器大小适应内容（声明width或height为"auto"）的用法。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -474,13 +456,7 @@ PhonePC/2in1TabletTVWearable
 
 本示例通过[bias](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-types#bias对象说明)实现了子组件的位置在垂直方向的两个锚点间偏移的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -517,13 +493,7 @@ PhonePC/2in1TabletTVWearable
 
 本示例展示了相对布局组件通过[guideLine](/consumer/cn/doc/harmonyos-references/ts-container-relativecontainer#guideline12)接口设置辅助线，子组件以辅助线为锚点的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -560,13 +530,7 @@ PhonePC/2in1TabletTVWearable
 
 本示例展示了相对布局组件通过[barrier](/consumer/cn/doc/harmonyos-references/ts-container-relativecontainer#barrier12)接口设置屏障，子组件以屏障为锚点的用法。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -641,13 +605,7 @@ PhonePC/2in1TabletTVWearable
 
 本示例通过[chainMode](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-location#chainmode12)接口从上至下分别实现了水平方向的[SPREAD链，SPREAD\_INSIDE链和PACKED链](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-location#chainstyle12)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -800,13 +758,7 @@ PhonePC/2in1TabletTVWearable
 
 本示例通过[chainMode](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-location#chainmode12)和[bias](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-types#bias对象说明)接口实现了水平方向的带偏移的[PACKED链](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-location#chainstyle12)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -874,13 +826,7 @@ PhonePC/2in1TabletTVWearable
 
 本示例展示了在镜像模式（direction声明Direction.Rtl）下以屏障为锚点时使用[LocalizedAlignRuleOptions](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-location#localizedalignruleoptions12对象说明)和[LocalizedBarrierDirection](/consumer/cn/doc/harmonyos-references/ts-container-relativecontainer#localizedbarrierdirection12枚举说明)设置对齐方式的用法。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -956,13 +902,7 @@ PhonePC/2in1TabletTVWearable
 
 本示例展示了链中节点使用[chainWeight](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-location#chainweight14)设置尺寸权重的用法。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry

@@ -33,13 +33,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Rcp_GetDataCallback Rcp_ContentOrPathOrCallback::callback
@@ -53,13 +47,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Rcp_Buffer Rcp_ContentOrPathOrCallback::content
@@ -73,13 +61,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. char Rcp_ContentOrPathOrCallback::path[RCP_MAX_PATH_LEN]
@@ -93,13 +75,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Rcp_ContentOrPathOrCallbackType Rcp_ContentOrPathOrCallback::type

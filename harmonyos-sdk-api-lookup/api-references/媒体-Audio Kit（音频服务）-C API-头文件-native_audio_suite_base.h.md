@@ -98,13 +98,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_AudioNode_Type
@@ -138,13 +132,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_AudioSuite_PipelineWorkMode
@@ -167,13 +155,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_AudioSuite_PipelineState
@@ -196,13 +178,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_AudioSuite_Result
@@ -237,13 +213,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_Audio_SampleFormat
@@ -269,13 +239,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_Audio_EncodingType
@@ -297,13 +261,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_Audio_SampleRate
@@ -338,13 +296,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_SoundFieldType
@@ -369,13 +321,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_EnvironmentType
@@ -400,13 +346,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_VoiceBeautifierType
@@ -431,13 +371,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_AudioSuite_SurroundDirection
@@ -460,13 +394,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_AudioSuite_PureVoiceChangeGenderOption
@@ -489,13 +417,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_AudioSuite_PureVoiceChangeType
@@ -523,13 +445,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_AudioSuite_GeneralVoiceChangeType

@@ -16,13 +16,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FaultLogger } from '@kit.PerformanceAnalysisKit';
@@ -99,13 +93,7 @@ query(faultType: FaultType, callback: AsyncCallback<Array<FaultLogInfo>>) : void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FaultLogger } from '@kit.PerformanceAnalysisKit';
@@ -177,13 +165,7 @@ query(faultType: FaultType) : Promise<Array<FaultLogInfo>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FaultLogger } from '@kit.PerformanceAnalysisKit';
@@ -238,13 +220,7 @@ querySelfFaultLog(faultType: FaultType, callback: AsyncCallback<Array<FaultLogIn
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FaultLogger } from '@kit.PerformanceAnalysisKit';
@@ -304,13 +280,7 @@ querySelfFaultLog(faultType: FaultType) : Promise<Array<FaultLogInfo>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FaultLogger } from '@kit.PerformanceAnalysisKit';

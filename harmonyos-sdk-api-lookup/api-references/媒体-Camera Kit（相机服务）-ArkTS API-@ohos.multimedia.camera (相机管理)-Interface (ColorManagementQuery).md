@@ -9,13 +9,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { camera } from '@kit.CameraKit';
@@ -43,13 +37,7 @@ getSupportedColorSpaces(): Array<colorSpaceManager.ColorSpace>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { colorSpaceManager } from '@kit.ArkGraphics2D';

@@ -81,13 +81,7 @@
 
 ### OH\_ContentEmbed\_CreateDocumentByOEid()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_CreateDocumentByOEid(const char *oeid, ContentEmbed_Document **document)
@@ -120,13 +114,7 @@
 
 ### OH\_ContentEmbed\_CreateDocumentByFile()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_CreateDocumentByFile(const char *srcFilePath, size_t length, bool isLinking, ContentEmbed_Document **document)
@@ -161,13 +149,7 @@
 
 ### OH\_ContentEmbed\_LoadDocumentFromFile()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_LoadDocumentFromFile(const char *srcFilePath, size_t length, ContentEmbed_Document **document)
@@ -201,13 +183,7 @@
 
 ### OH\_ContentEmbed\_Document\_Read()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Document_Read(uint8_t *buffer, size_t length, ContentEmbed_Document *document, size_t offset, size_t *readSize)
@@ -241,13 +217,7 @@
 
 ### OH\_ContentEmbed\_Document\_GetOEid()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Document_GetOEid(const ContentEmbed_Document *document, char *oeid)
@@ -278,13 +248,7 @@
 
 ### OH\_ContentEmbed\_Document\_IsLinking()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Document_IsLinking(const ContentEmbed_Document *document, bool *isLinking)
@@ -315,13 +279,7 @@ OE文档是否以链接方式创建。
 
 ### OH\_ContentEmbed\_Document\_GetNativeFilePath()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Document_GetNativeFilePath(const ContentEmbed_Document *document, char *nativeFilePath)
@@ -352,13 +310,7 @@ OE文档是否以链接方式创建。
 
 ### OH\_ContentEmbed\_Document\_GetRootStorage()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Document_GetRootStorage(ContentEmbed_Document *document, ContentEmbed_Storage **storage)
@@ -391,13 +343,7 @@ OE文档是否以链接方式创建。
 
 ### OH\_ContentEmbed\_Document\_Flush()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Document_Flush(const ContentEmbed_Document *document)
@@ -427,13 +373,7 @@ OE文档是否以链接方式创建。
 
 ### OH\_ContentEmbed\_Storage\_CreateStorage()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Storage_CreateStorage(const ContentEmbed_Storage *parentStorage, const char *name, ContentEmbed_Storage **childStorage)
@@ -467,13 +407,7 @@ OE文档是否以链接方式创建。
 
 ### OH\_ContentEmbed\_Storage\_GetStorage()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Storage_GetStorage(const ContentEmbed_Storage *parentStorage, const char *name, ContentEmbed_Storage **childStorage)
@@ -507,13 +441,7 @@ OE文档是否以链接方式创建。
 
 ### OH\_ContentEmbed\_Storage\_CreateStream()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Storage_CreateStream(ContentEmbed_Storage *parentStorage, const char *name, ContentEmbed_Stream **childStream)
@@ -547,13 +475,7 @@ OE文档是否以链接方式创建。
 
 ### OH\_ContentEmbed\_Storage\_GetStream()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Storage_GetStream(ContentEmbed_Storage *parentStorage, const char *name, ContentEmbed_Stream **childStream)
@@ -587,13 +509,7 @@ OE文档是否以链接方式创建。
 
 ### OH\_ContentEmbed\_Storage\_DeleteEntry()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Storage_DeleteEntry(ContentEmbed_Storage *parentStorage, const char *name)
@@ -624,13 +540,7 @@ OE文档是否以链接方式创建。
 
 ### OH\_ContentEmbed\_Storage\_DeleteAllEntry()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Storage_DeleteAllEntry(ContentEmbed_Storage *storage)
@@ -660,13 +570,7 @@ OE文档是否以链接方式创建。
 
 ### OH\_ContentEmbed\_DestroyStorage()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_DestroyStorage(ContentEmbed_Storage *storage)
@@ -696,13 +600,7 @@ OE文档是否以链接方式创建。
 
 ### OH\_ContentEmbed\_Stream\_Read()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Stream_Read(ContentEmbed_Stream *stream, unsigned char **buffer, size_t length, size_t *num)
@@ -735,13 +633,7 @@ OE文档是否以链接方式创建。
 
 ### OH\_ContentEmbed\_Stream\_Write()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Stream_Write(ContentEmbed_Stream *stream, const unsigned char *data, size_t length, size_t *num)
@@ -774,13 +666,7 @@ OE文档是否以链接方式创建。
 
 ### OH\_ContentEmbed\_Stream\_Seek()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Stream_Seek(ContentEmbed_Stream *stream, size_t position)
@@ -811,13 +697,7 @@ OE文档是否以链接方式创建。
 
 ### OH\_ContentEmbed\_Stream\_GetPosition()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Stream_GetPosition(ContentEmbed_Stream *stream, size_t *position)
@@ -848,13 +728,7 @@ OE文档是否以链接方式创建。
 
 ### OH\_ContentEmbed\_Stream\_GetSize()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Stream_GetSize(ContentEmbed_Stream *stream, size_t *size)
@@ -885,13 +759,7 @@ OE文档是否以链接方式创建。
 
 ### OH\_ContentEmbed\_DestroyStream()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_DestroyStream(ContentEmbed_Stream *stream)
@@ -921,13 +789,7 @@ OE文档是否以链接方式创建。
 
 ### OH\_ContentEmbed\_DestroyDocument()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_DestroyDocument(ContentEmbed_Document *document)
@@ -957,13 +819,7 @@ OE文档是否以链接方式创建。
 
 ### OH\_ContentEmbed\_Storage\_GetOEid()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Storage_GetOEid(ContentEmbed_Storage *storage, char *oeid, size_t oeidSize)
@@ -995,13 +851,7 @@ OE文档是否以链接方式创建。
 
 ### OH\_ContentEmbed\_Storage\_SetOEid()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Storage_SetOEid(ContentEmbed_Storage *storage, char *oeid, size_t oeidSize)
@@ -1033,13 +883,7 @@ OE文档是否以链接方式创建。
 
 ### OH\_ContentEmbed\_StorageElements\_Create()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_StorageElements_Create(ContentEmbed_StorageElements **storageElements)
@@ -1071,13 +915,7 @@ OE文档是否以链接方式创建。
 
 ### OH\_ContentEmbed\_StorageElements\_Destroy()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_StorageElements_Destroy(ContentEmbed_StorageElements *storageElements)
@@ -1107,13 +945,7 @@ OE文档是否以链接方式创建。
 
 ### OH\_ContentEmbed\_Storage\_GetElements()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Storage_GetElements(const ContentEmbed_Storage *storage, ContentEmbed_StorageElements *storageElements)
@@ -1144,13 +976,7 @@ OE文档是否以链接方式创建。
 
 ### OH\_ContentEmbed\_StorageElements\_GetCount()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_StorageElements_GetCount(const ContentEmbed_StorageElements *storageElements, size_t *count)
@@ -1181,13 +1007,7 @@ OE文档是否以链接方式创建。
 
 ### OH\_ContentEmbed\_StorageElements\_GetElement()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_StorageElements_GetElement(const ContentEmbed_StorageElements *storageElements, size_t index, ContentEmbed_StorageElement **storageElement)
@@ -1219,13 +1039,7 @@ OE文档是否以链接方式创建。
 
 ### OH\_ContentEmbed\_StorageElement\_GetName()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_StorageElement_GetName(const ContentEmbed_StorageElement *storageElement, char *name, size_t nameSize)
@@ -1257,13 +1071,7 @@ OE文档是否以链接方式创建。
 
 ### OH\_ContentEmbed\_StorageElement\_GetCTime()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_StorageElement_GetCTime(const ContentEmbed_StorageElement *element, uint64_t *ctime)
@@ -1294,13 +1102,7 @@ OE文档是否以链接方式创建。
 
 ### OH\_ContentEmbed\_StorageElement\_GetMTime()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_StorageElement_GetMTime(const ContentEmbed_StorageElement *element, uint64_t *mtime)
@@ -1331,13 +1133,7 @@ OE文档是否以链接方式创建。
 
 ### OH\_ContentEmbed\_StorageElement\_IsStorage()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_StorageElement_IsStorage(const ContentEmbed_StorageElement *storageElement, bool *isStorage)
@@ -1368,13 +1164,7 @@ OE文档是否以链接方式创建。
 
 ### OH\_ContentEmbed\_StorageElement\_IsStream()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_StorageElement_IsStream(const ContentEmbed_StorageElement *element, bool *isStream)
@@ -1405,13 +1195,7 @@ OE文档是否以链接方式创建。
 
 ### OH\_ContentEmbed\_Storage\_CopyTo()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Storage_CopyTo(ContentEmbed_Storage *srcStorage, ContentEmbed_Storage *destStorage)

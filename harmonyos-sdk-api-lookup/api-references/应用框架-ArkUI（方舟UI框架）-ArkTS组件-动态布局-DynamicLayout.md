@@ -62,13 +62,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 24开始，新增onMeasure、onLayout。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { DynamicLayout, DynamicLayoutAttribute, CustomLayoutAlgorithm, LayoutAlgorithm, FrameNode, LayoutConstraint, Position } from '@kit.ArkUI';
@@ -244,13 +238,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 24开始，新增RowLayoutAlgorithm、ColumnLayoutAlgorithm、StackLayoutAlgorithm、GridLayoutAlgorithm。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { DynamicLayout, DynamicLayoutAttribute, RowLayoutAlgorithm, ColumnLayoutAlgorithm, StackLayoutAlgorithm, GridLayoutAlgorithm, LayoutAlgorithm, LengthMetrics } from '@kit.ArkUI';
@@ -369,13 +357,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 24开始，新增space、justifyContent属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { DynamicLayout, DynamicLayoutAttribute, RowLayoutAlgorithm, LengthMetrics } from '@kit.ArkUI';

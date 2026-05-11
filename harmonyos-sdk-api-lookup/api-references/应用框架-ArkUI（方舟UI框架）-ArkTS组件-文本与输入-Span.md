@@ -435,13 +435,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例展示了设置不同样式的文本效果以及span配置点击事件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -616,13 +610,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 11开始，该示例通过[textShadow](/consumer/cn/doc/harmonyos-references/ts-basic-components-span#textshadow11)属性展示了文本设置阴影的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -678,13 +666,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 11开始，该示例通过[textBackgroundStyle](/consumer/cn/doc/harmonyos-references/ts-basic-components-span#textbackgroundstyle11)属性展示了文本设置背景样式的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -710,13 +692,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 12开始，该示例通过[baselineOffset](/consumer/cn/doc/harmonyos-references/ts-basic-components-span#baselineoffset12)属性展示了文本设置不同基线偏移量的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

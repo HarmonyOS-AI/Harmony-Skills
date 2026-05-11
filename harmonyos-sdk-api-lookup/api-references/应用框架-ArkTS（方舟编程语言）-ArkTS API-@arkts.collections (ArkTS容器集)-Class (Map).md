@@ -19,13 +19,7 @@ K和V类型都需为[Sendable支持的数据类型](https://developer.huawei.com
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { collections } from '@kit.ArkTS';
@@ -78,26 +72,14 @@ constructor(entries?: readonly (readonly [K, V])[] | null)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 正例1：
 2. const myMap = new collections.Map<number, number>();
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 正例2：
@@ -108,13 +90,7 @@ constructor(entries?: readonly (readonly [K, V])[] | null)
 6. ]);
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 反例：
@@ -163,13 +139,7 @@ constructor(iterable: Iterable<readonly [K, V]>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const mapper = new Map([
@@ -214,13 +184,7 @@ entries(): IterableIterator<[K, V]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 例1：
@@ -236,13 +200,7 @@ entries(): IterableIterator<[K, V]>
 11. console.info(iterator.next().value);
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 例2：
@@ -297,13 +255,7 @@ keys(): IterableIterator<K>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const myMap = new collections.Map<number, string>([
@@ -351,13 +303,7 @@ values(): IterableIterator<V>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const myMap = new collections.Map<number, string>([
@@ -397,13 +343,7 @@ clear(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const myMap = new collections.Map<number, string>([
@@ -459,13 +399,7 @@ delete(key: K): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const myMap = new collections.Map<string, string>([
@@ -523,13 +457,7 @@ callbackFn的参数说明：
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 正例：
@@ -542,13 +470,7 @@ callbackFn的参数说明：
 8. });
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 反例：
@@ -604,13 +526,7 @@ get(key: K): V | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const myMap = new collections.Map<string, string>([
@@ -664,13 +580,7 @@ has(key: K): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const myMap = new collections.Map<string, string>([
@@ -725,13 +635,7 @@ set(key: K, value: V): Map<K, V>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 正例：
@@ -739,13 +643,7 @@ set(key: K, value: V): Map<K, V>
 3. myMap.set("foo", "bar");
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 反例：
@@ -791,13 +689,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let map = new collections.Map<number, string>([

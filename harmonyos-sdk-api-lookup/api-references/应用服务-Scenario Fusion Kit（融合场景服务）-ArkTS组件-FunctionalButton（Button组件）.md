@@ -14,13 +14,7 @@ FunctionalButton需要配合[functionalButtonComponentManager](https://developer
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FunctionalButton, functionalButtonComponentManager } from '@kit.ScenarioFusionKit';
@@ -71,13 +65,7 @@ build(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FunctionalButton, functionalButtonComponentManager } from '@kit.ScenarioFusionKit';

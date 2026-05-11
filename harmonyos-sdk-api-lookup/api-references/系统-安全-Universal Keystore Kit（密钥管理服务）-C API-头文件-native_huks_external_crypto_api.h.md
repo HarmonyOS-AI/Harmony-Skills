@@ -46,13 +46,7 @@ PC/2in1
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. struct OH_Huks_Result OH_Huks_RegisterProvider(const struct OH_Huks_Blob *providerName, const OH_Huks_ExternalCryptoParamSet *paramSet)
@@ -87,13 +81,7 @@ PC/2in1
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. struct OH_Huks_Result OH_Huks_UnregisterProvider(const struct OH_Huks_Blob *providerName, const OH_Huks_ExternalCryptoParamSet *paramSet)
@@ -128,13 +116,7 @@ PC/2in1
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. struct OH_Huks_Result OH_Huks_OpenResource(const struct OH_Huks_Blob *resourceId, const OH_Huks_ExternalCryptoParamSet *paramSet)
@@ -169,13 +151,7 @@ PC/2in1
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. struct OH_Huks_Result OH_Huks_CloseResource(const struct OH_Huks_Blob *resourceId, const OH_Huks_ExternalCryptoParamSet *paramSet)
@@ -208,13 +184,7 @@ PC/2in1
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. struct OH_Huks_Result OH_Huks_GetUkeyPinAuthState(const struct OH_Huks_Blob *resourceId, const OH_Huks_ExternalCryptoParamSet *paramSet, OH_Huks_ExternalPinAuthState *authState)
@@ -248,13 +218,7 @@ PC/2in1
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. struct OH_Huks_Result OH_Huks_GetProperty(const struct OH_Huks_Blob *resourceId, const struct OH_Huks_Blob *propertyId, const OH_Huks_ExternalCryptoParamSet *paramSetIn, OH_Huks_ExternalCryptoParamSet **paramSetOut)
@@ -289,13 +253,7 @@ PC/2in1
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. struct OH_Huks_Result OH_Huks_InitExternalCryptoParamSet(OH_Huks_ExternalCryptoParamSet **paramSet)
@@ -327,13 +285,7 @@ PC/2in1
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. struct OH_Huks_Result OH_Huks_AddExternalCryptoParams(OH_Huks_ExternalCryptoParamSet *paramSet, const OH_Huks_ExternalCryptoParam *params, uint32_t paramCnt)
@@ -367,13 +319,7 @@ PC/2in1
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. struct OH_Huks_Result OH_Huks_BuildExternalCryptoParamSet(OH_Huks_ExternalCryptoParamSet **paramSet)
@@ -405,13 +351,7 @@ PC/2in1
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_Huks_FreeExternalCryptoParamSet(OH_Huks_ExternalCryptoParamSet **paramSet)
@@ -435,13 +375,7 @@ PC/2in1
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. struct OH_Huks_Result OH_Huks_GetExternalCryptoParam(OH_Huks_ExternalCryptoParamSet *paramSet, const uint32_t tag, OH_Huks_ExternalCryptoParam **param)

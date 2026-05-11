@@ -9,13 +9,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uiObserver } from '@kit.ArkUI';
@@ -321,13 +315,7 @@ on(type: 'navDestinationUpdate', callback: Callback<NavDestinationInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -431,13 +419,7 @@ on(type: 'navDestinationUpdate', options: { navigationId: ResourceStr }, callbac
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -619,13 +601,7 @@ off(type: 'scrollEvent', options: ObserverOptions, callback?: Callback<ScrollEve
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uiObserver } from '@kit.ArkUI'
@@ -718,13 +694,7 @@ on(type: 'routerPageUpdate', context: UIAbilityContext | UIContext, callback: Ca
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // used in UIAbility
@@ -784,13 +754,7 @@ off(type: 'routerPageUpdate', context: UIAbilityContext | UIContext, callback?: 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // used in UIAbility
@@ -841,13 +805,7 @@ on(type: 'densityUpdate', context: UIContext, callback: Callback<DensityInfo>): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uiObserver } from '@kit.ArkUI';
@@ -900,13 +858,7 @@ off(type: 'densityUpdate', context: UIContext, callback?: Callback<DensityInfo>)
 | context | [UIContext](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-uicontext) | 是 | 上下文信息，用以指定监听页面的范围。 |
 | callback | Callback<[DensityInfo](/consumer/cn/doc/harmonyos-references/js-apis-arkui-observer#densityinfo12)> | 否 | 需要被注销的回调函数。若不指定具体的回调函数，则注销指定UIContext下所有densityUpdate事件监听。 |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uiObserver, UIContext } from '@kit.ArkUI';
@@ -967,13 +919,7 @@ on(type: 'willDraw', context: UIContext, callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uiObserver } from '@kit.ArkUI';
@@ -1017,13 +963,7 @@ off(type: 'willDraw', context: UIContext, callback?: Callback<void>): void
 | context | [UIContext](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-uicontext) | 是 | 上下文信息，用以指定监听页面的范围。 |
 | callback | Callback<void> | 否 | 需要被注销的回调函数。 |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uiObserver } from '@kit.ArkUI';
@@ -1075,13 +1015,7 @@ on(type: 'didLayout', context: UIContext, callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uiObserver } from '@kit.ArkUI';
@@ -1125,13 +1059,7 @@ off(type: 'didLayout', context: UIContext, callback?: Callback<void>): void
 | context | [UIContext](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-uicontext) | 是 | 上下文信息，用以指定监听页面的范围。 |
 | callback | Callback<void> | 否 | 需要被注销的回调函数。 |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uiObserver } from '@kit.ArkUI';
@@ -1183,13 +1111,7 @@ on(type: 'navDestinationSwitch', context: UIAbilityContext | UIContext, callback
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -1244,13 +1166,7 @@ on(type: 'navDestinationSwitch', context: UIAbilityContext | UIContext, callback
 50. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -1356,13 +1272,7 @@ on(type: 'navDestinationSwitch', context: UIAbilityContext | UIContext, observer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -1421,13 +1331,7 @@ on(type: 'navDestinationSwitch', context: UIAbilityContext | UIContext, observer
 54. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -1533,13 +1437,7 @@ on(type: 'tabContentUpdate', callback: Callback<TabContentInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uiObserver } from '@kit.ArkUI';
@@ -1639,13 +1537,7 @@ on(type: 'tabContentUpdate', options: ObserverOptions, callback: Callback<TabCon
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uiObserver } from '@kit.ArkUI';

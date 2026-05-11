@@ -24,13 +24,7 @@ LinkedList和[ArrayList](https://developer.huawei.com/consumer/cn/doc/harmonyos-
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LinkedList } from '@kit.ArkTS';
@@ -78,13 +72,7 @@ LinkedList的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let linkedList = new LinkedList<string | number | boolean | object>();
@@ -130,13 +118,7 @@ add(element: T): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let linkedList = new LinkedList<string | number | boolean | object>();
@@ -186,13 +168,7 @@ addFirst(element: T): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let linkedList = new LinkedList<string | number | boolean | object>();
@@ -246,13 +222,7 @@ insert(index: number, element: T): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let linkedList = new LinkedList<string | number | boolean | object>();
@@ -303,13 +273,7 @@ has(element: T): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let linkedList = new LinkedList<string>();
@@ -359,13 +323,7 @@ get(index: number): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let linkedList = new LinkedList<number>();
@@ -420,13 +378,7 @@ getLastIndexOf(element: T): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let linkedList = new LinkedList<number>();
@@ -481,13 +433,7 @@ getIndexOf(element: T): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let linkedList = new LinkedList<number>();
@@ -544,13 +490,7 @@ removeByIndex(index: number): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let linkedList = new LinkedList<number>();
@@ -596,13 +536,7 @@ removeFirst(): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let linkedList = new LinkedList<number>();
@@ -648,13 +582,7 @@ removeLast(): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let linkedList = new LinkedList<number>();
@@ -707,13 +635,7 @@ remove(element: T): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let linkedList = new LinkedList<number>();
@@ -767,13 +689,7 @@ removeFirstFound(element: T): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let linkedList = new LinkedList<number>();
@@ -827,13 +743,7 @@ removeLastFound(element: T): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let linkedList = new LinkedList<number>();
@@ -877,13 +787,7 @@ clone(): LinkedList<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let linkedList = new LinkedList<number>();
@@ -939,13 +843,7 @@ callbackFn的参数说明：
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let linkedList = new LinkedList<number>();
@@ -986,13 +884,7 @@ clear(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let linkedList = new LinkedList<number>();
@@ -1048,13 +940,7 @@ set(index: number, element: T): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let linkedList = new LinkedList<number | string>();
@@ -1098,13 +984,7 @@ convertToArray(): Array<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let linkedList = new LinkedList<number>();
@@ -1148,13 +1028,7 @@ getFirst(): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let linkedList = new LinkedList<number>();
@@ -1198,13 +1072,7 @@ getLast(): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let linkedList = new LinkedList<number>();
@@ -1248,13 +1116,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let linkedList = new LinkedList<number>();

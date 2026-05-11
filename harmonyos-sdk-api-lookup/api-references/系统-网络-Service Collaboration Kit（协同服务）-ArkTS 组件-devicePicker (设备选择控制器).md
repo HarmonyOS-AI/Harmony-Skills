@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { devicePicker } from '@kit.ServiceCollaborationKit'
@@ -62,13 +56,7 @@ createDevicePickerController(): DevicePickerController
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { devicePicker, CollaborationDevicePicker } from '@kit.ServiceCollaborationKit'
@@ -127,13 +115,7 @@ on(event: DeviceEvent, callback: Callback<distributedDeviceManager.DeviceBasicIn
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common, Want } from '@kit.AbilityKit'
@@ -222,13 +204,7 @@ off(event: DeviceEvent, callback?: Callback<distributedDeviceManager.DeviceBasic
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit'
@@ -294,13 +270,7 @@ updateState(networkId: string, state: BusinessState, desc?: ResourceStr): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common, Want } from '@kit.AbilityKit'
@@ -382,13 +352,7 @@ release(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit'

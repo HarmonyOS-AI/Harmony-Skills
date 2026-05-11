@@ -8,13 +8,7 @@ DataAbility谓词用于构造关系型数据库的谓词，提供用于实现不
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataAbility } from '@kit.ArkData';
@@ -49,13 +43,7 @@ createRdbPredicates(name: string, dataAbilityPredicates: DataAbilityPredicates):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let dataAbilityPredicates = new dataAbility.DataAbilityPredicates()
@@ -72,13 +60,7 @@ PhonePC/2in1TabletTVWearable
 
 **初始化：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let dataAbilityPredicates = new dataAbility.DataAbilityPredicates()
@@ -115,13 +97,7 @@ equalTo(field: string, value: ValueType): DataAbilityPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. dataAbilityPredicates.equalTo("NAME", "lisi")
@@ -158,13 +134,7 @@ notEqualTo(field: string, value: ValueType): DataAbilityPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. dataAbilityPredicates.notEqualTo("NAME", "lisi")
@@ -190,13 +160,7 @@ beginWrap(): DataAbilityPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. dataAbilityPredicates.equalTo("NAME", "lisi")
@@ -227,13 +191,7 @@ endWrap(): DataAbilityPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. dataAbilityPredicates.equalTo("NAME", "lisi")
@@ -266,13 +224,7 @@ or(): DataAbilityPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. dataAbilityPredicates.equalTo("NAME", "Lisa")
@@ -300,13 +252,7 @@ and(): DataAbilityPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. dataAbilityPredicates.equalTo("NAME", "Lisa")
@@ -343,13 +289,7 @@ contains(field: string, value: string): DataAbilityPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. dataAbilityPredicates.contains("NAME", "os")
@@ -386,13 +326,7 @@ beginsWith(field: string, value: string): DataAbilityPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. dataAbilityPredicates.beginsWith("NAME", "os")
@@ -429,13 +363,7 @@ endsWith(field: string, value: string): DataAbilityPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. dataAbilityPredicates.endsWith("NAME", "se")
@@ -469,13 +397,7 @@ isNull(field: string): DataAbilityPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. dataAbilityPredicates.isNull("NAME")
@@ -509,13 +431,7 @@ isNotNull(field: string): DataAbilityPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. dataAbilityPredicates.isNotNull("NAME")
@@ -552,13 +468,7 @@ like(field: string, value: string): DataAbilityPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. dataAbilityPredicates.like("NAME", "%os%")
@@ -593,13 +503,7 @@ glob(field: string, value: string): DataAbilityPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. dataAbilityPredicates.glob("NAME", "?h*g")
@@ -641,13 +545,7 @@ between(field: string, low: ValueType, high: ValueType): DataAbilityPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. dataAbilityPredicates.between("AGE", 10, 50)
@@ -683,13 +581,7 @@ notBetween(field: string, low: ValueType, high: ValueType): DataAbilityPredicate
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. dataAbilityPredicates.notBetween("AGE", 10, 50)
@@ -724,13 +616,7 @@ greaterThan(field: string, value: ValueType): DataAbilityPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. dataAbilityPredicates.greaterThan("AGE", 18)
@@ -765,13 +651,7 @@ lessThan(field: string, value: ValueType): DataAbilityPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. dataAbilityPredicates.lessThan("AGE", 20)
@@ -806,13 +686,7 @@ greaterThanOrEqualTo(field: string, value: ValueType): DataAbilityPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. dataAbilityPredicates.greaterThanOrEqualTo("AGE", 18)
@@ -847,13 +721,7 @@ lessThanOrEqualTo(field: string, value: ValueType): DataAbilityPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. dataAbilityPredicates.lessThanOrEqualTo("AGE", 20)
@@ -887,13 +755,7 @@ orderByAsc(field: string): DataAbilityPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 先按“name”字段排序，相同时按“AGE”字段排序，其次按“SALARY”排序
@@ -928,13 +790,7 @@ orderByDesc(field: string): DataAbilityPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 优先按“AGE”排序，相同时按“SALARY”排序
@@ -961,13 +817,7 @@ distinct(): DataAbilityPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. dataAbilityPredicates.equalTo("NAME", "Rose").distinct()
@@ -1001,13 +851,7 @@ limitAs(value: number): DataAbilityPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. dataAbilityPredicates.equalTo("NAME", "Rose").limitAs(3)
@@ -1041,13 +885,7 @@ offsetAs(rowOffset: number): DataAbilityPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 跳过前三条数据，显示后续三条数据
@@ -1082,13 +920,7 @@ groupBy(fields: Array<string>): DataAbilityPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. dataAbilityPredicates.groupBy(["AGE", "NAME"])
@@ -1122,13 +954,7 @@ indexedBy(field: string): DataAbilityPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -1202,13 +1028,7 @@ in(field: string, value: Array<ValueType>): DataAbilityPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. dataAbilityPredicates.in("AGE", [18, 20])
@@ -1243,13 +1063,7 @@ notIn(field: string, value: Array<ValueType>): DataAbilityPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. dataAbilityPredicates.notIn("NAME", ["Lisa", "Rose"])

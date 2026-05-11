@@ -8,13 +8,7 @@ ErrorManager模块提供对错误观测器的注册和注销的能力，主要�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { errorManager } from '@kit.AbilityKit';
@@ -64,13 +58,7 @@ on(type: 'error', observer: ErrorObserver): number
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { errorManager } from '@kit.AbilityKit';
@@ -133,13 +121,7 @@ on(type: 'globalErrorOccurred', observer: GlobalObserver): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { errorManager } from '@kit.AbilityKit';
@@ -199,13 +181,7 @@ off(type: 'globalErrorOccurred', observer?: GlobalObserver): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { errorManager } from '@kit.AbilityKit';
@@ -265,13 +241,7 @@ off(type: 'error', observerId: number, callback: AsyncCallback<void>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { errorManager } from '@kit.AbilityKit';
@@ -338,13 +308,7 @@ off(type: 'error', observerId: number): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { errorManager } from '@kit.AbilityKit';
@@ -403,13 +367,7 @@ on(type: 'loopObserver', timeout: number, observer: LoopObserver): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { errorManager } from '@kit.AbilityKit';
@@ -457,13 +415,7 @@ on(type: 'globalUnhandledRejectionDetected', observer: GlobalObserver): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { errorManager } from '@kit.AbilityKit';
@@ -523,13 +475,7 @@ on(type: 'unhandledRejection', observer: UnhandledRejectionObserver): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { errorManager } from '@kit.AbilityKit';
@@ -591,13 +537,7 @@ on(type: 'freeze', observer: FreezeObserver): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { errorManager } from '@kit.AbilityKit';
@@ -643,13 +583,7 @@ off(type: 'loopObserver', observer?: LoopObserver): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { errorManager } from '@kit.AbilityKit';
@@ -694,13 +628,7 @@ off(type: 'globalUnhandledRejectionDetected', observer?: GlobalObserver): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { errorManager } from '@kit.AbilityKit';
@@ -763,13 +691,7 @@ off(type: 'unhandledRejection', observer?: UnhandledRejectionObserver): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { errorManager } from '@kit.AbilityKit';
@@ -796,13 +718,7 @@ off(type: 'unhandledRejection', observer?: UnhandledRejectionObserver): void
 
 或者
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { errorManager } from '@kit.AbilityKit';
@@ -865,13 +781,7 @@ off(type: 'freeze', observer?: FreezeObserver): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { errorManager } from '@kit.AbilityKit';
@@ -927,13 +837,7 @@ setDefaultErrorHandler(defaultHandler?: ErrorHandler): ErrorHandler
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { errorManager } from '@kit.AbilityKit';
@@ -1000,13 +904,7 @@ setDefaultResourceUsageObserver(defaultObserver?: ResourceUsageObserver): Resour
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { errorManager } from '@kit.AbilityKit';

@@ -10,13 +10,7 @@ UIContext实例对象。
 
 以下示例展示了三种获取UIContext实例的方法。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 三种方法获取到的UIContext没有差异
@@ -74,13 +68,7 @@ constructor()
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIContext } from '@kit.ArkUI';
@@ -176,13 +164,7 @@ static getCallingScopeUIContext(): UIContext | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIContext } from '@kit.ArkUI';
@@ -235,13 +217,7 @@ static getLastFocusedUIContext(): UIContext | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIContext } from '@kit.ArkUI';
@@ -294,13 +270,7 @@ static getLastForegroundUIContext(): UIContext | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIContext } from '@kit.ArkUI';
@@ -353,13 +323,7 @@ static getAllUIContexts(): UIContext[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIContext } from '@kit.ArkUI';
@@ -425,13 +389,7 @@ static resolveUIContext(): ResolvedUIContext
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIContext } from '@kit.ArkUI';
@@ -475,13 +433,7 @@ isAvailable(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIContext } from '@kit.ArkUI'
@@ -637,13 +589,7 @@ getUIObserver(): UIObserver
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Component
@@ -713,13 +659,7 @@ getId(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -913,13 +853,7 @@ animateToImmediately(param: AnimateParam, processor: Callback<void>): void
 
 该示例通过UIContext对象获取显式立即动画，并调用animateToImmediately接口实现参数定义的动画效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1014,13 +948,7 @@ animateTo(value: AnimateParam, event: () => void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1124,13 +1052,7 @@ getSharedLocalStorage(): LocalStorage | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -1146,13 +1068,7 @@ getSharedLocalStorage(): LocalStorage | undefined
 11. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -1205,13 +1121,7 @@ getHostContext(): Context | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -1308,13 +1218,7 @@ getAttachedFrameNodeById仅能查询上屏节点。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -1379,13 +1283,7 @@ getFrameNodeByUniqueId(id: number): FrameNode | null
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIContext, FrameNode } from '@kit.ArkUI';
@@ -1442,13 +1340,7 @@ getPageInfoByUniqueId(id: number): PageInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIContext, PageInfo } from '@kit.ArkUI';
@@ -1556,13 +1448,7 @@ showAlertDialog(options: AlertDialogParamWithConfirm | AlertDialogParamWithButto
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -1623,13 +1509,7 @@ showActionSheet(value: ActionSheetOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -1713,13 +1593,7 @@ showDatePickerDialog(options: DatePickerDialogOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1802,13 +1676,7 @@ showTimePickerDialog(options: TimePickerDialogOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1881,13 +1749,7 @@ showTextPickerDialog(options: TextPickerDialogOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2010,13 +1872,7 @@ createAnimator(options: AnimatorOptions): AnimatorResult
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -2091,13 +1947,7 @@ createAnimator(options: AnimatorOptions | SimpleAnimatorOptions): AnimatorResult
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -2145,13 +1995,7 @@ runScopedTask(callback: () => void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -2207,13 +2051,7 @@ setKeyboardAvoidMode针对页面生效，对于弹窗类组件不生效，比如
 
 完整示例请参考[示例4（设置键盘避让模式为压缩）](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-expand-safe-area#示例4设置键盘避让模式为压缩)、[示例5（设置键盘避让模式为上抬）](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-expand-safe-area#示例5设置键盘避让模式为上抬)以及[示例6（切换避让模式）](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-expand-safe-area#示例6切换避让模式)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -2254,13 +2092,7 @@ getKeyboardAvoidMode(): KeyboardAvoidMode
 
 完整示例请参考[示例4（设置键盘避让模式为压缩）](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-expand-safe-area#示例4设置键盘避让模式为压缩)、[示例5（设置键盘避让模式为上抬）](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-expand-safe-area#示例5设置键盘避让模式为上抬)以及[示例6（切换避让模式）](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-expand-safe-area#示例6切换避让模式)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -2300,13 +2132,7 @@ getAtomicServiceBar(): Nullable<AtomicServiceBar>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -2377,13 +2203,7 @@ keyframeAnimateTo(param: KeyframeAnimateParam, keyframes: Array<KeyframeState>):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2507,25 +2327,13 @@ getFilteredInspectorTree(filters?: Array<string>): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uiContext.getFilteredInspectorTree(['id', 'src', 'content']);
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2568,13 +2376,7 @@ getFilteredInspectorTree(filters?: Array<string>): string
 
 当传入"content"过滤字段时，返回的JSON字符串结构如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. InsTree : {"$type":"root","width":"720.000000","height":"1280.000000","$resolution":"1.500000","$children":[{"$type":"Column","$ID":15,"type":"build-in","$rect":"[0.00, 72.00],[720.00,1208.00]","$debugLine":"","$attrs":{},"$children":[{"$type":"Button","$ID":16,"type":"build-in","$rect":"[293.00, 72.00],[427.00,132.00]","$debugLine":"","$attrs":{}},{"$type":"Button","$ID":18,"type":"build-in","$rect":"[237.00, 132.00],[484.00,192.00]","$debugLine":"","$attrs":{}}]}]}\
@@ -2586,13 +2388,7 @@ getFilteredInspectorTree(filters?: Array<string>): string
 
 从API version 20开始，当传入"isLayoutInspector"过滤字段时，返回的JSON字符串结构新增外层结构"type"与"content"，其中"content"包含未增加该字段时的原有JSON字符串结构；同时，返回值结构中增添自定义组件。返回的JSON字符串结构如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. InsTree : {"type":"root","content":{"$type":"root","width":"720.000000","height":"1280.000000","$resolution":"1.500000","$children":[{"$type":"JsView","$ID":13,"type":"custom","state":{"observedPropertiesInfo":[],"viewInfo":{"componentName":"ComponentPage","id":14,"isV2":false,"isViewActive_":true}},"$rect":"[0.00, 72.00],[720.00,1208.00]","$debugLine":"{\"$line\":\"(0:0)\"}","viewTag":"ComponentPage","$attrs":{"viewKey":"13"},"$children":[{"$type":"Column","$ID":15, "type":"build-in","$rect":"[0.00, 72.00],[720.00,1208.00]","$debugLine":"","$attrs":{ ...
@@ -2645,25 +2441,13 @@ getFilteredInspectorTreeById(id: string, depth: number, filters?: Array<string>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uiContext.getFilteredInspectorTreeById('testId', 0, ['id', 'src', 'content']);
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIContext } from '@kit.ArkUI';
@@ -2698,13 +2482,7 @@ getFilteredInspectorTreeById(id: string, depth: number, filters?: Array<string>)
 
 返回的JSON字符串结构如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. result1: {"$type":"root","width":"1260.000000","height":"2720.000000","$resolution":"3.250000","$children":[{"$type":"Text","$ID":6,"type":"build-in","$rect":"[457.00, 123.00],[804.00,199.00]","$debugLine":"","$attrs":{"id":"TEXT","isLayoutDirtyMarked":false,"isRenderDirtyMarked":false,"isMeasureBoundary":false,"hasPendingRequest":false,"isFirstBuilding":false}}]}
@@ -2847,13 +2625,7 @@ vp2px(value : number) : number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -2918,13 +2690,7 @@ px2vp(value : number) : number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -2990,13 +2756,7 @@ getUIContext需在windowStage.[loadContent](https://developer.huawei.com/consume
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -3062,13 +2822,7 @@ getUIContext需在windowStage.[loadContent](https://developer.huawei.com/consume
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -3130,13 +2884,7 @@ getUIContext需在windowStage.[loadContent](https://developer.huawei.com/consume
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -3198,13 +2946,7 @@ getUIContext需在windowStage.[loadContent](https://developer.huawei.com/consume
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -3252,13 +2994,7 @@ getWindowName(): string | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { window } from '@kit.ArkUI';
@@ -3316,13 +3052,7 @@ getWindowId(): number | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -3373,13 +3103,7 @@ getWindowWidthBreakpoint(): WidthBreakpoint
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIContext } from '@kit.ArkUI';
@@ -3434,13 +3158,7 @@ getWindowHeightBreakpoint(): HeightBreakpoint
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIContext } from '@kit.ArkUI';
@@ -3496,13 +3214,7 @@ postFrameCallback(frameCallback: FrameCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameCallback } from '@kit.ArkUI';
@@ -3557,13 +3269,7 @@ postDelayedFrameCallback(frameCallback: FrameCallback, delayTime: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameCallback } from '@kit.ArkUI';
@@ -3625,13 +3331,7 @@ requireDynamicSyncScene(id: string): Array<DynamicSyncScene>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SwiperDynamicSyncSceneType, SwiperDynamicSyncScene } from '@kit.ArkUI';
@@ -3734,13 +3434,7 @@ openBindSheet<T extends Object>(bindSheetContent: ComponentContent<T>, sheetOpti
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode, ComponentContent } from "@kit.ArkUI";
@@ -3877,13 +3571,7 @@ updateBindSheet<T extends Object>(bindSheetContent: ComponentContent<T>, sheetOp
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode, ComponentContent } from "@kit.ArkUI";
@@ -4018,13 +3706,7 @@ closeBindSheet<T extends Object>(bindSheetContent: ComponentContent<T>): Promise
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode, ComponentContent } from "@kit.ArkUI";
@@ -4137,13 +3819,7 @@ isFollowingSystemFontScale(): boolean
 
 参考[configuration标签](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/app-configuration-file#configuration标签)，配置fontSizeScale的值为“followSystem”。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -4183,13 +3859,7 @@ getMaxFontScale(): number
 
 参考[configuration标签](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/app-configuration-file#configuration标签)，配置fontSizeMaxScale的值为“1.75”。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -4232,13 +3902,7 @@ bindTabsToScrollable(tabsController: TabsController, scroller: Scroller): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -4436,13 +4100,7 @@ enableSwipeBack(enabled: Optional<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -4532,13 +4190,7 @@ static createUIContextWithoutWindow(context: common.UIAbilityContext | common.Ex
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -4570,13 +4222,7 @@ static destroyUIContextWithoutWindow(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -4626,13 +4272,7 @@ dispatchKeyEvent(node: number | string, event: KeyEvent): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -4696,13 +4336,7 @@ setPixelRoundMode(mode: PixelRoundMode): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -4741,13 +4375,7 @@ getPixelRoundMode(): PixelRoundMode
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -4802,13 +4430,7 @@ static setResourceManagerCacheMaxCountForHSP(count: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -4859,13 +4481,7 @@ setImageCacheCount、setImageRawDataCacheSize和setImageFileCacheSize并不灵�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4915,13 +4531,7 @@ setImageRawDataCacheSize方法需要在@Entry标记的页面，[onPageShow](http
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4999,13 +4609,7 @@ setCustomKeyboardContinueFeature(feature: CustomKeyboardContinueFeature): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -5146,13 +4750,7 @@ getPageRootNode(): FrameNode | null
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -5305,13 +4903,7 @@ isEasySplit(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry

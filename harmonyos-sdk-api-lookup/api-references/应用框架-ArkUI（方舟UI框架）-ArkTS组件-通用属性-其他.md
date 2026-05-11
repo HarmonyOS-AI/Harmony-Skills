@@ -1,3 +1,0 @@
-* **[复用标识](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-reuse-id)**
-* **[复用选项](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-reuse)**
-* **[工具栏设置](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-toolbar)**

@@ -24,13 +24,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -42,13 +36,7 @@ PhonePC/2in1TabletTVWearable
 
 开发者需要通过Context对象获取EventHub。以下示例通过UIAbility实例的Context对象获取其EventHub对象。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common, UIAbility } from '@kit.AbilityKit';
@@ -108,13 +96,7 @@ callback被emit触发时，调用方是EventHub对象，如果要修改callback�
 
 callback被emit触发时，调用方是EventHub对象。EventHub对象没有value属性，因此结果是undefined。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -155,13 +137,7 @@ callback被emit触发时，调用方是EventHub对象。EventHub对象没有valu
 
 callback使用箭头函数时，调用方是EntryAbility对象。EntryAbility对象里存在value属性，因此结果是12。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -237,13 +213,7 @@ off(event: string, callback?: Function): void;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -307,13 +277,7 @@ emit(event: string, ...args: Object[]): void;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';

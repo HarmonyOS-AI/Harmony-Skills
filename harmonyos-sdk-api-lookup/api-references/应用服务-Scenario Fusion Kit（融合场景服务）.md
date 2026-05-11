@@ -1,2 +1,0 @@
-* **[ArkTS API](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/scenario-fusion-arktsapi)**
-* **[ArkTS组件](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/scenario-fusion-kit-arkts-components)**

@@ -37,13 +37,7 @@ SVG图片最终显示效果受Image组件的'objectFit'参数值影响，为了�
 
 SVG图源属性设置8位十六进制格式的颜色时，示例图源和效果如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
@@ -59,13 +53,7 @@ SVG图源属性设置8位十六进制格式的颜色时，示例图源和效果�
 
 SVG图源属性设置7位十六进制格式的颜色时，示例图源和效果如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
@@ -81,13 +69,7 @@ SVG图源属性设置7位十六进制格式的颜色时，示例图源和效果�
 
 SVG图源属性设置4位十六进制格式的颜色时，示例图源和效果如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
@@ -117,13 +99,7 @@ SVG图片最终显示效果受Image组件的'objectFit'参数值影响，为了�
 
 当URL类型不匹配时，遮罩效果不生效，示例图源如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <svg width="200" height="100" xmlns="http://www.w3.org/2000/svg">
@@ -158,13 +134,7 @@ SVG图片最终显示效果受Image组件的'objectFit'参数值影响，为了�
 
 示例图源和示例代码如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
@@ -173,13 +143,7 @@ SVG图片最终显示效果受Image组件的'objectFit'参数值影响，为了�
 4. </svg>
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -225,13 +189,7 @@ SVG图片最终显示效果受Image组件的'objectFit'参数值影响，为了�
 
 示例图源和示例代码如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
@@ -240,13 +198,7 @@ SVG图片最终显示效果受Image组件的'objectFit'参数值影响，为了�
 4. </svg>
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -348,13 +300,7 @@ SVG图片最终显示效果受Image组件的'objectFit'参数值影响，为了�
 
 SVG图片最终显示效果受Image组件的'objectFit'参数值影响，为了确保SVG图形完整且正确的显示，文档中用例图片都配置了'objectFit(ImageFit.Contain)'，开发者需要根据实际显示效果正确配置objectFit参数。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
@@ -388,13 +334,7 @@ SVG图片最终显示效果受Image组件的'objectFit'参数值影响，为了�
 
 transform操作在use中，use对象也在相同的mask元素内。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <svg width="300" height="300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -417,13 +357,7 @@ transform操作在use中，use对象也在相同的mask元素内。
 
 transform操作在g标签中，且不包含scale操作。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <svg width="300" height="300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -459,13 +393,7 @@ SVG图片最终显示效果受Image组件的'objectFit'参数值影响，为了�
 
 SVG包含“preserveAspectRatio”属性且值为“none”，示例图源和行为变更如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <svg width="200" height="100" viewBox="0 0 100 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
@@ -483,13 +411,7 @@ SVG包含“preserveAspectRatio”属性且值为“none”，示例图源和行
 
 SVG包含“preserveAspectRatio”属性且值为“<align> [<meetOrSlice>]”，示例图源和对齐方式、缩放比例变更如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <svg width="200" height="100" viewBox="0 0 100 100" preserveAspectRatio="xMinYMin meet" xmlns="http://www.w3.org/2000/svg">
@@ -529,13 +451,7 @@ SVG图片最终显示效果受Image组件的'objectFit'参数值影响，为了�
 
 下面图源示例当裁剪路径单元为"objectBoundingBox"时，长方形裁剪路径位于应用裁剪路径长方形图形左上角x,y乘以图形包围盒宽度和高度。尺寸为width乘以图形包围盒的宽度，height乘以图形包围盒的高度。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
@@ -564,13 +480,7 @@ SVG图片最终显示效果受Image组件的'objectFit'参数值影响，为了�
 
 图源示例显示一个线性渐变从绝对坐标(10，10) 到 (180，180)的长方形范围内。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
@@ -592,13 +502,7 @@ SVG图片最终显示效果受Image组件的'objectFit'参数值影响，为了�
 
 图源示例显示一个径向渐变从绝对坐标圆心 (100，90) 开始，半径为90的渐变效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
@@ -628,13 +532,7 @@ SVG图片最终显示效果受Image组件的'objectFit'参数值影响，为了�
 
 图源示例显示一个五角星遮罩范围从绝对坐标 (10，10)到(200，200)，遮罩内容相对于应用矩形左上角，水平尺寸乘以图形包围盒宽度，垂直尺寸乘以图形包围盒高度。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <svg width="220" height="220" xmlns="http://www.w3.org/2000/svg">
@@ -663,13 +561,7 @@ SVG图片最终显示效果受Image组件的'objectFit'参数值影响，为了�
 
 示例图源图案单元位置尺寸为绝对坐标，图案内容位置、尺寸相对于应用图案的图形，横轴乘以图形包围盒宽度，纵轴乘以图形高度。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <svg width="220" height="220" xmlns="http://www.w3.org/2000/svg">
@@ -699,13 +591,7 @@ SVG图片最终显示效果受Image组件的'objectFit'参数值影响，为了�
 
 图源示例：原语值为"objectBoundingBox"时，feGaussianBlur的模糊标准差X，Y轴的stdDeviation数值分别需要乘以应用滤镜图形包围盒的宽度和高度。滤镜原语子区间x，y坐标相对图形左上角分别乘以图形包围盒的宽度和高度，滤镜原语子区间尺寸的width，height参数分别乘以图形包围盒的宽度和高度。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
@@ -744,13 +630,7 @@ SVG图片最终显示效果受Image组件的'objectFit'参数值影响，为了�
 
 示例图源有两层分组标签嵌套，被裁剪路径截取的半圆形的透明度为0.4。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <svg  width="200" height="200" viewBox = "0 0 200 200" xmlns="http://www.w3.org/2000/svg">
@@ -783,13 +663,7 @@ SVG图片最终显示效果受Image组件的'objectFit'参数值影响，为了�
 
 示例图源裁剪路径引用于g标签里，默认裁剪路径规则为"nonzero"，路径标签里的填充规则为"evenodd"，左图实际的填充规则为"evenodd"，右图的填充规则为裁剪路径的默认规则，也就是"nonzero"。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
@@ -823,13 +697,7 @@ SVG图片最终显示效果受Image组件的'objectFit'参数值影响，为了�
 
 示例图源如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <svg width="210" height="210" xmlns="http://www.w3.org/2000/svg">
@@ -857,13 +725,7 @@ SVG图片最终显示效果受Image组件的'objectFit'参数值影响，为了�
 
 SVG图片最终显示效果受Image组件的'objectFit'参数值影响，为了确保SVG图形完整且正确的显示，文档中用例图片都配置了'objectFit(ImageFit.Contain)'，开发者需要根据实际显示效果正确配置objectFit参数。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -891,13 +753,7 @@ SVG图片最终显示效果受Image组件的'objectFit'参数值影响，为了�
 
 SVG图片最终显示效果受Image组件的'objectFit'参数值影响，为了确保SVG图形完整且正确的显示，文档中用例图片都配置了'objectFit(ImageFit.Contain)'，开发者需要根据实际显示效果正确配置objectFit参数。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -926,13 +782,7 @@ SVG图片最终显示效果受Image组件的'objectFit'参数值影响，为了�
 
 SVG图片最终显示效果受Image组件的'objectFit'参数值影响，为了确保SVG图形完整且正确的显示，文档中用例图片都配置了'objectFit(ImageFit.Contain)'，开发者需要根据实际显示效果正确配置objectFit参数。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -961,13 +811,7 @@ SVG图片最终显示效果受Image组件的'objectFit'参数值影响，为了�
 
 SVG图片最终显示效果受Image组件的'objectFit'参数值影响，为了确保SVG图形完整且正确的显示，文档中用例图片都配置了'objectFit(ImageFit.Contain)'，开发者需要根据实际显示效果正确配置objectFit参数。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
@@ -994,13 +838,7 @@ SVG图片最终显示效果受Image组件的'objectFit'参数值影响，为了�
 
 SVG图片最终显示效果受Image组件的'objectFit'参数值影响，为了确保SVG图形完整且正确的显示，文档中用例图片都配置了'objectFit(ImageFit.Contain)'，开发者需要根据实际显示效果正确配置objectFit参数。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" width="300" height="300">

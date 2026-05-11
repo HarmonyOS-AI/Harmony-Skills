@@ -116,13 +116,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum HiDebug_ErrorCode
@@ -173,13 +167,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum HiDebug_TraceFlag
@@ -202,13 +190,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum HiDebug_StackFrameType
@@ -231,13 +213,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum HiDebug_CrashObjType
@@ -264,13 +240,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_HiDebug_ResourceType
@@ -300,13 +270,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define HIDEBUG_TRACE_TAG_FFRT (1ULL << 13)
@@ -322,13 +286,7 @@ FFRT任务标签。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define HIDEBUG_TRACE_TAG_COMMON_LIBRARY (1ULL << 16)
@@ -344,13 +302,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define HIDEBUG_TRACE_TAG_HDF (1ULL << 18)
@@ -366,13 +318,7 @@ HDF子系统标签。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define HIDEBUG_TRACE_TAG_NET (1ULL << 23)
@@ -388,13 +334,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define HIDEBUG_TRACE_TAG_NWEB (1ULL << 24)
@@ -410,13 +350,7 @@ NWeb标签。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define HIDEBUG_TRACE_TAG_DISTRIBUTED_AUDIO (1ULL << 27)
@@ -432,13 +366,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define HIDEBUG_TRACE_TAG_FILE_MANAGEMENT (1ULL << 29)
@@ -454,13 +382,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define HIDEBUG_TRACE_TAG_OHOS (1ULL << 30)
@@ -476,13 +398,7 @@ OHOS通用标签。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define HIDEBUG_TRACE_TAG_ABILITY_MANAGER (1ULL << 31)
@@ -498,13 +414,7 @@ Ability Manager标签。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define HIDEBUG_TRACE_TAG_CAMERA (1ULL << 32)
@@ -520,13 +430,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define HIDEBUG_TRACE_TAG_MEDIA (1ULL << 33)
@@ -542,13 +446,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define HIDEBUG_TRACE_TAG_IMAGE (1ULL << 34)
@@ -564,13 +462,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define HIDEBUG_TRACE_TAG_AUDIO (1ULL << 35)
@@ -586,13 +478,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define HIDEBUG_TRACE_TAG_DISTRIBUTED_DATA (1ULL << 36)
@@ -608,13 +494,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define HIDEBUG_TRACE_TAG_GRAPHICS (1ULL << 38)
@@ -630,13 +510,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define HIDEBUG_TRACE_TAG_ARKUI (1ULL << 39)
@@ -652,13 +526,7 @@ ArkUI开发框架标签。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define HIDEBUG_TRACE_TAG_NOTIFICATION (1ULL << 40)
@@ -674,13 +542,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define HIDEBUG_TRACE_TAG_MISC (1ULL << 41)
@@ -696,13 +558,7 @@ MISC模块标签。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define HIDEBUG_TRACE_TAG_MULTIMODAL_INPUT (1ULL << 42)
@@ -718,13 +574,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define HIDEBUG_TRACE_TAG_RPC (1ULL << 46)
@@ -740,13 +590,7 @@ RPC标签。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define HIDEBUG_TRACE_TAG_ARK (1ULL << 47)
@@ -762,13 +606,7 @@ JSVM虚拟机标签。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define HIDEBUG_TRACE_TAG_WINDOW_MANAGER (1ULL << 48)
@@ -784,13 +622,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define HIDEBUG_TRACE_TAG_DISTRIBUTED_SCREEN (1ULL << 50)
@@ -806,13 +638,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define HIDEBUG_TRACE_TAG_DISTRIBUTED_CAMERA (1ULL << 51)
@@ -828,13 +654,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define HIDEBUG_TRACE_TAG_DISTRIBUTED_HARDWARE_FRAMEWORK (1ULL << 52)
@@ -850,13 +670,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define HIDEBUG_TRACE_TAG_GLOBAL_RESOURCE_MANAGER (1ULL << 53)
@@ -872,13 +686,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define HIDEBUG_TRACE_TAG_DISTRIBUTED_HARDWARE_DEVICE_MANAGER (1ULL << 54)
@@ -894,13 +702,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define HIDEBUG_TRACE_TAG_SAMGR (1ULL << 55)
@@ -916,13 +718,7 @@ SA标签。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define HIDEBUG_TRACE_TAG_POWER_MANAGER (1ULL << 56)
@@ -938,13 +734,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define HIDEBUG_TRACE_TAG_DISTRIBUTED_SCHEDULER (1ULL << 57)
@@ -960,13 +750,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define HIDEBUG_TRACE_TAG_DISTRIBUTED_INPUT (1ULL << 59)
@@ -982,13 +766,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define HIDEBUG_TRACE_TAG_BLUETOOTH (1ULL << 60)
@@ -1008,13 +786,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef void (*OH_HiDebug_RequestTraceCallback)(HiDebug_ErrorCode errorCode, const char* filePath)
@@ -1039,13 +811,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef void (*OH_HiDebug_ProfilingCallback)(OH_HiDebug_ProfilingResult* result)

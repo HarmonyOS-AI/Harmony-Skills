@@ -10,13 +10,7 @@ continueManager提供了应用跨端迁移的管理能力，如获取应用跨�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { continueManager } from '@kit.AbilityKit';
@@ -60,13 +54,7 @@ on(type: 'prepareContinue', context: Context, callback: AsyncCallback<ContinueRe
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want, continueManager } from '@kit.AbilityKit';
@@ -141,13 +129,7 @@ off(type: 'prepareContinue', context: Context, callback?: AsyncCallback<Continue
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want, continueManager } from '@kit.AbilityKit';

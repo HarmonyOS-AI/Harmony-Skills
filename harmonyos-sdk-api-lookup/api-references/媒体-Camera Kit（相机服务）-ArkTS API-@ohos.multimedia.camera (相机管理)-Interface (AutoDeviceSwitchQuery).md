@@ -11,13 +11,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { camera } from '@kit.CameraKit';
@@ -45,13 +39,7 @@ isAutoDeviceSwitchSupported(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 本示例用于查询折叠屏设备是否支持自动切换相机镜头。

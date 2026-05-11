@@ -4,13 +4,7 @@
 
 如果开发者需要使用EGL相关功能，首先请添加头文件：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <EGL/egl.h>
@@ -18,13 +12,7 @@
 
 其次在CMakeLists.txt中添加以下动态链接库：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. libEGL.so
@@ -32,25 +20,13 @@
 
 如果需要调用EGL扩展接口，需要额外添加头文件并且在CMakeLists.txt中添加宏定义：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <EGL/eglext.h>
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. EGL_EGLEXT_PROTOTYPES
@@ -62,13 +38,7 @@
 
 从API version 23开始，支持使用EGL扩展接口eglGetNativeClientBufferANDROID，将[OH\_NativeBuffer](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-native-buffer-h)转换为EGLClientBuffer类型，以实现纹理的绑定并进行GPU采样。具体使用方法请参考如下示例代码：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 在EGLCore成员变量中已经定义好了如下变量
@@ -170,13 +140,7 @@
 
 调用eglGetNativeClientBufferANDROID所产生的EGLClientBuffer对象在使用完成后需要主动销毁，否则会产生内存泄漏，具体销毁方式参考下列代码片段的示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 在前面已经通过eglGetNativeClientBufferANDROID创建了EGLClientBuffer类型的clientBuffer变量

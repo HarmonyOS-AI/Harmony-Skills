@@ -33,13 +33,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. char Rcp_IpAndPort::ip[RCP_IP_MAX_LEN]
@@ -53,13 +47,7 @@ IPv4或IPv6地址。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint16_t Rcp_IpAndPort::port

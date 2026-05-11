@@ -48,13 +48,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint32_t XEG_DDGIDescription::enableVolumeNumber
@@ -68,13 +62,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkImageView XEG_DDGIDescription::inputBasecolorMetallicImage
@@ -88,13 +76,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkImageView XEG_DDGIDescription::inputDepthImage
@@ -108,13 +90,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkImageView XEG_DDGIDescription::inputDirectionImage
@@ -128,13 +104,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkImageView XEG_DDGIDescription::inputNormalImage
@@ -148,13 +118,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint32_t XEG_DDGIDescription::inputProbeCount
@@ -168,13 +132,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkImageView XEG_DDGIDescription::inputRayHitNormalAndMetallicImage
@@ -188,13 +146,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkImageView XEG_DDGIDescription::inputRayRadianceDistanceImage
@@ -208,13 +160,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkBuffer XEG_DDGIDescription::inputVolumeIndexAndProbeIndex
@@ -228,13 +174,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkImageView XEG_DDGIDescription::outputGIImage
@@ -248,13 +188,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkBuffer XEG_DDGIDescription::outputProbeCount
@@ -268,13 +202,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkBuffer XEG_DDGIDescription::outputVolumeIndexAndProbeIndex
@@ -288,13 +216,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const void* XEG_DDGIDescription::pNext
@@ -308,13 +230,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. float XEG_DDGIDescription::projectionMatrix[16]
@@ -328,13 +244,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const struct XEG_DDGIVolumeEntryParameters* XEG_DDGIDescription::pVolumeEntryParameters
@@ -348,13 +258,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. XEG_StructureType XEG_DDGIDescription::sType
@@ -368,13 +272,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. float XEG_DDGIDescription::viewMatrix[16]

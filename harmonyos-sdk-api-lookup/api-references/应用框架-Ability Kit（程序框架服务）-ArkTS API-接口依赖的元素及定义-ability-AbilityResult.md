@@ -10,13 +10,7 @@ PhonePC/2in1TabletTVWearable
 
 [Stage模型](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ability-terminology#stage模型)下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -24,13 +18,7 @@ PhonePC/2in1TabletTVWearable
 
 [FA模型](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ability-terminology#fa模型)下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import ability from '@ohos.ability.ability';

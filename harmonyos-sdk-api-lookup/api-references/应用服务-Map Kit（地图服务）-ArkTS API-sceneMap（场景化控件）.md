@@ -6,13 +6,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sceneMap } from '@kit.MapKit';
@@ -74,13 +68,7 @@ queryLocation(context: common.UIAbilityContext, options: LocationQueryOptions): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -152,13 +140,7 @@ chooseLocation(context: common.UIAbilityContext, options: LocationChoosingOption
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -235,13 +217,7 @@ selectDistrict(context: common.Context, options: DistrictSelectOptions): Promise
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -293,13 +269,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let queryLocationOptions: sceneMap.LocationQueryOptions = { siteId: "922207154068557824" };
@@ -335,13 +305,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let locationChoosingOptions: sceneMap.LocationChoosingOptions = {
@@ -404,13 +368,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let districtSelectOptions: sceneMap.DistrictSelectOptions = {

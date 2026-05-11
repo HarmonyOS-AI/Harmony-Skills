@@ -6,13 +6,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { shippingAddress } from '@kit.AccountKit';
@@ -124,13 +118,7 @@ chooseAddress(context: common.Context): Promise<AddressInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { shippingAddress } from '@kit.AccountKit';

@@ -12,13 +12,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { window } from '@kit.ArkUI';
@@ -60,13 +54,7 @@ showWindow(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -154,13 +142,7 @@ showWindow(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -260,13 +242,7 @@ showWindow(options: ShowWindowOptions): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -350,13 +326,7 @@ destroyWindow(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -403,13 +373,7 @@ destroyWindow(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -466,13 +430,7 @@ moveWindowTo(x: number, y: number, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -542,13 +500,7 @@ moveWindowTo(x: number, y: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -625,13 +577,7 @@ moveWindowToAsync(x: number, y: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -711,13 +657,7 @@ moveWindowToAsync(x: number, y: number, moveConfiguration?: MoveConfiguration): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { window } from '@kit.ArkUI';
@@ -791,13 +731,7 @@ moveWindowToGlobal(x: number, y: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -868,13 +802,7 @@ moveWindowToGlobal(x: number, y: number, moveConfiguration?: MoveConfiguration):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { window } from '@kit.ArkUI';
@@ -948,13 +876,7 @@ moveWindowToGlobalDisplay(x: number, y: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1015,13 +937,7 @@ clientToGlobalDisplay(winX: number, winY: number): Position
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -1076,13 +992,7 @@ globalDisplayToClient(globalDisplayX: number, globalDisplayY: number): Position
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -1145,13 +1055,7 @@ resize(width: number, height: number, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1229,13 +1133,7 @@ resize(width: number, height: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1313,13 +1211,7 @@ resizeAsync(width: number, height: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1370,13 +1262,7 @@ getWindowProperties(): WindowProperties
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -1419,13 +1305,7 @@ getWindowDensityInfo(): WindowDensityInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -1475,13 +1355,7 @@ setWindowContainerColor(activeColor: string, inactiveColor: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -1557,13 +1431,7 @@ getGlobalRect(): Rect
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -1631,13 +1499,7 @@ getWindowAvoidArea(type: AvoidAreaType): AvoidArea
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let type = window.AvoidAreaType.TYPE_SYSTEM;
@@ -1699,13 +1561,7 @@ getWindowAvoidAreaIgnoringVisibility(type: AvoidAreaType): AvoidArea
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let type = window.AvoidAreaType.TYPE_SYSTEM;
@@ -1759,13 +1615,7 @@ setSystemAvoidAreaEnabled(enabled: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -1851,13 +1701,7 @@ isSystemAvoidAreaEnabled(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -1951,13 +1795,7 @@ setTitleAndDockHoverShown(isTitleHoverShown?: boolean, isDockHoverShown?: boolea
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -2047,13 +1885,7 @@ setWindowLayoutFullScreen(isLayoutFullScreen: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -2130,13 +1962,7 @@ setImmersiveModeEnabledState(enabled: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -2184,13 +2010,7 @@ getImmersiveModeEnabledState(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -2231,13 +2051,7 @@ isImmersiveLayout(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -2286,13 +2100,7 @@ setWindowDelayRaiseOnDrag(isEnabled: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -2350,13 +2158,7 @@ setDragKeyFramePolicy(keyFramePolicy: KeyFramePolicy): Promise<KeyFramePolicy>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -2444,13 +2246,7 @@ setWindowSystemBarEnable(names: Array<'status' | 'navigation'>): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 此处以状态栏等均不显示为例
@@ -2539,13 +2335,7 @@ setSpecificSystemBarEnabled(name: SpecificSystemBar, enable: boolean, enableAnim
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 此处以隐藏状态栏为例
@@ -2628,13 +2418,7 @@ setWindowSystemBarProperties(systemBarProperties: SystemBarProperties): Promise<
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -2710,13 +2494,7 @@ getWindowSystemBarProperties(): SystemBarProperties
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -2793,13 +2571,7 @@ setStatusBarColor(color: ColorMetrics): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -2870,13 +2642,7 @@ getStatusBarProperty(): StatusBarProperty
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -2946,13 +2712,7 @@ setPreferredOrientation(orientation: Orientation, callback: AsyncCallback<void>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -3037,13 +2797,7 @@ setPreferredOrientation(orientation: Orientation): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -3111,13 +2865,7 @@ getPreferredOrientation(): Orientation
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -3182,13 +2930,7 @@ getUIContext(): UIContext
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -3259,13 +3001,7 @@ setUIContent(path: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3325,13 +3061,7 @@ setUIContent(path: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3389,13 +3119,7 @@ loadContent(path: string, storage: LocalStorage, callback: AsyncCallback<void>):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3460,13 +3184,7 @@ loadContent(path: string, storage: LocalStorage): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3523,13 +3241,7 @@ loadContentByName(name: string, storage: LocalStorage, callback: AsyncCallback<v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -3566,13 +3278,7 @@ loadContentByName(name: string, storage: LocalStorage, callback: AsyncCallback<v
 32. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // ets/pages/Index.ets
@@ -3637,13 +3343,7 @@ loadContentByName(name: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3663,13 +3363,7 @@ loadContentByName(name: string, callback: AsyncCallback<void>): void
 15. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // ets/pages/Index.ets
@@ -3741,13 +3435,7 @@ loadContentByName(name: string, storage?: LocalStorage): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3767,13 +3455,7 @@ loadContentByName(name: string, storage?: LocalStorage): Promise<void>
 15. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // ets/pages/Index.ets
@@ -3829,13 +3511,7 @@ isWindowShowing(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -3879,13 +3555,7 @@ on(type: 'windowSizeChange', callback: Callback<Size>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -3930,13 +3600,7 @@ off(type: 'windowSizeChange', callback?: Callback<Size>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const callback = (size: window.Size) => {
@@ -4000,13 +3664,7 @@ on(type: 'avoidAreaChange', callback: Callback<AvoidAreaOptions>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -4052,13 +3710,7 @@ off(type: 'avoidAreaChange', callback?: Callback<AvoidAreaOptions>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. interface Param {
@@ -4112,13 +3764,7 @@ on(type: 'keyboardHeightChange', callback: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4165,13 +3811,7 @@ off(type: 'keyboardHeightChange', callback?: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4226,13 +3866,7 @@ on(type: 'keyboardWillShow', callback: Callback<KeyboardInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4282,13 +3916,7 @@ off(type: 'keyboardWillShow', callback?: Callback<KeyboardInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4343,13 +3971,7 @@ on(type: 'keyboardWillHide', callback: Callback<KeyboardInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4399,13 +4021,7 @@ off(type: 'keyboardWillHide', callback?: Callback<KeyboardInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4460,13 +4076,7 @@ on(type: 'keyboardDidShow', callback: Callback<KeyboardInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4514,13 +4124,7 @@ off(type: 'keyboardDidShow', callback?: Callback<KeyboardInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4574,13 +4178,7 @@ on(type: 'keyboardDidHide', callback: Callback<KeyboardInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4628,13 +4226,7 @@ off(type: 'keyboardDidHide', callback?: Callback<KeyboardInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4685,13 +4277,7 @@ on(type: 'touchOutside', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -4736,13 +4322,7 @@ off(type: 'touchOutside', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const callback = () => {
@@ -4791,13 +4371,7 @@ on(type: 'screenshot', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -4842,13 +4416,7 @@ off(type: 'screenshot', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback = () => {
@@ -4896,13 +4464,7 @@ on(type: 'screenshotAppEvent', callback: Callback<ScreenshotEventType>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const callback = (eventType: window.ScreenshotEventType) => {
@@ -4947,13 +4509,7 @@ off(type: 'screenshotAppEvent', callback?: Callback<ScreenshotEventType>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const callback = (eventType: window.ScreenshotEventType) => {
@@ -5004,13 +4560,7 @@ on(type: 'dialogTargetTouch', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -5055,13 +4605,7 @@ off(type: 'dialogTargetTouch', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const callback = () => {
@@ -5110,13 +4654,7 @@ on(type: 'windowEvent', callback: Callback<WindowEventType>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -5161,13 +4699,7 @@ off(type: 'windowEvent', callback?: Callback<WindowEventType>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const callback = (windowEventType: window.WindowEventType) => {
@@ -5220,13 +4752,7 @@ on(type: 'displayIdChange', callback: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -5273,13 +4799,7 @@ off(type: 'displayIdChange', callback?: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const callback = (displayId: number) => {
@@ -5338,13 +4858,7 @@ on(type: 'windowVisibilityChange', callback: Callback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -5392,13 +4906,7 @@ off(type: 'windowVisibilityChange', callback?: Callback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const callback = (bool: boolean) => {
@@ -5454,13 +4962,7 @@ on(type: 'occlusionStateChanged', callback: Callback<OcclusionState>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -5506,13 +5008,7 @@ off(type: 'occlusionStateChanged', callback?: Callback<OcclusionState>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -5564,13 +5060,7 @@ on(type: 'frameMetricsMeasured', callback: Callback<FrameMetrics>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -5615,13 +5105,7 @@ off(type: 'frameMetricsMeasured', callback?: Callback<FrameMetrics>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -5676,13 +5160,7 @@ on(type: 'systemDensityChange', callback: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const callback = (density: number) => {
@@ -5735,13 +5213,7 @@ off(type: 'systemDensityChange', callback?: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const callback = (density: number) => {
@@ -5796,13 +5268,7 @@ on(type: 'noInteractionDetected', timeout: number, callback: Callback<void>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -5850,13 +5316,7 @@ off(type: 'noInteractionDetected', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const callback = () => {
@@ -5912,13 +5372,7 @@ on(type: 'windowStatusChange', callback: Callback<WindowStatusType>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -5964,13 +5418,7 @@ off(type: 'windowStatusChange', callback?: Callback<WindowStatusType>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const callback = (windowStatusType: window.WindowStatusType) => {
@@ -6018,13 +5466,7 @@ on(type: 'windowStatusDidChange', callback: Callback<WindowStatusType>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -6068,13 +5510,7 @@ off(type: 'windowStatusDidChange', callback?: Callback<WindowStatusType>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const callback = (windowStatusType: window.WindowStatusType) => {
@@ -6133,13 +5569,7 @@ setWindowGrayScale(grayScale: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6201,13 +5631,7 @@ on(type: 'windowTitleButtonRectChange', callback: Callback<TitleButtonRect>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. windowClass.setUIContent('pages/WindowPage').then(() => {
@@ -6256,13 +5680,7 @@ off(type: 'windowTitleButtonRectChange', callback?: Callback<TitleButtonRect>): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. windowClass.setUIContent('pages/WindowPage').then(() => {
@@ -6318,13 +5736,7 @@ on(type: 'windowRectChange', callback: Callback<RectChangeOptions>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -6372,13 +5784,7 @@ off(type: 'windowRectChange', callback?: Callback<RectChangeOptions>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const callback = (rectChangeOptions: window.RectChangeOptions) => {
@@ -6428,13 +5834,7 @@ on(type: 'rectChangeInGlobalDisplay', callback: Callback<RectChangeOptions>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const callback = (rectChangeOptions: window.RectChangeOptions) => {
@@ -6481,13 +5881,7 @@ off(type: 'rectChangeInGlobalDisplay', callback?: Callback<RectChangeOptions>): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const callback = (rectChangeOptions: window.RectChangeOptions) => {
@@ -6546,13 +5940,7 @@ on(type: 'subWindowClose', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const callback = () => {
@@ -6602,13 +5990,7 @@ off(type: 'subWindowClose', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const callback = () => {
@@ -6669,13 +6051,7 @@ on(type: 'windowWillClose', callback: Callback<void, Promise<boolean>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -6746,13 +6122,7 @@ off(type: 'windowWillClose', callback?: Callback<void, Promise<boolean>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -6820,13 +6190,7 @@ on(type: 'windowHighlightChange', callback: Callback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -6874,13 +6238,7 @@ off(type: 'windowHighlightChange', callback?: Callback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const callback = (data: boolean) => {
@@ -6945,13 +6303,7 @@ on(type: 'rotationChange', callback: RotationChangeCallback<RotationChangeInfo, 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -7068,13 +6420,7 @@ off(type: 'rotationChange', callback?: RotationChangeCallback<RotationChangeInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const callback = (info: window.RotationChangeInfo): window.RotationChangeResult | void => {
@@ -7125,13 +6471,7 @@ on(eventType: 'uiExtensionSecureLimitChange', callback: Callback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -7178,13 +6518,7 @@ off(eventType: 'uiExtensionSecureLimitChange', callback?: Callback<boolean>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const callback = (data: boolean) => {
@@ -7234,13 +6568,7 @@ isWindowSupportWideGamut(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -7287,13 +6615,7 @@ isWindowSupportWideGamut(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -7340,13 +6662,7 @@ setWindowColorSpace(colorSpace:ColorSpace, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -7406,13 +6722,7 @@ setWindowColorSpace(colorSpace:ColorSpace): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -7461,13 +6771,7 @@ getWindowColorSpace(): ColorSpace
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -7516,13 +6820,7 @@ Stage模型下，该接口需要在[loadContent()](/consumer/cn/doc/harmonyos-re
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -7597,13 +6895,7 @@ setWindowShadowEnabled(enable: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -7693,13 +6985,7 @@ setWindowBrightness(brightness: number, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -7801,13 +7087,7 @@ setWindowBrightness(brightness: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -7886,13 +7166,7 @@ setWindowFocusable(isFocusable: boolean, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -7956,13 +7230,7 @@ setWindowFocusable(isFocusable: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -8017,13 +7285,7 @@ setWindowKeepScreenOn(isKeepScreenOn: boolean, callback: AsyncCallback<void>): v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -8087,13 +7349,7 @@ setWindowKeepScreenOn(isKeepScreenOn: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -8153,13 +7409,7 @@ setWindowPrivacyMode(isPrivacyMode: boolean, callback: AsyncCallback<void>): voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -8228,13 +7478,7 @@ setWindowPrivacyMode(isPrivacyMode: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -8289,13 +7533,7 @@ setWindowTouchable(isTouchable: boolean, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -8359,13 +7597,7 @@ setWindowTouchable(isTouchable: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -8415,13 +7647,7 @@ snapshot(callback: AsyncCallback<image.PixelMap>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -8470,13 +7696,7 @@ snapshot(): Promise<image.PixelMap>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -8525,13 +7745,7 @@ Stage模型下，该接口需要在[loadContent()](/consumer/cn/doc/harmonyos-re
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -8579,13 +7793,7 @@ snapshotIgnorePrivacy(): Promise<image.PixelMap>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -8648,13 +7856,7 @@ setAspectRatio(ratio: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -8727,13 +7929,7 @@ setAspectRatio(ratio: number, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -8818,13 +8014,7 @@ setContentAspectRatio(ratio: number, isPersistent?: boolean, needUpdateRect?: bo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -8886,13 +8076,7 @@ resetAspectRatio(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -8958,13 +8142,7 @@ resetAspectRatio(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -9036,13 +8214,7 @@ minimize(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -9096,13 +8268,7 @@ minimize(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -9160,13 +8326,7 @@ maximize(presentation?: MaximizePresentation): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -9243,13 +8403,7 @@ maximize(presentation?: MaximizePresentation, acrossDisplay?: boolean): Promise<
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -9314,13 +8468,7 @@ setResizeByDragEnabled(enable: boolean, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -9380,13 +8528,7 @@ setResizeByDragEnabled(enable: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -9440,13 +8582,7 @@ recover(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -9514,13 +8650,7 @@ restore(): Promise<void>
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -9595,13 +8725,7 @@ restoreMainWindow(wantParameters?: Record<string, Object>): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Float.ets
@@ -9664,13 +8788,7 @@ restoreMainWindow(wantParameters?: Record<string, Object>): Promise<void>
 58. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // FloatWindowInfo.ets
@@ -9748,13 +8866,7 @@ getWindowLimits(): WindowLimits
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -9797,13 +8909,7 @@ getWindowLimitsVP(): WindowLimits
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -9866,13 +8972,7 @@ setWindowLimits(windowLimits: WindowLimits): Promise<WindowLimits>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -9956,13 +9056,7 @@ setWindowLimits(windowLimits: WindowLimits, isForcible: boolean): Promise<Window
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -10034,13 +9128,7 @@ setWindowMask(windowMask: Array<Array<number>>): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -10100,13 +9188,7 @@ clearWindowMask(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -10170,13 +9252,7 @@ keepKeyboardOnFocus(keepKeyboardFlag: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -10222,13 +9298,7 @@ setWindowDecorVisible(isVisible: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -10286,13 +9356,7 @@ getWindowDecorVisible(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let isVisible: boolean | undefined = undefined;
@@ -10349,13 +9413,7 @@ setWindowTitle(titleName: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -10409,13 +9467,7 @@ setWindowTitleMoveEnabled(enabled: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -10486,13 +9538,7 @@ setSubWindowModal(isModal: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -10581,13 +9627,7 @@ setSubWindowModal(isModal: boolean, modalityType: ModalityType): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -10663,13 +9703,7 @@ setWindowDecorHeight(height: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. windowClass.setUIContent('pages/WindowPage').then(() => {
@@ -10724,13 +9758,7 @@ setDecorButtonStyle(dectorStyle: DecorButtonStyle): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -10805,13 +9833,7 @@ getDecorButtonStyle(): DecorButtonStyle
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -10859,13 +9881,7 @@ getWindowDecorHeight(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. windowClass.setUIContent('pages/WindowPage').then(() => {
@@ -10911,13 +9927,7 @@ getTitleButtonRect(): TitleButtonRect
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -10985,13 +9995,7 @@ getWindowStatus(): WindowStatusType
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -11035,13 +10039,7 @@ isFocused(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -11101,13 +10099,7 @@ createSubWindowWithOptions(name: string, options: SubWindowOptions): Promise<Win
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -11183,13 +10175,7 @@ setParentWindow(windowId: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -11250,13 +10236,7 @@ getParentWindow(): Window
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -11308,13 +10288,7 @@ setWindowTitleButtonVisible(isMaximizeButtonVisible: boolean, isMinimizeButtonVi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -11399,13 +10373,7 @@ setWindowTopmost(isWindowTopmost: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -11497,13 +10465,7 @@ raiseToAppTop(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -11580,13 +10542,7 @@ setRaiseByClickEnabled(enable: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -11656,13 +10612,7 @@ enableLandscapeMultiWindow(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -11728,13 +10678,7 @@ disableLandscapeMultiWindow(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -11809,13 +10753,7 @@ setDialogBackGestureEnabled(enabled: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -11856,13 +10794,7 @@ setDialogBackGestureEnabled(enabled: boolean): Promise<void>
 36. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // ets/pages/Index.ets
@@ -11933,13 +10865,7 @@ enableDrag(enable: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -11997,13 +10923,7 @@ startMoving(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -12108,13 +11028,7 @@ startMoving(offsetX: number, offsetY: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -12198,13 +11112,7 @@ stopMoving(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -12283,13 +11191,7 @@ setGestureBackEnabled(enabled: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -12363,13 +11265,7 @@ isGestureBackEnabled(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -12453,13 +11349,7 @@ setSeparationTouchEnabled(enabled: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -12511,13 +11401,7 @@ isSeparationTouchEnabled():boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -12576,13 +11460,7 @@ setReceiveDragEventEnabled(enabled: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -12634,13 +11512,7 @@ isReceiveDragEventEnabled():boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -12694,13 +11566,7 @@ setWindowShadowRadius(radius: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -12764,13 +11630,7 @@ setWindowCornerRadius(cornerRadius: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -12827,13 +11687,7 @@ getWindowCornerRadius(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -12889,13 +11743,7 @@ setExclusivelyHighlighted(exclusivelyHighlighted: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -12948,13 +11796,7 @@ isWindowHighlighted(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -13021,13 +11863,7 @@ setFollowParentMultiScreenPolicy(enabled: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -13102,13 +11938,7 @@ setFollowParentWindowLayoutEnabled(enabled: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -13200,13 +12030,7 @@ setRelativePositionToParentWindowEnabled(enabled: boolean, anchor?: WindowAnchor
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -13291,13 +12115,7 @@ setWindowTransitionAnimation(transitionType: WindowTransitionType, animation: Tr
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -13390,13 +12208,7 @@ getWindowTransitionAnimation(transitionType: WindowTransitionType): TransitionAn
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -13476,13 +12288,7 @@ setSubWindowZLevel(zLevel: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -13551,13 +12357,7 @@ getSubWindowZLevel(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -13619,13 +12419,7 @@ isInFreeWindowMode(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let isInFreeWindowMode: boolean = windowClass.isInFreeWindowMode();
@@ -13666,13 +12460,7 @@ on(type: 'freeWindowModeChange', callback: Callback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -13718,13 +12506,7 @@ off(type: 'freeWindowModeChange', callback?: Callback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const callback = (isInFreeWindowMode: boolean) => {
@@ -13788,13 +12570,7 @@ convertOrientationAndRotation(from: RotationInfoType, to: RotationInfoType, valu
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -13850,13 +12626,7 @@ setWindowSystemBarProperties(systemBarProperties: SystemBarProperties, callback:
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -13943,13 +12713,7 @@ setWindowSystemBarEnable(names: Array<'status' | 'navigation'>, callback: AsyncC
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 此处以状态栏等均不显示为例
@@ -14037,13 +12801,7 @@ setWindowLayoutFullScreen(isLayoutFullScreen: boolean, callback: AsyncCallback<v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -14105,13 +12863,7 @@ show(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -14150,13 +12902,7 @@ show(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -14193,13 +12939,7 @@ destroy(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -14238,13 +12978,7 @@ destroy(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -14285,13 +13019,7 @@ moveTo(x: number, y: number, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -14341,13 +13069,7 @@ moveTo(x: number, y: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -14400,13 +13122,7 @@ resetSize(width: number, height: number, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -14468,13 +13184,7 @@ resetSize(width: number, height: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -14511,13 +13221,7 @@ getProperties(callback: AsyncCallback<WindowProperties>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -14556,13 +13260,7 @@ getProperties(): Promise<WindowProperties>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -14611,13 +13309,7 @@ getAvoidArea(type: AvoidAreaType, callback: AsyncCallback<AvoidArea>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -14676,13 +13368,7 @@ getAvoidArea(type: AvoidAreaType): Promise<AvoidArea>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -14725,13 +13411,7 @@ setFullScreen(isFullScreen: boolean, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -14801,13 +13481,7 @@ setFullScreen(isFullScreen: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -14868,13 +13542,7 @@ setLayoutFullScreen(isLayoutFullScreen: boolean, callback: AsyncCallback<void>):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -14944,13 +13612,7 @@ setLayoutFullScreen(isLayoutFullScreen: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -15011,13 +13673,7 @@ setSystemBarEnable(names: Array<'status' | 'navigation'>, callback: AsyncCallbac
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 此处以状态栏等均不显示为例
@@ -15088,13 +13744,7 @@ setSystemBarEnable(names: Array<'status' | 'navigation'>): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 此处以状态栏等均不显示为例
@@ -15154,13 +13804,7 @@ setSystemBarProperties(systemBarProperties: SystemBarProperties, callback: Async
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -15234,13 +13878,7 @@ setSystemBarProperties(systemBarProperties: SystemBarProperties): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -15307,13 +13945,7 @@ loadContent(path: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -15364,13 +13996,7 @@ loadContent(path: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -15407,13 +14033,7 @@ isShowing(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -15452,13 +14072,7 @@ isShowing(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -15496,13 +14110,7 @@ on(type: 'systemAvoidAreaChange', callback: Callback<AvoidArea>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. windowClass.on('systemAvoidAreaChange', (data) => {
@@ -15535,13 +14143,7 @@ off(type: 'systemAvoidAreaChange', callback?: Callback<AvoidArea>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const callback = (avoidArea: window.AvoidArea) => {
@@ -15577,13 +14179,7 @@ isSupportWideGamut(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -15622,13 +14218,7 @@ isSupportWideGamut(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -15666,13 +14256,7 @@ setColorSpace(colorSpace:ColorSpace, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -15719,13 +14303,7 @@ setColorSpace(colorSpace:ColorSpace): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -15762,13 +14340,7 @@ getColorSpace(callback: AsyncCallback<ColorSpace>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -15807,13 +14379,7 @@ getColorSpace(): Promise<ColorSpace>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -15851,13 +14417,7 @@ setBackgroundColor(color: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -15905,13 +14465,7 @@ setBackgroundColor(color: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -15952,13 +14506,7 @@ setBrightness(brightness: number, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -16008,13 +14556,7 @@ setBrightness(brightness: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -16053,13 +14595,7 @@ setDimBehind(dimBehindValue: number, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -16106,13 +14642,7 @@ setDimBehind(dimBehindValue: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -16150,13 +14680,7 @@ setFocusable(isFocusable: boolean, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -16204,13 +14728,7 @@ setFocusable(isFocusable: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -16249,13 +14767,7 @@ setKeepScreenOn(isKeepScreenOn: boolean, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -16303,13 +14815,7 @@ setKeepScreenOn(isKeepScreenOn: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -16350,13 +14856,7 @@ setOutsideTouchable(touchable: boolean, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -16405,13 +14905,7 @@ setOutsideTouchable(touchable: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -16449,13 +14943,7 @@ setPrivacyMode(isPrivacyMode: boolean, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -16503,13 +14991,7 @@ setPrivacyMode(isPrivacyMode: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -16548,13 +15030,7 @@ setTouchable(isTouchable: boolean, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -16602,13 +15078,7 @@ setTouchable(isTouchable: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

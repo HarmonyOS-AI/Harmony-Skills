@@ -22,13 +22,7 @@
 
 ### aaguid
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Uint8Buff FIDO2_AuthenticatorMetadata::aaguid
@@ -40,13 +34,7 @@
 
 ### isAvailable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bool FIDO2_AuthenticatorMetadata::isAvailable
@@ -58,13 +46,7 @@
 
 ### uvm
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FIDO2_Uvm FIDO2_AuthenticatorMetadata::uvm

@@ -147,13 +147,7 @@ PhonePC/2in1TabletTVWearable
 
 * 示例应用中的EntryAbility(UIAbility)加载首页文件ets/pages/Index.ets，其中内容如下：
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. import { Want } from '@kit.AbilityKit';
@@ -193,13 +187,7 @@ PhonePC/2in1TabletTVWearable
   ```
 * EmbeddedComponent拉起的ExampleEmbeddedAbility(EmbeddedUIExtensionAbility)在ets/extensionAbility/ExampleEmbeddedAbility.ets文件中实现，内容如下：
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. import { EmbeddedUIExtensionAbility, UIExtensionContentSession, Want } from '@kit.AbilityKit';
@@ -240,13 +228,7 @@ PhonePC/2in1TabletTVWearable
   ```
 * ExampleEmbeddedAbility(EmbeddedUIExtensionAbility)的入口页面文件ets/pages/extension.ets内容如下，同时需要在resources/base/profile/main\_pages.json文件中配置该页面路径：
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. import { UIExtensionContentSession } from '@kit.AbilityKit';
@@ -279,13 +261,7 @@ PhonePC/2in1TabletTVWearable
   ```
 * 在module.json5配置文件的"extensionAbilities"标签下增加ExampleEmbeddedAbility配置，其type类型为embeddedUI，具体内容如下：
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. {
@@ -296,13 +272,7 @@ PhonePC/2in1TabletTVWearable
   ```
 * 文件目录结构如下：
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. .

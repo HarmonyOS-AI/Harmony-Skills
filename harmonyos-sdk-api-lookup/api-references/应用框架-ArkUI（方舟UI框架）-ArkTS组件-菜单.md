@@ -1,4 +1,0 @@
-* **[Menu](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-basic-components-menu)**
-* **[MenuItem](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-basic-components-menuitem)**
-* **[MenuItemGroup](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-basic-components-menuitemgroup)**
-* **[ContextMenu](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-methods-menu)**

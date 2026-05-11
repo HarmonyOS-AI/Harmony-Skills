@@ -8,13 +8,7 @@
 
 PhoneTablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { mechanicManager } from '@kit.MechanicKit';
@@ -51,13 +45,7 @@ on(type: 'attachStateChange', callback: Callback<AttachStateChangeInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback = (result: mechanicManager.AttachStateChangeInfo) => {
@@ -100,13 +88,7 @@ off(type: 'attachStateChange', callback?: Callback<AttachStateChangeInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback = (result: mechanicManager.AttachStateChangeInfo) => {
@@ -148,13 +130,7 @@ getAttachedMechDevices(): MechInfo[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. console.info('Query device list');
@@ -194,13 +170,7 @@ setCameraTrackingEnabled(isEnabled: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. console.info('Enable tracing');
@@ -239,13 +209,7 @@ getCameraTrackingEnabled(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. console.info('Get tracking status');
@@ -284,13 +248,7 @@ on(type: 'trackingStateChange', callback: Callback<TrackingEventInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback = (result: mechanicManager.TrackingEventInfo) => {
@@ -333,13 +291,7 @@ off(type: 'trackingStateChange', callback?: Callback<TrackingEventInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback = (result: mechanicManager.TrackingEventInfo) => {
@@ -382,13 +334,7 @@ getCameraTrackingLayout(): CameraTrackingLayout
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. console.info('Query layout');

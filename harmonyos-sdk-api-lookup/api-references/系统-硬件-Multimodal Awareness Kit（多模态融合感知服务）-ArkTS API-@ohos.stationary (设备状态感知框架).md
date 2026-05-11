@@ -10,13 +10,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { stationary } from '@kit.MultimodalAwarenessKit';
@@ -107,13 +101,7 @@ on(activity: ActivityType, event: ActivityEvent, reportLatencyNs: number, callba
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let reportLatencyNs = 1000000000;
@@ -143,13 +131,7 @@ once(activity: ActivityType, callback: Callback<ActivityResponse>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. stationary.once('still', (data) => {
@@ -179,13 +161,7 @@ off(activity: ActivityType, event: ActivityEvent, callback?: Callback<ActivityRe
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. stationary.off('still', stationary.ActivityEvent.ENTER);

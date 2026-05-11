@@ -1,10 +1,4 @@
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct {...} ArkUI_NativeDialogAPI_3
@@ -73,13 +67,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t (*setLevelOrder)(ArkUI_NativeDialogHandle handle, double levelOrder)
@@ -116,13 +104,7 @@ setLevelOrder方法需要在调用[show](https://developer.huawei.com/consumer/c
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t (*registerOnWillAppear)(ArkUI_NativeDialogHandle handle, void* userData, void (*callback)(void* userData))
@@ -160,13 +142,7 @@ registerOnWillAppear方法需要在调用[show](https://developer.huawei.com/con
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t (*registerOnDidAppear)(ArkUI_NativeDialogHandle handle, void* userData, void (*callback)(void* userData))
@@ -204,13 +180,7 @@ registerOnDidAppear方法需要在调用[show](https://developer.huawei.com/cons
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t (*registerOnWillDisappear)(ArkUI_NativeDialogHandle handle, void* userData, void (*callback)(void* userData))
@@ -248,13 +218,7 @@ registerOnWillDisappear方法需要在调用[show](https://developer.huawei.com/
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t (*registerOnDidDisappear)(ArkUI_NativeDialogHandle handle, void* userData, void (*callback)(void* userData))
@@ -292,13 +256,7 @@ registerOnDidDisappear方法需要在调用[show](https://developer.huawei.com/c
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t (*setBorderWidth)(ArkUI_NativeDialogHandle handle, float top, float right, float bottom, float left, ArkUI_LengthMetricUnit unit)
@@ -339,13 +297,7 @@ setBorderWidth方法需要在调用[show](https://developer.huawei.com/consumer/
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t (*setBorderColor)(ArkUI_NativeDialogHandle handle, uint32_t top, uint32_t right, uint32_t bottom, uint32_t left)
@@ -385,13 +337,7 @@ setBorderColor方法需要在调用[show](https://developer.huawei.com/consumer/
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t (*setBorderStyle)(ArkUI_NativeDialogHandle handle, int32_t top, int32_t right, int32_t bottom, int32_t left)
@@ -431,13 +377,7 @@ setBorderStyle方法需要在调用[show](https://developer.huawei.com/consumer/
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t (*setWidth)(ArkUI_NativeDialogHandle handle, float width, ArkUI_LengthMetricUnit unit)
@@ -475,13 +415,7 @@ setWidth方法需要在调用[show](https://developer.huawei.com/consumer/cn/doc
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t (*setHeight)(ArkUI_NativeDialogHandle handle, float height, ArkUI_LengthMetricUnit unit)
@@ -519,13 +453,7 @@ setHeight方法需要在调用[show](https://developer.huawei.com/consumer/cn/do
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t (*setShadow)(ArkUI_NativeDialogHandle handle, ArkUI_ShadowStyle shadow)
@@ -562,13 +490,7 @@ setShadow方法需要在调用[show](https://developer.huawei.com/consumer/cn/do
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t (*setCustomShadow)(ArkUI_NativeDialogHandle handle, const ArkUI_AttributeItem* customShadow)
@@ -605,13 +527,7 @@ setCustomShadow方法需要在调用[show](https://developer.huawei.com/consumer
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t (*setBackgroundBlurStyle)(ArkUI_NativeDialogHandle handle, ArkUI_BlurStyle blurStyle)
@@ -648,13 +564,7 @@ setBackgroundBlurStyle方法需要在调用[show](https://developer.huawei.com/c
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t (*setKeyboardAvoidMode)(ArkUI_NativeDialogHandle handle, ArkUI_KeyboardAvoidMode keyboardAvoidMode)
@@ -691,13 +601,7 @@ setKeyboardAvoidMode方法需要在调用[show](https://developer.huawei.com/con
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t (*enableHoverMode)(ArkUI_NativeDialogHandle handle, bool enableHoverMode)
@@ -734,13 +638,7 @@ enableHoverMode方法需要在调用[show](https://developer.huawei.com/consumer
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t (*setHoverModeArea)(ArkUI_NativeDialogHandle handle, ArkUI_HoverModeAreaType hoverModeAreaType)
@@ -777,13 +675,7 @@ setHoverModeArea方法需要在调用[show](https://developer.huawei.com/consume
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t (*setFocusable)(ArkUI_NativeDialogHandle handle, bool focusable)
@@ -820,13 +712,7 @@ setFocusable方法需要在调用[show](https://developer.huawei.com/consumer/cn
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t (*setBackgroundBlurStyleOptions)(ArkUI_NativeDialogHandle handle, const ArkUI_AttributeItem* backgroundBlurStyleOptions)
@@ -863,13 +749,7 @@ setBackgroundBlurStyleOptions方法需要在调用[show](https://developer.huawe
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t (*setBackgroundEffect)(ArkUI_NativeDialogHandle handle, const ArkUI_AttributeItem* backgroundEffect)

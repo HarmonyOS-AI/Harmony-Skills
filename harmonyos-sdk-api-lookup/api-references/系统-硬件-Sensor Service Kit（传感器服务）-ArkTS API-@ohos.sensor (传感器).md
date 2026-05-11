@@ -8,13 +8,7 @@ sensor模块提供了获取传感器数据的能力，包括获取传感器属�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -62,13 +56,7 @@ on(type: SensorId.ACCELEROMETER, callback: Callback<AccelerometerResponse>, opti
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -123,13 +111,7 @@ on(type: SensorId.FUSION\_PRESSURE, callback: Callback<FusionPressureResponse>, 
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -185,13 +167,7 @@ on(type: SensorId.ACCELEROMETER\_UNCALIBRATED, callback: Callback<AccelerometerU
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -249,13 +225,7 @@ on(type: SensorId.AMBIENT\_LIGHT, callback: Callback<LightResponse>, options?: O
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -308,13 +278,7 @@ on(type: SensorId.AMBIENT\_TEMPERATURE, callback: Callback<AmbientTemperatureRes
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -367,13 +331,7 @@ on(type: SensorId.BAROMETER, callback: Callback<BarometerResponse>, options?: Op
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -426,13 +384,7 @@ on(type: SensorId.GRAVITY, callback: Callback<GravityResponse>, options?: Option
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -492,13 +444,7 @@ on(type: SensorId.GYROSCOPE, callback: Callback<GyroscopeResponse>, options?: Op
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -556,13 +502,7 @@ on(type: SensorId.GYROSCOPE\_UNCALIBRATED, callback: Callback<GyroscopeUncalibra
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -620,13 +560,7 @@ on(type: SensorId.HALL, callback: Callback<HallResponse>, options?: Options): vo
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -682,13 +616,7 @@ on(type: SensorId.HEART\_RATE, callback: Callback<HeartRateResponse>, options?: 
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -741,13 +669,7 @@ on(type: SensorId.HUMIDITY, callback: Callback<HumidityResponse>, options?: Opti
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -803,13 +725,7 @@ on(type: SensorId.LINEAR\_ACCELEROMETER, callback: Callback<LinearAccelerometerR
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -864,13 +780,7 @@ on(type: SensorId.MAGNETIC\_FIELD, callback: Callback<MagneticFieldResponse>, op
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -925,13 +835,7 @@ on(type: SensorId.MAGNETIC\_FIELD\_UNCALIBRATED, callback: Callback<MagneticFiel
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -995,13 +899,7 @@ on(type: SensorId.ORIENTATION, callback: Callback<OrientationResponse>, options?
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -1059,13 +957,7 @@ on(type: SensorId.PEDOMETER, callback: Callback<PedometerResponse>, options?: Op
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -1121,13 +1013,7 @@ on(type: SensorId.PEDOMETER\_DETECTION, callback: Callback<PedometerDetectionRes
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -1180,13 +1066,7 @@ on(type: SensorId.PROXIMITY, callback: Callback<ProximityResponse>, options?: Op
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -1239,13 +1119,7 @@ on(type: SensorId.ROTATION\_VECTOR, callback: Callback<RotationVectorResponse>, 
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -1301,13 +1175,7 @@ on(type: SensorId.SIGNIFICANT\_MOTION, callback: Callback<SignificantMotionRespo
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -1360,13 +1228,7 @@ on(type: SensorId.WEAR\_DETECTION, callback: Callback<WearDetectionResponse>, op
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -1417,13 +1279,7 @@ on(type: 'sensorStatusChange', callback: Callback<SensorStatusEvent>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -1482,13 +1338,7 @@ once(type: SensorId.ACCELEROMETER, callback: Callback<AccelerometerResponse>): v
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -1542,13 +1392,7 @@ once(type: SensorId.ACCELEROMETER\_UNCALIBRATED, callback: Callback<Acceleromete
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -1602,13 +1446,7 @@ once(type: SensorId.AMBIENT\_LIGHT, callback: Callback<LightResponse>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -1657,13 +1495,7 @@ once(type: SensorId.AMBIENT\_TEMPERATURE, callback: Callback<AmbientTemperatureR
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -1712,13 +1544,7 @@ once(type: SensorId.BAROMETER, callback: Callback<BarometerResponse>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -1767,13 +1593,7 @@ once(type: SensorId.GRAVITY, callback: Callback<GravityResponse>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -1827,13 +1647,7 @@ once(type: SensorId.GYROSCOPE, callback: Callback<GyroscopeResponse>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -1887,13 +1701,7 @@ once(type: SensorId.GYROSCOPE\_UNCALIBRATED, callback: Callback<GyroscopeUncalib
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -1947,13 +1755,7 @@ once(type: SensorId.HALL, callback: Callback<HallResponse>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -2005,13 +1807,7 @@ once(type: SensorId.HEART\_RATE, callback: Callback<HeartRateResponse>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -2060,13 +1856,7 @@ once(type: SensorId.HUMIDITY, callback: Callback<HumidityResponse>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -2118,13 +1908,7 @@ once(type: SensorId.LINEAR\_ACCELEROMETER, callback: Callback<LinearAcceleromete
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -2175,13 +1959,7 @@ once(type: SensorId.MAGNETIC\_FIELD, callback: Callback<MagneticFieldResponse>):
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -2232,13 +2010,7 @@ once(type: SensorId.MAGNETIC\_FIELD\_UNCALIBRATED, callback: Callback<MagneticFi
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -2292,13 +2064,7 @@ once(type: SensorId.ORIENTATION, callback: Callback<OrientationResponse>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -2352,13 +2118,7 @@ once(type: SensorId.PEDOMETER, callback: Callback<PedometerResponse>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -2410,13 +2170,7 @@ once(type: SensorId.PEDOMETER\_DETECTION, callback: Callback<PedometerDetectionR
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -2465,13 +2219,7 @@ once(type: SensorId.PROXIMITY, callback: Callback<ProximityResponse>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -2520,13 +2268,7 @@ once(type: SensorId.ROTATION\_VECTOR, callback: Callback<RotationVectorResponse>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -2578,13 +2320,7 @@ once(type: SensorId.SIGNIFICANT\_MOTION, callback: Callback<SignificantMotionRes
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -2633,13 +2369,7 @@ once(type: SensorId.WEAR\_DETECTION, callback: Callback<WearDetectionResponse>):
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -2696,13 +2426,7 @@ off(type: SensorId.ACCELEROMETER, callback?: Callback<AccelerometerResponse>): v
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -2767,13 +2491,7 @@ off(type: SensorId.ACCELEROMETER, sensorInfoParam?: SensorInfoParam, callback?: 
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -2867,13 +2585,7 @@ off(type: SensorId.ACCELEROMETER\_UNCALIBRATED, callback?: Callback<Acceleromete
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -2934,13 +2646,7 @@ off(type: SensorId.FUSION\_PRESSURE, sensorInfoParam?: SensorInfoParam, callback
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -3035,13 +2741,7 @@ off(type: SensorId.ACCELEROMETER\_UNCALIBRATED, sensorInfoParam?: SensorInfoPara
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -3132,13 +2832,7 @@ off(type: SensorId.AMBIENT\_LIGHT, callback?: Callback<LightResponse>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -3198,13 +2892,7 @@ off(type: SensorId.AMBIENT\_LIGHT, sensorInfoParam?: SensorInfoParam, callback?:
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -3295,13 +2983,7 @@ off(type: SensorId.AMBIENT\_TEMPERATURE, callback?: Callback<AmbientTemperatureR
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -3361,13 +3043,7 @@ off(type: SensorId.AMBIENT\_TEMPERATURE, sensorInfoParam?: SensorInfoParam, call
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -3458,13 +3134,7 @@ off(type: SensorId.BAROMETER, callback?: Callback<BarometerResponse>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -3524,13 +3194,7 @@ off(type: SensorId.BAROMETER, sensorInfoParam?: SensorInfoParam, callback?: Call
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -3621,13 +3285,7 @@ off(type: SensorId.GRAVITY, callback?: Callback<GravityResponse>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -3687,13 +3345,7 @@ off(type: SensorId.GRAVITY, sensorInfoParam?: SensorInfoParam, callback?: Callba
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -3789,13 +3441,7 @@ off(type: SensorId.GYROSCOPE, callback?: Callback<GyroscopeResponse>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -3860,13 +3506,7 @@ off(type: SensorId.GYROSCOPE, sensorInfoParam?: SensorInfoParam, callback?: Call
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -3960,13 +3600,7 @@ off(type: SensorId.GYROSCOPE\_UNCALIBRATED, callback?: Callback<GyroscopeUncalib
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -4029,13 +3663,7 @@ off(type: SensorId.GYROSCOPE\_UNCALIBRATED, sensorInfoParam?: SensorInfoParam, c
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -4126,13 +3754,7 @@ off(type: SensorId.HALL, callback?: Callback<HallResponse>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -4192,13 +3814,7 @@ off(type: SensorId.HALL, sensorInfoParam?: SensorInfoParam, callback?: Callback<
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -4292,13 +3908,7 @@ off(type: SensorId.HEART\_RATE, callback?: Callback<HeartRateResponse>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -4361,13 +3971,7 @@ off(type: SensorId.HEART\_RATE, sensorInfoParam?: SensorInfoParam, callback?: Ca
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -4458,13 +4062,7 @@ off(type: SensorId.HUMIDITY, callback?: Callback<HumidityResponse>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -4524,13 +4122,7 @@ off(type: SensorId.HUMIDITY, sensorInfoParam?: SensorInfoParam, callback?: Callb
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -4624,13 +4216,7 @@ off(type: SensorId.LINEAR\_ACCELEROMETER, callback?: Callback<LinearAcceleromete
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -4693,13 +4279,7 @@ off(type: SensorId.LINEAR\_ACCELEROMETER, sensorInfoParam?: SensorInfoParam, cal
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -4790,13 +4370,7 @@ off(type: SensorId.MAGNETIC\_FIELD, callback?: Callback<MagneticFieldResponse>):
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -4856,13 +4430,7 @@ off(type: SensorId.MAGNETIC\_FIELD, sensorInfoParam?: SensorInfoParam, callback?
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -4953,13 +4521,7 @@ off(type: SensorId.MAGNETIC\_FIELD\_UNCALIBRATED, callback?: Callback<MagneticFi
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -5019,13 +4581,7 @@ off(type: SensorId.MAGNETIC\_FIELD\_UNCALIBRATED, sensorInfoParam?: SensorInfoPa
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -5118,13 +4674,7 @@ off(type: SensorId.ORIENTATION, callback?: Callback<OrientationResponse>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -5186,13 +4736,7 @@ off(type: SensorId.ORIENTATION, sensorInfoParam?: SensorInfoParam, callback?: Ca
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -5286,13 +4830,7 @@ off(type: SensorId.PEDOMETER, callback?: Callback<PedometerResponse>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -5355,13 +4893,7 @@ off(type: SensorId.PEDOMETER, sensorInfoParam?: SensorInfoParam, callback?: Call
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -5455,13 +4987,7 @@ off(type: SensorId.PEDOMETER\_DETECTION, callback?: Callback<PedometerDetectionR
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -5524,13 +5050,7 @@ off(type: SensorId.PEDOMETER\_DETECTION, sensorInfoParam?: SensorInfoParam, call
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -5621,13 +5141,7 @@ off(type: SensorId.PROXIMITY, callback?: Callback<ProximityResponse>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -5687,13 +5201,7 @@ off(type: SensorId.PROXIMITY, sensorInfoParam?: SensorInfoParam, callback?: Call
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -5784,13 +5292,7 @@ off(type: SensorId.ROTATION\_VECTOR, callback?: Callback<RotationVectorResponse>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -5850,13 +5352,7 @@ off(type: SensorId.ROTATION\_VECTOR, sensorInfoParam?: SensorInfoParam, callback
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -5947,13 +5443,7 @@ off(type: SensorId.SIGNIFICANT\_MOTION, callback?: Callback<SignificantMotionRes
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -6013,13 +5503,7 @@ off(type: SensorId.SIGNIFICANT\_MOTION, sensorInfoParam?: SensorInfoParam, callb
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -6110,13 +5594,7 @@ off(type: SensorId.WEAR\_DETECTION, callback?: Callback<WearDetectionResponse>):
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -6176,13 +5654,7 @@ off(type: SensorId.WEAR\_DETECTION, sensorInfoParam?: SensorInfoParam, callback?
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -6273,13 +5745,7 @@ off(type: 'sensorStatusChange', callback?: Callback<SensorStatusEvent>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -6339,13 +5805,7 @@ getSensorListByDeviceSync(deviceId?: number): Array<Sensor>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -6392,13 +5852,7 @@ getSingleSensorByDeviceSync(type: SensorId, deviceId?: number): Array<Sensor>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -6449,13 +5903,7 @@ getGeomagneticInfo(locationOptions: LocationOptions, timeMillis: number, callbac
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -6523,13 +5971,7 @@ getGeomagneticInfo(locationOptions: LocationOptions, timeMillis: number): Promis
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -6588,13 +6030,7 @@ getDeviceAltitude(seaPressure: number, currentPressure: number, callback: AsyncC
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -6657,13 +6093,7 @@ getDeviceAltitude(seaPressure: number, currentPressure: number): Promise<number>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -6717,13 +6147,7 @@ getInclination(inclinationMatrix: Array<number>, callback: AsyncCallback<number>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -6789,13 +6213,7 @@ getInclination(inclinationMatrix: Array<number>): Promise<number>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -6854,13 +6272,7 @@ getAngleVariation(currentRotationMatrix: Array<number>, preRotationMatrix: Array
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -6938,13 +6350,7 @@ getAngleVariation(currentRotationMatrix: Array<number>, preRotationMatrix: Array
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -7013,13 +6419,7 @@ getRotationMatrix(rotationVector: Array<number>, callback: AsyncCallback<Array<n
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -7082,13 +6482,7 @@ getRotationMatrix(rotationVector: Array<number>): Promise<Array<number>>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -7144,13 +6538,7 @@ transformRotationMatrix(inRotationVector: Array<number>, coordinates: Coordinate
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -7218,13 +6606,7 @@ transformRotationMatrix(inRotationVector: Array<number>, coordinates: Coordinate
 
 **示例** ：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -7283,13 +6665,7 @@ getQuaternion(rotationVector: Array<number>, callback: AsyncCallback<Array<numbe
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -7352,13 +6728,7 @@ getQuaternion(rotationVector: Array<number>): Promise<Array<number>>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -7413,13 +6783,7 @@ getOrientation(rotationMatrix: Array<number>, callback: AsyncCallback<Array<numb
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -7489,13 +6853,7 @@ getOrientation(rotationMatrix: Array<number>): Promise<Array<number>>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -7555,13 +6913,7 @@ getRotationMatrix(gravity: Array<number>, geomagnetic: Array<number>, callback: 
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -7624,13 +6976,7 @@ getRotationMatrix(gravity: Array<number>, geomagnetic: Array<number>): Promise<R
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -7683,13 +7029,7 @@ getSensorList(callback: AsyncCallback<Array<Sensor>>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -7743,13 +7083,7 @@ getSensorList(): Promise<Array<Sensor>>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -7800,13 +7134,7 @@ getSensorListSync(): Array<Sensor>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -7857,13 +7185,7 @@ getSingleSensor(type: SensorId, callback: AsyncCallback<Sensor>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -7932,13 +7254,7 @@ getSingleSensor(type: SensorId): Promise<Sensor>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -7997,13 +7313,7 @@ getSingleSensorSync(type: SensorId): Sensor
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -8635,13 +7945,7 @@ on(type: SensorType.SENSOR\_TYPE\_ID\_ACCELEROMETER, callback: Callback<Accelero
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -8709,13 +8013,7 @@ on(type: SensorType.SENSOR\_TYPE\_ID\_ACCELEROMETER\_UNCALIBRATED,callback: Call
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -8758,13 +8056,7 @@ on(type: SensorType.SENSOR\_TYPE\_ID\_GRAVITY, callback: Callback<GravityRespons
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -8806,13 +8098,7 @@ on(type: SensorType.SENSOR\_TYPE\_ID\_GYROSCOPE, callback: Callback<GyroscopeRes
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -8854,13 +8140,7 @@ on(type: SensorType.SENSOR\_TYPE\_ID\_GYROSCOPE\_UNCALIBRATED,callback:Callback<
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -8903,13 +8183,7 @@ on(type: SensorType.SENSOR\_TYPE\_ID\_SIGNIFICANT\_MOTION, callback: Callback<Si
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -8949,13 +8223,7 @@ on(type: SensorType.SENSOR\_TYPE\_ID\_PEDOMETER\_DETECTION, callback: Callback<P
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -8995,13 +8263,7 @@ on(type: SensorType.SENSOR\_TYPE\_ID\_PEDOMETER, callback: Callback<PedometerRes
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -9039,13 +8301,7 @@ on(type: SensorType.SENSOR\_TYPE\_ID\_AMBIENT\_TEMPERATURE,callback:Callback<Amb
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -9083,13 +8339,7 @@ on(type: SensorType.SENSOR\_TYPE\_ID\_MAGNETIC\_FIELD, callback: Callback<Magnet
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -9129,13 +8379,7 @@ on(type: SensorType.SENSOR\_TYPE\_ID\_MAGNETIC\_FIELD\_UNCALIBRATED,callback: Ca
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -9178,13 +8422,7 @@ on(type: SensorType.SENSOR\_TYPE\_ID\_PROXIMITY, callback: Callback<ProximityRes
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -9222,13 +8460,7 @@ on(type: SensorType.SENSOR\_TYPE\_ID\_HUMIDITY, callback: Callback<HumidityRespo
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -9266,13 +8498,7 @@ on(type: SensorType.SENSOR\_TYPE\_ID\_BAROMETER, callback: Callback<BarometerRes
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -9310,13 +8536,7 @@ on(type: SensorType.SENSOR\_TYPE\_ID\_HALL, callback: Callback<HallResponse>, op
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -9354,13 +8574,7 @@ on(type: SensorType.SENSOR\_TYPE\_ID\_AMBIENT\_LIGHT, callback: Callback<LightRe
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -9398,13 +8612,7 @@ on(type: SensorType.SENSOR\_TYPE\_ID\_ORIENTATION, callback: Callback<Orientatio
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -9470,13 +8678,7 @@ on(type: SensorType.SENSOR\_TYPE\_ID\_ROTATION\_VECTOR,callback: Callback<Rotati
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -9517,13 +8719,7 @@ on(type: SensorType.SENSOR\_TYPE\_ID\_WEAR\_DETECTION, callback: Callback<WearDe
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -9566,13 +8762,7 @@ once(type: SensorType.SENSOR\_TYPE\_ID\_ACCELEROMETER, callback: Callback<Accele
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -9636,13 +8826,7 @@ once(type: SensorType.SENSOR\_TYPE\_ID\_ACCELEROMETER\_UNCALIBRATED,callback: Ca
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -9682,13 +8866,7 @@ once(type: SensorType.SENSOR\_TYPE\_ID\_GRAVITY, callback: Callback<GravityRespo
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -9727,13 +8905,7 @@ once(type: SensorType.SENSOR\_TYPE\_ID\_GYROSCOPE, callback: Callback<GyroscopeR
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -9772,13 +8944,7 @@ once(type: SensorType.SENSOR\_TYPE\_ID\_GYROSCOPE\_UNCALIBRATED,callback: Callba
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -9818,13 +8984,7 @@ once(type: SensorType.SENSOR\_TYPE\_ID\_SIGNIFICANT\_MOTION,callback: Callback<S
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -9861,13 +9021,7 @@ once(type: SensorType.SENSOR\_TYPE\_ID\_PEDOMETER\_DETECTION,callback: Callback<
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -9904,13 +9058,7 @@ once(type: SensorType.SENSOR\_TYPE\_ID\_PEDOMETER, callback: Callback<PedometerR
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -9945,13 +9093,7 @@ once(type: SensorType.SENSOR\_TYPE\_ID\_AMBIENT\_TEMPERATURE,callback: Callback<
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -9986,13 +9128,7 @@ once(type: SensorType.SENSOR\_TYPE\_ID\_MAGNETIC\_FIELD, callback: Callback<Magn
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -10029,13 +9165,7 @@ once(type: SensorType.SENSOR\_TYPE\_ID\_MAGNETIC\_FIELD\_UNCALIBRATED,callback: 
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -10075,13 +9205,7 @@ once(type: SensorType.SENSOR\_TYPE\_ID\_PROXIMITY, callback: Callback<ProximityR
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -10117,13 +9241,7 @@ once(type: SensorType.SENSOR\_TYPE\_ID\_HUMIDITY, callback: Callback<HumidityRes
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -10158,13 +9276,7 @@ once(type: SensorType.SENSOR\_TYPE\_ID\_BAROMETER, callback: Callback<BarometerR
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -10199,13 +9311,7 @@ once(type: SensorType.SENSOR\_TYPE\_ID\_HALL, callback: Callback<HallResponse>):
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -10240,13 +9346,7 @@ once(type: SensorType.SENSOR\_TYPE\_ID\_AMBIENT\_LIGHT, callback: Callback<Light
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -10281,13 +9381,7 @@ once(type: SensorType.SENSOR\_TYPE\_ID\_ORIENTATION, callback: Callback<Orientat
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -10324,13 +9418,7 @@ once(type: SensorType.SENSOR\_TYPE\_ID\_ROTATION\_VECTOR, callback: Callback<Rot
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -10370,13 +9458,7 @@ once(type: SensorType.SENSOR\_TYPE\_ID\_HEART\_RATE, callback: Callback<HeartRat
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -10411,13 +9493,7 @@ once(type: SensorType.SENSOR\_TYPE\_ID\_WEAR\_DETECTION, callback: Callback<Wear
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -10458,13 +9534,7 @@ off(type: SensorType.SENSOR\_TYPE\_ID\_ACCELEROMETER, callback?: Callback<Accele
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -10505,13 +9575,7 @@ off(type: SensorType.SENSOR\_TYPE\_ID\_ACCELEROMETER\_UNCALIBRATED, callback?: C
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -10553,13 +9617,7 @@ off(type: SensorType.SENSOR\_TYPE\_ID\_AMBIENT\_LIGHT, callback?: Callback<Light
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -10596,13 +9654,7 @@ off(type: SensorType.SENSOR\_TYPE\_ID\_AMBIENT\_TEMPERATURE, callback?: Callback
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -10639,13 +9691,7 @@ off(type: SensorType.SENSOR\_TYPE\_ID\_BAROMETER, callback?: Callback<BarometerR
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -10682,13 +9728,7 @@ off(type: SensorType.SENSOR\_TYPE\_ID\_GRAVITY, callback?: Callback<GravityRespo
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -10729,13 +9769,7 @@ off(type: SensorType.SENSOR\_TYPE\_ID\_GYROSCOPE, callback?: Callback<GyroscopeR
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -10776,13 +9810,7 @@ off(type: SensorType.SENSOR\_TYPE\_ID\_GYROSCOPE\_UNCALIBRATED, callback?: Callb
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -10821,13 +9849,7 @@ off(type: SensorType.SENSOR\_TYPE\_ID\_HALL, callback?: Callback<HallResponse>):
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -10866,13 +9888,7 @@ off(type: SensorType.SENSOR\_TYPE\_ID\_HEART\_RATE, callback?: Callback<HeartRat
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -10909,13 +9925,7 @@ off(type: SensorType.SENSOR\_TYPE\_ID\_HUMIDITY, callback?: Callback<HumidityRes
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -10954,13 +9964,7 @@ off(type: SensorType.SENSOR\_TYPE\_ID\_LINEAR\_ACCELERATION, callback?: Callback
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -10999,13 +10003,7 @@ off(type: SensorType.SENSOR\_TYPE\_ID\_MAGNETIC\_FIELD, callback?: Callback<Magn
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -11044,13 +10042,7 @@ off(type: SensorType.SENSOR\_TYPE\_ID\_MAGNETIC\_FIELD\_UNCALIBRATED, callback?:
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -11092,13 +10084,7 @@ off(type: SensorType.SENSOR\_TYPE\_ID\_ORIENTATION, callback?: Callback<Orientat
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -11139,13 +10125,7 @@ off(type: SensorType.SENSOR\_TYPE\_ID\_PEDOMETER, callback?: Callback<PedometerR
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -11184,13 +10164,7 @@ off(type: SensorType.SENSOR\_TYPE\_ID\_PEDOMETER\_DETECTION, callback?: Callback
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -11227,13 +10201,7 @@ off(type: SensorType.SENSOR\_TYPE\_ID\_PROXIMITY, callback?: Callback<ProximityR
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -11270,13 +10238,7 @@ off(type: SensorType.SENSOR\_TYPE\_ID\_ROTATION\_VECTOR, callback?: Callback<Rot
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -11316,13 +10278,7 @@ off(type: SensorType.SENSOR\_TYPE\_ID\_SIGNIFICANT\_MOTION, callback?: Callback<
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -11359,13 +10315,7 @@ off(type: SensorType.SENSOR\_TYPE\_ID\_WEAR\_DETECTION, callback?: Callback<Wear
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -11403,13 +10353,7 @@ transformCoordinateSystem(inRotationVector: Array<number>, coordinates: Coordina
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -11461,13 +10405,7 @@ transformCoordinateSystem(inRotationVector: Array<number>, coordinates: Coordina
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -11510,13 +10448,7 @@ getGeomagneticField(locationOptions: LocationOptions, timeMillis: number, callba
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -11567,13 +10499,7 @@ getGeomagneticField(locationOptions: LocationOptions, timeMillis: number): Promi
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -11615,13 +10541,7 @@ getAltitude(seaPressure: number, currentPressure: number, callback: AsyncCallbac
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -11669,13 +10589,7 @@ getAltitude(seaPressure: number, currentPressure: number): Promise<number>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -11714,13 +10628,7 @@ getGeomagneticDip(inclinationMatrix: Array<number>, callback: AsyncCallback<numb
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -11767,13 +10675,7 @@ getGeomagneticDip(inclinationMatrix: Array<number>): Promise<number>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -11813,13 +10715,7 @@ getAngleModify(currentRotationMatrix: Array<number>, preRotationMatrix: Array<nu
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -11870,13 +10766,7 @@ getAngleModify(currentRotationMatrix: Array<number>, preRotationMatrix: Array<nu
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -11919,13 +10809,7 @@ createRotationMatrix(rotationVector: Array<number>, callback: AsyncCallback<Arra
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -11975,13 +10859,7 @@ createRotationMatrix(rotationVector: Array<number>): Promise<Array<number>>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -12023,13 +10901,7 @@ createQuaternion(rotationVector: Array<number>, callback: AsyncCallback<Array<nu
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -12079,13 +10951,7 @@ createQuaternion(rotationVector: Array<number>): Promise<Array<number>>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -12127,13 +10993,7 @@ getDirection(rotationMatrix: Array<number>, callback: AsyncCallback<Array<number
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -12183,13 +11043,7 @@ getDirection(rotationMatrix: Array<number>): Promise<Array<number>>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -12232,13 +11086,7 @@ createRotationMatrix(gravity: Array<number>, geomagnetic: Array<number>, callbac
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';
@@ -12287,13 +11135,7 @@ createRotationMatrix(gravity: Array<number>, geomagnetic: Array<number>): Promis
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sensor } from '@kit.SensorServiceKit';

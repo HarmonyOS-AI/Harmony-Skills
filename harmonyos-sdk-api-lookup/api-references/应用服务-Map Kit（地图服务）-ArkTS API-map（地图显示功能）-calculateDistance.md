@@ -2,13 +2,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { map, mapCommon } from '@kit.MapKit';
@@ -49,13 +43,7 @@ calculateDistance(from: mapCommon.LatLng, to: mapCommon.LatLng): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let fromLatLng: mapCommon.LatLng = {

@@ -277,13 +277,7 @@ PhonePC/2in1TabletTVWearable
 
 GridItem通过设置合理的ColumnStart、ColumnEnd、RowStart、RowEnd属性来设置自身位置。需要指定GridItem起始行列号和所占行列数的场景推荐使用[Grid的layoutOptions参数](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-container-grid#gridlayoutoptions10对象说明)，详细可参考[Grid的示例1](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-container-grid#示例1固定行列grid)和[Grid的示例3](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-container-grid#示例3可滚动grid设置跨行跨列节点)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -338,13 +332,7 @@ GridItem通过设置合理的ColumnStart、ColumnEnd、RowStart、RowEnd属性�
 
 使用GridItemOptions设置GridItem样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

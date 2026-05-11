@@ -64,13 +64,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示如何通过keyframeAnimateTo来设置关键帧动画。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

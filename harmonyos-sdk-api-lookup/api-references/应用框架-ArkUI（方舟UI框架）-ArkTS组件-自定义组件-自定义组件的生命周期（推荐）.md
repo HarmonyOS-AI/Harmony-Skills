@@ -155,13 +155,7 @@ getCurrentState函数用于获得自定义组件当前的生命周期状态。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIUtils, ComponentBuilt } from '@kit.ArkUI';
@@ -314,13 +308,7 @@ aboutToRecycle?(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ComponentInit, ComponentDisappear, UIUtils, CustomComponentLifecycleObserver, CustomComponentLifecycle } from '@kit.ArkUI';
@@ -436,13 +424,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { CustomComponentLifecycleState, ComponentBuilt } from '@kit.ArkUI';
@@ -476,13 +458,7 @@ PhonePC/2in1TabletTVWearable
 2. 更改this.switch为false，回收Child子组件触发@ComponentRecycle；更改this.switch为true，复用Child子组件触发@ComponentReuse。
 3. 退出应用，在自定义组件Child销毁前，触发@ComponentDisappear。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ComponentInit, ComponentAppear, ComponentBuilt, ComponentDisappear, ComponentReuse, ComponentRecycle } from '@kit.ArkUI';

@@ -16,13 +16,7 @@ PhonePC/2in1TabletTVWearable
 
 需要通过[RdbStore.query()](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-data-rdb#query)获取resultSet对象。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import dataRdb from '@ohos.data.rdb';
@@ -83,13 +77,7 @@ getColumnIndex(columnName: string): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const success = resultSet.goToFirstRow();
@@ -129,13 +117,7 @@ getColumnName(columnIndex: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const id = resultSet.getColumnName(0);
@@ -171,13 +153,7 @@ goTo(offset:number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicatesgoto = new dataRdb.RdbPredicates("EMPLOYEE");
@@ -218,13 +194,7 @@ goToRow(position: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicatesgotorow = new dataRdb.RdbPredicates("EMPLOYEE");
@@ -257,13 +227,7 @@ goToFirstRow(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicatesgoFirst = new dataRdb.RdbPredicates("EMPLOYEE");
@@ -296,13 +260,7 @@ goToLastRow(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicatesgoLast = new dataRdb.RdbPredicates("EMPLOYEE");
@@ -335,13 +293,7 @@ goToNextRow(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicatesgoNext = new dataRdb.RdbPredicates("EMPLOYEE");
@@ -374,13 +326,7 @@ goToPreviousRow(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicatesgoPrev = new dataRdb.RdbPredicates("EMPLOYEE");
@@ -421,13 +367,7 @@ getBlob(columnIndex: number): Uint8Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const codes = resultSet.getBlob(resultSet.getColumnIndex("CODES"));
@@ -461,13 +401,7 @@ getString(columnIndex: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const name = resultSet.getString(resultSet.getColumnIndex("NAME"));
@@ -501,13 +435,7 @@ getLong(columnIndex: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const age = resultSet.getLong(resultSet.getColumnIndex("AGE"));
@@ -541,13 +469,7 @@ getDouble(columnIndex: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const salary = resultSet.getDouble(resultSet.getColumnIndex("SALARY"));
@@ -581,13 +503,7 @@ isColumnNull(columnIndex: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const isColumnNull = resultSet.isColumnNull(resultSet.getColumnIndex("CODES"));
@@ -605,13 +521,7 @@ close(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicatesClose = new dataRdb.RdbPredicates("EMPLOYEE");

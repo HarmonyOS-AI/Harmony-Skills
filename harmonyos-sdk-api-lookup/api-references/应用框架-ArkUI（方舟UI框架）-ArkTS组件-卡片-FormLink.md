@@ -73,13 +73,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -146,13 +140,7 @@ PhonePC/2in1TabletTVWearable
 
 **待跳转应用 [module.json5](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/module-configuration-file#skills标签) uris 配置示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. "abilities": [

@@ -74,13 +74,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过gestureModifier动态设置组件绑定的手势。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -145,13 +139,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过gestureModifier动态设置组件绑定的手势组。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class MyButtonModifier implements GestureModifier {

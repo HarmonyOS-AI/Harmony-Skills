@@ -303,13 +303,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置checkedBackgroundColor实现自定义单选框的底板颜色。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -365,13 +359,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置indicatorType、indicatorBuilder实现自定义选中样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -430,13 +418,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过contentModifier实现自定义单选框样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class MyRadioStyle implements ContentModifier<RadioConfiguration> {

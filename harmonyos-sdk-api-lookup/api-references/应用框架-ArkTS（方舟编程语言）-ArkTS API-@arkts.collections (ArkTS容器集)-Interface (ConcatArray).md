@@ -14,13 +14,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { collections } from '@kit.ArkTS';
@@ -79,13 +73,7 @@ readonly [index: number]: T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let concatArray : collections.ConcatArray<number> = new collections.Array<number>(1, 2, 4);
@@ -132,13 +120,7 @@ join(separator?: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let concatArray : collections.ConcatArray<string> = new collections.Array<string>('a', 'b', 'c');
@@ -186,13 +168,7 @@ slice(start?: number, end?: number): ConcatArray<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let concatArray : collections.ConcatArray<number> = new collections.Array<number>(1, 2, 3, 4, 5);

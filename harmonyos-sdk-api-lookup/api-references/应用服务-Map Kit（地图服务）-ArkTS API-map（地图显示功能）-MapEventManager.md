@@ -2,13 +2,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { map, mapCommon } from '@kit.MapKit';
@@ -30,13 +24,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let mapEventManager: map.MapEventManager = this.mapController.getEventManager();
@@ -69,13 +57,7 @@ on(type: 'cameraChange', callback: Callback<mapCommon.LatLng>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (position: mapCommon.LatLng) => {
@@ -119,13 +101,7 @@ off(type: 'cameraChange', callback?: Callback<mapCommon.LatLng>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (position: mapCommon.LatLng) => {
@@ -173,13 +149,7 @@ on(type: 'cameraIdle', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = () => {
@@ -223,13 +193,7 @@ off(type: 'cameraIdle', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = () => {
@@ -277,13 +241,7 @@ on(type: 'cameraMoveCancel', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = () => {
@@ -327,13 +285,7 @@ off(type: 'cameraMoveCancel', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = () => {
@@ -381,13 +333,7 @@ on(type: 'cameraMove', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = () => {
@@ -431,13 +377,7 @@ off(type: 'cameraMove', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = () => {
@@ -485,13 +425,7 @@ on(type: 'cameraMoveStart', callback: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (reason: number) => {
@@ -535,13 +469,7 @@ off(type: 'cameraMoveStart', callback?: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (reason: number) => {
@@ -590,13 +518,7 @@ on(type: 'mapClick', callback: Callback<mapCommon.LatLng>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (position: mapCommon.LatLng) => {
@@ -640,13 +562,7 @@ off(type: 'mapClick', callback?: Callback<[mapCommon.LatLng](https://developer.h
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (position: mapCommon.LatLng) => {
@@ -695,13 +611,7 @@ on(type: 'mapLoad', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = () => {
@@ -745,13 +655,7 @@ off(type: 'mapLoad', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = () => {
@@ -800,13 +704,7 @@ on(type: 'mapLongClick', callback: Callback<mapCommon.LatLng>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (position: mapCommon.LatLng) => {
@@ -850,13 +748,7 @@ off(type: 'mapLongClick', callback?: Callback<mapCommon.LatLng>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (position: mapCommon.LatLng) => {
@@ -905,13 +797,7 @@ on(type: 'myLocationButtonClick', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = () => {
@@ -955,13 +841,7 @@ off(type: 'myLocationButtonClick', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = () => {
@@ -1010,13 +890,7 @@ on(type: 'myLocationClick', callback: Callback<mapCommon.LatLng>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (position: mapCommon.LatLng) => {
@@ -1060,13 +934,7 @@ off(type: 'myLocationClick', callback?: Callback<mapCommon.LatLng>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (position: mapCommon.LatLng) => {
@@ -1115,13 +983,7 @@ on(type: 'poiClick', callback: Callback<mapCommon.Poi>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (poi: mapCommon.Poi) => {
@@ -1165,13 +1027,7 @@ off(type: 'poiClick', callback?: Callback<mapCommon.Poi>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (poi: mapCommon.Poi) => {
@@ -1220,13 +1076,7 @@ on(type: 'markerClick', callback: Callback<Marker>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (marker: map.Marker) => {
@@ -1270,13 +1120,7 @@ off(type: 'markerClick', callback?: Callback<Marker>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (marker: map.Marker) => {
@@ -1325,13 +1169,7 @@ on(type: 'markerDragStart', callback: Callback<Marker>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (marker: map.Marker) => {
@@ -1375,13 +1213,7 @@ off(type: 'markerDragStart', callback?: Callback<Marker>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (marker: map.Marker) => {
@@ -1430,13 +1262,7 @@ on(type: 'markerDrag', callback: Callback<Marker>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (marker: map.Marker) => {
@@ -1480,13 +1306,7 @@ off(type: 'markerDrag', callback?: Callback<Marker>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (marker: map.Marker) => {
@@ -1535,13 +1355,7 @@ on(type: 'markerDragEnd', callback: Callback<Marker>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (marker: map.Marker) => {
@@ -1585,13 +1399,7 @@ off(type: 'markerDragEnd', callback?: Callback<Marker>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (marker: map.Marker) => {
@@ -1640,13 +1448,7 @@ on(type: 'circleClick', callback: Callback<MapCircle>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (circle: map.MapCircle) => {
@@ -1690,13 +1492,7 @@ off(type: 'circleClick', callback?: Callback<MapCircle>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (circle: map.MapCircle) => {
@@ -1745,13 +1541,7 @@ on(type: 'polylineClick', callback: Callback<MapPolyline>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (polyline: map.MapPolyline) => {
@@ -1795,13 +1585,7 @@ off(type: 'polylineClick', callback?: Callback<MapPolyline>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (polyline: map.MapPolyline) => {
@@ -1850,13 +1634,7 @@ on(type: 'polygonClick', callback: Callback<MapPolygon>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (polygon: map.MapPolygon) => {
@@ -1900,13 +1678,7 @@ off(type: 'polygonClick', callback?: Callback<MapPolygon>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (polygon: map.MapPolygon) => {
@@ -1955,13 +1727,7 @@ on(type: 'infoWindowClick', callback: Callback<Marker>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (infoWindow: map.Marker) => {
@@ -2005,13 +1771,7 @@ off(type: 'infoWindowClick', callback?: Callback<[Marker](https://developer.huaw
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (infoWindow: map.Marker) => {
@@ -2060,13 +1820,7 @@ on(type: 'infoWindowClose', callback: Callback<Marker>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (infoWindow: map.Marker) => {
@@ -2110,13 +1864,7 @@ off(type: 'infoWindowClose', callback?: Callback<Marker>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (infoWindow: map.Marker) => {
@@ -2165,13 +1913,7 @@ on(type: 'pointAnnotationClick', callback: Callback<PointAnnotation>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (pointAnnotation: map.PointAnnotation) => {
@@ -2215,13 +1957,7 @@ off(type: 'pointAnnotationClick', callback?: Callback<PointAnnotation>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (pointAnnotation: map.PointAnnotation) => {
@@ -2270,13 +2006,7 @@ on(type: 'bubbleClick', callback: Callback<Bubble>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (bubble: map.Bubble) => {
@@ -2320,13 +2050,7 @@ off(type: 'bubbleClick', callback?: Callback<Bubble>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (bubble: map.Bubble) => {
@@ -2375,13 +2099,7 @@ on(type: 'imageOverlayClick', callback: Callback<ImageOverlay>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (imageOverlay: map.ImageOverlay) => {
@@ -2425,13 +2143,7 @@ off(type: 'imageOverlayClick', callback?: Callback<ImageOverlay>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (imageOverlay: map.ImageOverlay) => {
@@ -2480,13 +2192,7 @@ on(type: 'error', callback: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2532,13 +2238,7 @@ off(type: 'error', callback?: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2601,13 +2301,7 @@ on(type: 'indoorMapEnter', callback: Callback<IndoorMapInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback = (indoorMapInfo: map.IndoorMapInfo) => {
@@ -2655,13 +2349,7 @@ off(type: 'indoorMapEnter', callback?: Callback<IndoorMapInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback = (indoorMapInfo: map.IndoorMapInfo) => {
@@ -2712,13 +2400,7 @@ on(type: 'indoorMapExit', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback = () => {
@@ -2766,13 +2448,7 @@ off(type: 'indoorMapExit', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback = () => {
@@ -2811,13 +2487,7 @@ on(type: 'massPointOverlayClick', callback: MassPointOverlayCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 初始化地图组件的监听事件管理接口
@@ -2856,13 +2526,7 @@ off(type: 'massPointOverlayClick', callback?: MassPointOverlayCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 初始化地图组件的监听事件管理接口
@@ -2904,13 +2568,7 @@ onMarkerLongClick(callback: Callback<Marker>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (markerLong: map.Marker) => {
@@ -2953,13 +2611,7 @@ offMarkerLongClick(callback?: Callback<Marker>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (markerLong: map.Marker) => {
@@ -3007,13 +2659,7 @@ onPoiLongClick(callback: Callback<mapCommon.Poi>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (poi: mapCommon.Poi) => {
@@ -3056,13 +2702,7 @@ offPoiLongClick(callback?: Callback<mapCommon.Poi>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (poi: mapCommon.Poi) => {

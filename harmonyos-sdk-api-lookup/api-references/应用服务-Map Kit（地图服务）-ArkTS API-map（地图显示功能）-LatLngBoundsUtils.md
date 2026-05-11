@@ -2,13 +2,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { map, mapCommon } from '@kit.MapKit';
@@ -73,13 +67,7 @@ static contains(bounds: mapCommon.LatLngBounds, position: mapCommon.LatLng): boo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let bounds: mapCommon.LatLngBounds = {
@@ -143,13 +131,7 @@ static contains(src: mapCommon.LatLngBounds, target: mapCommon.LatLngBounds): bo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let src: mapCommon.LatLngBounds = {
@@ -220,13 +202,7 @@ static getCenter(bounds: mapCommon.LatLngBounds): mapCommon.LatLng
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let bounds: mapCommon.LatLngBounds = {
@@ -287,13 +263,7 @@ static include(position: mapCommon.LatLng, bounds?: mapCommon.LatLngBounds): map
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let resultBounds: mapCommon.LatLngBounds = map.LatLngBoundsUtils.include({

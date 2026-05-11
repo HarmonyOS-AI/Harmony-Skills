@@ -6,13 +6,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { manager } from '@kit.NearLinkKit';
@@ -105,13 +99,7 @@ getState(): NearlinkState
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { manager } from '@kit.NearLinkKit';
@@ -147,13 +135,7 @@ isNearLinkSupported(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { manager } from '@kit.NearLinkKit';
@@ -208,13 +190,7 @@ getLocalName(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { manager } from '@kit.NearLinkKit';
@@ -265,13 +241,7 @@ getPairedDevices(): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { manager } from '@kit.NearLinkKit';
@@ -324,13 +294,7 @@ on(type: 'stateChange', callback: Callback<NearlinkState>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { manager } from '@kit.NearLinkKit';
@@ -390,13 +354,7 @@ off(type: 'stateChange', callback?: Callback<NearlinkState>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { manager } from '@kit.NearLinkKit';
@@ -447,13 +405,7 @@ on(type: 'pairingStateChange', callback: Callback<PairingStateParam>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { manager } from '@kit.NearLinkKit';
@@ -507,13 +459,7 @@ off(type: 'pairingStateChange', callback?: Callback<PairingStateParam>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { manager } from '@kit.NearLinkKit';
@@ -564,13 +510,7 @@ on(type: 'connectionStateChange', callback: Callback<ConnectionStateParam>): voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { manager } from '@kit.NearLinkKit';
@@ -625,13 +565,7 @@ off(type: 'connectionStateChange', callback?: Callback<ConnectionStateParam>): v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { manager } from '@kit.NearLinkKit';
@@ -682,13 +616,7 @@ on(type: 'acbStateChange', callback: Callback<AcbStateParam>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { manager } from '@kit.NearLinkKit';
@@ -743,13 +671,7 @@ off(type: 'acbStateChange', callback?: Callback<AcbStateParam>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { manager } from '@kit.NearLinkKit';

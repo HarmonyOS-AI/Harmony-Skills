@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hash } from '@kit.CoreFileKit';
@@ -26,13 +20,7 @@ PhonePC/2in1TabletTVWearable
 
 使用该功能模块对文件/目录进行操作前，需要先获取其应用沙箱路径，获取方式及其接口用法请参考：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -90,13 +78,7 @@ hash(path: string, algorithm: string): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -143,13 +125,7 @@ hash(path: string, algorithm: string, callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -203,13 +179,7 @@ createHash(algorithm: string): HashStream
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // pages/xxx.ets
@@ -270,13 +240,7 @@ update(data: ArrayBuffer): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 创建哈希流
@@ -319,13 +283,7 @@ digest(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 创建哈希流

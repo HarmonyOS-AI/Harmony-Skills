@@ -36,13 +36,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NetworkBoost_MultiPathState NetworkBoost_MultiPathStateChange::multiPathState
@@ -56,13 +50,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NetworkBoost_MultiPathChangeCause NetworkBoost_MultiPathStateChange::changeCause
@@ -76,13 +64,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NetworkBoost_NetHandle NetworkBoost_MultiPathStateChange::netHandle
@@ -96,13 +78,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NetworkBoost_PathState NetworkBoost_MultiPathStateChange::pathState
@@ -116,13 +92,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NetworkBoost_PathType NetworkBoost_MultiPathStateChange::pathType

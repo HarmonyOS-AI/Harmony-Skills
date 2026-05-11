@@ -6,13 +6,7 @@
 
 PhoneTablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { smartMobilityCommon } from '@kit.CarKit';
@@ -115,13 +109,7 @@ getSmartMobilityAwareness(): SmartMobilityAwareness
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { smartMobilityCommon } from '@kit.CarKit';
@@ -190,13 +178,7 @@ on(type: 'smartMobilityEvent', smartMobilityTypes: SmartMobilityType[],callback:
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { smartMobilityCommon } from '@kit.CarKit';
@@ -259,13 +241,7 @@ off(type: 'smartMobilityEvent', smartMobilityTypes: SmartMobilityType[], callbac
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { smartMobilityCommon } from '@kit.CarKit';
@@ -336,13 +312,7 @@ getSmartMobilityEvent(type: SmartMobilityType, eventName: string): SmartMobility
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { smartMobilityCommon } from '@kit.CarKit';
@@ -404,13 +374,7 @@ on(type: 'smartMobilityStatus', smartMobilityTypes: SmartMobilityType[], callbac
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { smartMobilityCommon } from '@kit.CarKit';
@@ -473,13 +437,7 @@ off(type: 'smartMobilityStatus', smartMobilityTypes: SmartMobilityType[], callba
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { smartMobilityCommon } from '@kit.CarKit';
@@ -548,13 +506,7 @@ getSmartMobilityStatus(type: SmartMobilityType): SmartMobilityInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { smartMobilityCommon } from '@kit.CarKit';

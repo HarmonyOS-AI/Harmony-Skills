@@ -9,13 +9,7 @@ Popup是用于显示特定样式气泡。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Popup, PopupOptions, PopupTextOptions, PopupButtonOptions, PopupIconOptions } from '@kit.ArkUI';
@@ -144,13 +138,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置PopupIconOptions、PopupTextOptions、PopupButtonOptions实现气泡的样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -222,13 +210,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置direction参数实现Popup的镜像布局效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -305,13 +287,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置maxWidth实现Popup的自定义宽度效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

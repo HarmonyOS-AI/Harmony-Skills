@@ -342,13 +342,7 @@ PatternLock组件的控制器，用于重置组件状态。
 
 ### 导入对象
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let patternLockController: PatternLockController = new PatternLockController()
@@ -423,13 +417,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例展示了PatternLock组件的基本使用方法。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -472,13 +460,7 @@ PhonePC/2in1TabletTVWearable
 
 通过'Reset PatternLock'按钮，用户可以重置密码锁。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

@@ -175,13 +175,7 @@ type(value: NavigationType)
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // code.ets
@@ -198,13 +192,7 @@ PhonePC/2in1TabletTVWearable
 12. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NameObject, TextObject } from '../../code';
@@ -233,13 +221,7 @@ PhonePC/2in1TabletTVWearable
 24. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NameObject } from '../../code';
@@ -265,13 +247,7 @@ PhonePC/2in1TabletTVWearable
 21. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Back.ets

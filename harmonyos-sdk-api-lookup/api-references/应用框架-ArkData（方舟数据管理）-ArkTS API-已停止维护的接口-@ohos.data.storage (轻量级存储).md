@@ -9,13 +9,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import data_storage from '@ohos.data.storage';
@@ -62,13 +56,7 @@ getStorageSync(path: string): Storage
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -106,13 +94,7 @@ getStorage(path: string, callback: AsyncCallback<Storage>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -162,13 +144,7 @@ getStorage(path: string): Promise<Storage>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -209,13 +185,7 @@ deleteStorageSync(path: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -251,13 +221,7 @@ deleteStorage(path: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -306,13 +270,7 @@ deleteStorage(path: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -352,13 +310,7 @@ removeStorageFromCacheSync(path: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -394,13 +346,7 @@ removeStorageFromCache(path: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -449,13 +395,7 @@ removeStorageFromCache(path: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -512,13 +452,7 @@ getSync(key: string, defValue: ValueType): ValueType
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let value = storage.getSync('startup', 'default');
@@ -547,13 +481,7 @@ get(key: string, defValue: ValueType, callback: AsyncCallback<ValueType>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. storage.get('startup', 'default', function(err, value) {
@@ -594,13 +522,7 @@ get(key: string, defValue: ValueType): Promise<ValueType>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let promiseget = storage.get('startup', 'default');
@@ -632,13 +554,7 @@ putSync(key: string, value: ValueType): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. storage.putSync('startup', 'auto');
@@ -666,13 +582,7 @@ put(key: string, value: ValueType, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. storage.put('startup', 'auto', function (err) {
@@ -713,13 +623,7 @@ put(key: string, value: ValueType): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let promiseput = storage.put('startup', 'auto');
@@ -758,13 +662,7 @@ hasSync(key: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let isExist = storage.hasSync('startup');
@@ -802,13 +700,7 @@ has(key: string, callback: AsyncCallback<boolean>): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. storage.has('startup', function (err, isExist) {
@@ -850,13 +742,7 @@ has(key: string): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let promisehas = storage.has('startup')
@@ -889,13 +775,7 @@ deleteSync(key: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. storage.deleteSync('startup');
@@ -922,13 +802,7 @@ delete(key: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. storage.delete('startup', function (err) {
@@ -968,13 +842,7 @@ delete(key: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let promisedel = storage.delete('startup')
@@ -997,13 +865,7 @@ flushSync(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. storage.flushSync();
@@ -1029,13 +891,7 @@ flush(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. storage.flush(function (err) {
@@ -1067,13 +923,7 @@ flush(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let promiseflush = storage.flush();
@@ -1096,13 +946,7 @@ clearSync(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. storage.clearSync();
@@ -1128,13 +972,7 @@ clear(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. storage.clear(function (err) {
@@ -1166,13 +1004,7 @@ clear(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let promiseclear = storage.clear();
@@ -1204,13 +1036,7 @@ on(type: 'change', callback: Callback<StorageObserver>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let observer = function (key) {
@@ -1242,13 +1068,7 @@ off(type: 'change', callback: Callback<StorageObserver>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let observer = function (key) {

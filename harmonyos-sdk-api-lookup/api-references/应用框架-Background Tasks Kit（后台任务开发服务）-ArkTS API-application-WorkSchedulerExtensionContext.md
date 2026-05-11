@@ -14,13 +14,7 @@ PhonePC/2in1TabletTVWearable
 
 通过WorkSchedulerExtensionAbility子类实例来获取。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { WorkSchedulerExtensionAbility, workScheduler } from '@kit.BackgroundTasksKit';

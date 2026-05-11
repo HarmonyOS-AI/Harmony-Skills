@@ -1,10 +1,4 @@
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum ArkUI_NodeAttributeType
@@ -22,13 +16,7 @@
 
 ## NODE\_STACK\_ALIGN\_CONTENT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_STACK_ALIGN_CONTENT = MAX_NODE_SCOPE_NUM * ARKUI_NODE_STACK = 1000000
@@ -58,13 +46,7 @@
 
 ## NODE\_COLUMN\_ALIGN\_ITEMS
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_COLUMN_ALIGN_ITEMS = MAX_NODE_SCOPE_NUM * ARKUI_NODE_COLUMN = 1006000
@@ -94,13 +76,7 @@
 
 ## NODE\_COLUMN\_JUSTIFY\_CONTENT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_COLUMN_JUSTIFY_CONTENT = 1006001
@@ -130,13 +106,7 @@
 
 ## NODE\_LINEAR\_LAYOUT\_SPACE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_LINEAR_LAYOUT_SPACE = 1006002
@@ -166,13 +136,7 @@
 
 ## NODE\_LINEAR\_LAYOUT\_REVERSE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_LINEAR_LAYOUT_REVERSE = 1006003
@@ -202,13 +166,7 @@
 
 ## NODE\_ROW\_ALIGN\_ITEMS
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_ROW_ALIGN_ITEMS = MAX_NODE_SCOPE_NUM * ARKUI_NODE_ROW = 1007000
@@ -238,13 +196,7 @@
 
 ## NODE\_ROW\_JUSTIFY\_CONTENT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_ROW_JUSTIFY_CONTENT = 1007001
@@ -274,13 +226,7 @@
 
 ## NODE\_FLEX\_OPTION
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_FLEX_OPTION = MAX_NODE_SCOPE_NUM * ARKUI_NODE_FLEX = 1008000
@@ -318,13 +264,7 @@
 
 ## NODE\_FLEX\_SPACE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_FLEX_SPACE = 1008001
@@ -356,13 +296,7 @@
 
 ## NODE\_RELATIVE\_CONTAINER\_GUIDE\_LINE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_RELATIVE_CONTAINER_GUIDE_LINE = MAX_NODE_SCOPE_NUM * ARKUI_NODE_RELATIVE_CONTAINER = 1012000
@@ -392,13 +326,7 @@
 
 ## NODE\_RELATIVE\_CONTAINER\_BARRIER
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_RELATIVE_CONTAINER_BARRIER = 1012001

@@ -8,13 +8,7 @@
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Environment } from '@kit.CoreFileKit';
@@ -53,13 +47,7 @@ getUserDownloadDir(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -106,13 +94,7 @@ getUserDesktopDir(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -159,13 +141,7 @@ getUserDocumentDir(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

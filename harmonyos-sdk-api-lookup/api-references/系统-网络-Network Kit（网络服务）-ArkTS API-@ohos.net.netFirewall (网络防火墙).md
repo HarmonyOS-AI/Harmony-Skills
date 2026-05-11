@@ -8,13 +8,7 @@
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { netFirewall } from '@kit.NetworkKit';
@@ -70,13 +64,7 @@ setNetFirewallPolicy(userId: number, policy: NetFirewallPolicy): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { netFirewall } from '@kit.NetworkKit';
@@ -139,13 +127,7 @@ getNetFirewallPolicy(userId: number): Promise<NetFirewallPolicy>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { netFirewall } from '@kit.NetworkKit';
@@ -236,13 +218,7 @@ addNetFirewallRule(rule: NetFirewallRule): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { netFirewall } from '@kit.NetworkKit';
@@ -394,13 +370,7 @@ removeNetFirewallRule(userId: number, ruleId: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { netFirewall } from '@kit.NetworkKit';
@@ -464,13 +434,7 @@ updateNetFirewallRule(rule: NetFirewallRule): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { netFirewall } from '@kit.NetworkKit';
@@ -552,13 +516,7 @@ getNetFirewallRules(userId: number, requestParam: RequestParam): Promise<Firewal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { netFirewall } from '@kit.NetworkKit';
@@ -624,13 +582,7 @@ getNetFirewallRule(userId: number, ruleId: number): Promise<NetFirewallRule>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { netFirewall } from '@kit.NetworkKit';

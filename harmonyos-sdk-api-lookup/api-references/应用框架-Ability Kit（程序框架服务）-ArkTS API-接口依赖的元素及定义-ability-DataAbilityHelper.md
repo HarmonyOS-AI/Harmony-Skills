@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import ability from '@ohos.ability.ability';
@@ -26,13 +20,7 @@ PhonePC/2in1TabletTVWearable
 
 使用前根据具体情况引入如下模块
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import ohos_data_ability from '@ohos.data.dataAbility';
@@ -63,13 +51,7 @@ openFile(uri: string, mode: string, callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import ability from '@ohos.ability.ability';
@@ -119,13 +101,7 @@ openFile(uri: string, mode: string): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import ability from '@ohos.ability.ability';
@@ -164,13 +140,7 @@ on(type: 'dataChange', uri: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import ability from '@ohos.ability.ability';
@@ -213,13 +183,7 @@ off(type: 'dataChange', uri: string, callback?: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import ability from '@ohos.ability.ability';
@@ -265,13 +229,7 @@ getType(uri: string, callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import ability from '@ohos.ability.ability';
@@ -319,13 +277,7 @@ getType(uri: string): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import ability from '@ohos.ability.ability';
@@ -363,13 +315,7 @@ getFileTypes(uri: string, mimeTypeFilter: string, callback: AsyncCallback<Array<
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import ability from '@ohos.ability.ability';
@@ -418,13 +364,7 @@ getFileTypes(uri: string, mimeTypeFilter: string): Promise<Array<string>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import ability from '@ohos.ability.ability';
@@ -461,13 +401,7 @@ normalizeUri(uri: string, callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import ability from '@ohos.ability.ability';
@@ -515,13 +449,7 @@ normalizeUri(uri: string): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import ability from '@ohos.ability.ability';
@@ -558,13 +486,7 @@ denormalizeUri(uri: string, callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import ability from '@ohos.ability.ability';
@@ -612,13 +534,7 @@ denormalizeUri(uri: string): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import ability from '@ohos.ability.ability';
@@ -655,13 +571,7 @@ notifyChange(uri: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import ability from '@ohos.ability.ability';
@@ -709,13 +619,7 @@ notifyChange(uri: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import ability from '@ohos.ability.ability';
@@ -753,13 +657,7 @@ insert(uri: string, valuesBucket: [rdb.ValuesBucket](https://developer.huawei.co
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import ability from '@ohos.ability.ability';
@@ -815,13 +713,7 @@ insert(uri: string, valuesBucket: [rdb.ValuesBucket](https://developer.huawei.co
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import ability from '@ohos.ability.ability';
@@ -866,13 +758,7 @@ batchInsert(uri: string, valuesBuckets: Array<rdb.ValuesBucket>, callback: Async
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import ability from '@ohos.ability.ability';
@@ -925,13 +811,7 @@ batchInsert(uri: string, valuesBuckets: Array<rdb.ValuesBucket>): Promise<number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import ability from '@ohos.ability.ability';
@@ -973,13 +853,7 @@ delete(uri: string, predicates: dataAbility.DataAbilityPredicates, callback: Asy
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import ability from '@ohos.ability.ability';
@@ -1030,13 +904,7 @@ delete(uri: string, predicates?: dataAbility.DataAbilityPredicates): Promise<num
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import ability from '@ohos.ability.ability';
@@ -1075,13 +943,7 @@ predicates筛选条件为空，自定义数据库删除数据记录的处理逻�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import ability from '@ohos.ability.ability';
@@ -1124,13 +986,7 @@ update(uri: string, valuesBucket: rdb.ValuesBucket, predicates: dataAbility.Data
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import ability from '@ohos.ability.ability';
@@ -1189,13 +1045,7 @@ update(uri: string, valuesBucket: rdb.ValuesBucket, predicates?: dataAbility.Dat
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import ability from '@ohos.ability.ability';
@@ -1242,13 +1092,7 @@ predicates筛选条件为空，自定义更新数据库的处理逻辑。使用c
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import ability from '@ohos.ability.ability';
@@ -1298,13 +1142,7 @@ query(uri: string, columns: Array<string>, predicates: dataAbility.DataAbilityPr
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import ability from '@ohos.ability.ability';
@@ -1348,13 +1186,7 @@ query(uri: string, callback: AsyncCallback<ResultSet>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import ability from '@ohos.ability.ability';
@@ -1396,13 +1228,7 @@ query(uri: string, columns: Array<string>, callback: AsyncCallback<ResultSet>): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import ability from '@ohos.ability.ability';
@@ -1445,13 +1271,7 @@ query(uri: string, predicates: dataAbility.DataAbilityPredicates, callback: Asyn
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import ability from '@ohos.ability.ability';
@@ -1503,13 +1323,7 @@ query(uri: string, columns?: Array<string>, predicates?: dataAbility.DataAbility
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import ability from '@ohos.ability.ability';
@@ -1552,13 +1366,7 @@ call(uri: string, method: string, arg: string, extras: PacMap, callback: AsyncCa
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import ability from '@ohos.ability.ability';
@@ -1610,13 +1418,7 @@ call(uri: string, method: string, arg: string, extras: PacMap): Promise<PacMap>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import ability from '@ohos.ability.ability';
@@ -1658,13 +1460,7 @@ executeBatch(uri: string, operations: Array<DataAbilityOperation>, callback: Asy
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import ability from '@ohos.ability.ability';
@@ -1715,13 +1511,7 @@ executeBatch(uri: string, operations: Array<DataAbilityOperation>): Promise<Arra
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import ability from '@ohos.ability.ability';

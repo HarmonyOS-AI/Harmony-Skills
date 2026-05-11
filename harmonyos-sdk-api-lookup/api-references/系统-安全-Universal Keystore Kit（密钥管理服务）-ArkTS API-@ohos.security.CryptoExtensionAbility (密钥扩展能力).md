@@ -21,13 +21,7 @@ ExtensionAbility实现约束：
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks, huksExternalCrypto, CryptoExtensionAbility } from '@kit.UniversalKeystoreKit';
@@ -121,13 +115,7 @@ onOpenResource(resourceId: string, params: Array<huksExternalCrypto.HuksExternal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huksExternalCrypto, CryptoExtensionAbility, HuksCryptoExtensionResult } from '@kit.UniversalKeystoreKit';
@@ -175,13 +163,7 @@ onCloseResource(handle: string, params: Array<huksExternalCrypto.HuksExternalCry
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huksExternalCrypto, CryptoExtensionAbility, HuksCryptoExtensionResult } from '@kit.UniversalKeystoreKit';
@@ -229,13 +211,7 @@ onGetProperty(handle: string, propertyId: string, params: Array<huksExternalCryp
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huksExternalCrypto, CryptoExtensionAbility, HuksCryptoExtensionResult } from '@kit.UniversalKeystoreKit';
@@ -284,13 +260,7 @@ onAuthUkeyPin(handle: string, params: Array<huksExternalCrypto.HuksExternalCrypt
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huksExternalCrypto, CryptoExtensionAbility, HuksCryptoExtensionResult } from '@kit.UniversalKeystoreKit';
@@ -338,13 +308,7 @@ onGetUkeyPinAuthState(handle: string, params: Array<huksExternalCrypto.HuksExter
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huksExternalCrypto, CryptoExtensionAbility, HuksCryptoExtensionResult } from '@kit.UniversalKeystoreKit';
@@ -392,13 +356,7 @@ onClearUkeyPinAuthState(handle: string, params: Array<huksExternalCrypto.HuksExt
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huksExternalCrypto, CryptoExtensionAbility, HuksCryptoExtensionResult } from '@kit.UniversalKeystoreKit';
@@ -444,13 +402,7 @@ onInitSession(handle: string, params: huks.HuksOptions): Promise<HuksCryptoExten
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks, CryptoExtensionAbility, HuksCryptoExtensionResult } from '@kit.UniversalKeystoreKit';
@@ -497,13 +449,7 @@ onUpdateSession(initHandle: string, params: huks.HuksOptions): Promise<HuksCrypt
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks, CryptoExtensionAbility, HuksCryptoExtensionResult } from '@kit.UniversalKeystoreKit';
@@ -551,13 +497,7 @@ onFinishSession(initHandle: string, params: huks.HuksOptions): Promise<HuksCrypt
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks, CryptoExtensionAbility, HuksCryptoExtensionResult } from '@kit.UniversalKeystoreKit';
@@ -605,13 +545,7 @@ onExportCertificate(resourceId: string, params?: Array<huksExternalCrypto.HuksEx
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huksExternalCrypto, CryptoExtensionAbility, HuksCryptoExtensionResult,
@@ -659,13 +593,7 @@ onEnumCertificates(params?: Array<huksExternalCrypto.HuksExternalCryptoParam>): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huksExternalCrypto, CryptoExtensionAbility, HuksCryptoExtensionResult,

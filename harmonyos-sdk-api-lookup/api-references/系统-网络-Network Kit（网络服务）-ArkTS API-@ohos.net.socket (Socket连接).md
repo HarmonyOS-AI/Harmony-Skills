@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -42,13 +36,7 @@ constructUDPSocketInstance(): UDPSocket
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -95,13 +83,7 @@ bind(address: NetAddress, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -162,13 +144,7 @@ bind(address: NetAddress): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -230,13 +206,7 @@ send(options: UDPSendOptions, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -273,13 +243,7 @@ send(options: UDPSendOptions, callback: AsyncCallback<void>): void
 
 **示例（设置socket代理）：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -376,13 +340,7 @@ send(options: UDPSendOptions): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -416,13 +374,7 @@ send(options: UDPSendOptions): Promise<void>
 
 **示例（设置socket代理）：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -497,13 +449,7 @@ close(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -551,13 +497,7 @@ close(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -607,13 +547,7 @@ bind方法调用成功后，才可调用此方法。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -676,13 +610,7 @@ bind方法调用成功后，才可调用此方法。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -745,13 +673,7 @@ getSocketFd(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -813,13 +735,7 @@ bind方法调用成功后，才可调用此方法。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -899,13 +815,7 @@ bind方法调用成功后，才可调用此方法。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -974,13 +884,7 @@ bind方法调用成功后，才可调用此方法。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -1025,13 +929,7 @@ on(type: 'message', callback: Callback<SocketMessageInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -1073,13 +971,7 @@ off(type: 'message', callback?: Callback<SocketMessageInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -1124,13 +1016,7 @@ on(type: 'listening' | 'close', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -1166,13 +1052,7 @@ off(type: 'listening' | 'close', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -1216,13 +1096,7 @@ on(type: 'error', callback: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -1255,13 +1129,7 @@ off(type: 'error', callback?: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -1431,13 +1299,7 @@ constructMulticastSocketInstance(): MulticastSocket
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -1493,13 +1355,7 @@ addMembership(multicastAddress: NetAddress, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -1567,13 +1423,7 @@ addMembership(multicastAddress: NetAddress): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -1632,13 +1482,7 @@ dropMembership(multicastAddress: NetAddress, callback: AsyncCallback<void>): voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -1706,13 +1550,7 @@ dropMembership(multicastAddress: NetAddress): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -1772,13 +1610,7 @@ setMulticastTTL(ttl: number, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -1844,13 +1676,7 @@ setMulticastTTL(ttl: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -1904,13 +1730,7 @@ getMulticastTTL(callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -1966,13 +1786,7 @@ getMulticastTTL(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -2025,13 +1839,7 @@ setLoopbackMode(flag: boolean, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -2093,13 +1901,7 @@ setLoopbackMode(flag: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -2151,13 +1953,7 @@ getLoopbackMode(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -2211,13 +2007,7 @@ getLoopbackMode(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -2270,13 +2060,7 @@ getSocketFd(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -2320,13 +2104,7 @@ constructTCPSocketInstance(): TCPSocket
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -2381,13 +2159,7 @@ bind的IP为'localhost'或'127.0.0.1'时，只允许本地回环接口的连接�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -2456,13 +2228,7 @@ bind的IP为'localhost'或'127.0.0.1'时，只允许本地回环接口的连接�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -2526,13 +2292,7 @@ connect(options: TCPConnectOptions, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -2558,13 +2318,7 @@ connect(options: TCPConnectOptions, callback: AsyncCallback<void>): void
 
 **示例（设置socket代理）：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -2652,13 +2406,7 @@ connect(options: TCPConnectOptions): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -2682,13 +2430,7 @@ connect(options: TCPConnectOptions): Promise<void>
 
 **示例（设置socket代理）：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -2759,13 +2501,7 @@ connect方法调用成功后，才可调用此方法。该接口为耗时操作�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -2840,13 +2576,7 @@ connect方法调用成功后，才可调用此方法。该接口为耗时操作�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -2906,13 +2636,7 @@ close(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -2961,13 +2685,7 @@ close(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -3018,13 +2736,7 @@ connect方法调用成功后，才可调用此方法。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -3087,13 +2799,7 @@ connect方法调用成功后，才可调用此方法。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -3156,13 +2862,7 @@ bind或connect方法调用成功后，才可调用此方法。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -3225,13 +2925,7 @@ bind或connect方法调用成功后，才可调用此方法。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -3283,13 +2977,7 @@ getSocketFd(callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -3341,13 +3029,7 @@ getSocketFd(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -3411,13 +3093,7 @@ bind或connect方法调用成功后，才可调用此方法。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -3506,13 +3182,7 @@ bind或connect方法调用成功后，才可调用此方法。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -3590,13 +3260,7 @@ bind方法调用成功后，才可调用此方法。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -3640,13 +3304,7 @@ on(type: 'message', callback: Callback<SocketMessageInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -3687,13 +3345,7 @@ off(type: 'message', callback?: Callback<SocketMessageInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -3738,13 +3390,7 @@ on(type: 'connect' | 'close', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -3780,13 +3426,7 @@ off(type: 'connect' | 'close', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -3830,13 +3470,7 @@ on(type: 'error', callback: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -3869,13 +3503,7 @@ off(type: 'error', callback?: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -3960,13 +3588,7 @@ constructTCPSocketServerInstance(): TCPSocketServer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -4022,13 +3644,7 @@ listen(address: NetAddress, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -4099,13 +3715,7 @@ listen(address: NetAddress): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -4163,13 +3773,7 @@ listen方法调用成功后，才可调用此方法。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -4235,13 +3839,7 @@ listen方法调用成功后，才可调用此方法。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -4305,13 +3903,7 @@ getSocketFd(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -4375,13 +3967,7 @@ listen方法调用成功后，才可调用此方法。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -4472,13 +4058,7 @@ listen方法调用成功后，才可调用此方法。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -4557,13 +4137,7 @@ listen方法调用成功后，才可调用此方法。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -4621,13 +4195,7 @@ listen方法调用成功后，才可调用此方法。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -4683,13 +4251,7 @@ off(type: 'connect', callback?: Callback<TCPSocketConnection>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -4753,13 +4315,7 @@ listen方法调用成功后，才可调用此方法。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -4815,13 +4371,7 @@ off(type: 'error', callback?: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -4887,13 +4437,7 @@ TCPSocketServer停止监听并释放通过[listen](/consumer/cn/doc/harmonyos-re
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -4977,13 +4521,7 @@ send(options: TCPSendOptions, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -5046,13 +4584,7 @@ send(options: TCPSendOptions): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -5106,13 +4638,7 @@ close(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -5164,13 +4690,7 @@ close(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -5225,13 +4745,7 @@ getRemoteAddress(callback: AsyncCallback<NetAddress>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -5287,13 +4801,7 @@ getRemoteAddress(): Promise<NetAddress>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -5341,13 +4849,7 @@ getLocalAddress(): Promise<NetAddress>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -5424,13 +4926,7 @@ getSocketFd(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -5486,13 +4982,7 @@ on(type: 'message', callback: Callback<SocketMessageInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -5546,13 +5036,7 @@ off(type: 'message', callback?: Callback<SocketMessageInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -5609,13 +5093,7 @@ on(type: 'close', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -5660,13 +5138,7 @@ off(type: 'close', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -5714,13 +5186,7 @@ on(type: 'error', callback: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -5765,13 +5231,7 @@ off(type: 'error', callback?: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -5817,13 +5277,7 @@ constructLocalSocketInstance(): LocalSocket
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -5887,13 +5341,7 @@ bind方法在本地套接字通信中非必须。
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -5962,13 +5410,7 @@ connect(options: LocalConnectOptions): Promise<void>
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -6038,13 +5480,7 @@ connect方法调用成功后，才可调用此方法。
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -6105,13 +5541,7 @@ close(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -6153,13 +5583,7 @@ bind或connect方法调用成功后，才可调用此方法。
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -6217,13 +5641,7 @@ getSocketFd(): Promise<number>
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -6298,13 +5716,7 @@ bind或connect方法调用成功后，才可调用此方法。
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -6375,13 +5787,7 @@ bind或connect方法调用成功后，才可调用此方法。
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -6449,13 +5855,7 @@ bind方法调用成功后，才可调用此方法。
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -6511,13 +5911,7 @@ on(type: 'message', callback: Callback<LocalSocketMessageInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -6565,13 +5959,7 @@ off(type: 'message', callback?: Callback<LocalSocketMessageInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -6622,13 +6010,7 @@ on(type: 'connect', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -6670,13 +6052,7 @@ off(type: 'connect', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -6722,13 +6098,7 @@ on(type: 'close', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -6771,13 +6141,7 @@ off(type: 'close', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -6823,13 +6187,7 @@ on(type: 'error', callback: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -6871,13 +6229,7 @@ off(type: 'error', callback?: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -6989,13 +6341,7 @@ constructLocalSocketServerInstance(): LocalSocketServer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -7058,13 +6404,7 @@ listen(address: LocalAddress): Promise<void>
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -7111,13 +6451,7 @@ listen方法调用成功后，才可调用此方法。
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -7189,13 +6523,7 @@ listen方法调用成功后，才可调用此方法。
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -7263,13 +6591,7 @@ listen方法调用成功后，才可调用此方法。
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -7333,13 +6655,7 @@ listen方法调用成功后，才可调用此方法。
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -7394,13 +6710,7 @@ getSocketFd(): Promise<number>
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -7460,13 +6770,7 @@ listen方法调用成功后，才可调用此方法。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -7510,13 +6814,7 @@ off(type: 'connect', callback?: Callback<LocalSocketConnection>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -7568,13 +6866,7 @@ listen方法调用成功后，才可调用此方法。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -7616,13 +6908,7 @@ off(type: 'error', callback?: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -7675,13 +6961,7 @@ LocalSocketServer停止监听并释放通过[listen](/consumer/cn/doc/harmonyos-
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -7770,13 +7050,7 @@ send(options: LocalSendOptions): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -7825,13 +7099,7 @@ close(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -7882,13 +7150,7 @@ getLocalAddress(): Promise<string>
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -7950,13 +7212,7 @@ getSocketFd(): Promise<number>
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -8017,13 +7273,7 @@ on(type: 'message', callback: Callback<LocalSocketMessageInfo>): void
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -8084,13 +7334,7 @@ off(type: 'message', callback?: Callback<LocalSocketMessageInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -8144,13 +7388,7 @@ on(type: 'close', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -8194,13 +7432,7 @@ off(type: 'close', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -8248,13 +7480,7 @@ on(type: 'error', callback: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -8298,13 +7524,7 @@ off(type: 'error', callback?: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -8349,13 +7569,7 @@ constructTLSSocketInstance(): TLSSocket
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -8408,13 +7622,7 @@ constructTLSSocketInstance(tcpSocket: TCPSocket): TLSSocket
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -8488,13 +7696,7 @@ bind(address: NetAddress, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -8561,13 +7763,7 @@ bind(address: NetAddress): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -8616,13 +7812,7 @@ getState(callback: AsyncCallback<SocketStateBase>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -8680,13 +7870,7 @@ getState(): Promise<SocketStateBase>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -8744,13 +7928,7 @@ setExtraOptions(options: TCPExtraOptions, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -8834,13 +8012,7 @@ setExtraOptions(options: TCPExtraOptions): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -8917,13 +8089,7 @@ bind方法调用成功后，才可调用此方法。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -8983,13 +8149,7 @@ off(type: 'message', callback?: Callback<SocketMessageInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -9045,13 +8205,7 @@ bind方法调用成功后，才可调用此方法。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -9106,13 +8260,7 @@ off(type: 'connect' | 'close', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -9167,13 +8315,7 @@ bind方法调用成功后，才可调用此方法。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -9225,13 +8367,7 @@ off(type: 'error', callback?: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -9297,13 +8433,7 @@ connect(options: TLSConnectOptions, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -9372,13 +8502,7 @@ connect(options: TLSConnectOptions, callback: AsyncCallback<void>): void
 
 **示例（设置socket代理）：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -9521,13 +8645,7 @@ connect(options: TLSConnectOptions): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -9600,13 +8718,7 @@ connect(options: TLSConnectOptions): Promise<void>
 
 **示例（设置socket代理）：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -9724,13 +8836,7 @@ getRemoteAddress(callback: AsyncCallback<NetAddress>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -9775,13 +8881,7 @@ getRemoteAddress(): Promise<NetAddress>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -9825,13 +8925,7 @@ getCertificate(callback: AsyncCallback<[X509CertRawData](/consumer/cn/doc/harmon
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -9877,13 +8971,7 @@ getCertificate():Promise<[X509CertRawData](/consumer/cn/doc/harmonyos-references
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -9929,13 +9017,7 @@ getRemoteCertificate(callback: AsyncCallback<[X509CertRawData](/consumer/cn/doc/
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -9983,13 +9065,7 @@ getRemoteCertificate():Promise<[X509CertRawData](/consumer/cn/doc/harmonyos-refe
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -10036,13 +9112,7 @@ getProtocol(callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -10088,13 +9158,7 @@ getProtocol():Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -10139,13 +9203,7 @@ getCipherSuite(callback: AsyncCallback<Array<string>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -10192,13 +9250,7 @@ getCipherSuite(): Promise<Array<string>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -10241,13 +9293,7 @@ getSignatureAlgorithms(callback: AsyncCallback<Array<string>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -10292,13 +9338,7 @@ getSignatureAlgorithms(): Promise<Array<string>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -10346,13 +9386,7 @@ getLocalAddress(): Promise<NetAddress>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -10391,13 +9425,7 @@ getSocketFd(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -10453,13 +9481,7 @@ send(data: string | ArrayBuffer, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -10516,13 +9538,7 @@ send(data: string | ArrayBuffer): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -10568,13 +9584,7 @@ close(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -10622,13 +9632,7 @@ close(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -10734,13 +9738,7 @@ constructTLSSocketServerInstance(): TLSSocketServer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -10801,13 +9799,7 @@ IP地址设置为0.0.0.0时，可以监听本机所有地址。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -10888,13 +9880,7 @@ listen(options: TLSConnectOptions): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -10962,13 +9948,7 @@ listen方法调用成功后，才可调用此方法。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -11041,13 +10021,7 @@ listen方法调用成功后，才可调用此方法。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -11123,13 +10097,7 @@ getSocketFd(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -11202,13 +10170,7 @@ listen方法调用成功后，才可调用此方法。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -11306,13 +10268,7 @@ listen方法调用成功后，才可调用此方法。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -11401,13 +10357,7 @@ listen方法调用成功后，才可调用此方法。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -11484,13 +10434,7 @@ listen方法调用成功后，才可调用此方法。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -11566,13 +10510,7 @@ listen方法调用成功后，才可调用此方法。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -11646,13 +10584,7 @@ listen方法调用成功后，才可调用此方法。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -11724,13 +10656,7 @@ getLocalAddress(): Promise<NetAddress>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -11777,13 +10703,7 @@ listen方法调用成功后，才可调用此方法。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -11854,13 +10774,7 @@ listen方法调用成功后，才可调用此方法。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -11934,13 +10848,7 @@ listen方法调用成功后，才可调用此方法。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -12011,13 +10919,7 @@ listen方法调用成功后，才可调用此方法。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -12095,13 +10997,7 @@ TLSSocketServer停止监听并释放通过[listen](/consumer/cn/doc/harmonyos-re
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -12194,13 +11090,7 @@ send(data: string | ArrayBuffer, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -12284,13 +11174,7 @@ send(data: string | ArrayBuffer): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -12363,13 +11247,7 @@ close(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -12443,13 +11321,7 @@ close(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -12519,13 +11391,7 @@ getRemoteAddress(callback: AsyncCallback<NetAddress>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -12596,13 +11462,7 @@ getRemoteAddress(): Promise<NetAddress>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -12672,13 +11532,7 @@ getRemoteCertificate(callback: AsyncCallback<[X509CertRawData](/consumer/cn/doc/
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -12752,13 +11606,7 @@ getRemoteCertificate():Promise<[X509CertRawData](/consumer/cn/doc/harmonyos-refe
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -12833,13 +11681,7 @@ getCipherSuite(callback: AsyncCallback<Array<string>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -12912,13 +11754,7 @@ getCipherSuite(): Promise<Array<string>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -12988,13 +11824,7 @@ getSignatureAlgorithms(callback: AsyncCallback<Array<string>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -13065,13 +11895,7 @@ getSignatureAlgorithms(): Promise<Array<string>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -13145,13 +11969,7 @@ getLocalAddress(): Promise<NetAddress>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -13230,13 +12048,7 @@ getSocketFd(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -13305,13 +12117,7 @@ on(type: 'message', callback: Callback<SocketMessageInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -13387,13 +12193,7 @@ off(type: 'message', callback?: Callback<SocketMessageInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -13473,13 +12273,7 @@ on(type: 'close', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -13546,13 +12340,7 @@ off(type: 'close', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -13624,13 +12412,7 @@ on(type: 'error', callback: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';
@@ -13698,13 +12480,7 @@ off(type: 'error', callback?: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { socket } from '@kit.NetworkKit';

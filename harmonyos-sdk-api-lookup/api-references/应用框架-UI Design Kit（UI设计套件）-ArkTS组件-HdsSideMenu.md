@@ -6,13 +6,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { HdsSideMenu, HdsSideMenuMainItem, HdsSideMenuSubItem, HdsSideMenuBadgeParam} from '@kit.UIDesignKit';
@@ -321,13 +315,7 @@ PhonePC/2in1TabletTV
 
 HdsSideMenu提供一种菜单栏样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { HdsSideMenu, HdsSideMenuMainItem, HdsSideBar } from '@kit.UIDesignKit';

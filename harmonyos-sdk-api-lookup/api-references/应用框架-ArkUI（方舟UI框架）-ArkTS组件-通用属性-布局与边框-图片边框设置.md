@@ -101,13 +101,7 @@ PhonePC/2in1TabletTVWearable
 
 通过[borderImage](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-border-image#borderimage)接口为组件设置渐变色边框。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -144,13 +138,7 @@ PhonePC/2in1TabletTVWearable
 
 通过[slider](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-components-basic-slider)接口动态调整[borderImage](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-border-image#borderimage)接口中属性值。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -252,13 +240,7 @@ PhonePC/2in1TabletTVWearable
 
 通过[borderImage](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-border-image#borderimage)接口中的slice、width和outset属性值使用[LocalizedEdgeWidths](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-types#localizededgewidths12)类型。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

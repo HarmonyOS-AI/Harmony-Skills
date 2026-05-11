@@ -6,13 +6,7 @@
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { securityAudit } from '@kit.DeviceSecurityKit';
@@ -215,13 +209,7 @@ on(type: 'auditEventOccur', auditEventInfo: [AuditEventInfo](/consumer/cn/doc/ha
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { securityAudit } from '@kit.DeviceSecurityKit';
@@ -287,13 +275,7 @@ off(type: 'auditEventOccur', auditEventInfo: [AuditEventInfo](/consumer/cn/doc/h
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { securityAudit } from '@kit.DeviceSecurityKit';
@@ -382,13 +364,7 @@ subscribe(events: NotifyEvent[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { securityAudit } from '@kit.DeviceSecurityKit';
@@ -449,13 +425,7 @@ unsubscribe(events: NotifyEvent[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { securityAudit } from '@kit.DeviceSecurityKit';
@@ -519,13 +489,7 @@ addFilter(event: NotifyEvent, filter: Filter): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { securityAudit } from '@kit.DeviceSecurityKit';
@@ -593,13 +557,7 @@ removeFilter(event: NotifyEvent, filter: Filter): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { securityAudit } from '@kit.DeviceSecurityKit';
@@ -675,13 +633,7 @@ newClient(callback: Callback<[AuditEvent](/consumer/cn/doc/harmonyos-references/
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { securityAudit } from '@kit.DeviceSecurityKit';
@@ -741,13 +693,7 @@ deleteClient(client: Client): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { securityAudit } from '@kit.DeviceSecurityKit';
@@ -822,13 +768,7 @@ subscribe(events: AuthEvent[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { securityAudit } from '@kit.DeviceSecurityKit';
@@ -891,13 +831,7 @@ unsubscribe(events: AuthEvent[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { securityAudit } from '@kit.DeviceSecurityKit';
@@ -969,13 +903,7 @@ addFilter(event: AuthEvent, filter: Filter): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { securityAudit } from '@kit.DeviceSecurityKit';
@@ -1045,13 +973,7 @@ removeFilter(event: AuthEvent, filter: Filter): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { securityAudit } from '@kit.DeviceSecurityKit';
@@ -1127,13 +1049,7 @@ auth(auditEvent: AuditEvent, authResult: AuthResult): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { securityAudit } from '@kit.DeviceSecurityKit';
@@ -1206,13 +1122,7 @@ newAuthClient(callback: Callback<[AuditEvent](/consumer/cn/doc/harmonyos-referen
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { securityAudit } from '@kit.DeviceSecurityKit';
@@ -1269,13 +1179,7 @@ deleteAuthClient(client: AuthClient): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { securityAudit } from '@kit.DeviceSecurityKit';
@@ -1338,13 +1242,7 @@ queryAllProcesses(): string;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { securityAudit } from '@kit.DeviceSecurityKit';
@@ -1406,13 +1304,7 @@ queryProcesses(pids: number[]): string;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { securityAudit } from '@kit.DeviceSecurityKit';
@@ -1477,13 +1369,7 @@ acquireCodeSign(path: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { securityAudit } from '@kit.DeviceSecurityKit';

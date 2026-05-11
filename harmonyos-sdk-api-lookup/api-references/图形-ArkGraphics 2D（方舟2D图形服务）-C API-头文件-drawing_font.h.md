@@ -101,13 +101,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_Drawing_FontHinting
@@ -132,13 +126,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_Drawing_FontEdging
@@ -166,13 +154,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_Drawing_ErrorCode OH_Drawing_FontMeasureSingleCharacterWithFeatures(const OH_Drawing_Font* font, const char* str, const OH_Drawing_FontFeatures* fontFeatures, float* textWidth)
@@ -209,13 +191,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_Drawing_FontFeatures* OH_Drawing_FontFeaturesCreate(void)
@@ -241,13 +217,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_Drawing_ErrorCode OH_Drawing_FontFeaturesAddFeature(OH_Drawing_FontFeatures* fontFeatures, const char* name, float value)
@@ -283,13 +253,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_Drawing_ErrorCode OH_Drawing_FontFeaturesDestroy(OH_Drawing_FontFeatures* fontFeatures)
@@ -323,13 +287,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_Drawing_ErrorCode OH_Drawing_FontMeasureTextWithBrushOrPen(const OH_Drawing_Font* font, const void* text,size_t byteLength, OH_Drawing_TextEncoding encoding, const OH_Drawing_Brush* brush, const OH_Drawing_Pen* pen,OH_Drawing_Rect* bounds, float* textWidth)
@@ -370,13 +328,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_Drawing_ErrorCode OH_Drawing_FontGetWidthsBounds(const OH_Drawing_Font* font, const uint16_t* glyphs, int count,const OH_Drawing_Brush* brush, const OH_Drawing_Pen* pen, float* widths, OH_Drawing_Array* bounds)
@@ -416,13 +368,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_Drawing_ErrorCode OH_Drawing_FontGetPos(const OH_Drawing_Font* font, const uint16_t* glyphs, int count,const OH_Drawing_Point* origin, OH_Drawing_Point2D* points)
@@ -460,13 +406,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_Drawing_ErrorCode OH_Drawing_FontGetSpacing(const OH_Drawing_Font* font, float* spacing)
@@ -501,13 +441,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_Drawing_Font* OH_Drawing_FontCreate(void)
@@ -533,13 +467,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_Drawing_FontSetBaselineSnap(OH_Drawing_Font* font, bool baselineSnap)
@@ -570,13 +498,7 @@ font为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bool OH_Drawing_FontIsBaselineSnap(const OH_Drawing_Font* font)
@@ -614,13 +536,7 @@ font为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_Drawing_FontSetSubpixel(OH_Drawing_Font* font, bool isSubpixel)
@@ -651,13 +567,7 @@ font为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bool OH_Drawing_FontIsSubpixel(const OH_Drawing_Font* font)
@@ -695,13 +605,7 @@ font为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_Drawing_FontSetForceAutoHinting(OH_Drawing_Font* font, bool isForceAutoHinting)
@@ -732,13 +636,7 @@ font为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bool OH_Drawing_FontIsForceAutoHinting(const OH_Drawing_Font* font)
@@ -776,13 +674,7 @@ font为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_Drawing_FontSetTypeface(OH_Drawing_Font* font, OH_Drawing_Typeface* typeface)
@@ -813,13 +705,7 @@ font为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_Drawing_Typeface* OH_Drawing_FontGetTypeface(OH_Drawing_Font* font)
@@ -857,13 +743,7 @@ font为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_Drawing_FontSetTextSize(OH_Drawing_Font* font, float textSize)
@@ -894,13 +774,7 @@ font为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. float OH_Drawing_FontGetTextSize(const OH_Drawing_Font* font)
@@ -938,13 +812,7 @@ font为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_Drawing_FontCountText(OH_Drawing_Font* font, const void* text, size_t byteLength,OH_Drawing_TextEncoding encoding)
@@ -985,13 +853,7 @@ font、text任意一个为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint32_t OH_Drawing_FontTextToGlyphs(const OH_Drawing_Font* font, const void* text, uint32_t byteLength,OH_Drawing_TextEncoding encoding, uint16_t* glyphs, int maxGlyphCount)
@@ -1034,13 +896,7 @@ font、text、glyphs任意一个为NULL或者byteLength等于0或者maxGlyphCoun
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_Drawing_FontGetWidths(const OH_Drawing_Font* font, const uint16_t* glyphs, int count, float* widths)
@@ -1073,13 +929,7 @@ font、glyphs、widths任意一个为NULL或者count小于等于0时返回OH\_DR
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_Drawing_ErrorCode OH_Drawing_FontMeasureSingleCharacter(const OH_Drawing_Font* font, const char* str,float* textWidth)
@@ -1115,13 +965,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_Drawing_ErrorCode OH_Drawing_FontMeasureText(const OH_Drawing_Font* font, const void* text, size_t byteLength,OH_Drawing_TextEncoding encoding, OH_Drawing_Rect* bounds, float* textWidth)
@@ -1160,13 +1004,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_Drawing_FontSetLinearText(OH_Drawing_Font* font, bool isLinearText)
@@ -1197,13 +1035,7 @@ font为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bool OH_Drawing_FontIsLinearText(const OH_Drawing_Font* font)
@@ -1241,13 +1073,7 @@ font为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_Drawing_FontSetTextSkewX(OH_Drawing_Font* font, float skewX)
@@ -1278,13 +1104,7 @@ font为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. float OH_Drawing_FontGetTextSkewX(const OH_Drawing_Font* font)
@@ -1322,13 +1142,7 @@ font为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_Drawing_FontSetFakeBoldText(OH_Drawing_Font* font, bool isFakeBoldText)
@@ -1359,13 +1173,7 @@ font为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bool OH_Drawing_FontIsFakeBoldText(const OH_Drawing_Font* font)
@@ -1403,13 +1211,7 @@ font为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_Drawing_FontSetScaleX(OH_Drawing_Font* font, float scaleX)
@@ -1440,13 +1242,7 @@ font为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. float OH_Drawing_FontGetScaleX(const OH_Drawing_Font* font)
@@ -1484,13 +1280,7 @@ font为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_Drawing_FontSetHinting(OH_Drawing_Font* font, OH_Drawing_FontHinting fontHinting)
@@ -1523,13 +1313,7 @@ fontHinting不在枚举范围内时返回OH\_DRAWING\_ERROR\_PARAMETER\_OUT\_OF\
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_Drawing_FontHinting OH_Drawing_FontGetHinting(const OH_Drawing_Font* font)
@@ -1567,13 +1351,7 @@ font为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_Drawing_FontSetEmbeddedBitmaps(OH_Drawing_Font* font, bool isEmbeddedBitmaps)
@@ -1604,13 +1382,7 @@ font为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bool OH_Drawing_FontIsEmbeddedBitmaps(const OH_Drawing_Font* font)
@@ -1648,13 +1420,7 @@ font为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_Drawing_FontSetEdging(OH_Drawing_Font* font, OH_Drawing_FontEdging fontEdging)
@@ -1687,13 +1453,7 @@ fontEdging不在枚举范围内时返回OH\_DRAWING\_ERROR\_PARAMETER\_OUT\_OF\_
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_Drawing_FontEdging OH_Drawing_FontGetEdging(const OH_Drawing_Font* font)
@@ -1731,13 +1491,7 @@ font为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAMETER。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_Drawing_FontDestroy(OH_Drawing_Font* font)
@@ -1763,13 +1517,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. float OH_Drawing_FontGetMetrics(OH_Drawing_Font* font, OH_Drawing_Font_Metrics* fontMetrics)
@@ -1808,13 +1556,7 @@ font、fontMetrics任意一个为NULL时返回OH\_DRAWING\_ERROR\_INVALID\_PARAM
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_Drawing_ErrorCode OH_Drawing_FontGetBounds(const OH_Drawing_Font* font, const uint16_t* glyphs, uint32_t count,OH_Drawing_Array* bounds)
@@ -1851,13 +1593,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_Drawing_ErrorCode OH_Drawing_FontGetPathForGlyph(const OH_Drawing_Font* font, uint16_t glyph,OH_Drawing_Path* path)
@@ -1893,13 +1629,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_Drawing_ErrorCode OH_Drawing_FontGetTextPath(const OH_Drawing_Font* font, const void* text, size_t byteLength,OH_Drawing_TextEncoding encoding, float x, float y, OH_Drawing_Path* path)
@@ -1939,13 +1669,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_Drawing_ErrorCode OH_Drawing_FontSetThemeFontFollowed(OH_Drawing_Font* font, bool followed)
@@ -1980,13 +1704,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_Drawing_ErrorCode OH_Drawing_FontIsThemeFontFollowed(const OH_Drawing_Font* font, bool* followed)

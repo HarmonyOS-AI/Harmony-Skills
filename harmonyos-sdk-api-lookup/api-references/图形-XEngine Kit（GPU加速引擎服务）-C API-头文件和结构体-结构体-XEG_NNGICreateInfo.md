@@ -37,13 +37,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkExtent2D XEG_NNGICreateInfo::inferenceInputSize
@@ -57,13 +51,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkExtent2D XEG_NNGICreateInfo::inferenceOutputSize
@@ -77,13 +65,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const void* XEG_NNGICreateInfo::pNext
@@ -97,13 +79,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. XEG_RTGIQualityMode XEG_NNGICreateInfo::qualityMode
@@ -117,13 +93,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. XEG_StructureType XEG_NNGICreateInfo::sType
@@ -137,13 +107,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkExtent2D XEG_NNGICreateInfo::trainingSize

@@ -36,13 +36,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. PFN_vkGetInstanceProcAddr FG_ContextDescription_VK::fnVulkanLoaderFunction
@@ -56,13 +50,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint8_t FG_ContextDescription_VK::framesInFlight
@@ -76,13 +64,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkDevice FG_ContextDescription_VK::vkDevice
@@ -96,13 +78,7 @@ Vulkan逻辑设备句柄，需在[FG\_Context\_VK](https://developer.huawei.com/
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkInstance FG_ContextDescription_VK::vkInstance
@@ -116,13 +92,7 @@ Vulkan实例，需在[FG\_Context\_VK](https://developer.huawei.com/consumer/cn/
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkPhysicalDevice FG_ContextDescription_VK::vkPhysicalDevice

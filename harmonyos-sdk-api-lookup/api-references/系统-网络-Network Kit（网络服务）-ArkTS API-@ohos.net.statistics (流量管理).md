@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { statistics } from '@kit.NetworkKit';
@@ -56,13 +50,7 @@ getIfaceRxBytes(nic: string, callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -117,13 +105,7 @@ getIfaceRxBytes(nic: string): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { statistics } from '@kit.NetworkKit';
@@ -169,13 +151,7 @@ getIfaceTxBytes(nic: string, callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -230,13 +206,7 @@ getIfaceTxBytes(nic: string): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { statistics } from '@kit.NetworkKit';
@@ -280,13 +250,7 @@ getCellularRxBytes(callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -332,13 +296,7 @@ getCellularRxBytes(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { statistics } from '@kit.NetworkKit';
@@ -382,13 +340,7 @@ getCellularTxBytes(callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -434,13 +386,7 @@ getCellularTxBytes(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { statistics } from '@kit.NetworkKit';
@@ -485,13 +431,7 @@ getAllRxBytes(callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { statistics } from '@kit.NetworkKit';
@@ -538,13 +478,7 @@ getAllRxBytes(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { statistics } from '@kit.NetworkKit';
@@ -589,13 +523,7 @@ getAllTxBytes(callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -642,13 +570,7 @@ getAllTxBytes(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { statistics } from '@kit.NetworkKit';
@@ -693,13 +615,7 @@ getUidRxBytes(uid: number, callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -753,13 +669,7 @@ getUidRxBytes(uid: number): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { statistics } from '@kit.NetworkKit';
@@ -804,13 +714,7 @@ getUidTxBytes(uid: number, callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -864,13 +768,7 @@ getUidTxBytes(uid: number): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { statistics } from '@kit.NetworkKit';
@@ -914,13 +812,7 @@ getSockfdRxBytes(sockfd: number, callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -974,13 +866,7 @@ getSockfdRxBytes(sockfd: number): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1028,13 +914,7 @@ getSockfdTxBytes(sockfd: number, callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1088,13 +968,7 @@ getSockfdTxBytes(sockfd: number): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1155,13 +1029,7 @@ getSelfTrafficStats(networkInfo: NetworkInfo): Promise<NetStatsInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

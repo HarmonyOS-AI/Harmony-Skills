@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { contact } from '@kit.ContactsKit';
@@ -61,13 +55,7 @@ addContact(context: Context, contact: Contact, callback: AsyncCallback<number>):
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -118,13 +106,7 @@ addContact(contact: Contact, callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -196,13 +178,7 @@ addContact(context: Context, contact: Contact): Promise<number>
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -259,13 +235,7 @@ addContact(contact: Contact): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -322,13 +292,7 @@ deleteContact(context: Context, key: string, callback: AsyncCallback<void>): voi
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -378,13 +342,7 @@ deleteContact(key: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -450,13 +408,7 @@ deleteContact(context: Context, key: string): Promise<void>
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -512,13 +464,7 @@ deleteContact(key: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -574,13 +520,7 @@ updateContact(context: Context, contact: Contact, callback: AsyncCallback<void>)
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -637,13 +577,7 @@ updateContact(contact: Contact, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -710,13 +644,7 @@ updateContact(context: Context, contact: Contact, attrs: ContactAttributes, call
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -776,13 +704,7 @@ updateContact(contact: Contact, attrs: ContactAttributes, callback: AsyncCallbac
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -856,13 +778,7 @@ updateContact(context: Context, contact: Contact, attrs?: ContactAttributes): Pr
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -928,13 +844,7 @@ updateContact(contact: Contact, attrs?: ContactAttributes): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1001,13 +911,7 @@ isLocalContact(context: Context, id: number, callback: AsyncCallback<boolean>): 
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1051,13 +955,7 @@ isLocalContact(id: number, callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1117,13 +1015,7 @@ isLocalContact(context: Context, id: number): Promise<boolean>
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1173,13 +1065,7 @@ isLocalContact(id: number): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1231,13 +1117,7 @@ isMyCard(context: Context, id: number, callback: AsyncCallback<boolean>): void
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1281,13 +1161,7 @@ isMyCard(id: number, callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1347,13 +1221,7 @@ isMyCard(context: Context, id: number): Promise<boolean>
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1403,13 +1271,7 @@ isMyCard(id: number): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1460,13 +1322,7 @@ queryMyCard(context: Context, callback: AsyncCallback<Contact>): void
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1509,13 +1365,7 @@ queryMyCard(callback: AsyncCallback<Contact>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1568,13 +1418,7 @@ queryMyCard(context: Context, attrs: ContactAttributes, callback: AsyncCallback<
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1620,13 +1464,7 @@ queryMyCard(attrs: ContactAttributes, callback: AsyncCallback<Contact>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1688,13 +1526,7 @@ queryMyCard(context: Context, attrs?: ContactAttributes): Promise<Contact>
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1746,13 +1578,7 @@ queryMyCard(attrs?: ContactAttributes): Promise<Contact>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1791,13 +1617,7 @@ selectContact(callback: AsyncCallback<Array<Contact>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1835,13 +1655,7 @@ selectContact(): Promise<Array<Contact>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1886,13 +1700,7 @@ selectContacts(callback: AsyncCallback<Array<Contact>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1928,13 +1736,7 @@ selectContacts(): Promise<Array<Contact>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1980,13 +1782,7 @@ selectContacts(options: ContactSelectionOptions, callback: AsyncCallback<Array<C
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2042,13 +1838,7 @@ selectContacts(options: ContactSelectionOptions): Promise<Array<Contact>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2100,13 +1890,7 @@ queryContact(context: Context, key: string, callback: AsyncCallback<Contact>): v
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2150,13 +1934,7 @@ queryContact(key: string, callback: AsyncCallback<Contact>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2210,13 +1988,7 @@ queryContact(context: Context, key: string, holder: Holder, callback: AsyncCallb
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2265,13 +2037,7 @@ queryContact(key: string, holder: Holder, callback: AsyncCallback<Contact>): voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2329,13 +2095,7 @@ queryContact(context: Context, key: string, attrs: ContactAttributes, callback: 
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2382,13 +2142,7 @@ queryContact(key: string, attrs: ContactAttributes, callback: AsyncCallback<Cont
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2445,13 +2199,7 @@ queryContact(context: Context, key: string, holder: Holder, attrs: ContactAttrib
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2503,13 +2251,7 @@ queryContact(key: string, holder: Holder, attrs: ContactAttributes, callback: As
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2577,13 +2319,7 @@ queryContact(context: Context, key: string, holder?: Holder, attrs?: ContactAttr
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2641,13 +2377,7 @@ queryContact(key: string, holder?: Holder, attrs?: ContactAttributes): Promise<C
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2704,13 +2434,7 @@ queryContacts(context: Context, callback: AsyncCallback<Array<Contact>>): void
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2753,13 +2477,7 @@ queryContacts(callback: AsyncCallback<Array<Contact>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2812,13 +2530,7 @@ queryContacts(context: Context, holder: Holder, callback: AsyncCallback<Array<Co
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2866,13 +2578,7 @@ queryContacts(holder: Holder, callback: AsyncCallback<Array<Contact>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2929,13 +2635,7 @@ queryContacts(context: Context, attrs: ContactAttributes, callback: AsyncCallbac
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2981,13 +2681,7 @@ queryContacts(attrs: ContactAttributes, callback: AsyncCallback<Array<Contact>>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3043,13 +2737,7 @@ queryContacts(context: Context, holder: Holder, attrs: ContactAttributes, callba
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3100,13 +2788,7 @@ queryContacts(holder: Holder, attrs: ContactAttributes, callback: AsyncCallback<
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3173,13 +2855,7 @@ queryContacts(context: Context, holder?: Holder, attrs?: ContactAttributes): Pro
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3236,13 +2912,7 @@ queryContacts(holder?: Holder, attrs?: ContactAttributes): Promise<Array<Contact
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3300,13 +2970,7 @@ queryContactsByPhoneNumber(context: Context, phoneNumber: string, callback: Asyn
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3350,13 +3014,7 @@ queryContactsByPhoneNumber(phoneNumber: string, callback: AsyncCallback<Array<Co
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3410,13 +3068,7 @@ queryContactsByPhoneNumber(context: Context, phoneNumber: string, holder: Holder
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3465,13 +3117,7 @@ queryContactsByPhoneNumber(phoneNumber: string, holder: Holder, callback: AsyncC
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3529,13 +3175,7 @@ queryContactsByPhoneNumber(context: Context, phoneNumber: string, attrs: Contact
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3582,13 +3222,7 @@ queryContactsByPhoneNumber(phoneNumber: string, attrs: ContactAttributes, callba
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3645,13 +3279,7 @@ queryContactsByPhoneNumber(context: Context, phoneNumber: string, holder: Holder
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3703,13 +3331,7 @@ queryContactsByPhoneNumber(phoneNumber: string, holder: Holder, attrs: ContactAt
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3777,13 +3399,7 @@ queryContactsByPhoneNumber(context: Context, phoneNumber: string, holder?: Holde
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3841,13 +3457,7 @@ queryContactsByPhoneNumber(phoneNumber: string, holder?: Holder, attrs?: Contact
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3905,13 +3515,7 @@ queryContactsByEmail(context: Context, email: string, callback: AsyncCallback<Ar
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3955,13 +3559,7 @@ queryContactsByEmail(email: string, callback: AsyncCallback<Array<Contact>>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4015,13 +3613,7 @@ queryContactsByEmail(context: Context, email: string, holder: Holder, callback: 
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4070,13 +3662,7 @@ queryContactsByEmail(email: string, holder: Holder, callback: AsyncCallback<Arra
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4134,13 +3720,7 @@ queryContactsByEmail(context: Context, email: string, attrs: ContactAttributes, 
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4187,13 +3767,7 @@ queryContactsByEmail(email: string, attrs: ContactAttributes, callback: AsyncCal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4250,13 +3824,7 @@ queryContactsByEmail(context: Context, email: string, holder: Holder, attrs: Con
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4308,13 +3876,7 @@ queryContactsByEmail(email: string, holder: Holder, attrs: ContactAttributes, ca
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4382,13 +3944,7 @@ queryContactsByEmail(context: Context, email: string, holder?: Holder, attrs?: C
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4446,13 +4002,7 @@ queryContactsByEmail(email: string, holder?: Holder, attrs?: ContactAttributes):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4507,13 +4057,7 @@ queryGroups(context: Context, callback: AsyncCallback<Array<Group>>): void
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4556,13 +4100,7 @@ queryGroups(callback: AsyncCallback<Array<Group>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4615,13 +4153,7 @@ queryGroups(context: Context, holder: Holder, callback: AsyncCallback<Array<Grou
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4669,13 +4201,7 @@ queryGroups(holder: Holder, callback: AsyncCallback<Array<Group>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4739,13 +4265,7 @@ queryGroups(context: Context, holder?: Holder): Promise<Array<Group>>
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4799,13 +4319,7 @@ queryGroups(holder?: Holder): Promise<Array<Group>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4860,13 +4374,7 @@ queryHolders(context: Context, callback: AsyncCallback<Array<Holder>>): void
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4909,13 +4417,7 @@ queryHolders(callback: AsyncCallback<Array<Holder>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4974,13 +4476,7 @@ queryHolders(context: Context): Promise<Array<Holder>>
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5022,13 +4518,7 @@ queryHolders(): Promise<Array<Holder>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5080,13 +4570,7 @@ queryKey(context: Context, id: number, callback: AsyncCallback<string>): void
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5130,13 +4614,7 @@ queryKey(id: number, callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5190,13 +4668,7 @@ queryKey(context: Context, id: number, holder: Holder, callback: AsyncCallback<s
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5245,13 +4717,7 @@ queryKey(id: number, holder: Holder, callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5316,13 +4782,7 @@ queryKey(context: Context, id: number, holder?: Holder): Promise<string>
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5377,13 +4837,7 @@ queryKey(id: number, holder?: Holder): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5443,13 +4897,7 @@ queryContactsCount(context: Context): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -5514,13 +4962,7 @@ addContactViaUI(context: Context, contact: Contact): Promise<number>
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -5594,13 +5036,7 @@ saveToExistingContactViaUI(context: Context, contact: Contact): Promise<number>
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -5674,13 +5110,7 @@ addContacts(context: Context, contacts: Array<Contact>): Promise<Array<number>>
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -5755,13 +5185,7 @@ hasMatchedCallLog(context: Context, phoneNumber: string, minDuration: number, wi
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { contact } from '@kit.ContactsKit';
@@ -5832,13 +5256,7 @@ hasMatchedCallLog(context: Context, phoneNumber: string, minDuration: number): P
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { contact } from '@kit.ContactsKit';
@@ -6057,13 +5475,7 @@ PhonePC/2in1TabletWearable
 
 使用JSON格式创建联系人数据。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let myContact: contact.Contact = {
@@ -6102,13 +5514,7 @@ PhonePC/2in1TabletWearable
 
 使用JSON格式创建数据。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let contactAttributes: contact.ContactAttributes = {
@@ -6153,13 +5559,7 @@ PhonePC/2in1TabletWearable
 
 使用JSON格式创建数据。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let attributes = [contact.Attribute.ATTR_EMAIL, contact.Attribute.ATTR_NAME, contact.Attribute.ATTR_PHONE];
@@ -6214,13 +5614,7 @@ PhonePC/2in1TabletWearable
 
 使用JSON格式创建数据。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let email: contact.Email = {
@@ -6231,13 +5625,7 @@ PhonePC/2in1TabletWearable
 
 或使用new一个Email对象的方式创建数据。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let email = new contact.Email();
@@ -6264,13 +5652,7 @@ PhonePC/2in1TabletWearable
 
 使用JSON格式创建数据。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let holder: contact.Holder = {
@@ -6328,13 +5710,7 @@ PhonePC/2in1TabletWearable
 
 使用JSON格式创建数据。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let event: contact.Event = {
@@ -6344,13 +5720,7 @@ PhonePC/2in1TabletWearable
 
 或使用new一个Event对象的方式创建数据。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let event = new contact.Event();
@@ -6378,13 +5748,7 @@ PhonePC/2in1TabletWearable
 
 使用JSON格式创建数据。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let group: contact.Group = {
@@ -6445,13 +5809,7 @@ PhonePC/2in1TabletWearable
 
 使用JSON格式创建数据。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let imAddress: contact.ImAddress = {
@@ -6462,13 +5820,7 @@ PhonePC/2in1TabletWearable
 
 或使用new一个ImAddress对象的方式创建数据。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let imAddress = new contact.ImAddress();
@@ -6502,13 +5854,7 @@ PhonePC/2in1TabletWearable
 
 使用JSON格式创建数据。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let name: contact.Name = {
@@ -6537,13 +5883,7 @@ PhonePC/2in1TabletWearable
 
 使用JSON格式创建数据。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let nickName: contact.NickName = {
@@ -6571,13 +5911,7 @@ PhonePC/2in1TabletWearable
 
 使用JSON格式创建数据。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let note: contact.Note = {
@@ -6606,13 +5940,7 @@ PhonePC/2in1TabletWearable
 
 使用JSON格式创建数据。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let organization: contact.Organization = {
@@ -6686,13 +6014,7 @@ PhonePC/2in1TabletWearable
 
 使用JSON格式创建数据。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let phoneNumber: contact.PhoneNumber = {
@@ -6703,13 +6025,7 @@ PhonePC/2in1TabletWearable
 
 或使用new一个PhoneNumber对象的方式创建数据。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let phoneNumber = new contact.PhoneNumber();
@@ -6743,13 +6059,7 @@ uri为可访问的联系人头像文件地址，[PixelMap](https://developer.hua
 
 使用JSON格式创建数据。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6824,13 +6134,7 @@ PhonePC/2in1TabletWearable
 
 使用JSON格式创建数据。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let postalAddress: contact.PostalAddress = {
@@ -6841,13 +6145,7 @@ PhonePC/2in1TabletWearable
 
 或使用new一个PostalAddress对象的方式创建数据。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let postalAddress = new contact.PostalAddress();
@@ -6914,13 +6212,7 @@ PhonePC/2in1TabletWearable
 
 使用JSON格式创建数据。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let relation: contact.Relation = {
@@ -6931,13 +6223,7 @@ PhonePC/2in1TabletWearable
 
 或使用new一个Relation对象的方式创建数据。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let relation = new contact.Relation();
@@ -6993,13 +6279,7 @@ PhonePC/2in1TabletWearable
 
 使用JSON格式创建数据。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let sipAddress: contact.SipAddress = {
@@ -7009,13 +6289,7 @@ PhonePC/2in1TabletWearable
 
 或使用new一个SipAddress对象的方式创建数据。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let sipAddress = new contact.SipAddress();
@@ -7042,13 +6316,7 @@ PhonePC/2in1TabletWearable
 
 使用JSON格式创建数据。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let website: contact.Website = {

@@ -41,13 +41,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint8_t* FAST_BiquadmD::activeFilters
@@ -61,13 +55,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. double* FAST_BiquadmD::channelGains
@@ -81,13 +69,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FAST_BiquadCoefficientsD* FAST_BiquadmD::coefficients
@@ -101,13 +83,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint8_t FAST_BiquadmD::isInitialized
@@ -121,13 +97,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. size_t FAST_BiquadmD::maxFrames
@@ -141,13 +111,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. size_t FAST_BiquadmD::numChannels
@@ -161,13 +125,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. size_t FAST_BiquadmD::numSections
@@ -181,13 +139,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FAST_BiquadStateD* FAST_BiquadmD::states

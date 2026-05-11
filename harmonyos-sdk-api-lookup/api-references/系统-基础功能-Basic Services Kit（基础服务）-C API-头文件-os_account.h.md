@@ -36,13 +36,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OsAccount_ErrCode OH_OsAccount_GetName(char *buffer, size_t buffer_size)

@@ -31,13 +31,7 @@ addColorStop(offset: number, color: string): void
 
 通过addColorStop设置渐变断点值，包括偏移和颜色。支持设置rgb或者argb格式颜色。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -111,13 +105,7 @@ addColorStop(offset: number, color: string | ColorMetrics): void
 
 通过addColorStop设置指定色域的渐变断点值，包括偏移和颜色。设置窗口色域模式为广色域参照方法[setWindowColorSpace](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-window-window#setwindowcolorspace9)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

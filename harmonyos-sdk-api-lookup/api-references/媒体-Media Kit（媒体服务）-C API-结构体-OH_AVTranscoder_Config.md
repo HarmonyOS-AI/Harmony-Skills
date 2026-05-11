@@ -1,10 +1,4 @@
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct OH_AVTranscoder_Config OH_AVTranscoder_Config

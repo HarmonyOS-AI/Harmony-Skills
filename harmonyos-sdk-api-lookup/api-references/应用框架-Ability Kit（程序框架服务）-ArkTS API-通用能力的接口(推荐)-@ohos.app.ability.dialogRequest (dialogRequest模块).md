@@ -11,13 +11,7 @@ dialogRequest模块用于处理模态弹框的能力，包括获取RequestInfo�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dialogRequest } from '@kit.AbilityKit';
@@ -65,13 +59,7 @@ getRequestInfo(want: Want): RequestInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want, dialogRequest } from '@kit.AbilityKit';
@@ -129,13 +117,7 @@ getRequestCallback(want: Want): RequestCallback
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want, dialogRequest } from '@kit.AbilityKit';
@@ -188,13 +170,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want, dialogRequest } from '@kit.AbilityKit';
@@ -287,13 +263,7 @@ setRequestResult(result: RequestResult): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want, dialogRequest } from '@kit.AbilityKit';

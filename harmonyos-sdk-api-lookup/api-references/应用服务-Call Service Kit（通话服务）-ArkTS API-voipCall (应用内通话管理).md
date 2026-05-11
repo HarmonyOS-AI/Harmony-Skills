@@ -8,13 +8,7 @@
 
 PhoneTabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { voipCall } from '@kit.CallServiceKit';
@@ -224,13 +218,7 @@ on(type: 'voipCallUiEvent', callback: Callback<VoipCallUiEventInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { voipCall } from '@kit.CallServiceKit';
@@ -278,13 +266,7 @@ off(type: 'voipCallUiEvent', callback?: Callback<VoipCallUiEventInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { voipCall } from '@kit.CallServiceKit';
@@ -339,13 +321,7 @@ reportIncomingCall(voipCallAttribute: VoipCallAttribute): Promise<ErrorReason>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from '@kit.ImageKit';
@@ -451,13 +427,7 @@ reportOutgoingCall(voipCallAttribute: VoipCallAttribute): Promise<ErrorReason>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from '@kit.ImageKit';
@@ -563,13 +533,7 @@ reportCallAudioEventChange(callId: string, callAudioEvent: CallAudioEvent): Prom
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { voipCall } from '@kit.CallServiceKit';
@@ -648,13 +612,7 @@ reportCallStateChange(callId: string, callState: VoipCallState): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { voipCall } from '@kit.CallServiceKit';
@@ -713,13 +671,7 @@ reportCallStateChange(callId: string, callState: VoipCallState, callType: VoipCa
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { voipCall } from '@kit.CallServiceKit';
@@ -775,13 +727,7 @@ reportIncomingCallError(callId: string, voipCallFailureCause: VoipCallFailureCau
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { voipCall } from '@kit.CallServiceKit';

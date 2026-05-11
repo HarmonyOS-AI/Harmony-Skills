@@ -8,13 +8,7 @@
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileGuard } from '@kit.EnterpriseDataGuardKit';
@@ -158,13 +152,7 @@ onReceiveFileList(files: Array<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let onReceiveFileList: (files: string[]) => void = (files: Array<string>) => {
@@ -196,13 +184,7 @@ onTaskCompleted(count: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let onTaskCompleted: (count: number) => void = (count: number) => {
@@ -234,13 +216,7 @@ constructor()
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let guard: fileGuard.FileGuard = new fileGuard.FileGuard();
@@ -283,13 +259,7 @@ startFileScanTask(type: CommonDirScanType, callback: ScanFileCallback, batchNum?
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileGuard } from '@kit.EnterpriseDataGuardKit';
@@ -351,13 +321,7 @@ startFileScanTask(path: string, callback: ScanFileCallback, batchNum?: number): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileGuard } from '@kit.EnterpriseDataGuardKit';
@@ -419,13 +383,7 @@ openFile(path: string, callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -485,13 +443,7 @@ openFile(path: string): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -542,13 +494,7 @@ openFileWrite(path: string, callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -608,13 +554,7 @@ openFileWrite(path: string): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -667,13 +607,7 @@ setFileTag(path: string, level: SecurityLevel, tag: string, callback: AsyncCallb
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -736,13 +670,7 @@ setFileTag(path: string, level: SecurityLevel, tag: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -794,13 +722,7 @@ queryFileTag(path: string, callback: AsyncCallback<FileTagInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -860,13 +782,7 @@ queryFileTag(path: string): Promise<FileTagInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -917,13 +833,7 @@ getFileUri(path: string, callback: AsyncCallback<FilePathInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -983,13 +893,7 @@ getFileUri(path: string): Promise<FilePathInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1040,13 +944,7 @@ deleteFile(path: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1106,13 +1004,7 @@ deleteFile(path: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1163,13 +1055,7 @@ updatePolicy(policy: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError, osAccount } from '@kit.BasicServicesKit';
@@ -1296,13 +1182,7 @@ updatePolicy(policy: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError, osAccount } from '@kit.BasicServicesKit';
@@ -1420,13 +1300,7 @@ setKiaFilelist(filelist: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1492,13 +1366,7 @@ setKiaFilelist(filelist: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1555,13 +1423,7 @@ on(type: 'kiaCopy', callback: Callback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileGuard } from '@kit.EnterpriseDataGuardKit';
@@ -1615,13 +1477,7 @@ off(type: 'kiaCopy', callback?: Callback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileGuard } from '@kit.EnterpriseDataGuardKit';
@@ -1675,13 +1531,7 @@ on(type: 'kiaRename', callback: Callback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileGuard } from '@kit.EnterpriseDataGuardKit';
@@ -1735,13 +1585,7 @@ off(type: 'kiaRename', callback?: Callback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileGuard } from '@kit.EnterpriseDataGuardKit';
@@ -1795,13 +1639,7 @@ on(type: 'kiaCompress', callback: Callback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileGuard } from '@kit.EnterpriseDataGuardKit';
@@ -1855,13 +1693,7 @@ off(type: 'kiaCompress', callback?: Callback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileGuard } from '@kit.EnterpriseDataGuardKit';
@@ -1923,13 +1755,7 @@ setKiaWatermarkImage(image: Uint8Array, info: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileIo } from '@kit.CoreFileKit';
@@ -1996,13 +1822,7 @@ setFileCustomTag(path: string, tagList: Array<string>, callback: AsyncCallback<v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2065,13 +1885,7 @@ setFileCustomTag(path: string, tagList: Array<string>): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2125,13 +1939,7 @@ unsetFileCustomTag(path: string, tagList: Array<string>, callback: AsyncCallback
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2194,13 +2002,7 @@ unsetFileCustomTag(path: string, tagList: Array<string>): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2262,13 +2064,7 @@ addUnrestrictedApplicationList(appIds: Array<string>, userId?: number): Promise<
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileGuard } from '@kit.EnterpriseDataGuardKit';
@@ -2343,13 +2139,7 @@ removeUnrestrictedApplicationList(appIds: Array<string>, userId?: number): Promi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileGuard } from '@kit.EnterpriseDataGuardKit';
@@ -2421,13 +2211,7 @@ getUnrestrictedApplicationList(userId?: number): Promise<Array<string>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileGuard } from '@kit.EnterpriseDataGuardKit';
@@ -2499,13 +2283,7 @@ setHdcAuthenticationKey(devType: AuthenticateDeviceType, keyType: AuthenticateKe
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileGuard } from '@kit.EnterpriseDataGuardKit';
@@ -2557,13 +2335,7 @@ onPrintStartup(callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileGuard } from '@kit.EnterpriseDataGuardKit';
@@ -2608,13 +2380,7 @@ offPrintStartup(callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileGuard } from '@kit.EnterpriseDataGuardKit';

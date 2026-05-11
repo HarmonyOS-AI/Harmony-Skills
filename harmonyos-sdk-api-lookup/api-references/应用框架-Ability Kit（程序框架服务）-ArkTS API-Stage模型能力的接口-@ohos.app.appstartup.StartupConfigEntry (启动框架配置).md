@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { StartupConfigEntry } from '@kit.AbilityKit';
@@ -48,13 +42,7 @@ onConfig?(): StartupConfig
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { StartupConfig, StartupConfigEntry, StartupListener } from '@kit.AbilityKit';
@@ -117,13 +105,7 @@ onRequestCustomMatchRule(want: Want): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { StartupConfigEntry, Want } from '@kit.AbilityKit';

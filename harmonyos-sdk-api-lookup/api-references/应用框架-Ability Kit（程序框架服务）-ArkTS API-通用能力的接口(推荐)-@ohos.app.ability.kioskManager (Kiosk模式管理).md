@@ -12,13 +12,7 @@ Kiosk模式是一种特殊的设备锁定模式，可以确保设备界面只服
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { kioskManager } from '@kit.AbilityKit';
@@ -68,13 +62,7 @@ enterKioskMode(context: UIAbilityContext): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common, kioskManager } from '@kit.AbilityKit';
@@ -151,13 +139,7 @@ exitKioskMode(context: UIAbilityContext): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common, kioskManager } from '@kit.AbilityKit';

@@ -46,13 +46,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum TimeService_ErrCode
@@ -80,13 +74,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. TimeService_ErrCode OH_TimeService_GetTimeZone(char *timeZone, uint32_t len)

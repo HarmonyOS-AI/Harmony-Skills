@@ -153,13 +153,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过responseRegion设置按钮的触摸热区以响应点击事件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -231,13 +225,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 22开始，新增responseRegionList接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -295,13 +283,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[mouseResponseRegion](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-touch-target#mouseresponseregion10)设置鼠标的触摸热区以响应点击事件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

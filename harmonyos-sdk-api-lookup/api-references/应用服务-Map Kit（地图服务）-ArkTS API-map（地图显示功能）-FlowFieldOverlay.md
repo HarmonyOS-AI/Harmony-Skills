@@ -2,13 +2,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { map, mapCommon } from '@kit.MapKit';
@@ -30,13 +24,7 @@ PhonePC/2in1Tablet
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: mapCommon.FlowFieldOverlayParams = {
@@ -72,13 +60,7 @@ setStyle(style: mapCommon.ParticleStyle): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let style: mapCommon.ParticleStyle = {
@@ -116,13 +98,7 @@ getStyle(): mapCommon.ParticleStyle
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let style: mapCommon.ParticleStyle = fieldOverlay.getStyle();

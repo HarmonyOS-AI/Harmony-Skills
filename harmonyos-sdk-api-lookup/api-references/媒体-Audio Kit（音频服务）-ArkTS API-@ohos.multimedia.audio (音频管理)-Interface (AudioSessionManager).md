@@ -11,13 +11,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { audio } from '@kit.AudioKit';
@@ -63,13 +57,7 @@ activateAudioSession(strategy: AudioSessionStrategy): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -115,13 +103,7 @@ deactivateAudioSession(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -153,13 +135,7 @@ isAudioSessionActivated(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let isActivated = audioSessionManager.isAudioSessionActivated();
@@ -197,13 +173,7 @@ on(type: 'audioSessionDeactivated', callback: Callback<AudioSessionDeactivatedEv
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioSessionManager.on('audioSessionDeactivated',
@@ -244,13 +214,7 @@ off(type: 'audioSessionDeactivated', callback?: Callback<AudioSessionDeactivated
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 取消该事件的所有监听。
@@ -298,13 +262,7 @@ setAudioSessionScene(scene: AudioSessionScene): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioSessionManager.setAudioSessionScene(audio.AudioSessionScene.AUDIO_SESSION_SCENE_MEDIA);
@@ -343,13 +301,7 @@ on(type: 'audioSessionStateChanged', callback: Callback<AudioSessionStateChanged
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioSessionManager.on('audioSessionStateChanged', (audioSessionStateChangedEvent: audio.AudioSessionStateChangedEvent) => {
@@ -389,13 +341,7 @@ off(type: 'audioSessionStateChanged', callback?: Callback<AudioSessionStateChang
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 取消该事件的所有监听。
@@ -458,13 +404,7 @@ setDefaultOutputDevice(deviceType: DeviceType): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -507,13 +447,7 @@ getDefaultOutputDevice(): DeviceType
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let deviceType = audioSessionManager.getDefaultOutputDevice();
@@ -552,13 +486,7 @@ on(type: 'currentOutputDeviceChanged', callback: Callback<CurrentOutputDeviceCha
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { audio } from '@kit.AudioKit';
@@ -602,13 +530,7 @@ off(type: 'currentOutputDeviceChanged', callback?: Callback<CurrentOutputDeviceC
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 取消该事件的所有监听。
@@ -663,13 +585,7 @@ getAvailableDevices(deviceUsage: DeviceUsage): AudioDeviceDescriptors
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -716,13 +632,7 @@ on(type: 'availableDeviceChange', deviceUsage: DeviceUsage, callback: Callback<D
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioSessionManager.on('availableDeviceChange', audio.DeviceUsage.MEDIA_INPUT_DEVICES, (deviceChanged: audio.DeviceChangeAction) => {
@@ -764,13 +674,7 @@ off(type: 'availableDeviceChange', callback?: Callback<DeviceChangeAction>): voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 取消该事件的所有监听。
@@ -835,13 +739,7 @@ selectMediaInputDevice(inputAudioDevice: AudioDeviceDescriptor): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -893,13 +791,7 @@ getSelectedMediaInputDevice(): AudioDeviceDescriptor
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -943,13 +835,7 @@ clearSelectedMediaInputDevice(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1006,13 +892,7 @@ setBluetoothAndNearlinkPreferredRecordCategory(category: BluetoothAndNearlinkPre
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1055,13 +935,7 @@ getBluetoothAndNearlinkPreferredRecordCategory(): BluetoothAndNearlinkPreferredR
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1107,13 +981,7 @@ on(type: 'currentInputDeviceChanged', callback: Callback<CurrentInputDeviceChang
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { audio } from '@kit.AudioKit';
@@ -1156,13 +1024,7 @@ off(type: 'currentInputDeviceChanged', callback?: Callback<CurrentInputDeviceCha
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 取消该事件的所有监听。
@@ -1219,13 +1081,7 @@ enableMuteSuggestionWhenMixWithOthers(enable: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audio.getAudioManager().getSessionManager().enableMuteSuggestionWhenMixWithOthers(true);
@@ -1277,13 +1133,7 @@ setCapturerMuteHint(mute: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1317,13 +1167,7 @@ isOtherMediaPlaying(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let isExistence = audioSessionManager.isOtherMediaPlaying();
@@ -1366,13 +1210,7 @@ setAudioSessionBehavior(behavior: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let behavior: number = audio.AudioSessionBehaviorFlags.MUTE_WHEN_INTERRUPTED;

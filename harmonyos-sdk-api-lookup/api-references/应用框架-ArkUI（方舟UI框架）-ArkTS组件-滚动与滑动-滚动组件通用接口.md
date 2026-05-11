@@ -1440,13 +1440,7 @@ PhonePC/2in1TabletTVWearable
 
 ListDataSource说明及完整代码参考[示例1添加滚动事件](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-container-list#示例1添加滚动事件)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1517,13 +1511,7 @@ ListDataSource说明及完整代码参考[示例1添加滚动事件](https://dev
 
 ListDataSource说明及完整代码参考[示例1添加滚动事件](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-container-list#示例1添加滚动事件)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1568,13 +1556,7 @@ ListDataSource说明及完整代码参考[示例1添加滚动事件](https://dev
 
 该示例通过设置[clipContent](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-container-scrollable-common#clipcontent14)属性，改变组件的内容层裁剪区域。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1639,13 +1621,7 @@ ListDataSource说明及完整代码参考[示例1添加滚动事件](https://dev
 
 ListDataSource说明及完整代码参考[示例1添加滚动事件](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-container-list#示例1添加滚动事件)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

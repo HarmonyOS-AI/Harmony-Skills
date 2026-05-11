@@ -14,13 +14,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -72,13 +66,7 @@ UAF字典对象，包含原始的UAF协议消息和附加数据。
 
 **调用示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // ...
@@ -258,13 +246,7 @@ discover(context: common.Context): Promise<DiscoveryData>
 
 **调用示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // ...
@@ -331,13 +313,7 @@ checkPolicy(context: common.Context, uafRequest: UAFMessage): Promise<void>
 
 **调用示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // ...
@@ -415,13 +391,7 @@ processUAFOperation(context: common.Context, uafRequest: UAFMessage, channelBind
 
 **调用示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // ...
@@ -493,13 +463,7 @@ notifyUAFResult(context: common.Context, uafResponse: UAFMessage): Promise<void>
 
 **调用示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // ...

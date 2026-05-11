@@ -1,10 +1,4 @@
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct OH_OnFrameAvailableListener {...} OH_OnFrameAvailableListener
@@ -55,13 +49,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef void (*OH_OnFrameAvailable)(void *context)

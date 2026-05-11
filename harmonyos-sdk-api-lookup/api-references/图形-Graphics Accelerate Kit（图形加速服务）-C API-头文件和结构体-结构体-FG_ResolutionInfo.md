@@ -34,13 +34,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FG_Dimension2D FG_ResolutionInfo::inputColorResolution
@@ -54,13 +48,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FG_Dimension2D FG_ResolutionInfo::inputDepthStencilResolution
@@ -74,13 +62,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FG_Dimension2D FG_ResolutionInfo::outputColorResolution

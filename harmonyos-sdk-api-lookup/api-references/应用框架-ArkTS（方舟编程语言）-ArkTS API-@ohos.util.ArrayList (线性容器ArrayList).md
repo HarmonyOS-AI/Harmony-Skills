@@ -18,13 +18,7 @@ ArrayList和[LinkedList](https://developer.huawei.com/consumer/cn/doc/harmonyos-
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ArrayList } from '@kit.ArkTS';
@@ -72,13 +66,7 @@ ArrayList的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let arrayList = new ArrayList<string | number>();
@@ -124,13 +112,7 @@ add(element: T): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class C1 {
@@ -185,13 +167,7 @@ insert(element: T, index: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let arrayList = new ArrayList<number | string | boolean>();
@@ -241,13 +217,7 @@ has(element: T): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let arrayList = new ArrayList<string>();
@@ -296,13 +266,7 @@ getIndexOf(element: T): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let arrayList = new ArrayList<number>();
@@ -357,13 +321,7 @@ getLastIndexOf(element: T): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let arrayList = new ArrayList<number>();
@@ -420,13 +378,7 @@ removeByIndex(index: number): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let arrayList = new ArrayList<number>();
@@ -479,13 +431,7 @@ remove(element: T): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let arrayList = new ArrayList<number>();
@@ -532,13 +478,7 @@ removeByRange(fromIndex: number, toIndex: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let arrayList = new ArrayList<number>();
@@ -593,13 +533,7 @@ callbackFn的参数说明：
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let arrayList = new ArrayList<number>();
@@ -657,13 +591,7 @@ callbackFn的参数说明：
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let arrayList = new ArrayList<number>();
@@ -713,13 +641,7 @@ sort(comparator?: ArrayListComparatorFn<T>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let arrayList = new ArrayList<number>();
@@ -775,13 +697,7 @@ subArrayList(fromIndex: number, toIndex: number): ArrayList<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let arrayList = new ArrayList<number>();
@@ -817,13 +733,7 @@ clear(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let arrayList = new ArrayList<number>();
@@ -866,13 +776,7 @@ clone(): ArrayList<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let arrayList = new ArrayList<number>();
@@ -916,13 +820,7 @@ getCapacity(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let arrayList = new ArrayList<number>();
@@ -966,13 +864,7 @@ convertToArray(): Array<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let arrayList = new ArrayList<number>();
@@ -1016,13 +908,7 @@ isEmpty(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let arrayList = new ArrayList<number>();
@@ -1075,13 +961,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let arrayList = new ArrayList<number>();
@@ -1126,13 +1006,7 @@ increaseCapacityTo(newCapacity: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let arrayList = new ArrayList<number>();
@@ -1169,13 +1043,7 @@ trimToCurrentLength(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let arrayList = new ArrayList<number>();
@@ -1219,13 +1087,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let arrayList = new ArrayList<number>();

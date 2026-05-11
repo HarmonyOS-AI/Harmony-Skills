@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { DrawContext, Size, Offset, Position, Pivot, Scale, Translation, Matrix4, Rotation, Frame, LengthMetricsUnit } from "@kit.ArkUI";
@@ -202,13 +196,7 @@ type Matrix4 = [number,number,number,number,number,number,number,number,number,n
 
 用于设置组件的变换信息，该类型为一个 4x4 矩阵，使用一个长度为16的number[]进行表示，例如：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const transform: Matrix4 = [
@@ -339,13 +327,7 @@ get canvas(): drawing.Canvas
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode, FrameNode, NodeController, DrawContext } from "@kit.ArkUI";
@@ -681,13 +663,7 @@ static resource(value: Resource): LengthMetrics
 
 使用LengthMetrics设置Row的padding和margin属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LengthMetrics, LengthUnit } from '@kit.ArkUI';
@@ -1017,13 +993,7 @@ get alpha(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ColorMetrics } from '@kit.ArkUI';
@@ -1263,13 +1233,7 @@ setRectShape(rect: Rect): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode, FrameNode, NodeController, ShapeMask } from '@kit.ArkUI';
@@ -1345,13 +1309,7 @@ setRoundRectShape(roundRect: RoundRect): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode, FrameNode, NodeController, ShapeMask,RoundRect} from '@kit.ArkUI';
@@ -1426,13 +1384,7 @@ setCircleShape(circle: Circle): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode, FrameNode, NodeController, ShapeMask } from '@kit.ArkUI';
@@ -1503,13 +1455,7 @@ setOvalShape(oval: Rect): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode, FrameNode, NodeController, ShapeMask } from '@kit.ArkUI';
@@ -1575,13 +1521,7 @@ setCommandPath(path: CommandPath): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode, FrameNode, NodeController, ShapeMask } from '@kit.ArkUI';
@@ -1671,13 +1611,7 @@ setRectShape(rect: Rect): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode, FrameNode, NodeController, ShapeClip } from '@kit.ArkUI';
@@ -1760,13 +1694,7 @@ setRoundRectShape(roundRect: RoundRect): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode, FrameNode, NodeController, ShapeClip } from '@kit.ArkUI';
@@ -1852,13 +1780,7 @@ setCircleShape(circle: Circle): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode, FrameNode, NodeController, ShapeClip } from '@kit.ArkUI';
@@ -1932,13 +1854,7 @@ setOvalShape(oval: Rect): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode, FrameNode, NodeController, ShapeClip } from '@kit.ArkUI';
@@ -2016,13 +1932,7 @@ setCommandPath(path: CommandPath): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode, FrameNode, NodeController, ShapeClip } from '@kit.ArkUI';
@@ -2103,13 +2013,7 @@ edgeColors(all: number): Edges<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode, FrameNode, NodeController, edgeColors } from '@kit.ArkUI';
@@ -2181,13 +2085,7 @@ edgeWidths(all: number): Edges<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode, FrameNode, NodeController, edgeWidths } from '@kit.ArkUI';
@@ -2269,13 +2167,7 @@ borderStyles(all: BorderStyle): Edges<BorderStyle>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode, FrameNode, NodeController, borderStyles } from '@kit.ArkUI';
@@ -2363,13 +2255,7 @@ borderRadiuses(all: number): BorderRadiuses
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode, FrameNode, NodeController, borderRadiuses } from '@kit.ArkUI';

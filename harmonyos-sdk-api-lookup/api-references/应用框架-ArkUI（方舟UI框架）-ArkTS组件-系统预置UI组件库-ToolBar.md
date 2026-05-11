@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SymbolGlyphModifier, DividerModifier, ToolBar, ToolBarOptions, ToolBarModifier, ItemState, LengthMetrics } from '@kit.ArkUI';
@@ -276,13 +270,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例展示了工具栏子项state属性分别设置ENABLE、DISABLE、ACTIVATE状态的不同显示效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ToolBar, ToolBarOptions, ItemState } from '@kit.ArkUI';
@@ -357,13 +345,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 13开始，该示例通过设置属性ToolBarModifier自定义工具栏高度、背景色、按压效果等样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {
@@ -465,13 +447,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 18开始，该示例通过设置工具栏子项属性accessibilityText、accessibilityDescription、accessibilityLevel自定义屏幕朗读播报文本。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ToolBar, ToolBarOptions, ItemState } from '@kit.ArkUI';

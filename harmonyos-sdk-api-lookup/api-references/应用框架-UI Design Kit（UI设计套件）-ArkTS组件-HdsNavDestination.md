@@ -19,13 +19,7 @@ PhonePC/2in1TabletTV
 
 6.0.1(21)及之前版本：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { HdsNavDestination, HdsNavDestinationAttribute } from '@kit.UIDesignKit';
@@ -33,13 +27,7 @@ PhonePC/2in1TabletTV
 
 6.0.2(22)及之后版本：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { HdsNavDestination } from '@kit.UIDesignKit';
@@ -727,13 +715,7 @@ PhonePC/2in1TabletTV
 
 通过titleBar属性，自定义设置标题栏随内容区滚动的动态模糊样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 从6.0.2(22)版本开始，无需手动导入HdsNavDestinationAttribute。具体请参考HdsNavDestination的导入模块说明。

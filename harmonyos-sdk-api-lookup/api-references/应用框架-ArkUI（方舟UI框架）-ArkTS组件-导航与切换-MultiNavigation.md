@@ -12,13 +12,7 @@ MultiNavigation在深层嵌套场景下，可能存在路由动效异常的问�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { MultiNavigation, MultiNavPathStack, SplitPolicy } from '@kit.ArkUI';
@@ -895,13 +889,7 @@ PhonePC/2in1TabletTVWearable
 
 本示例演示MultiNavigation的基本功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // pages/Index.ets
@@ -947,13 +935,7 @@ PhonePC/2in1TabletTVWearable
 41. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // pages/PageHome1.ets, 对应首页
@@ -1175,13 +1157,7 @@ PhonePC/2in1TabletTVWearable
 217. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // pages/PageDetail1.ets：详情页
@@ -1417,13 +1393,7 @@ PhonePC/2in1TabletTVWearable
 231. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // pages/PageDetail2.ets: 详情页
@@ -1596,13 +1566,7 @@ PhonePC/2in1TabletTVWearable
 168. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // pages/PageFull1.ets: 不参与分栏的页面，默认全屏展示
@@ -1744,13 +1708,7 @@ PhonePC/2in1TabletTVWearable
 137. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // pages/PagePlaceholder.ets: 占位页

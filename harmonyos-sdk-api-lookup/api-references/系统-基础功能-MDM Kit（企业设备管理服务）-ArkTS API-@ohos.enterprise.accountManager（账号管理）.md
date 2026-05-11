@@ -12,13 +12,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accountManager } from '@kit.MDMKit';
@@ -65,13 +59,7 @@ disallowOsAccountAddition(admin: Want, disallow: boolean, accountId?: number): v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accountManager } from '@kit.MDMKit';
@@ -138,13 +126,7 @@ isOsAccountAdditionDisallowed(admin: Want, accountId?: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accountManager } from '@kit.MDMKit';
@@ -219,13 +201,7 @@ addOsAccountAsync(admin: Want, name: string, type: osAccount.OsAccountType): Pro
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accountManager } from '@kit.MDMKit';
@@ -289,13 +265,7 @@ setDomainAccountPolicy(admin: Want, domainAccountInfo: osAccount.DomainAccountIn
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accountManager } from '@kit.MDMKit';
@@ -397,13 +367,7 @@ getDomainAccountPolicy(admin: Want, domainAccountInfo: osAccount.DomainAccountIn
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accountManager } from '@kit.MDMKit';

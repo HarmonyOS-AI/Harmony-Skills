@@ -38,13 +38,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -97,13 +91,7 @@ onCreate(want: Want, launchParam: AbilityConstant.LaunchParam): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, AbilityConstant, Want } from '@kit.AbilityKit';
@@ -140,13 +128,7 @@ onWindowStageCreate(windowStage: window.WindowStage): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -189,13 +171,7 @@ onWindowStageWillDestroy(windowStage: window.WindowStage): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -225,13 +201,7 @@ onWindowStageDestroy(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -271,13 +241,7 @@ onWindowStageRestore(windowStage: window.WindowStage): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -322,13 +286,7 @@ onDestroy(): void | Promise<void>
 
 * 同步回调示例如下：
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. import { UIAbility } from '@kit.AbilityKit';
@@ -343,13 +301,7 @@ onDestroy(): void | Promise<void>
   ```
 * Promise异步回调示例如下：
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. import { UIAbility } from '@kit.AbilityKit';
@@ -379,13 +331,7 @@ UIAbility生命周期回调，应用转到前台前触发，在[onForeground](/c
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -455,13 +401,7 @@ onForeground(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -508,13 +448,7 @@ UIAbility生命周期回调，当应用从前台转到后台前触发，在[onBa
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -560,13 +494,7 @@ onBackground(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -596,13 +524,7 @@ UIAbility生命周期回调，当应用从前台转到后台后触发，在[onBa
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -690,13 +612,7 @@ onContinue(wantParam: Record<string, Object>): AbilityConstant.OnContinueResult 
 
 * 应用迁移时使用同步接口进行数据保存，示例如下：
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. import { UIAbility, AbilityConstant } from '@kit.AbilityKit';
@@ -711,13 +627,7 @@ onContinue(wantParam: Record<string, Object>): AbilityConstant.OnContinueResult 
   ```
 * 应用迁移时使用异步接口进行数据保存，示例如下：
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. import { UIAbility, AbilityConstant } from '@kit.AbilityKit';
@@ -765,13 +675,7 @@ onNewWant(want: Want, launchParam: AbilityConstant.LaunchParam): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, AbilityConstant, Want } from '@kit.AbilityKit';
@@ -814,13 +718,7 @@ onDump(params: Array<string>): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -868,13 +766,7 @@ onSaveState(reason: AbilityConstant.StateType, wantParam: Record<string, Object>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, AbilityConstant } from '@kit.AbilityKit';
@@ -919,13 +811,7 @@ onSaveStateAsync(stateType: AbilityConstant.StateType, wantParam: Record<string,
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, AbilityConstant } from '@kit.AbilityKit';
@@ -963,13 +849,7 @@ onShare(wantParam: Record<string, Object>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -1013,13 +893,7 @@ onPrepareToTerminate(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, Want } from '@kit.AbilityKit';
@@ -1089,13 +963,7 @@ onPrepareToTerminateAsync(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -1135,13 +1003,7 @@ UIAbility生命周期回调，当UIAbility侧滑返回时触发，根据返回�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -1187,13 +1049,7 @@ UIAbility生命周期回调，在多设备协同场景下，协同方应用在�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, AbilityConstant } from '@kit.AbilityKit';
@@ -1253,13 +1109,7 @@ Caller UIAbility向Callee UIAbility发送双方约定好的序列化的数据。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, Caller } from '@kit.AbilityKit';
@@ -1359,13 +1209,7 @@ Caller UIAbility向Callee UIAbility发送消息，Callee UIAbility处理完成�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, Caller } from '@kit.AbilityKit';
@@ -1449,13 +1293,7 @@ Caller主动释放与Callee UIAbility的连接。调用该接口后，Caller不�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, Caller } from '@kit.AbilityKit';
@@ -1515,13 +1353,7 @@ Caller UIAbility可使用该接口注册与Callee UIAbility连接断开通知的
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, Caller } from '@kit.AbilityKit';
@@ -1581,13 +1413,7 @@ onRemoteStateChange(callback: OnRemoteStateChangeCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, Caller } from '@kit.AbilityKit';
@@ -1649,13 +1475,7 @@ Caller UIAbility可使用该接口注册与Callee UIAbility连接断开通知的
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, Caller } from '@kit.AbilityKit';
@@ -1716,13 +1536,7 @@ off(type: 'release', callback: OnReleaseCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, Caller, OnReleaseCallback } from '@kit.AbilityKit';
@@ -1783,13 +1597,7 @@ off(type: 'release'): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, Caller, OnReleaseCallback } from '@kit.AbilityKit';
@@ -1861,13 +1669,7 @@ on(method: string, callback: CalleeCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, AbilityConstant, Want } from '@kit.AbilityKit';
@@ -1950,13 +1752,7 @@ off(method: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, AbilityConstant, Want } from '@kit.AbilityKit';

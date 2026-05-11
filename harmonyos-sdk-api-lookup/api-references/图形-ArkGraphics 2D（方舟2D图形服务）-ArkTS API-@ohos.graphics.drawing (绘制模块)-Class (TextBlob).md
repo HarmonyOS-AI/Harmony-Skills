@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -63,13 +57,7 @@ static makeFromPosText(text: string, len: number, points: common2D.Point[], font
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -112,13 +100,7 @@ uniqueID(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {drawing} from "@kit.ArkGraphics2D";
@@ -171,13 +153,7 @@ static makeFromString(text: string, font: Font, encoding?: TextEncoding): TextBl
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -238,13 +214,7 @@ static makeFromRunBuffer(pos: Array<TextBlobRunBuffer>, font: Font, bounds?: com
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -292,13 +262,7 @@ bounds(): common2D.Rect
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common2D, drawing } from '@kit.ArkGraphics2D';

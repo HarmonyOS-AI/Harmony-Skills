@@ -28,13 +28,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { InsightIntentLink, InsightIntentPage, InsightIntentFunctionMethod, InsightIntentFunction, InsightIntentEntry } from '@kit.AbilityKit';
@@ -58,13 +52,7 @@ uri链接格式需要符合[应用链接说明](https://developer.huawei.com/con
 
 以自定义意图为例：自定义意图的parameters需要传入标准的JSON Schema数据结构。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { InsightIntentLink, LinkParamCategory } from '@kit.AbilityKit';
@@ -245,13 +233,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { InsightIntentPage } from '@kit.AbilityKit';
@@ -343,13 +325,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { InsightIntentFunction, InsightIntentFunctionMethod } from '@kit.AbilityKit';
@@ -415,13 +391,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { insightIntent, InsightIntentEntry, InsightIntentEntryExecutor } from '@kit.AbilityKit';
@@ -517,13 +487,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { formBindingData, FormExtensionAbility, formInfo } from '@kit.FormKit';
@@ -617,13 +581,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { insightIntent, InsightIntentEntity } from '@kit.AbilityKit';

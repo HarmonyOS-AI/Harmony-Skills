@@ -237,13 +237,7 @@ JSON类型数据，保存了开发者鉴权信息，用于请求头入参。
 
 三方支付服务接口入参payInfo说明，json字符串的格式。参考示例如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // PayMethod.WECHAT_PAY：'{"appId":"***","partnerId":"***","prepayId":"***","packageValue":"***","nonceStr":"***","timeStamp":"***","sign":"***","extData":"***","token":"***"}'

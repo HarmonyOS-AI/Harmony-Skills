@@ -161,13 +161,7 @@ enableDataDetector(enable: boolean)
 
 当enableDataDetector设置为true且未指定[dataDetectorConfig](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#datadetectorconfig11)属性时，系统将默认识别所有类型的实体，并将这些实体的color和decoration更改为预设样式：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. color: '#ff007dff'
@@ -288,13 +282,7 @@ enablePreviewText(enable: boolean)
 
 该接口在CAPI场景使用时默认关闭。可以在工程的module.json5中配置[metadata](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/module-structure#metadata对象内部结构)字段控制是否启用预上屏，配置如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. "metadata": [
@@ -1733,13 +1721,7 @@ RichEditor组件的控制器，继承自[RichEditorBaseController](/consumer/cn/
 
 ### 导入对象
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. controller: RichEditorController = new RichEditorController();
@@ -2108,13 +2090,7 @@ PhonePC/2in1TabletTVWearable
 
 ### 导入对象
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. controller: RichEditorStyledStringController = new RichEditorStyledStringController();
@@ -2825,13 +2801,7 @@ PhonePC/2in1TabletTVWearable
 
 通过[updateSpanStyle](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#updatespanstyle)接口更新已有文本样式，更改样式后，使用[getSpans](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#getspans)获取文本新的样式信息。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3011,13 +2981,7 @@ PhonePC/2in1TabletTVWearable
 
 通过[customKeyboard](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#customkeyboard)给组件绑定自定义键盘。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3072,13 +3036,7 @@ PhonePC/2in1TabletTVWearable
 
 示例中的粘贴菜单项涉及读取剪贴板数据，因此需按规范[申请访问剪贴板权限](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/get-pastedata-permission-guidelines)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3609,13 +3567,7 @@ PhonePC/2in1TabletTVWearable
 
 通过[updateSpanStyle](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#updatespanstyle)接口更新图片样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3861,13 +3813,7 @@ PhonePC/2in1TabletTVWearable
 
 为Span绑定[gesture](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#richeditorgesture11)回调。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3965,13 +3911,7 @@ PhonePC/2in1TabletTVWearable
 
 通过[updateParagraphStyle](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#updateparagraphstyle11)接口更新段落样式，通过[getParagraphs](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#getparagraphs11)接口获取指定范围段落的信息。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4070,13 +4010,7 @@ PhonePC/2in1TabletTVWearable
 
 通过[setTypingStyle](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#settypingstyle11)接口更新文本预设样式，通过[updateParagraphStyle](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#updateparagraphstyle11)接口设置段落缩进。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4347,13 +4281,7 @@ PhonePC/2in1TabletTVWearable
 
 通过[updateParagraphStyle](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#updateparagraphstyle11)接口设置文本字重与阴影。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -4439,13 +4367,7 @@ PhonePC/2in1TabletTVWearable
 
 通过[addBuilderSpan](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#addbuilderspan11)接口添加用户自定义布局Span。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Builder
@@ -4755,13 +4677,7 @@ PhonePC/2in1TabletTVWearable
 
 通过[addBuilderSpan](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#addbuilderspan11)接口添加的自定义布局Span，[getSpans](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#getspans)、[onWillChange](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#onwillchange12)等API不会返回BuilderSpan内部的信息。开发者需要自行维护BuilderSpan的状态，并且在组件内容发生变化时同步更新。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const TAG = 'BuilderSpanDemo';
@@ -5109,13 +5025,7 @@ PhonePC/2in1TabletTVWearable
 
 设置[enableDataDetector](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#enabledatadetector11)为true时，通过[dataDetectorConfig](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#datadetectorconfig11)接口设置文本识别配置。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -5183,13 +5093,7 @@ PhonePC/2in1TabletTVWearable
 
 通过[caretColor](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#caretcolor12)属性设置输入框光标、手柄颜色，通过[selectedBackgroundColor](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#selectedbackgroundcolor12)属性设置文本选中底板颜色。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -5228,13 +5132,7 @@ PhonePC/2in1TabletTVWearable
 
 通过[updateSpanStyle](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#updatespanstyle)接口配置文本行高（[lineHeight](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#richeditortextstyle)）和字符间距（[letterSpacing](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#richeditortextstyle)）。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -5360,13 +5258,7 @@ PhonePC/2in1TabletTVWearable
 
 为组件添加[onPaste](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#onpaste11)事件，通过[PasteEvent](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#pasteevent11)自定义用户粘贴事件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -5401,13 +5293,7 @@ PhonePC/2in1TabletTVWearable
 
 通过[addTextSpan](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#addtextspan)接口设置文字特性效果（[fontFeature](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#richeditortextstyle)）。当添加“ss01”特性的FontFeature属性时，数字“0”由原来的椭圆形改变为带有倒圆角形。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -5458,13 +5344,7 @@ PhonePC/2in1TabletTVWearable
 
 通过[customKeyboard](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#customkeyboard)属性绑定自定义键盘，通过参数[KeyboardOptions](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#keyboardoptions12)设置自定义键盘是否支持避让功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -5550,13 +5430,7 @@ PhonePC/2in1TabletTVWearable
 
 通过[isEditing](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#isediting12)接口获取当前富文本的编辑状态。为组件添加[onEditingChange](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#oneditingchange12)事件，可通过打印日志，获取当前组件是否在编辑态。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -5598,13 +5472,7 @@ PhonePC/2in1TabletTVWearable
 
 为组件添加[onWillChange](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#onwillchange12)事件，能够在组件执行增删操作前，触发回调。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -5693,13 +5561,7 @@ PhonePC/2in1TabletTVWearable
 
 通过[enterKeyType](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#enterkeytype12)属性设置软键盘输入法回车键类型。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -5736,13 +5598,7 @@ PhonePC/2in1TabletTVWearable
 
 通过[updateParagraphStyle](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#updateparagraphstyle11)接口设置折行类型（[lineBreakStrategy](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#richeditorparagraphstyle11)），通过[getParagraphs](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#getparagraphs11)接口获取当前段落的折行类型。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -5823,13 +5679,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，该示例中[属性字符串](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-styled-string)通过[RichEditorStyledStringController](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#richeditorstyledstringcontroller12)中的[setStyledString](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#setstyledstring12)方法与RichEditor组件绑定。通过[getStyledString](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#getstyledstring12)接口获取富文本组件显示的属性字符串。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -6031,13 +5881,7 @@ PhonePC/2in1TabletTVWearable
 
 通过[getLayoutManager](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#getlayoutmanager12)接口获取布局管理器对象，通过[getLineCount](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-text-common#getlinecount12)接口获取组件内容或[placeholder](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#placeholder12)的总行数，通过[getGlyphPositionAtCoordinate](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-text-common#getglyphpositionatcoordinate12)接口获取较为接近给定坐标的字形的位置信息，通过[getLineMetrics](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-text-common#getlinemetrics12)接口获取指定行的行信息、文本样式信息、以及字体属性信息。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -6110,13 +5954,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，该示例通过[editMenuOptions](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#editmenuoptions12)属性设置系统默认菜单的扩展项，允许配置扩展项的文本内容、图标和回调方法。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -6216,13 +6054,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 21开始，该示例通过[scrollBarColor](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#scrollbarcolor21)属性设置RichEditor组件滚动条颜色。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -6315,13 +6147,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 18开始，该示例通过RichEditorBaseController的[getCaretRect](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#getcaretrect18)方法来获取当前光标相对于组件位置的Rect。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -6377,13 +6203,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 18开始，该示例通过[maxLength](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#maxlength18)设置可输入的最大字符数，通过[maxLines](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#maxlines18)设置可输入的最大行数。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -6487,13 +6307,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 19开始，该示例通过在addTextSpan和UpdateSpanStyle接口中加入[UrlStyle](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#richeditorurlstyle19)，来实现文本点击时跳转到指定链接的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -6537,13 +6351,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，该示例对于不使用属性字符串的富文本组件，可以通过配置[undoStyle](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#undostyle20)属性为UndoStyle.KEEP\_STYLE，以支持撤销还原时保留原内容的样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -6685,13 +6493,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，该示例通过[setTypingParagraphStyle](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#settypingparagraphstyle20)接口设置预设段落样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -6787,13 +6589,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，该示例通过[thicknessScale](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-styled-string#decorationstyle)设置装饰线粗细，通过[enableMultiType](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-styled-string#decorationoptions20)设置多装饰线。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LengthMetrics } from '@kit.ArkUI';
@@ -6925,13 +6721,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，该示例通过[enableAutoSpacing](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#enableautospacing20)属性设置中西文自动间距。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -7040,13 +6830,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 22开始，该示例通过[enableSelectedDataDetector](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#enableselecteddatadetector22)，配置文本选择AI菜单功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -7080,13 +6864,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 22开始，该示例通过[onWillAttachIME](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#onwillattachime22)事件监听输入法绑定事件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -7142,13 +6920,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 23开始，该示例通过[deleteBackward](/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#deletebackward23)事件在编辑态用自定义键盘删除光标前字符。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -7209,13 +6981,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 23开始，新增includeFontPadding、fallbackLineSpacing属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -7305,13 +7071,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 23开始，新增compressLeadingPunctuation属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -7357,13 +7117,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 23开始，新增selectedDragPreviewStyle接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -7397,13 +7151,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 23开始，新增singleLine接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -7446,13 +7194,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 24开始，新增setStyledPlaceholder接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LengthMetrics } from '@kit.ArkUI';

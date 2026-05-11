@@ -95,13 +95,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过useMilitaryTime、dateTimeOptions、format设置时间格式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -172,13 +166,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置disappearTextStyle、textStyle、selectedTextStyle、acceptButtonStyle、cancelButtonStyle实现了自定义文本以及按钮样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -239,13 +227,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例展示了在折叠屏悬停态下设置dialog布局区域的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -303,13 +285,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过alignment和offset设置弹窗的位置。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -346,13 +322,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过maskRect设置遮蔽区。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -388,13 +358,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过maskRect设置弹窗背板。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -432,13 +396,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例设置TimePickerDialog的起始时间。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -477,13 +435,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例设置TimePickerDialog的结束时间。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -522,13 +474,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置enableCascade实现12小时制时上午下午跟随时间联动。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -566,13 +512,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 19开始，该示例通过配置[backgroundBlurStyleOptions](/consumer/cn/doc/harmonyos-references/ts-methods-timepicker-dialog#timepickerdialogoptions对象说明)，实现自定义背景模糊效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -609,13 +549,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 19开始，该示例通过配置[backgroundEffect](/consumer/cn/doc/harmonyos-references/ts-methods-timepicker-dialog#timepickerdialogoptions对象说明)，实现自定义背景效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry

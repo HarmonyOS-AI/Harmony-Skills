@@ -801,13 +801,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置backgroundColor、backgroundImage、backgroundImageSize和backgroundImagePosition设置背景的基础样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -887,13 +881,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过backgroundBlurStyle设置背景模糊样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -926,13 +914,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过background设置组件背景。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -969,13 +951,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过backgroundBrightness设置组件背景提亮效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1020,13 +996,7 @@ rate和lightUpDegree参数值为0.5,0.5：
 
 该示例提供了模糊属性的实现方法。通过blur设置内容模糊，通过backdropBlur设置背景模糊。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1072,13 +1042,7 @@ rate和lightUpDegree参数值为0.5,0.5：
 
 如果出现漏线问题，开发者应首先确保两个blendMode所在组件大小严格相同。如果确认相同，可能是组件边界落在浮点数坐标上导致，可尝试设置[pixelRound](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-pixelroundforcomponent#pixelround)通用属性，使产生的白线、暗线两侧的组件边界对齐到整数像素坐标上。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1178,13 +1142,7 @@ rate和lightUpDegree参数值为0.5,0.5：
 
 该示例对比了[backgroundEffect11+](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-background#backgroundeffect11)、[backdropBlur](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-background#backdropblur)和[backgroundBlurStyle9+](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-background#backgroundblurstyle9)三种不同的模糊效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1243,13 +1201,7 @@ rate和lightUpDegree参数值为0.5,0.5：
 
 从API version 20开始，该示例通过[backgroundColor](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-background#backgroundcolor20)设置P3色域背景效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1278,13 +1230,7 @@ rate和lightUpDegree参数值为0.5,0.5：
 
 从API version 20开始，该示例通过[background](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-background#background10)实现组件背景扩展到父组件的安全区。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LengthMetrics } from '@kit.ArkUI';

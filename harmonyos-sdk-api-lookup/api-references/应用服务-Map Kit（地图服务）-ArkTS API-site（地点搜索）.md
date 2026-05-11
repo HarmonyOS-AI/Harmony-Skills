@@ -6,13 +6,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { site } from '@kit.MapKit';
@@ -67,13 +61,7 @@ searchByText(searchByTextParams: SearchByTextParams): Promise<SearchByTextResult
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: site.SearchByTextParams = {
@@ -139,13 +127,7 @@ searchByText(context: common.Context, searchByTextParams: SearchByTextParams): P
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: site.SearchByTextParams = {
@@ -210,13 +192,7 @@ nearbySearch(nearbySearchParams: NearbySearchParams): Promise<NearbySearchResult
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: site.NearbySearchParams = {
@@ -286,13 +262,7 @@ nearbySearch(context: common.Context, nearbySearchParams: NearbySearchParams): P
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: site.NearbySearchParams = {
@@ -361,13 +331,7 @@ queryAutoComplete(queryAutoCompleteParams: QueryAutoCompleteParams): Promise<Que
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: site.QueryAutoCompleteParams = {
@@ -433,13 +397,7 @@ queryAutoComplete(context: common.Context, queryAutoCompleteParams: QueryAutoCom
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: site.QueryAutoCompleteParams = {
@@ -504,13 +462,7 @@ searchById(searchByIdParams: SearchByIdParams): Promise<SearchByIdResult>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: site.SearchByIdParams = {
@@ -572,13 +524,7 @@ searchById(context: common.Context, searchByIdParams: SearchByIdParams): Promise
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: site.SearchByIdParams = {
@@ -643,13 +589,7 @@ geocode(geocodeParams: GeocodeParams): Promise<GeocodeResult>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: site.GeocodeParams = {
@@ -714,13 +654,7 @@ geocode(context: common.Context, geocodeParams: GeocodeParams): Promise<GeocodeR
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: site.GeocodeParams = {
@@ -780,13 +714,7 @@ reverseGeocode(reverseGeocodeParams: ReverseGeocodeParams): Promise<ReverseGeoco
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: site.ReverseGeocodeParams = {
@@ -851,13 +779,7 @@ reverseGeocode(context: common.Context, reverseGeocodeParams: ReverseGeocodePara
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: site.ReverseGeocodeParams = {

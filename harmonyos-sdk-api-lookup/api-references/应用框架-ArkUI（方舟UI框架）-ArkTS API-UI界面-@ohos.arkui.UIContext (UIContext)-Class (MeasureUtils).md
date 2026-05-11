@@ -45,13 +45,7 @@ measureText接口的计算结果始终是单行文本的宽度，入参options�
 
 通过MeasureUtils的measureText方法获取"Hello World"文字的宽度。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { MeasureUtils } from '@kit.ArkUI';
@@ -110,13 +104,7 @@ measureTextSize(options: MeasureOptions): SizeOptions
 
 通过MeasureUtils的measureTextSize方法获取"Hello World"文字的宽度和高度。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { MeasureUtils } from '@kit.ArkUI';
@@ -147,13 +135,7 @@ measureTextSize(options: MeasureOptions): SizeOptions
 
 通过MeasureUtils的measureTextSize方法和unicode码点计算，手动实现文本截断。与设置[maxLines](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-basic-components-text#maxlines)、[textOverflow](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-basic-components-text#textoverflow)实现同样的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -295,13 +277,7 @@ getParagraphs(styledString: StyledString, options?: TextLayoutOptions): Array<Pa
 
 通过MeasureUtils的getParagraphs方法测算文本，当内容超出最大显示行数的时候，截断文本显示并展示“...全文”的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LengthMetrics } from '@kit.ArkUI';

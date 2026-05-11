@@ -9,13 +9,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -97,13 +91,7 @@ static create(): MessageSequence
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -135,13 +123,7 @@ reclaim(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -190,13 +172,7 @@ writeRemoteObject(obj: IRemoteObject): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -256,13 +232,7 @@ readRemoteObject(): IRemoteObject
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -324,13 +294,7 @@ writeInterfaceToken(token: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -377,13 +341,7 @@ readInterfaceToken(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -422,13 +380,7 @@ getSize(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -466,13 +418,7 @@ getCapacity(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -521,13 +467,7 @@ setSize(size: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -577,13 +517,7 @@ setCapacity(size: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -620,13 +554,7 @@ getWritableBytes(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -665,13 +593,7 @@ getReadableBytes(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -710,13 +632,7 @@ getReadPosition(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -755,13 +671,7 @@ getWritePosition(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -811,13 +721,7 @@ rewindRead(pos: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -871,13 +775,7 @@ rewindWrite(pos: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -929,13 +827,7 @@ writeByte(val: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -982,13 +874,7 @@ readByte(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -1038,13 +924,7 @@ writeShort(val: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -1091,13 +971,7 @@ readShort(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -1147,13 +1021,7 @@ writeInt(val: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -1200,13 +1068,7 @@ readInt(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -1256,13 +1118,7 @@ writeLong(val: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -1309,13 +1165,7 @@ readLong(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -1365,13 +1215,7 @@ writeFloat(val: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -1418,13 +1262,7 @@ readFloat(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -1474,13 +1312,7 @@ writeDouble(val: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -1527,13 +1359,7 @@ readDouble(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -1583,13 +1409,7 @@ writeBoolean(val: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -1636,13 +1456,7 @@ readBoolean(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -1692,13 +1506,7 @@ writeChar(val: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -1745,13 +1553,7 @@ readChar(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -1801,13 +1603,7 @@ writeString(val: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -1854,13 +1650,7 @@ readString(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -1910,13 +1700,7 @@ writeParcelable(val: Parcelable): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -1985,13 +1769,7 @@ readParcelable(dataIn: Parcelable): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -2061,13 +1839,7 @@ writeByteArray(byteArray: number[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -2116,13 +1888,7 @@ readByteArray(dataIn: number[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -2173,13 +1939,7 @@ readByteArray(): number[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -2230,13 +1990,7 @@ writeShortArray(shortArray: number[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -2284,13 +2038,7 @@ readShortArray(dataIn: number[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -2340,13 +2088,7 @@ readShortArray(): number[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -2396,13 +2138,7 @@ writeIntArray(intArray: number[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -2450,13 +2186,7 @@ readIntArray(dataIn: number[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -2506,13 +2236,7 @@ readIntArray(): number[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -2562,13 +2286,7 @@ writeLongArray(longArray: number[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -2616,13 +2334,7 @@ readLongArray(dataIn: number[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -2672,13 +2384,7 @@ readLongArray(): number[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -2728,13 +2434,7 @@ writeFloatArray(floatArray: number[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -2782,13 +2482,7 @@ readFloatArray(dataIn: number[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -2838,13 +2532,7 @@ readFloatArray(): number[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -2894,13 +2582,7 @@ writeDoubleArray(doubleArray: number[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -2948,13 +2630,7 @@ readDoubleArray(dataIn: number[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -3004,13 +2680,7 @@ readDoubleArray(): number[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -3060,13 +2730,7 @@ writeBooleanArray(booleanArray: boolean[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -3114,13 +2778,7 @@ readBooleanArray(dataIn: boolean[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -3170,13 +2828,7 @@ readBooleanArray(): boolean[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -3226,13 +2878,7 @@ writeCharArray(charArray: number[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -3280,13 +2926,7 @@ readCharArray(dataIn: number[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -3336,13 +2976,7 @@ readCharArray(): number[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -3392,13 +3026,7 @@ writeStringArray(stringArray: string[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -3446,13 +3074,7 @@ readStringArray(dataIn: string[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -3502,13 +3124,7 @@ readStringArray(): string[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -3549,13 +3165,7 @@ writeNoException(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -3612,13 +3222,7 @@ readException(): void
 
 在本文档的示例中，通过this.getUIContext().getHostContext()来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // FA模型需要从@kit.AbilityKit导入featureAbility
@@ -3657,13 +3261,7 @@ readException(): void
 
 上述onConnect回调函数中的proxy对象需要等ability异步连接成功后才会被赋值，然后才可调用proxy对象的sendMessageRequest接口方法发送消息
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -3733,13 +3331,7 @@ writeParcelableArray(parcelableArray: Parcelable[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -3810,13 +3402,7 @@ readParcelableArray(parcelableArray: Parcelable[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -3889,13 +3475,7 @@ writeRemoteObjectArray(objectArray: IRemoteObject[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -3955,13 +3535,7 @@ readRemoteObjectArray(objects: IRemoteObject[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -4023,13 +3597,7 @@ readRemoteObjectArray(): IRemoteObject[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -4089,13 +3657,7 @@ static closeFileDescriptor(fd: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -4153,13 +3715,7 @@ static dupFileDescriptor(fd: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -4198,13 +3754,7 @@ containFileDescriptors(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -4256,13 +3806,7 @@ writeFileDescriptor(fd: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -4312,13 +3856,7 @@ readFileDescriptor(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -4371,13 +3909,7 @@ writeAshmem(ashmem: Ashmem): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -4437,13 +3969,7 @@ readAshmem(): Ashmem
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -4503,13 +4029,7 @@ getRawDataCapacity(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -4567,13 +4087,7 @@ writeRawData(rawData: number[], size: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -4629,13 +4143,7 @@ writeRawDataBuffer(rawData: ArrayBuffer, size: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -4701,13 +4209,7 @@ readRawData(size: number): number[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -4767,13 +4269,7 @@ readRawDataBuffer(size: number): ArrayBuffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -4831,13 +4327,7 @@ writeArrayBuffer(buf: ArrayBuffer, typeCode: TypeCode): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // TypeCode 类型枚举较多，示例代码以Int16Array为例
@@ -4899,13 +4389,7 @@ readArrayBuffer(typeCode: TypeCode): ArrayBuffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // TypeCode 类型枚举较多，示例代码以Int16Array为例
@@ -4967,13 +4451,7 @@ static create(): MessageParcel
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -5006,13 +4484,7 @@ reclaim(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -5058,13 +4530,7 @@ writeRemoteObject(object: IRemoteObject): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -5113,13 +4579,7 @@ readRemoteObject(): IRemoteObject
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -5179,13 +4639,7 @@ writeInterfaceToken(token: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -5224,13 +4678,7 @@ readInterfaceToken(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -5270,13 +4718,7 @@ getSize(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -5316,13 +4758,7 @@ getCapacity(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -5369,13 +4805,7 @@ setSize(size: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -5422,13 +4852,7 @@ setCapacity(size: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -5467,13 +4891,7 @@ getWritableBytes(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -5513,13 +4931,7 @@ getReadableBytes(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -5559,13 +4971,7 @@ getReadPosition(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -5604,13 +5010,7 @@ getWritePosition(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -5658,13 +5058,7 @@ rewindRead(pos: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -5716,13 +5110,7 @@ rewindWrite(pos: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -5772,13 +5160,7 @@ writeByte(val: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -5817,13 +5199,7 @@ readByte(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -5872,13 +5248,7 @@ writeShort(val: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -5917,13 +5287,7 @@ readShort(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -5972,13 +5336,7 @@ writeInt(val: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -6017,13 +5375,7 @@ readInt(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -6072,13 +5424,7 @@ writeLong(val: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -6117,13 +5463,7 @@ readLong(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -6172,13 +5512,7 @@ writeFloat(val: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -6217,13 +5551,7 @@ readFloat(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -6272,13 +5600,7 @@ writeDouble(val: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -6317,13 +5639,7 @@ readDouble(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -6372,13 +5688,7 @@ writeBoolean(val: boolean): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -6417,13 +5727,7 @@ readBoolean(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -6472,13 +5776,7 @@ writeChar(val: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -6517,13 +5815,7 @@ readChar(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -6572,13 +5864,7 @@ writeString(val: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -6617,13 +5903,7 @@ readString(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -6672,13 +5952,7 @@ writeSequenceable(val: Sequenceable): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -6745,13 +6019,7 @@ readSequenceable(dataIn: Sequenceable): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -6821,13 +6089,7 @@ writeByteArray(byteArray: number[]): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -6867,13 +6129,7 @@ readByteArray(dataIn: number[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -6915,13 +6171,7 @@ readByteArray(): number[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -6971,13 +6221,7 @@ writeShortArray(shortArray: number[]): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -7016,13 +6260,7 @@ readShortArray(dataIn: number[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -7064,13 +6302,7 @@ readShortArray(): number[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -7119,13 +6351,7 @@ writeIntArray(intArray: number[]): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -7164,13 +6390,7 @@ readIntArray(dataIn: number[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -7212,13 +6432,7 @@ readIntArray(): number[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -7267,13 +6481,7 @@ writeLongArray(longArray: number[]): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -7312,13 +6520,7 @@ readLongArray(dataIn: number[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -7360,13 +6562,7 @@ readLongArray(): number[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -7415,13 +6611,7 @@ writeFloatArray(floatArray: number[]): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -7460,13 +6650,7 @@ readFloatArray(dataIn: number[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -7508,13 +6692,7 @@ readFloatArray(): number[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -7563,13 +6741,7 @@ writeDoubleArray(doubleArray: number[]): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -7608,13 +6780,7 @@ readDoubleArray(dataIn: number[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -7656,13 +6822,7 @@ readDoubleArray(): number[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -7711,13 +6871,7 @@ writeBooleanArray(booleanArray: boolean[]): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -7756,13 +6910,7 @@ readBooleanArray(dataIn: boolean[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -7804,13 +6952,7 @@ readBooleanArray(): boolean[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -7859,13 +7001,7 @@ writeCharArray(charArray: number[]): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -7904,13 +7040,7 @@ readCharArray(dataIn: number[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -7952,13 +7082,7 @@ readCharArray(): number[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -8007,13 +7131,7 @@ writeStringArray(stringArray: string[]): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -8052,13 +7170,7 @@ readStringArray(dataIn: string[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -8100,13 +7212,7 @@ readStringArray(): string[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -8139,13 +7245,7 @@ writeNoException(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -8194,13 +7294,7 @@ readException(): void
 
 在本文档的示例中，通过this.getUIContext().getHostContext()来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // FA模型需要从@kit.AbilityKit导入featureAbility
@@ -8239,13 +7333,7 @@ readException(): void
 
 上述onConnect回调函数中的proxy对象需要等ability异步连接成功后才会被赋值，然后才可调用proxy对象的sendRequest接口方法发送消息
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -8314,13 +7402,7 @@ writeSequenceableArray(sequenceableArray: Sequenceable[]): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -8382,13 +7464,7 @@ readSequenceableArray(sequenceableArray: Sequenceable[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -8460,13 +7536,7 @@ writeRemoteObjectArray(objectArray: IRemoteObject[]): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -8517,13 +7587,7 @@ readRemoteObjectArray(objects: IRemoteObject[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -8577,13 +7641,7 @@ readRemoteObjectArray(): IRemoteObject[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -8637,13 +7695,7 @@ static closeFileDescriptor(fd: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -8691,13 +7743,7 @@ static dupFileDescriptor(fd: number) :number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -8737,13 +7783,7 @@ containFileDescriptors(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -8795,13 +7835,7 @@ writeFileDescriptor(fd: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -8843,13 +7877,7 @@ readFileDescriptor(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -8900,13 +7928,7 @@ writeAshmem(ashmem: Ashmem): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -8946,13 +7968,7 @@ readAshmem(): Ashmem
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -8994,13 +8010,7 @@ getRawDataCapacity(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -9048,13 +8058,7 @@ writeRawData(rawData: number[], size: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -9102,13 +8106,7 @@ readRawData(size: number): number[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -9162,13 +8160,7 @@ marshalling(dataOut: MessageSequence): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -9233,13 +8225,7 @@ unmarshalling(dataIn: MessageSequence): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -9320,13 +8306,7 @@ marshalling(dataOut: MessageParcel): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -9396,13 +8376,7 @@ unmarshalling(dataIn: MessageParcel): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -9468,13 +8442,7 @@ asObject(): IRemoteObject
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -9493,13 +8461,7 @@ asObject(): IRemoteObject
 
 在本文档的示例中，通过this.getUIContext().getHostContext()来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // FA模型需要从@kit.AbilityKit导入featureAbility
@@ -9538,13 +8500,7 @@ asObject(): IRemoteObject
 
 上述onConnect回调函数中的proxy对象需要等ability异步连接成功后才会被赋值，然后才可调用proxy对象的asObject接口方法获取代理或远端对象
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -9583,13 +8539,7 @@ onRemoteDied(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -10151,13 +9101,7 @@ sendRequest(code: number, data: MessageParcel, reply: MessageParcel, options: Me
 
 在本文档的示例中，通过this.getUIContext().getHostContext()来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // FA模型需要从@kit.AbilityKit导入featureAbility
@@ -10196,13 +9140,7 @@ sendRequest(code: number, data: MessageParcel, reply: MessageParcel, options: Me
 
 上述onConnect回调函数中的proxy对象需要等ability异步连接成功后才会被赋值，然后才可调用proxy对象的sendRequest接口方法发送消息
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -10277,13 +9215,7 @@ sendMessageRequest(code: number, data: MessageSequence, reply: MessageSequence, 
 
 在本文档的示例中，通过this.getUIContext().getHostContext()来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // FA模型需要从@kit.AbilityKit导入featureAbility
@@ -10322,13 +9254,7 @@ sendMessageRequest(code: number, data: MessageSequence, reply: MessageSequence, 
 
 上述onConnect回调函数中的proxy对象需要等ability异步连接成功后才会被赋值，然后才可调用proxy对象的sendMessageRequest接口方法发送消息
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -10404,13 +9330,7 @@ sendRequest(code: number, data: MessageParcel, reply: MessageParcel, options: Me
 
 在本文档的示例中，通过this.getUIContext().getHostContext()来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // FA模型需要从@kit.AbilityKit导入featureAbility
@@ -10449,13 +9369,7 @@ sendRequest(code: number, data: MessageParcel, reply: MessageParcel, options: Me
 
 上述onConnect回调函数中的proxy对象需要等ability异步连接成功后才会被赋值，然后才可调用proxy对象的sendRequest接口方法发送消息
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -10594,13 +9508,7 @@ getLocalInterface(interfaceDes: string): IRemoteBroker
 
 在本文档的示例中，通过this.getUIContext().getHostContext()来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // FA模型需要从@kit.AbilityKit导入featureAbility
@@ -10639,13 +9547,7 @@ getLocalInterface(interfaceDes: string): IRemoteBroker
 
 上述onConnect回调函数中的proxy对象需要等ability异步连接成功后才会被赋值，然后才可调用proxy对象的getLocalInterface接口方法查询接口对象
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -10700,13 +9602,7 @@ queryLocalInterface(interface: string): IRemoteBroker
 
 在本文档的示例中，通过this.getUIContext().getHostContext()来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // FA模型需要从@kit.AbilityKit导入featureAbility
@@ -10745,13 +9641,7 @@ queryLocalInterface(interface: string): IRemoteBroker
 
 上述onConnect回调函数中的proxy对象需要等ability异步连接成功后才会被赋值，然后才可调用proxy对象的queryLocalInterface接口获取接口对象
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -10799,13 +9689,7 @@ registerDeathRecipient(recipient: DeathRecipient, flags: number): void
 
 在本文档的示例中，通过this.getUIContext().getHostContext()来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // FA模型需要从@kit.AbilityKit导入featureAbility
@@ -10844,13 +9728,7 @@ registerDeathRecipient(recipient: DeathRecipient, flags: number): void
 
 上述onConnect回调函数中的proxy对象需要等ability异步连接成功后才会被赋值，然后才可调用proxy对象的registerDeathRecipient接口注册死亡回调
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -10911,13 +9789,7 @@ addDeathRecipient(recipient: DeathRecipient, flags: number): boolean
 
 在本文档的示例中，通过this.getUIContext().getHostContext()来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // FA模型需要从@kit.AbilityKit导入featureAbility
@@ -10956,13 +9828,7 @@ addDeathRecipient(recipient: DeathRecipient, flags: number): boolean
 
 上述onConnect回调函数中的proxy对象需要等ability异步连接成功后才会被赋值，然后才可调用proxy对象的addDeathRecipient接口方法新增死亡回调
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -11015,13 +9881,7 @@ unregisterDeathRecipient(recipient: DeathRecipient, flags: number): void
 
 在本文档的示例中，通过this.getUIContext().getHostContext()来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // FA模型需要从@kit.AbilityKit导入featureAbility
@@ -11060,13 +9920,7 @@ unregisterDeathRecipient(recipient: DeathRecipient, flags: number): void
 
 上述onConnect回调函数中的proxy对象需要等ability异步连接成功后才会被赋值，然后才可调用proxy对象的unregisterDeathRecipient接口方法注销死亡回调
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -11128,13 +9982,7 @@ removeDeathRecipient(recipient: DeathRecipient, flags: number): boolean
 
 在本文档的示例中，通过this.getUIContext().getHostContext()来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // FA模型需要从@kit.AbilityKit导入featureAbility
@@ -11173,13 +10021,7 @@ removeDeathRecipient(recipient: DeathRecipient, flags: number): boolean
 
 上述onConnect回调函数中的proxy对象需要等ability异步连接成功后才会被赋值，然后才可调用proxy对象的removeDeathRecipient接口方法去注册死亡回调
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -11232,13 +10074,7 @@ getDescriptor(): string
 
 在本文档的示例中，通过this.getUIContext().getHostContext()来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // FA模型需要从@kit.AbilityKit导入featureAbility
@@ -11277,13 +10113,7 @@ getDescriptor(): string
 
 上述onConnect回调函数中的proxy对象需要等ability异步连接成功后才会被赋值，然后才可调用proxy对象的getDescriptor接口方法获取对象的接口描述符
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -11330,13 +10160,7 @@ getInterfaceDescriptor(): string
 
 在本文档的示例中，通过this.getUIContext().getHostContext()来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // FA模型需要从@kit.AbilityKit导入featureAbility
@@ -11375,13 +10199,7 @@ getInterfaceDescriptor(): string
 
 上述onConnect回调函数中的proxy对象需要等ability异步连接成功后才会被赋值，然后才可调用proxy对象的getInterfaceDescriptor接口方法查询当前代理对象接口的描述符
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -11417,13 +10235,7 @@ isObjectDead(): boolean
 
 在本文档的示例中，通过this.getUIContext().getHostContext()来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // FA模型需要从@kit.AbilityKit导入featureAbility
@@ -11462,13 +10274,7 @@ isObjectDead(): boolean
 
 上述onConnect回调函数中的proxy对象需要等ability异步连接成功后才会被赋值，然后才可调用proxy对象的isObjectDead接口方法判断当前对象是否已经死亡
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -11523,13 +10329,7 @@ MessageOption构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -11562,13 +10362,7 @@ MessageOption构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -11600,13 +10394,7 @@ isAsync(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -11640,13 +10428,7 @@ setAsync(isAsync: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -11680,13 +10462,7 @@ getFlags(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -11726,13 +10502,7 @@ setFlags(flags: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -11769,13 +10539,7 @@ getWaitTime(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -11813,13 +10577,7 @@ setWaitTime(waitTime: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -11863,13 +10621,7 @@ static getContextObject(): IRemoteObject
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -11903,13 +10655,7 @@ static getCallingPid(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -11949,13 +10695,7 @@ static getCallingUid(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -11995,13 +10735,7 @@ static getCallingTokenId(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -12041,13 +10775,7 @@ static getCallingDeviceID(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -12087,13 +10815,7 @@ static getLocalDeviceID(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -12133,13 +10855,7 @@ static isLocalCalling(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -12189,13 +10905,7 @@ static flushCmdBuffer(object: IRemoteObject): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -12254,13 +10964,7 @@ static flushCommands(object: IRemoteObject): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -12307,13 +11011,7 @@ static resetCallingIdentity(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -12363,13 +11061,7 @@ static restoreCallingIdentity(identity: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -12422,13 +11114,7 @@ static setCallingIdentity(identity: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -12478,13 +11164,7 @@ RemoteObject构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -12531,13 +11211,7 @@ sendRequest(code: number, data: MessageParcel, reply: MessageParcel, options: Me
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -12614,13 +11288,7 @@ sendMessageRequest(code: number, data: MessageSequence, reply: MessageSequence, 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -12701,13 +11369,7 @@ sendRequest(code: number, data: MessageParcel, reply: MessageParcel, options: Me
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -12849,13 +11511,7 @@ sendMessageRequest请求的响应处理函数，服务端在该函数里同步�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 重写onRemoteMessageRequest方法同步处理请求
@@ -12883,13 +11539,7 @@ sendMessageRequest请求的响应处理函数，服务端在该函数里同步�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 重写onRemoteMessageRequest方法异步处理请求
@@ -12920,13 +11570,7 @@ sendMessageRequest请求的响应处理函数，服务端在该函数里同步�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 同时重写onRemoteMessageRequest和onRemoteRequest方法同步处理请求
@@ -12999,13 +11643,7 @@ sendMessageRequest请求的响应处理函数，服务端在该函数里同步�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 重写onRemoteMessageRequest方法同步处理请求
@@ -13032,13 +11670,7 @@ sendMessageRequest请求的响应处理函数，服务端在该函数里同步�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 重写onRemoteMessageRequest方法异步处理请求
@@ -13068,13 +11700,7 @@ sendMessageRequest请求的响应处理函数，服务端在该函数里同步�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 同时重写onRemoteMessageRequest和onRemoteRequest方法同步处理请求
@@ -13144,13 +11770,7 @@ sendRequest请求的响应处理函数，服务端在该函数里处理请求，
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -13192,13 +11812,7 @@ getCallingUid(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -13242,13 +11856,7 @@ getCallingPid(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -13310,13 +11918,7 @@ getLocalInterface(descriptor: string): IRemoteBroker
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -13375,13 +11977,7 @@ queryLocalInterface(descriptor: string): IRemoteBroker
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -13435,13 +12031,7 @@ getDescriptor(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -13493,13 +12083,7 @@ getInterfaceDescriptor(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -13556,13 +12140,7 @@ modifyLocalInterface(localInterface: IRemoteBroker, descriptor: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -13620,13 +12198,7 @@ attachLocalInterface(localInterface: IRemoteBroker, descriptor: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -13718,13 +12290,7 @@ static create(name: string, size: number): Ashmem
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -13776,13 +12342,7 @@ static createAshmem(name: string, size: number): Ashmem
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -13836,13 +12396,7 @@ static create(ashmem: Ashmem): Ashmem
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -13893,13 +12447,7 @@ static createAshmemFromExisting(ashmem: Ashmem): Ashmem
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -13931,13 +12479,7 @@ closeAshmem(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -13963,13 +12505,7 @@ unmapAshmem(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -14003,13 +12539,7 @@ getAshmemSize(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -14055,13 +12585,7 @@ mapTypedAshmem(mapType: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -14110,13 +12634,7 @@ mapAshmem(mapType: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -14153,13 +12671,7 @@ mapReadWriteAshmem(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -14200,13 +12712,7 @@ mapReadAndWriteAshmem(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -14243,13 +12749,7 @@ mapReadonlyAshmem(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -14290,13 +12790,7 @@ mapReadOnlyAshmem(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -14342,13 +12836,7 @@ setProtectionType(protectionType: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -14397,13 +12885,7 @@ setProtection(protectionType: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -14456,13 +12938,7 @@ writeDataToAshmem(buf: ArrayBuffer, size: number, offset: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -14525,13 +13001,7 @@ writeAshmem(buf: number[], size: number, offset: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -14586,13 +13056,7 @@ writeToAshmem(buf: number[], size: number, offset: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -14654,13 +13118,7 @@ readDataFromAshmem(size: number, offset: number): ArrayBuffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -14733,13 +13191,7 @@ readAshmem(size: number, offset: number): number[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';
@@ -14795,13 +13247,7 @@ readFromAshmem(size: number, offset: number): number[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';

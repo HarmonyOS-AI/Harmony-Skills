@@ -10,13 +10,7 @@ linkEnhance模块提供高效的蓝牙连接和数据传输功能，增强设备
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { linkEnhance } from '@kit.DistributedServiceKit';
@@ -66,13 +60,7 @@ createServer(name: string): Server
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { linkEnhance } from '@kit.DistributedServiceKit';
@@ -138,13 +126,7 @@ createConnection(deviceId: string, name: string): Connection
 
 在客户端设备上，应用需要主动调用createConnection()接口创建连接对象。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { linkEnhance } from '@kit.DistributedServiceKit';
@@ -203,13 +185,7 @@ start(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { linkEnhance } from '@kit.DistributedServiceKit';
@@ -255,13 +231,7 @@ stop(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { linkEnhance } from '@kit.DistributedServiceKit';
@@ -308,13 +278,7 @@ close(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { linkEnhance } from '@kit.DistributedServiceKit';
@@ -371,13 +335,7 @@ on(type: 'connectionAccepted', callback: Callback<Connection>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { linkEnhance } from '@kit.DistributedServiceKit';
@@ -440,13 +398,7 @@ off(type: 'connectionAccepted', callback?: Callback<Connection>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { linkEnhance } from '@kit.DistributedServiceKit';
@@ -509,13 +461,7 @@ on(type: 'serverStopped', callback: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { linkEnhance } from '@kit.DistributedServiceKit';
@@ -578,13 +524,7 @@ off(type: 'serverStopped', callback?: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { linkEnhance } from '@kit.DistributedServiceKit';
@@ -669,13 +609,7 @@ connect(): void
 
 客户端设备上的应用在创建Connection对象成功后，调用connect()方法连接目标设备（即服务端）。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { linkEnhance } from '@kit.DistributedServiceKit';
@@ -726,13 +660,7 @@ disconnect(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { linkEnhance } from '@kit.DistributedServiceKit';
@@ -784,13 +712,7 @@ close(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { linkEnhance } from '@kit.DistributedServiceKit';
@@ -850,13 +772,7 @@ getPeerDeviceId(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { linkEnhance } from '@kit.DistributedServiceKit';
@@ -914,13 +830,7 @@ sendData(data: ArrayBuffer): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { linkEnhance } from '@kit.DistributedServiceKit';
@@ -986,13 +896,7 @@ on(type: 'connectResult', callback: Callback<ConnectResult>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { linkEnhance } from '@kit.DistributedServiceKit';
@@ -1054,13 +958,7 @@ off(type: 'connectResult', callback?: Callback<ConnectResult>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { linkEnhance } from '@kit.DistributedServiceKit';
@@ -1122,13 +1020,7 @@ on(type: 'disconnected', callback: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { linkEnhance } from '@kit.DistributedServiceKit';
@@ -1187,13 +1079,7 @@ off(type: 'disconnected', callback?: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { linkEnhance } from '@kit.DistributedServiceKit';
@@ -1255,13 +1141,7 @@ on(type: 'dataReceived', callback: Callback<ArrayBuffer>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { linkEnhance } from '@kit.DistributedServiceKit';
@@ -1322,13 +1202,7 @@ off(type: 'dataReceived', callback?: Callback<ArrayBuffer>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { linkEnhance } from '@kit.DistributedServiceKit';

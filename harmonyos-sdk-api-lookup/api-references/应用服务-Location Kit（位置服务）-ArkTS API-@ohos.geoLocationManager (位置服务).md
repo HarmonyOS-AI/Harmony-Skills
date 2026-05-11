@@ -18,13 +18,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -755,13 +749,7 @@ on(type: 'locationChange', request: LocationRequest | ContinuousLocationRequest,
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -836,13 +824,7 @@ off(type: 'locationChange', callback?: Callback<Location>): void
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -903,13 +885,7 @@ on(type: 'locationError', callback: Callback<LocationError>): void
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -978,13 +954,7 @@ off(type: 'locationError', callback?: Callback<LocationError>): void
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -1033,13 +1003,7 @@ on(type: 'locationEnabledChange', callback: Callback<boolean>): void
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -1087,13 +1051,7 @@ off(type: 'locationEnabledChange', callback?: Callback<boolean>): void
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -1147,13 +1105,7 @@ on(type: 'cachedGnssLocationsChange', request: CachedGnssLocationsRequest, callb
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -1209,13 +1161,7 @@ off(type: 'cachedGnssLocationsChange', callback?: Callback<Array<Location>>): vo
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -1272,13 +1218,7 @@ on(type: 'satelliteStatusChange', callback: Callback<SatelliteStatusInfo>): void
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -1360,13 +1300,7 @@ off(type: 'satelliteStatusChange', callback?: Callback<SatelliteStatusInfo>): vo
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -1419,13 +1353,7 @@ on(type: 'nmeaMessage', callback: Callback<string>): void
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -1478,13 +1406,7 @@ off(type: 'nmeaMessage', callback?: Callback<string>): void
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -1540,13 +1462,7 @@ on(type: 'gnssFenceStatusChange', request: GeofenceRequest, want: WantAgent): vo
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -1618,13 +1534,7 @@ off(type: 'gnssFenceStatusChange', request: GeofenceRequest, want: WantAgent): v
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -1692,13 +1602,7 @@ on(type: 'countryCodeChange', callback: Callback<CountryCode>): void
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -1748,13 +1652,7 @@ off(type: 'countryCodeChange', callback?: Callback<CountryCode>): void
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -1811,13 +1709,7 @@ getCurrentLocation(request: CurrentLocationRequest | SingleLocationRequest, call
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -1903,13 +1795,7 @@ getCurrentLocation(callback: AsyncCallback<Location>): void
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -1978,13 +1864,7 @@ getCurrentLocation(request?: CurrentLocationRequest | SingleLocationRequest): Pr
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -2062,13 +1942,7 @@ getLastLocation(): Location
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -2113,13 +1987,7 @@ isLocationEnabled(): boolean
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -2165,13 +2033,7 @@ getAddressesFromLocation(request: ReverseGeoCodeRequest, callback: AsyncCallback
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -2236,13 +2098,7 @@ getAddressesFromLocation(request: ReverseGeoCodeRequest): Promise<Array<GeoAddre
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -2299,13 +2155,7 @@ getAddressesFromLocationName(request: GeoCodeRequest, callback: AsyncCallback<Ar
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -2366,13 +2216,7 @@ getAddressesFromLocationName(request: GeoCodeRequest): Promise<Array<GeoAddress>
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -2422,13 +2266,7 @@ isGeocoderAvailable(): boolean
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -2476,13 +2314,7 @@ getCachedGnssLocationsSize(callback: AsyncCallback<number>): void
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -2536,13 +2368,7 @@ getCachedGnssLocationsSize(): Promise<number>
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -2597,13 +2423,7 @@ flushCachedGnssLocations(callback: AsyncCallback<void>): void
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -2655,13 +2475,7 @@ flushCachedGnssLocations(): Promise<void>
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -2712,13 +2526,7 @@ sendCommand(command: LocationCommand, callback: AsyncCallback<void>): void
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -2775,13 +2583,7 @@ sendCommand(command: LocationCommand): Promise<void>
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -2833,13 +2635,7 @@ getCountryCode(callback: AsyncCallback<CountryCode>): void
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -2890,13 +2686,7 @@ getCountryCode(): Promise<CountryCode>
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -2964,13 +2754,7 @@ GNSS地理围栏功能依赖GNSS定位芯片（仅部分型号支持），如果
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -3095,13 +2879,7 @@ GNSS地理围栏功能依赖GNSS定位芯片（仅部分型号支持），如果
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -3150,13 +2928,7 @@ getGeofenceSupportedCoordTypes(): Array<CoordinateSystemType>
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -3205,13 +2977,7 @@ getCurrentWifiBssidForLocating(): string
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -3267,13 +3033,7 @@ on(type: 'bluetoothScanResultChange', callback: Callback<BluetoothScanResult>): 
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -3325,13 +3085,7 @@ off(type: 'bluetoothScanResultChange', callback?: Callback<BluetoothScanResult>)
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -3369,13 +3123,7 @@ isPoiServiceSupported(): boolean
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -3421,13 +3169,7 @@ getPoiInfo(): Promise<PoiInfo>
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -3476,13 +3218,7 @@ getDistanceBetweenLocations(location1: Location, location2: Location): number
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -3568,13 +3304,7 @@ beacon围栏是指通过蓝牙beacon设备和手机应用配合，实现“虚�
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -3668,13 +3398,7 @@ removeBeaconFence(beaconFence?: BeaconFence): Promise<void>
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -3730,13 +3454,7 @@ isBeaconFenceSupported(): boolean;
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -3795,13 +3513,7 @@ isWlanBssidMatched(wlanBssidArray: Array<string>, rssiThreshold: number, needSta
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';
@@ -3851,13 +3563,7 @@ getActiveGeoFences(): Promise<Map<number, Geofence>>
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { geoLocationManager } from '@kit.LocationKit';

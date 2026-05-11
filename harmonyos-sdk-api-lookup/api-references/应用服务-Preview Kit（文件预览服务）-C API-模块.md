@@ -1,1 +1,0 @@
-* **[Preview](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/openfileboost_preview)**

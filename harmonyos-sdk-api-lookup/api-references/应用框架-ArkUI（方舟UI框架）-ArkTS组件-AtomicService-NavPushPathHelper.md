@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NavPushPathHelper } from '@kit.ArkUI';
@@ -539,13 +533,7 @@ PhonePC/2in1TabletTVWearable
 
 主包：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -580,13 +568,7 @@ PhonePC/2in1TabletTVWearable
 
 分包hsptest1：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // PageOne.ets
@@ -794,13 +776,7 @@ PhonePC/2in1TabletTVWearable
 
 工程配置文件module.json5中配置 {"routerMap": "$profile:route\_map"}，在route\_map.json文件配置如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. {
@@ -819,13 +795,7 @@ PhonePC/2in1TabletTVWearable
 
 分包hsptest2：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // PageTwo.ets
@@ -870,13 +840,7 @@ PhonePC/2in1TabletTVWearable
 
 工程配置文件module.json5中配置 {"routerMap": "$profile:route\_map"}，在route\_map.json文件配置如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. {

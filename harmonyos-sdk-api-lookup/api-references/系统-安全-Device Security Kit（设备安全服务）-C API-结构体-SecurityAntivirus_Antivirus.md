@@ -33,13 +33,7 @@ PC/2in1
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char *SecurityAntivirus_Antivirus::bundleName
@@ -53,13 +47,7 @@ PC/2in1
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char *SecurityAntivirus_Antivirus::metadata
@@ -69,13 +57,7 @@ PC/2in1
 
 防病毒应用信息（包含当前版本号、上次更新时间、病毒防护状态、用户ID的json字符串），其中版本号字段要求请参见[链接](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/app-configuration-file)，上次更新时间为10位秒级或13位毫秒级时间戳，病毒防护状态仅限on或off，user\_id为用户ID。示例格式如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. {

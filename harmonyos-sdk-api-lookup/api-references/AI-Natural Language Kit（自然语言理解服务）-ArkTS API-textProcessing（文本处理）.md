@@ -8,13 +8,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { textProcessing, EntityType } from '@kit.NaturalLanguageKit';
@@ -140,13 +134,7 @@ getWordSegment(text: string): Promise<Array<WordSegment>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { textProcessing } from '@kit.NaturalLanguageKit'
@@ -231,13 +219,7 @@ getEntity(text: string, entityConfig?: EntityConfig): Promise<Array<Entity>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { textProcessing, EntityType } from '@kit.NaturalLanguageKit';
@@ -325,13 +307,7 @@ init(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { textProcessing } from '@kit.NaturalLanguageKit';
@@ -389,13 +365,7 @@ release(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { textProcessing } from '@kit.NaturalLanguageKit';

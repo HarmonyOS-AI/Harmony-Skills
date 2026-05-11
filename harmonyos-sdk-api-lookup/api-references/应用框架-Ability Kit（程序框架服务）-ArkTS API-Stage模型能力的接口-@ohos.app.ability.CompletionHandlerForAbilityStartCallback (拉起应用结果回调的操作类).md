@@ -9,13 +9,7 @@ CompletionHandlerForAbilityStartCallback作为[AbilityStartCallback](https://dev
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { CompletionHandlerForAbilityStartCallback } from '@kit.AbilityKit';
@@ -88,13 +82,7 @@ type OnRequestFailureFn = (name: string, failureCode: AbilityStartFailureCode, f
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityStartFailureCode, common, CompletionHandlerForAbilityStartCallback } from '@kit.AbilityKit';

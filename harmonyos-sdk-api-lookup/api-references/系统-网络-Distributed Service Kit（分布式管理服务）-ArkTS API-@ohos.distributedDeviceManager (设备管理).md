@@ -16,13 +16,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { distributedDeviceManager } from '@kit.DistributedServiceKit';
@@ -66,13 +60,7 @@ createDeviceManager(bundleName: string): DeviceManager
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { distributedDeviceManager } from '@kit.DistributedServiceKit';
@@ -117,13 +105,7 @@ releaseDeviceManager(deviceManager: DeviceManager): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { distributedDeviceManager } from '@kit.DistributedServiceKit';
@@ -212,13 +194,7 @@ getAvailableDeviceListSync(): Array<DeviceBasicInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { distributedDeviceManager } from '@kit.DistributedServiceKit';
@@ -266,13 +242,7 @@ getAvailableDeviceList(callback:AsyncCallback<Array<DeviceBasicInfo>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { distributedDeviceManager } from '@kit.DistributedServiceKit';
@@ -326,13 +296,7 @@ getAvailableDeviceList(): Promise<Array<DeviceBasicInfo>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { distributedDeviceManager } from '@kit.DistributedServiceKit';
@@ -379,13 +343,7 @@ getLocalDeviceNetworkId(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { distributedDeviceManager } from '@kit.DistributedServiceKit';
@@ -434,13 +392,7 @@ getLocalDeviceName(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { distributedDeviceManager } from '@kit.DistributedServiceKit';
@@ -489,13 +441,7 @@ getLocalDeviceType(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { distributedDeviceManager } from '@kit.DistributedServiceKit';
@@ -544,13 +490,7 @@ getLocalDeviceId(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { distributedDeviceManager } from '@kit.DistributedServiceKit';
@@ -608,13 +548,7 @@ getDeviceName(networkId: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { distributedDeviceManager } from '@kit.DistributedServiceKit';
@@ -674,13 +608,7 @@ getDeviceType(networkId: string): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { distributedDeviceManager } from '@kit.DistributedServiceKit';
@@ -734,13 +662,7 @@ startDiscovering(discoverParam: {[key: string]: Object;} , filterOptions?: {[key
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { distributedDeviceManager } from '@kit.DistributedServiceKit';
@@ -798,13 +720,7 @@ stopDiscovering(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { distributedDeviceManager } from '@kit.DistributedServiceKit';
@@ -856,13 +772,7 @@ bindTarget(deviceId: string, bindParam: {[key: string]: Object;} , callback: Asy
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { distributedDeviceManager } from '@kit.DistributedServiceKit';
@@ -931,13 +841,7 @@ unbindTarget(deviceId: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { distributedDeviceManager } from '@kit.DistributedServiceKit';
@@ -987,13 +891,7 @@ on(type: 'deviceStateChange', callback: Callback<{ action: DeviceStateChange; de
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { distributedDeviceManager } from '@kit.DistributedServiceKit';
@@ -1054,13 +952,7 @@ off(type: 'deviceStateChange', callback?: Callback<{ action: DeviceStateChange; 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { distributedDeviceManager } from '@kit.DistributedServiceKit';
@@ -1121,13 +1013,7 @@ on(type: 'discoverSuccess', callback: Callback<{ device: DeviceBasicInfo; }>): v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { distributedDeviceManager } from '@kit.DistributedServiceKit';
@@ -1187,13 +1073,7 @@ off(type: 'discoverSuccess', callback?: Callback<{ device: DeviceBasicInfo; }>):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { distributedDeviceManager } from '@kit.DistributedServiceKit';
@@ -1253,13 +1133,7 @@ on(type: 'deviceNameChange', callback: Callback<{ deviceName: string; }>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { distributedDeviceManager } from '@kit.DistributedServiceKit';
@@ -1314,13 +1188,7 @@ off(type: 'deviceNameChange', callback?: Callback<{ deviceName: string; }>): voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { distributedDeviceManager } from '@kit.DistributedServiceKit';
@@ -1375,13 +1243,7 @@ on(type: 'discoverFailure', callback: Callback<{ reason: number; }>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { distributedDeviceManager } from '@kit.DistributedServiceKit';
@@ -1436,13 +1298,7 @@ off(type: 'discoverFailure', callback?: Callback<{ reason: number; }>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { distributedDeviceManager } from '@kit.DistributedServiceKit';
@@ -1497,13 +1353,7 @@ on(type: 'serviceDie', callback?: Callback<{}>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { distributedDeviceManager } from '@kit.DistributedServiceKit';
@@ -1554,13 +1404,7 @@ off(type: 'serviceDie', callback?: Callback<{}>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { distributedDeviceManager } from '@kit.DistributedServiceKit';

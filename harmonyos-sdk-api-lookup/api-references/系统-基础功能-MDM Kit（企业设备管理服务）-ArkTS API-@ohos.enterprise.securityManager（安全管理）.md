@@ -12,13 +12,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { securityManager } from '@kit.MDMKit';
@@ -71,13 +65,7 @@ uninstallUserCertificate(admin: Want, certUri: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { securityManager } from '@kit.MDMKit';
@@ -145,13 +133,7 @@ installUserCertificate(admin: Want, certificate: CertBlob): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { securityManager } from '@kit.MDMKit';
@@ -229,13 +211,7 @@ installUserCertificate(admin: Want, certificate: CertBlob, accountId: number): s
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { securityManager } from '@kit.MDMKit';
@@ -308,13 +284,7 @@ getUserCertificates(admin: Want, accountId: number): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { securityManager } from '@kit.MDMKit';
@@ -381,13 +351,7 @@ getSecurityStatus(admin: Want, item: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { securityManager } from '@kit.MDMKit';
@@ -447,13 +411,7 @@ setPasswordPolicy(admin: Want, policy: PasswordPolicy): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { securityManager } from '@kit.MDMKit';
@@ -523,13 +481,7 @@ getPasswordPolicy(admin: Want): PasswordPolicy
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { securityManager } from '@kit.MDMKit';
@@ -590,13 +542,7 @@ setAppClipboardPolicy(admin: Want, tokenId: number, policy: ClipboardPolicy): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { securityManager } from '@kit.MDMKit';
@@ -663,13 +609,7 @@ getAppClipboardPolicy(admin: Want, tokenId?: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { securityManager } from '@kit.MDMKit';
@@ -731,13 +671,7 @@ setAppClipboardPolicy(admin: Want, bundleName: string, accountId: number, policy
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { securityManager } from '@kit.MDMKit';
@@ -805,13 +739,7 @@ getAppClipboardPolicy(admin: Want, bundleName: string, accountId: number): strin
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { securityManager } from '@kit.MDMKit';
@@ -879,13 +807,7 @@ setWatermarkImage(admin: Want, bundleName: string, source: string | image.PixelM
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { securityManager } from '@kit.MDMKit';
@@ -947,13 +869,7 @@ cancelWatermarkImage(admin: Want, bundleName: string, accountId: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { securityManager } from '@kit.MDMKit';
@@ -1018,13 +934,7 @@ setPermissionManagedState(admin: Want, applicationInstance: ApplicationInstance,
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -1097,13 +1007,7 @@ getPermissionManagedState(admin: Want, applicationInstance: ApplicationInstance,
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -1182,13 +1086,7 @@ setExternalSourceExtensionsPolicy(admin: Want, policy: common.ManagedPolicy): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common, securityManager } from '@kit.MDMKit';
@@ -1253,13 +1151,7 @@ getExternalSourceExtensionsPolicy(admin: Want): common.ManagedPolicy
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common, securityManager } from '@kit.MDMKit';
@@ -1349,13 +1241,7 @@ installEnterpriseReSignatureCertificate(admin: Want, certificateAlias: string, f
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { securityManager } from '@kit.MDMKit';
@@ -1425,13 +1311,7 @@ uninstallEnterpriseReSignatureCertificate(admin: Want, certificateAlias: string,
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { securityManager } from '@kit.MDMKit';

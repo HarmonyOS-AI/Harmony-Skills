@@ -2,13 +2,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { map, mapCommon } from '@kit.MapKit';
@@ -62,13 +56,7 @@ convertCoordinate(fromType: mapCommon.CoordinateType, toType: mapCommon.Coordina
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let wgs84Position: mapCommon.LatLng = {

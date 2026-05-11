@@ -11,13 +11,7 @@ Flash继承自[FlashQuery](https://developer.huawei.com/consumer/cn/doc/harmonyo
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { camera } from '@kit.CameraKit';
@@ -60,13 +54,7 @@ setFlashMode(flashMode: FlashMode): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -114,13 +102,7 @@ getFlashMode(): FlashMode
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -162,13 +144,7 @@ onFlashStateChange(callback: Callback<FlashState>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function onFlashStateChange(photoSession: camera.PhotoSession): void {
@@ -202,13 +178,7 @@ offFlashStateChange(callback?: Callback<FlashState>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function offFlashStateChange(photoSession: camera.PhotoSession): void {

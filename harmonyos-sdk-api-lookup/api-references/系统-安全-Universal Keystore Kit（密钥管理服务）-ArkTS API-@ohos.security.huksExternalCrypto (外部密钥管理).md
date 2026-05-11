@@ -8,13 +8,7 @@
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huksExternalCrypto } from '@kit.UniversalKeystoreKit';
@@ -133,13 +127,7 @@ registerProvider(providerName: string, params: Array<HuksExternalCryptoParam>): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huksExternalCrypto } from '@kit.UniversalKeystoreKit';
@@ -212,13 +200,7 @@ unregisterProvider(providerName: string, params?: Array<HuksExternalCryptoParam>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huksExternalCrypto } from '@kit.UniversalKeystoreKit';
@@ -291,13 +273,7 @@ getUkeyPinAuthState(resourceId: string, params?: Array<HuksExternalCryptoParam>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huksExternalCrypto } from '@kit.UniversalKeystoreKit';
@@ -377,13 +353,7 @@ propertyId表示查询属性的ID信息，当前仅支持GMT 0016-2023中定义�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huksExternalCrypto } from '@kit.UniversalKeystoreKit';

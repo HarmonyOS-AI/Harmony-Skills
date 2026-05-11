@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -36,13 +30,7 @@ constructor()
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -72,13 +60,7 @@ constructor(path: Path)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -113,13 +95,7 @@ set(src: Path): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -165,13 +141,7 @@ moveTo(x: number, y: number) : void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -213,13 +183,7 @@ lineTo(x: number, y: number) : void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -266,13 +230,7 @@ arcTo(x1: number, y1: number, x2: number, y2: number, startDeg: number, sweepDeg
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -317,13 +275,7 @@ quadTo(ctrlX: number, ctrlY: number, endX: number, endY: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -369,13 +321,7 @@ conicTo(ctrlX: number, ctrlY: number, endX: number, endY: number, weight: number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -421,13 +367,7 @@ cubicTo(ctrlX1: number, ctrlY1: number, ctrlX2: number, ctrlY2: number, endX: nu
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -470,13 +410,7 @@ rMoveTo(dx: number, dy: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -518,13 +452,7 @@ rLineTo(dx: number, dy: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -568,13 +496,7 @@ rQuadTo(dx1: number, dy1: number, dx2: number, dy2: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -619,13 +541,7 @@ rConicTo(ctrlX: number, ctrlY: number, endX: number, endY: number, weight: numbe
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -671,13 +587,7 @@ rCubicTo(ctrlX1: number, ctrlY1: number, ctrlX2: number, ctrlY2: number, endX: n
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -726,13 +636,7 @@ addArc(rect: common2D.Rect, startAngle: number, sweepAngle: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common2D, drawing } from '@kit.ArkGraphics2D';
@@ -775,13 +679,7 @@ addCircle(x: number, y: number, radius: number, pathDirection?: PathDirection): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -822,13 +720,7 @@ addOval(rect: common2D.Rect, start: number, pathDirection?: PathDirection): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common2D, drawing } from '@kit.ArkGraphics2D';
@@ -869,13 +761,7 @@ addRect(rect: common2D.Rect, pathDirection?: PathDirection): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common2D, drawing } from '@kit.ArkGraphics2D';
@@ -916,13 +802,7 @@ addRoundRect(roundRect: RoundRect, pathDirection?: PathDirection): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common2D, drawing } from '@kit.ArkGraphics2D';
@@ -964,13 +844,7 @@ addPath(path: Path, matrix?: Matrix | null): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common2D, drawing } from '@kit.ArkGraphics2D';
@@ -1014,13 +888,7 @@ transform(matrix: Matrix): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common2D, drawing } from '@kit.ArkGraphics2D';
@@ -1073,13 +941,7 @@ contains(x: number, y: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common2D, drawing } from '@kit.ArkGraphics2D';
@@ -1112,13 +974,7 @@ setLastPoint(x: number, y: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -1165,13 +1021,7 @@ setFillType(pathFillType: PathFillType): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -1200,13 +1050,7 @@ getFillType(): PathFillType
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -1236,13 +1080,7 @@ getBounds(): common2D.Rect
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common2D, drawing } from '@kit.ArkGraphics2D';
@@ -1288,13 +1126,7 @@ addPolygon(points: Array<common2D.Point>, close: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common2D, drawing } from '@kit.ArkGraphics2D';
@@ -1351,13 +1183,7 @@ offset(dx: number, dy: number): Path
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -1407,13 +1233,7 @@ op(path: Path, pathOp: PathOp): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -1436,13 +1256,7 @@ close(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -1465,13 +1279,7 @@ reset(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -1494,13 +1302,7 @@ rewind(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -1532,13 +1334,7 @@ isEmpty(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -1577,13 +1373,7 @@ isRect(rect: common2D.Rect | null): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common2D, drawing } from '@kit.ArkGraphics2D';
@@ -1629,13 +1419,7 @@ getLength(forceClosed: boolean): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -1687,13 +1471,7 @@ getPositionAndTangent(forceClosed: boolean, distance: number, position: common2D
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common2D, drawing } from '@kit.ArkGraphics2D';
@@ -1744,13 +1522,7 @@ getSegment(forceClosed: boolean, start: number, stop: number, startWithMoveTo: b
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -1783,13 +1555,7 @@ isClosed(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -1845,13 +1611,7 @@ getMatrix(forceClosed: boolean, distance: number, matrix: Matrix, flags: PathMea
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -1903,13 +1663,7 @@ buildFromSvgString(str: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -1943,13 +1697,7 @@ getPathIterator(): PathIterator
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -2002,13 +1750,7 @@ approximate(acceptableError: number): Array<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -2062,13 +1804,7 @@ interpolate(other: Path, weight: number, interpolatedPath: Path): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -2116,13 +1852,7 @@ isInterpolate(other: Path): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -2160,13 +1890,7 @@ isInverseFillType(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -2192,13 +1916,7 @@ toggleInverseFillType(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';

@@ -1,1 +1,0 @@
-* **[dlp\_permission\_api.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-dlp-permission-api-h)**

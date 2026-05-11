@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { usbManager } from '@kit.BasicServicesKit';
@@ -70,13 +64,7 @@ getDevices(): Array<Readonly<USBDevice>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let devicesList: Array<usbManager.USBDevice> = usbManager.getDevices();
@@ -177,13 +165,7 @@ connectDevice(device: USBDevice): Readonly<USBDevicePipe>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function connectDevice() {
@@ -241,13 +223,7 @@ hasRight(deviceName: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function hasRight(): boolean {
@@ -304,13 +280,7 @@ requestRight(deviceName: string): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function requestRight() {
@@ -368,13 +338,7 @@ removeRight(deviceName: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function removeRight(): boolean {
@@ -440,13 +404,7 @@ claimInterface(pipe: USBDevicePipe, iface: USBInterface, force ?: boolean): numb
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function claimInterface() {
@@ -509,13 +467,7 @@ releaseInterface(pipe: USBDevicePipe, iface: USBInterface): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function releaseInterface() {
@@ -575,13 +527,7 @@ setConfiguration(pipe: USBDevicePipe, config: USBConfiguration): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function setConfiguration() {
@@ -646,13 +592,7 @@ setInterface(pipe: USBDevicePipe, iface: USBInterface): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function setInterface() {
@@ -711,13 +651,7 @@ getRawDescriptor(pipe: USBDevicePipe): Uint8Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function getRawDescriptor() {
@@ -772,13 +706,7 @@ getFileDescriptor(pipe: USBDevicePipe): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function getFileDescriptor() {
@@ -838,13 +766,7 @@ usbControlTransfer(pipe: USBDevicePipe, requestparam: USBDeviceRequestParams, ti
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class PARA {
@@ -933,13 +855,7 @@ bulkTransfer(pipe: USBDevicePipe, endpoint: USBEndpoint, buffer: Uint8Array, tim
 
 以下示例代码只是调用bulkTransfer接口的必要流程，实际调用时，设备开发者需要遵循设备相关协议进行调用，确保数据的正确传输和设备的兼容性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // usbManager.getDevices 接口返回数据集合，取其中一个设备对象，并获取权限。
@@ -1020,13 +936,7 @@ usbSubmitTransfer(transfer: UsbDataTransferParams): void
 
 以下示例代码需要放入具体的方法中执行，只是调用usbSubmitTransfer接口的必要流程，实际调用时，设备开发者需要遵循设备相关协议进行调用，确保数据的正确传输和设备的兼容性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // usbManager.getDevices 接口返回数据集合，取其中一个设备对象，并获取权限。
@@ -1121,13 +1031,7 @@ usbCancelTransfer(transfer: UsbDataTransferParams): void
 
 以下示例代码需要放入具体的方法中执行，只是调用usbCancelTransfer接口的必要流程，实际调用时，设备开发者需要遵循设备相关协议进行调用，确保数据的正确传输和设备的兼容性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // usbManager.getDevices 接口返回数据集合，取其中一个设备对象，并获取权限。
@@ -1225,13 +1129,7 @@ closePipe(pipe: USBDevicePipe): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function closePipe() {
@@ -1292,13 +1190,7 @@ hasAccessoryRight(accessory: USBAccessory): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -1355,13 +1247,7 @@ requestAccessoryRight(accessory: USBAccessory): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -1410,13 +1296,7 @@ cancelAccessoryRight(accessory: USBAccessory): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -1461,13 +1341,7 @@ getAccessoryList(): Array<Readonly<USBAccessory>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -1525,13 +1399,7 @@ openAccessory(accessory: USBAccessory): USBAccessoryHandle
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -1583,13 +1451,7 @@ closeAccessory(accessoryHandle: USBAccessoryHandle): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -1651,13 +1513,7 @@ resetUsbDevice(pipe: USBDevicePipe): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function resetUsbDevice() {
@@ -1722,13 +1578,7 @@ controlTransfer(pipe: USBDevicePipe, controlparam: USBControlParams, timeout ?: 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class PARA {

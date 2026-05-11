@@ -9,13 +9,7 @@
 
 PhonePC/2in1TabletTVWearableLite Wearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import router from '@system.router';
@@ -41,13 +35,7 @@ push(options: RouterOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 在当前页面中
@@ -68,13 +56,7 @@ push(options: RouterOptions): void
 16. export default new A()
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 在routerpage2页面中
@@ -113,13 +95,7 @@ replace(options: RouterOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 在当前页面中
@@ -137,13 +113,7 @@ replace(options: RouterOptions): void
 13. export default new C()
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 在detail页面中
@@ -176,13 +146,7 @@ back(options?: BackRouterOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // index页面
@@ -197,13 +161,7 @@ back(options?: BackRouterOptions): void
 10. export default new D()
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // detail页面
@@ -218,13 +176,7 @@ back(options?: BackRouterOptions): void
 10. export default new E()
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // mall页面通过back，将返回detail页面
@@ -237,13 +189,7 @@ back(options?: BackRouterOptions): void
 8. export default new F()
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // detail页面通过back，将返回index页面
@@ -256,13 +202,7 @@ back(options?: BackRouterOptions): void
 8. export default new G()
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 通过back，返回到detail页面
@@ -309,13 +249,7 @@ clear(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import router from '@system.router';
@@ -347,13 +281,7 @@ getLength(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import router from '@system.router';
@@ -386,13 +314,7 @@ getState(): RouterState
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import router from '@system.router';
@@ -427,13 +349,7 @@ enableAlertBeforeBackPage(options: EnableAlertBeforeBackPageOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import router from '@system.router';
@@ -473,13 +389,7 @@ disableAlertBeforeBackPage(options?: DisableAlertBeforeBackPageOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import router from '@system.router';

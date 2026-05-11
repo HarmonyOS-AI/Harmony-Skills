@@ -351,13 +351,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[colors](/consumer/cn/doc/harmonyos-references/ts-basic-components-gauge#colors)接口，实现了多色量规图效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -428,13 +422,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[colors](/consumer/cn/doc/harmonyos-references/ts-basic-components-gauge#colors)接口，实现了单色量规图效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -480,13 +468,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[description](/consumer/cn/doc/harmonyos-references/ts-basic-components-gauge#description11)接口，实现了说明区的设置功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -550,13 +532,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过设置子组件，实现了辅助区的设置功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -613,13 +589,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过设置[GaugeOptions](/consumer/cn/doc/harmonyos-references/ts-basic-components-gauge#gaugeoptions18对象说明)的min、max属性，实现了量规图的最大最小值设置的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -663,13 +633,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[indicator](/consumer/cn/doc/harmonyos-references/ts-basic-components-gauge#indicator11)接口，实现了设置量规图的指针的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -719,13 +683,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[startAngle](/consumer/cn/doc/harmonyos-references/ts-basic-components-gauge#startangle)和[endAngle](/consumer/cn/doc/harmonyos-references/ts-basic-components-gauge#endangle)接口，实现了量规图起止角度设置的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -767,13 +725,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[contentModifier](/consumer/cn/doc/harmonyos-references/ts-basic-components-gauge#contentmodifier12)接口，实现了定制量规图内容区的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -858,13 +810,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[privacySensitive](/consumer/cn/doc/harmonyos-references/ts-basic-components-gauge#privacysensitive12)接口，实现了隐私隐藏效果，效果展示需要卡片框架支持
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -897,13 +843,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[indicator](/consumer/cn/doc/harmonyos-references/ts-basic-components-gauge#indicator11)接口，实现了自定义指针功能，开发者导入svg类型的图片以替换默认指针。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -926,13 +866,7 @@ PhonePC/2in1TabletTVWearable
 18. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <svg width='200px' height='200px'>

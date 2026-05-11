@@ -2,13 +2,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { map, mapCommon } from '@kit.MapKit';
@@ -30,13 +24,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 设置弧线参数
@@ -91,13 +79,7 @@ getColor(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let color: number = mapArc.getColor();
@@ -129,13 +111,7 @@ getWidth(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let width: number = mapArc.getWidth();
@@ -167,13 +143,7 @@ setColor(color: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. mapArc.setColor(0xffff00ff);
@@ -205,13 +175,7 @@ setWidth(width: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. mapArc.setWidth(20);

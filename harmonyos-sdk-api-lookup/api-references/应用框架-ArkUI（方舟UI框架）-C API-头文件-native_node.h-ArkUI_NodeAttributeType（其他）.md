@@ -1,10 +1,4 @@
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum ArkUI_NodeAttributeType
@@ -22,13 +16,7 @@
 
 ## NODE\_ENABLED
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_ENABLED = 6
@@ -58,13 +46,7 @@
 
 ## NODE\_FOCUSABLE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_FOCUSABLE = 39
@@ -94,13 +76,7 @@
 
 ## NODE\_RENDER\_GROUP
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_RENDER_GROUP = 80
@@ -130,13 +106,7 @@
 
 ## NODE\_CLICK\_DISTANCE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_CLICK_DISTANCE = 97
@@ -158,13 +128,7 @@
 
 ## NODE\_ALLOW\_FORCE\_DARK
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_ALLOW_FORCE_DARK = 108

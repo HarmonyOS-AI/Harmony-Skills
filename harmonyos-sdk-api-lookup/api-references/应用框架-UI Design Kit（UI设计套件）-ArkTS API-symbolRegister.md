@@ -6,13 +6,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { symbolRegister } from '@kit.UIDesignKit';
@@ -64,13 +58,7 @@ registerSymbol(ttfSrc: resourceManager.Resource, jsonSrc: resourceManager.Resour
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { symbolRegister } from '@kit.UIDesignKit';

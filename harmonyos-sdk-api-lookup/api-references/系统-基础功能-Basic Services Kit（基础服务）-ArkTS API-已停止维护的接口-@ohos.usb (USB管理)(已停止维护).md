@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import usb from "@ohos.usb";
@@ -42,13 +36,7 @@ getDevices(): Array<Readonly<USBDevice>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let devicesList = usb.getDevices();
@@ -137,13 +125,7 @@ connectDevice(device: USBDevice): Readonly<USBDevicePipe>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let devicepipe= usb.connectDevice(device);
@@ -178,13 +160,7 @@ hasRight(deviceName: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let devicesName= "1-1";
@@ -220,13 +196,7 @@ requestRight(deviceName: string): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let devicesName= "1-1";
@@ -267,13 +237,7 @@ claimInterface(pipe: USBDevicePipe, iface: USBInterface, force ?: boolean): numb
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let ret = usb.claimInterface(devicepipe, interfaces);
@@ -311,13 +275,7 @@ releaseInterface(pipe: USBDevicePipe, iface: USBInterface): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let ret = usb.releaseInterface(devicepipe, interfaces);
@@ -355,13 +313,7 @@ setConfiguration(pipe: USBDevicePipe, config: USBConfig): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let ret = usb.setConfiguration(devicepipe, config);
@@ -399,13 +351,7 @@ setInterface(pipe: USBDevicePipe, iface: USBInterface): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let ret = usb.setInterface(devicepipe, interfaces);
@@ -442,13 +388,7 @@ getRawDescriptor(pipe: USBDevicePipe): Uint8Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let ret = usb.getRawDescriptor(devicepipe);
@@ -484,13 +424,7 @@ getFileDescriptor(pipe: USBDevicePipe): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let ret = usb.getFileDescriptor(devicepipe);
@@ -528,13 +462,7 @@ controlTransfer(pipe: USBDevicePipe, controlparam: USBControlParams, timeout ?: 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let param = {
@@ -583,13 +511,7 @@ bulkTransfer(pipe: USBDevicePipe, endpoint: USBEndpoint, buffer: Uint8Array, tim
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. //usb.getDevices 接口返回数据集合，取其中一个设备对象，并获取权限 。
@@ -630,13 +552,7 @@ closePipe(pipe: USBDevicePipe): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let ret = usb.closePipe(devicepipe);

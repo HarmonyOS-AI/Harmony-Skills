@@ -2,13 +2,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { map, mapCommon } from '@kit.MapKit';
@@ -30,13 +24,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let mapCircleOptions: mapCommon.MapCircleOptions = {
@@ -79,13 +67,7 @@ getCenter(): mapCommon.LatLng
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let center: mapCommon.LatLng = mapCircle.getCenter();
@@ -117,13 +99,7 @@ getFillColor(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let fillColor: number = mapCircle.getFillColor();
@@ -155,13 +131,7 @@ getRadius(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let radius: number = mapCircle.getRadius();
@@ -193,13 +163,7 @@ getStrokeColor(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let strokeColor: number = mapCircle.getStrokeColor();
@@ -231,13 +195,7 @@ getPatterns(): Array<mapCommon.PatternItem>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let patterns: Array<mapCommon.PatternItem> = mapCircle.getPatterns();
@@ -269,13 +227,7 @@ getStrokeWidth(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let strokeWidth: number = mapCircle.getStrokeWidth();
@@ -307,13 +259,7 @@ isClickable(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let clickable: boolean = mapCircle.isClickable();
@@ -345,13 +291,7 @@ setCenter(center: mapCommon.LatLng): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let center: mapCommon.LatLng = {latitude: 31.98, longitude: 116.4};
@@ -384,13 +324,7 @@ setClickable(clickable: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let clickable = true;
@@ -423,13 +357,7 @@ setFillColor(color: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let fillColor = 0xFF00FFFF;
@@ -462,13 +390,7 @@ setRadius(radius: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let radius = 300;
@@ -501,13 +423,7 @@ setStrokeColor(color: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let strokeColor = 0xFFFF0000;
@@ -540,13 +456,7 @@ setPatterns(patterns: Array<mapCommon.PatternItem>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let patterns: Array<mapCommon.PatternItem> = [
@@ -582,13 +492,7 @@ setStrokeWidth(width: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let width = 10;

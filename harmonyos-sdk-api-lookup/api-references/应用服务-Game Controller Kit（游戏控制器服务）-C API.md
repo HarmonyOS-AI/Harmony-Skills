@@ -1,2 +1,0 @@
-* **[模块](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/game-controller-module)**
-* **[头文件和结构体](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/game-controller-headerfile-and-struct)**

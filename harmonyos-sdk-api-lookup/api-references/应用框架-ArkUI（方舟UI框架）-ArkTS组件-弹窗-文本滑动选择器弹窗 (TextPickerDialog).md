@@ -162,13 +162,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过点击按钮弹出文本选择弹窗。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -233,13 +227,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置disappearTextStyle、textStyle、selectedTextStyle、acceptButtonStyle、cancelButtonStyle实现了自定义文本和按钮样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -329,13 +317,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例展示了在折叠屏悬停态下设置dialog布局区域的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -402,13 +384,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过alignment、offset设置弹窗的位置。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -452,13 +428,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过maskRect设置遮蔽区。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -506,13 +476,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过backgroundColor、backgroundBlurStyle和shadow设置弹窗背板。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -557,13 +521,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置canLoop设置是否循环滚动。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -609,13 +567,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，新增了[TextPickerDialogOptions](/consumer/cn/doc/harmonyos-references/ts-methods-textpicker-dialog#textpickerdialogoptions对象说明)的selectedBackgroundStyle属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -654,13 +606,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 19开始，该示例通过配置[backgroundBlurStyleOptions](/consumer/cn/doc/harmonyos-references/ts-methods-textpicker-dialog#textpickerdialogoptions对象说明)，实现自定义背景模糊效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -700,13 +646,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 19开始，该示例通过配置[backgroundEffect](/consumer/cn/doc/harmonyos-references/ts-methods-textpicker-dialog#textpickerdialogoptions对象说明)，实现自定义背景效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry

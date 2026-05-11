@@ -7,13 +7,7 @@
 
 WearableLite Wearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import bluetooth from '@system.bluetooth';
@@ -42,13 +36,7 @@ WearableLite Wearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bluetooth.startBLEScan({
@@ -87,13 +75,7 @@ WearableLite Wearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bluetooth.stopBLEScan({
@@ -150,13 +132,7 @@ WearableLite Wearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bluetooth.subscribeBLEFound({
@@ -179,13 +155,7 @@ WearableLite Wearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bluetooth.unsubscribeBLEFound();

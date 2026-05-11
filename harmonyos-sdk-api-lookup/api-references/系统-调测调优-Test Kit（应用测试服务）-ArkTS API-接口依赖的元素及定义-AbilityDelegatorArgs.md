@@ -10,13 +10,7 @@ AbilityDelegatorArgs模块提供在应用程序执行测试用例期间，获取
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -47,13 +41,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';

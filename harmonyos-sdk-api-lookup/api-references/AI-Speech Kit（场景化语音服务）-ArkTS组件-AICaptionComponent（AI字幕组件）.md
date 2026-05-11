@@ -6,13 +6,7 @@ AI字幕控件使用AI能力将语音实时转化成文本并翻译，提供原�
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {
@@ -56,13 +50,7 @@ build(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AICaptionComponent, AICaptionController, AICaptionOptions } from '@kit.SpeechKit';
@@ -111,13 +99,7 @@ AI字幕控件的主要功能入口类。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AICaptionComponent, AICaptionOptions, AICaptionController } from '@kit.SpeechKit';
@@ -176,13 +158,7 @@ getAudioInfo(): AudioInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AICaptionController, AudioInfo } from '@kit.SpeechKit';
@@ -228,13 +204,7 @@ writeAudio(audioData: AudioData): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AICaptionController } from '@kit.SpeechKit';

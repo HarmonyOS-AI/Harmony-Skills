@@ -6,13 +6,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { textRecognition } from '@kit.CoreVisionKit';
@@ -158,13 +152,7 @@ init(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { textRecognition } from '@kit.CoreVisionKit';
@@ -226,13 +214,7 @@ release(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { textRecognition } from '@kit.CoreVisionKit';
@@ -308,13 +290,7 @@ recognizeText(visionInfo: VisionInfo, callback: AsyncCallback<TextRecognitionRes
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { textRecognition } from '@kit.CoreVisionKit'
@@ -429,13 +405,7 @@ recognizeText(visionInfo: VisionInfo, configuration ?: TextRecognitionConfigurat
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { textRecognition } from '@kit.CoreVisionKit'
@@ -539,13 +509,7 @@ recognizeText(visionInfo: VisionInfo, configuration: TextRecognitionConfiguratio
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { textRecognition } from '@kit.CoreVisionKit'
@@ -652,13 +616,7 @@ getSupportedLanguages(): Promise<Array<string>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { textRecognition } from '@kit.CoreVisionKit';
@@ -716,13 +674,7 @@ getSupportedLanguages(callback: AsyncCallback<Array<string>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { textRecognition } from '@kit.CoreVisionKit';

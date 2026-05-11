@@ -8,13 +8,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { imageFeaturePicker } from '@kit.Penkit';
@@ -85,13 +79,7 @@ pickForResult(x?:number, y?:number):Promise<PickedColorInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async colorPick(x?: number, y?: number): Promise<imageFeaturePicker.PickedColorInfo> {
@@ -148,13 +136,7 @@ pickForResult(x?:number, y?:number, showValue?:boolean):Promise<PickedColorInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async colorPick(x?: number, y?: number): Promise<imageFeaturePicker.PickedColorInfo> {

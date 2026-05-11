@@ -38,13 +38,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过hoverEffect设置组件的鼠标悬浮态显示效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

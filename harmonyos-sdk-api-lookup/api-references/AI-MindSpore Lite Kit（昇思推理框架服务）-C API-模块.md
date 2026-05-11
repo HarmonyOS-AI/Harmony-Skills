@@ -1,1 +1,0 @@
-* **[MindSpore](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-mindspore)**

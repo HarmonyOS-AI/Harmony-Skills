@@ -9,13 +9,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpPermission } from '@kit.DataProtectionKit';
@@ -61,13 +55,7 @@ isDLPFile(fd: number): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpPermission } from '@kit.DataProtectionKit';
@@ -121,13 +109,7 @@ isDLPFile(fd: number, callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpPermission } from '@kit.DataProtectionKit';
@@ -179,13 +161,7 @@ getDLPPermissionInfo(): Promise<DLPPermissionInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpPermission } from '@kit.DataProtectionKit';
@@ -235,13 +211,7 @@ getDLPPermissionInfo(callback: AsyncCallback<DLPPermissionInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpPermission } from '@kit.DataProtectionKit';
@@ -300,13 +270,7 @@ getOriginalFileName(fileName: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpPermission } from '@kit.DataProtectionKit';
@@ -346,13 +310,7 @@ getDLPSuffix(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpPermission } from '@kit.DataProtectionKit';
@@ -396,13 +354,7 @@ on(type: 'openDLPFile', listener: Callback<AccessedDLPFileInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpPermission } from '@kit.DataProtectionKit';
@@ -447,13 +399,7 @@ off(type: 'openDLPFile', listener?: Callback<AccessedDLPFileInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpPermission } from '@kit.DataProtectionKit';
@@ -495,13 +441,7 @@ isInSandbox(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpPermission } from '@kit.DataProtectionKit';
@@ -546,13 +486,7 @@ isInSandbox(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpPermission } from '@kit.DataProtectionKit';
@@ -598,13 +532,7 @@ getDLPSupportedFileTypes(): Promise<Array<string>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpPermission } from '@kit.DataProtectionKit';
@@ -649,13 +577,7 @@ getDLPSupportedFileTypes(callback: AsyncCallback<Array<string>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpPermission } from '@kit.DataProtectionKit';
@@ -711,13 +633,7 @@ setRetentionState(docUris: Array<string>): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpPermission } from '@kit.DataProtectionKit';
@@ -767,13 +683,7 @@ setRetentionState(docUris: Array<string>, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpPermission } from '@kit.DataProtectionKit';
@@ -836,13 +746,7 @@ cancelRetentionState(docUris: Array<string>): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpPermission } from '@kit.DataProtectionKit';
@@ -889,13 +793,7 @@ cancelRetentionState(docUris: Array<string>, callback: AsyncCallback<void>): voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpPermission } from '@kit.DataProtectionKit';
@@ -952,13 +850,7 @@ getRetentionSandboxList(bundleName?: string): Promise<Array<RetentionSandboxInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpPermission } from '@kit.DataProtectionKit';
@@ -1005,13 +897,7 @@ getRetentionSandboxList(bundleName: string, callback: AsyncCallback<Array<Retent
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpPermission } from '@kit.DataProtectionKit';
@@ -1059,13 +945,7 @@ getRetentionSandboxList(callback: AsyncCallback<Array<RetentionSandboxInfo>>): v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpPermission } from '@kit.DataProtectionKit';
@@ -1112,13 +992,7 @@ getDLPFileAccessRecords(): Promise<Array<AccessedDLPFileInfo>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpPermission } from '@kit.DataProtectionKit';
@@ -1164,13 +1038,7 @@ getDLPFileAccessRecords(callback: AsyncCallback<Array<AccessedDLPFileInfo>>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpPermission } from '@kit.DataProtectionKit';
@@ -1234,13 +1102,7 @@ startDLPManagerForResult(context: common.UIAbilityContext, want: Want): Promise<
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpPermission } from '@kit.DataProtectionKit';
@@ -1304,13 +1166,7 @@ setSandboxAppConfig(configInfo: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpPermission } from '@kit.DataProtectionKit';
@@ -1356,13 +1212,7 @@ cleanSandboxAppConfig(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpPermission } from '@kit.DataProtectionKit';
@@ -1407,13 +1257,7 @@ getSandboxAppConfig(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpPermission } from '@kit.DataProtectionKit';
@@ -1460,13 +1304,7 @@ isDLPFeatureProvided(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpPermission } from '@kit.DataProtectionKit';
@@ -1514,13 +1352,7 @@ setEnterprisePolicy(policy: EnterprisePolicy): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpPermission } from '@kit.DataProtectionKit';
@@ -1743,13 +1575,7 @@ generateDlpFileForEnterprise(plaintextFd: number, dlpFd: number, property: DLPPr
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpPermission } from '@kit.DataProtectionKit';
@@ -1842,13 +1668,7 @@ decryptDlpFile(dlpFd: number, plaintextFd: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpPermission } from '@kit.DataProtectionKit';
@@ -1924,13 +1744,7 @@ queryDlpPolicy(dlpFd: number): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpPermission } from '@kit.DataProtectionKit';
@@ -2089,13 +1903,7 @@ connectServer接口代表系统能力侧向前端通信的一次调用。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpPermission } from '@kit.DataProtectionKit';
@@ -2154,13 +1962,7 @@ constructor()
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpPermission } from '@kit.DataProtectionKit';
@@ -2216,13 +2018,7 @@ registerPlugin将plugin注册到SA（System Ability）侧，待SA（System Abili
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpPermission } from '@kit.DataProtectionKit';
@@ -2279,13 +2075,7 @@ unregisterPlugin将plugin从SA（System Ability）侧注销注册。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpPermission } from '@kit.DataProtectionKit';

@@ -6,13 +6,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { readerCore } from '@kit.ReaderKit';
@@ -215,13 +209,7 @@ init(context: common.UIAbilityContext): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { readerCore, ReadPageComponent } from '@kit.ReaderKit';
@@ -296,13 +284,7 @@ registerBookParser接口需要在[startPlay](/consumer/cn/doc/harmonyos-referenc
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bookParser, readerCore, ReadPageComponent } from '@kit.ReaderKit';
@@ -377,13 +359,7 @@ setPageConfig(pageConfig: ReaderSetting): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { readerCore, ReadPageComponent } from '@kit.ReaderKit';
@@ -489,13 +465,7 @@ startPlay接口需在[registerBookParser](/consumer/cn/doc/harmonyos-references/
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bookParser, readerCore, ReadPageComponent } from '@kit.ReaderKit';
@@ -576,13 +546,7 @@ flipPage(isNext: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { readerCore, ReadPageComponent } from '@kit.ReaderKit';
@@ -636,13 +600,7 @@ releaseBook(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { readerCore, ReadPageComponent } from '@kit.ReaderKit';
@@ -705,13 +663,7 @@ on(type: 'pageShow', callback: Callback<PageDataInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { readerCore, ReadPageComponent } from '@kit.ReaderKit';
@@ -776,13 +728,7 @@ off(type: 'pageShow', callback?: Callback<PageDataInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { readerCore, ReadPageComponent } from '@kit.ReaderKit';
@@ -849,13 +795,7 @@ on(type: 'resourceRequest', callback: bookParser.CallbackRes<string, ArrayBuffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bookParser, readerCore, ReadPageComponent } from '@kit.ReaderKit';
@@ -941,13 +881,7 @@ off(type: 'resourceRequest', callback?: bookParser.CallbackRes<string, ArrayBuff
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { readerCore, ReadPageComponent } from '@kit.ReaderKit';

@@ -1,3 +1,0 @@
-* **[rawfile](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-rawfile)**
-* **[resourcemanager](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-resourcemanager)**
-* **[i18n](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-i18n)**

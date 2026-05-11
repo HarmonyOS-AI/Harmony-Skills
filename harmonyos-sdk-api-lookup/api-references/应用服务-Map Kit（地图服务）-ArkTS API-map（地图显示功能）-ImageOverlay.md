@@ -2,13 +2,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { mapCommon } from '@kit.MapKit';
@@ -30,13 +24,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let imageOverlayParams: mapCommon.ImageOverlayParams = {
@@ -85,13 +73,7 @@ getBearing(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let bearing: number = imageOverlay.getBearing();
@@ -123,13 +105,7 @@ getBounds(): mapCommon.LatLngBounds
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let bounds: mapCommon.LatLngBounds = imageOverlay.getBounds();
@@ -161,13 +137,7 @@ getHeight(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let height: number = imageOverlay.getHeight();
@@ -199,13 +169,7 @@ getWidth(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let width: number = imageOverlay.getWidth();
@@ -237,13 +201,7 @@ getPosition(): mapCommon.LatLng
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let position: mapCommon.LatLng = imageOverlay.getPosition();
@@ -275,13 +233,7 @@ getTransparency(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let transparency: number = imageOverlay.getTransparency();
@@ -313,13 +265,7 @@ isClickable(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let click: boolean = imageOverlay.isClickable();
@@ -351,13 +297,7 @@ setBearing(bearing: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. imageOverlay.setBearing(180);
@@ -389,13 +329,7 @@ setClickable(clickable: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. imageOverlay.setClickable(false);
@@ -428,13 +362,7 @@ setDimensions(width: number, height?: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. imageOverlay.setDimensions(100000, 100000);
@@ -474,13 +402,7 @@ setImage(image: ResourceStr | image.PixelMap): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 图标需存放在resources/rawfile目录下
@@ -513,13 +435,7 @@ setBounds(bounds: mapCommon.LatLngBounds): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let bounds: mapCommon.LatLngBounds = {
@@ -555,13 +471,7 @@ setPosition(position: mapCommon.LatLng): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let position: mapCommon.LatLng = { longitude: 118, latitude: 31 };
@@ -594,13 +504,7 @@ setTransparency(transparency: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. imageOverlay.setTransparency(0.1);

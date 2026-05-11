@@ -23,13 +23,7 @@ Function disabled. Possible caused by the param disable in ConfigOption is true.
 
 调用配置接口开启打点功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hiAppEvent } from '@kit.PerformanceAnalysisKit';

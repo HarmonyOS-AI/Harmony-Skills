@@ -9,13 +9,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PermissionRequestResult } from '@kit.AbilityKit';
@@ -46,13 +40,7 @@ PhonePC/2in1TabletTVWearable
 
 示例中context的获取方式请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityAccessCtrl, Context, common } from '@kit.AbilityKit';

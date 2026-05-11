@@ -8,13 +8,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileShare } from '@kit.CoreFileKit';
@@ -172,13 +166,7 @@ persistPermission(policies: Array<PolicyInfo>): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -266,13 +254,7 @@ revokePermission(policies: Array<PolicyInfo>): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -360,13 +342,7 @@ activatePermission(policies: Array<PolicyInfo>): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -454,13 +430,7 @@ deactivatePermission(policies: Array<PolicyInfo>): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -533,13 +503,7 @@ checkPersistentPermission(policies: Array<PolicyInfo>): Promise<Array<boolean>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

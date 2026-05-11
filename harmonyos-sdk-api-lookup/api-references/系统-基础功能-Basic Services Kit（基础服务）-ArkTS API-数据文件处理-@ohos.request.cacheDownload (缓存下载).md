@@ -12,13 +12,7 @@ request部件主要给应用提供上传下载文件、后台传输代理的基�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cacheDownload } from '@kit.BasicServicesKit';
@@ -208,13 +202,7 @@ download(url: string, options: CacheDownloadOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cacheDownload, BusinessError } from '@kit.BasicServicesKit';
@@ -268,13 +256,7 @@ cancel(url: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cacheDownload, BusinessError } from '@kit.BasicServicesKit';
@@ -332,13 +314,7 @@ setMemoryCacheSize(bytes: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cacheDownload, BusinessError } from '@kit.BasicServicesKit';
@@ -385,13 +361,7 @@ setFileCacheSize(bytes: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cacheDownload, BusinessError } from '@kit.BasicServicesKit';
@@ -436,13 +406,7 @@ setDownloadInfoListSize(size: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cacheDownload, BusinessError } from '@kit.BasicServicesKit';
@@ -498,13 +462,7 @@ getDownloadInfo(url: string): DownloadInfo | undefined
 | --- | --- |
 | 201 | permission denied. |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cacheDownload, BusinessError } from '@kit.BasicServicesKit';
@@ -553,13 +511,7 @@ clearMemoryCache(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cacheDownload } from '@kit.BasicServicesKit';
@@ -579,13 +531,7 @@ clearFileCache(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cacheDownload } from '@kit.BasicServicesKit';
@@ -614,13 +560,7 @@ onDownloadSuccess(url: string, callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cacheDownload } from '@kit.BasicServicesKit';
@@ -659,13 +599,7 @@ onDownloadError(url: string, callback: Callback<DownloadError>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cacheDownload } from '@kit.BasicServicesKit';
@@ -704,13 +638,7 @@ offDownloadSuccess(url: string, callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cacheDownload } from '@kit.BasicServicesKit';
@@ -751,13 +679,7 @@ offDownloadError(url: string, callback?: Callback<DownloadError>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cacheDownload } from '@kit.BasicServicesKit';

@@ -40,13 +40,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置monopolizeEvents实现组件是否独占事件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

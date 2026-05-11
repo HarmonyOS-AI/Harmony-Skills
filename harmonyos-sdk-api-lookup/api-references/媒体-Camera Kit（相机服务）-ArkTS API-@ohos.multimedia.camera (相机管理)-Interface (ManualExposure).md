@@ -11,13 +11,7 @@ ManualExposure继承自[ManualExposureQuery](https://developer.huawei.com/consum
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { camera } from '@kit.CameraKit';
@@ -56,13 +50,7 @@ getExposureDuration(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -114,13 +102,7 @@ setExposureDuration(exposureDuration: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -160,13 +142,7 @@ onExposureInfoChange(callback: Callback<ExposureInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function onExposureInfoChange(photoSession: camera.PhotoSession): void {
@@ -200,13 +176,7 @@ offExposureInfoChange(callback?: Callback<ExposureInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function offExposureInfoChange(photoSession: camera.PhotoSession): void {

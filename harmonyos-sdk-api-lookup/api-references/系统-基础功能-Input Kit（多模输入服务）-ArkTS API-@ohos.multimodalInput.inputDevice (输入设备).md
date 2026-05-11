@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { inputDevice } from '@kit.InputKit';
@@ -50,13 +44,7 @@ getDeviceList(callback: AsyncCallback<Array<number>>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { inputDevice } from '@kit.InputKit';
@@ -106,13 +94,7 @@ getDeviceList(): Promise<Array<number>>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { inputDevice } from '@kit.InputKit';
@@ -171,13 +153,7 @@ getDeviceInfo(deviceId: number, callback: AsyncCallback<InputDeviceData>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { inputDevice } from '@kit.InputKit';
@@ -246,13 +222,7 @@ getDeviceInfo(deviceId: number): Promise<InputDeviceData>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { inputDevice } from '@kit.InputKit';
@@ -319,13 +289,7 @@ getDeviceInfoSync(deviceId: number): InputDeviceData
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { inputDevice } from '@kit.InputKit';
@@ -381,13 +345,7 @@ on(type: "change", listener: Callback<DeviceListener>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { inputDevice } from '@kit.InputKit';
@@ -483,13 +441,7 @@ off(type: "change", listener?: Callback<DeviceListener>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { inputDevice } from '@kit.InputKit';
@@ -554,13 +506,7 @@ getDeviceIds(callback: AsyncCallback<Array<number>>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { inputDevice } from '@kit.InputKit';
@@ -610,13 +556,7 @@ getDeviceIds(): Promise<Array<number>>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { inputDevice } from '@kit.InputKit';
@@ -665,13 +605,7 @@ getDevice(deviceId: number, callback: AsyncCallback<InputDeviceData>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { inputDevice } from '@kit.InputKit';
@@ -730,13 +664,7 @@ getDevice(deviceId: number): Promise<InputDeviceData>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { inputDevice } from '@kit.InputKit';
@@ -793,13 +721,7 @@ supportKeys(deviceId: number, keys: Array<KeyCode>, callback: AsyncCallback <Arr
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { inputDevice } from '@kit.InputKit';
@@ -865,13 +787,7 @@ supportKeys(deviceId: number, keys: Array<KeyCode>): Promise<Array<boolean>>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { inputDevice } from '@kit.InputKit';
@@ -939,13 +855,7 @@ supportKeysSync(deviceId: number, keys: Array<KeyCode>): Array<boolean>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { inputDevice } from '@kit.InputKit';
@@ -1001,13 +911,7 @@ getKeyboardType(deviceId: number, callback: AsyncCallback<KeyboardType>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { inputDevice } from '@kit.InputKit';
@@ -1076,13 +980,7 @@ getKeyboardType(deviceId: number): Promise<KeyboardType>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { inputDevice } from '@kit.InputKit';
@@ -1149,13 +1047,7 @@ getKeyboardTypeSync(deviceId: number): KeyboardType
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { inputDevice } from '@kit.InputKit';
@@ -1219,13 +1111,7 @@ isFunctionKeyEnabled(functionKey: FunctionKey): Promise<boolean>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { inputDevice } from '@kit.InputKit';
@@ -1297,13 +1183,7 @@ setFunctionKeyEnabled(functionKey: FunctionKey, enabled: boolean): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { inputDevice } from '@kit.InputKit';
@@ -1351,13 +1231,7 @@ getIntervalSinceLastInput(): Promise<number>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { inputDevice } from '@kit.InputKit';

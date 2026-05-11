@@ -35,13 +35,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NetworkBoost_ServiceType NetworkBoost_SceneDesc::scene
@@ -55,13 +49,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NetworkBoost_SceneEvent NetworkBoost_SceneDesc::sceneEvent
@@ -75,13 +63,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint32_t NetworkBoost_SceneDesc::startTime
@@ -95,13 +77,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint32_t NetworkBoost_SceneDesc::duration

@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { functionalButtonComponentManager } from '@kit.ScenarioFusionKit';
@@ -694,13 +688,7 @@ onGetPhoneNumber(callback: AsyncCallback<GetPhoneNumberResult>): FunctionalButto
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FunctionalButton, functionalButtonComponentManager } from '@kit.ScenarioFusionKit';
@@ -782,13 +770,7 @@ onGetRealtimePhoneNumber(callback: AsyncCallback<GetRealtimePhoneNumberResult>):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {FunctionalButton, functionalButtonComponentManager} from '@kit.ScenarioFusionKit';
@@ -872,13 +854,7 @@ onLaunchApp(callback: AsyncCallback<void>): FunctionalButtonController
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FunctionalButton, functionalButtonComponentManager } from '@kit.ScenarioFusionKit';
@@ -966,13 +942,7 @@ onOpenSetting(callback: AsyncCallback<OpenSettingResult>): FunctionalButtonContr
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FunctionalButton, functionalButtonComponentManager } from '@kit.ScenarioFusionKit';
@@ -1052,13 +1022,7 @@ onChooseAvatar(callback: AsyncCallback<ChooseAvatarResult>): FunctionalButtonCon
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FunctionalButton, functionalButtonComponentManager } from '@kit.ScenarioFusionKit';
@@ -1147,13 +1111,7 @@ onChooseAddress(callback: AsyncCallback<ChooseAddressResult>): FunctionalButtonC
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FunctionalButton, functionalButtonComponentManager } from '@kit.ScenarioFusionKit';
@@ -1250,13 +1208,7 @@ onChooseInvoiceTitle(callback: AsyncCallback<ChooseInvoiceTitleResult>): Functio
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FunctionalButton, functionalButtonComponentManager } from '@kit.ScenarioFusionKit';
@@ -1352,13 +1304,7 @@ onRealNameAuthentication(callback: AsyncCallback<RealNameAuthenticationResult>):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FunctionalButton, functionalButtonComponentManager } from '@kit.ScenarioFusionKit';
@@ -1510,13 +1456,7 @@ onFaceAuthentication(callback: AsyncCallback<FaceAuthenticationResult>): Functio
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FunctionalButton, functionalButtonComponentManager } from '@kit.ScenarioFusionKit';
@@ -1668,13 +1608,7 @@ onFaceVerification(verifyToken: string, callback: AsyncCallback<FaceVerification
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FunctionalButton, functionalButtonComponentManager } from '@kit.ScenarioFusionKit';
@@ -1833,13 +1767,7 @@ onChooseLocation(callback: AsyncCallback<ChooseLocationResult>): FunctionalButto
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FunctionalButton, functionalButtonComponentManager } from '@kit.ScenarioFusionKit';
@@ -1927,13 +1855,7 @@ onSubscribeLiveView(callback: AsyncCallback<SubscribeLiveViewResult>): Functiona
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -2021,13 +1943,7 @@ onPermissionSetting(callback: AsyncCallback<PermissionSettingResult>): Functiona
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FunctionalButton, functionalButtonComponentManager } from '@kit.ScenarioFusionKit';
@@ -2152,13 +2068,7 @@ onRequestSubscribeMessage(callback: AsyncCallback<RequestSubscribeMessageResult>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FunctionalButton, functionalButtonComponentManager } from '@kit.ScenarioFusionKit';
@@ -2253,13 +2163,7 @@ onShare(callback: AsyncCallback<void>): FunctionalButtonController
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FunctionalButton, functionalButtonComponentManager } from '@kit.ScenarioFusionKit';
@@ -2353,13 +2257,7 @@ onFeedback(callback: AsyncCallback<void>): FunctionalButtonController
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FunctionalButton, functionalButtonComponentManager } from '@kit.ScenarioFusionKit';
@@ -2435,13 +2333,7 @@ onGetPhoneNumberAndRiskLevel(callback: Callback<GetPhoneNumberAndRiskLevelResult
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FunctionalButton, functionalButtonComponentManager } from '@kit.ScenarioFusionKit';
@@ -3596,13 +3488,7 @@ PhonePC/2in1TabletTV
 
 ### 示例一（场景化Button使用自定义Modifier设置按钮样式）
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FunctionalButton, functionalButtonComponentManager } from '@kit.ScenarioFusionKit';

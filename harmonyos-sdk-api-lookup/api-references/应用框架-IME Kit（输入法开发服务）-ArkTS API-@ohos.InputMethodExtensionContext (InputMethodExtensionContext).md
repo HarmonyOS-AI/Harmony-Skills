@@ -10,13 +10,7 @@ InputMethodExtensionContext模块是InputMethodExtensionAbility的上下文环�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { InputMethodExtensionContext } from '@kit.IMEKit';
@@ -28,13 +22,7 @@ PhonePC/2in1TabletTVWearable
 
 在使用InputMethodExtensionContext的功能前，需要通过InputMethodExtensionAbility子类实例获取。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { InputMethodExtensionAbility, InputMethodExtensionContext } from '@kit.IMEKit';
@@ -67,13 +55,7 @@ destroy(callback: AsyncCallback<void>): void;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { InputMethodExtensionAbility, InputMethodExtensionContext } from '@kit.IMEKit';
@@ -117,13 +99,7 @@ destroy(): Promise<void>;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { InputMethodExtensionAbility, InputMethodExtensionContext } from '@kit.IMEKit';
@@ -202,13 +178,7 @@ startAbility(want: Want): Promise<void>;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { InputMethodExtensionAbility, InputMethodExtensionContext } from '@kit.IMEKit';

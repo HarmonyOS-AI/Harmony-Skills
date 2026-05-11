@@ -47,13 +47,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkAccelerationStructureKHR XEG_RTShadowAODescription::accelerationStructure
@@ -67,13 +61,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkImageView XEG_RTShadowAODescription::inputDepthImage
@@ -87,13 +75,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkImageView XEG_RTShadowAODescription::inputMotionVectorImage
@@ -107,13 +89,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkImageView XEG_RTShadowAODescription::inputNormalImage
@@ -127,13 +103,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkImageView XEG_RTShadowAODescription::outputShadowAOImage
@@ -147,13 +117,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const void* XEG_RTShadowAODescription::pNext
@@ -167,13 +131,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. float XEG_RTShadowAODescription::projectionMatrix[16]
@@ -187,13 +145,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const XEG_RTAOParameters* XEG_RTShadowAODescription::pRtAOParameters
@@ -207,13 +159,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const XEG_RTShadowAODenoiserParameters* XEG_RTShadowAODescription::pRtShadowAODenoiserParameters
@@ -227,13 +173,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const XEG_RTShadowParameters* XEG_RTShadowAODescription::pRtShadowParameters
@@ -247,13 +187,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. XEG_StructureType XEG_RTShadowAODescription::sType
@@ -267,13 +201,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. float XEG_RTShadowAODescription::viewMatrix[16]
@@ -287,13 +215,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. float XEG_RTShadowAODescription::worldCameraOrigin[3]
@@ -307,13 +229,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bool XEG_RTShadowAODescription::isAsInTranslatedSpace = false;
@@ -327,13 +243,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. float XEG_RTShadowAODescription::translatedViewMatrix[16];
@@ -347,13 +257,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bool XEG_RTShadowAODescription::ndcFilpY  = false;

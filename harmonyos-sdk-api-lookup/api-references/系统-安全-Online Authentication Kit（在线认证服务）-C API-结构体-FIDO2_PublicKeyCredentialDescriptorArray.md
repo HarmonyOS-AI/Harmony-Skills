@@ -21,13 +21,7 @@ PublicKey凭证描述符数组。
 
 ### allowCredentiallNum
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint32_t FIDO2_PublicKeyCredentialDescriptorArray::allowCredentiallNum
@@ -39,13 +33,7 @@ PublicKey凭证描述符数组。
 
 ### allowCredentials
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FIDO2_PublicKeyCredentialDescriptor* FIDO2_PublicKeyCredentialDescriptorArray::allowCredentials

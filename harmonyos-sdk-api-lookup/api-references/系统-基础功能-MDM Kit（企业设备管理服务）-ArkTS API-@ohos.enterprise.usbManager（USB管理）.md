@@ -14,13 +14,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { usbManager } from '@kit.MDMKit';
@@ -73,13 +67,7 @@ addAllowedUsbDevices(admin: Want, usbDeviceIds: Array<UsbDeviceId>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { usbManager } from '@kit.MDMKit';
@@ -142,13 +130,7 @@ removeAllowedUsbDevices(admin: Want, usbDeviceIds: Array<UsbDeviceId>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { usbManager } from '@kit.MDMKit';
@@ -216,13 +198,7 @@ getAllowedUsbDevices(admin: Want): Array<UsbDeviceId>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { usbManager } from '@kit.MDMKit';
@@ -300,13 +276,7 @@ setUsbStorageDeviceAccessPolicy(admin: Want, usbPolicy: UsbPolicy): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { usbManager } from '@kit.MDMKit';
@@ -371,13 +341,7 @@ getUsbStorageDeviceAccessPolicy(admin: Want): UsbPolicy
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { usbManager } from '@kit.MDMKit';
@@ -443,13 +407,7 @@ addDisallowedUsbDevices(admin: Want, usbDevices: Array<UsbDeviceType>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { usbManager } from '@kit.MDMKit';
@@ -514,13 +472,7 @@ removeDisallowedUsbDevices(admin: Want, usbDevices: Array<UsbDeviceType>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { usbManager } from '@kit.MDMKit';
@@ -590,13 +542,7 @@ getDisallowedUsbDevices(admin: Want): Array<UsbDeviceType>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { usbManager } from '@kit.MDMKit';

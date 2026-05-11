@@ -1,4 +1,0 @@
-* **[@ohos.document (文件交互)](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-document)**
-* **[@ohos.fileio (文件管理)](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-fileio)**
-* **[@ohos.statfs (statfs)](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-statfs)**
-* **[@system.file (文件存储)](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-system-file)**

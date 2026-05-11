@@ -14,13 +14,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @AnimatableExtend(UIComponentName) function functionName(value: typeName) {
@@ -162,13 +156,7 @@ PhonePC/2in1TabletTVWearable
 
 以下示例通过改变Text组件宽度实现逐帧布局的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @AnimatableExtend(Text)
@@ -202,13 +190,7 @@ PhonePC/2in1TabletTVWearable
 
 以下示例实现折线的动画效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class Point {

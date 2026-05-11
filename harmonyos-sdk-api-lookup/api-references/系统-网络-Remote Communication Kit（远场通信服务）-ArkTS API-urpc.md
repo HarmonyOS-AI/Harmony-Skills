@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { urpc } from "@kit.RemoteCommunicationKit";
@@ -102,13 +96,7 @@ FlowbufElement<T>用于定义非数组的URPC入参和返回值类型。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { urpc } from "@kit.RemoteCommunicationKit"
@@ -138,13 +126,7 @@ FlowbufArrayElement<T>用于定义数组类型的URPC入参和返回值类型。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { urpc } from "@kit.RemoteCommunicationKit"
@@ -199,13 +181,7 @@ urpcStubCreate(config: UrpcInitConfiguration, funcList: string | string[]): Prom
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -353,13 +329,7 @@ SessionConfiguration接口定义了会话的配置参数，为开发者提供了
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { urpc } from "@kit.RemoteCommunicationKit";
@@ -424,13 +394,7 @@ UrpcConnectConfiguration配置URPC连接的关键信息，可以配置连接的i
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { urpc } from "@kit.RemoteCommunicationKit"
@@ -470,13 +434,7 @@ IpAndPort用于配置URPC的连接IP和端口号。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { urpc } from "@kit.RemoteCommunicationKit"

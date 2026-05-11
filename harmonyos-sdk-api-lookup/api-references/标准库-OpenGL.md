@@ -19,13 +19,7 @@
 
 具体示例如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef EGLBoolean(*OH_Graphics_QueryGL_FUNC)(void);
@@ -71,13 +65,7 @@ OpenGL扩展接口及使用，可参考[OpenGL ES扩展接口](https://developer
 
 CMakeLists.txt中添加以下lib。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. libace_ndk.z.so
@@ -88,13 +76,7 @@ CMakeLists.txt中添加以下lib。
 
 **头文件**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <ace/xcomponent/native_interface_xcomponent.h>
@@ -107,13 +89,7 @@ CMakeLists.txt中添加以下lib。
 
 **修改app.json5配置文件**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. "appEnvironments": [

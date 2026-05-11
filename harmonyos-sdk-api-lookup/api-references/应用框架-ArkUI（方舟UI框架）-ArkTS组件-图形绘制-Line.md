@@ -357,13 +357,7 @@ PhonePC/2in1TabletTVWearable
 
 通过startPoint、endPoint、fillOpacity、stroke、strokeDashArray、strokeDashOffset属性分别绘制直线的起始点、结束点、透明度、直线颜色、边框间隙、绘制起点。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -421,13 +415,7 @@ PhonePC/2in1TabletTVWearable
 
 通过strokeLineCap属性绘制直线的边框端点样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -478,13 +466,7 @@ PhonePC/2in1TabletTVWearable
 
 通过strokeDashArray属性绘制直线的边框间隙。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -547,13 +529,7 @@ PhonePC/2in1TabletTVWearable
 
 width、height属性分别使用不同的长度类型绘制直线。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -597,13 +573,7 @@ width、height属性分别使用不同的长度类型绘制直线。
 
 以下示例展示了如何使用attributeModifier动态设置Line组件的startPoint、endPoint、stroke、strokeDashArray、strokeDashOffset、strokeLineCap、strokeOpacity、strokeWidth和antiAlias属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

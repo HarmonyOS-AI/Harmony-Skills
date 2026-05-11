@@ -37,13 +37,7 @@ $r(value: string, ...params: any[]): Resource
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -93,13 +87,7 @@ $rawfile(value: string): Resource
 | --- | --- |
 | [Resource](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-resource-manager#resource9) | 资源相关信息，包括应用包名、应用模块名、资源id等。 |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // src/main/resources/rawfile目录下添加startIcon.png。

@@ -6,13 +6,7 @@
 
 PhonePC/2in1TabletTVWearableLite Wearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import app, { AppResponse } from '@system.app';
@@ -48,13 +42,7 @@ static getInfo(): AppResponse
 
 ArkTS示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import app, { AppResponse } from '@system.app';
@@ -68,13 +56,7 @@ ArkTS示例：
 
 JS示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- xxx.hml -->
@@ -98,13 +80,7 @@ JS示例：
 19. </div>
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. /* xxx.css */
@@ -148,13 +124,7 @@ JS示例：
 39. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.js
@@ -209,13 +179,7 @@ static terminate(): void
 
 ArkTS示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import app, { AppResponse } from '@system.app';
@@ -228,13 +192,7 @@ ArkTS示例：
 
 JS示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- xxx.hml -->
@@ -249,13 +207,7 @@ JS示例：
 10. </div>
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. /* xxx.css */
@@ -287,13 +239,7 @@ JS示例：
 27. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.js
@@ -342,13 +288,7 @@ setImageCacheCount、setImageRawDataCacheSize、和setImageFileCacheSize并不�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -401,13 +341,7 @@ setImageRawDataCacheSize方法需要在@Entry标记的页面，[onPageShow](http
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -458,13 +392,7 @@ static setImageFileCacheSize(value: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // app.ets
@@ -522,13 +450,7 @@ static requestFullWindow(options?: RequestFullWindowOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import app, { AppResponse } from '@system.app';

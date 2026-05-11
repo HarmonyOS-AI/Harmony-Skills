@@ -42,13 +42,7 @@ type UIContext = UIContext
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIContext } from '@kit.ArkUI';
@@ -88,13 +82,7 @@ getUniqueId(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -132,13 +120,7 @@ queryNavDestinationInfo(): NavDestinationInfo | undefined;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uiObserver } from '@kit.ArkUI';
@@ -198,13 +180,7 @@ queryNavDestinationInfo(isInner: Optional<boolean>): NavDestinationInfo | undefi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -229,13 +205,7 @@ queryNavDestinationInfo(isInner: Optional<boolean>): NavDestinationInfo | undefi
 20. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // PageOne.ets
@@ -300,13 +270,7 @@ queryNavDestinationInfo(isInner: Optional<boolean>): NavDestinationInfo | undefi
 60. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // route_map.json
@@ -364,13 +328,7 @@ queryNavigationInfo(): NavigationInfo | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // index.ets
@@ -450,13 +408,7 @@ queryRouterPageInfo(): RouterPageInfo | undefined;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uiObserver } from '@kit.ArkUI';
@@ -514,13 +466,7 @@ getDialogController(): PromptActionDialogController | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

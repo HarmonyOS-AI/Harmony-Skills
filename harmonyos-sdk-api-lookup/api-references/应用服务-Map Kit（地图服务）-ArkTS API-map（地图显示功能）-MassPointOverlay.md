@@ -2,13 +2,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { map, mapCommon } from '@kit.MapKit';
@@ -30,13 +24,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let items: mapCommon.MassPointItem[] = [];
@@ -87,13 +75,7 @@ getId(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let Id = massPointOverlay.getId();
@@ -125,13 +107,7 @@ setItems(items: mapCommon.MassPointItem[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let items: mapCommon.MassPointItem[] = [
@@ -173,13 +149,7 @@ getItems(): mapCommon.MassPointItem[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let MassPointItem: mapCommon.MassPointItem[] = this.massPointOverlay.getItems();
@@ -211,13 +181,7 @@ setAnchorU(anchorU: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. massPointOverlay.setAnchorU(0.6);
@@ -249,13 +213,7 @@ getAnchorU(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let AnchorU: number = this.massPointOverlay.getAnchorU();
@@ -287,13 +245,7 @@ setAnchorV(anchorV: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. massPointOverlay.setAnchorV(0.6);
@@ -325,13 +277,7 @@ getAnchorV(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let AnchorV: number = this.massPointOverlay.getAnchorV();
@@ -363,13 +309,7 @@ setVisible(visible: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. massPointOverlay.setVisible(true);
@@ -401,13 +341,7 @@ isVisible(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let isVisible: boolean = massPointOverlay.isVisible();
@@ -431,13 +365,7 @@ remove(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. massPointOverlay.remove();

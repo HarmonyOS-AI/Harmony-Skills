@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { certificateManager } from '@kit.DeviceCertificateKit';
@@ -370,13 +364,7 @@ installPrivateCertificate(keystore: Uint8Array, keystorePwd: string, certAlias: 
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { certificateManager } from '@kit.DeviceCertificateKit';
@@ -446,13 +434,7 @@ installPrivateCertificate(keystore: Uint8Array, keystorePwd: string, certAlias: 
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { certificateManager } from '@kit.DeviceCertificateKit';
@@ -522,13 +504,7 @@ installPrivateCertificate(keystore: Uint8Array, keystorePwd: string, certAlias: 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { certificateManager } from '@kit.DeviceCertificateKit';
@@ -589,13 +565,7 @@ getPrivateCertificate(keyUri: string, callback: AsyncCallback<CMResult>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { certificateManager } from '@kit.DeviceCertificateKit';
@@ -662,13 +632,7 @@ getPrivateCertificate(keyUri: string): Promise<CMResult>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { certificateManager } from '@kit.DeviceCertificateKit';
@@ -727,13 +691,7 @@ uninstallPrivateCertificate(keyUri: string, callback: AsyncCallback<void>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { certificateManager } from '@kit.DeviceCertificateKit';
@@ -795,13 +753,7 @@ uninstallPrivateCertificate(keyUri: string): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { certificateManager } from '@kit.DeviceCertificateKit';
@@ -865,13 +817,7 @@ installUserTrustedCertificateSync(cert: Uint8Array, certScope: CertScope) : CMRe
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {certificateManager} from '@kit.DeviceCertificateKit';
@@ -928,13 +874,7 @@ uninstallUserTrustedCertificateSync(certUri: string) : void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {certificateManager} from '@kit.DeviceCertificateKit';
@@ -985,13 +925,7 @@ init(authUri: string, spec: CMSignatureSpec, callback: AsyncCallback<CMHandle>):
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { certificateManager } from '@kit.DeviceCertificateKit';
@@ -1060,13 +994,7 @@ init(authUri: string, spec: CMSignatureSpec): Promise<CMHandle>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { certificateManager } from '@kit.DeviceCertificateKit';
@@ -1125,13 +1053,7 @@ update(handle: Uint8Array, data: Uint8Array, callback: AsyncCallback<void>): voi
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { certificateManager } from '@kit.DeviceCertificateKit';
@@ -1199,13 +1121,7 @@ update(handle: Uint8Array, data: Uint8Array): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { certificateManager } from '@kit.DeviceCertificateKit';
@@ -1264,13 +1180,7 @@ finish(handle: Uint8Array, callback: AsyncCallback<CMResult>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { certificateManager } from '@kit.DeviceCertificateKit';
@@ -1333,13 +1243,7 @@ finish(handle: Uint8Array, signature: Uint8Array, callback: AsyncCallback<CMResu
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { certificateManager } from '@kit.DeviceCertificateKit';
@@ -1407,13 +1311,7 @@ finish(handle: Uint8Array, signature?: Uint8Array): Promise<CMResult>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { certificateManager } from '@kit.DeviceCertificateKit';
@@ -1486,13 +1384,7 @@ abort(handle: Uint8Array, callback: AsyncCallback<void>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { certificateManager } from '@kit.DeviceCertificateKit';
@@ -1556,13 +1448,7 @@ abort(handle: Uint8Array): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { certificateManager } from '@kit.DeviceCertificateKit';
@@ -1627,13 +1513,7 @@ getPublicCertificate(keyUri: string): Promise<CMResult>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { certificateManager } from '@kit.DeviceCertificateKit';
@@ -1698,13 +1578,7 @@ isAuthorizedApp(keyUri: string): Promise<boolean>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { certificateManager } from '@kit.DeviceCertificateKit';
@@ -1759,13 +1633,7 @@ getAllUserTrustedCertificates(): Promise<CMResult>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { certificateManager } from '@kit.DeviceCertificateKit';
@@ -1831,13 +1699,7 @@ getAllUserTrustedCertificates(scope: CertScope): Promise<CMResult>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { certificateManager } from '@kit.DeviceCertificateKit';
@@ -1906,13 +1768,7 @@ getUserTrustedCertificate(certUri: string): Promise<CMResult>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { certificateManager } from '@kit.DeviceCertificateKit';
@@ -1968,13 +1824,7 @@ getPrivateCertificates(): Promise<CMResult>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { certificateManager } from '@kit.DeviceCertificateKit';
@@ -2038,13 +1888,7 @@ getCertificateStorePath(property: CertStoreProperty): string;
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { certificateManager } from '@kit.DeviceCertificateKit';
@@ -2133,13 +1977,7 @@ getUkeyCertificate(keyUri: string, ukeyInfo: UkeyInfo): Promise<CMResult>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { certificateManager } from '@kit.DeviceCertificateKit';

@@ -16,13 +16,7 @@ PhonePC/2in1TabletTVWearable
 
 在使用CommonEventSubscriber的功能前，需要通过commonEventManager.createSubscriber获取subscriber对象。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { commonEventManager } from '@kit.BasicServicesKit';
@@ -70,13 +64,7 @@ getCode(callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. subscriber.getCode((err: BusinessError, code: number) => {
@@ -110,13 +98,7 @@ getCode(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. subscriber.getCode().then((code: number) => {
@@ -148,13 +130,7 @@ getCodeSync(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let code: number = subscriber.getCodeSync();
@@ -194,13 +170,7 @@ setCode(code: number, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. subscriber.setCode(1, (err: BusinessError) => {
@@ -252,13 +222,7 @@ setCode(code: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. subscriber.setCode(1).then(() => {
@@ -300,13 +264,7 @@ setCodeSync(code: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -349,13 +307,7 @@ getData(callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 获取有序公共事件传递的数据（string类型）回调
@@ -390,13 +342,7 @@ getData(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. subscriber.getData().then((data: string) => {
@@ -428,13 +374,7 @@ getDataSync(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: string = subscriber.getDataSync();
@@ -474,13 +414,7 @@ setData(data: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. subscriber.setData('publish_data_changed', (err: BusinessError) => {
@@ -532,13 +466,7 @@ setData(data: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. subscriber.setData('publish_data_changed').then(() => {
@@ -580,13 +508,7 @@ setDataSync(data: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -631,13 +553,7 @@ setCodeAndData(code: number, data: string, callback:AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. subscriber.setCodeAndData(1, 'publish_data_changed', (err: BusinessError) => {
@@ -690,13 +606,7 @@ setCodeAndData(code: number, data: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. subscriber.setCodeAndData(1, 'publish_data_changed').then(() => {
@@ -739,13 +649,7 @@ setCodeAndDataSync(code: number, data: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -786,13 +690,7 @@ isOrderedCommonEvent(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. subscriber.isOrderedCommonEvent((err: BusinessError, isOrdered:boolean) => {
@@ -824,13 +722,7 @@ isOrderedCommonEvent(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. subscriber.isOrderedCommonEvent().then((isOrdered:boolean) => {
@@ -860,13 +752,7 @@ isOrderedCommonEventSync(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let isOrdered: boolean = subscriber.isOrderedCommonEventSync();
@@ -903,13 +789,7 @@ isStickyCommonEvent(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. subscriber.isStickyCommonEvent((err: BusinessError, isSticky:boolean) => {
@@ -941,13 +821,7 @@ isStickyCommonEvent(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. subscriber.isStickyCommonEvent().then((isSticky:boolean) => {
@@ -977,13 +851,7 @@ isStickyCommonEventSync(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let isSticky: boolean = subscriber.isStickyCommonEventSync();
@@ -1020,13 +888,7 @@ abortCommonEvent(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. subscriber.abortCommonEvent((err: BusinessError) => {
@@ -1065,13 +927,7 @@ abortCommonEvent(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. subscriber.abortCommonEvent().then(() => {
@@ -1098,13 +954,7 @@ abortCommonEventSync(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. subscriber.abortCommonEventSync();
@@ -1145,13 +995,7 @@ clearAbortCommonEvent(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. subscriber.clearAbortCommonEvent((err: BusinessError) => {
@@ -1190,13 +1034,7 @@ clearAbortCommonEvent(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. subscriber.clearAbortCommonEvent().then(() => {
@@ -1223,13 +1061,7 @@ clearAbortCommonEventSync(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. subscriber.clearAbortCommonEventSync();
@@ -1270,13 +1102,7 @@ getAbortCommonEvent(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. subscriber.getAbortCommonEvent((err: BusinessError, abortEvent: boolean) => {
@@ -1308,13 +1134,7 @@ getAbortCommonEvent(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. subscriber.getAbortCommonEvent().then((abortEvent: boolean) => {
@@ -1344,13 +1164,7 @@ getAbortCommonEventSync(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let abortEvent: boolean = subscriber.getAbortCommonEventSync();
@@ -1389,13 +1203,7 @@ getSubscribeInfo(callback: AsyncCallback<CommonEventSubscribeInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. subscriber.getSubscribeInfo((err: BusinessError, subscribeInfo: commonEventManager.CommonEventSubscribeInfo) => {
@@ -1429,13 +1237,7 @@ getSubscribeInfo(): Promise<CommonEventSubscribeInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. subscriber.getSubscribeInfo().then((subscribeInfo: commonEventManager.CommonEventSubscribeInfo) => {
@@ -1467,13 +1269,7 @@ getSubscribeInfoSync(): CommonEventSubscribeInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let subscribeInfo1: commonEventManager.CommonEventSubscribeInfo = subscriber.getSubscribeInfoSync();
@@ -1510,13 +1306,7 @@ finishCommonEvent(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. subscriber.finishCommonEvent((err: BusinessError) => {
@@ -1548,13 +1338,7 @@ finishCommonEvent(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. subscriber.finishCommonEvent().then(() => {

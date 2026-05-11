@@ -1,2 +1,0 @@
-* **[oh\_bluetooth.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-oh-bluetooth-h)**
-* **[oh\_wifi.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-oh-wifi-h)**

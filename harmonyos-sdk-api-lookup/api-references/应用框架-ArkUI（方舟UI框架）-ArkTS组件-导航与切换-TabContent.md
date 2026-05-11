@@ -950,13 +950,7 @@ PhonePC/2in1TabletTVWearable
 
 此示例的资源不在src > main > resource目录下，从DevEco Studio 6.0.0 Beta2开始，新建工程或者模块时，默认创建的模块不会对非resources目录下的资源进行打包，需使能相关开关：模块的build-profile.json5中buildOptions > resOptions > copyCodeResource > enable设置为true，详见[resOptions](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hvigor-build-profile#table1476161719356)中相关介绍。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1081,13 +1075,7 @@ PhonePC/2in1TabletTVWearable
 
 此示例的资源不在src > main > resource目录下，从DevEco Studio 6.0.0 Beta2开始，新建工程或者模块时，默认创建的模块不会对非resources目录下的资源进行打包，需使能相关开关：模块的build-profile.json5中buildOptions > resOptions > copyCodeResource > enable设置为true，详见[resOptions](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hvigor-build-profile#table1476161719356)中相关介绍。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1158,13 +1146,7 @@ PhonePC/2in1TabletTVWearable
 
 本示例使用了[SubTabBarStyle](/consumer/cn/doc/harmonyos-references/ts-container-tabcontent#subtabbarstyle9)、[BottomTabBarStyle](/consumer/cn/doc/harmonyos-references/ts-container-tabcontent#bottomtabbarstyle9)实现了子页签、底部页签和侧边页签。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1338,13 +1320,7 @@ PhonePC/2in1TabletTVWearable
 
 本示例通过SubTabBarStyle中的[indicator](/consumer/cn/doc/harmonyos-references/ts-container-tabcontent#indicator10)属性，实现了子页签下划线基本属性的展示。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1584,13 +1560,7 @@ PhonePC/2in1TabletTVWearable
 
 本示例通过[heightAdaptivePolicy](/consumer/cn/doc/harmonyos-references/ts-container-tabcontent#labelstyle10对象说明)实现了子页签文本高度自适应。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1682,13 +1652,7 @@ PhonePC/2in1TabletTVWearable
 
 本示例通过[padding](/consumer/cn/doc/harmonyos-references/ts-container-tabcontent#padding10)、[verticalAlign](/consumer/cn/doc/harmonyos-references/ts-container-tabcontent#verticalalign10)、[layoutMode](/consumer/cn/doc/harmonyos-references/ts-container-tabcontent#layoutmode10)、[symmetricExtensible](/consumer/cn/doc/harmonyos-references/ts-container-tabcontent#symmetricextensible10)实现了底部页签基本属性的展示。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1848,13 +1812,7 @@ PhonePC/2in1TabletTVWearable
 
 此示例的资源不在src > main > resource目录下，从DevEco Studio 6.0.0 Beta2开始，新建工程或者模块时，默认创建的模块不会对非resources目录下的资源进行打包，需使能相关开关：模块的build-profile.json5中buildOptions > resOptions > copyCodeResource > enable设置为true，详见[resOptions](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hvigor-build-profile#table1476161719356)中相关介绍。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1950,13 +1908,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例实现了[BottomTabBarStyle](/consumer/cn/doc/harmonyos-references/ts-container-tabcontent#bottomtabbarstyle9)图片传入Symbol。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2042,13 +1994,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例实现了通过[ComponentContent](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-arkui-componentcontent#componentcontent-1)封装组件内容，设置[TabBar](/consumer/cn/doc/harmonyos-references/ts-container-tabcontent#tabbar18)。通过ComponentContent的[update](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-arkui-componentcontent#update)函数更新TabBar。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2156,13 +2102,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例实现了通过ComponentContent设置TabBar，使用TabsController的[preloadItems](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-container-tabs#preloaditems12)预加载子节点。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2342,13 +2282,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 22开始，新增了入参类型包含图片的indicator属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { DrawableDescriptor } from '@kit.ArkUI';

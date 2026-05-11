@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SegmentButton, SegmentButtonOptions, SegmentButtonItemOptionsArray } from '@kit.ArkUI';
@@ -783,13 +777,7 @@ PhonePC/2in1TabletTVWearable
 
 通过配置SegmentButtonOptions的tab和capsule，创建两种不同类型的分段按钮。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {
@@ -889,13 +877,7 @@ PhonePC/2in1TabletTVWearable
 
 通过配置CommonSegmentButtonOptions，实现自定义分段按钮的文本以及背板样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {
@@ -1005,13 +987,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过pop、shift、unshift等函数实现分段按钮数组的添加、移除等操作。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {
@@ -1090,13 +1066,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置direction属性设置分段按钮的布局方向，实现镜像效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LengthMetrics, SegmentButton, SegmentButtonOptions } from '@kit.ArkUI';
@@ -1208,13 +1178,7 @@ PhonePC/2in1TabletTVWearable
 
 通过配置accessibilityLevel和selectedIconAccessibilityText等属性，实现了分段按钮的无障碍朗读功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {
@@ -1361,13 +1325,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例演示了如何为分段按钮组件设置自定义的边框圆角半径。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {
@@ -1416,13 +1374,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 24开始，[SegmentButton](/consumer/cn/doc/harmonyos-references/ohos-arkui-advanced-segmentbutton#segmentbutton-1)新增enableStateAnimation属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SegmentButton, SegmentButtonItemTuple, SegmentButtonOptions } from '@kit.ArkUI';

@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { iap } from '@kit.IAPKit';
@@ -270,13 +264,7 @@ queryEnvironmentStatus(context: common.Context): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { iap } from '@kit.IAPKit';
@@ -344,13 +332,7 @@ queryEnvironmentStatus(context: common.Context, callback: AsyncCallback<void>): 
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { iap } from '@kit.IAPKit';
@@ -430,13 +412,7 @@ queryProducts(context: common.UIAbilityContext, parameter: QueryProductsParamete
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { iap } from '@kit.IAPKit';
@@ -514,13 +490,7 @@ queryProducts(context: common.UIAbilityContext, parameter: QueryProductsParamete
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { iap } from '@kit.IAPKit';
@@ -608,13 +578,7 @@ queryProducts(context: common.UIAbilityContext, productIds: string[]): Promise<A
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { iap } from '@kit.IAPKit';
@@ -699,13 +663,7 @@ purchase(context: common.UIAbilityContext, parameter: PurchaseParameter): Promis
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { iap } from '@kit.IAPKit';
@@ -789,13 +747,7 @@ purchase(context: common.UIAbilityContext, parameter: PurchaseParameter, callbac
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { iap } from '@kit.IAPKit';
@@ -889,13 +841,7 @@ createPurchase(context: common.UIAbilityContext, parameter: PurchaseParameter): 
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { iap } from '@kit.IAPKit';
@@ -980,13 +926,7 @@ createPurchase(context: common.UIAbilityContext, parameter: PurchaseParameter, c
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { iap } from '@kit.IAPKit';
@@ -1078,13 +1018,7 @@ consumePurchase(context: common.UIAbilityContext, parameter: ConsumePurchasePara
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { iap } from '@kit.IAPKit';
@@ -1161,13 +1095,7 @@ consumePurchase(context: common.UIAbilityContext, parameter: ConsumePurchasePara
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { iap } from '@kit.IAPKit';
@@ -1251,13 +1179,7 @@ finishPurchase(context: common.UIAbilityContext, parameter: FinishPurchaseParame
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { iap } from '@kit.IAPKit';
@@ -1335,13 +1257,7 @@ finishPurchase(context: common.UIAbilityContext, parameter: FinishPurchaseParame
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { iap } from '@kit.IAPKit';
@@ -1437,13 +1353,7 @@ queryOwnedPurchases(context: common.UIAbilityContext, parameter: QueryPurchasesP
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { iap } from '@kit.IAPKit';
@@ -1524,13 +1434,7 @@ queryOwnedPurchases(context: common.UIAbilityContext, parameter: QueryPurchasesP
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { iap } from '@kit.IAPKit';
@@ -1611,13 +1515,7 @@ queryPurchaseRecords(context: common.UIAbilityContext, parameter: QueryPurchases
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { iap } from '@kit.IAPKit';
@@ -1689,13 +1587,7 @@ queryPurchaseRecords(context: common.UIAbilityContext, parameter: QueryPurchases
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { iap } from '@kit.IAPKit';
@@ -1781,13 +1673,7 @@ queryPurchases(context: common.UIAbilityContext, parameter: QueryPurchasesParame
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { iap } from '@kit.IAPKit';
@@ -1863,13 +1749,7 @@ queryPurchases(context: common.UIAbilityContext, parameter: QueryPurchasesParame
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { iap } from '@kit.IAPKit';
@@ -1954,13 +1834,7 @@ showManagedSubscriptions(context: common.Context, uiParameter: UIWindowParameter
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { iap } from '@kit.IAPKit';
@@ -2041,13 +1915,7 @@ isSandboxActivated(context: common.Context): Promise<boolean>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { iap } from '@kit.IAPKit';
@@ -2127,13 +1995,7 @@ createRefundRequest(context: common.Context, purchaseOrderId: string): Promise<v
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { iap } from '@kit.IAPKit';
@@ -2218,13 +2080,7 @@ showManagedInvoices(context: common.Context, purchaseOrderId: string): Promise<v
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

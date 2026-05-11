@@ -166,13 +166,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置PinchGesture实现了三指捏合手势的识别功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -225,13 +219,7 @@ PhonePC/2in1TabletTVWearable
 
 通过配置PinchGesture，该示例实现了图片的跟手缩放效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

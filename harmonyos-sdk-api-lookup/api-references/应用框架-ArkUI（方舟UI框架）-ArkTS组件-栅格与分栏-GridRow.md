@@ -82,13 +82,7 @@ PhonePC/2in1TabletTVWearable
 
 API version 20之前，仅配置部分断点下GridRow组件的栅格列数，取已配置的更小断点的栅格列数补全未配置的栅格列数。若未配置更小断点的栅格列数，以默认栅格列数12补全未配置的栅格列数。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. columns: {xs:2, md:4, lg:8} // 等于配置 columns: {xs:2, sm:2, md:4, lg:8, xl:8, xxl:8}
@@ -97,13 +91,7 @@ API version 20之前，仅配置部分断点下GridRow组件的栅格列数，�
 
 API version 20及以后，仅配置部分断点下GridRow组件的栅格列数，取已配置的更小断点的栅格列数补全未配置的栅格列数。若未配置更小断点的栅格列数，取已配置的更大断点的栅格列数补全未配置的栅格列数。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. columns: {xs:2, md:4, lg:8} // 等于配置 columns: {xs:2, sm:2, md:4, lg:8, xl:8, xxl:8}
@@ -173,13 +161,7 @@ PhonePC/2in1TabletTVWearable
 | value | Array<string> | 否 | 是 | 设置断点位置的单调递增数组。  默认值：["320vp", "600vp", "840vp"]  非法值：按默认值处理。  单位：vp |
 | reference | [BreakpointsReference](/consumer/cn/doc/harmonyos-references/ts-container-gridrow#breakpointsreference枚举说明) | 否 | 是 | 断点切换参照物。  默认值：BreakpointsReference.WindowSize  非法值：按默认值处理。 |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 启用xs、sm、md共3个断点
@@ -306,13 +288,7 @@ PhonePC/2in1TabletTVWearable
 
 本示例展示GridRow组件的基本用法。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -352,13 +328,7 @@ PhonePC/2in1TabletTVWearable
 
 本示例展示GridCol组件在不同alignItems对齐方式下的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @ComponentV2

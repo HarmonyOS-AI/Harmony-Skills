@@ -6,13 +6,7 @@
 
 Phone
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { walletPass } from '@kit.WalletKit';
@@ -54,13 +48,7 @@ constructor(context: common.UIAbilityContext)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -131,13 +119,7 @@ queryPassDeviceInfo(passStr: string): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -229,13 +211,7 @@ canAddPass(passStr: string): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -319,13 +295,7 @@ initWalletEnvironment(passStr: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -419,13 +389,7 @@ addPass(passStr: string): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -508,13 +472,7 @@ queryPass(passStr: string): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -593,13 +551,7 @@ viewPass(passStr: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -687,13 +639,7 @@ updatePass(passStr: string): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -782,13 +728,7 @@ deletePass(passStr: string): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -873,13 +813,7 @@ queryICCEConnectionState(rkeStr: string): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -968,13 +902,7 @@ startICCEConnection(rkeStr: string): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -1059,13 +987,7 @@ registerICCEListener(rkeStr: string, eventNotifyListener: rpc.RemoteObject): Pro
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -1163,13 +1085,7 @@ unregisterICCEListener(rkeStr: string): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -1261,13 +1177,7 @@ sendICCERKEMessage(rkeStr: string): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';

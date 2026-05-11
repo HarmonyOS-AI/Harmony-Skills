@@ -20,13 +20,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BuilderNode, ReactiveBuilderNode, RenderOptions, NodeRenderType } from '@kit.ArkUI';
@@ -209,13 +203,7 @@ build(builder: WrappedBuilder<Args>, arg: Object, options: BuildOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BuilderNode, NodeContent } from "@kit.ArkUI";
@@ -302,13 +290,7 @@ getFrameNode(): FrameNode | null
 
 BuilderNode作为[NodeContainer](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-basic-components-nodecontainer)的根节点返回。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, BuilderNode, FrameNode, UIContext } from "@kit.ArkUI";
@@ -374,13 +356,7 @@ BuilderNode作为[NodeContainer](https://developer.huawei.com/consumer/cn/doc/ha
 
 BuilderNode的[FrameNode](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-arkui-framenode)挂到其它FrameNode下。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, BuilderNode, FrameNode, UIContext } from "@kit.ArkUI";
@@ -453,13 +429,7 @@ BuilderNode的[FrameNode](https://developer.huawei.com/consumer/cn/doc/harmonyos
 
 BuilderNode的[RenderNode](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-arkui-rendernode)挂到其它RenderNode下。由于RenderNode不传递布局约束，不推荐通过该方式挂载节点。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, BuilderNode, FrameNode, UIContext, RenderNode } from "@kit.ArkUI";
@@ -555,13 +525,7 @@ update(arg: Object): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, BuilderNode, FrameNode, UIContext } from "@kit.ArkUI";
@@ -699,13 +663,7 @@ OffsetA为buildNode相对于父组件的偏移量，可以通过FrameNode中的[
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, BuilderNode, FrameNode, UIContext } from '@kit.ArkUI';
@@ -810,13 +768,7 @@ dispose(): void
 
 **系统能力：** SystemCapability.ArkUI.ArkUI.Full
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode, NodeController, BuilderNode } from '@kit.ArkUI';
@@ -938,13 +890,7 @@ BuilderNode通过reuse和recycle完成其内外自定义组件之间的复用事
 
 **系统能力：** SystemCapability.ArkUI.ArkUI.Full
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode, NodeController, BuilderNode, UIContext } from "@kit.ArkUI";
@@ -1145,13 +1091,7 @@ updateConfiguration接口用于通知对象更新，更新所使用的系统环�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, BuilderNode, FrameNode, UIContext, FrameCallback } from "@kit.ArkUI";
@@ -1330,13 +1270,7 @@ isDisposed(): boolean
 
 该示例演示了BuilderNode释放节点前后分别使用[isDisposed](/consumer/cn/doc/harmonyos-references/js-apis-arkui-buildernode#isdisposed20)接口验证节点的状态，释放节点前节点调用isDisposed接口返回true，释放节点后节点调用isDisposed接口返回false。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode, NodeController, BuilderNode } from '@kit.ArkUI';
@@ -1573,13 +1507,7 @@ BuilderNode设置inheritFreezeOptions为true，且父组件为自定义组件、
 
 该示例演示了BuilderNode设置继承状态为True，继承父自定义组件的冻结策略，在不活跃的时候进行冻结，切换为活跃状态解冻，更新缓存的数据。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BuilderNode, FrameNode, NodeController } from '@kit.ArkUI';
@@ -1841,13 +1769,7 @@ build(builder: WrappedBuilder<Args>, config: BuildOptions, ...args: Args): void
 
 该示例演示了如何使用ReactiveBuilderNode的build接口动态创建响应式UI组件树，通过数据绑定实现UI内容的动态更新。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ReactiveBuilderNode, NodeContent, Binding, MutableBinding, UIUtils} from '@kit.ArkUI';
@@ -1929,13 +1851,7 @@ getFrameNode(): FrameNode | null
 
 该示例演示了如何使用getFrameNode接口获取ReactiveBuilderNode构建的FrameNode节点，并通过NodeContent动态管理UI节点。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ReactiveBuilderNode, NodeContent, Binding, MutableBinding, UIUtils } from '@kit.ArkUI';
@@ -2077,13 +1993,7 @@ OffsetA为buildNode相对于父组件的偏移量，可以通过FrameNode中的[
 
 当触摸下方蓝色区域时，触摸事件会经过坐标转换后传递给上方的ReactiveBuilderNode按钮，触发按钮的触摸反馈和日志输出，实现了触摸事件的跨节点精准传递。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, ReactiveBuilderNode, FrameNode, UIContext } from '@kit.ArkUI';
@@ -2191,13 +2101,7 @@ dispose(): void
 
 该示例演示了如何通过dispose接口实现ReactiveBuilderNode组件的动态移除与资源释放。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode, NodeController, ReactiveBuilderNode } from '@kit.ArkUI';
@@ -2338,13 +2242,7 @@ ReactiveBuilderNode通过[reuse](/consumer/cn/doc/harmonyos-references/js-apis-a
 
 该示例展示了在长列表场景下，如何使用ReactiveBuilderNode的reuse和recycle接口实现组件复用机制，优化列表滚动的性能表现。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode, NodeController, ReactiveBuilderNode, UIContext } from '@kit.ArkUI';
@@ -2547,13 +2445,7 @@ updateConfiguration(): void
 
 该示例展示了如何使用updateConfiguration接口响应系统环境变化，实现ReactiveBuilderNode构建的UI节点的动态更新。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, ReactiveBuilderNode, FrameNode, UIContext, FrameCallback, Binding, UIUtils } from '@kit.ArkUI';
@@ -2728,13 +2620,7 @@ flushState(): void
 
 该示例展示了flushState接口在V1和V2装饰器下的不同使用方式，演示了ReactiveBuilderNode在不同数据响应机制下的更新策略。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ReactiveBuilderNode, NodeContent, Binding, UIUtils } from '@kit.ArkUI';
@@ -2957,13 +2843,7 @@ ReactiveBuilderNode设置inheritFreezeOptions为true，且父组件为自定义�
 
 该示例演示了ReactiveBuilderNode设置继承状态为true时，继承父自定义组件的冻结策略。在页面跳转走不活跃时进行冻结，页面切换回来为活跃状态解冻，更新缓存的数据。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ReactiveBuilderNode, FrameNode, NodeController, Binding, UIUtils } from '@kit.ArkUI';
@@ -3214,13 +3094,7 @@ isDisposed(): boolean
 
 该示例演示了ReactiveBuilderNode释放节点前后分别使用[isDisposed](/consumer/cn/doc/harmonyos-references/js-apis-arkui-buildernode#isdisposed22)接口验证节点的状态，释放节点前节点调用isDisposed接口返回true，释放节点后节点调用isDisposed接口返回false。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode, NodeController, ReactiveBuilderNode } from '@kit.ArkUI';
@@ -3345,13 +3219,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例演示了在自定义组件中截获鼠标事件并进行坐标转换的完整流程。组件通过[onMouse](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-mouse-key#onmouse)回调读取本地x/y，再结合FrameNode.[getPositionToParent](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-arkui-framenode#getpositiontoparent12)()得到的偏移量，调用vp2px将相对坐标转换为像素坐标，更新[MouseEvent](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-mouse-key#mouseevent对象说明)的windowX/windowY、displayX/displayY。最后通过rootNode.[postInputEvent](/consumer/cn/doc/harmonyos-references/js-apis-arkui-buildernode#postinputevent20)(event)将转换后的鼠标事件分发给子节点进行处理。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, BuilderNode, FrameNode, PromptAction, UIContext, InputEventType } from '@kit.ArkUI';
@@ -3491,13 +3359,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例演示了在自定义组件中截获触摸事件并对触点坐标进行转换的完整流程。在[onTouch](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-events-touch#ontouch)回调中，遍历[TouchEvent](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-events-touch#touchevent对象说明)的changedTouches和touches数组，对每个触点的x/y加上组件偏移量并调用vp2px转换为像素，更新各自的windowX/windowY、displayX/displayY。最后同样通过rootNode.postInputEvent(event)将转换后的触摸事件分发给子节点处理。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, BuilderNode, FrameNode, UIContext, PromptAction, InputEventType } from '@kit.ArkUI';
@@ -3609,13 +3471,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例演示了在自定义组件中截获滚轮或触控板轴事件并进行坐标转换的完整流程。在[onAxisEvent](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-events-axis#onaxisevent)回调中，先获取事件的相对x/y，再加上组件偏移量后调用vp2px转换为像素，更新AxisEvent的windowX/windowY、displayX/displayY，最后通过rootNode.postInputEvent(event)将转换后的轴事件分发给子节点进行处理。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, BuilderNode, FrameNode, UIContext, PromptAction, InputEventType } from '@kit.ArkUI';
@@ -3713,13 +3569,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例演示了如何在BuilderNode通过build方法传入外部[localStorage](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-state-management#localstorage9)，此时挂载在BuilderNode的所有自定义组件共享该localStorage。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, BuilderNode, FrameNode, UIContext } from '@kit.ArkUI';
@@ -3802,13 +3652,7 @@ PhonePC/2in1TabletTVWearable
 
 设置BuilderNode的[BuildOptions](/consumer/cn/doc/harmonyos-references/js-apis-arkui-buildernode#buildoptions12)中enableProvideConsumeCrossing为true，以实现BuilderNode内部自定义组件的@Consume与所在自定义组件的@Provide双向同步。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BuilderNode, NodeContent } from '@kit.ArkUI';
@@ -3892,13 +3736,7 @@ PhonePC/2in1TabletTVWearable
 
 设置BuilderNode的[BuildOptions](/consumer/cn/doc/harmonyos-references/js-apis-arkui-buildernode#buildoptions12)中enableProvideConsumeCrossing为true，以实现BuilderNode内部自定义组件的@Consumer变量与所在自定义组件的@Provider装饰的状态变量双向同步。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BuilderNode, FrameNode, NodeController } from '@kit.ArkUI';
@@ -3987,13 +3825,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例演示了BuilderNode挂载到组件树和从组件树卸载时，@Consumer与@Provider的同步关系变化。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BuilderNode, FrameNode, NodeController } from '@kit.ArkUI';
@@ -4119,13 +3951,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例演示了BuilderNode挂载到组件树后，再挂载到另一个组件树时，@Consumer与@Provider的同步关系变化。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BuilderNode, FrameNode, NodeController } from '@kit.ArkUI';
@@ -4266,13 +4092,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例演示了BuilderNode互相嵌套场景下@Consumer和@Provider的同步关系变化。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BuilderNode, FrameNode, NodeContent, NodeController } from '@kit.ArkUI';
@@ -4399,13 +4219,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例演示了当@Consumer所在的自定义组件在BuilderNode下且该自定义组件存在子组件时，@Consumer和@Provider之间的同步关系。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BuilderNode, FrameNode, NodeController } from '@kit.ArkUI';
@@ -4556,13 +4370,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例演示了组件树为@Provider-@Consumer-BuilderNode-@Consumer的情况时，@Consumer和@Provider之间的同步关系。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BuilderNode, FrameNode, NodeController } from '@kit.ArkUI';
@@ -4725,13 +4533,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例演示了组件树为@Provider-BuilderNode-@Provider-@Consumer的情况时，@Consumer和@Provider之间的同步关系。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BuilderNode, FrameNode, NodeController } from '@kit.ArkUI';
@@ -4894,13 +4696,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例演示了在自定义组件中截获鼠标事件并进行坐标转换的完整流程。组件通过[onMouse](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-mouse-key#onmouse)回调读取本地x/y坐标，再结合FrameNode.[getPositionToParent](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-arkui-framenode#getpositiontoparent12)()得到的偏移量，调用[vp2px](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-uicontext#vp2px12)将相对坐标转换为像素坐标，更新[MouseEvent](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-mouse-key#mouseevent对象说明)的windowX/windowY、displayX/displayY。最后通过rootNode.[postInputEvent](/consumer/cn/doc/harmonyos-references/js-apis-arkui-buildernode#postinputevent20)将转换后的鼠标事件分发给子节点进行处理。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, ReactiveBuilderNode, FrameNode, PromptAction, UIContext, InputEventType } from '@kit.ArkUI';
@@ -5044,13 +4840,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例演示了在自定义组件中截获触摸事件并对触点坐标进行转换的完整流程。在[onTouch](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-events-touch#ontouch)回调中，遍历[TouchEvent](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-events-touch#touchevent对象说明)的changedTouches和touches数组，对每个触点的x/y坐标加上组件偏移量并调用[vp2px](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-uicontext#vp2px12)转换为像素，更新各自的windowX/windowY、displayX/displayY。最后同样通过rootNode.[postInputEvent](/consumer/cn/doc/harmonyos-references/js-apis-arkui-buildernode#postinputevent20)将转换后的触摸事件分发给子节点处理。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, ReactiveBuilderNode, FrameNode, UIContext, PromptAction, InputEventType } from '@kit.ArkUI';
@@ -5162,13 +4952,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例演示了在自定义组件中截获滚轮或触控板轴事件并进行坐标转换的完整流程。在[onAxisEvent](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-events-axis#onaxisevent)回调中，先获取事件的相对x/y坐标，再加上组件偏移量后调用[vp2px](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-uicontext#vp2px12)转换为像素，更新AxisEvent的windowX/windowY、displayX/displayY，最后通过rootNode.[postInputEvent](/consumer/cn/doc/harmonyos-references/js-apis-arkui-buildernode#postinputevent20)将转换后的轴事件分发给子节点进行处理。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, ReactiveBuilderNode, FrameNode, UIContext, PromptAction, InputEventType } from '@kit.ArkUI';
@@ -5267,13 +5051,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例演示了在自定义组件中截获鼠标事件并进行坐标转换的完整流程。组件通过[onMouse](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-mouse-key#onmouse)回调读取当前触点坐标x/y，再结合FrameNode.[getPositionToParent](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-arkui-framenode#getpositiontoparent12)得到的偏移量，调用[vp2px](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-uicontext#vp2px12)将相对坐标转换为像素坐标，更新[MouseEvent](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-mouse-key#mouseevent对象说明)的windowX/windowY、displayX/displayY。选择不同的手势竞争策略[CompetitionStrategy](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-appendix-enums#competitionstrategy24)，最后通过rootNode.[postInputEventWithStrategy](/consumer/cn/doc/harmonyos-references/js-apis-arkui-buildernode#postinputeventwithstrategy24)将转换后的鼠标事件分发给子节点进行处理。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, BuilderNode, FrameNode, PromptAction, UIContext, InputEventType } from '@kit.ArkUI';
@@ -5520,13 +5298,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例演示了在自定义组件中截获触摸事件并对触点坐标进行转换的完整流程。在[onTouch](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-events-touch#ontouch)回调中，遍历[TouchEvent](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-events-touch#touchevent对象说明)的changedTouches和touches数组，对每个触点的x/y加上组件偏移量并调用[vp2px](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-uicontext#vp2px12)转换为像素，更新每个触点的windowX/windowY、displayX/displayY。选择不同的手势竞争策略[CompetitionStrategy](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-appendix-enums#competitionstrategy24)，最后同样通过rootNode.[postInputEventWithStrategy](/consumer/cn/doc/harmonyos-references/js-apis-arkui-buildernode#postinputeventwithstrategy24)将转换后的触摸事件分发给子节点处理。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, BuilderNode, FrameNode, PromptAction, UIContext, InputEventType } from '@kit.ArkUI';
@@ -5804,13 +5576,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例演示了在自定义组件中截获滚轮或触控板轴事件并进行坐标转换的完整流程。在[onAxisEvent](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-events-axis#onaxisevent)回调中，先获取事件的相对x/y，再加上组件偏移量后调用[vp2px](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-uicontext#vp2px12)转换为像素，更新AxisEvent的windowX/windowY、displayX/displayY，选择不同的手势竞争策略[CompetitionStrategy](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-appendix-enums#competitionstrategy24)，最后通过rootNode.[postInputEventWithStrategy](/consumer/cn/doc/harmonyos-references/js-apis-arkui-buildernode#postinputeventwithstrategy24)将转换后的轴事件分发给子节点进行处理。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, BuilderNode, FrameNode, UIContext, PromptAction, InputEventType } from '@kit.ArkUI';

@@ -7,13 +7,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import document from '@ohos.document';
@@ -47,13 +41,7 @@ choose(types?: string[]): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let types: Array<string> = [];
@@ -80,13 +68,7 @@ choose(callback:AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let uri: string = "";
@@ -116,13 +98,7 @@ choose(types:string[], callback:AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let types: Array<string> = [];
@@ -161,13 +137,7 @@ show(uri:string, type:string):Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let type: string = "";
@@ -197,13 +167,7 @@ show(uri:string, type:string, callback:AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let type: string = "";

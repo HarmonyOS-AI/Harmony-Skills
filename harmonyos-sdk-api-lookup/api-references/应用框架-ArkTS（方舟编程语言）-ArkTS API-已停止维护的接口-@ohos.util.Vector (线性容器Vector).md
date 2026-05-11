@@ -18,13 +18,7 @@ API version 9开始，该接口不再维护，推荐使用接口['@ohos.util.Arr
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Vector } from '@kit.ArkTS';
@@ -58,13 +52,7 @@ Vector的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let vector : Vector<string | number | Array<number>> = new Vector();
@@ -98,13 +86,7 @@ add(element: T): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class C1 {
@@ -141,13 +123,7 @@ insert(element: T, index: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let vector : Vector<string | number | Object | Array<number>> = new Vector();
@@ -184,13 +160,7 @@ has(element: T): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let vector : Vector<string> = new Vector();
@@ -227,13 +197,7 @@ getIndexOf(element: T): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let vector : Vector<number> = new Vector();
@@ -275,13 +239,7 @@ getLastIndexOf(element: T): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let vector : Vector<number> = new Vector();
@@ -323,13 +281,7 @@ removeByIndex(index: number): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let vector : Vector<number> = new Vector();
@@ -369,13 +321,7 @@ remove(element: T): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let vector : Vector<number> = new Vector();
@@ -407,13 +353,7 @@ removeByRange(fromIndex: number, toIndex: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let vector : Vector<number> = new Vector();
@@ -455,13 +395,7 @@ callbackfn的参数说明：
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let vector : Vector<number> = new Vector();
@@ -506,13 +440,7 @@ callbackfn的参数说明：
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let vector : Vector<number> = new Vector();
@@ -554,13 +482,7 @@ comparator的参数说明：
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let vector : Vector<number> = new Vector();
@@ -602,13 +524,7 @@ subVector(fromIndex: number, toIndex: number): Vector<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let vector : Vector<number> = new Vector();
@@ -634,13 +550,7 @@ clear(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let vector : Vector<number> = new Vector();
@@ -671,13 +581,7 @@ clone(): Vector<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let vector : Vector<number> = new Vector();
@@ -708,13 +612,7 @@ getCapacity(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let vector : Vector<number> = new Vector();
@@ -745,13 +643,7 @@ convertToArray(): Array<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let vector : Vector<number> = new Vector();
@@ -782,13 +674,7 @@ isEmpty(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let vector : Vector<number> = new Vector();
@@ -819,13 +705,7 @@ increaseCapacityTo(newCapacity: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let vector : Vector<number> = new Vector();
@@ -849,13 +729,7 @@ trimToCurrentLength(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let vector : Vector<number> = new Vector();
@@ -886,13 +760,7 @@ toString(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let vector : Vector<number> = new Vector();
@@ -941,13 +809,7 @@ getFirstElement(): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let vector : Vector<number> = new Vector();
@@ -978,13 +840,7 @@ getLastElement(): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let vector : Vector<number> = new Vector();
@@ -1024,13 +880,7 @@ getLastIndexFrom(element: T, index: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let vector : Vector<number> = new Vector();
@@ -1070,13 +920,7 @@ getIndexFrom(element: T, index: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let vector : Vector<number> = new Vector();
@@ -1107,13 +951,7 @@ setLength(newSize: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let vector : Vector<number> = new Vector();
@@ -1153,13 +991,7 @@ get(index: number): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let vector : Vector<number> = new Vector();
@@ -1217,13 +1049,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let vector : Vector<number> = new Vector();

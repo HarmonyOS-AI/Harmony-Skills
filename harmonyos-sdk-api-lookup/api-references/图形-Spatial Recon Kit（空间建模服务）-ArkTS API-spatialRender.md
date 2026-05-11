@@ -6,13 +6,7 @@ spatialRender模块主要用于渲染3DGS数据，展示3DGS渲染场景。
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { spatialRender } from '@kit.SpatialReconKit';
@@ -30,13 +24,7 @@ PhonePC/2in1TabletTV
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Scene, RenderContext } from '@kit.ArkGraphics3D';
@@ -81,13 +69,7 @@ GSPlugin类封装了与3DGS相关的内容，包括3DGS插件ID和3DGS模型加�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { spatialRender } from '@kit.SpatialReconKit';
@@ -153,13 +135,7 @@ static loadGSNode(scene: Scene, params: GSImportSettings, parent?: Node): Promis
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Scene, RenderContext } from '@kit.ArkGraphics3D';
@@ -202,13 +178,7 @@ GSImportSettings类封装了加载3DGS模型的设置，包括模型路径和数
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Scene, RenderContext } from '@kit.ArkGraphics3D';
@@ -255,13 +225,7 @@ RetroEffect参数，该类型为字符串枚举，该枚举值可在[Effect](htt
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Scene, RenderContext, RenderingPipelineType, Effect } from '@kit.ArkGraphics3D';
@@ -313,13 +277,7 @@ RetroEffect接口封装了复古风格的效果参数，可实现自定义的复
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Scene, RenderContext, RenderingPipelineType } from '@kit.ArkGraphics3D';
@@ -365,13 +323,7 @@ ComicEffect参数，该类型为字符串枚举，该枚举值可在[Effect](htt
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Scene, RenderContext, RenderingPipelineType, Effect } from '@kit.ArkGraphics3D';
@@ -421,13 +373,7 @@ ComicEffect接口封装了漫画风格的效果的参数，可实现自定义的
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Scene, RenderContext, RenderingPipelineType } from '@kit.ArkGraphics3D';
@@ -475,13 +421,7 @@ ObraDinnEffect参数，该类型为字符串枚举，该枚举值可在[Effect](
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Scene, RenderContext, RenderingPipelineType, Effect } from '@kit.ArkGraphics3D';
@@ -533,13 +473,7 @@ ObraDinnEffect接口封装了bit（黑白点阵）风格的效果参数，可实
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Scene, RenderContext, RenderingPipelineType } from '@kit.ArkGraphics3D';
@@ -589,13 +523,7 @@ ColorEditingEffect参数，该类型为字符串枚举，该枚举值可在[Effe
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Scene, RenderContext, RenderingPipelineType, Effect } from '@kit.ArkGraphics3D';
@@ -649,13 +577,7 @@ ColorEditingEffect接口封装了颜色编辑风格的参数，可帮助开发�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Scene, RenderContext, RenderingPipelineType } from '@kit.ArkGraphics3D';

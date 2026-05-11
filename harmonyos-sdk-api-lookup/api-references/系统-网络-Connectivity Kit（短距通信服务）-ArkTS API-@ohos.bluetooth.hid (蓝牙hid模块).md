@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hid } from '@kit.ConnectivityKit';
@@ -87,13 +81,7 @@ createHidHostProfile(): HidHostProfile
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -136,13 +124,7 @@ createHidDeviceProfile(): HidDeviceProfile
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -212,13 +194,7 @@ registerHidDevice(sdp: HidDeviceSdp, inQos: HidDeviceQos, outQos: HidDeviceQos, 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let descriptors: Uint8Array = new Uint8Array([
@@ -300,13 +276,7 @@ unregisterHidDevice(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -360,13 +330,7 @@ connect(deviceId: BluetoothAddress): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.ConnectivityKit';
@@ -415,13 +379,7 @@ disconnect(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -475,13 +433,7 @@ sendReport(id: number, reportData: Uint8Array): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let reportData: Uint8Array = new Uint8Array([0x00, 0x11, 0x22, 0x33, 0x44, 0x55, 0x66, 0x77]);
@@ -538,13 +490,7 @@ replyReport(type: ReportType, id: number, reportData: Uint8Array): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let type = hid.ReportType.REPORT_TYPE_INPUT;
@@ -599,13 +545,7 @@ reportError(error: ErrorReason): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let error = hid.ErrorReason.RSP_SUCCESS;
@@ -652,13 +592,7 @@ onGetReport(callback: Callback<GetReportData>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function onReceiveEvent(callback: hid.GetReportData) {
@@ -707,13 +641,7 @@ offGetReport(callback?: Callback<GetReportData>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function onReceiveEvent(callback: hid.GetReportData) {
@@ -763,13 +691,7 @@ onSetReport(callback: Callback<SetReportData>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function onReceiveEvent(callback: hid.SetReportData) {
@@ -818,13 +740,7 @@ offSetReport(callback?: Callback<SetReportData>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function onReceiveEvent(callback: hid.SetReportData) {
@@ -874,13 +790,7 @@ onInterruptDataReceived(callback: Callback<InterruptData>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function onReceiveEvent(callback: hid.InterruptData) {
@@ -929,13 +839,7 @@ offInterruptDataReceived(callback?: Callback<InterruptData>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function onReceiveEvent(callback: hid.InterruptData) {
@@ -985,13 +889,7 @@ onSetProtocol(callback: Callback<ProtocolData>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function onReceiveEvent(callback: hid.ProtocolData) {
@@ -1040,13 +938,7 @@ offSetProtocol(callback?: Callback<ProtocolData>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function onReceiveEvent(callback: hid.ProtocolData) {
@@ -1096,13 +988,7 @@ onVirtualCableUnplug(callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function onReceiveEvent() {
@@ -1151,13 +1037,7 @@ offVirtualCableUnplug(callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function onReceiveEvent() {

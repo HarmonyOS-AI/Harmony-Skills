@@ -19,13 +19,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import distributedData from '@ohos.data.distributedData';
@@ -52,13 +46,7 @@ createKVManager(config: KVManagerConfig, callback: AsyncCallback<KVManager>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvManager;
@@ -111,13 +99,7 @@ createKVManager(config: KVManagerConfig): Promise<KVManager>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -211,13 +193,7 @@ getKVStore<T extends KVStore>(storeId: string, options: Options, callback: Async
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -273,13 +249,7 @@ getKVStore<T extends KVStore>(storeId: string, options: Options): Promise<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -327,13 +297,7 @@ closeKVStore(appId: string, storeId: string, kvStore: KVStore, callback: AsyncCa
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -390,13 +354,7 @@ closeKVStore(appId: string, storeId: string, kvStore: KVStore): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvManager;
@@ -449,13 +407,7 @@ deleteKVStore(appId: string, storeId: string, callback: AsyncCallback<void>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvManager;
@@ -511,13 +463,7 @@ deleteKVStore(appId: string, storeId: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvManager;
@@ -569,13 +515,7 @@ getAllKVStoreId(appId: string, callback: AsyncCallback<string[]>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvManager;
@@ -617,13 +557,7 @@ getAllKVStoreId(appId: string): Promise<string[]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvManager;
@@ -661,13 +595,7 @@ on(event: 'distributedDataServiceDie', deathCallback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvManager;
@@ -703,13 +631,7 @@ off(event: 'distributedDataServiceDie', deathCallback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvManager;
@@ -881,13 +803,7 @@ appendChild(child: FieldNode): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import ddm from '@ohos.data.distributedData';
@@ -937,13 +853,7 @@ getCount(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -982,13 +892,7 @@ getPosition(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -1027,13 +931,7 @@ moveToFirst(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -1072,13 +970,7 @@ moveToLast(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -1117,13 +1009,7 @@ moveToNext(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -1162,13 +1048,7 @@ moveToPrevious(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -1215,13 +1095,7 @@ move(offset: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -1268,13 +1142,7 @@ moveToPosition(position: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -1313,13 +1181,7 @@ isFirst(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -1358,13 +1220,7 @@ isLast(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -1403,13 +1259,7 @@ isBeforeFirst(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -1448,13 +1298,7 @@ isAfterLast(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -1493,13 +1337,7 @@ getEntry(): Entry
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -1556,13 +1394,7 @@ reset(): Query
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -1606,13 +1438,7 @@ equalTo(field: string, value: number|string|boolean): Query
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -1654,13 +1480,7 @@ notEqualTo(field: string, value: number|string|boolean): Query
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -1702,13 +1522,7 @@ greaterThan(field: string, value: number|string|boolean): Query
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -1750,13 +1564,7 @@ lessThan(field: string, value: number|string): Query
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -1798,13 +1606,7 @@ greaterThanOrEqualTo(field: string, value: number|string): Query
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -1846,13 +1648,7 @@ lessThanOrEqualTo(field: string, value: number|string): Query
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -1893,13 +1689,7 @@ isNull(field: string): Query
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -1941,13 +1731,7 @@ inNumber(field: string, valueList: number[]): Query
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -1989,13 +1773,7 @@ inString(field: string, valueList: string[]): Query
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -2037,13 +1815,7 @@ notInNumber(field: string, valueList: number[]): Query
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -2085,13 +1857,7 @@ notInString(field: string, valueList: string[]): Query
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -2133,13 +1899,7 @@ like(field: string, value: string): Query
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -2181,13 +1941,7 @@ unlike(field: string, value: string): Query
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -2220,13 +1974,7 @@ and(): Query
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -2261,13 +2009,7 @@ or(): Query
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -2310,13 +2052,7 @@ orderByAsc(field: string): Query
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -2358,13 +2094,7 @@ orderByDesc(field: string): Query
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -2407,13 +2137,7 @@ limit(total: number, offset: number): Query
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let total = 10;
@@ -2457,13 +2181,7 @@ isNotNull(field: string): Query
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -2496,13 +2214,7 @@ beginGroup(): Query
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -2537,13 +2249,7 @@ endGroup(): Query
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -2586,13 +2292,7 @@ prefixKey(prefix: string): Query
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -2634,13 +2334,7 @@ setSuggestIndex(index: string): Query
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -2688,13 +2382,7 @@ deviceId具体获取方式请参考[sync接口示例](/consumer/cn/doc/harmonyos
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -2726,13 +2414,7 @@ getSqlLike():string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -2774,13 +2456,7 @@ put(key: string, value: Uint8Array | string | number | boolean, callback: AsyncC
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -2828,13 +2504,7 @@ put(key: string, value: Uint8Array | string | number | boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -2872,13 +2542,7 @@ delete(key: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -2932,13 +2596,7 @@ delete(key: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -2982,13 +2640,7 @@ on(event: 'dataChange', type: SubscribeType, listener: Callback<ChangeNotificati
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -3018,13 +2670,7 @@ on(event: 'syncComplete', syncCallback: Callback<Array<[string, number]>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -3054,13 +2700,7 @@ off(event:'dataChange', listener?: Callback<ChangeNotification>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -3102,13 +2742,7 @@ off(event: 'syncComplete', syncCallback?: Callback<Array<[string, number]>>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -3150,13 +2784,7 @@ putBatch(entries: Entry[], callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -3215,13 +2843,7 @@ putBatch(entries: Entry[]): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -3276,13 +2898,7 @@ deleteBatch(keys: string[], callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -3341,13 +2957,7 @@ deleteBatch(keys: string[]): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -3402,13 +3012,7 @@ startTransaction(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -3465,13 +3069,7 @@ startTransaction(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -3511,13 +3109,7 @@ commit(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -3554,13 +3146,7 @@ commit(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -3595,13 +3181,7 @@ rollback(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -3638,13 +3218,7 @@ rollback(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -3680,13 +3254,7 @@ enableSync(enabled: boolean, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -3731,13 +3299,7 @@ enableSync(enabled: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -3774,13 +3336,7 @@ setSyncRange(localLabels: string[], remoteSupportLabels: string[], callback: Asy
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -3824,13 +3380,7 @@ setSyncRange(localLabels: string[], remoteSupportLabels: string[]): Promise<void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -3960,13 +3510,7 @@ get(key: string, callback: AsyncCallback<Uint8Array | string | boolean | number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -4016,13 +3560,7 @@ get(key: string): Promise<Uint8Array | string | boolean | number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -4065,13 +3603,7 @@ getEntries(keyPrefix: string, callback: AsyncCallback<Entry[]>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -4129,13 +3661,7 @@ getEntries(keyPrefix: string): Promise<Entry[]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -4193,13 +3719,7 @@ getEntries(query: Query, callback: AsyncCallback<Entry[]>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -4262,13 +3782,7 @@ getEntries(query: Query): Promise<Entry[]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -4326,13 +3840,7 @@ getResultSet(keyPrefix: string, callback: AsyncCallback<KvStoreResultSet>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -4393,13 +3901,7 @@ getResultSet(keyPrefix: string): Promise<KvStoreResultSet>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -4459,13 +3961,7 @@ getResultSet(query: Query, callback: AsyncCallback<KvStoreResultSet>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -4525,13 +4021,7 @@ getResultSet(query: Query): Promise<KvStoreResultSet>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -4588,13 +4078,7 @@ closeResultSet(resultSet: KvStoreResultSet, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -4640,13 +4124,7 @@ closeResultSet(resultSet: KvStoreResultSet): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -4683,13 +4161,7 @@ getResultSize(query: Query, callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -4747,13 +4219,7 @@ getResultSize(query: Query): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -4814,13 +4280,7 @@ deviceId具体获取方式请参考[sync接口示例](/consumer/cn/doc/harmonyos
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -4880,13 +4340,7 @@ deviceId具体获取方式请参考[sync接口示例](/consumer/cn/doc/harmonyos
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -4942,13 +4396,7 @@ sync(deviceIds: string[], mode: SyncMode, delayMs?: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import deviceManager from '@ohos.distributedHardware.deviceManager';
@@ -5010,13 +4458,7 @@ on(event: 'dataChange', type: SubscribeType, listener: Callback<ChangeNotificati
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -5046,13 +4488,7 @@ on(event: 'syncComplete', syncCallback: Callback<Array<[string, number]>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -5093,13 +4529,7 @@ off(event:'dataChange', listener?: Callback<ChangeNotification>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -5141,13 +4571,7 @@ off(event: 'syncComplete', syncCallback?: Callback<Array<[string, number]>>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -5189,13 +4613,7 @@ setSyncParam(defaultAllowedDelayMs: number, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -5237,13 +4655,7 @@ setSyncParam(defaultAllowedDelayMs: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -5279,13 +4691,7 @@ getSecurityLevel(callback: AsyncCallback<SecurityLevel>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -5318,13 +4724,7 @@ getSecurityLevel(): Promise<SecurityLevel>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -5379,13 +4779,7 @@ deviceId具体获取方式请参考[sync接口示例](/consumer/cn/doc/harmonyos
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -5438,13 +4832,7 @@ deviceId具体获取方式请参考[sync接口示例](/consumer/cn/doc/harmonyos
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -5494,13 +4882,7 @@ deviceId具体获取方式请参考[sync接口示例](/consumer/cn/doc/harmonyos
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -5566,13 +4948,7 @@ deviceId具体获取方式请参考[sync接口示例](/consumer/cn/doc/harmonyos
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -5630,13 +5006,7 @@ getEntries(query: Query, callback: AsyncCallback<Entry[]>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -5700,13 +5070,7 @@ getEntries(query: Query): Promise<Entry[]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -5771,13 +5135,7 @@ deviceId具体获取方式请参考[sync接口示例](/consumer/cn/doc/harmonyos
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -5848,13 +5206,7 @@ deviceId具体获取方式请参考[sync接口示例](/consumer/cn/doc/harmonyos
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -5920,13 +5272,7 @@ deviceId具体获取方式请参考[sync接口示例](/consumer/cn/doc/harmonyos
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -5979,13 +5325,7 @@ deviceId具体获取方式请参考[sync接口示例](/consumer/cn/doc/harmonyos
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -6028,13 +5368,7 @@ getResultSet(query: Query, callback: AsyncCallback<KvStoreResultSet>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -6098,13 +5432,7 @@ getResultSet(query: Query): Promise<KvStoreResultSet>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -6175,13 +5503,7 @@ deviceId具体获取方式请参考[sync接口示例](/consumer/cn/doc/harmonyos
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -6251,13 +5573,7 @@ deviceId具体获取方式请参考[sync接口示例](/consumer/cn/doc/harmonyos
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -6322,13 +5638,7 @@ closeResultSet(resultSet: KvStoreResultSet, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -6375,13 +5685,7 @@ closeResultSet(resultSet: KvStoreResultSet): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -6419,13 +5723,7 @@ getResultSize(query: Query, callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -6484,13 +5782,7 @@ getResultSize(query: Query): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -6553,13 +5845,7 @@ deviceId具体获取方式请参考[sync接口示例](/consumer/cn/doc/harmonyos
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -6624,13 +5910,7 @@ deviceId具体获取方式请参考[sync接口示例](/consumer/cn/doc/harmonyos
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -6691,13 +5971,7 @@ deviceId具体获取方式请参考[sync接口示例](/consumer/cn/doc/harmonyos
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -6757,13 +6031,7 @@ deviceId具体获取方式请参考[sync接口示例](/consumer/cn/doc/harmonyos
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -6819,13 +6087,7 @@ sync(deviceIds: string[], mode: SyncMode, delayMs?: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import deviceManager from '@ohos.distributedHardware.deviceManager';
@@ -6887,13 +6149,7 @@ on(event: 'dataChange', type: SubscribeType, listener: Callback<ChangeNotificati
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -6923,13 +6179,7 @@ on(event: 'syncComplete', syncCallback: Callback<Array<[string, number]>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -6970,13 +6220,7 @@ off(event:'dataChange', listener?: Callback<ChangeNotification>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;
@@ -7018,13 +6262,7 @@ off(event: 'syncComplete', syncCallback?: Callback<Array<[string, number]>>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let kvStore;

@@ -492,13 +492,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例为bindMenu通过配置[MenuElement](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-menu#menuelement)弹出普通菜单。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -534,13 +528,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例为bindMenu通过配置CustomBuilder弹出自定义菜单。同时，从API version 18开始支持通过配置[ContextMenuOptions](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-menu#contextmenuoptions10)中的hapticFeedbackMode属性实现菜单弹出时的振动效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -593,13 +581,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例为bindContextMenu通过配置[responseType](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-appendix-enums#responsetype8).LongPress弹出菜单。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -638,13 +620,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例为bindContextMenu通过配置[responseType](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-appendix-enums#responsetype8).RightClick和[ContextMenuOptions](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-menu#contextmenuoptions10)中的enableArrow属性弹出指向型菜单。同时，从API version 18开始支持通过配置[ContextMenuOptions](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-menu#contextmenuoptions10)中的hapticFeedbackMode属性实现菜单弹出时的振动效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -689,13 +665,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例为bindContextMenu通过配置[responseType](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-appendix-enums#responsetype8).LongPress和[ContextMenuOptions](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-menu#contextmenuoptions10)中preview属性的[MenuPreviewMode](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-menu#menupreviewmode11)类型弹出菜单预览样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -741,13 +711,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例为bindContextMenu通过配置[responseType](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-appendix-enums#responsetype8).LongPress和[ContextMenuOptions](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-menu#contextmenuoptions10)中preview属性的[CustomBuilder](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-types#custombuilder8)类型弹出菜单自定义预览样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -801,13 +765,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例为[bindContextMenu](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-menu#bindcontextmenu12)通过配置isShown弹出菜单预览样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -869,13 +827,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例为bindContextMenu通过配置[ContextMenuOptions](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-menu#contextmenuoptions10)中的transition属性，实现自定义菜单以及菜单预览时的显示和退出动效。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -937,13 +889,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例为bindMenu通过配置[MenuElement](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-menu#menuelement)的symbolIcon弹出菜单。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SymbolGlyphModifier } from '@kit.ArkUI';
@@ -984,13 +930,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例为bindContextMenu通过配置[ContextMenuOptions](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-menu#contextmenuoptions10)中previewAnimationOptions属性的hoverScale，实现组件截图到自定义预览图的一镜到底过渡动效。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -1047,13 +987,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 18开始，在ContextMenuOptions中新增了backgroundBlurStyleOptions属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -1106,13 +1040,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 18开始，在ContextMenuOptions中新增了backgroundEffect属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -1166,13 +1094,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，在previewAnimationOptions的类型[ContextMenuAnimationOptions](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-menu#contextmenuanimationoptions11)中新增了hoverScaleInterruption属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -1233,13 +1155,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 19开始，在[ContextMenuOptions](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-menu#contextmenuoptions10)中新增了previewBorderRadius属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -1288,13 +1204,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，在[ContextMenuOptions](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-menu#contextmenuoptions10)中新增了onWillAppear、onDidAppear、onWillDisappear和onDidDisappear属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -1372,13 +1282,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，在[ContextMenuOptions](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-menu#contextmenuoptions10)中新增了mask属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SymbolGlyphModifier } from '@kit.ArkUI';
@@ -1428,13 +1332,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，在[ContextMenuOptions](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-menu#contextmenuoptions10)中新增了outlineWidth和outlineColor属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -1480,13 +1378,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过在bindMenu中传入带参数的CustomBuilder来配置菜单的具体属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -1538,13 +1430,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 23开始，新增了bindContextMenuWithResponse的接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -1597,13 +1483,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 23开始，[ContextMenuOptions](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-menu#contextmenuoptions10)中新增keyboardAvoidMode、minKeyboardAvoidDistance属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { inputMethod } from '@kit.IMEKit';
@@ -1671,13 +1551,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，在ContextMenuOptions中新增了anchorPosition属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry

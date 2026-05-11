@@ -1,9 +1,0 @@
-* **[hiappevent.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-hiappevent-h)**
-* **[hiappevent\_cfg.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-hiappevent-cfg-h)**
-* **[hiappevent\_event.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-hiappevent-event-h)**
-* **[hiappevent\_param.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-hiappevent-param-h)**
-* **[hicollie.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-hicollie-h)**
-* **[hidebug.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-hidebug-h)**
-* **[hidebug\_type.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-hidebug-type-h)**
-* **[log.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-log-h)**
-* **[trace.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-trace-h)**

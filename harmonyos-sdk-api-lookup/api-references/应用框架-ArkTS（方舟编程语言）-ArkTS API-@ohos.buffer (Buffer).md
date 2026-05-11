@@ -10,13 +10,7 @@ Buffer对象用于表示固定长度的字节序列，是专门存放二进制�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -92,13 +86,7 @@ alloc(size: number, fill?: string | Buffer | number, encoding?: BufferEncoding):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer, JSON } from '@kit.ArkTS';
@@ -155,13 +143,7 @@ allocUninitializedFromPool(size: number): Buffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer, JSON } from '@kit.ArkTS';
@@ -213,13 +195,7 @@ allocUninitialized(size: number): Buffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer, JSON } from '@kit.ArkTS';
@@ -270,13 +246,7 @@ byteLength(string: string | Buffer | TypedArray | DataView | ArrayBuffer | Share
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -327,13 +297,7 @@ compare(buf1: Buffer | Uint8Array, buf2: Buffer | Uint8Array): -1 | 0 | 1
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -388,13 +352,7 @@ concat(list: Buffer[] | Uint8Array[], totalLength?: number): Buffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -446,13 +404,7 @@ from(array: number[]): Buffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -505,13 +457,7 @@ from(arrayBuffer: ArrayBuffer | SharedArrayBuffer, byteOffset?: number, length?:
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer, JSON } from '@kit.ArkTS';
@@ -563,13 +509,7 @@ from(buffer: Buffer | Uint8Array): Buffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -628,13 +568,7 @@ from(object: Object, offsetOrEncoding: number | string, length: number): Buffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer, JSON } from '@kit.ArkTS';
@@ -684,13 +618,7 @@ from(string: String, encoding?: BufferEncoding): Buffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -734,13 +662,7 @@ isBuffer(obj: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -792,13 +714,7 @@ isEncoding(encoding: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -855,13 +771,7 @@ transcode(source: Buffer | Uint8Array, fromEnc: string, toEnc: string): Buffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -903,13 +813,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -972,13 +876,7 @@ compare(target: Buffer | Uint8Array, targetStart?: number, targetEnd?: number, s
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -1038,13 +936,7 @@ copy(target: Buffer| Uint8Array, targetStart?: number, sourceStart?: number, sou
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -1083,13 +975,7 @@ entries(): IterableIterator<[number, number]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -1151,13 +1037,7 @@ equals(otherBuffer: Uint8Array | Buffer): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -1216,13 +1096,7 @@ fill(value: string | Buffer | Uint8Array | number, offset?: number, end?: number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -1274,13 +1148,7 @@ includes(value: string | number | Buffer | Uint8Array, byteOffset?: number, enco
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -1334,13 +1202,7 @@ indexOf(value: string | number | Buffer | Uint8Array, byteOffset?: number, encod
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -1374,13 +1236,7 @@ keys(): IterableIterator<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -1442,13 +1298,7 @@ lastIndexOf(value: string | number | Buffer | Uint8Array, byteOffset?: number, e
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -1501,13 +1351,7 @@ readBigInt64BE(offset?: number): bigint
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -1564,13 +1408,7 @@ readBigInt64LE(offset?: number): bigint
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -1627,13 +1465,7 @@ readBigUInt64BE(offset?: number): bigint
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -1689,13 +1521,7 @@ readBigUInt64LE(offset?: number): bigint
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -1752,13 +1578,7 @@ readDoubleBE(offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -1813,13 +1633,7 @@ readDoubleLE(offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -1874,13 +1688,7 @@ readFloatBE(offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -1935,13 +1743,7 @@ readFloatLE(offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -1996,13 +1798,7 @@ readInt8(offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -2059,13 +1855,7 @@ readInt16BE(offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -2120,13 +1910,7 @@ readInt16LE(offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -2181,13 +1965,7 @@ readInt32BE(offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -2242,13 +2020,7 @@ readInt32LE(offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -2304,13 +2076,7 @@ readIntBE(offset: number, byteLength: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -2367,13 +2133,7 @@ readIntLE(offset: number, byteLength: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -2428,13 +2188,7 @@ readUInt8(offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -2491,13 +2245,7 @@ readUInt16BE(offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -2554,13 +2302,7 @@ readUInt16LE(offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -2617,13 +2359,7 @@ readUInt32BE(offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -2678,13 +2414,7 @@ readUInt32LE(offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -2740,13 +2470,7 @@ readUIntBE(offset: number, byteLength: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -2802,13 +2526,7 @@ readUIntLE(offset: number, byteLength: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -2853,13 +2571,7 @@ subarray(start?: number, end?: number): Buffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -2906,13 +2618,7 @@ swap16(): Buffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -2957,13 +2663,7 @@ swap32(): Buffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -3008,13 +2708,7 @@ swap64(): Buffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -3049,13 +2743,7 @@ toJSON(): Object
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -3108,13 +2796,7 @@ toString(encoding?: string, start?: number, end?: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -3149,13 +2831,7 @@ values(): IterableIterator<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -3221,13 +2897,7 @@ write(str: string, offset?: number, length?: number, encoding?: string): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -3285,13 +2955,7 @@ writeBigInt64BE(value: bigint, offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -3344,13 +3008,7 @@ writeBigInt64LE(value: bigint, offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -3403,13 +3061,7 @@ writeBigUInt64BE(value: bigint, offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -3462,13 +3114,7 @@ writeBigUInt64LE(value: bigint, offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -3521,13 +3167,7 @@ writeDoubleBE(value: number, offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -3580,13 +3220,7 @@ writeDoubleLE(value: number, offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -3639,13 +3273,7 @@ writeFloatBE(value: number, offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -3698,13 +3326,7 @@ writeFloatLE(value: number, offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -3757,13 +3379,7 @@ writeInt8(value: number, offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -3819,13 +3435,7 @@ writeInt16BE(value: number, offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -3878,13 +3488,7 @@ writeInt16LE(value: number, offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -3937,13 +3541,7 @@ writeInt32BE(value: number, offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -3996,13 +3594,7 @@ writeInt32LE(value: number, offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -4056,13 +3648,7 @@ writeIntBE(value: number, offset: number, byteLength: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -4116,13 +3702,7 @@ writeIntLE(value: number, offset: number, byteLength: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -4175,13 +3755,7 @@ writeUInt8(value: number, offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -4243,13 +3817,7 @@ writeUInt16BE(value: number, offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -4305,13 +3873,7 @@ writeUInt16LE(value: number, offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -4367,13 +3929,7 @@ writeUInt32BE(value: number, offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -4426,13 +3982,7 @@ writeUInt32LE(value: number, offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -4486,13 +4036,7 @@ writeUIntBE(value: number, offset: number, byteLength: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -4546,13 +4090,7 @@ writeUIntLE(value: number, offset: number, byteLength: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -4615,13 +4153,7 @@ Blob的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -4658,13 +4190,7 @@ arrayBuffer(): Promise<ArrayBuffer>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -4710,13 +4236,7 @@ slice(start?: number, end?: number, type?: string): Blob
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -4749,13 +4269,7 @@ text(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';

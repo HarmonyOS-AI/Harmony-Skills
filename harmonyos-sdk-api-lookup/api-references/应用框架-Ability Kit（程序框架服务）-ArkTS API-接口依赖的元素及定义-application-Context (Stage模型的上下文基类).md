@@ -24,13 +24,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -114,13 +108,7 @@ createModuleContext(moduleName: string): Context
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common, UIAbility } from '@kit.AbilityKit';
@@ -171,13 +159,7 @@ getApplicationContext(): ApplicationContext
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common, UIAbility } from '@kit.AbilityKit';
@@ -237,13 +219,7 @@ getGroupDir(dataGroupID: string): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common, UIAbility } from '@kit.AbilityKit';
@@ -299,13 +275,7 @@ getGroupDir(dataGroupID: string, callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common, UIAbility } from '@kit.AbilityKit';
@@ -357,13 +327,7 @@ createAreaModeContext(areaMode: contextConstant.AreaMode): Context
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common, UIAbility, contextConstant } from '@kit.AbilityKit';
@@ -423,13 +387,7 @@ createDisplayContext(displayId: number): Context
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common, UIAbility } from '@kit.AbilityKit';

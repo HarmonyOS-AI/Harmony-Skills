@@ -14,13 +14,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { browser } from '@kit.MDMKit';
@@ -68,13 +62,7 @@ setPolicySync(admin: Want, appId: string, policyName: string, policyValue: strin
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { browser } from '@kit.MDMKit';
@@ -141,13 +129,7 @@ getPoliciesSync(admin: Want, appId: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { browser } from '@kit.MDMKit';
@@ -212,13 +194,7 @@ setManagedBrowserPolicy(admin: Want, bundleName: string, policyName: string, pol
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { browser } from '@kit.MDMKit';
@@ -284,13 +260,7 @@ getManagedBrowserPolicy(admin: Want, bundleName: string): ArrayBuffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { browser } from '@kit.MDMKit';
@@ -338,13 +308,7 @@ getSelfManagedBrowserPolicyVersion(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { browser } from '@kit.MDMKit';
@@ -379,13 +343,7 @@ getSelfManagedBrowserPolicy(): ArrayBuffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { browser } from '@kit.MDMKit';

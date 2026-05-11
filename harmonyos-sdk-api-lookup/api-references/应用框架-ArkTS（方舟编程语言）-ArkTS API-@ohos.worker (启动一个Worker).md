@@ -14,13 +14,7 @@ Worker的上下文环境和UI线程的上下文环境是独立的，Worker线程
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { worker } from '@kit.ArkTS';
@@ -156,13 +150,7 @@ ThreadWorker构造函数。
 
 以下示例展示了在Stage模型的entry模块Index.ets文件中加载Worker文件的方法，使用Library加载Worker线程文件的场景参考[文件路径注意事项](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/worker-introduction#文件路径注意事项)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -207,13 +195,7 @@ postMessage(message: Object, transfer: ArrayBuffer[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Worker.ets
@@ -238,13 +220,7 @@ postMessage(message: Object, transfer: ArrayBuffer[]): void
 20. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -331,13 +307,7 @@ postMessage(message: Object, options?: PostMessageOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { worker } from '@kit.ArkTS';
@@ -387,13 +357,7 @@ postMessageWithSharedSendable(message: Object, transfer?: ArrayBuffer[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -410,13 +374,7 @@ postMessageWithSharedSendable(message: Object, transfer?: ArrayBuffer[]): void
 12. workerInstance.postMessage(object);
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // sendable.ets
@@ -428,13 +386,7 @@ postMessageWithSharedSendable(message: Object, transfer?: ArrayBuffer[]): void
 7. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // worker文件路径为：entry/src/main/ets/workers/Worker.ets
@@ -487,13 +439,7 @@ on(type: string, listener: WorkerEventListener): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -545,13 +491,7 @@ once(type: string, listener: WorkerEventListener): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -601,13 +541,7 @@ off(type: string, listener?: WorkerEventListener): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -669,13 +603,7 @@ registerGlobalCallObject(instanceName: string, globalCallObject: Object): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -697,13 +625,7 @@ registerGlobalCallObject(instanceName: string, globalCallObject: Object): void
 17. workerInstance.postMessage("start worker");
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // worker.ets
@@ -763,13 +685,7 @@ unregisterGlobalCallObject(instanceName?: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -817,13 +733,7 @@ terminate(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -868,13 +778,7 @@ addEventListener(type: string, listener: WorkerEventListener): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -924,13 +828,7 @@ removeEventListener(type: string, callback?: WorkerEventListener): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -988,13 +886,7 @@ dispatchEvent(event: Event): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -1037,13 +929,7 @@ removeAllListener(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -1097,13 +983,7 @@ addEventListener(type: string, listener: WorkerEventListener): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // worker.ets
@@ -1152,13 +1032,7 @@ removeEventListener(type: string, callback?: WorkerEventListener): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // worker.ets
@@ -1216,13 +1090,7 @@ dispatchEvent(event: Event): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // worker.ets
@@ -1265,13 +1133,7 @@ removeAllListener(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // worker.ets
@@ -1342,13 +1204,7 @@ Worker线程通过转移对象所有权的方式向宿主线程发送消息。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -1361,13 +1217,7 @@ Worker线程通过转移对象所有权的方式向宿主线程发送消息。
 8. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // worker.ets
@@ -1415,13 +1265,7 @@ Worker线程通过转移对象所有权或拷贝数据的方式向宿主线程�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -1434,13 +1278,7 @@ Worker线程通过转移对象所有权或拷贝数据的方式向宿主线程�
 8. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // worker.ets
@@ -1487,13 +1325,7 @@ Worker线程向宿主线程发送消息，消息中的[Sendable对象](https://d
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // worker文件路径为：entry/src/main/ets/workers/Worker.ets
@@ -1510,13 +1342,7 @@ Worker线程向宿主线程发送消息，消息中的[Sendable对象](https://d
 12. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // sendable.ets
@@ -1528,13 +1354,7 @@ Worker线程向宿主线程发送消息，消息中的[Sendable对象](https://d
 7. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -1599,13 +1419,7 @@ Worker线程调用宿主线程上注册的对象的指定方法，此调用对Wo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -1627,13 +1441,7 @@ Worker线程调用宿主线程上注册的对象的指定方法，此调用对Wo
 17. workerInstance.postMessage("start worker");
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // worker.ets
@@ -1684,13 +1492,7 @@ close(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -1700,13 +1502,7 @@ close(): void
 5. workerInstance.postMessage("hello world");
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // worker.ets
@@ -1766,13 +1562,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -1913,13 +1703,7 @@ Worker构造函数。
 
 此处以在Stage模型的entry模块Index.ets文件中加载Worker文件为例，使用Library加载Worker线程文件的场景参考[文件路径注意事项](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/worker-introduction#文件路径注意事项)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -1954,13 +1738,7 @@ postMessage(message: Object, transfer: ArrayBuffer[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -1997,13 +1775,7 @@ postMessage(message: Object, options?: PostMessageOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -2042,13 +1814,7 @@ on(type: string, listener: EventListener): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -2085,13 +1851,7 @@ once(type: string, listener: EventListener): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -2128,13 +1888,7 @@ off(type: string, listener?: EventListener): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -2161,13 +1915,7 @@ terminate(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -2210,13 +1958,7 @@ addEventListener(type: string, listener: EventListener): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // worker.ets
@@ -2254,13 +1996,7 @@ removeEventListener(type: string, callback?: EventListener): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // worker.ets
@@ -2307,13 +2043,7 @@ dispatchEvent(event: Event): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // worker.ets
@@ -2330,13 +2060,7 @@ dispatchEvent(event: Event): boolean
 
 分发事件（dispatchEvent）可与监听接口（addEventListener）搭配使用，示例如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -2349,13 +2073,7 @@ dispatchEvent(event: Event): boolean
 8. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // worker.ets
@@ -2388,13 +2106,7 @@ removeAllListener(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // worker.ets
@@ -2480,13 +2192,7 @@ postMessage接口从API version 9开始支持，从API version 9开始废弃，�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -2500,13 +2206,7 @@ postMessage接口从API version 9开始支持，从API version 9开始废弃，�
 9. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // worker.ets
@@ -2546,13 +2246,7 @@ Worker线程通过转移对象所有权或者拷贝数据的方式向宿主线�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -2565,13 +2259,7 @@ Worker线程通过转移对象所有权或者拷贝数据的方式向宿主线�
 8. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // worker.ets
@@ -2599,13 +2287,7 @@ close(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -2615,13 +2297,7 @@ close(): void
 5. workerInstance.postMessage("hello world");
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // worker.ets
@@ -2706,13 +2382,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -2794,13 +2464,7 @@ PhonePC/2in1TabletTVWearable
 
 以API version 9的FA工程为例。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -2814,13 +2478,7 @@ PhonePC/2in1TabletTVWearable
 9. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // worker.ets
@@ -2869,13 +2527,7 @@ API version 8及之前的版本仅支持FA模型，如需使用，注意更换�
 
 此处以API version 9的工程为例。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // main thread(同级目录为例)
@@ -2908,13 +2560,7 @@ API version 8及之前的版本仅支持FA模型，如需使用，注意更换�
 28. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // worker.ets
@@ -2942,13 +2588,7 @@ API version 8及之前的版本仅支持FA模型，如需使用，注意更换�
 
 在模块级entry/build-profile.json5配置文件中添加如下配置:
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. "buildOption": {
@@ -2964,13 +2604,7 @@ API version 8及之前的版本仅支持FA模型，如需使用，注意更换�
 
 此处以API version 18的工程为例。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -3017,13 +2651,7 @@ API version 8及之前的版本仅支持FA模型，如需使用，注意更换�
 42. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Worker.ets
@@ -3050,13 +2678,7 @@ API version 8及之前的版本仅支持FA模型，如需使用，注意更换�
 
 在模块级entry/build-profile.json5配置文件中添加如下配置:
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. "buildOption": {
@@ -3070,13 +2692,7 @@ API version 8及之前的版本仅支持FA模型，如需使用，注意更换�
 
 ### 分发事件与监听接口搭配使用示例
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -3146,13 +2762,7 @@ API version 8及之前的版本仅支持FA模型，如需使用，注意更换�
 65. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // worker.ets

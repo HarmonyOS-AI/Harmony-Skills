@@ -1,10 +1,4 @@
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum ArkUI_NodeAttributeType
@@ -22,13 +16,7 @@
 
 ## NODE\_TEXT\_INPUT\_PLACEHOLDER
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_PLACEHOLDER = MAX_NODE_SCOPE_NUM * ARKUI_NODE_TEXT_INPUT = 7000
@@ -58,13 +46,7 @@
 
 ## NODE\_TEXT\_INPUT\_TEXT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_TEXT = 7001
@@ -94,13 +76,7 @@
 
 ## NODE\_TEXT\_INPUT\_CARET\_COLOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_CARET_COLOR = 7002
@@ -130,13 +106,7 @@
 
 ## NODE\_TEXT\_INPUT\_CARET\_STYLE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_CARET_STYLE = 7003
@@ -166,13 +136,7 @@
 
 ## NODE\_TEXT\_INPUT\_SHOW\_UNDERLINE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_SHOW_UNDERLINE = 7004
@@ -202,13 +166,7 @@
 
 ## NODE\_TEXT\_INPUT\_MAX\_LENGTH
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_MAX_LENGTH = 7005
@@ -238,13 +196,7 @@
 
 ## NODE\_TEXT\_INPUT\_ENTER\_KEY\_TYPE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_ENTER_KEY_TYPE = 7006
@@ -274,13 +226,7 @@
 
 ## NODE\_TEXT\_INPUT\_PLACEHOLDER\_COLOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_PLACEHOLDER_COLOR = 7007
@@ -310,13 +256,7 @@
 
 ## NODE\_TEXT\_INPUT\_PLACEHOLDER\_FONT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_PLACEHOLDER_FONT = 7008
@@ -352,13 +292,7 @@
 
 ## NODE\_TEXT\_INPUT\_ENABLE\_KEYBOARD\_ON\_FOCUS
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_ENABLE_KEYBOARD_ON_FOCUS = 7009
@@ -388,13 +322,7 @@
 
 ## NODE\_TEXT\_INPUT\_TYPE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_TYPE = 7010
@@ -424,13 +352,7 @@
 
 ## NODE\_TEXT\_INPUT\_SELECTED\_BACKGROUND\_COLOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_SELECTED_BACKGROUND_COLOR = 7011
@@ -460,13 +382,7 @@
 
 ## NODE\_TEXT\_INPUT\_SHOW\_PASSWORD\_ICON
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_SHOW_PASSWORD_ICON = 7012
@@ -496,13 +412,7 @@
 
 ## NODE\_TEXT\_INPUT\_EDITING
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_EDITING = 7013
@@ -525,13 +435,7 @@
 
 ## NODE\_TEXT\_INPUT\_CANCEL\_BUTTON
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_CANCEL_BUTTON = 7014
@@ -567,13 +471,7 @@
 
 ## NODE\_TEXT\_INPUT\_TEXT\_SELECTION
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_TEXT_SELECTION = 7015
@@ -605,13 +503,7 @@
 
 ## NODE\_TEXT\_INPUT\_UNDERLINE\_COLOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_UNDERLINE_COLOR = 7016
@@ -647,13 +539,7 @@
 
 ## NODE\_TEXT\_INPUT\_ENABLE\_AUTO\_FILL
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_ENABLE_AUTO_FILL = 7017
@@ -683,13 +569,7 @@
 
 ## NODE\_TEXT\_INPUT\_CONTENT\_TYPE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_CONTENT_TYPE = 7018
@@ -719,13 +599,7 @@
 
 ## NODE\_TEXT\_INPUT\_PASSWORD\_RULES
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_PASSWORD_RULES = 7019
@@ -755,13 +629,7 @@
 
 ## NODE\_TEXT\_INPUT\_SELECT\_ALL
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_SELECT_ALL = 7020
@@ -791,13 +659,7 @@
 
 ## NODE\_TEXT\_INPUT\_INPUT\_FILTER
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_INPUT_FILTER = 7021
@@ -827,13 +689,7 @@
 
 ## NODE\_TEXT\_INPUT\_STYLE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_STYLE = 7022
@@ -863,13 +719,7 @@
 
 ## NODE\_TEXT\_INPUT\_CARET\_OFFSET
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_CARET_OFFSET = 7023
@@ -905,13 +755,7 @@
 
 ## NODE\_TEXT\_INPUT\_CONTENT\_RECT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_CONTENT_RECT = 7024
@@ -936,13 +780,7 @@
 
 ## NODE\_TEXT\_INPUT\_CONTENT\_LINE\_COUNT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_CONTENT_LINE_COUNT = 7025
@@ -964,13 +802,7 @@
 
 ## NODE\_TEXT\_INPUT\_SELECTION\_MENU\_HIDDEN
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_SELECTION_MENU_HIDDEN = 7026
@@ -1000,13 +832,7 @@
 
 ## NODE\_TEXT\_INPUT\_BLUR\_ON\_SUBMIT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_BLUR_ON_SUBMIT = 7027
@@ -1036,13 +862,7 @@
 
 ## NODE\_TEXT\_INPUT\_CUSTOM\_KEYBOARD
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_CUSTOM_KEYBOARD = 7028
@@ -1074,13 +894,7 @@
 
 ## NODE\_TEXT\_INPUT\_WORD\_BREAK
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_WORD_BREAK = 7029
@@ -1110,13 +924,7 @@
 
 ## NODE\_TEXT\_INPUT\_SHOW\_KEYBOARD\_ON\_FOCUS
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_SHOW_KEYBOARD_ON_FOCUS = 7030
@@ -1146,13 +954,7 @@
 
 ## NODE\_TEXT\_INPUT\_NUMBER\_OF\_LINES
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_NUMBER_OF_LINES = 7031
@@ -1182,13 +984,7 @@
 
 ## NODE\_TEXT\_INPUT\_LETTER\_SPACING
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_LETTER_SPACING = 7032
@@ -1218,13 +1014,7 @@
 
 ## NODE\_TEXT\_INPUT\_ENABLE\_PREVIEW\_TEXT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_ENABLE_PREVIEW_TEXT = 7033
@@ -1254,13 +1044,7 @@
 
 ## NODE\_TEXT\_INPUT\_HALF\_LEADING
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_HALF_LEADING = 7034
@@ -1290,13 +1074,7 @@
 
 ## NODE\_TEXT\_INPUT\_KEYBOARD\_APPEARANCE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_KEYBOARD_APPEARANCE = 7035
@@ -1326,13 +1104,7 @@
 
 ## NODE\_TEXT\_INPUT\_ENABLE\_FILL\_ANIMATION
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_ENABLE_FILL_ANIMATION = 7036
@@ -1362,13 +1134,7 @@
 
 ## NODE\_TEXT\_INPUT\_LINE\_HEIGHT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_LINE_HEIGHT = 7037
@@ -1398,13 +1164,7 @@
 
 ## NODE\_TEXT\_INPUT\_ENABLE\_SELECTED\_DATA\_DETECTOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_ENABLE_SELECTED_DATA_DETECTOR = 7038
@@ -1434,13 +1194,7 @@
 
 ## NODE\_TEXT\_INPUT\_SHOW\_COUNTER
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_SHOW_COUNTER = 7040
@@ -1476,13 +1230,7 @@
 
 ## NODE\_TEXT\_INPUT\_TEXT\_CONTENT\_CONTROLLER\_BASE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_TEXT_CONTENT_CONTROLLER_BASE = 7041
@@ -1512,13 +1260,7 @@
 
 ## NODE\_TEXT\_INPUT\_ELLIPSIS\_MODE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_ELLIPSIS_MODE = 7042
@@ -1548,13 +1290,7 @@
 
 ## NODE\_TEXT\_INPUT\_COMPRESS\_LEADING\_PUNCTUATION
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_COMPRESS_LEADING_PUNCTUATION = 7044
@@ -1584,13 +1320,7 @@
 
 ## NODE\_TEXT\_INPUT\_INCLUDE\_FONT\_PADDING
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_INCLUDE_FONT_PADDING = 7045
@@ -1620,13 +1350,7 @@
 
 ## NODE\_TEXT\_INPUT\_FALLBACK\_LINE\_SPACING
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_FALLBACK_LINE_SPACING = 7046
@@ -1656,13 +1380,7 @@
 
 ## NODE\_TEXT\_INPUT\_DIRECTION
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_DIRECTION = 7047
@@ -1692,13 +1410,7 @@
 
 ## NODE\_TEXT\_INPUT\_SELECTED\_DRAG\_PREVIEW\_STYLE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_SELECTED_DRAG_PREVIEW_STYLE = 7048
@@ -1728,13 +1440,7 @@
 
 ## NODE\_TEXT\_INPUT\_TEXT\_OVERFLOW
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_TEXT_OVERFLOW = 7049
@@ -1764,13 +1470,7 @@
 
 ## NODE\_TEXT\_INPUT\_DECORATION
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INPUT_DECORATION = 7050
@@ -1800,13 +1500,7 @@
 
 ## NODE\_TEXT\_AREA\_PLACEHOLDER
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_PLACEHOLDER = MAX_NODE_SCOPE_NUM * ARKUI_NODE_TEXT_AREA = 8000
@@ -1836,13 +1530,7 @@
 
 ## NODE\_TEXT\_AREA\_TEXT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_TEXT = 8001
@@ -1872,13 +1560,7 @@
 
 ## NODE\_TEXT\_AREA\_MAX\_LENGTH
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_MAX_LENGTH = 8002
@@ -1908,13 +1590,7 @@
 
 ## NODE\_TEXT\_AREA\_PLACEHOLDER\_COLOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_PLACEHOLDER_COLOR = 8003
@@ -1944,13 +1620,7 @@
 
 ## NODE\_TEXT\_AREA\_PLACEHOLDER\_FONT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_PLACEHOLDER_FONT = 8004
@@ -1986,13 +1656,7 @@
 
 ## NODE\_TEXT\_AREA\_CARET\_COLOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_CARET_COLOR = 8005
@@ -2022,13 +1686,7 @@
 
 ## NODE\_TEXT\_AREA\_EDITING
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_EDITING = 8006
@@ -2051,13 +1709,7 @@
 
 ## NODE\_TEXT\_AREA\_TYPE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_TYPE = 8007
@@ -2087,13 +1739,7 @@
 
 ## NODE\_TEXT\_AREA\_SHOW\_COUNTER
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_SHOW_COUNTER = 8008
@@ -2129,13 +1775,7 @@
 
 ## NODE\_TEXT\_AREA\_SELECTION\_MENU\_HIDDEN
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_SELECTION_MENU_HIDDEN = 8009
@@ -2165,13 +1805,7 @@
 
 ## NODE\_TEXT\_AREA\_BLUR\_ON\_SUBMIT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_BLUR_ON_SUBMIT = 8010
@@ -2201,13 +1835,7 @@
 
 ## NODE\_TEXT\_AREA\_INPUT\_FILTER
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_INPUT_FILTER = 8011
@@ -2237,13 +1865,7 @@
 
 ## NODE\_TEXT\_AREA\_SELECTED\_BACKGROUND\_COLOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_SELECTED_BACKGROUND_COLOR = 8012
@@ -2273,13 +1895,7 @@
 
 ## NODE\_TEXT\_AREA\_ENTER\_KEY\_TYPE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_ENTER_KEY_TYPE = 8013
@@ -2309,13 +1925,7 @@
 
 ## NODE\_TEXT\_AREA\_ENABLE\_KEYBOARD\_ON\_FOCUS
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_ENABLE_KEYBOARD_ON_FOCUS = 8014
@@ -2345,13 +1955,7 @@
 
 ## NODE\_TEXT\_AREA\_CARET\_OFFSET
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_CARET_OFFSET = 8015
@@ -2387,13 +1991,7 @@
 
 ## NODE\_TEXT\_AREA\_CONTENT\_RECT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_CONTENT_RECT = 8016
@@ -2418,13 +2016,7 @@
 
 ## NODE\_TEXT\_AREA\_CONTENT\_LINE\_COUNT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_CONTENT_LINE_COUNT = 8017
@@ -2446,13 +2038,7 @@
 
 ## NODE\_TEXT\_AREA\_TEXT\_SELECTION
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_TEXT_SELECTION = 8018
@@ -2484,13 +2070,7 @@
 
 ## NODE\_TEXT\_AREA\_ENABLE\_AUTO\_FILL
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_ENABLE_AUTO_FILL = 8019
@@ -2520,13 +2100,7 @@
 
 ## NODE\_TEXT\_AREA\_CONTENT\_TYPE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_CONTENT_TYPE = 8020
@@ -2556,13 +2130,7 @@
 
 ## NODE\_TEXT\_AREA\_SHOW\_KEYBOARD\_ON\_FOCUS
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_SHOW_KEYBOARD_ON_FOCUS = 8021
@@ -2592,13 +2160,7 @@
 
 ## NODE\_TEXT\_AREA\_NUMBER\_OF\_LINES
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_NUMBER_OF_LINES = 8022
@@ -2628,13 +2190,7 @@
 
 ## NODE\_TEXT\_AREA\_LETTER\_SPACING
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_LETTER_SPACING = 8023
@@ -2664,13 +2220,7 @@
 
 ## NODE\_TEXT\_AREA\_ENABLE\_PREVIEW\_TEXT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_ENABLE_PREVIEW_TEXT = 8024
@@ -2700,13 +2250,7 @@
 
 ## NODE\_TEXT\_AREA\_HALF\_LEADING
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_HALF_LEADING = 8025
@@ -2736,13 +2280,7 @@
 
 ## NODE\_TEXT\_AREA\_KEYBOARD\_APPEARANCE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_KEYBOARD_APPEARANCE = 8026
@@ -2772,13 +2310,7 @@
 
 ## NODE\_TEXT\_AREA\_MAX\_LINES
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_MAX_LINES = 8027
@@ -2808,13 +2340,7 @@
 
 ## NODE\_TEXT\_AREA\_LINE\_SPACING
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_LINE_SPACING = 8028
@@ -2844,13 +2370,7 @@
 
 ## NODE\_TEXT\_AREA\_MIN\_LINES
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_MIN_LINES = 8029
@@ -2880,13 +2400,7 @@
 
 ## NODE\_TEXT\_AREA\_MAX\_LINES\_WITH\_SCROLL
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_MAX_LINES_WITH_SCROLL = 8030
@@ -2916,13 +2430,7 @@
 
 ## NODE\_TEXT\_AREA\_LINE\_HEIGHT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_LINE_HEIGHT = 8031
@@ -2952,13 +2460,7 @@
 
 ## NODE\_TEXT\_AREA\_BAR\_STATE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_BAR_STATE = 8032
@@ -2988,13 +2490,7 @@
 
 ## NODE\_TEXT\_AREA\_ENABLE\_SELECTED\_DATA\_DETECTOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_ENABLE_SELECTED_DATA_DETECTOR = 8033
@@ -3024,13 +2520,7 @@
 
 ## NODE\_TEXT\_AREA\_SCROLL\_BAR\_COLOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_SCROLL_BAR_COLOR = 8035
@@ -3060,13 +2550,7 @@
 
 ## NODE\_TEXT\_AREA\_CUSTOM\_KEYBOARD
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_CUSTOM_KEYBOARD = 8036
@@ -3098,13 +2582,7 @@
 
 ## NODE\_TEXT\_AREA\_TEXT\_CONTENT\_CONTROLLER\_BASE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_TEXT_CONTENT_CONTROLLER_BASE = 8037
@@ -3134,13 +2612,7 @@
 
 ## NODE\_TEXT\_AREA\_ELLIPSIS\_MODE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_ELLIPSIS_MODE = 8038
@@ -3170,13 +2642,7 @@
 
 ## NODE\_TEXT\_AREA\_COMPRESS\_LEADING\_PUNCTUATION
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_COMPRESS_LEADING_PUNCTUATION = 8040
@@ -3206,13 +2672,7 @@
 
 ## NODE\_TEXT\_AREA\_INCLUDE\_FONT\_PADDING
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_INCLUDE_FONT_PADDING = 8041
@@ -3242,13 +2702,7 @@
 
 ## NODE\_TEXT\_AREA\_FALLBACK\_LINE\_SPACING
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_FALLBACK_LINE_SPACING = 8042
@@ -3278,13 +2732,7 @@
 
 ## NODE\_TEXT\_AREA\_HORIZONTAL\_SCROLLING
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_HORIZONTAL_SCROLLING = 8043
@@ -3314,13 +2762,7 @@
 
 ## NODE\_TEXT\_AREA\_DIRECTION
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_DIRECTION = 8044
@@ -3350,13 +2792,7 @@
 
 ## NODE\_TEXT\_AREA\_SELECTED\_DRAG\_PREVIEW\_STYLE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_SELECTED_DRAG_PREVIEW_STYLE = 8045
@@ -3386,13 +2822,7 @@
 
 ## NODE\_TEXT\_AREA\_TEXT\_OVERFLOW
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_TEXT_OVERFLOW = 8046
@@ -3422,13 +2852,7 @@
 
 ## NODE\_TEXT\_AREA\_DECORATION
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_AREA_DECORATION = 8047

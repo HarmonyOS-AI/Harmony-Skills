@@ -8,13 +8,7 @@
 
 PhoneTabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { radio } from '@kit.TelephonyKit';
@@ -58,13 +52,7 @@ getRadioTech(slotId: number, callback: AsyncCallback<[NetworkRadioTech](/consume
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -124,13 +112,7 @@ getRadioTech(slotId: number): Promise<[NetworkRadioTech](/consumer/cn/doc/harmon
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -188,13 +170,7 @@ getRadioTechSync(slotId: number): [NetworkRadioTech](/consumer/cn/doc/harmonyos-
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let slotId: number = 0;
@@ -239,13 +215,7 @@ getNetworkState(callback: AsyncCallback<NetworkState>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -297,13 +267,7 @@ getNetworkState(slotId: number, callback: AsyncCallback<NetworkState>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -363,13 +327,7 @@ getNetworkState(slotId?: number): Promise<NetworkState>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -417,13 +375,7 @@ getNetworkSelectionMode(slotId: number, callback: AsyncCallback<NetworkSelection
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -480,13 +432,7 @@ getNetworkSelectionMode(slotId: number): Promise<NetworkSelectionMode>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -534,13 +480,7 @@ getISOCountryCodeForNetwork(slotId: number, callback: AsyncCallback<string>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -597,13 +537,7 @@ getISOCountryCodeForNetwork(slotId: number): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -644,13 +578,7 @@ getISOCountryCodeForNetworkSync(slotId: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let slotId: number = 0;
@@ -692,13 +620,7 @@ getPrimarySlotId(callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -744,13 +666,7 @@ getPrimarySlotId(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -797,13 +713,7 @@ getSignalInformation(slotId: number, callback: AsyncCallback<Array<SignalInforma
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -860,13 +770,7 @@ getSignalInformation(slotId: number): Promise<Array<SignalInformation>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -907,13 +811,7 @@ getSignalInformationSync(slotId: number): Array<SignalInformation>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let slotId: number = 0;
@@ -945,13 +843,7 @@ isNrSupported(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let result: boolean = radio.isNrSupported();
@@ -990,13 +882,7 @@ isNrSupported(slotId: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let slotId: number = 0;
@@ -1024,13 +910,7 @@ isNRSupported(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let result: boolean = radio.isNRSupported();
@@ -1065,13 +945,7 @@ isNRSupported(slotId: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let slotId: number = 0;
@@ -1116,13 +990,7 @@ isRadioOn(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1174,13 +1042,7 @@ isRadioOn(slotId: number, callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1240,13 +1102,7 @@ isRadioOn(slotId?: number): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1294,13 +1150,7 @@ getOperatorName(slotId: number, callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1357,13 +1207,7 @@ getOperatorName(slotId: number): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1404,13 +1248,7 @@ getOperatorNameSync(slotId: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let slotId: number = 0;

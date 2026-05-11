@@ -1,2 +1,0 @@
-* **[NetConnection](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-netconnection)**
-* **[Netstack](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-netstack)**

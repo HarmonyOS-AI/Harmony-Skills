@@ -15,13 +15,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { audio } from '@kit.AudioKit';
@@ -47,13 +41,7 @@ getStatus(): Promise<AudioLoopbackStatus>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -103,13 +91,7 @@ setVolume(volume: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -152,13 +134,7 @@ on(type: 'statusChange', callback: Callback<AudioLoopbackStatus>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioLoopback.on('statusChange', (status: audio.AudioLoopbackStatus) => {
@@ -205,13 +181,7 @@ off(type: 'statusChange', callback?: Callback<AudioLoopbackStatus>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 取消该事件的所有监听。
@@ -276,13 +246,7 @@ enable(enable: boolean): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -336,13 +300,7 @@ setReverbPreset(preset: AudioLoopbackReverbPreset): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -373,13 +331,7 @@ getReverbPreset(): AudioLoopbackReverbPreset
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -428,13 +380,7 @@ setEqualizerPreset(preset: AudioLoopbackEqualizerPreset): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -465,13 +411,7 @@ getEqualizerPreset(): AudioLoopbackEqualizerPreset
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

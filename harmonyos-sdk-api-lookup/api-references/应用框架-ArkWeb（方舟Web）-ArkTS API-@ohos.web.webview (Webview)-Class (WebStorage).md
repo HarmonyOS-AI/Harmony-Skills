@@ -12,13 +12,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webview } from '@kit.ArkWeb';
@@ -55,13 +49,7 @@ static deleteOrigin(origin: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -93,13 +81,7 @@ static deleteOrigin(origin: string): void
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -221,13 +203,7 @@ static getOrigins(callback: AsyncCallback<Array<WebStorageOrigin>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -299,13 +275,7 @@ static getOrigins(): Promise<Array<WebStorageOrigin>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -378,13 +348,7 @@ static getOriginQuota(origin: string, callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -461,13 +425,7 @@ static getOriginQuota(origin: string): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -537,13 +495,7 @@ static getOriginUsage(origin: string, callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -620,13 +572,7 @@ static getOriginUsage(origin: string): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -682,13 +628,7 @@ static deleteAllData(incognito?: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

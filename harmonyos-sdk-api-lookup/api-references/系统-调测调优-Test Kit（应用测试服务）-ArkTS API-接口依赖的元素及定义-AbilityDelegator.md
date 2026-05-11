@@ -12,13 +12,7 @@ AbilityDelegator可以通过[getAbilityDelegator](https://developer.huawei.com/c
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -62,13 +56,7 @@ addAbilityMonitor(monitor: AbilityMonitor, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -132,13 +120,7 @@ addAbilityMonitor(monitor: AbilityMonitor): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -192,13 +174,7 @@ addAbilityMonitorSync(monitor: AbilityMonitor): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -253,13 +229,7 @@ removeAbilityMonitor(monitor: AbilityMonitor, callback: AsyncCallback<void>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -324,13 +294,7 @@ removeAbilityMonitor(monitor: AbilityMonitor): Promise<void>
 
 * 示例
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -385,13 +349,7 @@ removeAbilityMonitorSync(monitor: AbilityMonitor): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -445,13 +403,7 @@ waitAbilityMonitor(monitor: AbilityMonitor, callback: AsyncCallback<UIAbility>):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -513,13 +465,7 @@ waitAbilityMonitor(monitor: AbilityMonitor, timeout: number, callback: AsyncCall
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -589,13 +535,7 @@ waitAbilityMonitor(monitor: AbilityMonitor, timeout?: number): Promise<UIAbility
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -639,13 +579,7 @@ getAppContext(): Context
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -697,13 +631,7 @@ getAbilityState(ability: UIAbility): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -755,13 +683,7 @@ getCurrentTopAbility(callback: AsyncCallback<UIAbility>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -810,13 +732,7 @@ getCurrentTopAbility(): Promise<UIAbility>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -880,13 +796,7 @@ startAbility(want: Want, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -960,13 +870,7 @@ startAbility(want: Want): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -1018,13 +922,7 @@ doAbilityForeground(ability: UIAbility, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -1085,13 +983,7 @@ doAbilityForeground(ability: UIAbility): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -1145,13 +1037,7 @@ doAbilityBackground(ability: UIAbility, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -1212,13 +1098,7 @@ doAbilityBackground(ability: UIAbility): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -1270,13 +1150,7 @@ printSync(msg: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -1311,13 +1185,7 @@ print(msg: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -1362,13 +1230,7 @@ print(msg: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -1407,13 +1269,7 @@ executeShellCommand(cmd: string, callback: AsyncCallback<ShellCmdResult>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -1454,13 +1310,7 @@ executeShellCommand(cmd: string, timeoutSecs: number, callback: AsyncCallback<Sh
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -1509,13 +1359,7 @@ executeShellCommand(cmd: string, timeoutSecs?: number): Promise<ShellCmdResult>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -1565,13 +1409,7 @@ finishTest(msg: string, code: number, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -1628,13 +1466,7 @@ finishTest(msg: string, code: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -1682,13 +1514,7 @@ addAbilityStageMonitor(monitor: AbilityStageMonitor, callback: AsyncCallback<voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -1746,13 +1572,7 @@ addAbilityStageMonitor(monitor: AbilityStageMonitor): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -1801,13 +1621,7 @@ addAbilityStageMonitorSync(monitor: AbilityStageMonitor): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -1855,13 +1669,7 @@ removeAbilityStageMonitor(monitor: AbilityStageMonitor, callback: AsyncCallback<
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -1919,13 +1727,7 @@ removeAbilityStageMonitor(monitor: AbilityStageMonitor): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -1974,13 +1776,7 @@ removeAbilityStageMonitorSync(monitor: AbilityStageMonitor): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -2028,13 +1824,7 @@ waitAbilityStageMonitor(monitor: AbilityStageMonitor, callback: AsyncCallback<Ab
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -2094,13 +1884,7 @@ waitAbilityStageMonitor(monitor: AbilityStageMonitor, timeout?: number): Promise
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -2152,13 +1936,7 @@ waitAbilityStageMonitor(monitor: AbilityStageMonitor, timeout: number, callback:
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -2210,13 +1988,7 @@ setMockList(mockList: Record<string, string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';

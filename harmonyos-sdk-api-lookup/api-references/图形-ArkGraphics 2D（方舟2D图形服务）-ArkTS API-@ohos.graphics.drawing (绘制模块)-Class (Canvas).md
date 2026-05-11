@@ -14,13 +14,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -58,13 +52,7 @@ constructor(pixelmap: image.PixelMap)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -114,13 +102,7 @@ drawRect(rect: common2D.Rect): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -172,13 +154,7 @@ drawRect(left: number, top: number, right: number, bottom: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -228,13 +204,7 @@ drawRoundRect(roundRect: RoundRect): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -281,13 +251,7 @@ drawNestedRoundRect(outer: RoundRect, inner: RoundRect): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -336,13 +300,7 @@ drawBackground(brush: Brush): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -395,13 +353,7 @@ drawShadow(path: Path, planeParams: common2D.Point3d, devLightPos: common2D.Poin
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -468,13 +420,7 @@ drawShadow(path: Path, planeParams: common2D.Point3d, devLightPos: common2D.Poin
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -513,13 +459,7 @@ getLocalClipBounds(): common2D.Rect
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -561,13 +501,7 @@ getTotalMatrix(): Matrix
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -616,13 +550,7 @@ drawCircle(x: number, y: number, radius: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -674,13 +602,7 @@ drawImage(pixelmap: image.PixelMap, left: number, top: number, samplingOptions?:
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -750,13 +672,7 @@ drawImageRect(pixelmap: image.PixelMap, dstRect: common2D.Rect, samplingOptions?
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -829,13 +745,7 @@ drawImageRectWithSrc(pixelmap: image.PixelMap, srcRect: common2D.Rect, dstRect: 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -906,13 +816,7 @@ drawColor(color: common2D.Color, blendMode?: BlendMode): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -966,13 +870,7 @@ drawColor(alpha: number, red: number, green: number, blue: number, blendMode?: B
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -1017,13 +915,7 @@ drawColor(color: number, blendMode?: BlendMode): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -1074,13 +966,7 @@ drawVertices(vertexMode: VertexMode, vertexCount: number, positions: Array<commo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -1146,13 +1032,7 @@ drawPixelMapMesh(pixelmap: image.PixelMap, meshWidth: number, meshHeight: number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -1223,13 +1103,7 @@ clear(color: common2D.Color): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -1264,13 +1138,7 @@ clear(color: common2D.Color | number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -1305,13 +1173,7 @@ getWidth(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -1346,13 +1208,7 @@ getHeight(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -1397,13 +1253,7 @@ drawOval(oval: common2D.Rect): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -1456,13 +1306,7 @@ drawArc(arc: common2D.Rect, startAngle: number, sweepAngle: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -1514,13 +1358,7 @@ drawPoint(x: number, y: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -1570,13 +1408,7 @@ drawPoints(points: Array<common2D.Point>, mode?: PointMode): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -1626,13 +1458,7 @@ drawPath(path: Path): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -1688,13 +1514,7 @@ drawLine(x0: number, y0: number, x1: number, y1: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -1747,13 +1567,7 @@ drawTextBlob(blob: TextBlob, x: number, y: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -1809,13 +1623,7 @@ drawSingleCharacter(text: string, font: Font, x: number, y: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -1870,13 +1678,7 @@ drawSingleCharacterWithFeatures(text: string, font: Font, x: number, y: number, 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -1929,13 +1731,7 @@ drawRegion(region: Region): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -1990,13 +1786,7 @@ attachPen(pen: Pen): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -2049,13 +1839,7 @@ attachBrush(brush: Brush): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -2085,13 +1869,7 @@ detachPen(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -2122,13 +1900,7 @@ detachBrush(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -2178,13 +1950,7 @@ clipPath(path: Path, clipOp?: ClipOp, doAntiAlias?: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -2235,13 +2001,7 @@ clipRect(rect: common2D.Rect, clipOp?: ClipOp, doAntiAlias?: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -2276,13 +2036,7 @@ save(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -2337,13 +2091,7 @@ saveLayer(rect?: common2D.Rect | null, brush?: Brush | null): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -2407,13 +2155,7 @@ scale(sx: number, sy: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -2464,13 +2206,7 @@ skew(sx: number, sy: number) : void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -2522,13 +2258,7 @@ rotate(degrees: number, sx: number, sy: number) : void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -2579,13 +2309,7 @@ translate(dx: number, dy: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -2625,13 +2349,7 @@ getSaveCount(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -2683,13 +2401,7 @@ restoreToCount(count: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -2727,13 +2439,7 @@ restore(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -2782,13 +2488,7 @@ concatMatrix(matrix: Matrix): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -2835,13 +2535,7 @@ setMatrix(matrix: Matrix): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -2878,13 +2572,7 @@ isClipEmpty(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -2933,13 +2621,7 @@ clipRegion(region: Region, clipOp?: ClipOp): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -2989,13 +2671,7 @@ clipRoundRect(roundRect: RoundRect, clipOp?: ClipOp, doAntiAlias?: boolean): voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -3025,13 +2701,7 @@ resetMatrix(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -3074,13 +2744,7 @@ quickRejectPath(path: Path): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -3130,13 +2794,7 @@ quickRejectRect(rect: common2D.Rect): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -3178,13 +2836,7 @@ drawArcWithCenter(arc: common2D.Rect, startAngle: number, sweepAngle: number, us
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -3240,13 +2892,7 @@ drawImageNine(pixelmap: image.PixelMap, center: common2D.Rect, dstRect: common2D
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -3336,13 +2982,7 @@ drawImageLattice(pixelmap: image.PixelMap, lattice: Lattice, dstRect: common2D.R
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';

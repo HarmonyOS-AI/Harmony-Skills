@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { display } from '@kit.ArkUI';
@@ -406,13 +400,7 @@ getDisplayByIdSync(displayId: number): Display
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let displayClass: display.Display | null = null;
@@ -468,13 +456,7 @@ getBrightnessInfo(displayId: number): BrightnessInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -517,13 +499,7 @@ getAllDisplayPhysicalResolution(): Promise<Array<DisplayPhysicalResolution>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -573,13 +549,7 @@ getDefaultDisplaySync(): Display
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let displayClass: display.Display | null = null;
@@ -622,13 +592,7 @@ getPrimaryDisplaySync(): Display
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let displayClass: display.Display | null = null;
@@ -668,13 +632,7 @@ getAllDisplays(callback: AsyncCallback<Array<Display>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -724,13 +682,7 @@ getAllDisplays(): Promise<Array<Display>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -779,13 +731,7 @@ on(type: 'add'|'remove'|'change', callback: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Callback } from '@kit.BasicServicesKit';
@@ -830,13 +776,7 @@ off(type: 'add'|'remove'|'change', callback?: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 如果通过on注册多个callback，同时关闭所有callback监听
@@ -883,13 +823,7 @@ onChangeWithAttribute(displayAttributeOption: Array<string>, callback: Callback<
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Callback } from '@kit.BasicServicesKit';
@@ -933,13 +867,7 @@ isFoldable(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let ret: boolean = false;
@@ -978,13 +906,7 @@ getFoldStatus(): FoldStatus
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: display.FoldStatus = display.getFoldStatus();
@@ -1025,13 +947,7 @@ getFoldDisplayMode(): FoldDisplayMode
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: display.FoldDisplayMode = display.getFoldDisplayMode();
@@ -1072,13 +988,7 @@ getCurrentFoldCreaseRegion(): FoldCreaseRegion
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: display.FoldCreaseRegion = display.getCurrentFoldCreaseRegion();
@@ -1125,13 +1035,7 @@ on(type: 'foldStatusChange', callback: Callback<FoldStatus>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Callback } from '@kit.BasicServicesKit';
@@ -1180,13 +1084,7 @@ off(type: 'foldStatusChange', callback?: Callback<FoldStatus>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 如果通过on注册多个callback，同时关闭所有callback监听
@@ -1234,13 +1132,7 @@ on(type: 'brightnessInfoChange', callback: BrightnessCallback<number, Brightness
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback: display.BrightnessCallback<number, display.BrightnessInfo> = (id: number, data: display.BrightnessInfo) => {
@@ -1288,13 +1180,7 @@ off(type: 'brightnessInfoChange', callback?: BrightnessCallback<number, Brightne
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback: display.BrightnessCallback<number, display.BrightnessInfo> = (id: number, data: display.BrightnessInfo) => {
@@ -1341,13 +1227,7 @@ on(type: 'foldAngleChange', callback: Callback<Array<number>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Callback } from '@kit.BasicServicesKit';
@@ -1392,13 +1272,7 @@ off(type: 'foldAngleChange', callback?: Callback<Array<number>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Callback } from '@kit.BasicServicesKit';
@@ -1447,13 +1321,7 @@ on(type: 'captureStatusChange', callback: Callback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Callback } from '@kit.BasicServicesKit';
@@ -1498,13 +1366,7 @@ off(type: 'captureStatusChange', callback?: Callback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Callback } from '@kit.BasicServicesKit';
@@ -1551,13 +1413,7 @@ isCaptured(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let ret: boolean = false;
@@ -1602,13 +1458,7 @@ on(type: 'foldDisplayModeChange', callback: Callback<FoldDisplayMode>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Callback } from '@kit.BasicServicesKit';
@@ -1657,13 +1507,7 @@ off(type: 'foldDisplayModeChange', callback?: Callback<FoldDisplayMode>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Callback } from '@kit.BasicServicesKit';
@@ -1721,13 +1565,7 @@ createVirtualScreen(config:VirtualScreenConfig): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1801,13 +1639,7 @@ destroyVirtualScreen(screenId:number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1865,13 +1697,7 @@ setVirtualScreenSurface(screenId:number, surfaceId: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -1953,13 +1779,7 @@ makeUnique(screenId:number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2013,13 +1833,7 @@ convertRelativeToGlobalCoordinate(relativePosition: RelativePosition): Position
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let relativePosition: display.RelativePosition = {
@@ -2080,13 +1894,7 @@ convertGlobalToRelativeCoordinate(position: Position, displayId?: number): Relat
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let position: display.Position = {
@@ -2126,13 +1934,7 @@ getDefaultDisplay(callback: AsyncCallback<Display>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2173,13 +1975,7 @@ getDefaultDisplay(): Promise<Display>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2218,13 +2014,7 @@ getAllDisplay(callback: AsyncCallback<Array<Display>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2263,13 +2053,7 @@ getAllDisplay(): Promise<Array<Display>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2356,13 +2140,7 @@ getRoundedCorner(): Array<RoundedCorner>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2409,13 +2187,7 @@ getCutoutInfo(callback: AsyncCallback<CutoutInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2465,13 +2237,7 @@ getCutoutInfo(): Promise<CutoutInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2523,13 +2289,7 @@ getAvailableArea(): Promise<Rect>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2586,13 +2346,7 @@ on(type: 'availableAreaChange', callback: Callback<Rect>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Callback } from '@kit.BasicServicesKit';
@@ -2647,13 +2401,7 @@ off(type: 'availableAreaChange', callback?: Callback<Rect>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Callback } from '@kit.BasicServicesKit';
@@ -2702,13 +2450,7 @@ getLiveCreaseRegion(): FoldCreaseRegion
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let displayClass: display.Display | null = null;

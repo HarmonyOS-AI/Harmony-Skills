@@ -54,13 +54,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示通过foregroundEffect接口设置前景属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

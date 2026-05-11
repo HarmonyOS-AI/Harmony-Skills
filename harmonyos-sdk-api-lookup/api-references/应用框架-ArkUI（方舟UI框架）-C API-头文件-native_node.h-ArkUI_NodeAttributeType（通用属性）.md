@@ -1,10 +1,4 @@
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum ArkUI_NodeAttributeType
@@ -22,13 +16,7 @@
 
 ## NODE\_WIDTH
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_WIDTH = 0
@@ -58,13 +46,7 @@
 
 ## NODE\_HEIGHT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_HEIGHT = 1
@@ -94,13 +76,7 @@
 
 ## NODE\_BACKGROUND\_COLOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_BACKGROUND_COLOR = 2
@@ -130,13 +106,7 @@
 
 ## NODE\_BACKGROUND\_IMAGE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_BACKGROUND_IMAGE = 3

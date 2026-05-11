@@ -36,13 +36,7 @@ wrapBuilder是一个模板函数，返回一个WrappedBuilder对象。模板参�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Builder
@@ -96,13 +90,7 @@ WrappedBuilder的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Builder

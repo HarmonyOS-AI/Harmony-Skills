@@ -129,13 +129,7 @@ PhonePC/2in1TabletTVWearable
 
 MyDataSource实现了[LazyForEach](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-rendering-control-lazyforeach)数据源接口[IDataSource](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-rendering-control-lazyforeach#idatasource)，用于通过LazyForEach给LazyVGridLayout提供子组件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LengthMetrics } from '@kit.ArkUI'
@@ -193,13 +187,7 @@ MyDataSource实现了[LazyForEach](https://developer.huawei.com/consumer/cn/doc/
 53. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // MyDataSource.ets

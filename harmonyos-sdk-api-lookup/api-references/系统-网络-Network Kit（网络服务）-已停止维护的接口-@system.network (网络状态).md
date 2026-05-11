@@ -7,13 +7,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import network from '@system.network';
@@ -65,13 +59,7 @@ fail返回值：
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. export default class Network {
@@ -121,13 +109,7 @@ fail返回值：
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. export default class Network {
@@ -153,13 +135,7 @@ unsubscribe(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import network from '@system.network';

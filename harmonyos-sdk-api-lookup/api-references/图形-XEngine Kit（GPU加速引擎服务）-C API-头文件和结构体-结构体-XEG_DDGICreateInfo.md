@@ -38,13 +38,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bool XEG_DDGICreateInfo::enableCloud
@@ -58,13 +52,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint32_t XEG_DDGICreateInfo::numberVolume
@@ -78,13 +66,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const void* XEG_DDGICreateInfo::pNext
@@ -98,13 +80,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. XEG_RTGIQualityMode XEG_DDGICreateInfo::qualityMode
@@ -118,13 +94,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkExtent2D XEG_DDGICreateInfo::scaledView
@@ -138,13 +108,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. XEG_StructureType XEG_DDGICreateInfo::sType
@@ -158,13 +122,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkExtent2D XEG_DDGICreateInfo::viewSize

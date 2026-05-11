@@ -12,13 +12,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { atomicService } from '@kit.ScenarioFusionKit';
@@ -283,13 +277,7 @@ getSystemInfoSync(properties?: Array<SystemInfoType>): SystemInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { atomicService } from '@kit.ScenarioFusionKit';
@@ -359,13 +347,7 @@ getSystemInfo(properties?: Array<SystemInfoType>): Promise<SystemInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { atomicService } from '@kit.ScenarioFusionKit';
@@ -441,13 +423,7 @@ getSystemSetting(properties?: Array<SystemSettingType>): SystemSettingInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { atomicService } from '@kit.ScenarioFusionKit';
@@ -518,13 +494,7 @@ showFollowComponent(ctx: UIContext, params: FollowComponentParams, callback: Fol
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { atomicService } from '@kit.ScenarioFusionKit';

@@ -21,13 +21,7 @@ HashMap和[TreeMap](https://developer.huawei.com/consumer/cn/doc/harmonyos-refer
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { HashMap } from '@kit.ArkTS';
@@ -75,13 +69,7 @@ HashMap的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let hashMap = new HashMap<string, number>();
@@ -119,13 +107,7 @@ isEmpty(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const hashMap = new HashMap<string, number>();
@@ -173,13 +155,7 @@ hasKey(key: K): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const hashMap = new HashMap<string, number>();
@@ -228,13 +204,7 @@ hasValue(value: V): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const hashMap = new HashMap<string, number>();
@@ -283,13 +253,7 @@ get(key: K): V
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const hashMap = new HashMap<string, number>();
@@ -332,13 +296,7 @@ setAll(map: HashMap<K, V>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const hashMap = new HashMap<string, number>();
@@ -393,13 +351,7 @@ set(key: K, value: V): Object
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let hashMap = new HashMap<string, number>();
@@ -447,13 +399,7 @@ remove(key: K): V
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let hashMap = new HashMap<string, number>();
@@ -487,13 +433,7 @@ clear(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let hashMap = new HashMap<string, number>();
@@ -536,13 +476,7 @@ keys(): IterableIterator<K>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let hashMap = new HashMap<string, number>();
@@ -588,13 +522,7 @@ values(): IterableIterator<V>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let hashMap = new HashMap<string, number>();
@@ -649,13 +577,7 @@ replace(key: K, newValue: V): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let hashMap = new HashMap<string, number>();
@@ -708,13 +630,7 @@ callbackFn的参数说明：
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let hashMap = new HashMap<string, number>();
@@ -727,13 +643,7 @@ callbackFn的参数说明：
 8. // value: 357 key: gull
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 不建议在forEach中使用set、remove方法，因其可能导致迭代过程中的状态异常，建议使用for循环来进行安全的插入与删除操作。
@@ -779,13 +689,7 @@ entries(): IterableIterator<[K, V]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let hashMap = new HashMap<string, number>();
@@ -800,13 +704,7 @@ entries(): IterableIterator<[K, V]>
 10. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 不建议在entries中使用set、remove方法，因其可能导致迭代过程中的状态异常，建议使用for循环来进行安全的插入与删除操作。
@@ -852,13 +750,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let hashMap = new HashMap<string, number>();
@@ -889,13 +781,7 @@ PhonePC/2in1TabletTVWearable
 26. // value: 356
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 不建议在Symbol.iterator中使用set、remove方法，因其可能导致迭代过程中的状态异常，建议使用for循环来进行安全的插入与删除操作。

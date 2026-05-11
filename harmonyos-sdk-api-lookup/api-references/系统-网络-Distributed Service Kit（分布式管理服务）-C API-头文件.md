@@ -1,2 +1,0 @@
-* **[oh\_device\_manager.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-oh-device-manager-h)**
-* **[oh\_device\_manager\_err\_code.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-oh-device-manager-err-code-h)**

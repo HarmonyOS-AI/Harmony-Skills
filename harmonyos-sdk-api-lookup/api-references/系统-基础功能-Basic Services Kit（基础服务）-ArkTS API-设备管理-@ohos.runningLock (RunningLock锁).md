@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {runningLock} from '@kit.BasicServicesKit';
@@ -58,13 +52,7 @@ isSupported(type: RunningLockType): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -110,13 +98,7 @@ create(name: string, type: RunningLockType, callback: AsyncCallback<RunningLock>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. runningLock.create('running_lock_test', runningLock.RunningLockType.PROXIMITY_SCREEN_CONTROL, (err: Error, lock: runningLock.RunningLock) => {
@@ -170,13 +152,7 @@ create(name: string, type: RunningLockType): Promise<RunningLock>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. runningLock.create('running_lock_test', runningLock.RunningLockType.PROXIMITY_SCREEN_CONTROL)
@@ -213,13 +189,7 @@ isRunningLockTypeSupported(type: RunningLockType, callback: AsyncCallback<boolea
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. runningLock.isRunningLockTypeSupported(runningLock.RunningLockType.BACKGROUND, (err: Error, data: boolean) => {
@@ -263,13 +233,7 @@ isRunningLockTypeSupported(type: RunningLockType): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. runningLock.isRunningLockTypeSupported(runningLock.RunningLockType.BACKGROUND)
@@ -309,13 +273,7 @@ createRunningLock(name: string, type: RunningLockType, callback: AsyncCallback<R
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. runningLock.createRunningLock('running_lock_test', runningLock.RunningLockType.BACKGROUND, (err: Error, lock: runningLock.RunningLock) => {
@@ -362,13 +320,7 @@ createRunningLock(name: string, type: RunningLockType): Promise<RunningLock>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. runningLock.createRunningLock('running_lock_test', runningLock.RunningLockType.BACKGROUND)
@@ -419,13 +371,7 @@ hold(timeout: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // RunningLockTest.ets
@@ -480,13 +426,7 @@ unhold(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // RunningLockTest.ets
@@ -537,13 +477,7 @@ isHolding(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // RunningLockTest.ets
@@ -596,13 +530,7 @@ lock(timeout: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. runningLock.createRunningLock('running_lock_test', runningLock.RunningLockType.BACKGROUND)
@@ -633,13 +561,7 @@ unlock(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. runningLock.createRunningLock('running_lock_test', runningLock.RunningLockType.BACKGROUND)
@@ -676,13 +598,7 @@ isUsed(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. runningLock.createRunningLock('running_lock_test', runningLock.RunningLockType.BACKGROUND)

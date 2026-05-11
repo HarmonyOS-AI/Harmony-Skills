@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { displaySync } from '@kit.ArkGraphics2D';
@@ -40,13 +34,7 @@ create(): DisplaySync
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let backDisplaySync: displaySync.DisplaySync = displaySync.create();
@@ -105,13 +93,7 @@ setExpectedFrameRateRange(rateRange: ExpectedFrameRateRange) : void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let range : ExpectedFrameRateRange = {
@@ -145,13 +127,7 @@ on(type: 'frame', callback: Callback<IntervalInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback = (frameInfo: displaySync.IntervalInfo) => {
@@ -183,13 +159,7 @@ off(type: 'frame', callback?: Callback<IntervalInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback = (frameInfo: displaySync.IntervalInfo) => {
@@ -214,13 +184,7 @@ start(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let range : ExpectedFrameRateRange = {
@@ -249,13 +213,7 @@ start接口是将DisplaySync关联到UI实例和窗口，若在非UI页面中或
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { displaySync } from '@kit.ArkGraphics2D';
@@ -295,13 +253,7 @@ stop(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let range : ExpectedFrameRateRange = {

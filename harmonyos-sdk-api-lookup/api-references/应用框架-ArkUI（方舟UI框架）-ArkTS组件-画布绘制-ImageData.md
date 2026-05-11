@@ -83,13 +83,7 @@ PhonePC/2in1TabletTVWearable
 
 使用getImageData接口获得一个ImageData对象。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

@@ -11,13 +11,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -63,13 +57,7 @@ static createComposeShader(dstShaderEffect: ShaderEffect, srcShaderEffect: Shade
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -121,13 +109,7 @@ static createImageShader(pixelmap: image.PixelMap, tileX: TileMode, tileY: TileM
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -205,13 +187,7 @@ static createColorShader(color: number): ShaderEffect
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -266,13 +242,7 @@ static createLinearGradient(startPt: common2D.Point, endPt: common2D.Point, colo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common2D,drawing } from '@kit.ArkGraphics2D';
@@ -329,13 +299,7 @@ static createRadialGradient(centerPt: common2D.Point, radius: number, colors: Ar
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common2D,drawing } from '@kit.ArkGraphics2D';
@@ -392,13 +356,7 @@ static createSweepGradient(centerPt: common2D.Point, colors: Array<number>, mode
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common2D,drawing } from '@kit.ArkGraphics2D';
@@ -456,13 +414,7 @@ static createConicalGradient(startPt: common2D.Point, startRadius: number, endPt
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common2D,drawing } from '@kit.ArkGraphics2D';

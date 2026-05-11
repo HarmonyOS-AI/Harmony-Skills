@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bluetoothManager } from '@kit.ConnectivityKit';
@@ -53,13 +47,7 @@ enableBluetooth(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -101,13 +89,7 @@ disableBluetooth(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -157,13 +139,7 @@ getLocalName(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -213,13 +189,7 @@ getState(): BluetoothState
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -270,13 +240,7 @@ getBtConnectionState(): ProfileConnectionState
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -328,13 +292,7 @@ setLocalName(name: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -386,13 +344,7 @@ pairDevice(deviceId: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -454,13 +406,7 @@ getProfileConnectionState(profileId: ProfileId): ProfileConnectionState
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -520,13 +466,7 @@ getRemoteDeviceName(deviceId: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -586,13 +526,7 @@ getRemoteDeviceClass(deviceId: string): DeviceClass
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -643,13 +577,7 @@ getPairedDevices(): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -702,13 +630,7 @@ setBluetoothScanMode(mode: ScanMode, duration: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -760,13 +682,7 @@ getBluetoothScanMode(): ScanMode
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -809,13 +725,7 @@ startBluetoothDiscovery(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -863,13 +773,7 @@ stopBluetoothDiscovery(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -922,13 +826,7 @@ setDevicePairingConfirmation(device: string, accept: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -984,13 +882,7 @@ on(type: 'bluetoothDeviceFind', callback: Callback<Array<string>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -1043,13 +935,7 @@ off(type: 'bluetoothDeviceFind', callback?: Callback<Array<string>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -1104,13 +990,7 @@ on(type: 'pinRequired', callback: Callback<PinRequiredParam>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -1164,13 +1044,7 @@ off(type: 'pinRequired', callback?: Callback<PinRequiredParam>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -1225,13 +1099,7 @@ on(type: 'bondStateChange', callback: Callback<BondStateParam>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -1285,13 +1153,7 @@ off(type: 'bondStateChange', callback?: Callback<BondStateParam>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -1346,13 +1208,7 @@ on(type: 'stateChange', callback: Callback<BluetoothState>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -1406,13 +1262,7 @@ off(type: 'stateChange', callback?: Callback<BluetoothState>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -1471,13 +1321,7 @@ sppListen(name: string, option: SppOption, callback: AsyncCallback<number>): voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1538,13 +1382,7 @@ sppAccept(serverSocket: number, callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1616,13 +1454,7 @@ sppConnect(device: string, option: SppOption, callback: AsyncCallback<number>): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1681,13 +1513,7 @@ sppCloseServerSocket(socket: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1743,13 +1569,7 @@ sppCloseClientSocket(socket: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1807,13 +1627,7 @@ sppWrite(clientSocket: number, data: ArrayBuffer): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1875,13 +1689,7 @@ on(type: 'sppRead', clientSocket: number, callback: Callback<ArrayBuffer>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1942,13 +1750,7 @@ off(type: 'sppRead', clientSocket: number, callback?: Callback<ArrayBuffer>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2011,13 +1813,7 @@ getProfileInstance(profileId: ProfileId): A2dpSourceProfile | HandsFreeAudioGate
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -2058,13 +1854,7 @@ createGattServer(): GattServer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let gattServer: bluetoothManager.GattServer  = bluetoothManager.BLE.createGattServer();
@@ -2113,13 +1903,7 @@ createGattClientDevice(deviceId: string): GattClientDevice
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -2170,13 +1954,7 @@ getConnectedBLEDevices(): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -2229,13 +2007,7 @@ startBLEScan(filters: Array<ScanFilter>, options?: ScanOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -2292,13 +2064,7 @@ stopBLEScan(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -2349,13 +2115,7 @@ on(type: 'BLEDeviceFind', callback: Callback<Array<ScanResult>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -2409,13 +2169,7 @@ off(type: 'BLEDeviceFind', callback?: Callback<Array<ScanResult>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -2477,13 +2231,7 @@ getConnectionDevices(): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -2545,13 +2293,7 @@ getDeviceState(device: string): ProfileConnectionState
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -2615,13 +2357,7 @@ connect(device: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -2675,13 +2411,7 @@ disconnect(device: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -2731,13 +2461,7 @@ on(type: 'connectionStateChange', callback: Callback<[StateChangeParam](/consume
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -2790,13 +2514,7 @@ off(type: 'connectionStateChange', callback?: Callback<[StateChangeParam](/consu
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -2861,13 +2579,7 @@ getPlayingState(device: string): PlayingState
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -2931,13 +2643,7 @@ connect(device: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -2991,13 +2697,7 @@ disconnect(device: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -3047,13 +2747,7 @@ on(type: 'connectionStateChange', callback: Callback<[StateChangeParam](/consume
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -3106,13 +2800,7 @@ off(type: 'connectionStateChange', callback?: Callback<[StateChangeParam](/consu
 | 801 | Capability not supported. |
 | **示例：** |  |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -3173,13 +2861,7 @@ on(type: 'connectionStateChange', callback: Callback<[StateChangeParam](/consume
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -3232,13 +2914,7 @@ off(type: 'connectionStateChange', callback?: Callback<[StateChangeParam](/consu
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -3302,13 +2978,7 @@ on(type: 'connectionStateChange', callback: Callback<[StateChangeParam](/consume
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -3361,13 +3031,7 @@ off(type: 'connectionStateChange', callback?: Callback<[StateChangeParam](/consu
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -3436,13 +3100,7 @@ startAdvertising(setting: AdvertiseSetting, advData: AdvertiseData, advResponse?
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -3522,13 +3180,7 @@ stopAdvertising(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -3581,13 +3233,7 @@ server端添加服务。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -3665,13 +3311,7 @@ removeService(serviceUuid: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -3715,13 +3355,7 @@ close(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -3775,13 +3409,7 @@ server端特征值发生变化时，主动通知已连接的client设备。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -3848,13 +3476,7 @@ server端回复client端的读写请求。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -3917,13 +3539,7 @@ server端订阅特征值读请求事件。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -3988,13 +3604,7 @@ server端取消订阅特征值读请求事件。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -4045,13 +3655,7 @@ server端订阅特征值写请求事件。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -4119,13 +3723,7 @@ server端取消订阅特征值写请求事件。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -4176,13 +3774,7 @@ server端订阅描述符读请求事件。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4247,13 +3839,7 @@ server端取消订阅描述符读请求事件。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -4304,13 +3890,7 @@ server端订阅描述符写请求事件。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -4378,13 +3958,7 @@ server端取消订阅描述符写请求事件。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -4435,13 +4009,7 @@ server端订阅BLE连接状态变化事件。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -4496,13 +4064,7 @@ server端取消订阅BLE连接状态变化事件。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -4556,13 +4118,7 @@ client端发起连接远端蓝牙低功耗设备。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -4606,13 +4162,7 @@ client端断开与远端蓝牙低功耗设备的连接。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -4656,13 +4206,7 @@ close(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -4714,13 +4258,7 @@ client端获取蓝牙低功耗设备的所有服务，即服务发现。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4786,13 +4324,7 @@ client端获取蓝牙低功耗设备的所有服务，即服务发现。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -4850,13 +4382,7 @@ client端读取蓝牙低功耗设备特定服务的特征值。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4942,13 +4468,7 @@ client端读取蓝牙低功耗设备特定服务的特征值。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -5018,13 +4538,7 @@ client端读取蓝牙低功耗设备特定的特征包含的描述符。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5102,13 +4616,7 @@ client端读取蓝牙低功耗设备特定的特征包含的描述符。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -5170,13 +4678,7 @@ client端向低功耗蓝牙设备写入特定的特征值。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -5244,13 +4746,7 @@ client端向低功耗蓝牙设备特定的描述符写入二进制数据。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -5311,13 +4807,7 @@ client协商远端蓝牙低功耗设备的最大传输单元（Maximum Transmiss
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -5370,13 +4860,7 @@ setNotifyCharacteristicChanged(characteristic: BLECharacteristic, enable: boolea
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -5442,13 +4926,7 @@ on(type: 'BLECharacteristicChange', callback: Callback<BLECharacteristic>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -5503,13 +4981,7 @@ off(type: 'BLECharacteristicChange', callback?: Callback<BLECharacteristic>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -5559,13 +5031,7 @@ client端订阅蓝牙低功耗设备的连接状态变化事件。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5619,13 +5085,7 @@ off(type: 'BLEConnectionStateChange', callback?: Callback<BLEConnectChangedState
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -5677,13 +5137,7 @@ client获取远端蓝牙低功耗设备名。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -5740,13 +5194,7 @@ client获取远端蓝牙低功耗设备名。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -5801,13 +5249,7 @@ client获取远端蓝牙低功耗设备的信号强度 (Received Signal Strength
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -5863,13 +5305,7 @@ client获取远端蓝牙低功耗设备的信号强度 (Received Signal Strength
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';

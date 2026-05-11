@@ -37,13 +37,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HiAI_SingleOpConvMode HiAISingleOpDescriptor_ConvolutionParam::convMode
@@ -57,13 +51,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int64_t HiAISingleOpDescriptor_ConvolutionParam::dilations[2]
@@ -77,13 +65,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int64_t HiAISingleOpDescriptor_ConvolutionParam::groups
@@ -97,13 +79,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HiAI_SingleOpPadMode HiAISingleOpDescriptor_ConvolutionParam::padMode
@@ -117,13 +93,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int64_t HiAISingleOpDescriptor_ConvolutionParam::pads[4]
@@ -137,13 +107,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int64_t HiAISingleOpDescriptor_ConvolutionParam::strides[2]

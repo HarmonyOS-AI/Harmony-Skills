@@ -10,13 +10,7 @@ NotificationSubscriberExtensionAbility 是通知订阅者扩展能力的基类�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { notificationExtensionSubscription, NotificationSubscriberExtensionAbility } from '@kit.NotificationKit';
@@ -46,13 +40,7 @@ onDestroy(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const TAG = 'NotificationSubscriberExtAbility';
@@ -84,13 +72,7 @@ onReceiveMessage(notificationInfo: NotificationInfo): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const TAG = 'NotificationSubscriberExtAbility';
@@ -122,13 +104,7 @@ onCancelMessages(hashCodes: Array<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const TAG = 'NotificationSubscriberExtAbility';

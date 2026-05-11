@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { emitter } from '@kit.BasicServicesKit';
@@ -43,13 +37,7 @@ on(event: InnerEvent, callback: Callback<EventData>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Callback } from '@kit.BasicServicesKit';
@@ -89,13 +77,7 @@ on(eventId: string, callback: Callback<EventData>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Callback } from '@kit.BasicServicesKit';
@@ -130,13 +112,7 @@ on<T>(eventId: string, callback: Callback<GenericEventData<T>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Callback } from '@kit.BasicServicesKit';
@@ -185,13 +161,7 @@ once(event: InnerEvent, callback: Callback<EventData>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Callback } from '@kit.BasicServicesKit';
@@ -230,13 +200,7 @@ once(eventId: string, callback: Callback<EventData>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Callback } from '@kit.BasicServicesKit';
@@ -271,13 +235,7 @@ once<T>(eventId: string, callback: Callback<GenericEventData<T>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Callback } from '@kit.BasicServicesKit';
@@ -327,13 +285,7 @@ off(eventId: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 取消eventId为1的所有事件回调处理函数
@@ -364,13 +316,7 @@ off(eventId: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 取消eventId为"eventId1"的所有事件回调处理函数
@@ -402,13 +348,7 @@ off(eventId: number, callback: Callback<EventData>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Callback } from '@kit.BasicServicesKit';
@@ -446,13 +386,7 @@ off(eventId: string, callback: Callback<EventData>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Callback } from '@kit.BasicServicesKit';
@@ -490,13 +424,7 @@ off<T>(eventId: string, callback: Callback<GenericEventData<T>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Callback } from '@kit.BasicServicesKit';
@@ -550,13 +478,7 @@ emit(event: InnerEvent, data?: EventData): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let eventData: emitter.EventData = {
@@ -601,13 +523,7 @@ emit(eventId: string, data?: EventData): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let eventData: emitter.EventData = {
@@ -647,13 +563,7 @@ emit<T>(eventId: string, data?: GenericEventData<T>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Sendable
@@ -701,13 +611,7 @@ emit(eventId: string, options: Options, data?: EventData): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let eventData: emitter.EventData = {
@@ -752,13 +656,7 @@ emit<T>(eventId: string, options: Options, data?: GenericEventData<T>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Sendable
@@ -812,13 +710,7 @@ getListenerCount(eventId: number | string): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let count: number = emitter.getListenerCount("eventId");
@@ -932,13 +824,7 @@ constructor()
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let emitter1: emitter.Emitter = new emitter.Emitter();
@@ -967,13 +853,7 @@ on(eventId: string, callback: Callback<EventData>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Callback } from '@kit.BasicServicesKit';
@@ -1010,13 +890,7 @@ on<T>(eventId: string, callback: Callback<GenericEventData<T>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Callback } from '@kit.BasicServicesKit';
@@ -1067,13 +941,7 @@ once(eventId: string, callback: Callback<EventData>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Callback } from '@kit.BasicServicesKit';
@@ -1110,13 +978,7 @@ once<T>(eventId: string, callback: Callback<GenericEventData<T>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Callback } from '@kit.BasicServicesKit';
@@ -1168,13 +1030,7 @@ off(eventId: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let emitter1: emitter.Emitter = new emitter.Emitter();
@@ -1207,13 +1063,7 @@ off(eventId: string, callback: Callback<EventData>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Callback } from '@kit.BasicServicesKit';
@@ -1252,13 +1102,7 @@ off<T>(eventId: string, callback: Callback<GenericEventData<T>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Callback } from '@kit.BasicServicesKit';
@@ -1313,13 +1157,7 @@ emit(eventId: string, data?: EventData): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let emitter1: emitter.Emitter = new emitter.Emitter();
@@ -1360,13 +1198,7 @@ emit<T>(eventId: string, data?: GenericEventData<T>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Sendable
@@ -1417,13 +1249,7 @@ emit(eventId: string, options: Options, data?: EventData): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let emitter1: emitter.Emitter = new emitter.Emitter();
@@ -1469,13 +1295,7 @@ emit<T>(eventId: string, options: Options, data?: GenericEventData<T>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Sendable
@@ -1531,13 +1351,7 @@ getListenerCount(eventId: string): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let emitter1: emitter.Emitter = new emitter.Emitter();

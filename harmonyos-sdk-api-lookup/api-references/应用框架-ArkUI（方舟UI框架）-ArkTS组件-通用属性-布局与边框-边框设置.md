@@ -197,13 +197,7 @@ PhonePC/2in1TabletTVWearable
 
 设置边框的宽度、颜色、圆角半径以及点、线样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -279,13 +273,7 @@ PhonePC/2in1TabletTVWearable
 
 border属性的width、radius、color属性值使用LocalizedEdgeWidths类型和LocalizedEdgeColors类型。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -369,13 +357,7 @@ border属性的width、radius、color属性值使用LocalizedEdgeWidths类型和
 
 从API version 22开始，该示例支持设置组件绘制圆角的模式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -456,13 +438,7 @@ border属性的width、radius、color属性值使用LocalizedEdgeWidths类型和
 
 该示例通过[borderRadius](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-border#borderradius)设置四个不同圆角值。当其中一个圆角值超过高度或宽度最小值的一半时，按值的比例绘制异形圆角。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

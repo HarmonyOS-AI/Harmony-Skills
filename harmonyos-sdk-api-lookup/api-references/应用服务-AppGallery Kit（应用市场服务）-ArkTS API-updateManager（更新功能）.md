@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { updateManager } from '@kit.AppGalleryKit';
@@ -178,13 +172,7 @@ checkAppUpdate(context: common.UIAbilityContext): Promise<CheckUpdateResult>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { updateManager } from '@kit.AppGalleryKit';
@@ -273,13 +261,7 @@ showUpdateDialog(context: common.UIAbilityContext): Promise<ShowUpdateResultCode
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { updateManager } from '@kit.AppGalleryKit';
@@ -368,13 +350,7 @@ on(type: 'updateChange', callback: Callback<UpdateSessionState>, timeout?: numbe
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { updateManager } from '@kit.AppGalleryKit';
@@ -465,13 +441,7 @@ off(type: 'updateChange', callback?: Callback<UpdateSessionState>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { updateManager } from '@kit.AppGalleryKit';

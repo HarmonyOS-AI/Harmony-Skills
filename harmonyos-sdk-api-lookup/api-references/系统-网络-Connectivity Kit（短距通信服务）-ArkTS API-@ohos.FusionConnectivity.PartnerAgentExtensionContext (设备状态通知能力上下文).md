@@ -9,13 +9,7 @@ PartnerAgentExtensionContext模块是三方外设的发现和连接管理功能�
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PartnerAgentExtensionContext } from '@kit.ConnectivityKit';

@@ -19,13 +19,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -59,13 +53,7 @@ PhonePC/2in1TabletTVWearable
 
 * 基础用法：在UIAbility对象中调用，示例中的context的获取方式请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. import { UIAbility, Want } from '@kit.AbilityKit';
@@ -94,13 +82,7 @@ PhonePC/2in1TabletTVWearable
 
   + 字符串（String）
 
-    收起
-
-    自动换行
-
-    深色代码主题
-
-    复制
+    
 
     ```
     1. import { UIAbility, Want } from '@kit.AbilityKit';
@@ -127,13 +109,7 @@ PhonePC/2in1TabletTVWearable
     ```
   + 数字（Number）
 
-    收起
-
-    自动换行
-
-    深色代码主题
-
-    复制
+    
 
     ```
     1. import { UIAbility, Want } from '@kit.AbilityKit';
@@ -161,13 +137,7 @@ PhonePC/2in1TabletTVWearable
     ```
   + 布尔（Boolean）
 
-    收起
-
-    自动换行
-
-    深色代码主题
-
-    复制
+    
 
     ```
     1. import { UIAbility, Want } from '@kit.AbilityKit';
@@ -194,13 +164,7 @@ PhonePC/2in1TabletTVWearable
     ```
   + 对象（Object）
 
-    收起
-
-    自动换行
-
-    深色代码主题
-
-    复制
+    
 
     ```
     1. import { UIAbility, Want } from '@kit.AbilityKit';
@@ -232,13 +196,7 @@ PhonePC/2in1TabletTVWearable
     ```
   + 数组（Array）
 
-    收起
-
-    自动换行
-
-    深色代码主题
-
-    复制
+    
 
     ```
     1. import { UIAbility, Want } from '@kit.AbilityKit';
@@ -268,13 +226,7 @@ PhonePC/2in1TabletTVWearable
     ```
   + 文件描述符（FD）
 
-    收起
-
-    自动换行
-
-    深色代码主题
-
-    复制
+    
 
     ```
     1. import { UIAbility, Want } from '@kit.AbilityKit';
@@ -313,13 +265,7 @@ PhonePC/2in1TabletTVWearable
     ```
   + parameters参数用法：parameters携带开发者自定义参数，由UIAbilityA传递给UIAbilityB，并在UIAbilityB中进行获取。
 
-    收起
-
-    自动换行
-
-    深色代码主题
-
-    复制
+    
 
     ```
     1. // (1) UIAbilityA通过startAbility启动UIAbilityB
@@ -346,13 +292,7 @@ PhonePC/2in1TabletTVWearable
     22. }
     ```
 
-    收起
-
-    自动换行
-
-    深色代码主题
-
-    复制
+    
 
     ```
     1. // (2) 以UIAbilityB实例首次启动为例，会进入到UIAbilityB的onCreate生命周期
@@ -366,13 +306,7 @@ PhonePC/2in1TabletTVWearable
     ```
   + parameters参数中[wantConstant](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-app-ability-wantconstant)的Key的使用方法。
 
-    收起
-
-    自动换行
-
-    深色代码主题
-
-    复制
+    
 
     ```
     1. import { UIAbility, Want, wantConstant } from '@kit.AbilityKit';

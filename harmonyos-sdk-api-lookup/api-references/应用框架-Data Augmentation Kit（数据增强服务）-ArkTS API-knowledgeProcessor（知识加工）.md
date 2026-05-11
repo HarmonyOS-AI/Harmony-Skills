@@ -8,13 +8,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { knowledgeProcessor } from '@kit.DataAugmentationKit';
@@ -65,13 +59,7 @@ getKnowledgeProcessor(context: common.BaseContext, config: KnowledgeProcessorCon
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { knowledgeProcessor } from '@kit.DataAugmentationKit';
@@ -146,13 +134,7 @@ cleanKnowledgeData(context: common.BaseContext, config: KnowledgeProcessorConfig
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { knowledgeProcessor } from '@kit.DataAugmentationKit';
@@ -290,13 +272,7 @@ getStatus(): Promise<ProcessorStatus>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { knowledgeProcessor } from '@kit.DataAugmentationKit';
@@ -371,13 +347,7 @@ startProcess(config: KnowledgeProcessConfig): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { knowledgeProcessor } from '@kit.DataAugmentationKit';
@@ -436,13 +406,7 @@ stopProcess(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { knowledgeProcessor } from '@kit.DataAugmentationKit';

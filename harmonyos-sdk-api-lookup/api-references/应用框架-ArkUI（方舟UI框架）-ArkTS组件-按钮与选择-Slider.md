@@ -580,13 +580,7 @@ enableHapticFeedback(enabled: boolean)
 
 开启触控反馈时，需要在工程的[module.json5](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/module-configuration-file)中配置requestPermissions字段开启振动权限，配置如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. "requestPermissions": [
@@ -1049,13 +1043,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置style、showTips、showSteps控制气泡、刻度值、滑块和滑轨的显示。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1238,13 +1226,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过blockBorderColor、blockSize、blockBorderWidth、blockStyle设置滑块的样式，通过stepSize、stepColor设置刻度值的样式，通过trackBorderRadius设置底板的圆角，通过selectedBorderRadius设置已滑动部分的圆角。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -1301,13 +1283,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例实现了Slider组件通过样式Builder定制内容区。点击增加按钮，进度条会按照原Slider设置的步长增加，反之点减少按钮进度条会减少，并触发原组件的onChange事件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1428,13 +1404,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过colorGradient设置滑动条渐变色，通过focusable、defaultFocus和focusOnTouch设置滑动条支持表冠操作。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1519,13 +1489,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例实现了Slider组件通过prefix、suffix属性设置滑动条的前后缀内容，定制其内容区以及无障碍属性。设置无障碍属性后，屏幕阅读器将以设置的无障碍内容进行朗读。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1744,13 +1708,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例实现了Slider组件通过[showSteps](/consumer/cn/doc/harmonyos-references/ts-basic-components-slider#showsteps20)属性设置刻度点的无障碍文本信息。设置后，屏幕阅读器将以设置的无障碍内容进行朗读。从API version 20开始，新增[showSteps](/consumer/cn/doc/harmonyos-references/ts-basic-components-slider#showsteps20)属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class SliderBlockBorderColorModifier1 implements AttributeModifier<SliderAttribute>{
@@ -1820,13 +1778,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 11开始，通过将[SliderOptions](/consumer/cn/doc/harmonyos-references/ts-basic-components-slider#slideroptions对象说明)的value属性设置为[$$](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/arkts-two-way-sync)绑定的变量，实现数据同步。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1861,13 +1813,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例实现了Slider组件通过blockColor属性设置滑块渐变色。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -1990,13 +1936,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 23开始，新增trackColorMetrics接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

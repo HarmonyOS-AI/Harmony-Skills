@@ -15,13 +15,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { componentSnapshot } from '@kit.ArkUI';
@@ -72,13 +66,7 @@ get(id: string, callback: AsyncCallback<image.PixelMap>, options?: SnapshotOptio
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { componentSnapshot } from '@kit.ArkUI';
@@ -175,13 +163,7 @@ get(id: string, options?: SnapshotOptions): Promise<image.PixelMap>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { componentSnapshot } from '@kit.ArkUI';
@@ -275,13 +257,7 @@ createFromBuilder(builder: CustomBuilder, callback: AsyncCallback<image.PixelMap
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { componentSnapshot } from '@kit.ArkUI';
@@ -402,13 +378,7 @@ createFromBuilder(builder: CustomBuilder, delay?: number, checkImageStatus?: boo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { componentSnapshot } from '@kit.ArkUI'
@@ -522,13 +492,7 @@ getSync(id: string, options?: SnapshotOptions): image.PixelMap
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { componentSnapshot } from '@kit.ArkUI';
@@ -607,13 +571,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from '@kit.ImageKit';
@@ -681,13 +639,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from '@kit.ImageKit';
@@ -798,13 +750,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from '@kit.ImageKit';

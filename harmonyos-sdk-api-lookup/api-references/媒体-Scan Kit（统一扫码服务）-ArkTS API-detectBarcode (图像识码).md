@@ -8,13 +8,7 @@
 
 PhoneTabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { detectBarcode } from '@kit.ScanKit';
@@ -40,13 +34,7 @@ PhoneTabletWearable
 
 推荐使用[picker](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/photoaccesshelper-photoviewpicker)获取图片路径。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { photoAccessHelper } from '@kit.MediaLibraryKit';
@@ -113,13 +101,7 @@ decode(inputImage: InputImage, options?: scanBarcode.ScanOptions): Promise<Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { scanCore, scanBarcode, detectBarcode } from '@kit.ScanKit';
@@ -190,13 +172,7 @@ decode(inputImage: InputImage, options: scanBarcode.ScanOptions, callback: Async
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { photoAccessHelper } from '@kit.MediaLibraryKit';
@@ -268,13 +244,7 @@ decode(inputImage: InputImage, callback: AsyncCallback<Array<scanBarcode.ScanRes
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { scanBarcode, detectBarcode } from '@kit.ScanKit';
@@ -331,13 +301,7 @@ PhoneTabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { detectBarcode } from '@kit.ScanKit';
@@ -426,13 +390,7 @@ decodeImage(image: ByteImage, options?: scanBarcode.ScanOptions): Promise<Detect
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { scanCore, scanBarcode, detectBarcode } from '@kit.ScanKit';

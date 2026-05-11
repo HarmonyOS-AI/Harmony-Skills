@@ -8,13 +8,7 @@ ErrorCode定义启动Ability时返回的错误码，包括无效的参数、权�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ErrorCode } from '@kit.AbilityKit';

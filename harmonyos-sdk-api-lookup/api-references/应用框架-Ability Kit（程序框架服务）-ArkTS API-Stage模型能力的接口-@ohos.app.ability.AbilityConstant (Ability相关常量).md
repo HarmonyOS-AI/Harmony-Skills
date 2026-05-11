@@ -9,13 +9,7 @@ AbilityConstant提供Ability相关的枚举，包括应用启动原因[LaunchRea
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant } from '@kit.AbilityKit';
@@ -80,13 +74,7 @@ Ability启动原因，该类型为枚举，可配合UIAbility的[onCreate(want, 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, Want, AbilityConstant } from '@kit.AbilityKit';
@@ -126,13 +114,7 @@ Ability上次退出原因，该类型为枚举，可配合UIAbility的[onCreate(
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, Want, AbilityConstant } from '@kit.AbilityKit';
@@ -205,13 +187,7 @@ exitSubReason取值的含义如下：
 
 **示例**:
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, Want, AbilityConstant } from '@kit.AbilityKit';
@@ -255,13 +231,7 @@ Ability迁移结果，该类型为枚举，可配合UIAbility的[onContinue()](h
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, AbilityConstant } from '@kit.AbilityKit';
@@ -305,13 +275,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, AbilityConstant } from '@kit.AbilityKit';
@@ -343,13 +307,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, StartOptions, Want, AbilityConstant } from '@kit.AbilityKit';
@@ -398,13 +356,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, AbilityConstant } from '@kit.AbilityKit';
@@ -435,13 +387,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, AbilityConstant } from '@kit.AbilityKit';
@@ -475,13 +421,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, Want, AbilityConstant } from '@kit.AbilityKit';
@@ -513,13 +453,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, AbilityConstant } from '@kit.AbilityKit';
@@ -550,13 +484,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, AbilityStage } from '@kit.AbilityKit';

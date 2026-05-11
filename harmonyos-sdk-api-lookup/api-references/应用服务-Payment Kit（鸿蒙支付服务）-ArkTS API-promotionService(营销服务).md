@@ -12,13 +12,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { promotionService } from "@kit.PaymentKit";
@@ -190,13 +184,7 @@ constructor(context: UIContext)
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { promotionService } from '@kit.PaymentKit';
@@ -256,13 +244,7 @@ startPromotionEntryDialog(mercNo: string, offset?: number): Promise<UserAction>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { promotionService } from "@kit.PaymentKit";
@@ -340,13 +322,7 @@ startUserChooseCouponsPopup(context: common.Context, orderContext: OrderContext)
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { promotionService } from "@kit.PaymentKit";
@@ -430,13 +406,7 @@ startPromotionDetailPopup(context: common.Context, mercNo: string): Promise<User
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { promotionService } from "@kit.PaymentKit";
@@ -519,13 +489,7 @@ getOrderAvailableCoupons(context: common.Context, orderContext: OrderContext): P
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { promotionService } from "@kit.PaymentKit";

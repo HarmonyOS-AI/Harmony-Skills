@@ -6,13 +6,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { HdsSnackBar } from '@kit.UIDesignKit';
@@ -242,13 +236,7 @@ PhonePC/2in1TabletTV
 
 HdsSnackBar提供带按钮操作的通知弹窗。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {

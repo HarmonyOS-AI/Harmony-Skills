@@ -8,13 +8,7 @@ SIM卡管理模块提供了SIM卡管理的基础能力，包括获取指定卡�
 
 PhoneTabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sim } from '@kit.TelephonyKit';
@@ -41,13 +35,7 @@ isSimActive(slotId: number, callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -86,13 +74,7 @@ isSimActive(slotId: number): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -133,13 +115,7 @@ isSimActiveSync(slotId: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sim } from '@kit.TelephonyKit';
@@ -168,13 +144,7 @@ getDefaultVoiceSlotId(callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -205,13 +175,7 @@ getDefaultVoiceSlotId(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -259,13 +223,7 @@ hasOperatorPrivileges(slotId: number, callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -318,13 +276,7 @@ hasOperatorPrivileges(slotId: number): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -373,13 +325,7 @@ getISOCountryCodeForSim(slotId: number, callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -433,13 +379,7 @@ getISOCountryCodeForSim(slotId: number): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -480,13 +420,7 @@ getISOCountryCodeForSimSync(slotId: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sim } from '@kit.TelephonyKit';
@@ -531,13 +465,7 @@ getSimOperatorNumeric(slotId: number, callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -591,13 +519,7 @@ getSimOperatorNumeric(slotId: number): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -638,13 +560,7 @@ getSimOperatorNumericSync(slotId: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sim } from '@kit.TelephonyKit';
@@ -689,13 +605,7 @@ getSimSpn(slotId: number, callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -749,13 +659,7 @@ getSimSpn(slotId: number): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -796,13 +700,7 @@ getSimSpnSync(slotId: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sim } from '@kit.TelephonyKit';
@@ -846,13 +744,7 @@ getSimState(slotId: number, callback: AsyncCallback<SimState>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -905,13 +797,7 @@ getSimState(slotId: number): Promise<SimState>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -952,13 +838,7 @@ getSimStateSync(slotId: number): SimState
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sim } from '@kit.TelephonyKit';
@@ -1003,13 +883,7 @@ getCardType(slotId: number, callback: AsyncCallback<CardType>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1063,13 +937,7 @@ getCardType(slotId: number): Promise<CardType>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1110,13 +978,7 @@ getCardTypeSync(slotId: number): CardType
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sim } from '@kit.TelephonyKit';
@@ -1160,13 +1022,7 @@ hasSimCard(slotId: number, callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1219,13 +1075,7 @@ hasSimCard(slotId: number): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1266,13 +1116,7 @@ hasSimCardSync(slotId: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sim } from '@kit.TelephonyKit';
@@ -1324,13 +1168,7 @@ getSimAccountInfo(slotId: number, callback: AsyncCallback<IccAccountInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1391,13 +1229,7 @@ getSimAccountInfo(slotId: number): Promise<IccAccountInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1451,13 +1283,7 @@ getActiveSimAccountInfoList(callback: AsyncCallback<Array<IccAccountInfo>>): voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1488,13 +1314,7 @@ getMaxSimCount(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sim } from '@kit.TelephonyKit';
@@ -1541,13 +1361,7 @@ getActiveSimAccountInfoList(): Promise<Array<IccAccountInfo>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1596,13 +1410,7 @@ getOpKey(slotId: number, callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1664,13 +1472,7 @@ getOpKey(slotId: number): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1711,13 +1513,7 @@ getOpKeySync(slotId: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sim } from '@kit.TelephonyKit';
@@ -1762,13 +1558,7 @@ getOpName(slotId: number, callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1830,13 +1620,7 @@ getOpName(slotId: number): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1877,13 +1661,7 @@ getOpNameSync(slotId: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sim } from '@kit.TelephonyKit';
@@ -1928,13 +1706,7 @@ getDefaultVoiceSimId(callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1980,13 +1752,7 @@ getDefaultVoiceSimId(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2037,13 +1803,7 @@ getSimLabel(slotId: number, callback: AsyncCallback<SimLabel>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2095,13 +1855,7 @@ getSimLabel(slotId: number): Promise<SimLabel>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2142,13 +1896,7 @@ getSimLabelSync(slotId: number): SimLabel
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sim } from '@kit.TelephonyKit';

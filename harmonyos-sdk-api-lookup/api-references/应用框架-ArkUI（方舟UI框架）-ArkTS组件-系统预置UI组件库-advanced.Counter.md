@@ -10,13 +10,7 @@ Counter组件用于精确调节数值。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { CounterType, CounterComponent, CounterOptions, DateData } from '@kit.ArkUI';
@@ -252,13 +246,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过设置type为CounterType.LIST和配置numberOptions，实现了列表型Counter。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { CounterType, CounterComponent } from '@kit.ArkUI';
@@ -291,13 +279,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过设置type为CounterType.COMPACT和numberOptions，实现紧凑型Counter。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { CounterType, CounterComponent } from '@kit.ArkUI';
@@ -331,13 +313,7 @@ PhonePC/2in1TabletTVWearable
 
 设置type为CounterType.INLINE和inlineOptions，实现数值内联型Counter。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { CounterType, CounterComponent } from '@kit.ArkUI';
@@ -374,13 +350,7 @@ PhonePC/2in1TabletTVWearable
 
 设置type为CounterType.INLINE\_DATE和dateOptions，实现日期内联型Counter。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { CounterType, CounterComponent, DateData } from '@kit.ArkUI';
@@ -413,13 +383,7 @@ PhonePC/2in1TabletTVWearable
 
 设置direction属性，实现列表型、紧凑型、数字内联型、日期内联型Counter的镜像布局。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { CounterType, CounterComponent, DateData } from '@kit.ArkUI';

@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { backgroundTaskManager } from '@kit.BackgroundTasksKit';
@@ -69,13 +63,7 @@ requestSuspendDelay(reason: string, callback: Callback<void>): DelaySuspendInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -134,13 +122,7 @@ getRemainingDelayTime(requestId: number, callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -200,13 +182,7 @@ getRemainingDelayTime(requestId: number): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -256,13 +232,7 @@ cancelSuspendDelay(requestId: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -308,13 +278,7 @@ getTransientTaskInfo(): Promise<TransientTaskInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { backgroundTaskManager } from '@kit.BackgroundTasksKit';
@@ -377,13 +341,7 @@ startBackgroundRunning(context: Context, bgMode: BackgroundMode, wantAgent: Want
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { backgroundTaskManager } from '@kit.BackgroundTasksKit';
@@ -489,13 +447,7 @@ startBackgroundRunning(context: Context, bgMode: BackgroundMode, wantAgent: Want
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { backgroundTaskManager } from '@kit.BackgroundTasksKit';
@@ -584,13 +536,7 @@ stopBackgroundRunning(context: Context, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { backgroundTaskManager } from '@kit.BackgroundTasksKit';
@@ -663,13 +609,7 @@ stopBackgroundRunning(context: Context): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { backgroundTaskManager } from '@kit.BackgroundTasksKit';
@@ -743,13 +683,7 @@ startBackgroundRunning(context: Context, bgModes: string[], wantAgent: WantAgent
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { backgroundTaskManager } from '@kit.BackgroundTasksKit';
@@ -902,13 +836,7 @@ updateBackgroundRunning(context: Context, bgModes: string[]): Promise<Continuous
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { backgroundTaskManager } from '@kit.BackgroundTasksKit';
@@ -975,13 +903,7 @@ getAllContinuousTasks(context: Context): Promise<ContinuousTaskInfo[]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { backgroundTaskManager } from '@kit.BackgroundTasksKit';
@@ -1048,13 +970,7 @@ getAllContinuousTasks(context: Context, includeSuspended: boolean): Promise<Cont
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { backgroundTaskManager } from '@kit.BackgroundTasksKit';
@@ -1111,13 +1027,7 @@ on(type: 'continuousTaskCancel', callback: Callback<ContinuousTaskCancelInfo>): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { backgroundTaskManager } from '@kit.BackgroundTasksKit';
@@ -1174,13 +1084,7 @@ off(type: 'continuousTaskCancel', callback?: Callback<ContinuousTaskCancelInfo>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { backgroundTaskManager } from '@kit.BackgroundTasksKit';
@@ -1239,13 +1143,7 @@ on(type: 'continuousTaskSuspend', callback: Callback<ContinuousTaskSuspendInfo>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { backgroundTaskManager } from '@kit.BackgroundTasksKit';
@@ -1303,13 +1201,7 @@ off(type: 'continuousTaskSuspend', callback?: Callback<ContinuousTaskSuspendInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { backgroundTaskManager } from '@kit.BackgroundTasksKit';
@@ -1367,13 +1259,7 @@ on(type: 'continuousTaskActive', callback: Callback<ContinuousTaskActiveInfo>): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { backgroundTaskManager } from '@kit.BackgroundTasksKit';
@@ -1429,13 +1315,7 @@ off(type: 'continuousTaskActive', callback?: Callback<ContinuousTaskActiveInfo>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { backgroundTaskManager } from '@kit.BackgroundTasksKit';
@@ -1507,13 +1387,7 @@ startBackgroundRunning(context: Context, request: ContinuousTaskRequest): Promis
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { backgroundTaskManager } from '@kit.BackgroundTasksKit';
@@ -1625,13 +1499,7 @@ updateBackgroundRunning(context: Context, request: ContinuousTaskRequest): Promi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { backgroundTaskManager } from '@kit.BackgroundTasksKit';
@@ -1732,13 +1600,7 @@ stopBackgroundRunning(context: Context, continuousTaskId: number): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { backgroundTaskManager } from '@kit.BackgroundTasksKit';
@@ -2038,13 +1900,7 @@ isModeSupported(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { backgroundTaskManager } from '@kit.BackgroundTasksKit';
@@ -2106,13 +1962,7 @@ requestAuthFromUser(context: Context, callback: Callback<UserAuthResult>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { backgroundTaskManager } from '@kit.BackgroundTasksKit';
@@ -2186,13 +2036,7 @@ checkSpecialScenarioAuth(context: Context): Promise<UserAuthResult>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { backgroundTaskManager } from '@kit.BackgroundTasksKit';

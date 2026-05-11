@@ -10,13 +10,7 @@ abilityConnectionManager模块提供了应用协同接口管理能力。设备�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityConnectionManager } from '@kit.DistributedServiceKit';
@@ -71,13 +65,7 @@ createAbilityConnectionSession(serviceName: string, context: Context, peerInfo: 
 
 1. 在设备A上，应用需要主动调用createAbilityConnectionSession()接口创建协同会话并返回sessionId。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. import { abilityConnectionManager, distributedDeviceManager } from '@kit.DistributedServiceKit';
@@ -150,13 +138,7 @@ createAbilityConnectionSession(serviceName: string, context: Context, peerInfo: 
    ```
 2. 在设备B上，对于createAbilityConnectionSession接口的调用，可在应用被拉起后触发协同生命周期函数onCollaborate时，在onCollaborate内进行。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -221,13 +203,7 @@ destroyAbilityConnectionSession(sessionId: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityConnectionManager } from '@kit.DistributedServiceKit';
@@ -278,13 +254,7 @@ getPeerInfoById(sessionId: number): PeerInfo | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityConnectionManager } from '@kit.DistributedServiceKit';
@@ -337,13 +307,7 @@ connect(sessionId: number): Promise<ConnectResult>
 
 设备A上的应用在创建协同会话成功并获得会话ID后，调用connect()方法启动UIAbility连接，并拉起设备B应用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityConnectionManager } from '@kit.DistributedServiceKit';
@@ -403,13 +367,7 @@ acceptConnect(sessionId: number, token: string): Promise<void>
 
 设备B上的应用，在createAbilityConnectionSession接口调用并获取sessionId成功后，可调用acceptConnect接口来选择接受连接。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -484,13 +442,7 @@ disconnect(sessionId: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityConnectionManager } from '@kit.DistributedServiceKit';
@@ -534,13 +486,7 @@ reject(token: string, reason: string): void;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want} from '@kit.AbilityKit';
@@ -594,13 +540,7 @@ on(type: 'connect', sessionId: number, callback: Callback<EventCallbackInfo>): v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityConnectionManager } from '@kit.DistributedServiceKit';
@@ -646,13 +586,7 @@ off(type: 'connect', sessionId: number, callback?: Callback<EventCallbackInfo>):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityConnectionManager } from '@kit.DistributedServiceKit';
@@ -695,13 +629,7 @@ on(type: 'disconnect', sessionId: number, callback: Callback<EventCallbackInfo>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityConnectionManager } from '@kit.DistributedServiceKit';
@@ -747,13 +675,7 @@ off(type: 'disconnect', sessionId: number, callback?: Callback<EventCallbackInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityConnectionManager } from '@kit.DistributedServiceKit';
@@ -797,13 +719,7 @@ on(type: 'receiveMessage', sessionId: number, callback: Callback<EventCallbackIn
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityConnectionManager } from '@kit.DistributedServiceKit';
@@ -849,13 +765,7 @@ off(type: 'receiveMessage', sessionId: number, callback?: Callback<EventCallback
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityConnectionManager } from '@kit.DistributedServiceKit';
@@ -899,13 +809,7 @@ on(type: 'receiveData', sessionId: number, callback: Callback<EventCallbackInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityConnectionManager } from '@kit.DistributedServiceKit';
@@ -951,13 +855,7 @@ off(type: 'receiveData', sessionId: number, callback?: Callback<EventCallbackInf
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityConnectionManager } from '@kit.DistributedServiceKit';
@@ -1008,13 +906,7 @@ sendMessage(sessionId: number, msg: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityConnectionManager } from '@kit.DistributedServiceKit';
@@ -1069,13 +961,7 @@ sendData(sessionId: number, data: ArrayBuffer): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityConnectionManager } from '@kit.DistributedServiceKit';

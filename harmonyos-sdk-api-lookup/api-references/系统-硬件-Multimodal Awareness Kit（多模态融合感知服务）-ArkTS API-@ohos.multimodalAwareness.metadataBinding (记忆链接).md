@@ -8,13 +8,7 @@
 
 PhoneTablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { metadataBinding } from '@kit.MultimodalAwarenessKit';
@@ -52,13 +46,7 @@ submitMetadata(metadata: string): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { metadataBinding } from '@kit.MultimodalAwarenessKit';
@@ -106,13 +94,7 @@ on(type: 'operationSubmitMetadata', bundleName: string, callback: Callback<numbe
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { metadataBinding } from '@kit.MultimodalAwarenessKit';
@@ -164,13 +146,7 @@ off(type: 'operationSubmitMetadata', bundleName: string, callback?: Callback<num
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { metadataBinding } from '@kit.MultimodalAwarenessKit';

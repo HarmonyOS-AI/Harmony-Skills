@@ -60,13 +60,7 @@ PhonePC/2in1TabletTVWearable
 
 通过NodeController挂载BuilderNode节点。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, BuilderNode, FrameNode, UIContext } from '@kit.ArkUI';

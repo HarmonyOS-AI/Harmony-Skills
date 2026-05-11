@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { identifySensitiveContent } from '@kit.DataProtectionKit';
@@ -66,13 +60,7 @@ scanFile(filePath: string, identifyPolicies:Array<Policy>): Promise<Array<MatchR
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { identifySensitiveContent } from '@kit.DataProtectionKit';

@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { media } from '@kit.MediaKit';
@@ -54,13 +48,7 @@ play(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioPlayer.on('play', () => {    // 设置'play'事件回调。
@@ -85,13 +73,7 @@ pause(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioPlayer.on('pause', () => {    // 设置'pause'事件回调。
@@ -116,13 +98,7 @@ stop(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioPlayer.on('stop', () => {    // 设置'stop'事件回调。
@@ -147,13 +123,7 @@ reset(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioPlayer.on('reset', () => {    // 设置'reset'事件回调。
@@ -186,13 +156,7 @@ seek(timeMs: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioPlayer.on('timeUpdate', (seekDoneTime: number) => {    // 设置'timeUpdate'事件回调。
@@ -229,13 +193,7 @@ setVolume(vol: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioPlayer.on('volumeChange', () => {    // 设置'volumeChange'事件回调。
@@ -260,13 +218,7 @@ release(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioPlayer.release();
@@ -297,13 +249,7 @@ getTrackDescription(callback: AsyncCallback<Array<MediaDescription>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -341,13 +287,7 @@ getTrackDescription(): Promise<Array<MediaDescription>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -384,13 +324,7 @@ on(type: 'bufferingUpdate', callback: (infoType: BufferingInfoType, value: numbe
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioPlayer.on('bufferingUpdate', (infoType: media.BufferingInfoType, value: number) => {
@@ -424,13 +358,7 @@ on(type: 'play' | 'pause' | 'stop' | 'reset' | 'dataLoad' | 'finish' | 'volumeCh
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileIo } from '@kit.CoreFileKit';
@@ -514,13 +442,7 @@ on(type: 'timeUpdate', callback: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioPlayer.on('timeUpdate', (newTime: number) => {    // 设置'timeUpdate'事件回调。
@@ -558,13 +480,7 @@ on(type: 'audioInterrupt', callback: (info: audio.InterruptEvent) => void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { audio } from '@kit.AudioKit';
@@ -599,13 +515,7 @@ on(type: 'error', callback: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

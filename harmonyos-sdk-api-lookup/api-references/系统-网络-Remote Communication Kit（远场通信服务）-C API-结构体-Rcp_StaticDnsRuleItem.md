@@ -34,13 +34,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. char Rcp_StaticDnsRuleItem::host[RCP_HOST_MAX_LEN]
@@ -54,13 +48,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Rcp_IpAddress* Rcp_StaticDnsRuleItem::ipAddresses
@@ -74,13 +62,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint16_t Rcp_StaticDnsRuleItem::port

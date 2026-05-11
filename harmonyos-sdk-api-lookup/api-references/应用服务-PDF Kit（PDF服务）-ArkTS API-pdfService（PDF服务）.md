@@ -10,13 +10,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -50,13 +44,7 @@ constructor()
 
 **起始版本：** 5.0.0(12)
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -96,13 +84,7 @@ loadDocument(path: string, password?: string, onProgress?: (progress: number) =>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -128,13 +110,7 @@ releaseDocument(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -184,13 +160,7 @@ saveDocument(path: string, onProgress?: (progress: number) => number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileIo as fs } from '@kit.CoreFileKit';
@@ -263,13 +233,7 @@ createDocument(width: number, height: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -308,13 +272,7 @@ isEncrypted(path: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -350,13 +308,7 @@ removeSecurity(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -392,13 +344,7 @@ getPageCount(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -442,13 +388,7 @@ getPage(index: number): PdfPage
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -495,13 +435,7 @@ insertBlankPage(index: number, width: number, height: number): PdfPage
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -549,13 +483,7 @@ insertPageFromDocument(document: PdfDocument, fromIndex: number, pageCount: numb
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -599,13 +527,7 @@ deletePage(index: number, count: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -659,13 +581,7 @@ movePage(3, 2)，会有变化，顺序：0，1，3，2，4。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -702,13 +618,7 @@ getFontWeight(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -745,13 +655,7 @@ setFontWeight(weight: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -788,13 +692,7 @@ getMetadata(): Metadata
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -841,13 +739,7 @@ convertToImage(path: string, format: ImageFormat, onProgress?: (progress: number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -888,13 +780,7 @@ getRootBookmark(): Bookmark
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -931,13 +817,7 @@ PDF文档获取根书签。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -974,13 +854,7 @@ createBookmark(): Bookmark
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -1025,13 +899,7 @@ removeBookmark(bookmark: Bookmark): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -1081,13 +949,7 @@ insertBookmark(bookmark: Bookmark, parent: Bookmark, position: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -1133,13 +995,7 @@ addHeaderFooter(info: HeaderFooterInfo, startIndex: number, endIndex: number, od
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -1194,13 +1050,7 @@ getHeaderFooter(): HeaderFooterInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -1235,13 +1085,7 @@ PDF文档是否有页眉页脚。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -1276,13 +1120,7 @@ removeHeaderFooter(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -1325,13 +1163,7 @@ addWatermark(info: WatermarkInfo, startIndex: number, endIndex: number, oddPages
 
 * 添加文本水印
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -1363,13 +1195,7 @@ addWatermark(info: WatermarkInfo, startIndex: number, endIndex: number, oddPages
 
 * 添加图片水印
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -1415,13 +1241,7 @@ getWatermark(): WatermarkInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -1456,13 +1276,7 @@ PDF文档是否有水印。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -1497,13 +1311,7 @@ removeWatermark(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -1545,13 +1353,7 @@ addBackground(info: BackgroundInfo, startIndex: number, endIndex: number, oddPag
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -1597,13 +1399,7 @@ getBackground(): BackgroundInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -1640,13 +1436,7 @@ PDF文档是否有背景。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -1681,13 +1471,7 @@ removeBackground(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -1736,13 +1520,7 @@ setPdfPassword(password: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -1787,13 +1565,7 @@ searchKey(text: string, listener: SearchKeyCallback, options?: SearchOptions): P
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -1954,13 +1726,7 @@ getPdfPage(): PdfPage
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -1998,13 +1764,7 @@ getAnnotationIndex(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -2042,13 +1802,7 @@ getAnnotationInfo(): PdfAnnotationInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -2095,13 +1849,7 @@ moveTo(x: number, y: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -2143,13 +1891,7 @@ isMarkup(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -2475,13 +2217,7 @@ constructor()
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -2523,13 +2259,7 @@ constructor()
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -2572,13 +2302,7 @@ constructor()
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -2622,13 +2346,7 @@ constructor()
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -2668,13 +2386,7 @@ getDocument(): PdfDocument
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -2710,13 +2422,7 @@ getAnnotations(): Array<PdfAnnotation>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -2760,13 +2466,7 @@ addAnnotation(annotationInfo: PdfAnnotationInfo): PdfAnnotation
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -2809,13 +2509,7 @@ setAnnotation(annotation: PdfAnnotation, annotationInfo: PdfAnnotationInfo): voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -2867,13 +2561,7 @@ removeAnnotation(annotation: PdfAnnotation): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -2917,13 +2605,7 @@ getIndex(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -2959,13 +2641,7 @@ getWidth(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -3001,13 +2677,7 @@ getHeight(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -3044,13 +2714,7 @@ setBox(boxtype: BoxType, rect: PdfRect): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -3099,13 +2763,7 @@ getBox(boxtype: BoxType): PdfRect
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -3141,13 +2799,7 @@ setRotation(rotation: RotationAngle): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -3183,13 +2835,7 @@ getRotation(): RotationAngle
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -3225,13 +2871,7 @@ getPagePixelMap(): image.PixelMap
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -3277,13 +2917,7 @@ getCustomPagePixelMap(matrix: PdfMatrix, isGray: boolean, drawAnnotations: boole
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -3333,13 +2967,7 @@ getAreaPixelMap(matrix: PdfMatrix, bitmapwidth: number, bitmapHeight: number, is
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -3384,13 +3012,7 @@ addTextObject(text: string, x: number, y: number, style: TextStyle): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -3439,13 +3061,7 @@ addImageObject(path: string, x: number, y: number, width: number, height: number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -3485,13 +3101,7 @@ getGraphicsObjects(): Array<GraphicsObject>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -3527,13 +3137,7 @@ deleteGraphicsObject(object: GraphicsObject): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -3565,13 +3169,7 @@ release(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -3618,13 +3216,7 @@ getAreaPixelMapWithOptions(matrix:PdfMatrix,bitmapwidth:number,bitmapHeight:numb
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -3677,13 +3269,7 @@ getTextContent(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -3797,13 +3383,7 @@ isRootBookmark(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -3842,13 +3422,7 @@ getParent(): Bookmark
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -3887,13 +3461,7 @@ hasChild(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -3932,13 +3500,7 @@ getChildren(): Array<Bookmark>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -3977,13 +3539,7 @@ getDestInfo(): DestInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -4034,13 +3590,7 @@ setDestInfo(info: DestInfo): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -4091,13 +3641,7 @@ getBookmarkInfo(): BookmarkInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -4148,13 +3692,7 @@ setBookmarkInfo(info: BookmarkInfo): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -4218,13 +3756,7 @@ constructor()
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -4278,13 +3810,7 @@ constructor()
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -4330,13 +3856,7 @@ constructor()
 
 **起始版本：** 5.0.0(12)
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -4420,13 +3940,7 @@ constructor()
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -4466,13 +3980,7 @@ constructor()
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -4544,13 +4052,7 @@ constructor()
 
 **起始版本：** 5.1.0(18)
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -4591,13 +4093,7 @@ constructor()
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';
@@ -4643,13 +4139,7 @@ constructor()
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService } from '@kit.PDFKit';

@@ -140,13 +140,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_UdsPlainText* OH_UdsPlainText_Create()
@@ -170,13 +164,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_UdsPlainText_Destroy(OH_UdsPlainText* pThis)
@@ -200,13 +188,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char* OH_UdsPlainText_GetType(OH_UdsPlainText* pThis)
@@ -238,13 +220,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char* OH_UdsPlainText_GetContent(OH_UdsPlainText* pThis)
@@ -276,13 +252,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char* OH_UdsPlainText_GetAbstract(OH_UdsPlainText* pThis)
@@ -316,13 +286,7 @@ OH\_UdsPlainText
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsPlainText_SetContent(OH_UdsPlainText* pThis, const char* content)
@@ -355,13 +319,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsPlainText_SetAbstract(OH_UdsPlainText* pThis, const char* abstract)
@@ -394,13 +352,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_UdsHyperlink* OH_UdsHyperlink_Create()
@@ -424,13 +376,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_UdsHyperlink_Destroy(OH_UdsHyperlink* pThis)
@@ -454,13 +400,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char* OH_UdsHyperlink_GetType(OH_UdsHyperlink* pThis)
@@ -492,13 +432,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char* OH_UdsHyperlink_GetUrl(OH_UdsHyperlink* pThis)
@@ -530,13 +464,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char* OH_UdsHyperlink_GetDescription(OH_UdsHyperlink* pThis)
@@ -568,13 +496,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsHyperlink_SetUrl(OH_UdsHyperlink* pThis, const char* url)
@@ -607,13 +529,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsHyperlink_SetDescription(OH_UdsHyperlink* pThis, const char* description)
@@ -646,13 +562,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_UdsHtml* OH_UdsHtml_Create()
@@ -676,13 +586,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_UdsHtml_Destroy(OH_UdsHtml* pThis)
@@ -706,13 +610,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char* OH_UdsHtml_GetType(OH_UdsHtml* pThis)
@@ -744,13 +642,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char* OH_UdsHtml_GetContent(OH_UdsHtml* pThis)
@@ -782,13 +674,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char* OH_UdsHtml_GetPlainContent(OH_UdsHtml* pThis)
@@ -820,13 +706,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsHtml_SetContent(OH_UdsHtml* pThis, const char* content)
@@ -859,13 +739,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsHtml_SetPlainContent(OH_UdsHtml* pThis, const char* plainContent)
@@ -898,13 +772,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_UdsAppItem* OH_UdsAppItem_Create()
@@ -928,13 +796,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_UdsAppItem_Destroy(OH_UdsAppItem* pThis)
@@ -958,13 +820,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char* OH_UdsAppItem_GetType(OH_UdsAppItem* pThis)
@@ -996,13 +852,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char* OH_UdsAppItem_GetId(OH_UdsAppItem* pThis)
@@ -1034,13 +884,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char* OH_UdsAppItem_GetName(OH_UdsAppItem* pThis)
@@ -1072,13 +916,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char* OH_UdsAppItem_GetIconId(OH_UdsAppItem* pThis)
@@ -1110,13 +948,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char* OH_UdsAppItem_GetLabelId(OH_UdsAppItem* pThis)
@@ -1148,13 +980,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char* OH_UdsAppItem_GetBundleName(OH_UdsAppItem* pThis)
@@ -1186,13 +1012,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char* OH_UdsAppItem_GetAbilityName(OH_UdsAppItem* pThis)
@@ -1224,13 +1044,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsAppItem_SetId(OH_UdsAppItem* pThis, const char* appId)
@@ -1263,13 +1077,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsAppItem_SetName(OH_UdsAppItem* pThis, const char* appName)
@@ -1302,13 +1110,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsAppItem_SetIconId(OH_UdsAppItem* pThis, const char* appIconId)
@@ -1341,13 +1143,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsAppItem_SetLabelId(OH_UdsAppItem* pThis, const char* appLabelId)
@@ -1380,13 +1176,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsAppItem_SetBundleName(OH_UdsAppItem* pThis, const char* bundleName)
@@ -1419,13 +1209,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsAppItem_SetAbilityName(OH_UdsAppItem* pThis, const char* abilityName)
@@ -1458,13 +1242,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_UdsFileUri* OH_UdsFileUri_Create()
@@ -1488,13 +1266,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_UdsFileUri_Destroy(OH_UdsFileUri* pThis)
@@ -1518,13 +1290,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char* OH_UdsFileUri_GetType(OH_UdsFileUri* pThis)
@@ -1556,13 +1322,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char* OH_UdsFileUri_GetFileUri(OH_UdsFileUri* pThis)
@@ -1594,13 +1354,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char* OH_UdsFileUri_GetFileType(OH_UdsFileUri* pThis)
@@ -1632,13 +1386,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsFileUri_SetFileUri(OH_UdsFileUri* pThis, const char* fileUri)
@@ -1671,13 +1419,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsFileUri_SetFileType(OH_UdsFileUri* pThis, const char* fileType)
@@ -1710,13 +1452,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_UdsPixelMap* OH_UdsPixelMap_Create()
@@ -1740,13 +1476,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_UdsPixelMap_Destroy(OH_UdsPixelMap* pThis)
@@ -1770,13 +1500,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char* OH_UdsPixelMap_GetType(OH_UdsPixelMap* pThis)
@@ -1808,13 +1532,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_UdsPixelMap_GetPixelMap(OH_UdsPixelMap* pThis, OH_PixelmapNative* pixelmapNative)
@@ -1839,13 +1557,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsPixelMap_SetPixelMap(OH_UdsPixelMap* pThis, OH_PixelmapNative* pixelmapNative)
@@ -1878,13 +1590,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_UdsArrayBuffer* OH_UdsArrayBuffer_Create()
@@ -1908,13 +1614,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsArrayBuffer_Destroy(OH_UdsArrayBuffer* buffer)
@@ -1946,13 +1646,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsArrayBuffer_SetData(OH_UdsArrayBuffer* buffer, unsigned char* data, unsigned int len)
@@ -1986,13 +1680,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsArrayBuffer_GetData(OH_UdsArrayBuffer* buffer, unsigned char** data, unsigned int* len)
@@ -2026,13 +1714,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_UdsContentForm* OH_UdsContentForm_Create()
@@ -2056,13 +1738,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_UdsContentForm_Destroy(OH_UdsContentForm* pThis)
@@ -2086,13 +1762,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char* OH_UdsContentForm_GetType(OH_UdsContentForm* pThis)
@@ -2124,13 +1794,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsContentForm_GetThumbData(OH_UdsContentForm* pThis, unsigned char** thumbData, unsigned int* len)
@@ -2164,13 +1828,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char* OH_UdsContentForm_GetDescription(OH_UdsContentForm* pThis)
@@ -2202,13 +1860,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char* OH_UdsContentForm_GetTitle(OH_UdsContentForm* pThis)
@@ -2240,13 +1892,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsContentForm_GetAppIcon(OH_UdsContentForm* pThis, unsigned char** appIcon, unsigned int* len)
@@ -2280,13 +1926,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char* OH_UdsContentForm_GetAppName(OH_UdsContentForm* pThis)
@@ -2318,13 +1958,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char* OH_UdsContentForm_GetLinkUri(OH_UdsContentForm* pThis)
@@ -2356,13 +1990,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsContentForm_SetThumbData(OH_UdsContentForm* pThis, const unsigned char* thumbData, unsigned int len)
@@ -2396,13 +2024,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsContentForm_SetDescription(OH_UdsContentForm* pThis, const char* description)
@@ -2435,13 +2057,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsContentForm_SetTitle(OH_UdsContentForm* pThis, const char* title)
@@ -2474,13 +2090,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsContentForm_SetAppIcon(OH_UdsContentForm* pThis, const unsigned char* appIcon, unsigned int len)
@@ -2514,13 +2124,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsContentForm_SetAppName(OH_UdsContentForm* pThis, const char* appName)
@@ -2553,13 +2157,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsContentForm_SetLinkUri(OH_UdsContentForm* pThis, const char* linkUri)
@@ -2592,13 +2190,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsPlainText_GetDetails(OH_UdsPlainText* pThis, OH_UdsDetails* details)
@@ -2631,13 +2223,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsPlainText_SetDetails(OH_UdsPlainText* pThis, const OH_UdsDetails* details)
@@ -2670,13 +2256,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsHyperlink_GetDetails(OH_UdsHyperlink* pThis, OH_UdsDetails* details)
@@ -2709,13 +2289,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsHyperlink_SetDetails(OH_UdsHyperlink* pThis, const OH_UdsDetails* details)
@@ -2748,13 +2322,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsHtml_GetDetails(OH_UdsHtml* pThis, OH_UdsDetails* details)
@@ -2787,13 +2355,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsHtml_SetDetails(OH_UdsHtml* pThis, const OH_UdsDetails* details)
@@ -2826,13 +2388,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsAppItem_GetDetails(OH_UdsAppItem* pThis, OH_UdsDetails* details)
@@ -2865,13 +2421,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsAppItem_SetDetails(OH_UdsAppItem* pThis, const OH_UdsDetails* details)
@@ -2904,13 +2454,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsFileUri_GetDetails(OH_UdsFileUri* pThis, OH_UdsDetails* details)
@@ -2943,13 +2487,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsFileUri_SetDetails(OH_UdsFileUri* pThis, const OH_UdsDetails* details)
@@ -2982,13 +2520,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsPixelMap_GetDetails(OH_UdsPixelMap* pThis, OH_UdsDetails* details)
@@ -3021,13 +2553,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsPixelMap_SetDetails(OH_UdsPixelMap* pThis, const OH_UdsDetails* details)
@@ -3060,13 +2586,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_UdsDetails* OH_UdsDetails_Create()
@@ -3092,13 +2612,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_UdsDetails_Destroy(OH_UdsDetails* pThis)
@@ -3122,13 +2636,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bool OH_UdsDetails_HasKey(const OH_UdsDetails* pThis, const char* key)
@@ -3161,13 +2669,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsDetails_Remove(OH_UdsDetails* pThis, const char* key)
@@ -3200,13 +2702,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsDetails_Clear(OH_UdsDetails* pThis)
@@ -3238,13 +2734,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_UdsDetails_SetValue(OH_UdsDetails* pThis, const char* key, const char* value)
@@ -3278,13 +2768,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char* OH_UdsDetails_GetValue(const OH_UdsDetails* pThis, const char* key)
@@ -3317,13 +2801,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. char** OH_UdsDetails_GetAllKeys(OH_UdsDetails* pThis, unsigned int* count)

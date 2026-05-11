@@ -14,13 +14,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bluetoothManager } from '@kit.MDMKit';
@@ -71,13 +65,7 @@ getBluetoothInfo(admin: Want): BluetoothInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bluetoothManager } from '@kit.MDMKit';
@@ -143,13 +131,7 @@ addAllowedBluetoothDevices(admin: Want, deviceIds: Array<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bluetoothManager } from '@kit.MDMKit';
@@ -210,13 +192,7 @@ removeAllowedBluetoothDevices(admin: Want, deviceIds: Array<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bluetoothManager } from '@kit.MDMKit';
@@ -282,13 +258,7 @@ getAllowedBluetoothDevices(admin: Want): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bluetoothManager } from '@kit.MDMKit';
@@ -352,13 +322,7 @@ addDisallowedBluetoothDevices(admin: Want, deviceIds: Array<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bluetoothManager } from '@kit.MDMKit';
@@ -418,13 +382,7 @@ removeDisallowedBluetoothDevices(admin: Want, deviceIds: Array<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bluetoothManager } from '@kit.MDMKit';
@@ -489,13 +447,7 @@ getDisallowedBluetoothDevices(admin: Want): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bluetoothManager } from '@kit.MDMKit';
@@ -553,13 +505,7 @@ turnOnBluetooth(admin: Want): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -617,13 +563,7 @@ turnOffBluetooth(admin: Want): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -682,13 +622,7 @@ addDisallowedBluetoothProtocols(admin: Want, accountId: number, protocols: Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -750,13 +684,7 @@ removeDisallowedBluetoothProtocols(admin: Want, accountId: number, protocols: Ar
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -823,13 +751,7 @@ getDisallowedBluetoothProtocols(admin: Want, accountId: number): Array<Protocol>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';

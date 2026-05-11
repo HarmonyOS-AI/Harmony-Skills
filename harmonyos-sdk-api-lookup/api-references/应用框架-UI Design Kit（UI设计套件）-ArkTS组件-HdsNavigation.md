@@ -15,13 +15,7 @@ PhonePC/2in1TabletTV
 
 6.0.1(21)及之前版本：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { HdsNavigation, HdsNavigationAttribute } from '@kit.UIDesignKit';
@@ -29,13 +23,7 @@ PhonePC/2in1TabletTV
 
 6.0.2(22)及之后版本：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { HdsNavigation } from '@kit.UIDesignKit';
@@ -1561,13 +1549,7 @@ PhonePC/2in1TabletTV
 
 通过titleBar属性，自定义设置标题栏随内容区滚动的动态模糊样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 从6.0.2(22)版本开始，无需手动导入HdsNavigationAttribute。具体请参考HdsNavigation的导入模块说明。
@@ -1698,13 +1680,7 @@ PhonePC/2in1TabletTV
 
 通过设置标题栏上菜单配置中的Badge属性，使用信息提醒能力，在菜单项右上角附加消息提醒。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 从6.0.2(22)版本开始，无需手动导入HdsNavigationAttribute。具体请参考HdsNavigation的导入模块说明。
@@ -1770,13 +1746,7 @@ PhonePC/2in1TabletTV
 
 通过设置titleBar属性中的stackBuilder，bottomBuilder属性，可以使用标题栏的自定义区域设置能力。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 从6.0.2(22)版本开始，无需手动导入HdsNavigationAttribute。具体请参考HdsNavigation的导入模块说明。
@@ -1866,13 +1836,7 @@ PhonePC/2in1TabletTV
 
 通过设置dynamicHideTitleBar属性，可以使用标题栏随内容区动态显隐能力。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 从6.0.2(22)版本开始，无需手动导入HdsNavigationAttribute。具体请参考HdsNavigation的导入模块说明。
@@ -1941,13 +1905,7 @@ PhonePC/2in1TabletTV
 
 通过设置HdsNavigationIconOptions属性中的type属性，可以设置图标为文字型或者图片型图标。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 从6.0.2(22)版本开始，无需手动导入HdsNavigationAttribute。具体请参考HdsNavigation的导入模块说明。
@@ -2026,13 +1984,7 @@ PhonePC/2in1TabletTV
 
 通过titleMode设置半模态标题栏显示模式，半模态模式下，可以在subTitle右侧区域设置用户自定义的subTitleBuilder。半模态样式下，设置图标类型为IconStyleMode.SMALL，同时不设置图标资源时，默认显示关闭按钮。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 从6.0.2(22)版本开始，无需手动导入HdsNavigationAttribute。具体请参考HdsNavigation的导入模块说明。
@@ -2127,13 +2079,7 @@ PhonePC/2in1TabletTV
 
 通过设置菜单项HdsNavigationIconOptions中的componentId属性，结合promptAction.openMenu方法，绑定TargetInfo中的Id属性为设置的componentId，可以在对应的图标上弹出用户自定义菜单。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 从6.0.2(22)版本开始，无需手动导入HdsNavigationAttribute。具体请参考HdsNavigation的导入模块说明。
@@ -2223,13 +2169,7 @@ PhonePC/2in1TabletTV
 
 创建一级导航组件，通过配置titleBar中的menu上的multiWindowEntryInAPPMenu属性，实现应用内多窗图标设置。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 从6.0.2(22)版本开始，无需手动导入HdsNavigationAttribute。具体请参考HdsNavigation的导入模块说明。
@@ -2284,13 +2224,7 @@ PhonePC/2in1TabletTV
 
 该示例主要展示HdsNavigation在双栏模式下，右侧显示默认占位页。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 从6.0.2(22)版本开始，无需手动导入HdsNavigationAttribute。具体请参考HdsNavigation的导入模块说明。
@@ -2359,13 +2293,7 @@ PhonePC/2in1TabletTV
 
 该示例主要展示HdsNavigation配置沉浸式模糊和材质的各类型效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 从6.0.2(22)版本开始，无需手动导入HdsNavigationAttribute。具体请参考HdsNavigation的导入模块说明。

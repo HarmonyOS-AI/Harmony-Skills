@@ -8,13 +8,7 @@ wantConstant模块提供want中操作want常数和解释Flags说明的能力。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wantConstant from '@ohos.ability.wantConstant';

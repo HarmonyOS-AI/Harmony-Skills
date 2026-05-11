@@ -10,13 +10,7 @@ TimeGuardExtensionAbility是屏幕时间守护扩展Ability，提供extension回
 
 PhoneTablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TimeGuardExtensionAbility } from '@kit.ScreenTimeGuardKit';
@@ -70,13 +64,7 @@ onStart(strategyName: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TimeGuardExtensionAbility } from '@kit.ScreenTimeGuardKit';
@@ -121,13 +109,7 @@ onStop(strategyName: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TimeGuardExtensionAbility } from '@kit.ScreenTimeGuardKit';
@@ -164,13 +146,7 @@ onUserAuthSwitchOn(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TimeGuardExtensionAbility } from '@kit.ScreenTimeGuardKit';
@@ -207,13 +183,7 @@ onUserAuthSwitchOff(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TimeGuardExtensionAbility } from '@kit.ScreenTimeGuardKit';

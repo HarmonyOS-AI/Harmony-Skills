@@ -7,13 +7,7 @@
 
 ## 导入模块
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -34,13 +28,7 @@
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -108,13 +96,7 @@ startTemplate(): Promise<OperResult>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -163,13 +145,7 @@ onQueryMainTabs(callback: QueryMainTabsEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -242,13 +218,7 @@ offQueryMainTabs(callback?: QueryMainTabsEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -297,13 +267,7 @@ onQueryMediaTabContent(callback: QueryMediaTabContentEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -410,13 +374,7 @@ offQueryMediaTabContent(callback?: QueryMediaTabContentEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -465,13 +423,7 @@ onQueryMediaEntity(callback: QueryMediaEntityEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -564,13 +516,7 @@ offQueryMediaEntity(callback?: QueryMediaEntityEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -619,13 +565,7 @@ onQueryCompilation(callback: QueryCompilationEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -718,13 +658,7 @@ offQueryCompilation(callback?: QueryCompilationEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -773,13 +707,7 @@ onQueryPlaylist(callback: QueryPlaylistEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -872,13 +800,7 @@ offQueryPlaylist(callback?: QueryPlaylistEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -927,13 +849,7 @@ onQueryCurrentSingle(callback: QueryCurrentSingleEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -1037,13 +953,7 @@ offQueryCurrentSingle(callback?: QueryCurrentSingleEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -1092,13 +1002,7 @@ onQueryCompilationByKeyword(callback: QueryCompilationByKeywordEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -1191,13 +1095,7 @@ offQueryCompilationByKeyword(callback?: QueryCompilationByKeywordEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -1246,13 +1144,7 @@ onQueryMediaEntityByKeyword(callback: QueryMediaEntityByKeywordEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -1345,13 +1237,7 @@ offQueryMediaEntityByKeyword(callback?: QueryMediaEntityByKeywordEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -1400,13 +1286,7 @@ onQueryRecommendMediaEntityList(callback: QueryRecommendMediaEntityListEvent): v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -1480,13 +1360,7 @@ offQueryRecommendMediaEntityList(callback?: QueryRecommendMediaEntityListEvent):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -1535,13 +1409,7 @@ onQueryHotWords(callback: QueryHotWordsEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -1596,13 +1464,7 @@ offQueryHotWords(callback?: QueryHotWordsEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -1651,13 +1513,7 @@ onQuerySearchHistory(callback: QuerySearchHistoryEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -1712,13 +1568,7 @@ offQuerySearchHistory(callback?: QuerySearchHistoryEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -1767,13 +1617,7 @@ onClearSearchHistory(callback: ClearSearchHistoryEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -1840,13 +1684,7 @@ offClearSearchHistory(callback?: ClearSearchHistoryEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -1895,13 +1733,7 @@ onLogin(callback: LoginEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -1975,13 +1807,7 @@ offLogin(callback?: LoginEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -2030,13 +1856,7 @@ onRequestDialogInfo(callback: RequestDialogInfoEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -2116,13 +1936,7 @@ offRequestDialogInfo(callback?: RequestDialogInfoEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -2171,13 +1985,7 @@ onHandleMemberPurchase(callback: HandleMemberPurchaseEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -2257,13 +2065,7 @@ offHandleMemberPurchase(callback?: HandleMemberPurchaseEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -2312,13 +2114,7 @@ onQueryMemberPurchase(callback: QueryMemberPurchaseEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -2390,13 +2186,7 @@ offQueryMemberPurchase(callback?: QueryMemberPurchaseEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -2445,13 +2235,7 @@ onQueryCustomContent(callback: QueryCustomContentEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -2539,13 +2323,7 @@ offQueryCustomContent(callback?: QueryCustomContentEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -2594,13 +2372,7 @@ onDownloadMediaEntity(callback: DownloadMediaEntityEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -2691,13 +2463,7 @@ offDownloadMediaEntity(callback?: DownloadMediaEntityEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -2746,13 +2512,7 @@ onSettingsChange(callback: SettingsChangeEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -2825,13 +2585,7 @@ offSettingsChange(callback?: SettingsChangeEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -2880,13 +2634,7 @@ onProblemAndAdvice(callback: ProblemAndAdviceEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -2953,13 +2701,7 @@ offProblemAndAdvice(callback?: ProblemAndAdviceEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -3008,13 +2750,7 @@ onPlayForSearch(callback: PlayForSearchEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -3082,13 +2818,7 @@ offPlayForSearch(callback?: PlayForSearchEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -3137,13 +2867,7 @@ onExecuteAction(callback: ExecuteActionEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -3198,13 +2922,7 @@ offExecuteAction(callback?: ExecuteActionEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -3253,13 +2971,7 @@ onPlayMediaEntity(callback: PlayMediaEntityEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -3312,13 +3024,7 @@ offPlayMediaEntity(callback?: PlayMediaEntityEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -3367,13 +3073,7 @@ onFavoriteMediaEntity(callback: FavoriteMediaEntityEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -3441,13 +3141,7 @@ offFavoriteMediaEntity(callback?: FavoriteMediaEntityEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -3504,13 +3198,7 @@ setUserInfo(userInfo: UserInfo): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -3587,13 +3275,7 @@ setDialogCommand(type: DialogControlType, dialogInfo: DialogInfo): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -3665,13 +3347,7 @@ setCurrentSingle(single: Single): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -3775,13 +3451,7 @@ setMediaEntities(entities: MediaEntity[]): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -3848,13 +3518,7 @@ setTabContent(tabId: string, tabContent: MediaTabContent): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -3935,13 +3599,7 @@ setPlaylist(playlist: PageMediaEntity): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -4017,13 +3675,7 @@ setDownloadMediaEntityStatus(single: MediaEntity): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -4092,13 +3744,7 @@ setCustomElements(actionType: ActionType, customType: CustomType, customElement:
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -4179,13 +3825,7 @@ setSettings(settingItems: SettingItem[]): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -4251,13 +3891,7 @@ reportExecuteAction(actionType: string, params: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -4316,13 +3950,7 @@ setExtensionAbility(want: WantAgent): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';
@@ -4387,13 +4015,7 @@ destroy(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avMusicTemplate } from '@kit.AVSessionKit';

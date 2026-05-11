@@ -18,13 +18,7 @@ PushExtensionAbility为推送扩展Ability，提供获取场景化消息数据�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PushExtensionAbility } from '@kit.PushKit';
@@ -74,13 +68,7 @@ onReceiveMessage(payload: pushCommon.PushPayload): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PushExtensionAbility, pushCommon } from '@kit.PushKit';
@@ -113,13 +101,7 @@ onDestroy(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PushExtensionAbility } from '@kit.PushKit';

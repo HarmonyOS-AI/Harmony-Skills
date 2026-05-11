@@ -8,13 +8,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { speechRecognizer } from '@kit.CoreSpeechKit';
@@ -56,13 +50,7 @@ createEngine(createEngineParams: CreateEngineParams, callback: AsyncCallback<Spe
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -145,13 +133,7 @@ createEngine(createEngineParams: CreateEngineParams): Promise<SpeechRecognitionE
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -231,13 +213,7 @@ listLanguages(params: LanguageQuery, callback: AsyncCallback<Array<string>>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -313,13 +289,7 @@ listLanguages(params: LanguageQuery): Promise<Array<string>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -372,13 +342,7 @@ setListener(listener: RecognitionListener): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { speechRecognizer } from '@kit.CoreSpeechKit';
@@ -456,13 +420,7 @@ startListening(params: StartParams): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { speechRecognizer } from '@kit.CoreSpeechKit';
@@ -526,13 +484,7 @@ writeAudio(sessionId: string, audio: Uint8Array): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { speechRecognizer } from '@kit.CoreSpeechKit';
@@ -591,13 +543,7 @@ finish(sessionId: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { speechRecognizer } from '@kit.CoreSpeechKit';
@@ -673,13 +619,7 @@ cancel(sessionId: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { speechRecognizer } from '@kit.CoreSpeechKit';
@@ -753,13 +693,7 @@ isBusy(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { speechRecognizer } from '@kit.CoreSpeechKit';
@@ -816,13 +750,7 @@ shutdown(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { speechRecognizer } from '@kit.CoreSpeechKit';
@@ -897,13 +825,7 @@ onStart(sessionId: string, eventMessage: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { speechRecognizer } from '@kit.CoreSpeechKit';
@@ -971,13 +893,7 @@ onEvent(sessionId: string, eventCode: number, eventMessage: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { speechRecognizer } from '@kit.CoreSpeechKit';
@@ -1044,13 +960,7 @@ onResult(sessionId: string, result: SpeechRecognitionResult): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { speechRecognizer } from '@kit.CoreSpeechKit';
@@ -1117,13 +1027,7 @@ onComplete(sessionId: string, eventMessage: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { speechRecognizer } from '@kit.CoreSpeechKit';
@@ -1191,13 +1095,7 @@ onError(sessionId: string, errorCode: number, errorMessage: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { speechRecognizer } from '@kit.CoreSpeechKit';
@@ -1296,13 +1194,7 @@ PhonePC/2in1Tablet
 
 示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { speechRecognizer } from '@kit.CoreSpeechKit';

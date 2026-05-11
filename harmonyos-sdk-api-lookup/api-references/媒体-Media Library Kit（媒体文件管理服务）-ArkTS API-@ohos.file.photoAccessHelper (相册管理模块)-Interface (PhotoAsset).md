@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { photoAccessHelper } from '@kit.MediaLibraryKit';
@@ -77,13 +71,7 @@ get(member: string): MemberType
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -142,13 +130,7 @@ set(member: string, value: string): void
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -213,13 +195,7 @@ commitModify(callback: AsyncCallback<void>): void
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -292,13 +268,7 @@ commitModify(): Promise<void>
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -369,13 +339,7 @@ close(fd: number, callback: AsyncCallback<void>): void
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -451,13 +415,7 @@ close(fd: number): Promise<void>
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -523,13 +481,7 @@ getThumbnail(callback: AsyncCallback<image.PixelMap>): void
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -596,13 +548,7 @@ getThumbnail(size: image.Size, callback: AsyncCallback<image.PixelMap>): void
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -682,13 +628,7 @@ getThumbnail(size?: image.Size): Promise<image.PixelMap>
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -758,13 +698,7 @@ clone(title: string): Promise<PhotoAsset>
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -833,13 +767,7 @@ getReadOnlyFd(callback: AsyncCallback<number>): void
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -910,13 +838,7 @@ getReadOnlyFd(): Promise<number>
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';

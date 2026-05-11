@@ -190,13 +190,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[BadgeParamWithNumber](/consumer/cn/doc/harmonyos-references/ts-container-badge#badgeparamwithnumber对象说明)的入参value、[BadgeParamWithString](/consumer/cn/doc/harmonyos-references/ts-container-badge#badgeparamwithstring对象说明)的入参count，实现了传入空值、字符、数字时标记组件展现不同的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -357,13 +351,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过count属性，实现了设置数字0和1时标记组件的隐藏和显示效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 该示例实现了Badge组件显隐时缩放
@@ -403,13 +391,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 22开始，该示例使用outerBorderColor和outerBorderWidth属性设置外描边，通过enableAutoAvoidance属性控制增加角标文本延伸显示时是否避让。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 该示例实现了Badge组件自定义外描边和文本延伸方向

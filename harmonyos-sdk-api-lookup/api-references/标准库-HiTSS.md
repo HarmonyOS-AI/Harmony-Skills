@@ -22,13 +22,7 @@ HiTSS是基于TPM（Trusted Platform Module）2.0规范开发的组件，它提�
 1. 开发应用时，在访问命令传输接口或系统级接口前，需要申请权限：ohos.permission.CALL\_TPM\_CMD，申请方式请参考：[申请使用受限权限](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/declare-permissions-in-acl)。
 2. 如果开发者需要使用HiTSS相关能力，首先请添加头文件。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. #include <tss2/tss2_common.h>
@@ -40,13 +34,7 @@ HiTSS是基于TPM（Trusted Platform Module）2.0规范开发的组件，它提�
    ```
 3. 其次在CMakeLists.txt中添加以下动态链接库。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. libtss2-mu.so
@@ -56,13 +44,7 @@ HiTSS是基于TPM（Trusted Platform Module）2.0规范开发的组件，它提�
 
 ## 使用示例
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <stdio.h>
@@ -246,13 +228,7 @@ TCTI接口内存错误。
 
 以下类型和结构体与TCG TSS标准规范存在差异，HiTSS在标准规范基础上进行了能力扩充和错误修复。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // HiTSS新增宏定义

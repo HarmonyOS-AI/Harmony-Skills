@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { appAccount } from '@kit.BasicServicesKit';
@@ -40,13 +34,7 @@ createAppAccountManager(): AppAccountManager
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let appAccountManager: appAccount.AppAccountManager = appAccount.createAppAccountManager();
@@ -93,13 +81,7 @@ createAccount(name: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -154,13 +136,7 @@ createAccount(name: string, options: CreateAccountOptions, callback: AsyncCallba
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -227,13 +203,7 @@ createAccount(name: string, options?: CreateAccountOptions): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -292,13 +262,7 @@ createAccountImplicitly(owner: string, callback: AuthCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -381,13 +345,7 @@ createAccountImplicitly(owner: string, options: CreateAccountImplicitlyOptions, 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -470,13 +428,7 @@ removeAccount(name: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -536,13 +488,7 @@ removeAccount(name: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -596,13 +542,7 @@ setAppAccess(name: string, bundleName: string, isAccessible: boolean, callback: 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -665,13 +605,7 @@ setAppAccess(name: string, bundleName: string, isAccessible: boolean): Promise<v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -723,13 +657,7 @@ checkAppAccess(name: string, bundleName: string, callback: AsyncCallback<boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -791,13 +719,7 @@ checkAppAccess(name: string, bundleName: string): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -852,13 +774,7 @@ setDataSyncEnabled(name: string, isEnabled: boolean, callback: AsyncCallback<voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -918,13 +834,7 @@ setDataSyncEnabled(name: string, isEnabled: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -978,13 +888,7 @@ checkDataSyncEnabled(name: string, callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1047,13 +951,7 @@ checkDataSyncEnabled(name: string): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1106,13 +1004,7 @@ setCredential(name: string, credentialType: string, credential: string,callback:
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1174,13 +1066,7 @@ setCredential(name: string, credentialType: string, credential: string): Promise
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1233,13 +1119,7 @@ getCredential(name: string, credentialType: string, callback: AsyncCallback<stri
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1301,13 +1181,7 @@ getCredential(name: string, credentialType: string): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1361,13 +1235,7 @@ setCustomData(name: string, key: string, value: string, callback: AsyncCallback<
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1430,13 +1298,7 @@ setCustomData(name: string, key: string, value: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1489,13 +1351,7 @@ getCustomData(name: string, key: string, callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1557,13 +1413,7 @@ getCustomData(name: string, key: string): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1623,13 +1473,7 @@ getCustomDataSync(name: string, key: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1674,13 +1518,7 @@ getAllAccounts(callback: AsyncCallback<Array<AppAccountInfo>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1729,13 +1567,7 @@ getAllAccounts(): Promise<Array<AppAccountInfo>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1785,13 +1617,7 @@ getAccountsByOwner(owner: string, callback: AsyncCallback<Array<AppAccountInfo>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1851,13 +1677,7 @@ getAccountsByOwner(owner: string): Promise<Array<AppAccountInfo>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1909,13 +1729,7 @@ on(type: 'accountChange', owners: Array<string>, callback: Callback<Array<AppAcc
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1965,13 +1779,7 @@ off(type: 'accountChange', callback?: Callback<Array<AppAccountInfo>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2033,13 +1841,7 @@ auth(name: string, owner: string, authType: string, callback: AuthCallback): voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2125,13 +1927,7 @@ auth(name: string, owner: string, authType: string, options: Record<string, Obje
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2217,13 +2013,7 @@ getAuthToken(name: string, owner: string, authType: string, callback: AsyncCallb
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2287,13 +2077,7 @@ getAuthToken(name: string, owner: string, authType: string): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2347,13 +2131,7 @@ setAuthToken(name: string, authType: string, token: string, callback: AsyncCallb
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2416,13 +2194,7 @@ setAuthToken(name: string, authType: string, token: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2477,13 +2249,7 @@ deleteAuthToken(name: string, owner: string, authType: string, token: string, ca
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2548,13 +2314,7 @@ deleteAuthToken(name: string, owner: string, authType: string, token: string): P
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2610,13 +2370,7 @@ setAuthTokenVisibility(name: string, authType: string, bundleName: string, isVis
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2682,13 +2436,7 @@ setAuthTokenVisibility(name: string, authType: string, bundleName: string, isVis
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2742,13 +2490,7 @@ checkAuthTokenVisibility(name: string, authType: string, bundleName: string, cal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2812,13 +2554,7 @@ checkAuthTokenVisibility(name: string, authType: string, bundleName: string): Pr
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2871,13 +2607,7 @@ getAllAuthTokens(name: string, owner: string, callback: AsyncCallback<Array<Auth
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2939,13 +2669,7 @@ getAllAuthTokens(name: string, owner: string): Promise<Array<AuthTokenInfo>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2999,13 +2723,7 @@ getAuthList(name: string, authType: string, callback: AsyncCallback<Array<string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3067,13 +2785,7 @@ getAuthList(name: string, authType: string): Promise<Array<string>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3124,13 +2836,7 @@ getAuthCallback(sessionId: string, callback: AsyncCallback<AuthCallback>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3206,13 +2912,7 @@ getAuthCallback(sessionId: string): Promise<AuthCallback>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3279,13 +2979,7 @@ queryAuthenticatorInfo(owner: string, callback: AsyncCallback<AuthenticatorInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3346,13 +3040,7 @@ queryAuthenticatorInfo(owner: string): Promise<AuthenticatorInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3409,13 +3097,7 @@ checkAccountLabels(name: string, owner: string, labels: Array<string>, callback:
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3482,13 +3164,7 @@ checkAccountLabels(name: string, owner: string, labels: Array<string>): Promise<
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3543,13 +3219,7 @@ deleteCredential(name: string, credentialType: string, callback: AsyncCallback<v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3611,13 +3281,7 @@ deleteCredential(name: string, credentialType: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3669,13 +3333,7 @@ selectAccountsByOptions(options: SelectAccountsOptions, callback: AsyncCallback<
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3741,13 +3399,7 @@ selectAccountsByOptions(options: SelectAccountsOptions): Promise<Array<AppAccoun
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3805,13 +3457,7 @@ verifyCredential(name: string, owner: string, callback: AuthCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -3872,13 +3518,7 @@ verifyCredential(name: string, owner: string, options: VerifyCredentialOptions, 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -3940,13 +3580,7 @@ setAuthenticatorProperties(owner: string, callback: AuthCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -4005,13 +3639,7 @@ setAuthenticatorProperties(owner: string, options: SetPropertiesOptions, callbac
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -4061,13 +3689,7 @@ addAccount(name: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4103,13 +3725,7 @@ addAccount(name: string, extraInfo: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4152,13 +3768,7 @@ addAccount(name: string, extraInfo?: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4197,13 +3807,7 @@ addAccountImplicitly(owner: string, authType: string, options: {[key: string]: a
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4269,13 +3873,7 @@ deleteAccount(name: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4317,13 +3915,7 @@ deleteAccount(name: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4361,13 +3953,7 @@ disableAppAccess(name: string, bundleName: string, callback: AsyncCallback<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4410,13 +3996,7 @@ disableAppAccess(name: string, bundleName: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4454,13 +4034,7 @@ enableAppAccess(name: string, bundleName: string, callback: AsyncCallback<void>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4507,13 +4081,7 @@ enableAppAccess(name: string, bundleName: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4552,13 +4120,7 @@ checkAppAccountSyncEnable(name: string, callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4606,13 +4168,7 @@ checkAppAccountSyncEnable(name: string): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4651,13 +4207,7 @@ setAccountCredential(name: string, credentialType: string, credential: string,ca
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4705,13 +4255,7 @@ setAccountCredential(name: string, credentialType: string, credential: string): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4749,13 +4293,7 @@ setAccountExtraInfo(name: string, extraInfo: string, callback: AsyncCallback<voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4802,13 +4340,7 @@ setAccountExtraInfo(name: string, extraInfo: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4848,13 +4380,7 @@ setAppAccountSyncEnable(name: string, isEnable: boolean, callback: AsyncCallback
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4903,13 +4429,7 @@ setAppAccountSyncEnable(name: string, isEnable: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4948,13 +4468,7 @@ setAssociatedData(name: string, key: string, value: string, callback: AsyncCallb
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5002,13 +4516,7 @@ setAssociatedData(name: string, key: string, value: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5046,13 +4554,7 @@ getAllAccessibleAccounts(callback: AsyncCallback<Array<AppAccountInfo>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5092,13 +4594,7 @@ getAllAccessibleAccounts(): Promise<Array<AppAccountInfo>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5137,13 +4633,7 @@ getAllAccounts(owner: string, callback: AsyncCallback<Array<AppAccountInfo>>): v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5192,13 +4682,7 @@ getAllAccounts(owner: string): Promise<Array<AppAccountInfo>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5237,13 +4721,7 @@ getAccountCredential(name: string, credentialType: string, callback: AsyncCallba
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5290,13 +4768,7 @@ getAccountCredential(name: string, credentialType: string): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5333,13 +4805,7 @@ getAccountExtraInfo(name: string, callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5385,13 +4851,7 @@ getAccountExtraInfo(name: string): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5429,13 +4889,7 @@ getAssociatedData(name: string, key: string, callback: AsyncCallback<string>): v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5482,13 +4936,7 @@ getAssociatedData(name: string, key: string): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5526,13 +4974,7 @@ on(type: 'change', owners: Array<string>, callback: Callback<Array<AppAccountInf
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5574,13 +5016,7 @@ off(type: 'change', callback?: Callback<Array<AppAccountInfo>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5628,13 +5064,7 @@ authenticate(name: string, owner: string, authType: string, options: {[key: stri
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5702,13 +5132,7 @@ getOAuthToken(name: string, owner: string, authType: string, callback: AsyncCall
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5757,13 +5181,7 @@ getOAuthToken(name: string, owner: string, authType: string): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5802,13 +5220,7 @@ setOAuthToken(name: string, authType: string, token: string, callback: AsyncCall
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5856,13 +5268,7 @@ setOAuthToken(name: string, authType: string, token: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5902,13 +5308,7 @@ deleteOAuthToken(name: string, owner: string, authType: string, token: string, c
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5958,13 +5358,7 @@ deleteOAuthToken(name: string, owner: string, authType: string, token: string): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6004,13 +5398,7 @@ setOAuthTokenVisibility(name: string, authType: string, bundleName: string, isVi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6060,13 +5448,7 @@ setOAuthTokenVisibility(name: string, authType: string, bundleName: string, isVi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6105,13 +5487,7 @@ checkOAuthTokenVisibility(name: string, authType: string, bundleName: string, ca
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6160,13 +5536,7 @@ checkOAuthTokenVisibility(name: string, authType: string, bundleName: string): P
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6205,13 +5575,7 @@ getAllOAuthTokens(name: string, owner: string, callback: AsyncCallback<Array<OAu
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6259,13 +5623,7 @@ getAllOAuthTokens(name: string, owner: string): Promise<Array<OAuthTokenInfo>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6304,13 +5662,7 @@ getOAuthList(name: string, authType: string, callback: AsyncCallback<Array<strin
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6357,13 +5709,7 @@ getOAuthList(name: string, authType: string): Promise<Array<string>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6400,13 +5746,7 @@ getAuthenticatorCallback(sessionId: string, callback: AsyncCallback<Authenticato
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6464,13 +5804,7 @@ getAuthenticatorCallback(sessionId: string): Promise<AuthenticatorCallback>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6519,13 +5853,7 @@ getAuthenticatorInfo(owner: string, callback: AsyncCallback<AuthenticatorInfo>):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6572,13 +5900,7 @@ getAuthenticatorInfo(owner: string): Promise<AuthenticatorInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6842,13 +6164,7 @@ onResult: (code: number, result?: AuthResult) => void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6892,13 +6208,7 @@ onRequestRedirected: (request: Want) => void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -6942,13 +6252,7 @@ onRequestContinued?: () => void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6999,13 +6303,7 @@ onResult: (code: number, result: {[key: string]: any;}) => void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -7048,13 +6346,7 @@ onRequestRedirected: (request: Want) => void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -7295,13 +6587,7 @@ getRemoteObject(): rpc.RemoteObject
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rpc } from '@kit.IPCKit';

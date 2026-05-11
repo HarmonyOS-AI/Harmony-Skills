@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { media } from '@kit.MediaKit';
@@ -56,13 +50,7 @@ prepare(config: AudioRecorderConfig): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let audioRecorderConfig: media.AudioRecorderConfig = {
@@ -96,13 +84,7 @@ start(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioRecorder.on('start', () => {    // 设置'start'事件回调。
@@ -127,13 +109,7 @@ pause():void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioRecorder.on('pause', () => {    // 设置'pause'事件回调。
@@ -158,13 +134,7 @@ resume():void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioRecorder.on('resume', () => {    // 设置'resume'事件回调。
@@ -189,13 +159,7 @@ stop(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioRecorder.on('stop', () => {    // 设置'stop'事件回调。
@@ -220,13 +184,7 @@ release(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioRecorder.on('release', () => {    // 设置'release'事件回调。
@@ -254,13 +212,7 @@ reset(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioRecorder.on('reset', () => {    // 设置'reset'事件回调。
@@ -294,13 +246,7 @@ on(type: 'prepare' | 'start' | 'pause' | 'resume' | 'stop' | 'release' | 'reset'
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -368,13 +314,7 @@ on(type: 'error', callback: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

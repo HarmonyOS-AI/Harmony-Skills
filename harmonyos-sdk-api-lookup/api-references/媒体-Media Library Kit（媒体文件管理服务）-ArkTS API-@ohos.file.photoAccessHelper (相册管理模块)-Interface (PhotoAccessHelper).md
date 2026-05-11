@@ -6,13 +6,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { photoAccessHelper } from '@kit.MediaLibraryKit';
@@ -60,13 +54,7 @@ getAssets(options: FetchOptions, callback: AsyncCallback<FetchResult<PhotoAsset>
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -143,13 +131,7 @@ getAssets(options: FetchOptions): Promise<FetchResult<PhotoAsset>>
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -222,13 +204,7 @@ getBurstAssets(burstKey: string, options: FetchOptions): Promise<FetchResult<Pho
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -304,13 +280,7 @@ createAsset(photoType: PhotoType, extension: string, options: CreateOptions, cal
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function example(phAccessHelper: photoAccessHelper.PhotoAccessHelper) {
@@ -376,13 +346,7 @@ createAsset(photoType: PhotoType, extension: string, callback: AsyncCallback<str
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function example(phAccessHelper: photoAccessHelper.PhotoAccessHelper) {
@@ -453,13 +417,7 @@ createAsset(photoType: PhotoType, extension: string, options?: CreateOptions): P
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function example(phAccessHelper: photoAccessHelper.PhotoAccessHelper) {
@@ -531,13 +489,7 @@ createPhotoAsset(photoType: PhotoType, extension: string, title?: string): Promi
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function example(phAccessHelper: photoAccessHelper.PhotoAccessHelper) {
@@ -599,13 +551,7 @@ getAlbums(type: AlbumType, subtype: AlbumSubtype, options: FetchOptions, callbac
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -678,13 +624,7 @@ getAlbums(type: AlbumType, subtype: AlbumSubtype, callback: AsyncCallback<FetchR
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function example(phAccessHelper: photoAccessHelper.PhotoAccessHelper) {
@@ -757,13 +697,7 @@ getAlbums(type: AlbumType, subtype: AlbumSubtype, options?: FetchOptions): Promi
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -830,13 +764,7 @@ registerChange(uri: string, forChildUris: boolean, callback: Callback<ChangeData
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -907,13 +835,7 @@ unRegisterChange(uri: string, callback?: Callback<ChangeData>): void
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -1030,13 +952,7 @@ release(callback: AsyncCallback<void>): void
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function example(phAccessHelper: photoAccessHelper.PhotoAccessHelper) {
@@ -1087,13 +1003,7 @@ release(): Promise<void>
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function example(phAccessHelper: photoAccessHelper.PhotoAccessHelper) {
@@ -1157,13 +1067,7 @@ showAssetsCreationDialog(srcFileUris: Array<string>, photoCreationConfigs: Array
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -1243,13 +1147,7 @@ showAssetsCreationDialogEx(srcFileUris: Array<string>, creationSettings: Array<C
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -1329,13 +1227,7 @@ showSingleAssetCreationDialogEx(srcFileUri: string, creationSetting: CreationSet
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -1406,13 +1298,7 @@ createAssetWithShortTermPermission(photoCreationConfig: PhotoCreationConfig): Pr
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileIo } from '@kit.CoreFileKit';
@@ -1541,13 +1427,7 @@ requestPhotoUrisReadPermission(srcFileUris: Array<string>): Promise<Array<string
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -1614,13 +1494,7 @@ requestPhotoUrisReadPermissionEx(srcFileUris: Array<string>): Promise<RequestRea
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -1683,13 +1557,7 @@ getSupportedPhotoFormats(photoType: PhotoType): Promise<Array<string>>
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function example(phAccessHelper: photoAccessHelper.PhotoAccessHelper, photoTypeNumber: number){
@@ -1755,13 +1623,7 @@ on(type: 'photoChange', callback: Callback<PhotoAssetChangeInfos>): void
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData'
@@ -1826,13 +1688,7 @@ off(type: 'photoChange', callback?: Callback<PhotoAssetChangeInfos>): void
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData'
@@ -1900,13 +1756,7 @@ on(type: 'photoAlbumChange', callback: Callback<AlbumChangeInfos>): void
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData'
@@ -1971,13 +1821,7 @@ off(type: 'photoAlbumChange', callback?: Callback<AlbumChangeInfos>): void
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData'
@@ -2040,13 +1884,7 @@ getPhotoPickerComponentDefaultAlbumName(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2108,13 +1946,7 @@ createDeleteRequest(uriList: Array<string>, callback: AsyncCallback<void>): void
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -2197,13 +2029,7 @@ createDeleteRequest(uriList: Array<string>): Promise<void>
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -2260,13 +2086,7 @@ getRecentPhotoInfo(options?: RecentPhotoOptions): Promise<RecentPhotoInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2334,13 +2154,7 @@ getAlbumIdByLpath(lpath: string): Promise<number>
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function example(phAccessHelper: photoAccessHelper.PhotoAccessHelper) {
@@ -2395,13 +2209,7 @@ onSinglePhotoChange(asset: PhotoAsset, callback: Callback<PhotoAssetChangeInfos>
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData'
@@ -2483,13 +2291,7 @@ offSinglePhotoChange(asset?: PhotoAsset, callback?: Callback<PhotoAssetChangeInf
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData'
@@ -2580,13 +2382,7 @@ onSinglePhotoAlbumChange(album: Album, callback: Callback<AlbumChangeInfos>): vo
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData'
@@ -2666,13 +2462,7 @@ offSinglePhotoAlbumChange(album?: Album, callback?: Callback<AlbumChangeInfos>):
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData'
@@ -2767,13 +2557,7 @@ setAssetCompatibleCapability(capability: AssetCompatibleCapability): Promise<voi
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function example(phAccessHelper: photoAccessHelper.PhotoAccessHelper) {

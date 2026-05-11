@@ -8,13 +8,7 @@ AbilityManager模块提供获取Ability相关信息和运行状态信息的能�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityManager } from '@kit.AbilityKit';
@@ -75,13 +69,7 @@ getAbilityRunningInfos(): Promise<Array<AbilityRunningInfo>>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityManager } from '@kit.AbilityKit';
@@ -145,13 +133,7 @@ restartSelfAtomicService(context: Context): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, EmbeddableUIAbility, Want, abilityManager } from '@kit.AbilityKit';

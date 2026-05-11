@@ -9,13 +9,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { inputConsumer, KeyEvent } from '@kit.InputKit';
@@ -87,13 +81,7 @@ getAllSystemHotkeys(): Promise<Array<HotkeyOptions>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { inputConsumer } from '@kit.InputKit';
@@ -154,13 +142,7 @@ on(type: 'hotkeyChange', hotkeyOptions: HotkeyOptions, callback: Callback<Hotkey
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { inputConsumer } from '@kit.InputKit';
@@ -228,13 +210,7 @@ off(type: 'hotkeyChange', hotkeyOptions: HotkeyOptions, callback?: Callback<Hotk
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { inputConsumer } from '@kit.InputKit';
@@ -266,13 +242,7 @@ off(type: 'hotkeyChange', hotkeyOptions: HotkeyOptions, callback?: Callback<Hotk
 27. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { inputConsumer } from '@kit.InputKit';
@@ -341,13 +311,7 @@ on(type: 'keyPressed', options: KeyPressedConfig, callback: Callback<KeyEvent>):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { inputConsumer, KeyEvent } from '@kit.InputKit';
@@ -411,13 +375,7 @@ off(type: 'keyPressed', callback?: Callback<KeyEvent>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { inputConsumer, KeyEvent } from '@kit.InputKit';

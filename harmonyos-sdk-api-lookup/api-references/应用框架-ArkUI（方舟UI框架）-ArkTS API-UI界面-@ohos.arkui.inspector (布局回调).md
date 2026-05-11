@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { inspector } from '@kit.ArkUI';
@@ -55,13 +49,7 @@ createComponentObserver(id: string): ComponentObserver
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let listener:inspector.ComponentObserver = inspector.createComponentObserver('COMPONENT_ID'); // 监听id为COMPONENT_ID的组件回调事件
@@ -251,13 +239,7 @@ offLayoutChildren(callback?: Callback<void>): void
 
 以下示例展示了inspector注册组件布局和组件绘制送显完成回调通知能力的基本用法。同时，通过[onLayoutChildren23+](/consumer/cn/doc/harmonyos-references/js-apis-arkui-inspector#onlayoutchildren23)接口监听子树中的节点完成布局时的回调事件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { inspector } from '@kit.ArkUI';
@@ -352,13 +334,7 @@ onDrawChildren(callback: Callback<number[]>): void
 
 以下示例展示了inspector注册组件布局和组件绘制送显完成回调通知能力的基本用法。监听子树内节点完成渲染后，通过[onDrawChildren24+](/consumer/cn/doc/harmonyos-references/js-apis-arkui-inspector#ondrawchildren24)接口，回调返回该节点的uniqueId信息。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { inspector } from '@kit.ArkUI';
@@ -420,13 +396,7 @@ offDrawChildren(callback?: Callback<number[]>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { inspector } from '@kit.ArkUI';

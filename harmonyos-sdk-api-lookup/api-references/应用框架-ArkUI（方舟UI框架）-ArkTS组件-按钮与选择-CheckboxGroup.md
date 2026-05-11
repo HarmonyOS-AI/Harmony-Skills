@@ -441,13 +441,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例用于控制多选框全选或者不全选状态。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -512,13 +506,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置mark实现自定义多选框群组的勾选样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -599,13 +587,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 21开始，该示例通过[contentModifier](/consumer/cn/doc/harmonyos-references/ts-basic-components-checkboxgroup#contentmodifier21)属性实现了自定义复选框群组样式的功能。自定义样式实现了一个五边形复选框群组，如果全部选中，内部会出现红色三角图案，标题会显示全选字样；如果部分选中，三角图案显示蓝色，标题会显示部分选中字样；如果未选中，三角图案消失，标题会显示未选中。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -727,13 +709,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例实现了在结合带缓存功能的组件使用时(如List)，未被创建的Checkbox全选的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class BasicDataSource implements IDataSource {

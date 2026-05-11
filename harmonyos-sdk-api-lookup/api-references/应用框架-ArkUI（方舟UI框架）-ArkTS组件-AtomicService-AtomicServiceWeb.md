@@ -15,13 +15,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AtomicServiceWeb } from '@kit.ArkUI';
@@ -43,13 +37,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AtomicServiceWeb({
@@ -580,13 +568,7 @@ PhonePC/2in1TabletTVWearable
 
 加载本地网页。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -609,13 +591,7 @@ PhonePC/2in1TabletTVWearable
 
 加载在线网页。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -638,13 +614,7 @@ PhonePC/2in1TabletTVWearable
 
 NavDestination容器中加载网页。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -675,13 +645,7 @@ NavDestination容器中加载网页。
 
 设置onMessage()事件回调。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -707,13 +671,7 @@ NavDestination容器中加载网页。
 21. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!DOCTYPE html>
@@ -757,13 +715,7 @@ NavDestination容器中加载网页。
 
 设置网页加载事件回调。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -826,13 +778,7 @@ NavDestination容器中加载网页。
 
 AtomicServiceWeb跟AtomicServiceWebController的使用示例。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -942,13 +888,7 @@ AtomicServiceWeb跟AtomicServiceWebController的使用示例。
 
 设置嵌套滚动。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AtomicServiceWeb, AtomicServiceWebController } from '@kit.ArkUI';

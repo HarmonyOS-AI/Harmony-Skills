@@ -30,13 +30,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // arr是Array<string>类型的数组，以arr为数据源创建Repeat组件
@@ -101,13 +95,7 @@ each(itemGenerator: (repeatItem: RepeatItem<T>) => void)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // arr是Array<string>类型的数组，为每个数据创建一个Text组件
@@ -143,13 +131,7 @@ key(keyGenerator: (item: T, index: number) => string)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // arr是Array<string>类型的数组，为每个数据创建一个Text组件
@@ -185,13 +167,7 @@ Repeat开启虚拟滚动。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // arr是Array<string>类型的数组，为每个数据创建一个Text组件
@@ -231,13 +207,7 @@ template(type: string, itemBuilder: RepeatItemBuilder<T>, templateOptions?: Temp
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // arr是Array<string>类型的数组
@@ -277,13 +247,7 @@ templateId(typedFunc: TemplateTypedFunc<T>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // arr是Array<string>类型的数组
@@ -361,13 +325,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // arr是Array<string>类型的数组，在List容器组件中使用Repeat，并打开virtualScroll
@@ -439,13 +397,7 @@ onLazyLoading方法需在懒加载场景下使用。开发者可设置自定义�
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 假设数据项总数为100，首屏渲染需3项数据
@@ -503,13 +455,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // arr是Array<string>类型的数组，在List容器组件中使用Repeat，并打开virtualScroll

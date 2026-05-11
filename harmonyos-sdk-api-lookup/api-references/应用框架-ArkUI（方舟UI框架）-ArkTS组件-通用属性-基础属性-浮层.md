@@ -116,13 +116,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过传入string设置浮层。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -155,13 +149,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过传入builder设置浮层。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -199,13 +187,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过overlay传入了ComponentContent使backgroundColor不断发生变化。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

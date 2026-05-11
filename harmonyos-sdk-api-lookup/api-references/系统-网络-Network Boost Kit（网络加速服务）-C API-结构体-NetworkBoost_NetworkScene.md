@@ -35,13 +35,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NetworkBoost_PathType NetworkBoost_NetworkScene::pathType
@@ -55,13 +49,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NetworkBoost_RecommendedAction NetworkBoost_NetworkScene::recommendedAction
@@ -75,13 +63,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NetworkBoost_Scene NetworkBoost_NetworkScene::scene
@@ -95,13 +77,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NetworkBoost_WeakSignalPrediction NetworkBoost_NetworkScene::weakSignalPrediction

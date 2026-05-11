@@ -18,13 +18,7 @@ PhonePC/2in1TabletTVWearable
 
 API version 21及之前版本：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ArcListItem, ArcListItemAttribute } from '@kit.ArkUI';
@@ -32,13 +26,7 @@ API version 21及之前版本：
 
 API version 22及之后版本：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ArcListItem } from '@kit.ArkUI';
@@ -114,13 +102,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例展示了子项关闭自动缩放和开启自动缩放后的对比效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

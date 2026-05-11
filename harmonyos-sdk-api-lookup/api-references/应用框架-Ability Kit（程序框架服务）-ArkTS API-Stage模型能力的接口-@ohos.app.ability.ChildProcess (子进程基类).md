@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ChildProcess } from '@kit.AbilityKit';
@@ -42,13 +36,7 @@ onStart(args?: ChildProcessArgs): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ChildProcess, ChildProcessArgs } from '@kit.AbilityKit';

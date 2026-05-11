@@ -38,13 +38,7 @@ PC/2in1
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FileManagement_ErrCode OH_Environment_GetUserDownloadDir(char **result)
@@ -76,13 +70,7 @@ PC/2in1
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FileManagement_ErrCode OH_Environment_GetUserDesktopDir(char **result)
@@ -114,13 +102,7 @@ PC/2in1
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FileManagement_ErrCode OH_Environment_GetUserDocumentDir(char **result)

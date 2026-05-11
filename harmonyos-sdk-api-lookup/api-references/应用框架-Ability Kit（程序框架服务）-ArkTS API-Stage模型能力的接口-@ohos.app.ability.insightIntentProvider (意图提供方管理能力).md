@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { insightIntentProvider } from '@kit.AbilityKit';
@@ -70,13 +64,7 @@ sendExecuteResult(instanceId: number, result: insightIntent.ExecuteResult): Prom
 
 设置意图执行结果延迟返回示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { InsightIntentExecutor, insightIntent } from '@kit.AbilityKit';
@@ -122,13 +110,7 @@ sendExecuteResult(instanceId: number, result: insightIntent.ExecuteResult): Prom
 
 主动发送意图执行结果示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -221,13 +203,7 @@ sendIntentResult(instanceId: number, result: insightIntent.IntentResult<T>): Pro
 
 设置意图执行结果延迟返回示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { insightIntent, InsightIntentEntry, InsightIntentEntryExecutor } from '@kit.AbilityKit';
@@ -301,13 +277,7 @@ sendIntentResult(instanceId: number, result: insightIntent.IntentResult<T>): Pro
 
 主动发送意图执行结果示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

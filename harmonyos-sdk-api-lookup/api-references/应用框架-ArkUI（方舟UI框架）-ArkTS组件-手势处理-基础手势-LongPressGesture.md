@@ -156,13 +156,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过LongPressGesture实现了长按手势的识别。从API version 22开始，支持通过[LongPressGestureHandlerOptions](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-gesturehandler#longpressgesturehandleroptions)的allowableMovement属性设置识别手势的最大移动距离。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

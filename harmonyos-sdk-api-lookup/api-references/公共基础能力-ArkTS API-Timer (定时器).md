@@ -40,13 +40,7 @@ setTimeout(handler: Function | string, delay?: number, ...arguments: any[]): num
 
 **示例1**：不带参数。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. setTimeout(() => {
@@ -56,13 +50,7 @@ setTimeout(handler: Function | string, delay?: number, ...arguments: any[]): num
 
 **示例2**：带参数传递给函数(handler为function时参数与arguments参数个数一致)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function myFunction(param1: string, param2: string) {
@@ -73,13 +61,7 @@ setTimeout(handler: Function | string, delay?: number, ...arguments: any[]): num
 
 **示例3**：带参数传递给函数(handler为function时参数比arguments参数个数少)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function myFunction(a: string, b: string) {
@@ -95,13 +77,7 @@ setTimeout(handler: Function | string, delay?: number, ...arguments: any[]): num
 
 **示例4**：带参数传递给函数(handler为function时参数比arguments参数个数多)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function myFunction(a: string, b: string) {
@@ -139,13 +115,7 @@ clearTimeout(timeoutID?: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let timeoutID = setTimeout(() => {
@@ -188,13 +158,7 @@ setInterval(handler: Function | string, delay: number, ...arguments: any[]): num
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. setInterval(() => {
@@ -226,13 +190,7 @@ clearInterval(intervalID?: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let intervalID = setInterval(() => {
@@ -249,13 +207,7 @@ PhonePC/2in1TabletTVWearable
 
 如果页面正忙于其他任务，超时可能比预期晚。setTimeout的函数或代码片段在下一个时间周期执行。例如：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function foo() {

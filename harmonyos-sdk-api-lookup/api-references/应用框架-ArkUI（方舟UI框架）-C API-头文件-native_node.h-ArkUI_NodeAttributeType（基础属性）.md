@@ -1,10 +1,4 @@
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum ArkUI_NodeAttributeType
@@ -22,13 +16,7 @@
 
 ## NODE\_BACKGROUND\_COLOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_BACKGROUND_COLOR = 2
@@ -58,13 +46,7 @@
 
 ## NODE\_BACKGROUND\_IMAGE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_BACKGROUND_IMAGE = 3
@@ -98,13 +80,7 @@
 
 ## NODE\_ID
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_ID = 5
@@ -134,13 +110,7 @@
 
 ## NODE\_BACKGROUND\_IMAGE\_SIZE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_BACKGROUND_IMAGE_SIZE = 30
@@ -172,13 +142,7 @@
 
 ## NODE\_BACKGROUND\_IMAGE\_SIZE\_WITH\_STYLE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_BACKGROUND_IMAGE_SIZE_WITH_STYLE = 31
@@ -208,13 +172,7 @@
 
 ## NODE\_BACKGROUND\_IMAGE\_POSITION
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_BACKGROUND_IMAGE_POSITION = 56
@@ -250,13 +208,7 @@
 
 ## NODE\_RENDER\_GROUP
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_RENDER_GROUP = 80
@@ -286,13 +238,7 @@
 
 ## NODE\_UNIQUE\_ID
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_UNIQUE_ID = 95
@@ -308,13 +254,7 @@
 
 ## NODE\_CLICK\_DISTANCE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_CLICK_DISTANCE = 97

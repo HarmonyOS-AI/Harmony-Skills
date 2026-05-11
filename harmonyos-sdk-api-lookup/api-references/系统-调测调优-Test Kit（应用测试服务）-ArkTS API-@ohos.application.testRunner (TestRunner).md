@@ -12,13 +12,7 @@ TestRunner模块提供了框架测试的能力。包括准备单元测试环境�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TestRunner } from '@kit.TestKit';
@@ -38,13 +32,7 @@ onPrepare(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TestRunner } from '@kit.TestKit';
@@ -73,13 +61,7 @@ onRun(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TestRunner } from '@kit.TestKit';

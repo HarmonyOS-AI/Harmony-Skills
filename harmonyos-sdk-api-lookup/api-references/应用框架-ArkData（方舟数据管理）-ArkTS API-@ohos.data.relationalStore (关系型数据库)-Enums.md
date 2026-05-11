@@ -95,13 +95,7 @@ PhonePC/2in1TabletTVWearable
 
 使用ICU\_TOKENIZER分词器时，创建表的示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { relationalStore } from '@kit.ArkData'; // 导入模块
@@ -135,13 +129,7 @@ PhonePC/2in1TabletTVWearable
 
 使用CUSTOM\_TOKENIZER分词器时，创建表的示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { relationalStore } from '@kit.ArkData'; // 导入模块
@@ -175,13 +163,7 @@ PhonePC/2in1TabletTVWearable
 
 使用CUSTOM\_TOKENIZER分词器，并指定分词模式时，创建表的示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { relationalStore } from '@kit.ArkData'; // 导入模块

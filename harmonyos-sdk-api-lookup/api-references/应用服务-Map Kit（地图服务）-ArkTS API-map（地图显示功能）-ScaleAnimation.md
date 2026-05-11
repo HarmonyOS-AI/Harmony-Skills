@@ -2,13 +2,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { map } from '@kit.MapKit';
@@ -67,13 +61,7 @@ constructor(fromX: number, toX: number, fromY: number, toY: number)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let animation: map.ScaleAnimation = new map.ScaleAnimation(1, 3, 1, 3);

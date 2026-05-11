@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { videoProcessingEngine } from '@kit.ImageKit';
@@ -57,13 +51,7 @@ initializeEnvironment(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { videoProcessingEngine } from '@kit.ImageKit';
@@ -105,13 +93,7 @@ deinitializeEnvironment(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { videoProcessingEngine } from '@kit.ImageKit';
@@ -156,13 +138,7 @@ create(): ImageProcessor
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { videoProcessingEngine } from '@kit.ImageKit';
@@ -229,13 +205,7 @@ enhanceDetail(sourceImage: image.PixelMap, width: number, height: number, level?
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image, videoProcessingEngine } from '@kit.ImageKit';
@@ -293,13 +263,7 @@ enhanceDetail(sourceImage: image.PixelMap, scale: number, level?: QualityLevel):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image, videoProcessingEngine } from '@kit.ImageKit';
@@ -359,13 +323,7 @@ enhanceDetailSync(sourceImage: image.PixelMap, width: number, height: number, le
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image, videoProcessingEngine } from '@kit.ImageKit';
@@ -424,13 +382,7 @@ enhanceDetailSync(sourceImage: image.PixelMap, scale: number, level?: QualityLev
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image, videoProcessingEngine } from '@kit.ImageKit';

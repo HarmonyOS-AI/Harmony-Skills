@@ -9,13 +9,7 @@ NodeController用于实现自定义节点的创建、显示、更新等操作的
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {  NodeController  } from '@kit.ArkUI';
@@ -279,13 +273,7 @@ PhonePC/2in1TabletTVWearable
 
 通过NodeController挂载BuilderNode节点。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, BuilderNode, Size, FrameNode, UIContext } from '@kit.ArkUI';
@@ -358,13 +346,7 @@ PhonePC/2in1TabletTVWearable
 
 并通过onWillBind、onWillUnbind、onBind、onUnbind接口，实现了NodeContainer节点绑定和解绑前后的生命周期回调功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, BuilderNode, FrameNode, UIContext } from '@kit.ArkUI';

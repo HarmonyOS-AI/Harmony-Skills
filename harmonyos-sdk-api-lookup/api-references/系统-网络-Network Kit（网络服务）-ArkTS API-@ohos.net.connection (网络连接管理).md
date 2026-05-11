@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -57,13 +51,7 @@ createNetConnection(netSpecifier?: NetSpecifier, timeout?: number): NetConnectio
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -132,13 +120,7 @@ getDefaultNet(callback: AsyncCallback<NetHandle>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -196,13 +178,7 @@ getDefaultNet(): Promise<NetHandle>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -255,13 +231,7 @@ getDefaultNetSync(): NetHandle
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -304,13 +274,7 @@ setAppHttpProxy(httpProxy: HttpProxy): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -378,13 +342,7 @@ getDefaultHttpProxy(callback: AsyncCallback<HttpProxy>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -435,13 +393,7 @@ getDefaultHttpProxy(): Promise<HttpProxy>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -486,13 +438,7 @@ getAppNet(callback: AsyncCallback<NetHandle>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -538,13 +484,7 @@ getAppNet(): Promise<NetHandle>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -588,13 +528,7 @@ getAppNetSync(): NetHandle
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -629,13 +563,7 @@ setAppNet(netHandle: NetHandle, callback: AsyncCallback<void>): void
 
 如需解除App和指定网络的绑定关系，可以调用[setAppNet](/consumer/cn/doc/harmonyos-references/js-apis-net-connection#connectionsetappnet9)，并传入一个netId = 0的NetHandle对象，参考以下示例。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. connection.getDefaultNet().then((netHandle: connection.NetHandle) => {
@@ -670,13 +598,7 @@ setAppNet(netHandle: NetHandle, callback: AsyncCallback<void>): void
 
 以下示例以绑定WIFI网络为例，结合[on("netAvailable")](/consumer/cn/doc/harmonyos-references/js-apis-net-connection#onnetavailable)、[on("netLost")](/consumer/cn/doc/harmonyos-references/js-apis-net-connection#onnetlost)接口，当监听到WIFI网络可用时绑定WIFI网络，不可用时解绑，使用默认网络。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -749,13 +671,7 @@ setAppNet(netHandle: NetHandle): Promise<void>
 
 如需解除App和指定网络的绑定关系，可以调用[setAppNet](/consumer/cn/doc/harmonyos-references/js-apis-net-connection#connectionsetappnet9)，并传入一个netId = 0的NetHandle对象，参考以下示例。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. connection.getDefaultNet().then((netHandle: connection.NetHandle) => {
@@ -796,13 +712,7 @@ setAppNet(netHandle: NetHandle): Promise<void>
 
 以下示例以绑定WIFI网络为例，结合[on("netAvailable")](/consumer/cn/doc/harmonyos-references/js-apis-net-connection#onnetavailable)、[on("netLost")](/consumer/cn/doc/harmonyos-references/js-apis-net-connection#onnetlost)接口，当监听到WIFI网络可用时绑定WIFI网络，不可用时解绑，使用默认网络。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -880,13 +790,7 @@ getAllNets(callback: AsyncCallback<Array<NetHandle>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -935,13 +839,7 @@ getAllNets(): Promise<Array<NetHandle>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -985,13 +883,7 @@ getAllNetsSync(): Array<NetHandle>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -1036,13 +928,7 @@ getConnectionProperties(netHandle: NetHandle, callback: AsyncCallback<Connection
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -1108,13 +994,7 @@ getConnectionProperties(netHandle: NetHandle): Promise<ConnectionProperties>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -1175,13 +1055,7 @@ getConnectionPropertiesSync(netHandle: NetHandle): ConnectionProperties
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -1240,13 +1114,7 @@ getNetCapabilities(netHandle: NetHandle, callback: AsyncCallback<NetCapabilities
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -1315,13 +1183,7 @@ getNetCapabilities(netHandle: NetHandle): Promise<NetCapabilities>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -1386,13 +1248,7 @@ getNetCapabilitiesSync(netHandle: NetHandle): NetCapabilities
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -1447,13 +1303,7 @@ isDefaultNetMetered(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -1499,13 +1349,7 @@ isDefaultNetMetered(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -1549,13 +1393,7 @@ isDefaultNetMeteredSync(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -1598,13 +1436,7 @@ hasDefaultNet(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -1650,13 +1482,7 @@ hasDefaultNet(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -1700,13 +1526,7 @@ hasDefaultNetSync(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -1755,13 +1575,7 @@ reportNetConnected(netHandle: NetHandle, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -1818,13 +1632,7 @@ reportNetConnected(netHandle: NetHandle): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -1873,13 +1681,7 @@ reportNetDisconnected(netHandle: NetHandle, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -1944,13 +1746,7 @@ reportNetDisconnected(netHandle: NetHandle): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -1999,13 +1795,7 @@ getAddressesByName(host: string, callback: AsyncCallback<Array<NetAddress>>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -2064,13 +1854,7 @@ getAddressesByName(host: string): Promise<Array<NetAddress>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -2126,13 +1910,7 @@ getAddressesByNameWithOptions(host: string, option?: QueryOptions): Promise<Arra
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -2221,13 +1999,7 @@ addCustomDnsRule(host: string, ip: Array<string>, callback: AsyncCallback<void>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -2293,13 +2065,7 @@ addCustomDnsRule(host: string, ip: Array<string>): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -2355,13 +2121,7 @@ removeCustomDnsRule(host: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -2426,13 +2186,7 @@ removeCustomDnsRule(host: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -2481,13 +2235,7 @@ clearCustomDnsRules(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -2537,13 +2285,7 @@ clearCustomDnsRules(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -2595,13 +2337,7 @@ setPacFileUrl(pacFileUrl: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -2640,13 +2376,7 @@ getPacFileUrl(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -2691,13 +2421,7 @@ findProxyForUrl(url: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -2745,13 +2469,7 @@ setPacUrl(pacUrl: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -2791,13 +2509,7 @@ getPacUrl(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -2853,13 +2565,7 @@ setNetExtAttribute(netHandle: NetHandle, netExtAttribute: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -2919,13 +2625,7 @@ setNetExtAttributeSync(netHandle: NetHandle, netExtAttribute: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -2981,13 +2681,7 @@ getNetExtAttribute(netHandle: NetHandle): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -3049,13 +2743,7 @@ getNetExtAttributeSync(netHandle: NetHandle): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -3108,13 +2796,7 @@ getIpNeighTable(): Promise<Array<NetIpMacInfo>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -3183,13 +2865,7 @@ getConnectOwnerUid(protocol: ProtocolType, local: NetAddress, remote: NetAddress
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -3259,13 +2935,7 @@ getConnectOwnerUidSync(protocol: ProtocolType, local: NetAddress, remote: NetAdd
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -3334,13 +3004,7 @@ conversionProcess设置为USE\_STD3\_ASCII\_RULES时，会在转换过程中强�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -3392,13 +3056,7 @@ getDnsUnicode(host: string, flag?: ConversionProcess): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -3453,13 +3111,7 @@ UDP端口字段：本地地址、本地端口、进程PID 、进程UID
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -3545,13 +3197,7 @@ register(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -3598,13 +3244,7 @@ unregister(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -3639,13 +3279,7 @@ on(type: 'netAvailable', callback: Callback<NetHandle>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -3691,13 +3325,7 @@ on(type: 'netBlockStatusChange', callback: Callback<NetBlockStatusInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -3745,13 +3373,7 @@ on(type: 'netCapabilitiesChange', callback: Callback<NetCapabilityInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -3797,13 +3419,7 @@ on(type: 'netConnectionPropertiesChange', callback: Callback<NetConnectionProper
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -3851,13 +3467,7 @@ on(type: 'netLost', callback: Callback<NetHandle>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -3905,13 +3515,7 @@ on(type: 'netUnavailable', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -3988,13 +3592,7 @@ bindSocket(socketParam: TCPSocket | UDPSocket, callback: AsyncCallback<void>): v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection, socket } from '@kit.NetworkKit';
@@ -4097,13 +3695,7 @@ bindSocket(socketParam: TCPSocket | UDPSocket): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection, socket } from '@kit.NetworkKit';
@@ -4199,13 +3791,7 @@ getAddressesByName(host: string, callback: AsyncCallback<Array<NetAddress>>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -4273,13 +3859,7 @@ getAddressesByName(host: string): Promise<Array<NetAddress>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -4342,13 +3922,7 @@ getAddressesByNameWithOptions(host: string, option?: QueryOptions): Promise<Arra
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -4408,13 +3982,7 @@ getAddressByName(host: string, callback: AsyncCallback<NetAddress>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -4480,13 +4048,7 @@ getAddressByName(host: string): Promise<NetAddress>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';
@@ -4620,13 +4182,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.NetworkKit';

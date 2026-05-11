@@ -41,13 +41,7 @@ animation(value:AnimateParam): T
 
 属性动画只对写在animation前面的属性生效，且对组件构造器的属性不生效。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -97,13 +91,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过animation实现了组件的属性动画。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

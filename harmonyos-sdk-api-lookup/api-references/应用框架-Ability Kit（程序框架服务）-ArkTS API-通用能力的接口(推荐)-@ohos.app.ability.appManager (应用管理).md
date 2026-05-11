@@ -8,13 +8,7 @@ appManager模块提供应用管理的能力，包括查询当前系统是否处�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { appManager } from '@kit.AbilityKit';
@@ -77,13 +71,7 @@ isRunningInStabilityTest(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { appManager } from '@kit.AbilityKit';
@@ -133,13 +121,7 @@ isRunningInStabilityTest(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { appManager } from '@kit.AbilityKit';
@@ -184,13 +166,7 @@ isRamConstrainedDevice(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { appManager } from '@kit.AbilityKit';
@@ -236,13 +212,7 @@ isRamConstrainedDevice(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { appManager } from '@kit.AbilityKit';
@@ -288,13 +258,7 @@ getAppMemorySize(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { appManager } from '@kit.AbilityKit';
@@ -340,13 +304,7 @@ getAppMemorySize(callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { appManager } from '@kit.AbilityKit';
@@ -397,13 +355,7 @@ getRunningProcessInformation(): Promise<Array<ProcessInformation>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { appManager } from '@kit.AbilityKit';
@@ -454,13 +406,7 @@ getRunningProcessInformation(callback: AsyncCallback<Array<ProcessInformation>>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { appManager } from '@kit.AbilityKit';
@@ -517,13 +463,7 @@ on(type: 'applicationState', observer: ApplicationStateObserver): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { appManager } from '@kit.AbilityKit';
@@ -607,13 +547,7 @@ on(type: 'applicationState', observer: ApplicationStateObserver, bundleNameList:
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { appManager } from '@kit.AbilityKit';
@@ -698,13 +632,7 @@ off(type: 'applicationState', observerId: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { appManager } from '@kit.AbilityKit';
@@ -796,13 +724,7 @@ off(type: 'applicationState', observerId: number, callback: AsyncCallback<void>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { appManager } from '@kit.AbilityKit';
@@ -906,13 +828,7 @@ killProcessesByBundleName(bundleName: string, clearPageStack: boolean, appIndex?
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { appManager } from '@kit.AbilityKit';
@@ -983,13 +899,7 @@ isAppRunning(bundleName: string, appCloneIndex?: number): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { appManager } from '@kit.AbilityKit';

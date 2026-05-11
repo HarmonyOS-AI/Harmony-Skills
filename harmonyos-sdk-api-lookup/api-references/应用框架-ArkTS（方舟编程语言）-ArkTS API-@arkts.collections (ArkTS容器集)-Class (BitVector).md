@@ -12,13 +12,7 @@ BitVector是一种线性数据结构，底层基于数组实现。BitVector中�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { collections } from '@kit.ArkTS';
@@ -60,13 +54,7 @@ BitVector的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let bitVector: collections.BitVector = new collections.BitVector(0); // 初始化BitVector的长度为0
@@ -114,13 +102,7 @@ push(element:number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let bitVector: collections.BitVector = new collections.BitVector(0);
@@ -164,13 +146,7 @@ pop(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let bitVector: collections.BitVector = new collections.BitVector(0);
@@ -227,13 +203,7 @@ has(element: number, fromIndex: number, toIndex: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let bitVector: collections.BitVector = new collections.BitVector(0);
@@ -283,13 +253,7 @@ setBitsByRange(element: number, fromIndex: number, toIndex: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let bitVector: collections.BitVector = new collections.BitVector(0);
@@ -335,13 +299,7 @@ setAllBits(element: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let bitVector: collections.BitVector = new collections.BitVector(0);
@@ -397,13 +355,7 @@ getBitsByRange(fromIndex: number, toIndex: number): BitVector
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let bitVector: collections.BitVector = new collections.BitVector(0);
@@ -454,13 +406,7 @@ resize(size: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let bitVector: collections.BitVector = new collections.BitVector(0);
@@ -520,13 +466,7 @@ getBitCountByRange(element: number, fromIndex: number, toIndex: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let bitVector: collections.BitVector = new collections.BitVector(0);
@@ -584,13 +524,7 @@ getIndexOf(element: number, fromIndex: number, toIndex: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let bitVector: collections.BitVector = new collections.BitVector(0);
@@ -648,13 +582,7 @@ getLastIndexOf(element: number, fromIndex: number, toIndex: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let bitVector: collections.BitVector = new collections.BitVector(0);
@@ -702,13 +630,7 @@ flipBitByIndex(index: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let bitVector: collections.BitVector = new collections.BitVector(0);
@@ -756,13 +678,7 @@ flipBitsByRange(fromIndex: number, toIndex: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let bitVector: collections.BitVector = new collections.BitVector(0);
@@ -807,13 +723,7 @@ values(): IterableIterator<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let bitVector: collections.BitVector = new collections.BitVector(0);
@@ -866,13 +776,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let bitVector: collections.BitVector = new collections.BitVector(0);
@@ -917,13 +821,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let bitVector: collections.BitVector = new collections.BitVector(0);

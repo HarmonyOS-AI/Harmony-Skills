@@ -1,4 +1,0 @@
-* **[ArkTS API](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/network-api-arkts)**
-* **[C API](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/network-c)**
-* **[已停止维护的接口](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/network-arkts-dep)**
-* **[错误码](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/network-arkts-errcode)**

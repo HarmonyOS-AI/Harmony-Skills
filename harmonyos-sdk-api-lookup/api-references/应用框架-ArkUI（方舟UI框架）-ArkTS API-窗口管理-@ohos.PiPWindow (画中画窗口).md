@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PiPWindow } from '@kit.ArkUI';
@@ -44,13 +38,7 @@ isPiPEnabled(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let enable: boolean = PiPWindow.isPiPEnabled();
@@ -98,13 +86,7 @@ create(config: PiPConfiguration): Promise<PiPController>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -249,13 +231,7 @@ create(config: PiPConfiguration, contentNode: typeNode.XComponent): Promise<PiPC
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -728,13 +704,7 @@ startPiP(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 开发者可根据pipController的定义方式自行实现pipController的调用
@@ -780,13 +750,7 @@ stopPiP(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let promise : Promise<void> = this.pipController.stopPiP();
@@ -821,13 +785,7 @@ setAutoStartEnabled(enable: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let enable: boolean = true;
@@ -867,13 +825,7 @@ updateContentSize(width: number, height: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let width: number = 540; // 假设当前内容宽度变为540px。
@@ -914,13 +866,7 @@ updatePiPControlStatus(controlType: PiPControlType, status: PiPControlStatus): v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let controlType: PiPWindow.PiPControlType = PiPWindow.PiPControlType.VIDEO_PLAY_PAUSE; // 视频播放控制面板中播放/暂停控件。
@@ -970,13 +916,7 @@ updateContentNode(contentNode: typeNode.XComponent): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { typeNode, UIContext } from '@kit.ArkUI';
@@ -1024,13 +964,7 @@ setPiPControlEnabled(controlType: PiPControlType, enabled: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let controlType: PiPWindow.PiPControlType = PiPWindow.PiPControlType.VIDEO_PLAY_PAUSE; // 视频播放控制面板中播放/暂停控件。
@@ -1071,13 +1005,7 @@ getPiPWindowInfo(): Promise<PiPWindowInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pipWindowInfo: PiPWindow.PiPWindowInfo | undefined = undefined;
@@ -1129,13 +1057,7 @@ getPiPSettingSwitch(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pipSwitchStatus: boolean | undefined = undefined;
@@ -1184,13 +1106,7 @@ isPiPActive(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pipActiveStatus: boolean | undefined = undefined;
@@ -1230,13 +1146,7 @@ on(type: 'stateChange', callback: (state: PiPState, reason: string) => void): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.pipController.on('stateChange', (state: PiPWindow.PiPState, reason: string) => {
@@ -1289,13 +1199,7 @@ off(type: 'stateChange'): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.pipController.off('stateChange');
@@ -1324,13 +1228,7 @@ on(type: 'controlPanelActionEvent', callback: ControlPanelActionEventCallback): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.pipController.on('controlPanelActionEvent', (event: PiPWindow.PiPActionEventType, status?: number) => {
@@ -1384,13 +1282,7 @@ on(type: 'controlEvent', callback: Callback<ControlEventParam>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.pipController.on('controlEvent', (control) => {
@@ -1443,13 +1335,7 @@ off(type: 'controlPanelActionEvent'): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.pipController.off('controlPanelActionEvent');
@@ -1478,13 +1364,7 @@ off(type: 'controlEvent', callback?: Callback<ControlEventParam>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callbackFunc = (event: PiPWindow.ControlEventParam) => {
@@ -1528,13 +1408,7 @@ on(type: 'pipWindowSizeChange', callback: Callback<PiPWindowSize>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -1580,13 +1454,7 @@ off(type: 'pipWindowSizeChange', callback?: Callback<PiPWindowSize>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const callback = (size: PiPWindow.PiPWindowSize) => {
@@ -1632,13 +1500,7 @@ on(type: 'activeStatusChange', callback: Callback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback = (activeStatus: boolean) => {
@@ -1670,13 +1532,7 @@ off(type: 'activeStatusChange', callback?: Callback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback = (activeStatus: boolean) => {

@@ -21,13 +21,7 @@
 
 ### authenticators
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FIDO2_AuthenticatorMetadata* FIDO2_AuthenticatorMetadataArray::authenticators
@@ -39,13 +33,7 @@
 
 ### number
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint32_t FIDO2_AuthenticatorMetadataArray::number

@@ -44,13 +44,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. char* OpenGTX_ConfigDescription::appVersion
@@ -64,13 +58,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OpenGTX_EngineType OpenGTX_ConfigDescription::engineType
@@ -84,13 +72,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. char* OpenGTX_ConfigDescription::engineVersion
@@ -104,13 +86,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t OpenGTX_ConfigDescription::gameKeyThreadIds[5]
@@ -124,13 +100,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t OpenGTX_ConfigDescription::gameMainThreadId
@@ -144,13 +114,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t OpenGTX_ConfigDescription::gameRenderThreadId
@@ -164,13 +128,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OpenGTX_GameType OpenGTX_ConfigDescription::gameType
@@ -184,13 +142,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OpenGTX_LTPO_Mode OpenGTX_ConfigDescription::mode
@@ -204,13 +156,7 @@ LTPO方案模式，支持场景模式、触控模式、自适应模式。
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. char* OpenGTX_ConfigDescription::packageName
@@ -224,13 +170,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OpenGTX_PictureQualityMaxLevel OpenGTX_ConfigDescription::pictureQualityMaxLevel
@@ -244,13 +184,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OpenGTX_ResolutionValue OpenGTX_ConfigDescription::resolutionMaxValue
@@ -264,13 +198,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t OpenGTX_ConfigDescription::targetFPS
@@ -284,13 +212,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bool OpenGTX_ConfigDescription::vulkanSupport

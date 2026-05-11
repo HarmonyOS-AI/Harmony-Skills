@@ -12,13 +12,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { applicationManager } from '@kit.MDMKit';
@@ -66,13 +60,7 @@ addDisallowedRunningBundlesSync(admin: Want, appIds: Array<string>, accountId?: 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { applicationManager } from '@kit.MDMKit';
@@ -135,13 +123,7 @@ removeDisallowedRunningBundlesSync(admin: Want, appIds: Array<string>, accountId
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { applicationManager } from '@kit.MDMKit';
@@ -209,13 +191,7 @@ getDisallowedRunningBundlesSync(admin: Want, accountId?: number): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { applicationManager } from '@kit.MDMKit';
@@ -283,13 +259,7 @@ addAllowedRunningBundles(admin: Want, appIdentifiers: Array<string>, accountId: 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { applicationManager } from '@kit.MDMKit';
@@ -352,13 +322,7 @@ removeAllowedRunningBundles(admin: Want, appIdentifiers: Array<string>, accountI
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { applicationManager } from '@kit.MDMKit';
@@ -425,13 +389,7 @@ getAllowedRunningBundles(admin: Want, accountId: number): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { applicationManager } from '@kit.MDMKit';
@@ -493,13 +451,7 @@ addAutoStartApps(admin: Want, autoStartApps: Array<Want>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { applicationManager } from '@kit.MDMKit';
@@ -573,13 +525,7 @@ removeAutoStartApps(admin: Want, autoStartApps: Array<Want>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { applicationManager } from '@kit.MDMKit';
@@ -648,13 +594,7 @@ removeAutoStartApps(admin: Want, autoStartApps: Array<Want>, accountId: number):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { applicationManager } from '@kit.MDMKit';
@@ -729,13 +669,7 @@ getAutoStartApps(admin: Want): Array<Want>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { applicationManager } from '@kit.MDMKit';
@@ -755,13 +689,7 @@ getAutoStartApps(admin: Want): Array<Want>
 15. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 返回示例
@@ -823,13 +751,7 @@ addAutoStartApps(admin: Want, autoStartApps: Array<Want>, accountId: number, dis
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { applicationManager } from '@kit.MDMKit';
@@ -909,13 +831,7 @@ getAutoStartApps(admin: Want, accountId: number): Array<Want>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { applicationManager } from '@kit.MDMKit';
@@ -935,13 +851,7 @@ getAutoStartApps(admin: Want, accountId: number): Array<Want>
 15. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 返回示例
@@ -1006,13 +916,7 @@ isModifyAutoStartAppsDisallowed(admin: Want, autoStartApp: Want, accountId: numb
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { applicationManager } from '@kit.MDMKit';
@@ -1090,13 +994,7 @@ addKeepAliveApps(admin: Want, bundleNames: Array<string>, accountId: number): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { applicationManager } from '@kit.MDMKit';
@@ -1170,13 +1068,7 @@ addKeepAliveApps(admin: Want, bundleNames: Array<string>, accountId: number, dis
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { applicationManager } from '@kit.MDMKit';
@@ -1242,13 +1134,7 @@ removeKeepAliveApps(admin: Want, bundleNames: Array<string>, accountId: number):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { applicationManager } from '@kit.MDMKit';
@@ -1318,13 +1204,7 @@ getKeepAliveApps(admin: Want, accountId: number): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { applicationManager } from '@kit.MDMKit';
@@ -1392,13 +1272,7 @@ isModifyKeepAliveAppsDisallowed(admin: Want, accountId: number, bundleName: stri
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { applicationManager } from '@kit.MDMKit';
@@ -1460,13 +1334,7 @@ clearUpApplicationData(admin: Want, bundleName: string, appIndex: number, accoun
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -1530,13 +1398,7 @@ Kiosk模式为系统层面提供的一种应用运行模式，该模式下会将
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -1602,13 +1464,7 @@ getAllowedKioskApps(admin: Want): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -1658,13 +1514,7 @@ isAppKioskAllowed(appIdentifier: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { applicationManager } from '@kit.MDMKit';
@@ -1724,13 +1574,7 @@ setKioskFeatures(admin: Want, features: Array<KioskFeature>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -1800,13 +1644,7 @@ addUserNonStopApps(admin: Want, applicationInstances: Array<common.ApplicationIn
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { applicationManager, common } from '@kit.MDMKit';
@@ -1877,13 +1715,7 @@ removeUserNonStopApps(admin: Want, applicationInstances: Array<common.Applicatio
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { applicationManager, common } from '@kit.MDMKit';
@@ -1958,13 +1790,7 @@ getUserNonStopApps(admin: Want): Array<common.ApplicationInstance>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { applicationManager, common } from '@kit.MDMKit';
@@ -2028,13 +1854,7 @@ addFreezeExemptedApps(admin: Want, applicationInstances: Array<common.Applicatio
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { applicationManager, common } from '@kit.MDMKit';
@@ -2105,13 +1925,7 @@ removeFreezeExemptedApps(admin: Want, applicationInstances: Array<common.Applica
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { applicationManager, common } from '@kit.MDMKit';
@@ -2186,13 +2000,7 @@ getFreezeExemptedApps(admin: Want): Array<common.ApplicationInstance>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { applicationManager, common } from '@kit.MDMKit';
@@ -2255,13 +2063,7 @@ setAbilityDisabled(admin: Want, bundleName: string, accountId: number, abilityNa
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { applicationManager, common } from '@kit.MDMKit';
@@ -2333,13 +2135,7 @@ isAbilityDisabled(admin: Want, bundleName: string, accountId: number, abilityNam
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { applicationManager, common } from '@kit.MDMKit';
@@ -2430,13 +2226,7 @@ addDockApp(admin: Want, bundleName: string, abilityName: string, index?: number)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { applicationManager } from '@kit.MDMKit';
@@ -2506,13 +2296,7 @@ removeDockApp(admin: Want, bundleName: string, abilityName: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { applicationManager } from '@kit.MDMKit';
@@ -2582,13 +2366,7 @@ getDockApps(admin: Want): Array<DockInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { applicationManager } from '@kit.MDMKit';
@@ -2608,13 +2386,7 @@ getDockApps(admin: Want): Array<DockInfo>
 15. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 返回示例

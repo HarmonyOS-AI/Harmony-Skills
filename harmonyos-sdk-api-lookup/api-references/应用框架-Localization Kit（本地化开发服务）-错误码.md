@@ -1,2 +1,0 @@
-* **[I18n错误码](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/errorcode-i18n)**
-* **[资源管理错误码](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/errorcode-resource-manager)**

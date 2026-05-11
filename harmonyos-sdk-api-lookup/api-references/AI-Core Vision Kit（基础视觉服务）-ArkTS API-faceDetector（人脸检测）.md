@@ -8,13 +8,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { faceDetector } from '@kit.CoreVisionKit';
@@ -176,13 +170,7 @@ init(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { faceDetector } from '@kit.CoreVisionKit';
@@ -261,13 +249,7 @@ init(faceRecognitionConfiguration: FaceRecognitionConfiguration): Promise<boolea
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { faceDetector } from '@kit.CoreVisionKit';
@@ -333,13 +315,7 @@ release(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { faceDetector } from '@kit.CoreVisionKit';
@@ -423,13 +399,7 @@ detect(visionInfo: VisionInfo): Promise<Array<Face>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { faceDetector } from '@kit.CoreVisionKit';

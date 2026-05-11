@@ -13,13 +13,7 @@ AuxiliaryPicture类，用于读取或写入图像的辅助图数据以及获取�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from '@kit.ImageKit';
@@ -63,13 +57,7 @@ writePixelsFromBuffer(data: ArrayBuffer): Promise<void>
 
 **示例:**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function WritePixelsFromBuffer(context: Context) {
@@ -112,13 +100,7 @@ readPixelsToBuffer(): Promise<ArrayBuffer>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -165,13 +147,7 @@ getType(): AuxiliaryPictureType
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function GetAuxiliaryPictureType(auxPictureObj : image.AuxiliaryPicture) {
@@ -224,13 +200,7 @@ setMetadata(metadataType: MetadataType, metadata: Metadata): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -303,13 +273,7 @@ getMetadata(metadataType: MetadataType): Promise<Metadata>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function GetAuxPictureObjMetadata(auxPictureObj: image.AuxiliaryPicture) {
@@ -347,13 +311,7 @@ getAuxiliaryPictureInfo(): AuxiliaryPictureInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function GetAuxiliaryPictureInfo(auxPictureObj: image.AuxiliaryPicture) {
@@ -399,13 +357,7 @@ setAuxiliaryPictureInfo(info: AuxiliaryPictureInfo): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { colorSpaceManager } from '@kit.ArkGraphics2D';
@@ -441,13 +393,7 @@ release():void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function Release(auxPictureObj: image.AuxiliaryPicture) {

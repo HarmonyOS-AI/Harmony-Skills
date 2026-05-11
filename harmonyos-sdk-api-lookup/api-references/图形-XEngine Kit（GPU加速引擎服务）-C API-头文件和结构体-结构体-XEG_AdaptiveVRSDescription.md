@@ -41,13 +41,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkImageView XEG_AdaptiveVRSDescription::inputColorImage
@@ -61,13 +55,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkImageView XEG_AdaptiveVRSDescription::inputDepthImage
@@ -81,13 +69,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkImageView XEG_AdaptiveVRSDescription::outputShadingRateImage
@@ -101,13 +83,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. float* XEG_AdaptiveVRSDescription::reprojectionMatrix

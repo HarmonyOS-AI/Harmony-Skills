@@ -71,13 +71,7 @@ PhonePC/2in1TabletTVWearable
 
 鼠标滚轮的处理请参考[轴事件示例](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-events-axis#示例)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

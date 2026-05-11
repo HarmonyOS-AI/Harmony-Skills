@@ -11,13 +11,7 @@ PerfTest提供白盒性能测试能力，供开发者在测试场景使用，支
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PerfMetric, PerfTest, PerfTestStrategy, PerfMeasureResult } from '@kit.TestKit';
@@ -168,13 +162,7 @@ static create(strategy: PerfTestStrategy): PerfTest
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PerfMetric, PerfTest, PerfTestStrategy } from '@kit.TestKit';
@@ -238,13 +226,7 @@ run(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PerfMetric, PerfTest, PerfTestStrategy } from '@kit.TestKit';
@@ -310,13 +292,7 @@ getMeasureResult(metric: PerfMetric): PerfMeasureResult
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PerfMetric, PerfTest, PerfTestStrategy } from '@kit.TestKit';
@@ -365,13 +341,7 @@ destroy(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PerfMetric, PerfTest, PerfTestStrategy } from '@kit.TestKit';

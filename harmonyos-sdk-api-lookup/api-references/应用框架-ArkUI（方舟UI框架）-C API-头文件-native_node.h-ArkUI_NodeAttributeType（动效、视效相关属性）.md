@@ -1,10 +1,4 @@
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum ArkUI_NodeAttributeType
@@ -22,13 +16,7 @@
 
 ## NODE\_TRANSLATE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TRANSLATE = 8
@@ -62,13 +50,7 @@
 
 ## NODE\_SCALE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SCALE = 9
@@ -100,13 +82,7 @@
 
 ## NODE\_ROTATE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_ROTATE = 10
@@ -144,13 +120,7 @@
 
 ## NODE\_BRIGHTNESS
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_BRIGHTNESS = 11
@@ -180,13 +150,7 @@
 
 ## NODE\_SATURATION
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SATURATION = 12
@@ -216,13 +180,7 @@
 
 ## NODE\_BLUR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_BLUR = 13
@@ -252,13 +210,7 @@
 
 ## NODE\_LINEAR\_GRADIENT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_LINEAR_GRADIENT = 14
@@ -300,13 +252,7 @@
 
 ## NODE\_OPACITY
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_OPACITY = 16
@@ -336,13 +282,7 @@
 
 ## NODE\_Z\_INDEX
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_Z_INDEX = 21
@@ -372,13 +312,7 @@
 
 ## NODE\_VISIBILITY
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_VISIBILITY = 22
@@ -408,13 +342,7 @@
 
 ## NODE\_CLIP
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_CLIP = 23
@@ -444,13 +372,7 @@
 
 ## NODE\_CLIP\_SHAPE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_CLIP_SHAPE = 24
@@ -572,13 +494,7 @@
 
 ## NODE\_TRANSFORM
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TRANSFORM = 25
@@ -609,13 +525,7 @@
 
 ## NODE\_SHADOW
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SHADOW = 28
@@ -645,13 +555,7 @@
 
 ## NODE\_CUSTOM\_SHADOW
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_CUSTOM_SHADOW = 29
@@ -693,13 +597,7 @@
 
 ## NODE\_BACKGROUND\_BLUR\_STYLE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_BACKGROUND_BLUR_STYLE = 32
@@ -739,13 +637,7 @@
 
 ## NODE\_TRANSFORM\_CENTER
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TRANSFORM_CENTER = 33
@@ -784,13 +676,7 @@
 
 ## NODE\_MOTION\_PATH
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_MOTION_PATH = 111
@@ -820,13 +706,7 @@
 
 ## NODE\_OPACITY\_TRANSITION
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_OPACITY_TRANSITION = 34
@@ -868,13 +748,7 @@
 
 ## NODE\_ROTATE\_TRANSITION
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_ROTATE_TRANSITION = 35
@@ -924,13 +798,7 @@
 
 ## NODE\_SCALE\_TRANSITION
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SCALE_TRANSITION = 36
@@ -976,13 +844,7 @@
 
 ## NODE\_TRANSLATE\_TRANSITION
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TRANSLATE_TRANSITION = 37
@@ -1028,13 +890,7 @@
 
 ## NODE\_MOVE\_TRANSITION
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_MOVE_TRANSITION = 38
@@ -1076,13 +932,7 @@
 
 ## NODE\_SWEEP\_GRADIENT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SWEEP_GRADIENT = 43
@@ -1130,13 +980,7 @@
 
 ## NODE\_RADIAL\_GRADIENT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_RADIAL_GRADIENT = 44
@@ -1180,13 +1024,7 @@
 
 ## NODE\_MASK
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_MASK = 45
@@ -1224,13 +1062,7 @@
 
 ## NODE\_BLEND\_MODE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_BLEND_MODE = 46
@@ -1262,13 +1094,7 @@
 
 ## NODE\_GRAY\_SCALE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_GRAY_SCALE = 49
@@ -1298,13 +1124,7 @@
 
 ## NODE\_INVERT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_INVERT = 50
@@ -1334,13 +1154,7 @@
 
 ## NODE\_SEPIA
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SEPIA = 51
@@ -1370,13 +1184,7 @@
 
 ## NODE\_CONTRAST
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_CONTRAST = 52
@@ -1406,13 +1214,7 @@
 
 ## NODE\_FOREGROUND\_COLOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_FOREGROUND_COLOR = 53
@@ -1443,13 +1245,7 @@
 
 ## NODE\_OUTLINE\_WIDTH
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_OUTLINE_WIDTH = 70
@@ -1485,13 +1281,7 @@
 
 ## NODE\_GEOMETRY\_TRANSITION
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_GEOMETRY_TRANSITION = 75
@@ -1523,13 +1313,7 @@
 
 ## NODE\_RENDER\_FIT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_RENDER_FIT = 77
@@ -1559,13 +1343,7 @@
 
 ## NODE\_OUTLINE\_COLOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_OUTLINE_COLOR = 78
@@ -1602,13 +1380,7 @@
 
 ## NODE\_COLOR\_BLEND
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_COLOR_BLEND = 81
@@ -1638,13 +1410,7 @@
 
 ## NODE\_FOREGROUND\_BLUR\_STYLE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_FOREGROUND_BLUR_STYLE = 82
@@ -1684,13 +1450,7 @@
 
 ## NODE\_TRANSITION
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TRANSITION = 94
@@ -1720,13 +1480,7 @@
 
 ## NODE\_BACKDROP\_BLUR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_BACKDROP_BLUR = 99
@@ -1760,13 +1514,7 @@
 
 ## NODE\_BACKGROUND\_IMAGE\_RESIZABLE\_WITH\_SLICE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_BACKGROUND_IMAGE_RESIZABLE_WITH_SLICE = 100
@@ -1802,13 +1550,7 @@
 
 ## NODE\_TRANSLATE\_WITH\_PERCENT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TRANSLATE_WITH_PERCENT = 103
@@ -1846,13 +1588,7 @@
 
 ## NODE\_ROTATE\_ANGLE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_ROTATE_ANGLE = 104
@@ -1888,13 +1624,7 @@
 
 ## NODE\_PIXEL\_ROUND
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_PIXEL_ROUND = 109

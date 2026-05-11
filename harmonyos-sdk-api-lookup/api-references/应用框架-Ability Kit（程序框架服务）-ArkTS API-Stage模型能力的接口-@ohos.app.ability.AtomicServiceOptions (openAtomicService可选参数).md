@@ -10,13 +10,7 @@ AtomicServiceOptions可以作为[openAtomicService()](https://developer.huawei.c
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AtomicServiceOptions } from '@kit.AbilityKit';
@@ -44,13 +38,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, AtomicServiceOptions, common, wantConstant, CompletionHandlerForAtomicService, FailureCode } from '@kit.AbilityKit';

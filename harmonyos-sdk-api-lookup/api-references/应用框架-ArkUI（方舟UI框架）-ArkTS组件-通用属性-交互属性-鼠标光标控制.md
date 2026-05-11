@@ -68,13 +68,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过setCursor实现了鼠标光标样式的更改。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

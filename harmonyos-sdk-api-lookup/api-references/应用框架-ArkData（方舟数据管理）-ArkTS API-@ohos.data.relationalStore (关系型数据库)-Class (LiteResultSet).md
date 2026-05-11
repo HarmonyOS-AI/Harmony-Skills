@@ -13,13 +13,7 @@ LiteResultSet实例不会实时刷新。使用结果集后，如果数据库中�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { relationalStore } from '@kit.ArkData';
@@ -66,13 +60,7 @@ getColumnNames(): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function getColumnNamesExample(store : relationalStore.RdbStore){
@@ -136,13 +124,7 @@ getColumnIndex(columnName: string): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function getColumnIndexExample(store : relationalStore.RdbStore){
@@ -209,13 +191,7 @@ getColumnName(columnIndex: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function getColumnNameExample(store : relationalStore.RdbStore){
@@ -283,13 +259,7 @@ getColumnType(columnIdentifier: number | string): Promise<ColumnType>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function getColumnTypeExample(store : relationalStore.RdbStore){
@@ -365,13 +335,7 @@ getColumnTypeSync(columnIdentifier: number | string): ColumnType
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function getColumnTypeSyncExample(store : relationalStore.RdbStore){
@@ -439,13 +403,7 @@ goToNextRow(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function goToNextRowExample(store : relationalStore.RdbStore) {
@@ -505,13 +463,7 @@ getValue(columnIndex: number): ValueType
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function getValueExample(store : relationalStore.RdbStore) {
@@ -575,13 +527,7 @@ getBlob(columnIndex: number): Uint8Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function getBlobExample(store : relationalStore.RdbStore) {
@@ -647,13 +593,7 @@ getString(columnIndex: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function getStringExample(store : relationalStore.RdbStore) {
@@ -721,13 +661,7 @@ getLong(columnIndex: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function getLongExample(store : relationalStore.RdbStore) {
@@ -791,13 +725,7 @@ getDouble(columnIndex: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function getDoubleExample(store : relationalStore.RdbStore) {
@@ -859,13 +787,7 @@ getAsset(columnIndex: number): Asset
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function getAssetExample(store : relationalStore.RdbStore) {
@@ -927,13 +849,7 @@ getAssets(columnIndex: number): Assets
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function getAssetsExample(store : relationalStore.RdbStore) {
@@ -990,13 +906,7 @@ getRow(): ValuesBucket
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function getRowExample(store : relationalStore.RdbStore) {
@@ -1054,13 +964,7 @@ getCurrentRowData(): RowData
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function getCurrentRowDataExample(store : relationalStore.RdbStore) {
@@ -1129,13 +1033,7 @@ getRows(maxCount: number, position?: number): Promise<Array<ValuesBucket>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function getRowsExample(store : relationalStore.RdbStore) {
@@ -1220,13 +1118,7 @@ getRowsData(maxCount: number, position?: number): Promise<RowsData>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function getRowsDataExample(store : relationalStore.RdbStore) {
@@ -1319,13 +1211,7 @@ isColumnNull(columnIndex: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function isColumnNullExample(store : relationalStore.RdbStore) {
@@ -1356,13 +1242,7 @@ close(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function closeExample(store : relationalStore.RdbStore) {

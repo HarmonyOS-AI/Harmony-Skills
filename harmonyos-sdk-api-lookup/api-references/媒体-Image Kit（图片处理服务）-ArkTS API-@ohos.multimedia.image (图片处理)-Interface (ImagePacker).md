@@ -16,13 +16,7 @@ ImagePacker类，用于图片压缩和编码。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from '@kit.ImageKit';
@@ -89,13 +83,7 @@ packToData(source: ImageSource, options: PackingOption): Promise<ArrayBuffer>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -168,13 +156,7 @@ packToData(source: PixelMap, options: PackingOption): Promise<ArrayBuffer>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -237,13 +219,7 @@ packing(picture: Picture, options: PackingOption): Promise<ArrayBuffer>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -314,13 +290,7 @@ packToDataFromPixelmapSequence(pixelmapSequence: Array<PixelMap>, options: Packi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -372,13 +342,7 @@ release(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -419,13 +383,7 @@ release(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -481,13 +439,7 @@ packToFile(source: ImageSource, fd: number, options: PackingOption, callback: As
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -559,13 +511,7 @@ packToFile (source: ImageSource, fd: number, options: PackingOption): Promise<vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -632,13 +578,7 @@ packToFile (source: PixelMap, fd: number, options: PackingOption, callback: Asyn
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -715,13 +655,7 @@ packToFile (source: PixelMap, fd: number, options: PackingOption): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -786,13 +720,7 @@ packToFile(picture: Picture, fd: number, options: PackingOption): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -868,13 +796,7 @@ packToFileFromPixelmapSequence(pixelmapSequence: Array<PixelMap>, fd: number, op
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -933,13 +855,7 @@ packing(source: ImageSource, option: PackingOption, callback: AsyncCallback<Arra
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -995,13 +911,7 @@ packing(source: ImageSource, option: PackingOption): Promise<ArrayBuffer>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1053,13 +963,7 @@ packing(source: PixelMap, option: PackingOption, callback: AsyncCallback<ArrayBu
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1122,13 +1026,7 @@ packing(source: PixelMap, option: PackingOption): Promise<ArrayBuffer>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

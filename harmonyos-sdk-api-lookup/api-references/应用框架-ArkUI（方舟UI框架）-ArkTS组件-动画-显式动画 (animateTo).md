@@ -153,13 +153,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过在onAppear方法中创建组件出现时的动画效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -240,13 +234,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示如何实现在动画执行结束后组件消失。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

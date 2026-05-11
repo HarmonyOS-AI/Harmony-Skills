@@ -6,13 +6,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { gamePlayer } from '@kit.GameServiceKit';
@@ -326,13 +320,7 @@ init(context: common.UIAbilityContext): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -380,13 +368,7 @@ init(context: common.UIAbilityContext, callback: AsyncCallback<void>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -462,13 +444,7 @@ unionLogin(context: common.UIAbilityContext, loginParam: UnionLoginParam): Promi
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { gamePlayer } from '@kit.GameServiceKit';
@@ -569,13 +545,7 @@ getLocalPlayer(context: common.UIAbilityContext): Promise<GSKLocalPlayer>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { gamePlayer } from '@kit.GameServiceKit';
@@ -657,13 +627,7 @@ getLocalPlayer(context: common.UIAbilityContext, callback: AsyncCallback<GSKLoca
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { gamePlayer } from '@kit.GameServiceKit';
@@ -755,13 +719,7 @@ bindPlayer(context: common.UIAbilityContext, thirdOpenId: string, teamPlayerId: 
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { gamePlayer } from '@kit.GameServiceKit';
@@ -853,13 +811,7 @@ unbindPlayer(context: common.UIAbilityContext, thirdOpenId: string, teamPlayerId
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { gamePlayer } from '@kit.GameServiceKit';
@@ -952,13 +904,7 @@ verifyLocalPlayer(context: common.UIAbilityContext, thirdUserInfo: ThirdUserInfo
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { gamePlayer } from '@kit.GameServiceKit';
@@ -1034,13 +980,7 @@ savePlayerRole(context: common.UIAbilityContext, request: GSKPlayerRole): Promis
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { gamePlayer } from '@kit.GameServiceKit';
@@ -1109,13 +1049,7 @@ savePlayerRole(context: common.UIAbilityContext, request: GSKPlayerRole, callbac
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { gamePlayer } from '@kit.GameServiceKit';
@@ -1193,13 +1127,7 @@ on(type: 'playerChanged', callback: Callback<PlayerChangedResult>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { gamePlayer } from '@kit.GameServiceKit';
@@ -1255,13 +1183,7 @@ off(type: 'playerChanged', callback?: Callback<PlayerChangedResult>): void
 
 **示例1**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { gamePlayer } from '@kit.GameServiceKit';
@@ -1278,13 +1200,7 @@ off(type: 'playerChanged', callback?: Callback<PlayerChangedResult>): void
 
 **示例2**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { gamePlayer } from '@kit.GameServiceKit';
@@ -1378,13 +1294,7 @@ on(type: 'miniGameAddictionPrevented', callback: Callback<string>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { gamePlayer } from '@kit.GameServiceKit';
@@ -1438,13 +1348,7 @@ off(type: 'miniGameAddictionPrevented', callback?: Callback<string>): void
 
 **示例1**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { gamePlayer } from '@kit.GameServiceKit';
@@ -1461,13 +1365,7 @@ off(type: 'miniGameAddictionPrevented', callback?: Callback<string>): void
 
 **示例**2：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { gamePlayer } from '@kit.GameServiceKit';
@@ -1538,13 +1436,7 @@ miniGameLogin(context: common.Context, loginParam: MiniGameLoginParam): Promise<
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { gamePlayer } from '@kit.GameServiceKit';
@@ -1642,13 +1534,7 @@ miniGamePay(context: common.Context, parameter: PurchaseParameter): Promise<Crea
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { gamePlayer } from '@kit.GameServiceKit';

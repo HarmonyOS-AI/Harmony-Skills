@@ -12,13 +12,7 @@ VpnExtensionContext可直接作为VpnExtension的上下文环境，提供允许�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { VpnExtensionAbility } from '@kit.NetworkKit';
@@ -30,13 +24,7 @@ PhonePC/2in1TabletTVWearable
 
 通过VpnExtensionAbility子类实例来获取。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { VpnExtensionAbility, vpnExtension } from '@kit.NetworkKit';

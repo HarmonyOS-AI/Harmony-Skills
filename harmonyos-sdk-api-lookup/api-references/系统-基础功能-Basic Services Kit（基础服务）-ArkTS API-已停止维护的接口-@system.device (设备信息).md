@@ -13,13 +13,7 @@
 
 WearableLite Wearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import device from '@system.device';
@@ -92,13 +86,7 @@ WearableLite Wearable
 
 ArkTS示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. export default class Page {
@@ -125,13 +113,7 @@ ArkTS示例：
 
 JS示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <div class="container">
@@ -141,13 +123,7 @@ JS示例：
 5. </div>
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. /*xxx.css*/
@@ -188,13 +164,7 @@ JS示例：
 36. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. //xxx.js

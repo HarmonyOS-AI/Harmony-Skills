@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SelectTitleBar } from '@kit.ArkUI';
@@ -93,13 +87,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例实现了简单的下拉菜单标题栏，带有返回箭头的下拉菜单标题栏和带有右侧菜单项目列表的下拉菜单标题栏。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SelectTitleBar, Prompt, SelectTitleBarMenuItem } from '@kit.ArkUI';
@@ -216,13 +204,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 18开始，该示例通过设置标题栏右侧自定义按钮属性accessibilityText、accessibilityDescription、accessibilityLevel自定义屏幕朗读播报文本。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SelectTitleBar, Prompt, SelectTitleBarMenuItem } from '@kit.ArkUI';
@@ -355,13 +337,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 18开始，该示例通过设置SelectTitleBarMenuItem的属性symbolStyle，展示了自定义Symbol类型图标。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SelectTitleBar, Prompt, SelectTitleBarMenuItem, SymbolGlyphModifier } from '@kit.ArkUI';

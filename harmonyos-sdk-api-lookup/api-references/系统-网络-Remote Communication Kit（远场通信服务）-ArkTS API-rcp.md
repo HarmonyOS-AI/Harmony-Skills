@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -67,13 +61,7 @@ createSession(sessionConfiguration?: SessionConfiguration): Session
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const session = rcp.createSession();
@@ -138,13 +126,7 @@ fetch(request: Request): Promise<Response>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -197,13 +179,7 @@ fetchForSendable(request: Request): Promise<ResponseSendable>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -279,13 +255,7 @@ get(url: URLOrString, destination?: ResponseBodyDestination): Promise<Response>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -339,13 +309,7 @@ post(url: URLOrString, content?: RequestContent, destination?: ResponseBodyDesti
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -399,13 +363,7 @@ put(url: URLOrString, content?: RequestContent, destination?: ResponseBodyDestin
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -458,13 +416,7 @@ downloadToFile(url: URLOrString, downloadTo: DownloadToFile): Promise<Response>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -521,13 +473,7 @@ uploadFromFile(url: URLOrString, uploadFrom: UploadFromFile): Promise<Response>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -584,13 +530,7 @@ downloadToStream(url: URLOrString, downloadTo: DownloadToStream): Promise<Respon
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -653,13 +593,7 @@ uploadFromStream(url: URLOrString, uploadFrom: UploadFromStream): Promise<Respon
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -714,13 +648,7 @@ head(url: URLOrString): Promise<Response>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -772,13 +700,7 @@ delete(url: URLOrString): Promise<Response>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -826,13 +748,7 @@ cancel(requestToCancel?: Request | Request[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -864,13 +780,7 @@ close(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -911,13 +821,7 @@ getDefaultSession(): DefaultSession
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -975,13 +879,7 @@ fetch(request: Request): Promise<Response>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1034,13 +932,7 @@ fetchForSendable(request: Request): Promise<ResponseSendable>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -1116,13 +1008,7 @@ get(url: URLOrString, destination?: ResponseBodyDestination): Promise<Response>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1176,13 +1062,7 @@ post(url: URLOrString, content?: RequestContent, destination?: ResponseBodyDesti
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1236,13 +1116,7 @@ put(url: URLOrString, content?: RequestContent, destination?: ResponseBodyDestin
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1295,13 +1169,7 @@ downloadToFile(url: URLOrString, downloadTo: DownloadToFile): Promise<Response>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1358,13 +1226,7 @@ uploadFromFile(url: URLOrString, uploadFrom: UploadFromFile): Promise<Response>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1421,13 +1283,7 @@ downloadToStream(url: URLOrString, downloadTo: DownloadToStream): Promise<Respon
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -1490,13 +1346,7 @@ uploadFromStream(url: URLOrString, uploadFrom: UploadFromStream): Promise<Respon
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1551,13 +1401,7 @@ head(url: URLOrString): Promise<Response>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1609,13 +1453,7 @@ delete(url: URLOrString): Promise<Response>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1657,13 +1495,7 @@ cancel(requestToCancel?: Request | Request[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1727,13 +1559,7 @@ A {handler->B{handler->C{handler-D{handler->系统能力}}}}
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -1819,13 +1645,7 @@ intercept(context: RequestContext, next: RequestHandler): Promise<Response>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -1915,13 +1735,7 @@ SessionConfiguration接口定义了会话的配置参数，为开发者提供了
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -1962,13 +1776,7 @@ SessionConfiguration接口定义了会话的配置参数，为开发者提供了
 
 **interceptors属性示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -2055,13 +1863,7 @@ Configuration接口包含一组配置参数，开发者可以利用这些参数�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -2135,13 +1937,7 @@ ConnectionConfiguration接口包含两个参数，开发者可以调整最大并
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit'
@@ -2178,13 +1974,7 @@ TcpConfiguration接口为开发者提供设置TCP选项的能力。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -2266,13 +2056,7 @@ static create(identifier?: string): CookieRepository
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -2327,13 +2111,7 @@ setCookies(cookies: ResponseCookie | ResponseCookie[]): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -2388,13 +2166,7 @@ getAllCookies(): Promise<ResponseCookie[]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -2450,13 +2222,7 @@ getCookiesByUrl(url: URL): Promise<ResponseCookie[]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -2514,13 +2280,7 @@ deleteCookies(cookies?: ResponseCookie | ResponseCookie[]): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -2583,13 +2343,7 @@ deleteCookiesByUrl(url: URL): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -2628,13 +2382,7 @@ get identifier(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -2673,13 +2421,7 @@ TransferConfiguration接口为开发者提供了一组选项，用于调整会�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -2722,13 +2464,7 @@ TracingConfiguration接口使开发者能够在会话中的HTTP请求期间捕�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -2811,13 +2547,7 @@ ProxyConfiguration接口允许开发者为会话中的HTTP请求配置代理设�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -2883,13 +2613,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -2966,13 +2690,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -3013,13 +2731,7 @@ SecurityConfiguration接口允许开发者在会话中配置与安全相关的�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -3247,13 +2959,7 @@ constructor(url: URLOrString, method?: HttpMethod, headers?: RequestHeaders, con
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -4724,13 +4430,7 @@ constructor(fields: FormFields)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -4811,13 +4511,7 @@ constructor(fields: MultipartFormFields)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -4872,13 +4566,7 @@ constructor(fields: MultipartFormFields, boundary: string)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -4973,13 +4661,7 @@ HTTP简单表单数据字段。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -5073,13 +4755,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -5111,13 +4787,7 @@ RequestCookies是HTTP模块中的一个接口，用于表示HTTP请求中包含�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -5181,13 +4851,7 @@ HTTP请求的响应数据。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -5241,13 +4905,7 @@ toString(): string | null
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5288,13 +4946,7 @@ toJSON(): object | null
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5343,13 +4995,7 @@ toJSON(param: json.ParseOptions): object | null
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -5524,13 +5170,7 @@ TimeInfo时间线：请求开始 （0时刻） -> nameLookupTimeMs（DNS解析�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -6547,13 +6187,7 @@ type OnTimeInfo = (timeInfo: TimeInfo, request?: Request) => void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -7025,13 +6659,7 @@ constructor(configuration: CacheConfiguration)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -7078,13 +6706,7 @@ close(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -7147,13 +6769,7 @@ set(key: ResponseCacheKey, response: CachedResponse, expirationPolicy?: Expirati
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -7233,13 +6849,7 @@ get(key: ResponseCacheKey): Promise<ResponseCacheRecord>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -7294,13 +6904,7 @@ clear(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -7352,13 +6956,7 @@ getState(): Promise<CacheState>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -7419,13 +7017,7 @@ remove(key: ResponseCacheKey): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -7492,13 +7084,7 @@ removeMultiple(url: URLOrString, matchKind: URLMatchKind, method?: HttpMethod): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -7575,13 +7161,7 @@ createResponse(request: Request, cachedResponse: CachedResponse, currentTime: Da
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';
@@ -7642,13 +7222,7 @@ createCachedResponse(response: Response, timeStamp?: Date): CachedResponse
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rcp } from '@kit.RemoteCommunicationKit';

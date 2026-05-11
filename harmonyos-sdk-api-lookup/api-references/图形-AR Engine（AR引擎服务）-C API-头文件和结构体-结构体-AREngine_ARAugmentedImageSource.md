@@ -37,13 +37,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char* AREngine_ARAugmentedImageSource::imageName
@@ -57,13 +51,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const uint8_t* AREngine_ARAugmentedImageSource::imageData
@@ -77,13 +65,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t AREngine_ARAugmentedImageSource::pixelWidth
@@ -97,13 +79,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t AREngine_ARAugmentedImageSource::pixelHeight
@@ -117,13 +93,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t AREngine_ARAugmentedImageSource::stride
@@ -137,13 +107,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. float AREngine_ARAugmentedImageSource::realWidthInMeters

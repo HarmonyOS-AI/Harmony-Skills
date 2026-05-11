@@ -211,13 +211,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过Button绑定Modifier实现了点击切换背景颜色的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -261,13 +255,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过Button绑定Modifier实现了按压态的效果。如果配合状态管理V2使用，详情见：[Modifier与makeObserved](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/arkts-v1-v2-migration-inner-object#modifier)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -306,13 +294,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过状态数据设置自定义Modifier的宽度，自定义Modifier不支持感知@State装饰的状态数据变化，点击按钮后宽度不发生改变。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { CommonModifier } from "@kit.ArkUI";
@@ -371,13 +353,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过自定义Modifier设置了width和height，点击按钮时设置[borderStyle](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-appendix-enums#borderstyle)和[borderWidth](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-border#borderwidth)，点击后4个属性同时生效。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { CommonModifier } from "@kit.ArkUI";
@@ -444,13 +420,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过Button绑定Modifier实现了组件在获得焦点时的样式效果。点击Button2后，Button会显示获得焦点后的样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 设置Button组件属性的自定义AttributeModifier
@@ -497,13 +467,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过Button绑定Modifier实现了组件禁用时的样式效果。点击Button2后，Button会显示禁用状态的样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 设置Button组件属性的自定义AttributeModifier
@@ -544,13 +508,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过Radio绑定Modifier实现了展示组件选中时样式的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 设置Radio组件属性的自定义AttributeModifier
@@ -599,13 +557,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过Common（自定义）绑定Modifier实现了按压态的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

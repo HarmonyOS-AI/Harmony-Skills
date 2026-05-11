@@ -1,2 +1,0 @@
-* **[pdfService（PDF服务）](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/pdf-arkts-pdfservice)**
-* **[pdfViewManager（PDF预览）](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/pdf-arkts-pdfviewmanage)**

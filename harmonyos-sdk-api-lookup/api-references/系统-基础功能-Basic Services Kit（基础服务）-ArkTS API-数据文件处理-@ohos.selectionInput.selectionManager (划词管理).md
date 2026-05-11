@@ -10,13 +10,7 @@
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { selectionManager } from '@kit.BasicServicesKit';
@@ -63,13 +57,7 @@ on(type: 'selectionCompleted', callback: Callback<SelectionInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { selectionManager } from '@kit.BasicServicesKit';
@@ -106,13 +94,7 @@ off(type: 'selectionCompleted', callback?: Callback<SelectionInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { selectionManager } from '@kit.BasicServicesKit';
@@ -166,13 +148,7 @@ getSelectionContent(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { selectionManager } from '@kit.BasicServicesKit';
@@ -230,13 +206,7 @@ createPanel(ctx: Context, info: PanelInfo): Promise<Panel>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { selectionManager, SelectionExtensionAbility, PanelInfo, PanelType, BusinessError } from '@kit.BasicServicesKit';
@@ -320,13 +290,7 @@ destroyPanel(panel: Panel): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { selectionManager, SelectionExtensionAbility, PanelInfo, PanelType, BusinessError } from '@kit.BasicServicesKit';
@@ -462,13 +426,7 @@ setUiContent(path: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { selectionManager, BusinessError } from '@kit.BasicServicesKit';
@@ -517,13 +475,7 @@ show(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { selectionManager, BusinessError } from '@kit.BasicServicesKit';
@@ -568,13 +520,7 @@ hide(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { selectionManager, BusinessError } from '@kit.BasicServicesKit';
@@ -619,13 +565,7 @@ startMoving(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { selectionManager, BusinessError } from '@kit.BasicServicesKit';
@@ -690,13 +630,7 @@ moveToGlobalDisplay(x: number, y: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { selectionManager, BusinessError } from '@kit.BasicServicesKit';
@@ -735,13 +669,7 @@ on(type: 'destroyed', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { selectionManager, BusinessError } from '@kit.BasicServicesKit';
@@ -778,13 +706,7 @@ off(type: 'destroyed', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { selectionManager, BusinessError } from '@kit.BasicServicesKit';
@@ -819,13 +741,7 @@ on(type: 'hidden', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { selectionManager, BusinessError } from '@kit.BasicServicesKit';
@@ -862,13 +778,7 @@ off(type: 'hidden', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { selectionManager, BusinessError } from '@kit.BasicServicesKit';

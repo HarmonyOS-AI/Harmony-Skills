@@ -12,13 +12,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { deviceSettings } from '@kit.MDMKit';
@@ -65,13 +59,7 @@ setValue(admin: Want, item: string, value: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { deviceSettings } from '@kit.MDMKit';
@@ -138,13 +126,7 @@ getValue(admin: Want, item: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { deviceSettings } from '@kit.MDMKit';
@@ -211,13 +193,7 @@ setHomeWallpaper(admin: Want, fd: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { deviceSettings } from '@kit.MDMKit';
@@ -292,13 +268,7 @@ setUnlockWallpaper(admin: Want, fd: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { deviceSettings } from '@kit.MDMKit';
@@ -366,13 +336,7 @@ setValueForAccount(admin: Want, item: SettingsItem, accountId: number, value: st
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { deviceSettings } from '@kit.MDMKit';
@@ -443,13 +407,7 @@ getValueForAccount(admin: Want, item: SettingsItem, accountId: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { deviceSettings } from '@kit.MDMKit';

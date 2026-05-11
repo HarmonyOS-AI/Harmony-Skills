@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { securityLabel } from '@kit.CoreFileKit';
@@ -26,13 +20,7 @@ PhonePC/2in1TabletTVWearable
 
 使用该功能模块对文件/目录进行操作前，需要先获取其应用沙箱路径，获取方式及其接口用法请参考：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -116,13 +104,7 @@ setSecurityLabel(path:string, type:DataLevel):Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -173,13 +155,7 @@ setSecurityLabel(path:string, type:DataLevel, callback: AsyncCallback<void>):voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -231,13 +207,7 @@ setSecurityLabelSync(path:string, type:DataLevel):void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + '/test.txt';
@@ -289,13 +259,7 @@ getSecurityLabel(path:string):Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -345,13 +309,7 @@ getSecurityLabel(path:string, callback:AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -410,13 +368,7 @@ getSecurityLabelSync(path:string):string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + '/test.txt';

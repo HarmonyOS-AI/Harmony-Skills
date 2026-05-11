@@ -42,13 +42,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过zIndex设置组件堆叠顺序。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -89,13 +83,7 @@ Stack容器子组件设置zIndex后的效果。
 
 该示例使用Button组件动态修改zIndex属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -142,13 +130,7 @@ Stack容器子组件设置zIndex后的效果。
 
 该示例在不同容器内设置zIndex属性。其中，Text1、Text2和Text3在不同的Stack容器内。虽然Text3的zIndex值最小，但Text1、Text2仍无法按照预期显示在Text3的上方。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

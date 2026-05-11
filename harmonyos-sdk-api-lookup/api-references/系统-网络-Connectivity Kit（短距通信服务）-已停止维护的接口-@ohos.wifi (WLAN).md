@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wifi from '@ohos.wifi';
@@ -48,13 +42,7 @@ isWifiActive(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wifi from '@ohos.wifi';
@@ -93,13 +81,7 @@ scan(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wifi from '@ohos.wifi';
@@ -165,13 +147,7 @@ ohos.permission.GET\_WIFI\_PEERS\_MAC权限仅系统应用可申请。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wifi from '@ohos.wifi';
@@ -297,13 +273,7 @@ addUntrustedConfig(config: WifiDeviceConfig): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wifi from '@ohos.wifi';
@@ -363,13 +333,7 @@ addUntrustedConfig(config: WifiDeviceConfig, callback: AsyncCallback<boolean>): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wifi from '@ohos.wifi';
@@ -436,13 +400,7 @@ removeUntrustedConfig(config: WifiDeviceConfig): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wifi from '@ohos.wifi';
@@ -502,13 +460,7 @@ removeUntrustedConfig(config: WifiDeviceConfig, callback: AsyncCallback<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wifi from '@ohos.wifi';
@@ -576,13 +528,7 @@ getSignalLevel(rssi: number, band: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wifi from '@ohos.wifi';
@@ -647,13 +593,7 @@ getLinkedInfo(callback: AsyncCallback<WifiLinkedInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wifi from '@ohos.wifi';
@@ -784,13 +724,7 @@ isFeatureSupported(featureId: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wifi from '@ohos.wifi';
@@ -830,13 +764,7 @@ getIpInfo(): IpInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wifi from '@ohos.wifi';
@@ -899,13 +827,7 @@ getCountryCode(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wifi from '@ohos.wifi';
@@ -1007,13 +929,7 @@ getP2pLinkedInfo(callback: AsyncCallback<WifiP2pLinkedInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wifi from '@ohos.wifi';
@@ -1081,13 +997,7 @@ getCurrentGroup(callback: AsyncCallback<WifiP2pGroupInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wifi from '@ohos.wifi';
@@ -1155,13 +1065,7 @@ getP2pPeerDevices(callback: AsyncCallback<WifiP2pDevice[]>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wifi from '@ohos.wifi';
@@ -1257,13 +1161,7 @@ createGroup(config: WifiP2PConfig): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wifi from '@ohos.wifi';
@@ -1351,13 +1249,7 @@ removeGroup(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wifi from '@ohos.wifi';
@@ -1403,13 +1295,7 @@ p2pConnect(config: WifiP2PConfig): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wifi from '@ohos.wifi';
@@ -1503,13 +1389,7 @@ p2pCancelConnect(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wifi from '@ohos.wifi';
@@ -1547,13 +1427,7 @@ startDiscoverDevices(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wifi from '@ohos.wifi';
@@ -1591,13 +1465,7 @@ stopDiscoverDevices(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wifi from '@ohos.wifi';
@@ -1698,13 +1566,7 @@ off(type: 'wifiStateChange', callback?: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wifi from '@ohos.wifi';
@@ -1781,13 +1643,7 @@ off(type: 'wifiConnectionChange', callback?: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wifi from '@ohos.wifi';
@@ -1864,13 +1720,7 @@ off(type: 'wifiScanStateChange', callback?: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wifi from '@ohos.wifi';
@@ -1938,13 +1788,7 @@ off(type: 'wifiRssiChange', callback?: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wifi from '@ohos.wifi';
@@ -1998,13 +1842,7 @@ on(type: 'hotspotStateChange', callback: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wifi from '@ohos.wifi';
@@ -2109,13 +1947,7 @@ off(type: 'p2pStateChange', callback?: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wifi from '@ohos.wifi';
@@ -2183,13 +2015,7 @@ off(type: 'p2pConnectionChange', callback?: Callback<WifiP2pLinkedInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wifi from '@ohos.wifi';
@@ -2257,13 +2083,7 @@ off(type: 'p2pDeviceChange', callback?: Callback<WifiP2pDevice>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wifi from '@ohos.wifi';
@@ -2331,13 +2151,7 @@ off(type: 'p2pPeerDeviceChange', callback?: Callback<WifiP2pDevice[]>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wifi from '@ohos.wifi';
@@ -2405,13 +2219,7 @@ off(type: 'p2pPersistentGroupChange', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wifi from '@ohos.wifi';
@@ -2488,13 +2296,7 @@ off(type: 'p2pDiscoveryChange', callback?: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wifi from '@ohos.wifi';

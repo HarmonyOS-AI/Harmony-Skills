@@ -13,13 +13,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 在API version 23之前的版本中，需要使用'import { api1, api2, ... } from @ohos.file.PhotoPickerComponent'的导入方式。
@@ -253,13 +247,7 @@ type ItemClickedNotifyCallback = (itemInfo: ItemInfo, clickType: ClickType) => v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {
@@ -1257,13 +1245,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1491,13 +1473,7 @@ PhonePC/2in1TabletTV
 
 从API version 23开始，可以通过[PickerOptions](/consumer/cn/doc/harmonyos-references/ohos-file-photopickercomponent#pickeroptions)的isSlidingSupported、[PhotoPickerComponent](/consumer/cn/doc/harmonyos-references/ohos-file-photopickercomponent#photopickercomponent)的onScrollStopAtStart和onScrollStopAtEnd回调来实现抽屉效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

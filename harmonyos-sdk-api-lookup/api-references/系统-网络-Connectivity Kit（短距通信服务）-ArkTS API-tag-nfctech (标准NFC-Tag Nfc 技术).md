@@ -12,13 +12,7 @@
 
 PhoneWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -58,13 +52,7 @@ getSak(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -96,13 +84,7 @@ getAtqa(): number[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -146,13 +128,7 @@ getRespAppData(): number[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -184,13 +160,7 @@ getRespProtocol(): number[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -234,13 +204,7 @@ getSystemCode(): number[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -272,13 +236,7 @@ getPmm(): number[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -322,13 +280,7 @@ getResponseFlags(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -360,13 +312,7 @@ getDsfId(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -410,13 +356,7 @@ getHistoricalBytes(): number[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -448,13 +388,7 @@ getHiLayerResponse(): number[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -501,13 +435,7 @@ isExtendedApduSupported(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -572,13 +500,7 @@ isExtendedApduSupported(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -634,13 +556,7 @@ getNdefRecords(): [tag.NdefRecord](https://developer.huawei.com/consumer/cn/doc/
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -687,13 +603,7 @@ getNdefTagType(): [tag.NfcForumType](https://developer.huawei.com/consumer/cn/do
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -725,13 +635,7 @@ getNdefMessage(): [NdefMessage](/consumer/cn/doc/harmonyos-references/js-apis-nf
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -763,13 +667,7 @@ isNdefWritable(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -816,13 +714,7 @@ readNdef(): Promise<[NdefMessage](/consumer/cn/doc/harmonyos-references/js-apis-
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -887,13 +779,7 @@ readNdef(callback: AsyncCallback<[NdefMessage](/consumer/cn/doc/harmonyos-refere
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -968,13 +854,7 @@ writeNdef(msg: [NdefMessage](/consumer/cn/doc/harmonyos-references/js-apis-nfcte
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -1045,13 +925,7 @@ writeNdef(msg: [NdefMessage](/consumer/cn/doc/harmonyos-references/js-apis-nfcte
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -1121,13 +995,7 @@ canSetReadOnly(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -1174,13 +1042,7 @@ setReadOnly(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -1246,13 +1108,7 @@ setReadOnly(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -1323,13 +1179,7 @@ getNdefTagTypeString(type: [tag.NfcForumType](https://developer.huawei.com/consu
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -1404,13 +1254,7 @@ authenticateSector(sectorIndex: number, key: number[], isKeyA: boolean): Promise
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -1481,13 +1325,7 @@ authenticateSector(sectorIndex: number, key: number[], isKeyA: boolean, callback
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -1565,13 +1403,7 @@ readSingleBlock(blockIndex: number): Promise<number[]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -1639,13 +1471,7 @@ readSingleBlock(blockIndex: number, callback: AsyncCallback<number[]>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -1723,13 +1549,7 @@ writeSingleBlock(blockIndex: number, data: number[]): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -1800,13 +1620,7 @@ writeSingleBlock(blockIndex: number, data: number[], callback: AsyncCallback<voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -1886,13 +1700,7 @@ incrementBlock(blockIndex: number, value: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -1962,13 +1770,7 @@ incrementBlock(blockIndex: number, value: number, callback: AsyncCallback<void>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -2047,13 +1849,7 @@ decrementBlock(blockIndex: number, value: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -2123,13 +1919,7 @@ decrementBlock(blockIndex: number, value: number, callback: AsyncCallback<void>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -2208,13 +1998,7 @@ transferToBlock(blockIndex: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -2282,13 +2066,7 @@ transferToBlock(blockIndex: number, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -2365,13 +2143,7 @@ restoreFromBlock(blockIndex: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -2439,13 +2211,7 @@ restoreFromBlock(blockIndex: number, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -2499,13 +2265,7 @@ getSectorCount(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -2556,13 +2316,7 @@ getBlockCountInSector(sectorIndex: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -2601,13 +2355,7 @@ getType(): [tag.MifareClassicType](https://developer.huawei.com/consumer/cn/doc/
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -2639,13 +2387,7 @@ getTagSize(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -2678,13 +2420,7 @@ isEmulatedTag(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -2735,13 +2471,7 @@ getBlockIndex(sectorIndex: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -2798,13 +2528,7 @@ getSectorIndex(blockIndex: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -2878,13 +2602,7 @@ readMultiplePages(pageIndex: number): Promise<number[]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -2952,13 +2670,7 @@ readMultiplePages(pageIndex: number, callback: AsyncCallback<number[]>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -3036,13 +2748,7 @@ writeSinglePage(pageIndex: number, data: number[]): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -3112,13 +2818,7 @@ writeSinglePage(pageIndex: number, data: number[], callback: AsyncCallback<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -3173,13 +2873,7 @@ getType(): [tag.MifareUltralightType](https://developer.huawei.com/consumer/cn/d
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -3246,13 +2940,7 @@ format(message: [NdefMessage](/consumer/cn/doc/harmonyos-references/js-apis-nfct
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -3324,13 +3012,7 @@ format(message: [NdefMessage](/consumer/cn/doc/harmonyos-references/js-apis-nfct
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -3410,13 +3092,7 @@ formatReadOnly(message: [NdefMessage](/consumer/cn/doc/harmonyos-references/js-a
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -3488,13 +3164,7 @@ formatReadOnly(message: [NdefMessage](/consumer/cn/doc/harmonyos-references/js-a
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';

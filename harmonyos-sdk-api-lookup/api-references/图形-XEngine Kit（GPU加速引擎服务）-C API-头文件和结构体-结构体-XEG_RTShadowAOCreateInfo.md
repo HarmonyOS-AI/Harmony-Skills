@@ -41,13 +41,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bool XEG_RTShadowAOCreateInfo::aoOnlyInShadow
@@ -61,13 +55,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. XEG_DenoiseQualityMode XEG_RTShadowAOCreateInfo::denoiseMode
@@ -81,13 +69,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bool XEG_RTShadowAOCreateInfo::enableRTAO
@@ -101,13 +83,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bool XEG_RTShadowAOCreateInfo::enableRTShadow
@@ -121,13 +97,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const void* XEG_RTShadowAOCreateInfo::pNext
@@ -141,13 +111,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bool XEG_RTShadowAOCreateInfo::reverseZ
@@ -161,13 +125,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkExtent2D XEG_RTShadowAOCreateInfo::rtInputGbufferSize
@@ -181,13 +139,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkExtent2D XEG_RTShadowAOCreateInfo::rtShadowAOSize
@@ -201,13 +153,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. XEG_StructureType XEG_RTShadowAOCreateInfo::sType
@@ -221,13 +167,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. XEG_TraversalMode XEG_RTShadowAOCreateInfo::traversalMode

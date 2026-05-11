@@ -12,13 +12,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { locationManager } from '@kit.MDMKit';
@@ -64,13 +58,7 @@ setLocationPolicy(admin: Want, policy: LocationPolicy): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { locationManager } from '@kit.MDMKit';
@@ -135,13 +123,7 @@ getLocationPolicy(admin: Want): LocationPolicy
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { locationManager } from '@kit.MDMKit';

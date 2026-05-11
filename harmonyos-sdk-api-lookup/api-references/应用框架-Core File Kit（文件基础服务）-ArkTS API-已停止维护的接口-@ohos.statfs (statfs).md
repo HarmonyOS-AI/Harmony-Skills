@@ -9,13 +9,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import statfs from '@ohos.statfs';
@@ -49,13 +43,7 @@ getFreeBytes(path:string):Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -88,13 +76,7 @@ getFreeBytes(path:string, callback:AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import common from '@ohos.app.ability.common';
@@ -138,13 +120,7 @@ getTotalBytes(path: string): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -177,13 +153,7 @@ getTotalBytes(path: string, callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import common from '@ohos.app.ability.common';

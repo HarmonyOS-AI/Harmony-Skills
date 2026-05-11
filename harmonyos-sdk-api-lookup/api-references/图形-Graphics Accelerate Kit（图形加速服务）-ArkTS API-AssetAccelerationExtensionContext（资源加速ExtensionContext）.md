@@ -10,13 +10,7 @@ AssetAccelerationExtensionContext是AssetAccelerationExtensionAbility的上下�
 
 PhoneTablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AssetAccelerationExtensionContext } from '@kit.GraphicsAccelerateKit';

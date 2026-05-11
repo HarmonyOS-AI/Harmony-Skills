@@ -1,1 +1,0 @@
-* **[notification.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-notification-h)**

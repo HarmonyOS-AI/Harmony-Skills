@@ -11,13 +11,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { retrieval } from '@kit.DataAugmentationKit';
@@ -53,13 +47,7 @@ getRetriever(config: RetrievalConfig): Promise<Retriever>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { retrieval } from '@kit.DataAugmentationKit';
@@ -264,13 +252,7 @@ retrieveRdb(query: string, condition: RetrievalCondition): Promise<RdbRecords>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { retrieval } from '@kit.DataAugmentationKit';

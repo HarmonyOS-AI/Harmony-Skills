@@ -405,13 +405,7 @@ TextClock容器组件的控制器，可以将该控制器绑定到TextClock组�
 
 ### 导入对象
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. controller: TextClockController = new TextClockController();
@@ -489,13 +483,7 @@ PhonePC/2in1TabletTVWearable
 
 示例中的组件通过设置[TextClockController](/consumer/cn/doc/harmonyos-references/ts-basic-components-textclock#textclockcontroller)回调函数，在文本时钟更新时，持续修改accumulateTime的内容。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -541,13 +529,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[textShadow](/consumer/cn/doc/harmonyos-references/ts-basic-components-textclock#textshadow11)属性设置文本时钟的文本阴影样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -594,13 +576,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例实现了自定义文本时钟样式的功能，自定义样式实现了一个时间选择器组件：通过文本时钟的时区偏移量与UTC秒数，来动态改变时间选择器的选中值，实现时钟效果。同时，根据文本时钟的启动状态，实现文本选择器的12小时制与24小时制的切换。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class MyTextClockStyle implements ContentModifier<TextClockConfiguration> {
@@ -686,13 +662,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例演示了[dateTimeOptions](/consumer/cn/doc/harmonyos-references/ts-basic-components-textclock#datetimeoptions12)属性为小时字段增加或去除前导0的功能。24小时制的小时字段默认带有前导0，可通过[dateTimeOptions](/consumer/cn/doc/harmonyos-references/ts-basic-components-textclock#datetimeoptions12)属性去除前导0，12小时制的小时字段默认不带有前导0，可通过[dateTimeOptions](/consumer/cn/doc/harmonyos-references/ts-basic-components-textclock#datetimeoptions12)属性增加前导0。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -729,13 +699,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例演示了使用[fontFeature](/consumer/cn/doc/harmonyos-references/ts-basic-components-textclock#fontfeature11)、[fontColor](/consumer/cn/doc/harmonyos-references/ts-basic-components-textclock#fontcolor)、[fontStyle](/consumer/cn/doc/harmonyos-references/ts-basic-components-textclock#fontstyle)、[fontWeight](/consumer/cn/doc/harmonyos-references/ts-basic-components-textclock#fontweight)、[fontFamily](/consumer/cn/doc/harmonyos-references/ts-basic-components-textclock#fontfamily)属性设置时钟文字显示样式的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry

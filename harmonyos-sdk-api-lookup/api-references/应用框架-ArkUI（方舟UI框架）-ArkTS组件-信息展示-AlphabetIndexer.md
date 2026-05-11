@@ -715,13 +715,7 @@ PhonePC/2in1TabletTVWearable
 
 通过[onRequestPopupData](/consumer/cn/doc/harmonyos-references/ts-container-alphabet-indexer#onrequestpopupdata8)事件自定义提示弹窗显示文本内容。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -839,13 +833,7 @@ PhonePC/2in1TabletTVWearable
 
 通过[autoCollapse](/consumer/cn/doc/harmonyos-references/ts-container-alphabet-indexer#autocollapse11)属性开启自适应折叠模式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -989,13 +977,7 @@ PhonePC/2in1TabletTVWearable
 
 通过[popupBackgroundBlurStyle](/consumer/cn/doc/harmonyos-references/ts-container-alphabet-indexer#popupbackgroundblurstyle12)属性实现提示弹窗的背景模糊效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

@@ -6,13 +6,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { netQuality } from '@kit.NetworkBoostKit';
@@ -55,13 +49,7 @@ on(type: 'netQosChange', callback: Callback<Array<NetworkQos>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -117,13 +105,7 @@ off(type: 'netQosChange', callback?: Callback<Array<NetworkQos>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -172,13 +154,7 @@ on(type: 'netSceneChange', callback: Callback<Array<NetworkScene>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -237,13 +213,7 @@ off(type: 'netSceneChange', callback?: Callback<Array<NetworkScene>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -291,13 +261,7 @@ reportQoe(appQoe: AppQoe): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

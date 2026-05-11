@@ -308,13 +308,7 @@ enableHapticFeedback(enable: Optional<boolean>)
 
 开启触控反馈时，需要在工程的src/main/module.json5文件的"module"内配置requestPermissions字段开启振动权限，配置如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. "requestPermissions": [
@@ -464,13 +458,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例实现了日期选择器组件，点击按钮可以切换公历农历。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -509,13 +497,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置[disappearTextStyle](/consumer/cn/doc/harmonyos-references/ts-basic-components-datepicker#disappeartextstyle10)、[textStyle](/consumer/cn/doc/harmonyos-references/ts-basic-components-datepicker#textstyle10)、[selectedTextStyle](/consumer/cn/doc/harmonyos-references/ts-basic-components-datepicker#selectedtextstyle10)设置文本样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -552,13 +534,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 18开始，新增了[DatePickerOptions](/consumer/cn/doc/harmonyos-references/ts-basic-components-datepicker#datepickeroptions对象说明)的mode属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -611,13 +587,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，可以通过配置[canLoop](/consumer/cn/doc/harmonyos-references/ts-basic-components-datepicker#canloop20)参数设置DatePicker是否循环滚动。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

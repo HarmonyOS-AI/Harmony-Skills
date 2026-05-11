@@ -156,13 +156,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define NB_BPS   1
@@ -178,13 +172,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define NB_GBPS   1000000000
@@ -200,13 +188,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define NB_KBPS   1000
@@ -222,13 +204,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define NB_MBPS   1000000
@@ -244,13 +220,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define NB_TBPS   1000000000000
@@ -266,13 +236,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define NETBOOST_MAX_PATH_NUM   4
@@ -292,13 +256,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct HMS_NetworkBoost_HandoverCallback HMS_NetworkBoost_HandoverCallback
@@ -314,13 +272,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef void(* HMS_NetworkBoost_NetQosChange) (NetworkBoost_NetworkQosArray *networkQosArray)
@@ -344,13 +296,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef void(* HMS_NetworkBoost_NetSceneChange) (NetworkBoost_NetworkScene *networkScene)
@@ -374,13 +320,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef void(* HMS_NetworkBoost_OnHandoverComplete) (NetworkBoost_HandoverComplete *handoverComplete)
@@ -404,13 +344,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef void(* HMS_NetworkBoost_OnHandoverStart) (NetworkBoost_HandoverStart *handoverStart)
@@ -434,13 +368,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef void (*HMS_NetworkBoost_OnMultiPathRequestResult)(NetworkBoost_MultiPathRequestResult* result)
@@ -464,13 +392,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef void (*HMS_NetworkBoost_OnMultiPathStateChange)(NetworkBoost_MultiPathStateChange* multiPathState)
@@ -494,13 +416,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef void (*HMS_NetworkBoost_OnMultiPathRecommendation)(NetworkBoost_MultiPathRecommendation* recommendation)
@@ -524,13 +440,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct NetworkBoost_DataSpeedAction NetworkBoost_DataSpeedAction
@@ -546,13 +456,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef enum NetworkBoost_DataSpeedSimpleAction NetworkBoost_DataSpeedSimpleAction
@@ -568,13 +472,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef enum NetworkBoost_ErrorResult NetworkBoost_ErrorResult
@@ -590,13 +488,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct NetworkBoost_HandoverComplete NetworkBoost_HandoverComplete
@@ -612,13 +504,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef enum NetworkBoost_HandoverMode NetworkBoost_HandoverMode
@@ -634,13 +520,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct NetworkBoost_HandoverStart NetworkBoost_HandoverStart
@@ -656,13 +536,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct NetworkBoost_NetHandle NetworkBoost_NetHandle
@@ -678,13 +552,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct NetworkBoost_NetworkQos NetworkBoost_NetworkQos
@@ -700,13 +568,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct NetworkBoost_NetworkQosArray NetworkBoost_NetworkQosArray
@@ -722,13 +584,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct NetworkBoost_NetworkScene NetworkBoost_NetworkScene
@@ -744,13 +600,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef enum NetworkBoost_PathType NetworkBoost_PathType
@@ -766,13 +616,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef enum NetworkBoost_QoeType NetworkBoost_QoeType
@@ -788,13 +632,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef enum NetworkBoost_RecommendedAction NetworkBoost_RecommendedAction
@@ -810,13 +648,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef enum NetworkBoost_ReEstAction NetworkBoost_ReEstAction
@@ -832,13 +664,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef enum NetworkBoost_Scene NetworkBoost_Scene
@@ -854,13 +680,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef enum NetworkBoost_ServiceType NetworkBoost_ServiceType
@@ -876,13 +696,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct NetworkBoost_WeakSignalPrediction NetworkBoost_WeakSignalPrediction
@@ -902,13 +716,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum NetworkBoost_DataSpeedSimpleAction
@@ -933,13 +741,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum NetworkBoost_ErrorResult
@@ -964,13 +766,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum NetworkBoost_HandoverMode
@@ -993,13 +789,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum NetworkBoost_PathType
@@ -1024,13 +814,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum NetworkBoost_QoeType
@@ -1059,13 +843,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum NetworkBoost_RecommendedAction
@@ -1091,13 +869,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum NetworkBoost_ReEstAction
@@ -1123,13 +895,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum NetworkBoost_Scene
@@ -1154,13 +920,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum NetworkBoost_ServiceType
@@ -1205,13 +965,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum NetworkBoost_PathState
@@ -1235,13 +989,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum NetworkBoost_MultiPathChangeCause
@@ -1275,13 +1023,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum NetworkBoost_MultiPathErrorResult
@@ -1306,13 +1048,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum NetworkBoost_MultiPathState
@@ -1337,13 +1073,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum NetworkBoost_MultiPathAction
@@ -1366,13 +1096,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum NetworkBoost_SceneEvent
@@ -1400,13 +1124,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t HMS_NetworkBoost_RegisterHandoverChangeCallback (HMS_NetworkBoost_HandoverCallback * callback, uint32_t * callbackId )
@@ -1451,13 +1169,7 @@ ohos.permission.GET\_NETWORK\_INFO
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t HMS_NetworkBoost_RegisterNetQosCallback (HMS_NetworkBoost_NetQosChange callback, uint32_t * callbackId )
@@ -1502,13 +1214,7 @@ ohos.permission.GET\_NETWORK\_INFO
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t HMS_NetworkBoost_RegisterNetSceneCallback (HMS_NetworkBoost_NetSceneChange callback, uint32_t * callbackId )
@@ -1553,13 +1259,7 @@ ohos.permission.GET\_NETWORK\_INFO
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t HMS_NetworkBoost_ReportQoe (NetworkBoost_ServiceType serviceType, NetworkBoost_QoeType qoeType )
@@ -1602,13 +1302,7 @@ ohos.permission.GET\_NETWORK\_INFO
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t HMS_NetworkBoost_SetHandoverMode (NetworkBoost_HandoverMode mode)
@@ -1650,13 +1344,7 @@ ohos.permission.GET\_NETWORK\_INFO
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t HMS_NetworkBoost_UnregisterHandoverChangeCallback (uint32_t callbackId)
@@ -1698,13 +1386,7 @@ ohos.permission.GET\_NETWORK\_INFO
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t HMS_NetworkBoost_UnregisterNetQosCallback (uint32_t callbackId)
@@ -1746,13 +1428,7 @@ ohos.permission.GET\_NETWORK\_INFO
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t HMS_NetworkBoost_UnregisterNetSceneCallback (uint32_t callbackId)
@@ -1794,13 +1470,7 @@ ohos.permission.GET\_NETWORK\_INFO
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t HMS_NetworkBoost_GetMultiPathQuotaStats(NetworkBoost_MultiPathQuota* quota)
@@ -1840,13 +1510,7 @@ ohos.permission.LINKTURBO
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t HMS_NetworkBoost_RequestMultiPath(HMS_NetworkBoost_OnMultiPathRequestResult result)
@@ -1906,13 +1570,7 @@ ohos.permission.LINKTURBO
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t HMS_NetworkBoost_ReleaseMultiPath()
@@ -1946,13 +1604,7 @@ ohos.permission.LINKTURBO
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t HMS_NetworkBoost_RegisterMultiPathStateChangeCallback(HMS_NetworkBoost_OnMultiPathStateChange callback, uint32_t* callbackId)
@@ -1993,13 +1645,7 @@ ohos.permission.LINKTURBO
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t HMS_NetworkBoost_UnregisterMultiPathStateChangeCallback(uint32_t callbackId)
@@ -2037,13 +1683,7 @@ ohos.permission.LINKTURBO
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t HMS_NetworkBoost_RegisterMultiPathRecommendationCallback(HMS_NetworkBoost_OnMultiPathRecommendation callback, uint32_t* callbackId)
@@ -2084,13 +1724,7 @@ ohos.permission.LINKTURBO
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t HMS_NetworkBoost_UnregisterMultiPathRecommendationCallback(uint32_t callbackId)
@@ -2128,13 +1762,7 @@ ohos.permission.LINKTURBO
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t HMS_NetworkBoost_SetSceneDesc(NetworkBoost_SceneDesc sceneDesc)

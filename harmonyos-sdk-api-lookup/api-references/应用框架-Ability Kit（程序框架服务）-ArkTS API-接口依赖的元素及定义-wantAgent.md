@@ -1,2 +1,0 @@
-* **[TriggerInfo](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-inner-wantagent-triggerinfo)**
-* **[WantAgentInfo](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-inner-wantagent-wantagentinfo)**

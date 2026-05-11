@@ -38,13 +38,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint32_t XEG_RTShadowParameters::rayPerPixel = 1
@@ -58,13 +52,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. float XEG_RTShadowParameters::raySourceAngleInDegree = 0.0f
@@ -78,13 +66,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. float XEG_RTShadowParameters::rayTMax
@@ -98,13 +80,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. float XEG_RTShadowParameters::rayTMin
@@ -118,13 +94,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. float XEG_RTShadowParameters::shadowCullDistance
@@ -138,13 +108,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint32_t XEG_RTShadowParameters::shadowCullMask = 0x5FF
@@ -158,13 +122,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. float XEG_RTShadowParameters::sunDirection[3]

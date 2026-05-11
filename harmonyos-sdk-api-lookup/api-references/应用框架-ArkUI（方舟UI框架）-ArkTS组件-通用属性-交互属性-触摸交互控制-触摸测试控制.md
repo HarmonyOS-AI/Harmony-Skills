@@ -42,13 +42,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过设置不同的[HitTestMode](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-appendix-enums#hittestmode9)值演示了Block和Transparent的触摸测试效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -90,13 +84,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，该示例演示了设置触摸测试类型为BLOCK\_HIERARCHY时的触摸测试效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -175,13 +163,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，该示例演示了设置触摸测试类型为BLOCK\_DESCENDANTS时的触摸测试效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -239,13 +221,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例演示了在Stack组件中存在多节点触摸区域重叠时的触摸测试效果。此时设置[HitTestMode](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-appendix-enums#hittestmode9)为None时，重叠的背景区域无法响应触摸测试；只有设置为Transparent时，背景区域才能响应触摸测试。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

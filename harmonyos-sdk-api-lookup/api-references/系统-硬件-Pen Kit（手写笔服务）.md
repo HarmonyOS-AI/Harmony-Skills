@@ -1,4 +1,0 @@
-* **[ArkTS API](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/pen-arkts)**
-* **[ArkTS组件](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/pen-arkts-component)**
-* **[C API](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/pen-c-api)**
-* **[ArkTS API 错误码](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/pen-error-code)**

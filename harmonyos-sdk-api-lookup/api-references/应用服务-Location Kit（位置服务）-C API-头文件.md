@@ -1,2 +1,0 @@
-* **[oh\_location.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-oh-location-h)**
-* **[oh\_location\_type.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-oh-location-type-h)**

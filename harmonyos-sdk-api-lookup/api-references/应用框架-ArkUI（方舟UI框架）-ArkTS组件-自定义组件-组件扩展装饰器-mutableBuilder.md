@@ -38,13 +38,7 @@ mutableBuilder是一个模板函数，它返回一个MutableBuilder对象，只�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class TextContent {
@@ -120,13 +114,7 @@ mutableBuilder函数入参为全局@Builder函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Builder

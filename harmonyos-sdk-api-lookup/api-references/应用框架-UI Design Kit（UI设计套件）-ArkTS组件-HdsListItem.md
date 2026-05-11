@@ -6,13 +6,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { HdsListItem } from '@kit.UIDesignKit';
@@ -266,13 +260,7 @@ PhonePC/2in1TabletTV
 
 设置一个带横滑效果的列表：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { promptAction, SymbolGlyphModifier, TextModifier } from '@kit.ArkUI';

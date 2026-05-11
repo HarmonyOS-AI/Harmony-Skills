@@ -9,13 +9,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {
@@ -46,13 +40,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AnimatedDrawableDescriptor, AnimationOptions, DrawableDescriptor, DrawableDescriptorLoadedResult } from '@kit.ArkUI';
@@ -128,13 +116,7 @@ loadSync(): DrawableDescriptorLoadedResult
 | --- | --- |
 | 111001 | resource loading failed. |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AnimatedDrawableDescriptor, DrawableDescriptor, DrawableDescriptorLoadedResult, AnimationOptions } from '@kit.ArkUI';
@@ -180,13 +162,7 @@ load(): Promise<DrawableDescriptorLoadedResult>
 | --- | --- |
 | 111001 | resource loading failed. |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {
@@ -239,13 +215,7 @@ PhonePC/2in1TabletTVWearable
 
 drawable.json位于项目工程entry/src/main/resources/base/media目录下。定义请参考：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. {
@@ -261,13 +231,7 @@ drawable.json位于项目工程entry/src/main/resources/base/media目录下。�
 
 使用json文件创建LayeredDrawableDescriptor，示例代码如下。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -296,13 +260,7 @@ drawable.json位于项目工程entry/src/main/resources/base/media目录下。�
 
 使用PixelMapDrawableDescriptor创建LayeredDrawableDescriptor，示例代码如下。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { DrawableDescriptor, LayeredDrawableDescriptor, PixelMapDrawableDescriptor } from '@kit.ArkUI';
@@ -400,13 +358,7 @@ getForeground(): DrawableDescriptor
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { DrawableDescriptor, LayeredDrawableDescriptor } from '@kit.ArkUI';
@@ -472,13 +424,7 @@ getBackground(): DrawableDescriptor
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { DrawableDescriptor, LayeredDrawableDescriptor } from '@kit.ArkUI';
@@ -539,13 +485,7 @@ getMask(): DrawableDescriptor
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { DrawableDescriptor, LayeredDrawableDescriptor } from '@kit.ArkUI';
@@ -606,13 +546,7 @@ LayeredDrawableDescriptor的静态方法，获取系统内置的裁切路径参�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -660,13 +594,7 @@ setBlendMode(mode: drawing.BlendMode): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { DrawableDescriptor, LayeredDrawableDescriptor } from '@kit.ArkUI';
@@ -747,13 +675,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AnimationOptions, AnimatedDrawableDescriptor } from '@kit.ArkUI';
@@ -856,13 +778,7 @@ AnimatedDrawableDescriptor的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AnimationOptions, AnimatedDrawableDescriptor } from '@kit.ArkUI';
@@ -926,13 +842,7 @@ getAnimationController(id?: string): AnimationController | undefined
 
 [Image](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-basic-components-image)组件与AnimatedDrawableDescriptor保持1比1持有关系，示例代码如下。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AnimationOptions, AnimatedDrawableDescriptor, AnimationController } from '@kit.ArkUI';
@@ -968,13 +878,7 @@ getAnimationController(id?: string): AnimationController | undefined
 
 [Image](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-basic-components-image)组件与AnimatedDrawableDescriptor保持1比N持有关系，示例代码如下。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AnimationOptions, AnimatedDrawableDescriptor, AnimationController } from '@kit.ArkUI';
@@ -1034,13 +938,7 @@ start(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AnimationOptions, AnimatedDrawableDescriptor } from '@kit.ArkUI';
@@ -1081,13 +979,7 @@ stop(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AnimationOptions, AnimatedDrawableDescriptor } from '@kit.ArkUI';
@@ -1128,13 +1020,7 @@ resume(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AnimationOptions, AnimatedDrawableDescriptor } from '@kit.ArkUI';
@@ -1175,13 +1061,7 @@ pause(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AnimationOptions, AnimatedDrawableDescriptor } from '@kit.ArkUI';
@@ -1230,13 +1110,7 @@ getStatus(): AnimationStatus
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AnimationOptions, AnimatedDrawableDescriptor } from '@kit.ArkUI';

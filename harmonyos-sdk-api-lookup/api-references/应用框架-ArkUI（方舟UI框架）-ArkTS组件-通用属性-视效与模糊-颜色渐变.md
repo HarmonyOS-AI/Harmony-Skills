@@ -284,13 +284,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[linearGradient](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-gradient-color#lineargradient)来实现组件的颜色线性渐变。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -329,13 +323,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[sweepGradient](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-gradient-color#sweepgradient)来实现组件颜色旋转角度渐变。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 设置P3色域时需要在ets/entryability/EntryAbility.ets中，通过setColorSpace接口将当前窗口设置为广色域。
@@ -400,13 +388,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[radialGradient](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-gradient-color#radialgradient)来实现组件颜色径向渐变。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

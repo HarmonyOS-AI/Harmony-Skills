@@ -6,13 +6,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudResPrefetch } from '@kit.CloudFoundationKit';
@@ -55,13 +49,7 @@ registerPrefetchTask(options: PrefetchOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudResPrefetch } from '@kit.CloudFoundationKit';
@@ -136,13 +124,7 @@ getPrefetchResult(mode: PrefetchMode, callback: AsyncCallback<PrefetchResult>, p
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudResPrefetch } from '@kit.CloudFoundationKit';
@@ -232,13 +214,7 @@ getPrefetchResult(mode: PrefetchMode, params?: PrefetchParams): Promise<Prefetch
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudResPrefetch } from '@kit.CloudFoundationKit';

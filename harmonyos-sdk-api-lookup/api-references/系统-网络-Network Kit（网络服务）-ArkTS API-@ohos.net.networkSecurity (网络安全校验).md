@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { networkSecurity } from '@kit.NetworkKit';
@@ -24,13 +18,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { networkSecurity } from '@kit.NetworkKit';
@@ -150,13 +138,7 @@ certVerification(cert: CertBlob, caCert?: CertBlob): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { networkSecurity } from '@kit.NetworkKit';
@@ -246,13 +228,7 @@ certVerificationSync(cert: CertBlob, caCert?: CertBlob): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { networkSecurity } from '@kit.NetworkKit';
@@ -318,13 +294,7 @@ isCleartextPermitted(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { networkSecurity } from '@kit.NetworkKit';
@@ -377,13 +347,7 @@ isCleartextPermittedByHostName(hostName: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { networkSecurity } from '@kit.NetworkKit';

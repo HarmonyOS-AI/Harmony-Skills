@@ -6,13 +6,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataTransfer } from '@kit.NearLinkKit';
@@ -76,13 +70,7 @@ createPort(uuid: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataTransfer} from '@kit.NearLinkKit';
@@ -136,13 +124,7 @@ destroyPort(uuid: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataTransfer} from '@kit.NearLinkKit';
@@ -203,13 +185,7 @@ connect(params: ConnectionParams): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataTransfer} from '@kit.NearLinkKit';
@@ -276,13 +252,7 @@ disconnect(params: ConnectionParams): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataTransfer} from '@kit.NearLinkKit';
@@ -341,13 +311,7 @@ on(type: 'connectionStateChanged', callback: Callback<ConnectionResult>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataTransfer} from '@kit.NearLinkKit';
@@ -402,13 +366,7 @@ off(type: 'connectionStateChanged', callback?: Callback<ConnectionResult>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataTransfer} from '@kit.NearLinkKit';
@@ -467,13 +425,7 @@ getConnectionState(params: ConnectionStateParams): ConnectionState
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataTransfer } from '@kit.NearLinkKit';
@@ -538,13 +490,7 @@ writeData(params: DataParams): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataTransfer} from '@kit.NearLinkKit';
@@ -608,13 +554,7 @@ on(type: 'readData', callback: Callback<DataParams>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataTransfer} from '@kit.NearLinkKit';
@@ -669,13 +609,7 @@ off(type: 'readData', callback?: Callback<DataParams>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataTransfer} from '@kit.NearLinkKit';

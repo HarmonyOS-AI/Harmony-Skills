@@ -6,13 +6,7 @@
 
 Lite Wearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import healthStore from '@hms.health.store';
@@ -413,13 +407,7 @@ saveData(exerciseSequence: ExerciseSequence): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import healthStore from '@hms.health.store'
@@ -501,13 +489,7 @@ readData<T extends ExerciseSequence>(request: ExerciseSequenceReadRequest, callb
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import healthStore from '@hms.health.store'
@@ -580,13 +562,7 @@ requestAuthorizations(request: AuthorizationRequest): AuthorizationResponse
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import healthStore from '@hms.health.store'
@@ -647,13 +623,7 @@ getAuthorizations(request: AuthorizationRequest): AuthorizationResponse
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import healthStore from '@hms.health.store'

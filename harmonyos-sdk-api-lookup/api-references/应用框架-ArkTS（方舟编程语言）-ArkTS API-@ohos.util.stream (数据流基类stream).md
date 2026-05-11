@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { stream  } from '@kit.ArkTS';
@@ -62,13 +56,7 @@ Writable的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let writableStream = new stream.Writable();
@@ -119,13 +107,7 @@ write(chunk?: string | Uint8Array, encoding?: string, callback?: Function): bool
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class TestWritable extends stream.Writable {
@@ -186,13 +168,7 @@ end(chunk?: string | Uint8Array, encoding?: string, callback?: Function): Writab
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class TestWritable extends stream.Writable {
@@ -255,13 +231,7 @@ setDefaultEncoding(encoding?: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class TestWritable extends stream.Writable {
@@ -301,13 +271,7 @@ cork(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class TestWritable extends stream.Writable {
@@ -347,13 +311,7 @@ uncork(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class TestWritable extends stream.Writable {
@@ -410,13 +368,7 @@ on(event: string, callback: Callback<emitter.EventData>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class TestWritable extends stream.Writable {
@@ -471,13 +423,7 @@ off(event: string, callback?: Callback<emitter.EventData>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class TestWritable extends stream.Writable {
@@ -536,13 +482,7 @@ doInitialize(callback: Function): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class MyWritable extends stream.Writable {
@@ -593,13 +533,7 @@ doWrite(chunk: string | Uint8Array, encoding: string, callback: Function): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class TestWritable extends stream.Writable {
@@ -650,13 +584,7 @@ doWritev(chunks: string[] | Uint8Array[], callback: Function): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class TestWritable extends stream.Writable {
@@ -735,13 +663,7 @@ Readable的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let readableStream = new stream.Readable();
@@ -779,13 +701,7 @@ Readable的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let option : stream.ReadableOptions = {
@@ -835,13 +751,7 @@ read(size?: number): string | null
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class TestReadable extends stream.Readable {
@@ -882,13 +792,7 @@ resume(): Readable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class TestReadable extends stream.Readable {
@@ -927,13 +831,7 @@ pause(): Readable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class TestReadable extends stream.Readable {
@@ -992,13 +890,7 @@ setEncoding(encoding?: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class TestReadable extends stream.Readable {
@@ -1037,13 +929,7 @@ isPaused(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class TestReadable extends stream.Readable {
@@ -1102,13 +988,7 @@ pipe(destination: Writable, options?: Object): Writable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class TestReadable extends stream.Readable {
@@ -1178,13 +1058,7 @@ unpipe(destination?: Writable): Readable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class TestReadable extends stream.Readable {
@@ -1251,13 +1125,7 @@ on(event: string, callback: Callback<emitter.EventData>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class TestReadable extends stream.Readable {
@@ -1310,13 +1178,7 @@ off(event: string, callback?: Callback<emitter.EventData>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class TestReadable extends stream.Readable {
@@ -1373,13 +1235,7 @@ doInitialize(callback: Function): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class MyReadable extends stream.Readable {
@@ -1429,13 +1285,7 @@ doRead(size: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class TestReadable extends stream.Readable {
@@ -1484,13 +1334,7 @@ push(chunk: Uint8Array | string | undefined | null, encoding?: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class TestReadable extends stream.Readable {
@@ -1550,13 +1394,7 @@ Duplex的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let duplex = new stream.Duplex();
@@ -1607,13 +1445,7 @@ write(chunk?: string | Uint8Array, encoding?: string, callback?: Function): bool
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class TestDuplex extends stream.Duplex {
@@ -1678,13 +1510,7 @@ end(chunk?: string | Uint8Array, encoding?: string, callback?: Function): Writab
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class TestDuplex extends stream.Duplex {
@@ -1747,13 +1573,7 @@ setDefaultEncoding(encoding?: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class TestDuplex extends stream.Duplex {
@@ -1796,13 +1616,7 @@ cork(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let duplexStream = new stream.Duplex();
@@ -1832,13 +1646,7 @@ uncork(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let dataWritten = '';
@@ -1898,13 +1706,7 @@ doWrite(chunk: string | Uint8Array, encoding: string, callback: Function): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class TestDuplex extends stream.Duplex {
@@ -1958,13 +1760,7 @@ doWritev(chunks: string[] | Uint8Array[], callback: Function): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class TestDuplex extends stream.Duplex {
@@ -2013,13 +1809,7 @@ Transform的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let transform = new stream.Transform();
@@ -2059,13 +1849,7 @@ doTransform(chunk: string, encoding: string, callback: Function): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class TestTransform extends stream.Transform {
@@ -2117,13 +1901,7 @@ doFlush(callback: Function): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class TestTransform extends stream.Transform {

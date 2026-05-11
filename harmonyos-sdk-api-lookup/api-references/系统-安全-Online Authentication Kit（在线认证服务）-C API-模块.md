@@ -1,1 +1,0 @@
-* **[通行密钥](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/passkey)**

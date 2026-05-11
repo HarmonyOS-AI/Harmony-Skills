@@ -281,13 +281,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[DataPanelOptions](/consumer/cn/doc/harmonyos-references/ts-basic-components-datapanel#datapaneloptions对象说明)的type属性，实现了设置数据面板的类型的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -345,13 +339,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[valueColors](/consumer/cn/doc/harmonyos-references/ts-basic-components-datapanel#valuecolors10)和[trackShadow](/consumer/cn/doc/harmonyos-references/ts-basic-components-datapanel#trackshadow10)接口设置[LinearGradient](/consumer/cn/doc/harmonyos-references/ts-basic-components-datapanel#lineargradient10)颜色，实现了设置渐变色效果和阴影效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -412,13 +400,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[closeEffect](/consumer/cn/doc/harmonyos-references/ts-basic-components-datapanel#closeeffect)接口，实现了关闭数据面板动画和阴影的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -474,13 +456,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[contentModifier](/consumer/cn/doc/harmonyos-references/ts-basic-components-datapanel#contentmodifier12)接口，实现了定制数据面板内容区的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

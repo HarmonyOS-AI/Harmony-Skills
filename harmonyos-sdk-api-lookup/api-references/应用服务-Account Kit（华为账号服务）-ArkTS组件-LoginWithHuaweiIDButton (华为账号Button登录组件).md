@@ -8,13 +8,7 @@ LoginWithHuaweiIDButton需要配合[loginComponentManager](https://developer.hua
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LoginWithHuaweiIDButton, loginComponentManager } from '@kit.AccountKit';
@@ -59,13 +53,7 @@ build(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { loginComponentManager, LoginWithHuaweiIDButton } from '@kit.AccountKit';

@@ -14,13 +14,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { telephonyManager } from '@kit.MDMKit';
@@ -65,13 +59,7 @@ setSimDisabled(admin: Want, slotId: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -130,13 +118,7 @@ setSimEnabled(admin: Want, slotId: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -201,13 +183,7 @@ isSimDisabled(admin: Want, slotId: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -279,13 +255,7 @@ addOutgoingCallPolicyNumbers(admin: Want, policy: adminManager.Policy, numbers: 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -359,13 +329,7 @@ removeOutgoingCallPolicyNumbers(admin: Want, policy: adminManager.Policy, number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -438,13 +402,7 @@ getOutgoingCallPolicyNumbers(admin: Want, policy: adminManager.Policy): Array<st
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -517,13 +475,7 @@ addIncomingCallPolicyNumbers(admin: Want, policy: adminManager.Policy, numbers: 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -597,13 +549,7 @@ removeIncomingCallPolicyNumbers(admin: Want, policy: adminManager.Policy, number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -676,13 +622,7 @@ getIncomingCallPolicyNumbers(admin: Want, policy: adminManager.Policy): Array<st
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -742,13 +682,7 @@ hangupCalling(admin: Want): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';

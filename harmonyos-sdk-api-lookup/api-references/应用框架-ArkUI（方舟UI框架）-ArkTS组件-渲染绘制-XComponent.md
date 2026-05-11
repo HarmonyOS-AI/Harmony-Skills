@@ -377,13 +377,7 @@ XComponentController的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. xcomponentController: XComponentController = new XComponentController();
@@ -415,13 +409,7 @@ getXComponentSurfaceId(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -884,13 +872,7 @@ PhonePC/2in1TabletTVWearable
 
 本示例画图逻辑具体实现（和nativeRender相关的函数实现）可以参考[ArkTS XComponent示例](https://gitcode.com/HarmonyOS_Samples/guide-snippets/tree/master/ArkUISample/ArkTSXComponent)
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1023,13 +1005,7 @@ PhonePC/2in1TabletTVWearable
 
 本示例画图逻辑具体实现（和nativeRender相关的函数实现）可以参考[ArkTS XComponent示例](https://gitcode.com/openharmony/applications_app_samples/tree/master/code/DocsSample/ArkUISample/ArkTSXComponent)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1089,13 +1065,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，该示例通过调用[lockCanvas](/consumer/cn/doc/harmonyos-references/ts-basic-components-xcomponent#lockcanvas20)返回画布对象，通过画布对象调用对应的绘制接口，再调用[unlockCanvasAndPost](/consumer/cn/doc/harmonyos-references/ts-basic-components-xcomponent#unlockcanvasandpost20)在XComponent上绘制内容。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1147,13 +1117,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，在示例3的基础上，调用setXComponentSurfaceRect接口主动设置Surface显示区域达到沉浸式效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1208,13 +1172,7 @@ PhonePC/2in1TabletTVWearable
 
 本示例画图逻辑具体实现（和nativeRender相关的函数实现）可以参考[ArkTS XComponent示例](https://gitcode.com/openharmony/applications_app_samples/tree/master/code/DocsSample/ArkUISample/ArkTSXComponent)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

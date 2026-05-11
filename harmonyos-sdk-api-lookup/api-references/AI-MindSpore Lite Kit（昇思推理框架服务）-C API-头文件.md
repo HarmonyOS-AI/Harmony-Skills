@@ -1,7 +1,0 @@
-* **[context.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-context-h)**
-* **[data\_type.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-data-type-h)**
-* **[format.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-format-h)**
-* **[model.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-model-h)**
-* **[status.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-status-h)**
-* **[tensor.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-tensor-h)**
-* **[types.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-types-h)**

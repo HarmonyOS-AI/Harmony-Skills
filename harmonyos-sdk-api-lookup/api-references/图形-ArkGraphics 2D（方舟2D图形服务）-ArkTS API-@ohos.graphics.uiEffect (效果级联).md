@@ -11,13 +11,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uiEffect } from "@kit.ArkGraphics2D";
@@ -43,13 +37,7 @@ createFilter(): Filter
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filter : uiEffect.Filter = uiEffect.createFilter()
@@ -75,13 +63,7 @@ createEffect(): VisualEffect
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let visualEffect : uiEffect.VisualEffect = uiEffect.createEffect()
@@ -121,13 +103,7 @@ blur(blurRadius: number): Filter
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ts
@@ -206,13 +182,7 @@ hdrBrightnessRatio(ratio: number): Filter
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. filter.hdrBrightnessRatio(2.0)

@@ -1,1 +1,0 @@
-* **[Telephony\_NetworkState](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-telephony-telephony-networkstate)**

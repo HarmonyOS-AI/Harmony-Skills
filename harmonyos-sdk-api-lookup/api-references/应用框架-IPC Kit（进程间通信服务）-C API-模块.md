@@ -1,5 +1,0 @@
-* **[OHIPCParcel](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-ohipcparcel)**
-* **[OHIPCRemoteObject](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-ohipcremoteobject)**
-* **[OHIPCSkeleton](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-ohipcskeleton)**
-* **[OHIPCErrorCode](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-ohipcerrorcode)**
-* **[IPCKit](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-ipckit)**

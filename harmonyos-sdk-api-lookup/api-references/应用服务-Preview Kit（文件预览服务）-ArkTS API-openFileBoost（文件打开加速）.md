@@ -6,13 +6,7 @@
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { openFileBoost } from '@kit.PreviewKit';
@@ -89,13 +83,7 @@ on(type: 'filePreloadStateChanged', callback: Callback<FilePreloadStatusInfo>): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { openFileBoost } from '@kit.PreviewKit';
@@ -163,13 +151,7 @@ off(type: 'filePreloadStateChanged', callback?: Callback<FilePreloadStatusInfo>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { openFileBoost } from '@kit.PreviewKit';
@@ -245,13 +227,7 @@ addFile(file: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { openFileBoost } from '@kit.PreviewKit';
@@ -309,13 +285,7 @@ removeFile(file: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { openFileBoost } from '@kit.PreviewKit';
@@ -374,13 +344,7 @@ queryFilePreloadStatusInfo(file: string): FilePreloadStatusInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { openFileBoost } from '@kit.PreviewKit';

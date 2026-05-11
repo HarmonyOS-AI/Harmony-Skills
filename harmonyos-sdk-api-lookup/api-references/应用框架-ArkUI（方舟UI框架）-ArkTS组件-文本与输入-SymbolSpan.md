@@ -212,13 +212,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 11开始，该示例通过[renderingStrategy](/consumer/cn/doc/harmonyos-references/ts-basic-components-symbolspan#renderingstrategy)、[effectStrategy](/consumer/cn/doc/harmonyos-references/ts-basic-components-symbolspan#effectstrategy)属性展示了不同的渲染和动效策略。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -327,13 +321,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 12开始，该示例通过[attributeModifier](/consumer/cn/doc/harmonyos-references/ts-basic-components-symbolspan#attributemodifier12)属性创建指定样式图标。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SymbolSpanModifier } from '@kit.ArkUI';

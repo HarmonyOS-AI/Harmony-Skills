@@ -45,13 +45,7 @@ API9及之后的版本，需要申请ohos.permission.APPROXIMATELY\_LOCATION或�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import geolocation from '@ohos.geolocation';
@@ -85,13 +79,7 @@ on(type: 'locationChange', request: LocationRequest, callback: Callback<Location
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import geolocation from '@ohos.geolocation';
@@ -129,13 +117,7 @@ off(type: 'locationChange', callback?: Callback<Location>): void
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import geolocation from '@ohos.geolocation';
@@ -174,13 +156,7 @@ on(type: 'locationServiceState', callback: Callback<boolean>): void
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import geolocation from '@ohos.geolocation';
@@ -217,13 +193,7 @@ off(type: 'locationServiceState', callback?: Callback<boolean>): void
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import geolocation from '@ohos.geolocation';
@@ -264,13 +234,7 @@ on(type: 'cachedGnssLocationsReporting', request: CachedGnssLocationsRequest, ca
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import geolocation from '@ohos.geolocation';
@@ -310,13 +274,7 @@ off(type: 'cachedGnssLocationsReporting', callback?: Callback<Array<Location>>):
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import geolocation from '@ohos.geolocation';
@@ -357,13 +315,7 @@ on(type: 'gnssStatusChange', callback: Callback<SatelliteStatusInfo>): void
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import geolocation from '@ohos.geolocation';
@@ -402,13 +354,7 @@ off(type: 'gnssStatusChange', callback?: Callback<SatelliteStatusInfo>): void
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import geolocation from '@ohos.geolocation';
@@ -448,13 +394,7 @@ on(type: 'nmeaMessageChange', callback: Callback<string>): void
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import geolocation from '@ohos.geolocation';
@@ -493,13 +433,7 @@ off(type: 'nmeaMessageChange', callback?: Callback<string>): void
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import geolocation from '@ohos.geolocation';
@@ -540,13 +474,7 @@ on(type: 'fenceStatusChange', request: GeofenceRequest, want: WantAgent): void
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import geolocation from '@ohos.geolocation';
@@ -601,13 +529,7 @@ off(type: 'fenceStatusChange', request: GeofenceRequest, want: WantAgent): void
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import geolocation from '@ohos.geolocation';
@@ -660,13 +582,7 @@ getCurrentLocation(request: CurrentLocationRequest, callback: AsyncCallback<Loca
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import geolocation from '@ohos.geolocation';
@@ -709,13 +625,7 @@ getCurrentLocation(callback: AsyncCallback<Location>): void
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import geolocation from '@ohos.geolocation';
@@ -765,13 +675,7 @@ getCurrentLocation(request?: CurrentLocationRequest): Promise<Location>
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import geolocation from '@ohos.geolocation';
@@ -807,13 +711,7 @@ getLastLocation(callback: AsyncCallback<Location>): void
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import geolocation from '@ohos.geolocation';
@@ -853,13 +751,7 @@ getLastLocation(): Promise<Location>
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import geolocation from '@ohos.geolocation';
@@ -894,13 +786,7 @@ isLocationEnabled(callback: AsyncCallback<boolean>): void
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import geolocation from '@ohos.geolocation';
@@ -940,13 +826,7 @@ isLocationEnabled(): Promise<boolean>
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import geolocation from '@ohos.geolocation';
@@ -981,13 +861,7 @@ requestEnableLocation(callback: AsyncCallback<boolean>): void
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import geolocation from '@ohos.geolocation';
@@ -1027,13 +901,7 @@ requestEnableLocation(): Promise<boolean>
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import geolocation from '@ohos.geolocation';
@@ -1068,13 +936,7 @@ isGeoServiceAvailable(callback: AsyncCallback<boolean>): void
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import geolocation from '@ohos.geolocation';
@@ -1114,13 +976,7 @@ isGeoServiceAvailable(): Promise<boolean>
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import geolocation from '@ohos.geolocation';
@@ -1156,13 +1012,7 @@ getAddressesFromLocation(request: ReverseGeoCodeRequest, callback: AsyncCallback
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import geolocation from '@ohos.geolocation';
@@ -1211,13 +1061,7 @@ getAddressesFromLocation(request: ReverseGeoCodeRequest): Promise<Array<GeoAddre
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import geolocation from '@ohos.geolocation';
@@ -1254,13 +1098,7 @@ getAddressesFromLocationName(request: GeoCodeRequest, callback: AsyncCallback<Ar
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import geolocation from '@ohos.geolocation';
@@ -1309,13 +1147,7 @@ getAddressesFromLocationName(request: GeoCodeRequest): Promise<Array<GeoAddress>
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import geolocation from '@ohos.geolocation';
@@ -1353,13 +1185,7 @@ getCachedGnssLocationsSize(callback: AsyncCallback<number>): void
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import geolocation from '@ohos.geolocation';
@@ -1401,13 +1227,7 @@ getCachedGnssLocationsSize(): Promise<number>;
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import geolocation from '@ohos.geolocation';
@@ -1444,13 +1264,7 @@ flushCachedGnssLocations(callback: AsyncCallback<boolean>): void
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import geolocation from '@ohos.geolocation';
@@ -1492,13 +1306,7 @@ flushCachedGnssLocations(): Promise<boolean>
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import geolocation from '@ohos.geolocation';
@@ -1536,13 +1344,7 @@ sendCommand(command: LocationCommand, callback: AsyncCallback<boolean>): void
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import geolocation from '@ohos.geolocation';
@@ -1593,13 +1395,7 @@ sendCommand(command: LocationCommand): Promise<boolean>
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import geolocation from '@ohos.geolocation';

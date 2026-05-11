@@ -10,13 +10,7 @@ FormProvider模块提供了卡片提供方相关接口的能力，开发者在�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { formProvider } from '@kit.FormKit';
@@ -44,13 +38,7 @@ setFormNextRefreshTime(formId: string, minute: number, callback: AsyncCallback<v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -93,13 +81,7 @@ setFormNextRefreshTime(formId: string, minute: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -135,13 +117,7 @@ updateForm(formId: string, formBindingData: formBindingData.FormBindingData, cal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -190,13 +166,7 @@ updateForm(formId: string, formBindingData: formBindingData.FormBindingData): Pr
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

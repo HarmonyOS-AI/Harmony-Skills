@@ -9,13 +9,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { settings } from '@kit.BasicServicesKit';
@@ -291,13 +285,7 @@ setValue(context: Context, name: string, value: string, callback: AsyncCallback<
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { settings } from '@kit.BasicServicesKit';
@@ -345,13 +333,7 @@ setValue(context: Context, name: string, value: string): Promise<boolean>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { settings } from '@kit.BasicServicesKit';
@@ -413,13 +395,7 @@ setValue(context: Context, name: string, value: string, domainName: string): Pro
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { settings } from '@kit.BasicServicesKit';
@@ -457,13 +433,7 @@ getValue(context: Context, name: string, callback: AsyncCallback<string>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { settings } from '@kit.BasicServicesKit';
@@ -511,13 +481,7 @@ getValue(context: Context, name: string): Promise<string>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { settings } from '@kit.BasicServicesKit';
@@ -566,13 +530,7 @@ getValue(context: Context, name: string, domainName: string): Promise<string>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { settings } from '@kit.BasicServicesKit';
@@ -618,13 +576,7 @@ getValueSync(context: Context, name: string, defValue: string): string
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { settings } from '@kit.BasicServicesKit';
@@ -673,13 +625,7 @@ getValueSync(context: Context, name: string, defValue: string, domainName: strin
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { settings } from '@kit.BasicServicesKit';
@@ -728,13 +674,7 @@ setValueSync(context: Context, name: string, value: string): boolean
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { settings } from '@kit.BasicServicesKit';
@@ -797,13 +737,7 @@ setValueSync(context: Context, name: string, value: string, domainName: string):
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { settings } from '@kit.BasicServicesKit';
@@ -848,13 +782,7 @@ registerKeyObserver(context: Context, name: string, domainName: string, observer
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { settings } from '@kit.BasicServicesKit';
@@ -900,13 +828,7 @@ unregisterKeyObserver(context: Context, name: string, domainName: string): boole
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { settings } from '@kit.BasicServicesKit';
@@ -960,13 +882,7 @@ openNetworkManagerSettings(context: Context): Promise<boolean>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { settings } from '@kit.BasicServicesKit';
@@ -1001,13 +917,7 @@ enableAirplaneMode(enable: boolean, callback: AsyncCallback<void>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let isEnabled :boolean = true;
@@ -1048,13 +958,7 @@ enableAirplaneMode(enable: boolean): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let isEnabled :boolean = true;
@@ -1085,13 +989,7 @@ canShowFloating(callback: AsyncCallback<boolean>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. settings.canShowFloating((err:Error, status: boolean) => {
@@ -1123,13 +1021,7 @@ canShowFloating(): Promise<boolean>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. settings.canShowFloating().then((status:boolean) => {
@@ -1165,13 +1057,7 @@ getUriSync(name: string): string
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 获取数据项的URI。
@@ -1203,13 +1089,7 @@ getURI(name: string, callback: AsyncCallback<object>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. settings.getURI(settings.display.SCREEN_BRIGHTNESS_STATUS, (uri:string) => {
@@ -1249,13 +1129,7 @@ getURI(name: string): Promise<object>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. settings.getURI(settings.display.SCREEN_BRIGHTNESS_STATUS).then((uri:string) => {
@@ -1291,13 +1165,7 @@ getValue(dataAbilityHelper: DataAbilityHelper, name: string, callback: AsyncCall
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -1348,13 +1216,7 @@ getValue(dataAbilityHelper: DataAbilityHelper, name: string): Promise<object>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -1402,13 +1264,7 @@ getValueSync(dataAbilityHelper: DataAbilityHelper, name: string, defValue: strin
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -1460,13 +1316,7 @@ setValueSync(dataAbilityHelper: DataAbilityHelper, name: string, value: string):
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -1511,13 +1361,7 @@ openInputMethodSettings(context: Context): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { settings } from '@kit.BasicServicesKit';
@@ -1565,13 +1409,7 @@ openInputMethodDetail(context: Context, bundleName: string, inputMethodId: strin
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { settings } from '@kit.BasicServicesKit';
@@ -1620,13 +1458,7 @@ openBiometricsSettingsPage(context: Context): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { settings } from '@kit.BasicServicesKit';
@@ -1676,13 +1508,7 @@ openNfcSettingsPage(context: Context): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { settings } from '@kit.BasicServicesKit';

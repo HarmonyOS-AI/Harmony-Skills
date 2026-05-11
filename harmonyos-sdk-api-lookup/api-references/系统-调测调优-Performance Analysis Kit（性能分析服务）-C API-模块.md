@@ -1,5 +1,0 @@
-* **[HiAppEvent](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-hiappevent)**
-* **[HiCollie](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-hicollie)**
-* **[HiDebug](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-hidebug)**
-* **[HiLog](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-hilog)**
-* **[HiTrace](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-hitrace)**

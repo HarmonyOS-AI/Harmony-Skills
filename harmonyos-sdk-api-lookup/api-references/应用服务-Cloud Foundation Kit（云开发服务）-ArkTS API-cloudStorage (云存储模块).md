@@ -6,13 +6,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudStorage } from '@kit.CloudFoundationKit';
@@ -62,13 +56,7 @@ bucket(name?: string): StorageBucket
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudStorage } from '@kit.CloudFoundationKit';
@@ -147,13 +135,7 @@ uploadFile(context: common.BaseContext, parameters: UploadParams): Promise<reque
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudStorage } from '@kit.CloudFoundationKit';
@@ -237,13 +219,7 @@ uploadFile(context: common.BaseContext, parameters: UploadParams, callback: Asyn
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudStorage } from '@kit.CloudFoundationKit';
@@ -336,13 +312,7 @@ downloadFile(context: common.BaseContext, parameters: DownloadParams): Promise<r
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudStorage } from '@kit.CloudFoundationKit';
@@ -427,13 +397,7 @@ downloadFile(context: common.BaseContext, parameters: DownloadParams, callback: 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudStorage } from '@kit.CloudFoundationKit';
@@ -526,13 +490,7 @@ getDownloadURL(cloudPath: string): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudStorage } from '@kit.CloudFoundationKit';
@@ -592,13 +550,7 @@ getDownloadURL(cloudPath: string, callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudStorage } from '@kit.CloudFoundationKit';
@@ -667,13 +619,7 @@ deleteFile(cloudPath: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudStorage } from '@kit.CloudFoundationKit';
@@ -733,13 +679,7 @@ deleteFile(cloudPath: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudStorage } from '@kit.CloudFoundationKit';
@@ -809,13 +749,7 @@ list(cloudPath: string, options?: ListOptions): Promise<ListResults>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudStorage } from '@kit.CloudFoundationKit';
@@ -883,13 +817,7 @@ list(cloudPath: string, options: ListOptions, callback: AsyncCallback<ListResult
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudStorage } from '@kit.CloudFoundationKit';
@@ -967,13 +895,7 @@ getMetadata(cloudPath: string): Promise<Metadata>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudStorage } from '@kit.CloudFoundationKit';
@@ -1033,13 +955,7 @@ getMetadata(cloudPath: string, callback: AsyncCallback<Metadata>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudStorage } from '@kit.CloudFoundationKit';
@@ -1109,13 +1025,7 @@ setMetadata(cloudPath: string, metadata: MetadataUpdatable): Promise<Metadata>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudStorage } from '@kit.CloudFoundationKit';
@@ -1181,13 +1091,7 @@ setMetadata(cloudPath: string, metadata: MetadataUpdatable, callback: AsyncCallb
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudStorage } from '@kit.CloudFoundationKit';

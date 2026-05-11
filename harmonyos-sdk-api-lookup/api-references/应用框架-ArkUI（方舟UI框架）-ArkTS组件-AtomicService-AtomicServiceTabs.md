@@ -8,13 +8,7 @@ AtomicServiceTabs高级组件，对Tabs组件一些不需提供给用户自定�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AtomicServiceTabs, TabBarOptions, TabBarPosition, OnContentWillChangeCallback } from '@kit.ArkUI';
@@ -36,13 +30,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AtomicServiceTabs({
@@ -181,13 +169,7 @@ PhonePC/2in1TabletTVWearable
 
 ### 示例1(纯文本样式)
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -262,13 +244,7 @@ PhonePC/2in1TabletTVWearable
 
 ### 示例2(纯图标样式)
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -343,13 +319,7 @@ PhonePC/2in1TabletTVWearable
 
 ### 示例3(图标加文本，自定义图文排布)
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets

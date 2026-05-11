@@ -6,13 +6,7 @@
 
 Phone
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpAntiPeep } from '@kit.DeviceSecurityKit';
@@ -71,13 +65,7 @@ isDlpAntiPeepSwitchOn(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpAntiPeep } from '@kit.DeviceSecurityKit';
@@ -131,13 +119,7 @@ on(type: 'dlpAntiPeep', callback: Callback<DlpAntiPeepStatus>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpAntiPeep } from '@kit.DeviceSecurityKit';
@@ -188,13 +170,7 @@ off(type: 'dlpAntiPeep', callback?: Callback<DlpAntiPeepStatus>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpAntiPeep } from '@kit.DeviceSecurityKit';
@@ -244,13 +220,7 @@ getDlpAntiPeepInfo(): DlpAntiPeepStatus
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpAntiPeep } from '@kit.DeviceSecurityKit';
@@ -297,13 +267,7 @@ passDlpAntiPeepInfo(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpAntiPeep } from '@kit.DeviceSecurityKit';
@@ -366,13 +330,7 @@ setAntiPeepMaskLayer(windowId: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpAntiPeep } from '@kit.DeviceSecurityKit';
@@ -435,13 +393,7 @@ requestAntiPeepOptions(context: Context): Promise<AntiPeepOptionsResult>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpAntiPeep } from '@kit.DeviceSecurityKit';
@@ -515,13 +467,7 @@ publishAntiPeepInformation(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dlpAntiPeep } from '@kit.DeviceSecurityKit';

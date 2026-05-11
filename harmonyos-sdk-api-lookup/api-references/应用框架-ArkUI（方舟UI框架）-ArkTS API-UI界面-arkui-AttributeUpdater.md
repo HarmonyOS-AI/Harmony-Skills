@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AttributeUpdater } from '@kit.ArkUI';
@@ -112,13 +106,7 @@ AttributeUpdater首次设置给组件时提供的样式。
 
 通过initializeModifier方法初始化设置属性值。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -195,13 +183,7 @@ get attribute(): T | undefined
 
 通过属性直通设置方式更新属性值。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -256,13 +238,7 @@ PhonePC/2in1TabletTVWearable
 
 使用updateConstructorParams更新组件的构造入参。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -321,13 +297,7 @@ onComponentChanged(component: T): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

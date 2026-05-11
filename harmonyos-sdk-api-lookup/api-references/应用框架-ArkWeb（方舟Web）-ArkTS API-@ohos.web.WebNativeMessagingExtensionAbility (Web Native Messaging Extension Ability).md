@@ -8,13 +8,7 @@ WebNativeMessagingExtensionAbility为开发者提供Web原生消息通信的能�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { WebNativeMessagingExtensionAbility } from '@kit.ArkWeb';
@@ -62,13 +56,7 @@ Web原生消息连接建立时回调此方法。
 
 **示例:**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { WebNativeMessagingExtensionAbility, ConnectionInfo } from '@kit.ArkWeb';
@@ -105,13 +93,7 @@ Web原生消息连接断开时回调此方法。
 
 **示例:**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { WebNativeMessagingExtensionAbility, ConnectionInfo } from '@kit.ArkWeb';
@@ -139,13 +121,7 @@ WebNativeMessagingExtensionAbility销毁时回调。
 
 **示例:**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { WebNativeMessagingExtensionAbility } from '@kit.ArkWeb';

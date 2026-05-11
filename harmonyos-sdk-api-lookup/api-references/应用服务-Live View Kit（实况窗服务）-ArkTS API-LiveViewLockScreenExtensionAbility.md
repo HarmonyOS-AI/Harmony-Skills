@@ -9,13 +9,7 @@ LiveViewLockScreenExtensionAbility为锁屏沉浸实况窗扩展Ability，继承
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LiveViewLockScreenExtensionAbility } from '@kit.LiveViewKit';
@@ -43,13 +37,7 @@ PhonePC/2in1Tablet
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LiveViewLockScreenExtensionAbility } from '@kit.LiveViewKit';

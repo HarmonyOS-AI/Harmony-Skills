@@ -9,13 +9,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import mediaquery from '@system.mediaquery';
@@ -61,13 +55,7 @@ matchMedia(condition: string): MediaQueryList
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let mMediaQueryList = mediaquery.matchMedia('(max-width: 466)');
@@ -133,13 +121,7 @@ addListener(callback: (event: MediaQueryEvent) => void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import mediaquery, { MediaQueryEvent } from '@system.mediaquery';
@@ -175,13 +157,7 @@ removeListener(callback: (event: MediaQueryEvent) => void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import mediaquery, { MediaQueryEvent } from '@system.mediaquery';

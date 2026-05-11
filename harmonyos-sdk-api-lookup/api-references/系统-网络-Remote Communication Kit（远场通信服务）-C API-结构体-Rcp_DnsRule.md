@@ -33,13 +33,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Rcp_DnsServers* Rcp_DnsRule::dnsServers
@@ -53,13 +47,7 @@ DNS服务器。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Rcp_DynamicDnsRuleFunction Rcp_DnsRule::dynamicDnsRule
@@ -73,13 +61,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Rcp_StaticDnsRule* Rcp_DnsRule::staticDnsRule
@@ -93,13 +75,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Rcp_DnsRuleType Rcp_DnsRule::type

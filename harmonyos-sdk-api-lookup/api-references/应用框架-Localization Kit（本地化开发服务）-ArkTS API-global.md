@@ -1,3 +1,0 @@
-* **[RawFileDescriptor](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-rawfiledescriptor)**
-* **[Resource](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-resource)**
-* **[SendableResource](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-sendableresource)**

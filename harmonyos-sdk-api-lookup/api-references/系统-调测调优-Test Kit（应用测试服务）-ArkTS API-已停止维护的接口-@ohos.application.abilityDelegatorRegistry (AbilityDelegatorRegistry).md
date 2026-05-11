@@ -8,13 +8,7 @@ AbilityDelegatorRegistry模块提供用于存储已注册的[AbilityDelegator](h
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import AbilityDelegatorRegistry from '@ohos.application.abilityDelegatorRegistry';
@@ -58,13 +52,7 @@ getAbilityDelegator(): AbilityDelegator
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import AbilityDelegatorRegistry from '@ohos.application.abilityDelegatorRegistry';
@@ -92,13 +80,7 @@ getArguments(): AbilityDelegatorArgs
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import AbilityDelegatorRegistry from '@ohos.application.abilityDelegatorRegistry';

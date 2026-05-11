@@ -34,13 +34,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FG_ImageSync_VK FG_ImageInfo_VK::finalSync
@@ -54,13 +48,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FG_Image_VK* FG_ImageInfo_VK::image
@@ -74,13 +62,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FG_ImageSync_VK FG_ImageInfo_VK::initialSync

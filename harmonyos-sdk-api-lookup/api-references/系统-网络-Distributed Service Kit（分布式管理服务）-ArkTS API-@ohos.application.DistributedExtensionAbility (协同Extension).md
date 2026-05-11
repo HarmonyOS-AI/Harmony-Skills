@@ -10,13 +10,7 @@ DistributedExtensionAbility模块提供分布式相关扩展能力，提供分�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { DistributedExtensionAbility} from '@kit.DistributedServiceKit';
@@ -62,13 +56,7 @@ Extension生命周期回调，在创建时回调，执行初始化业务逻辑�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -113,13 +101,7 @@ onCollaborate(wantParam: Record <string, Object>) : AbilityConstant.CollaborateR
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityConnectionManager, DistributedExtensionAbility } from '@kit.DistributedServiceKit';
@@ -153,13 +135,7 @@ Extension生命周期回调，在销毁时回调，执行资源清理等操作�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { DistributedExtensionAbility } from '@kit.DistributedServiceKit';

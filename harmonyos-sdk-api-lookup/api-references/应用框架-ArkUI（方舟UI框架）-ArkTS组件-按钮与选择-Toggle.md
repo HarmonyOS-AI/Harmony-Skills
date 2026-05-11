@@ -240,13 +240,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置ToggleType设置Toggle的勾选框样式、状态按钮样式及开关样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -318,13 +312,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例实现了自定义设置Toggle组件Switch样式，包括圆形滑块半径、关闭状态的背景颜色、圆形滑块颜色、滑轨的圆角。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -368,13 +356,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例实现自定义Toggle样式，通过按钮切换圆形背景颜色：点击蓝圆按钮，背景变蓝色；点击黄圆按钮，背景变黄色。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

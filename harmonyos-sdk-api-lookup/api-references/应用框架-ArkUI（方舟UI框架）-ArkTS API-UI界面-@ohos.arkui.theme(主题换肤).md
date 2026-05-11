@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Theme, ThemeControl, CustomColors, Colors, CustomTheme, CustomDarkColors } from '@kit.ArkUI';
@@ -189,13 +183,7 @@ setDefaultTheme(theme: [CustomTheme](/consumer/cn/doc/harmonyos-references/js-ap
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { CustomTheme, CustomColors, ThemeControl } from '@kit.ArkUI';

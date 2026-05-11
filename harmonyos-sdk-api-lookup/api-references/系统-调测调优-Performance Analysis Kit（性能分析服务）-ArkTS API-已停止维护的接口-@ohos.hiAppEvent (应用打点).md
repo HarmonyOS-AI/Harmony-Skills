@@ -9,13 +9,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import hiAppEvent from '@ohos.hiAppEvent';
@@ -77,13 +71,7 @@ write(eventName: string, eventType: EventType, keyValues: object, callback: Asyn
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -134,13 +122,7 @@ write(eventName: string, eventType: EventType, keyValues: object): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -187,13 +169,7 @@ configure(config: ConfigOption): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 配置应用事件打点功能开关

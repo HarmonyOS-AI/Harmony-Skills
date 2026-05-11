@@ -23,13 +23,7 @@
 
 ### authenticatorAttachment
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FIDO2_AuthenticatorAttachment FIDO2_AuthenticatorSelectionCriteria::authenticatorAttachment
@@ -41,13 +35,7 @@
 
 ### requireResidentKey
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bool FIDO2_AuthenticatorSelectionCriteria::requireResidentKey
@@ -59,13 +47,7 @@
 
 ### residentKey
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char* FIDO2_AuthenticatorSelectionCriteria::residentKey
@@ -77,13 +59,7 @@
 
 ### userVerification
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FIDO2_UserVerificationRequirement FIDO2_AuthenticatorSelectionCriteria::userVerification

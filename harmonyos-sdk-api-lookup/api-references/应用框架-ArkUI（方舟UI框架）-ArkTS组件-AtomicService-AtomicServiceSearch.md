@@ -8,13 +8,7 @@ AtomicServiceSearch为开发者提供满足定制化需求的功能，内容包�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AtomicServiceSearch } from '@kit.ArkUI';
@@ -24,13 +18,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AtomicServiceSearch({
@@ -314,13 +302,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过select参数为AtomicServiceSearch组件添加左侧选择区。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AtomicServiceSearch } from '@kit.ArkUI';
@@ -374,13 +356,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过operation参数为AtomicServiceSearch组件添加右侧功能位。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AtomicServiceSearch } from '@kit.ArkUI';
@@ -429,13 +405,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例中为AtomicServiceSearch组件同时添加左侧选择区和右侧功能位。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AtomicServiceSearch } from '@kit.ArkUI';
@@ -507,13 +477,7 @@ PhonePC/2in1TabletTVWearable
 
 通过onChange接口实现了监听搜索区内容变化的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AtomicServiceSearch } from '@kit.ArkUI';
@@ -644,13 +608,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过search、select、value、placeholder参数实现了AtomicServiceSearch组件样式的自定义。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AtomicServiceSearch, SearchParams, SelectParams } from '@kit.ArkUI';
@@ -773,13 +731,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过controller参数实现了光标位置的设置、选择指定区域中的内容及关闭编辑状态的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AtomicServiceSearch } from '@kit.ArkUI';
@@ -834,13 +786,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过enterKeyType属性实现了动态切换输入法回车键的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AtomicServiceSearch } from '@kit.ArkUI';
@@ -885,13 +831,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过fontFeature属性实现了文本在不同文字特性下的展示效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ​​​​import { AtomicServiceSearch } from '@kit.ArkUI';
@@ -949,13 +889,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过minFontSize、maxFontSize属性展示了文本自适应字号的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AtomicServiceSearch } from '@kit.ArkUI';
@@ -997,13 +931,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过editMenuOptions接口实现了文本设置自定义菜单扩展项的文本内容、图标以及回调的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AtomicServiceSearch, TextMenuController } from '@kit.ArkUI';
@@ -1078,13 +1006,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过textAlign、caretStyle、selectedBackgroundColor属性展示如何设置文本的水平对齐、光标样式和选中背景色。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AtomicServiceSearch, TextMenuController } from '@kit.ArkUI';
@@ -1127,13 +1049,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过inputFilter属性展示如何对输入的文本进行内容的过滤，以限制输入内容。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AtomicServiceSearch } from '@kit.ArkUI';

@@ -2,13 +2,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { map, mapCommon } from '@kit.MapKit';
@@ -34,13 +28,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: mapCommon.TileOverlayParams = {
@@ -70,13 +58,7 @@ clearTileCache(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. tileOverlay.clearTileCache();
@@ -108,13 +90,7 @@ setFadeIn(fadeIn: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. tileOverlay.setFadeIn(false);
@@ -146,13 +122,7 @@ setTransparency(transparency: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. tileOverlay.setTransparency(0.5);
@@ -184,13 +154,7 @@ getFadeIn(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let isFadeIn: boolean = tileOverlay.getFadeIn();
@@ -222,13 +186,7 @@ getTransparency(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let transparency: number = tileOverlay.getTransparency();
@@ -260,13 +218,7 @@ clearDiskCache(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. tileOverlay.clearDiskCache();

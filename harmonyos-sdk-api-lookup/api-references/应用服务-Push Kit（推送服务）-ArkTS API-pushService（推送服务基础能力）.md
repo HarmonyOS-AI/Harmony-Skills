@@ -12,13 +12,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pushService } from '@kit.PushKit';
@@ -70,13 +64,7 @@ getToken(callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pushService } from '@kit.PushKit';
@@ -143,13 +131,7 @@ getToken(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pushService } from '@kit.PushKit';
@@ -212,13 +194,7 @@ deleteToken(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pushService } from '@kit.PushKit';
@@ -281,13 +257,7 @@ deleteToken(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pushService } from '@kit.PushKit';
@@ -350,13 +320,7 @@ bindAppProfileId(appProfileType: pushCommon.AppProfileType, appProfileId: string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pushService, pushCommon } from '@kit.PushKit';
@@ -430,13 +394,7 @@ bindAppProfileId(appProfileType: pushCommon.AppProfileType, appProfileId: string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pushService, pushCommon } from '@kit.PushKit';
@@ -499,13 +457,7 @@ unbindAppProfileId(appProfileId: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pushService } from '@kit.PushKit';
@@ -576,13 +528,7 @@ unbindAppProfileId(appProfileId: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pushService } from '@kit.PushKit';
@@ -669,13 +615,7 @@ receiveMessage(pushType: PushType, ability: Ability, onMessage: Callback<pushCom
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -746,13 +686,7 @@ on(type: 'tokenUpdate', ability: Ability, callback: Callback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -822,13 +756,7 @@ off(type: 'tokenUpdate', callback?: Callback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -894,13 +822,7 @@ on(type: 'distributedMessageReceive', callee: Callee, callback: DistributedMessa
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -972,13 +894,7 @@ off(type: 'distributedMessageReceive', callback?: DistributedMessageCallback): v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';

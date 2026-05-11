@@ -86,13 +86,7 @@ System internal error.
 1. 排查游戏官方账号的图标大小，要求图标大小不超过35KB。
 2. 排查各接口中的入参context是否符合要求。建议context按照如下方式获取：
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. let context = this.getUIContext()?.getHostContext() as common.UIAbilityContext;

@@ -11,13 +11,7 @@ ColorManagement继承自[ColorManagementQuery](https://developer.huawei.com/cons
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { camera } from '@kit.CameraKit';
@@ -95,13 +89,7 @@ P3广色域与HDR高动态范围成像：
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -152,13 +140,7 @@ getActiveColorSpace(): colorSpaceManager.ColorSpace
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

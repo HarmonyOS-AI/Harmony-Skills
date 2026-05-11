@@ -12,13 +12,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SubHeaderV2 } from '@kit.ArkUI';
@@ -397,13 +391,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示子标题左侧为icon、secondaryTitle，右侧operationType为按钮类型。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {
@@ -465,13 +453,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示子标题左侧为primaryTitle、secondaryTitle，右侧operationType类型为TEXT\_ARROW。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {
@@ -525,13 +507,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示子标题左侧为select，右侧operationType类型为ICON\_GROUP。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {
@@ -611,13 +587,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示子标题左侧icon设置symbol图标。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {
@@ -663,13 +633,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示子标题operationType设置为OperationType.ICON\_GROUP，operationItem的value设置为symbol图标。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {
@@ -757,13 +721,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示SubHeaderV2设置titleBuilder自定义标题内容的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {
@@ -823,13 +781,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示SubHeaderV2设置标题和副标题字体样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {
@@ -882,13 +834,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过设置SubHeaderV2的右侧按钮属性accessibilityText、accessibilityDescription、accessibilityLevel自定义屏幕朗读播报文本。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {
@@ -992,13 +938,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 18开始，在[SubHeaderV2OperationItem](/consumer/cn/doc/harmonyos-references/ohos-arkui-advanced-subheaderv2#subheaderv2operationitemoptions)中新增defaultFocus接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {

@@ -10,13 +10,7 @@ UIExtensionContentSession是[UIExtensionAbility](https://developer.huawei.com/co
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIExtensionContentSession } from '@kit.AbilityKit';
@@ -60,13 +54,7 @@ loadContent(path: string, storage?: LocalStorage): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // UIExtensionAbility组件不支持三方应用直接继承，故以派生类ShareExtensionAbility举例说明。
@@ -125,13 +113,7 @@ loadContentByName(name: string, storage?: LocalStorage): void
 
 UIExtensionAbility组件的实现：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // UIExtensionAbility组件不支持三方应用直接继承，故以派生类ShareExtensionAbility举例说明。
@@ -162,13 +144,7 @@ UIExtensionAbility组件的实现：
 
 UIExtensionAbility组件加载的命名路由页面的实现：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // “./pages/UIExtensionPage.ets”文件的实现。
@@ -225,13 +201,7 @@ terminateSelf(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIExtensionContentSession } from '@kit.AbilityKit';
@@ -285,13 +255,7 @@ terminateSelf(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIExtensionContentSession } from '@kit.AbilityKit';
@@ -356,13 +320,7 @@ terminateSelfWithResult(parameter: AbilityResult, callback: AsyncCallback<void>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIExtensionContentSession, common } from '@kit.AbilityKit';
@@ -444,13 +402,7 @@ terminateSelfWithResult(parameter: AbilityResult): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIExtensionContentSession, common } from '@kit.AbilityKit';
@@ -535,13 +487,7 @@ setWindowPrivacyMode(isPrivacyMode: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // UIExtensionAbility组件不支持三方应用直接继承，故以派生类ShareExtensionAbility举例说明。
@@ -606,13 +552,7 @@ setWindowPrivacyMode(isPrivacyMode: boolean, callback: AsyncCallback<void>): voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // UIExtensionAbility组件不支持三方应用直接继承，故以派生类ShareExtensionAbility举例说明。
@@ -677,13 +617,7 @@ startAbilityByType(type: string, wantParam: Record<string, Object>, abilityStart
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // UIExtensionAbility组件不支持三方应用直接继承，故以派生类ShareExtensionAbility举例说明。
@@ -760,13 +694,7 @@ startAbilityByType(type: string, wantParam: Record<string, Object>, abilityStart
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // UIExtensionAbility组件不支持三方应用直接继承，故以派生类ShareExtensionAbility举例说明。
@@ -832,13 +760,7 @@ getUIExtensionWindowProxy(): uiExtension.WindowProxy
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets

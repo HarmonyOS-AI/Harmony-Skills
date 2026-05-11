@@ -66,13 +66,7 @@ PhonePC/2in1TabletTVWearable
 
 示例代码为点击图片跳转页面时，显示共享元素图片的自定义转场动效。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -98,13 +92,7 @@ PhonePC/2in1TabletTVWearable
 21. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // PageB.ets

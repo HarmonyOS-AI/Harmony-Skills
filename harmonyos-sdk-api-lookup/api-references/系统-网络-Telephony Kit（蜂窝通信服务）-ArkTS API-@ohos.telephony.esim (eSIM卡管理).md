@@ -8,13 +8,7 @@ eSIM卡管理模块提供了eSIM卡管理的基础能力，包括获取指定卡
 
 PhoneWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { eSIM } from '@kit.TelephonyKit';
@@ -60,13 +54,7 @@ isSupported(slotId: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { eSIM } from '@kit.TelephonyKit';
@@ -119,13 +107,7 @@ addProfile(profile: DownloadableProfile): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

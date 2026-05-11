@@ -11,13 +11,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webview } from '@kit.ArkWeb';
@@ -63,13 +57,7 @@ static setAdsBlockRules(rulesFile: string, replace: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -150,13 +138,7 @@ static addAdsBlockDisallowedList(domainSuffixes: Array<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -246,13 +228,7 @@ AdsBlockManager的DisallowedList不会持久化，应用重启需要重新设置
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -329,13 +305,7 @@ static clearAdsBlockDisallowedList(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -423,13 +393,7 @@ AllowedList的优先级比DisallowedList高，例如，DisallowedList中配置�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -522,13 +486,7 @@ AdsBlockManager的AllowedList不会持久化，应用重启需要重新设置。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -605,13 +563,7 @@ static clearAdsBlockAllowedList(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

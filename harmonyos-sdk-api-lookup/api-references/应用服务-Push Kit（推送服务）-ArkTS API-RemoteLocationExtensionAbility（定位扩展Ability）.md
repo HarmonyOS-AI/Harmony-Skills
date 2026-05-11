@@ -18,13 +18,7 @@ RemoteLocationExtensionAbility为定位扩展Ability，提供获取定位类场�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RemoteLocationExtensionAbility } from '@kit.PushKit';
@@ -82,13 +76,7 @@ onReceiveMessage(payload: pushCommon.PushPayload): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RemoteLocationExtensionAbility, pushCommon } from '@kit.PushKit';
@@ -120,13 +108,7 @@ onDestroy(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RemoteLocationExtensionAbility } from '@kit.PushKit';

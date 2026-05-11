@@ -6,13 +6,7 @@ ringtone提供铃声设置的功能。
 
 PhoneTablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ringtone } from '@kit.RingtoneKit'
@@ -80,13 +74,7 @@ getSupportedRingtoneTypes(): Array<RingtoneType>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ringtone } from '@kit.RingtoneKit'
@@ -160,13 +148,7 @@ getSupportedDataTypes(ringtoneType: RingtoneType): Array<uniformTypeDescriptor.U
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ringtone } from '@kit.RingtoneKit'
@@ -250,13 +232,7 @@ getSupportedMaxDuration(ringtoneType: RingtoneType, dataType: uniformTypeDescrip
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ringtone } from '@kit.RingtoneKit'
@@ -337,13 +313,7 @@ startRingtoneSetting(context: common.UIAbilityContext, path: string, name: strin
 | 1011600004 | Failed to call the system API. |
 | 1011699999 | System exception. |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -441,13 +411,7 @@ startRingtoneSetting(context: common.UIAbilityContext, path: string, name: strin
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';

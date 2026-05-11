@@ -9,13 +9,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { floatingBall } from '@kit.ArkUI';
@@ -41,13 +35,7 @@ isFloatingBallEnabled(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let enable: boolean = floatingBall.isFloatingBallEnabled();
@@ -96,13 +84,7 @@ create(config: FloatingBallConfiguration): Promise<FloatingBallController>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -197,13 +179,7 @@ startFloatingBall(params: FloatingBallParams): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -270,13 +246,7 @@ updateFloatingBall(params: FloatingBallParams): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -329,13 +299,7 @@ stopFloatingBall(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -381,13 +345,7 @@ on(type: 'stateChange', callback: Callback<FloatingBallState>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let onStateChange = (state: floatingBall.FloatingBallState) => {
@@ -433,13 +391,7 @@ off(type: 'stateChange', callback?: Callback<FloatingBallState>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let onStateChange = (state: floatingBall.FloatingBallState) => {
@@ -486,13 +438,7 @@ on(type: 'click', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let onClick = () => {
@@ -538,13 +484,7 @@ off(type: 'click', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let onClick = () => {
@@ -592,13 +532,7 @@ getFloatingBallWindowInfo(): Promise<FloatingBallWindowInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -658,13 +592,7 @@ restoreMainWindow(want: Want): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -731,13 +659,7 @@ setFloatingBallVisibilityInApp(isVisible: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

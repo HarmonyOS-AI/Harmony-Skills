@@ -91,13 +91,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过按钮设置了悬浮事件[onHover](/consumer/cn/doc/harmonyos-references/ts-universal-events-hover#onhover)，鼠标悬浮可触发该事件修改按钮颜色。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -147,13 +141,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 15开始，该示例设置了按钮的[onHoverMove](/consumer/cn/doc/harmonyos-references/ts-universal-events-hover#onhovermove15)事件。当手写笔悬浮在按钮时，UI界面会显示当前手写笔悬浮状的位置。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

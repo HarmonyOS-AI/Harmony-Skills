@@ -14,13 +14,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AVVolumePanel } from '@kit.AudioKit';
@@ -88,13 +82,7 @@ PhonePC/2in1TabletTVWearable
 
 音量面板功能的示例说明参考如下。需要实际修改volume值或者按压音量按键体验调节音量效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AVVolumePanel } from '@kit.AudioKit';

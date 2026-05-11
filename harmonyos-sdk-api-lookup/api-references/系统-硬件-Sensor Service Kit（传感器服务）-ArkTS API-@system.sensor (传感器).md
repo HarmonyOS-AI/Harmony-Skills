@@ -14,13 +14,7 @@ sensor模块提供订阅传感器数据基本能力，主要包含查询传感�
 
 WearableLite Wearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Sensor } from '@kit.SensorServiceKit';
@@ -50,13 +44,7 @@ subscribeAccelerometer(options: subscribeAccelerometerOptions): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Sensor, AccelerometerResponse, subscribeAccelerometerOptions } from '@kit.SensorServiceKit';
@@ -95,13 +83,7 @@ unsubscribeAccelerometer(): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Sensor.unsubscribeAccelerometer();
@@ -129,13 +111,7 @@ subscribeCompass(options: SubscribeCompassOptions): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Sensor, CompassResponse, SubscribeCompassOptions } from '@kit.SensorServiceKit';
@@ -169,13 +145,7 @@ unsubscribeCompass(): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Sensor.unsubscribeCompass();
@@ -205,13 +175,7 @@ subscribeProximity(options: SubscribeProximityOptions): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Sensor, ProximityResponse, SubscribeProximityOptions } from '@kit.SensorServiceKit';
@@ -247,13 +211,7 @@ unsubscribeProximity(): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Sensor.unsubscribeProximity();
@@ -283,13 +241,7 @@ subscribeLight(options: SubscribeLightOptions): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Sensor, LightResponse, SubscribeLightOptions } from '@kit.SensorServiceKit';
@@ -325,13 +277,7 @@ unsubscribeLight(): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Sensor.unsubscribeLight();
@@ -361,13 +307,7 @@ subscribeStepCounter(options: SubscribeStepCounterOptions): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Sensor, StepCounterResponse, SubscribeStepCounterOptions } from '@kit.SensorServiceKit';
@@ -403,13 +343,7 @@ unsubscribeStepCounter(): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Sensor.unsubscribeStepCounter();
@@ -437,13 +371,7 @@ subscribeBarometer(options: SubscribeBarometerOptions): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Sensor, BarometerResponse, SubscribeBarometerOptions } from '@kit.SensorServiceKit';
@@ -477,13 +405,7 @@ unsubscribeBarometer(): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Sensor.unsubscribeBarometer();
@@ -513,13 +435,7 @@ subscribeHeartRate(options: SubscribeHeartRateOptions): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Sensor, HeartRateResponse, SubscribeHeartRateOptions } from '@kit.SensorServiceKit';
@@ -555,13 +471,7 @@ unsubscribeHeartRate(): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Sensor.unsubscribeHeartRate();
@@ -589,13 +499,7 @@ subscribeOnBodyState(options: SubscribeOnBodyStateOptions): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Sensor, OnBodyStateResponse, SubscribeOnBodyStateOptions } from '@kit.SensorServiceKit';
@@ -629,13 +533,7 @@ unsubscribeOnBodyState(): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Sensor.unsubscribeOnBodyState();
@@ -661,13 +559,7 @@ getOnBodyState(options: GetOnBodyStateOptions): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Sensor, OnBodyStateResponse, GetOnBodyStateOptions } from '@kit.SensorServiceKit';
@@ -709,13 +601,7 @@ subscribeDeviceOrientation(options: SubscribeDeviceOrientationOptions): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Sensor, DeviceOrientationResponse, SubscribeDeviceOrientationOptions } from '@kit.SensorServiceKit';
@@ -754,13 +640,7 @@ unsubscribeDeviceOrientation(): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Sensor.unsubscribeDeviceOrientation();
@@ -792,13 +672,7 @@ subscribeGyroscope(options: SubscribeGyroscopeOptions): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Sensor, GyroscopeResponse, SubscribeGyroscopeOptions } from '@kit.SensorServiceKit';
@@ -837,13 +711,7 @@ unsubscribeGyroscope(): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Sensor.unsubscribeGyroscope();

@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { promptAction } from '@kit.ArkUI';
@@ -68,13 +62,7 @@ openToast(options: ShowToastOptions): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -700,13 +688,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，该示例实现了在promptAction.DialogController中调用getState获取弹窗当前状态。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -852,13 +834,7 @@ showToast(options: ShowToastOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { promptAction } from '@kit.ArkUI';
@@ -941,13 +917,7 @@ showDialog(options: ShowDialogOptions): Promise<ShowDialogSuccessResponse>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { promptAction } from '@kit.ArkUI';
@@ -1015,13 +985,7 @@ showDialog(options: ShowDialogOptions, callback: AsyncCallback<ShowDialogSuccess
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { promptAction } from '@kit.ArkUI';
@@ -1059,13 +1023,7 @@ showDialog(options: ShowDialogOptions, callback: AsyncCallback<ShowDialogSuccess
 
 当弹窗的showInSubWindow属性为true时，弹窗可显示在窗口外。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { promptAction } from '@kit.ArkUI';
@@ -1105,13 +1063,7 @@ showDialog(options: ShowDialogOptions, callback: AsyncCallback<ShowDialogSuccess
 
 从API version 19开始，该示例通过调用[ShowDialogOptions](/consumer/cn/doc/harmonyos-references/js-apis-promptaction#showdialogoptions)中的onDidAppear、onDidDisappear、onWillAppear和onWillDisappear属性展示了弹窗生命周期的相关接口的使用方法。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1213,13 +1165,7 @@ showActionMenu(options: ActionMenuOptions, callback: AsyncCallback<ActionMenuSuc
 
 **示例：1**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { promptAction } from '@kit.ArkUI';
@@ -1258,13 +1204,7 @@ showActionMenu(options: ActionMenuOptions, callback: AsyncCallback<ActionMenuSuc
 
 从API version 19开始，该示例通过调用[ActionMenuOptions](/consumer/cn/doc/harmonyos-references/js-apis-promptaction#actionmenuoptions)中的onDidAppear、onDidDisappear、onWillAppear和onWillDisappear属性展示了操作菜单生命周期相关接口的使用方法。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { promptAction } from '@kit.ArkUI';
@@ -1383,13 +1323,7 @@ showActionMenu(options: ActionMenuOptions): Promise<ActionMenuSuccessResponse>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { promptAction } from '@kit.ArkUI';
@@ -1465,13 +1399,7 @@ openCustomDialog(options: CustomDialogOptions): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { promptAction } from '@kit.ArkUI';
@@ -1550,13 +1478,7 @@ openCustomDialog(options: CustomDialogOptions): Promise<number>
 
 直接使用openCustomDialog可能导致实例不明确的问题，建议使用[UIContext](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-uicontext)中的[getPromptAction](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-uicontext#getpromptaction)获取[PromptAction](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-promptaction)对象，再通过此对象调用替代方法[openCustomDialog](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-promptaction#opencustomdialog12-1)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LevelMode, ImmersiveMode } from '@kit.ArkUI';
@@ -1641,13 +1563,7 @@ openCustomDialog(options: CustomDialogOptions): Promise<number>
 
 直接使用openCustomDialog可能导致实例不明确的问题，建议使用[UIContext](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-uicontext)中的[getPromptAction](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-uicontext#getpromptaction)获取[PromptAction](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-promptaction)对象，再通过此对象调用替代方法[openCustomDialog](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-promptaction#opencustomdialog12-1)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -1709,13 +1625,7 @@ openCustomDialog(options: CustomDialogOptions): Promise<number>
 57. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Next.ets

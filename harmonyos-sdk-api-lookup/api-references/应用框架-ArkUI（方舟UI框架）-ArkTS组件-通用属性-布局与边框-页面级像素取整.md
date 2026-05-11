@@ -29,13 +29,7 @@ setPixelRoundMode(mode: PixelRoundMode): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -77,13 +71,7 @@ getPixelRoundMode(): PixelRoundMode
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets

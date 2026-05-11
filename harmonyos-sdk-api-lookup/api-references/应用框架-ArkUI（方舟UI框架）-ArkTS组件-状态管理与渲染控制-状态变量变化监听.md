@@ -38,13 +38,7 @@ Watch: (value: string) => PropertyDecorator
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -114,13 +108,7 @@ type MonitorDecorator = (value: string, ...args: string[]) => MethodDecorator
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @ObservedV2
@@ -219,13 +207,7 @@ value<T>(path?: string): IMonitorValue<T> | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @ObservedV2
@@ -298,13 +280,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @ObservedV2
@@ -363,13 +339,7 @@ SyncMonitor: MonitorDecorator
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';

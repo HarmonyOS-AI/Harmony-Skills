@@ -10,13 +10,7 @@
 
 PhoneTablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { businessRiskIntelligentDetection } from '@kit.DeviceSecurityKit';
@@ -134,13 +128,7 @@ detectFraudRisk(params: [FraudDetectionRequest](/consumer/cn/doc/harmonyos-refer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { businessRiskIntelligentDetection } from '@kit.DeviceSecurityKit';
@@ -217,13 +205,7 @@ detectSimulatedClickRisk(params: [SimulatedClickDetectionRequest](/consumer/cn/d
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { businessRiskIntelligentDetection } from '@kit.DeviceSecurityKit';
@@ -294,13 +276,7 @@ detectSimulatedClickRiskEnhanced(params: SimulatedClickDetectionEnhancedRequest)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { businessRiskIntelligentDetection } from '@kit.DeviceSecurityKit';

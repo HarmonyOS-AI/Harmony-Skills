@@ -8,13 +8,7 @@
 
 PhoneTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { infraredEmitter } from '@kit.InputKit';
@@ -54,13 +48,7 @@ transmitInfrared(infraredFrequency: number, pattern: Array<number>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { infraredEmitter } from '@kit.InputKit';
@@ -117,13 +105,7 @@ getInfraredFrequencies(): Array<InfraredFrequency>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { infraredEmitter } from '@kit.InputKit';
@@ -195,13 +177,7 @@ hasIrEmitter(): Promise<boolean>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { infraredEmitter } from '@kit.InputKit';

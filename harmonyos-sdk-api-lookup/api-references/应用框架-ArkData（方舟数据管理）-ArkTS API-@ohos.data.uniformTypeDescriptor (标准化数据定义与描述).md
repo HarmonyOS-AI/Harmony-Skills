@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uniformTypeDescriptor } from '@kit.ArkData';
@@ -274,13 +268,7 @@ belongsTo(type: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uniformTypeDescriptor } from '@kit.ArkData';
@@ -336,13 +324,7 @@ isLowerLevelType(type: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uniformTypeDescriptor } from '@kit.ArkData';
@@ -398,13 +380,7 @@ isHigherLevelType(type: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uniformTypeDescriptor } from '@kit.ArkData';
@@ -460,13 +436,7 @@ equals(typeDescriptor: TypeDescriptor): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uniformTypeDescriptor } from '@kit.ArkData';
@@ -522,13 +492,7 @@ getTypeDescriptor(typeId: string): TypeDescriptor
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uniformTypeDescriptor } from '@kit.ArkData';
@@ -593,13 +557,7 @@ getUniformDataTypeByFilenameExtension(filenameExtension: string, belongsTo?: str
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uniformTypeDescriptor } from '@kit.ArkData';
@@ -666,13 +624,7 @@ getUniformDataTypeByMIMEType(mimeType: string, belongsTo?: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uniformTypeDescriptor } from '@kit.ArkData';
@@ -739,13 +691,7 @@ getUniformDataTypesByFilenameExtension(filenameExtension: string, belongsTo?: st
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uniformTypeDescriptor } from '@kit.ArkData';
@@ -812,13 +758,7 @@ getUniformDataTypesByMIMEType(mimeType: string, belongsTo?: string): Array<strin
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uniformTypeDescriptor } from '@kit.ArkData';

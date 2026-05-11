@@ -33,13 +33,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FG_MeMode FG_AlgorithmModeInfo::meMode
@@ -53,13 +47,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FG_PredictionMode FG_AlgorithmModeInfo::predictionMode

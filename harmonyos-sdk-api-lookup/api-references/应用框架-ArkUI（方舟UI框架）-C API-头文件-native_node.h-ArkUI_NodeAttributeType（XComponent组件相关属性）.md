@@ -1,10 +1,4 @@
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum ArkUI_NodeAttributeType
@@ -22,13 +16,7 @@
 
 ## NODE\_XCOMPONENT\_ID
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_XCOMPONENT_ID = MAX_NODE_SCOPE_NUM * ARKUI_NODE_XCOMPONENT = 12000
@@ -58,13 +46,7 @@ XComponent组件ID属性，支持属性设置和属性获取接口。
 
 ## NODE\_XCOMPONENT\_TYPE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_XCOMPONENT_TYPE = 12001
@@ -90,13 +72,7 @@ XComponent组件的类型需要在组件创建时通过[ArkUI\_NodeType](https:/
 
 ## NODE\_XCOMPONENT\_SURFACE\_SIZE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_XCOMPONENT_SURFACE_SIZE = 12002
@@ -121,13 +97,7 @@ XComponent组件的宽高，仅支持属性获取接口。
 
 ## NODE\_XCOMPONENT\_SURFACE\_RECT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_XCOMPONENT_SURFACE_RECT = 12003
@@ -163,13 +133,7 @@ XComponent组件的宽高，仅支持属性获取接口。
 
 ## NODE\_XCOMPONENT\_ENABLE\_ANALYZER
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_XCOMPONENT_ENABLE_ANALYZER = 12004

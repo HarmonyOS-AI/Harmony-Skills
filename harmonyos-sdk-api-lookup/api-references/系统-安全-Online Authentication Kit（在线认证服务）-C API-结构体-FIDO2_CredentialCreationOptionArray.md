@@ -21,13 +21,7 @@
 
 ### pubKeyCredParamNum
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint32_t FIDO2_CredentialCreationOptionArray::pubKeyCredParamNum
@@ -39,13 +33,7 @@ PubKeyCredParam参数数目。
 
 ### pubKeyCredParams
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FIDO2_PublicKeyCredentialParameters* FIDO2_CredentialCreationOptionArray::pubKeyCredParams

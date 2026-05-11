@@ -234,13 +234,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过设置expandSafeArea属性向顶部和底部扩展安全区实现沉浸式效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -270,13 +264,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例展示了同时设置固定宽高和expandSafeArea属性的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -310,13 +298,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过为背景图组件设置expandSafeArea属性，来实现拉起键盘进行避让时，背景图保持不动的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -362,13 +344,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过调用setKeyboardAvoidMode设置键盘避让模式为RESIZE模式，实现键盘抬起时page的压缩效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -392,13 +368,7 @@ PhonePC/2in1TabletTVWearable
 19. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -432,13 +402,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过调用setKeyboardAvoidMode设置键盘避让模式为OFFSET模式，实现键盘抬起时page的上抬效果。但当输入光标距离屏幕底部的高度大于键盘高度时，page不会抬起，如本例中所示。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -462,13 +426,7 @@ PhonePC/2in1TabletTVWearable
 19. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -502,13 +460,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过调用setKeyboardAvoidMode来实现OFFSET、RESIZE和NONE模式之间的切换，实现三种不同的键盘避让效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -569,13 +521,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过在滚动类容器内调用expandSafeArea属性实现沉浸式效果，Scroll内的Swiper可以延伸到状态栏上。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class SwiperDataSource implements IDataSource {
@@ -643,13 +589,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例利用[ignoreLayoutSafeArea](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-expand-safe-area#ignorelayoutsafearea20)改变组件位置。相比未使用该属性，配置ignoreLayoutSafeArea后，Row组件基于Stack内容区、Stack组件级安全区、系统状态栏共同组成的范围，取其左上部分，作左上对齐。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LengthMetrics } from '@kit.ArkUI'
@@ -692,13 +632,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例利用[ignoreLayoutSafeArea](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-expand-safe-area#ignorelayoutsafearea20)和[LayoutPolicy.matchParent](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-size#layoutpolicy15)同时改变组件大小和位置。相比未使用该属性，配置ignoreLayoutSafeArea后，Row组件基于Stack内容区、Stack组件级安全区，取其右下部分并撑满可用空间。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LengthMetrics } from '@kit.ArkUI'
@@ -739,13 +673,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例展示了容器分别设置了expandSafeArea和ignoreLayoutSafeArea的布局效果和各自对子组件布局效果的影响。两种设置下，容器都可见地进行了延伸，但前者的子组件不受延伸影响，后者的子组件因父容器的延伸改变了位置。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LengthMetrics } from '@kit.ArkUI'

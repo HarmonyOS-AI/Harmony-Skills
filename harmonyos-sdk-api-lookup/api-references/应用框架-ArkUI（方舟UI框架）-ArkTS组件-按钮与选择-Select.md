@@ -1304,13 +1304,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置[SelectOption](/consumer/cn/doc/harmonyos-references/ts-basic-components-select#selectoption对象说明)实现下拉菜单，并从API version 19开始通过设置[avoidance](/consumer/cn/doc/harmonyos-references/ts-basic-components-select#avoidance19)属性实现菜单的避让方式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1359,13 +1353,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例实现了一个下拉菜单中图片为Symbol的Select组件，并从API version 19开始通过设置[avoidance](/consumer/cn/doc/harmonyos-references/ts-basic-components-select#avoidance19)属性实现菜单的避让方式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1421,13 +1409,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例实现了一个自定义下拉菜选项的Select组件。自定义下拉菜单选项样式为“文本 + Symbol图片 + 空白间隔 + 文本 + 绘制三角形”，点击菜单选项后Select组件显示菜单选项的文本内容。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SymbolGlyphModifier } from '@kit.ArkUI';
@@ -1504,13 +1486,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置divider的DividerOptions类型实现分割线样式的下拉菜单，并从API version 19开始通过设置[avoidance](/consumer/cn/doc/harmonyos-references/ts-basic-components-select#avoidance19)属性实现菜单的避让方式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1563,13 +1539,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置divider为null实现无分割线样式的下拉菜单，并从API version 19开始通过设置[avoidance](/consumer/cn/doc/harmonyos-references/ts-basic-components-select#avoidance19)属性实现菜单的避让方式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1617,13 +1587,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，该示例通过[textModifier](/consumer/cn/doc/harmonyos-references/ts-basic-components-select#textmodifier20)和[arrowModifier](/consumer/cn/doc/harmonyos-references/ts-basic-components-select#arrowmodifier20)属性设置文本以及箭头样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextModifier, SymbolGlyphModifier } from "@kit.ArkUI";
@@ -1692,13 +1656,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，该示例通过[optionTextModifier](/consumer/cn/doc/harmonyos-references/ts-basic-components-select#optiontextmodifier20)和[selectedOptionTextModifier](/consumer/cn/doc/harmonyos-references/ts-basic-components-select#selectedoptiontextmodifier20)属性设置下拉菜单选中和非选中项文本样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextModifier } from "@kit.ArkUI";
@@ -1770,13 +1728,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 19开始，该示例通过配置[DividerStyleOptions](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-types#dividerstyleoptions12)的mode属性设置分割线模式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LengthMetrics } from '@kit.ArkUI'
@@ -1806,13 +1758,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始该示例通过配置menuOutline的width和color属性设置下拉菜单外描边样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1866,13 +1812,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 23开始，新增keyboardAvoidMode、minKeyboardAvoidDistance接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { inputMethod } from '@kit.IMEKit';

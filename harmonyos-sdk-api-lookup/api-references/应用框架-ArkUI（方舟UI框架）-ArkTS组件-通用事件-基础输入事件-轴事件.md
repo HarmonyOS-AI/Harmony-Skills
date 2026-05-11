@@ -159,13 +159,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例中，对按钮设置轴事件，通过滚动鼠标滚轮可获取轴事件的相关参数。从API version 21开始，该示例通过[axisPinch](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-gesture-customize-judge#属性)和[getPinchAxisScaleValue](/consumer/cn/doc/harmonyos-references/ts-universal-events-axis#getpinchaxisscalevalue21)获取双指缩放比例；从API version 22开始，该示例通过[hasAxis](/consumer/cn/doc/harmonyos-references/ts-universal-events-axis#hasaxis22)判断轴事件是否包含指定的轴类型。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

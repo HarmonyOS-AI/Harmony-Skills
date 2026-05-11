@@ -1,10 +1,4 @@
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum ArkUI_NodeAttributeType
@@ -22,13 +16,7 @@
 
 ## NODE\_ACCESSIBILITY\_GROUP
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_ACCESSIBILITY_GROUP = 62
@@ -58,13 +46,7 @@
 
 ## NODE\_ACCESSIBILITY\_TEXT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_ACCESSIBILITY_TEXT = 63
@@ -94,13 +76,7 @@
 
 ## NODE\_ACCESSIBILITY\_MODE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_ACCESSIBILITY_MODE = 64
@@ -130,13 +106,7 @@
 
 ## NODE\_ACCESSIBILITY\_DESCRIPTION
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_ACCESSIBILITY_DESCRIPTION = 65
@@ -166,13 +136,7 @@
 
 ## NODE\_ACCESSIBILITY\_ID
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_ACCESSIBILITY_ID = 87
@@ -194,13 +158,7 @@
 
 ## NODE\_ACCESSIBILITY\_ACTIONS
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_ACCESSIBILITY_ACTIONS = 88
@@ -230,13 +188,7 @@
 
 ## NODE\_ACCESSIBILITY\_ROLE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_ACCESSIBILITY_ROLE = 89
@@ -266,13 +218,7 @@
 
 ## NODE\_ACCESSIBILITY\_STATE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_ACCESSIBILITY_STATE = 90
@@ -302,13 +248,7 @@
 
 ## NODE\_ACCESSIBILITY\_VALUE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_ACCESSIBILITY_VALUE = 91

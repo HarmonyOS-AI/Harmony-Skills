@@ -6,13 +6,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { HdsListItemCard } from '@kit.UIDesignKit';
@@ -1947,13 +1941,7 @@ PhonePC/2in1TabletTVWearable
 
 以设置简单的列表项为例
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {

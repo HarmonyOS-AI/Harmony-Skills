@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { InputMethodExtensionAbility } from '@kit.IMEKit';
@@ -64,13 +58,7 @@ Extension生命周期回调，在拉起输入法Extension时调用，执行初�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { InputMethodExtensionAbility } from '@kit.IMEKit';
@@ -95,13 +83,7 @@ Extension生命周期回调，在销毁输入法应用时回调，执行资源�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { InputMethodExtensionAbility } from '@kit.IMEKit';

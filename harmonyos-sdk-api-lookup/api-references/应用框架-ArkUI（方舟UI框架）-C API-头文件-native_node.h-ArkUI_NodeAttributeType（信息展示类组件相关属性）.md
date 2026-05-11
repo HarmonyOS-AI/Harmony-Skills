@@ -1,10 +1,4 @@
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum ArkUI_NodeAttributeType
@@ -22,13 +16,7 @@
 
 ## NODE\_LOADING\_PROGRESS\_COLOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_LOADING_PROGRESS_COLOR = MAX_NODE_SCOPE_NUM * ARKUI_NODE_LOADING_PROGRESS = 6000
@@ -58,13 +46,7 @@
 
 ## NODE\_LOADING\_PROGRESS\_ENABLE\_LOADING
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_LOADING_PROGRESS_ENABLE_LOADING = 6001
@@ -94,13 +76,7 @@ LoadingProgress动画显示属性，支持属性设置，属性重置和属性�
 
 ## NODE\_PROGRESS\_VALUE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_PROGRESS_VALUE = MAX_NODE_SCOPE_NUM * ARKUI_NODE_PROGRESS = 10000
@@ -130,13 +106,7 @@ LoadingProgress动画显示属性，支持属性设置，属性重置和属性�
 
 ## NODE\_PROGRESS\_TOTAL
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_PROGRESS_TOTAL = 10001
@@ -166,13 +136,7 @@ LoadingProgress动画显示属性，支持属性设置，属性重置和属性�
 
 ## NODE\_PROGRESS\_COLOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_PROGRESS_COLOR = 10002
@@ -202,13 +166,7 @@ LoadingProgress动画显示属性，支持属性设置，属性重置和属性�
 
 ## NODE\_PROGRESS\_TYPE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_PROGRESS_TYPE = 10003
@@ -238,13 +196,7 @@ LoadingProgress动画显示属性，支持属性设置，属性重置和属性�
 
 ## NODE\_PROGRESS\_LINEAR\_STYLE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_PROGRESS_LINEAR_STYLE = 10004

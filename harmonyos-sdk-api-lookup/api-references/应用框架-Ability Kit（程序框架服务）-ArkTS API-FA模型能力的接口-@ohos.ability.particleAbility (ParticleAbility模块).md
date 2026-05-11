@@ -16,13 +16,7 @@ particleAbility模块用来对Data和Service类型的Ability进行操作。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { particleAbility } from '@kit.AbilityKit';
@@ -53,13 +47,7 @@ startAbility(parameter: StartAbilityParameter, callback: AsyncCallback<void>): v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { particleAbility, wantConstant } from '@kit.AbilityKit';
@@ -120,13 +108,7 @@ startAbility(parameter: StartAbilityParameter): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { particleAbility, wantConstant } from '@kit.AbilityKit';
@@ -170,13 +152,7 @@ terminateSelf(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { particleAbility } from '@kit.AbilityKit';
@@ -210,13 +186,7 @@ terminateSelf(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { particleAbility } from '@kit.AbilityKit';
@@ -260,13 +230,7 @@ acquireDataAbilityHelper(uri: string): DataAbilityHelper
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { particleAbility } from '@kit.AbilityKit';
@@ -303,13 +267,7 @@ startBackgroundRunning(id: number, request: NotificationRequest, callback: Async
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { particleAbility, wantAgent } from '@kit.AbilityKit';
@@ -388,13 +346,7 @@ startBackgroundRunning(id: number, request: NotificationRequest): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { particleAbility, wantAgent } from '@kit.AbilityKit';
@@ -458,13 +410,7 @@ cancelBackgroundRunning(callback: AsyncCallback<void>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { particleAbility } from '@kit.AbilityKit';
@@ -505,13 +451,7 @@ cancelBackgroundRunning(): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { particleAbility } from '@kit.AbilityKit';
@@ -559,13 +499,7 @@ connectAbility(request: Want, options:ConnectOptions): number
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { particleAbility } from '@kit.AbilityKit';
@@ -618,13 +552,7 @@ disconnectAbility(connection: number, callback:AsyncCallback<void>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { particleAbility } from '@kit.AbilityKit';
@@ -681,13 +609,7 @@ disconnectAbility(connection: number): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { particleAbility } from '@kit.AbilityKit';

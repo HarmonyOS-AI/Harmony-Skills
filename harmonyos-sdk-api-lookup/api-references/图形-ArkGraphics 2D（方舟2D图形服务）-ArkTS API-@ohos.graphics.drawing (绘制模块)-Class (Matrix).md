@@ -21,13 +21,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -45,13 +39,7 @@ constructor()
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -79,13 +67,7 @@ constructor(matrix: Matrix)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -114,13 +96,7 @@ isAffine(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -151,13 +127,7 @@ rectStaysRect(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -192,13 +162,7 @@ setSkew(kx: number, ky: number, px: number, py: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -231,13 +195,7 @@ setSinCos(sinValue: number, cosValue: number, px: number, py: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -279,13 +237,7 @@ setRotation(degree: number, px: number, py: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -327,13 +279,7 @@ setScale(sx: number, sy: number, px: number, py: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -373,13 +319,7 @@ setTranslation(dx: number, dy: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -418,13 +358,7 @@ setMatrix(values: Array<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -464,13 +398,7 @@ preConcat(matrix: Matrix): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -502,13 +430,7 @@ setMatrix(matrix: Array<number> | Matrix): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -540,13 +462,7 @@ setConcat(matrixA: Matrix, matrixB: Matrix): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -578,13 +494,7 @@ postConcat(matrix: Matrix): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -640,13 +550,7 @@ isEqual(matrix: Matrix): Boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -700,13 +604,7 @@ invert(matrix: Matrix): Boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -742,13 +640,7 @@ isIdentity(): Boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -799,13 +691,7 @@ getValue(index: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from "@kit.ArkGraphics2D";
@@ -848,13 +734,7 @@ postRotate(degree: number, px: number, py: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from "@kit.ArkGraphics2D";
@@ -900,13 +780,7 @@ postScale(sx: number, sy: number, px: number, py: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from "@kit.ArkGraphics2D";
@@ -951,13 +825,7 @@ postTranslate(dx: number, dy: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from "@kit.ArkGraphics2D";
@@ -1001,13 +869,7 @@ preRotate(degree: number, px: number, py: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from "@kit.ArkGraphics2D";
@@ -1043,13 +905,7 @@ postSkew(kx: number, ky: number, px: number, py: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from "@kit.ArkGraphics2D"
@@ -1081,13 +937,7 @@ preSkew(kx: number, ky: number, px: number, py: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from "@kit.ArkGraphics2D"
@@ -1124,13 +974,7 @@ mapRadius(radius: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from "@kit.ArkGraphics2D"
@@ -1174,13 +1018,7 @@ preScale(sx: number, sy: number, px: number, py: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from "@kit.ArkGraphics2D";
@@ -1225,13 +1063,7 @@ preTranslate(dx: number, dy: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from "@kit.ArkGraphics2D";
@@ -1255,13 +1087,7 @@ reset(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from "@kit.ArkGraphics2D";
@@ -1310,13 +1136,7 @@ mapPoints(src: Array<common2D.Point>): Array<common2D.Point>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing, common2D } from "@kit.ArkGraphics2D";
@@ -1351,13 +1171,7 @@ getAll(): Array<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from "@kit.ArkGraphics2D";
@@ -1407,13 +1221,7 @@ mapRect(dst: common2D.Rect, src: common2D.Rect): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing, common2D } from "@kit.ArkGraphics2D";
@@ -1466,13 +1274,7 @@ setRectToRect(src: common2D.Rect, dst: common2D.Rect, scaleToFit: ScaleToFit): b
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing, common2D } from "@kit.ArkGraphics2D";
@@ -1526,13 +1328,7 @@ setPolyToPoly(src: Array<common2D.Point>, dst: Array<common2D.Point>, count: num
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing, common2D } from "@kit.ArkGraphics2D";

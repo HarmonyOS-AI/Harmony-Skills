@@ -12,13 +12,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webSocket } from '@kit.NetworkKit';
@@ -46,13 +40,7 @@ createWebSocket(): WebSocket
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let ws: webSocket.WebSocket = webSocket.createWebSocket();
@@ -113,13 +101,7 @@ URL地址长度不能超过1024个字符，否则会连接失败。从API versio
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webSocket } from '@kit.NetworkKit';
@@ -186,13 +168,7 @@ URL地址长度不能超过1024个字符，否则会连接失败。从API versio
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webSocket } from '@kit.NetworkKit';
@@ -275,13 +251,7 @@ URL地址长度不能超过1024个字符，否则会连接失败。从API versio
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webSocket } from '@kit.NetworkKit';
@@ -332,13 +302,7 @@ send(data: string | ArrayBuffer, callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webSocket } from '@kit.NetworkKit';
@@ -416,13 +380,7 @@ send(data: string | ArrayBuffer): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webSocket } from '@kit.NetworkKit';
@@ -492,13 +450,7 @@ close(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webSocket } from '@kit.NetworkKit';
@@ -550,13 +502,7 @@ close(options: WebSocketCloseOptions, callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webSocket } from '@kit.NetworkKit';
@@ -621,13 +567,7 @@ close(options?: WebSocketCloseOptions): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webSocket } from '@kit.NetworkKit';
@@ -669,13 +609,7 @@ on(type: 'open', callback: AsyncCallback<Object>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webSocket } from '@kit.NetworkKit';
@@ -718,13 +652,7 @@ off(type: 'open', callback?: AsyncCallback<Object>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webSocket } from '@kit.NetworkKit';
@@ -770,13 +698,7 @@ AsyncCallback中的数据可以是字符串（API version 6开始支持）或Arr
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webSocket } from '@kit.NetworkKit';
@@ -817,13 +739,7 @@ AsyncCallback中的数据可以是字符串(API 6)或ArrayBuffer(API 8)。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webSocket } from '@kit.NetworkKit';
@@ -855,13 +771,7 @@ on(type: 'close', callback: AsyncCallback<CloseResult>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webSocket } from '@kit.NetworkKit';
@@ -900,13 +810,7 @@ off(type: 'close', callback?: AsyncCallback<CloseResult>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webSocket } from '@kit.NetworkKit';
@@ -940,13 +844,7 @@ on(type: 'error', callback: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webSocket } from '@kit.NetworkKit';
@@ -985,13 +883,7 @@ off(type: 'error', callback?: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webSocket } from '@kit.NetworkKit';
@@ -1021,13 +913,7 @@ on(type: 'dataEnd', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webSocket } from '@kit.NetworkKit';
@@ -1063,13 +949,7 @@ off(type: 'dataEnd', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webSocket } from '@kit.NetworkKit';
@@ -1099,13 +979,7 @@ on(type: 'headerReceive', callback: Callback<ResponseHeaders>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webSocket } from '@kit.NetworkKit';
@@ -1141,13 +1015,7 @@ off(type: 'headerReceive', callback?: Callback<ResponseHeaders>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webSocket } from '@kit.NetworkKit';
@@ -1180,13 +1048,7 @@ createWebSocketServer(): WebSocketServer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let ws: webSocket.WebSocketServer = webSocket.createWebSocketServer();
@@ -1247,13 +1109,7 @@ start(config: WebSocketServerConfig): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webSocket } from '@kit.NetworkKit';
@@ -1324,13 +1180,7 @@ send接口必须在监听到connect事件后才可以调用。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webSocket } from '@kit.NetworkKit';
@@ -1405,13 +1255,7 @@ listAllConnections(): WebSocketConnection[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webSocket } from '@kit.NetworkKit';
@@ -1493,13 +1337,7 @@ close(connection: WebSocketConnection, options?: webSocket.WebSocketCloseOptions
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webSocket } from '@kit.NetworkKit';
@@ -1567,13 +1405,7 @@ stop(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webSocket } from '@kit.NetworkKit';
@@ -1627,13 +1459,7 @@ on(type: 'connect', callback: Callback<WebSocketConnection>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webSocket } from '@kit.NetworkKit';
@@ -1670,13 +1496,7 @@ off(type: 'connect', callback?: Callback<WebSocketConnection>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webSocket } from '@kit.NetworkKit';
@@ -1707,13 +1527,7 @@ on(type: 'messageReceive', callback: Callback<WebSocketMessage>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webSocket } from '@kit.NetworkKit';
@@ -1750,13 +1564,7 @@ off(type: 'messageReceive', callback?: Callback<WebSocketMessage>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webSocket } from '@kit.NetworkKit';
@@ -1787,13 +1595,7 @@ on(type: 'close', callback: ClientConnectionCloseCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webSocket } from '@kit.NetworkKit';
@@ -1830,13 +1632,7 @@ off(type: 'close', callback?: ClientConnectionCloseCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webSocket } from '@kit.NetworkKit';
@@ -1867,13 +1663,7 @@ on(type: 'error', callback: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webSocket } from '@kit.NetworkKit';
@@ -1910,13 +1700,7 @@ off(type: 'error', callback?: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webSocket } from '@kit.NetworkKit';

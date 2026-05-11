@@ -12,13 +12,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AAID } from '@kit.PushKit';
@@ -65,13 +59,7 @@ getAAID(callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AAID } from '@kit.PushKit';
@@ -133,13 +121,7 @@ getAAID(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AAID } from '@kit.PushKit';
@@ -200,13 +182,7 @@ deleteAAID(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AAID } from '@kit.PushKit';
@@ -267,13 +243,7 @@ deleteAAID(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AAID } from '@kit.PushKit';

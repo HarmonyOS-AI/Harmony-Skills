@@ -18,13 +18,7 @@ Queue和[Deque](https://developer.huawei.com/consumer/cn/doc/harmonyos-reference
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Queue } from '@kit.ArkTS';
@@ -72,13 +66,7 @@ Queue的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let queue = new Queue<number | string | Object>();
@@ -124,13 +112,7 @@ add(element: T): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class C1 {
@@ -179,13 +161,7 @@ pop(): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let queue = new Queue<number>();
@@ -230,13 +206,7 @@ getFirst(): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let queue = new Queue<number>();
@@ -292,13 +262,7 @@ callbackfn的参数说明：
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let queue = new Queue<number>();
@@ -347,13 +311,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let queue = new Queue<number>();

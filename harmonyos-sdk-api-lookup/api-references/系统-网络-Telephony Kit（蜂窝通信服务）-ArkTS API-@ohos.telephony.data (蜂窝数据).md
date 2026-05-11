@@ -8,13 +8,7 @@
 
 PhoneTabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { data } from '@kit.TelephonyKit';
@@ -40,13 +34,7 @@ getDefaultCellularDataSlotId(callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { data } from '@kit.TelephonyKit';
@@ -81,13 +69,7 @@ getDefaultCellularDataSlotId(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { data } from '@kit.TelephonyKit';
@@ -120,13 +102,7 @@ getDefaultCellularDataSlotIdSync(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { data } from '@kit.TelephonyKit';
@@ -166,13 +142,7 @@ getCellularDataFlowType(callback: AsyncCallback<DataFlowType>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { data } from '@kit.TelephonyKit';
@@ -219,13 +189,7 @@ getCellularDataFlowType(): Promise<DataFlowType>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { data } from '@kit.TelephonyKit';
@@ -270,13 +234,7 @@ getCellularDataState(callback: AsyncCallback<DataConnectState>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { data } from '@kit.TelephonyKit';
@@ -323,13 +281,7 @@ getCellularDataState(): Promise<DataConnectState>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { data } from '@kit.TelephonyKit';
@@ -379,13 +331,7 @@ isCellularDataEnabled(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { data } from '@kit.TelephonyKit';
@@ -435,13 +381,7 @@ isCellularDataEnabled(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { data } from '@kit.TelephonyKit';
@@ -489,13 +429,7 @@ isCellularDataEnabledSync(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { data } from '@kit.TelephonyKit';
@@ -546,13 +480,7 @@ isCellularDataRoamingEnabled(slotId: number, callback: AsyncCallback<boolean>): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { data } from '@kit.TelephonyKit';
@@ -612,13 +540,7 @@ isCellularDataRoamingEnabled(slotId: number): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { data } from '@kit.TelephonyKit';
@@ -676,13 +598,7 @@ isCellularDataRoamingEnabledSync(slotId: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { data } from '@kit.TelephonyKit';
@@ -715,13 +631,7 @@ getDefaultCellularDataSimId(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { data } from '@kit.TelephonyKit';
@@ -761,13 +671,7 @@ queryAllApns(): Promise<Array<ApnInfo>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { data } from '@kit.TelephonyKit';
@@ -820,13 +724,7 @@ queryApnIds(apnInfo: ApnInfo): Promise<Array<number>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { data } from '@kit.TelephonyKit';
@@ -891,13 +789,7 @@ setPreferredApn(apnId: number): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { data } from '@kit.TelephonyKit';
@@ -943,13 +835,7 @@ getActiveApnName(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { data } from '@kit.TelephonyKit';

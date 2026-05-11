@@ -148,13 +148,7 @@ PhonePC/2in1TabletTVWearable
 
 ListDataSource实现了LazyForEach数据源接口[IDataSource](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-rendering-control-lazyforeach#idatasource)，用于通过LazyForEach给List和ListItemGroup提供子组件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // ListDataSource.ets
@@ -229,13 +223,7 @@ ListDataSource实现了LazyForEach数据源接口[IDataSource](https://developer
 70. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -318,13 +306,7 @@ ListDataSource实现了LazyForEach数据源接口[IDataSource](https://developer
 
 该示例展示了ListItemGroup的卡片样式效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -390,13 +372,7 @@ ListDataSource实现了LazyForEach数据源接口[IDataSource](https://developer
 
 ListDataSource说明及完整代码参考[示例1设置吸顶/吸底](/consumer/cn/doc/harmonyos-references/ts-container-listitemgroup#示例1设置吸顶吸底)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -536,13 +512,7 @@ ListDataSource说明及完整代码参考[示例1设置吸顶/吸底](/consumer/
 
 ListDataSource说明及完整代码参考[示例1设置吸顶/吸底](/consumer/cn/doc/harmonyos-references/ts-container-listitemgroup#示例1设置吸顶吸底)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

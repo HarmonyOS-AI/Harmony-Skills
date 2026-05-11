@@ -8,13 +8,7 @@ TSC原生报错：以'001'结尾，是Typescript Compiler检查中已有的原�
 
 **错误示例场景：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. declare type AAA = 'BBB;
@@ -36,13 +30,7 @@ Unterminated string literal.
 
 根据报错描述，补全代码块的引号，修改后代码如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. declare type AAA = 'BBB';
@@ -52,13 +40,7 @@ Unterminated string literal.
 
 **错误示例场景：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. export default A;
@@ -81,13 +63,7 @@ A module cannot have multiple default exports.
 
 根据报错描述，删除多余的默认导出，修改后代码如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. export default A;
@@ -97,13 +73,7 @@ A module cannot have multiple default exports.
 
 **错误示例场景：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let a: number = 1;
@@ -127,13 +97,7 @@ Type 'string' is not assignable to type 'number'.
 
 根据报错描述，确保类型一致性，进行相应的类型赋值修改，修改后代码如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let a: number = 1;
@@ -147,13 +111,7 @@ Type 'string' is not assignable to type 'number'.
 
 har1包中有js文件，存在导出接口：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // har1's src/main/ets/FileJs.js
@@ -162,13 +120,7 @@ har1包中有js文件，存在导出接口：
 
 har2包引用har1包中该接口：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileJs } from 'har1/src/main/ets/FileJs';
@@ -192,13 +144,7 @@ js文件在编译时tsc不会生成对应的声明文件，导致其余模块无
 
 1.在js文件同级目录中手动编写对应的.d.ts声明文件，并随har包一起编译发布，示例如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // har1's src/main/ets/FileJs.d.ts
@@ -207,13 +153,7 @@ js文件在编译时tsc不会生成对应的声明文件，导致其余模块无
 
 2.在har1包顶层的Index.ets文件中增加export导出语句，示例如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. export { fileJs } from './src/main/ets/FileJs';
@@ -221,13 +161,7 @@ js文件在编译时tsc不会生成对应的声明文件，导致其余模块无
 
 3.在har2包引用har1包中该接口，示例如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileJs } from 'har1/src/main/ets/FileJs';

@@ -13,13 +13,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { window } from '@kit.ArkUI';
@@ -62,13 +56,7 @@ getMainWindow(callback: AsyncCallback<Window>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -139,13 +127,7 @@ getMainWindow(): Promise<Window>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -214,13 +196,7 @@ getMainWindowSync(): Window
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -286,13 +262,7 @@ createSubWindow(name: string, callback: AsyncCallback<Window>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -374,13 +344,7 @@ createSubWindow(name: string): Promise<Window>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -459,13 +423,7 @@ createSubWindowWithOptions(name: string, options: SubWindowOptions): Promise<Win
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -532,13 +490,7 @@ getSubWindow(callback: AsyncCallback<Array<Window>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -599,13 +551,7 @@ getSubWindow(): Promise<Array<Window>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -669,13 +615,7 @@ loadContent(path: string, storage: LocalStorage, callback: AsyncCallback<void>):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -753,13 +693,7 @@ loadContent(path: string, storage?: LocalStorage): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -828,13 +762,7 @@ loadContent(path: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -902,13 +830,7 @@ loadContentByName(name: string, storage: LocalStorage, callback: AsyncCallback<v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -941,13 +863,7 @@ loadContentByName(name: string, storage: LocalStorage, callback: AsyncCallback<v
 28. };
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // ets/pages/Index.ets
@@ -1009,13 +925,7 @@ loadContentByName(name: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -1045,13 +955,7 @@ loadContentByName(name: string, callback: AsyncCallback<void>): void
 25. };
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // ets/pages/Index.ets
@@ -1120,13 +1024,7 @@ loadContentByName(name: string, storage?: LocalStorage): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -1157,13 +1055,7 @@ loadContentByName(name: string, storage?: LocalStorage): Promise<void>
 26. };
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // ets/pages/Index.ets
@@ -1221,13 +1113,7 @@ releaseUIContent(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -1303,13 +1189,7 @@ on(eventType: 'windowStageEvent', callback: Callback<WindowStageEventType>): voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -1373,13 +1253,7 @@ off(eventType: 'windowStageEvent', callback?: Callback<WindowStageEventType>): v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -1462,13 +1336,7 @@ on(eventType: 'windowStageLifecycleEvent', callback: Callback<WindowStageLifecyc
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -1542,13 +1410,7 @@ off(eventType: 'windowStageLifecycleEvent', callback?: Callback<WindowStageLifec
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -1628,13 +1490,7 @@ on(eventType: 'windowStageClose', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -1701,13 +1557,7 @@ off(eventType: 'windowStageClose', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -1775,13 +1625,7 @@ setDefaultDensityEnabled(enabled: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -1852,13 +1696,7 @@ setCustomDensity(density: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -1916,13 +1754,7 @@ setCustomDensity(density: number, applyToSubWindow?: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -1995,13 +1827,7 @@ setWindowModal(isModal: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -2069,13 +1895,7 @@ removeStartingWindow(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -2164,13 +1984,7 @@ setWindowRectAutoSave(enabled: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -2264,13 +2078,7 @@ setWindowRectAutoSave(enabled: boolean, isSaveBySpecifiedFlag: boolean): Promise
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -2338,13 +2146,7 @@ isWindowRectAutoSave(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -2420,13 +2222,7 @@ setSupportedWindowModes(supportedWindowModes: Array<bundleManager.SupportWindowM
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -2506,13 +2302,7 @@ setSupportedWindowModes(supportedWindowModes: Array<bundleManager.SupportWindowM
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets

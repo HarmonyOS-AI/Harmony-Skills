@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { http } from '@kit.NetworkKit';
@@ -28,13 +22,7 @@ PhonePC/2in1TabletTVWearable
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 引入包名
@@ -179,13 +167,7 @@ createHttp(): HttpRequest
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { http } from '@kit.NetworkKit';
@@ -276,13 +258,7 @@ HTTP错误码映射关系：2300000 + curl错误码。更多常用错误码可�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { http } from '@kit.NetworkKit';
@@ -379,13 +355,7 @@ HTTP错误码映射关系：2300000 + curl错误码。更多常用错误码可�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { http } from '@kit.NetworkKit';
@@ -512,13 +482,7 @@ HTTP错误码映射关系：2300000 + curl错误码。更多常用错误码可�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { http } from '@kit.NetworkKit';
@@ -565,13 +529,7 @@ destroy(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { http } from '@kit.NetworkKit';
@@ -649,13 +607,7 @@ HTTP错误码映射关系：2300000 + curl错误码。更多常用错误码可�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { http } from '@kit.NetworkKit';
@@ -741,13 +693,7 @@ HTTP错误码映射关系：2300000 + curl错误码。更多常用错误码可�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { http } from '@kit.NetworkKit';
@@ -862,13 +808,7 @@ HTTP错误码映射关系：2300000 + curl错误码。更多常用错误码可�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { http } from '@kit.NetworkKit';
@@ -920,13 +860,7 @@ on(type: "headerReceive", callback: AsyncCallback<Object>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { http } from '@kit.NetworkKit';
@@ -963,13 +897,7 @@ off(type: "headerReceive", callback?: AsyncCallback<Object>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { http } from '@kit.NetworkKit';
@@ -1001,13 +929,7 @@ on(type: "headersReceive", callback: Callback<Object>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { http } from '@kit.NetworkKit';
@@ -1042,13 +964,7 @@ off(type: "headersReceive", callback?: Callback<Object>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { http } from '@kit.NetworkKit';
@@ -1083,13 +999,7 @@ once(type: "headersReceive", callback: Callback<Object>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { http } from '@kit.NetworkKit';
@@ -1123,13 +1033,7 @@ on(type: "dataReceive", callback: Callback<ArrayBuffer>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { http } from '@kit.NetworkKit';
@@ -1164,13 +1068,7 @@ off(type: "dataReceive", callback?: Callback<ArrayBuffer>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { http } from '@kit.NetworkKit';
@@ -1205,13 +1103,7 @@ on(type: "dataEnd", callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { http } from '@kit.NetworkKit';
@@ -1246,13 +1138,7 @@ off(type: "dataEnd", callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { http } from '@kit.NetworkKit';
@@ -1287,13 +1173,7 @@ on(type: 'dataReceiveProgress', callback: Callback<DataReceiveProgressInfo>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { http } from '@kit.NetworkKit';
@@ -1328,13 +1208,7 @@ off(type: 'dataReceiveProgress', callback?: Callback<DataReceiveProgressInfo>): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { http } from '@kit.NetworkKit';
@@ -1369,13 +1243,7 @@ on(type: 'dataSendProgress', callback: Callback<DataSendProgressInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { http } from '@kit.NetworkKit';
@@ -1410,13 +1278,7 @@ off(type: 'dataSendProgress', callback?: Callback<DataSendProgressInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { http } from '@kit.NetworkKit';
@@ -1713,13 +1575,7 @@ createHttpResponseCache(cacheSize?: number): HttpResponseCache
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { http } from '@kit.NetworkKit';
@@ -1779,13 +1635,7 @@ flush(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { http } from '@kit.NetworkKit';
@@ -1832,13 +1682,7 @@ flush(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { http } from '@kit.NetworkKit';
@@ -1881,13 +1725,7 @@ delete(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { http } from '@kit.NetworkKit';
@@ -1935,13 +1773,7 @@ delete(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { http } from '@kit.NetworkKit';
@@ -2486,13 +2318,7 @@ interceptorHandle(reqContext: HttpRequestContext, rspContext: HttpResponse): Pro
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { http } from '@kit.NetworkKit';
@@ -2524,13 +2350,7 @@ HTTP拦截器链。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { http } from '@kit.NetworkKit';
@@ -2586,13 +2406,7 @@ HTTP错误码映射关系：2300000 + curl错误码。更多常用错误码可�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { http } from '@kit.NetworkKit';
@@ -2657,13 +2471,7 @@ getChain(): HttpInterceptor[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { http } from '@kit.NetworkKit';
@@ -2750,13 +2558,7 @@ HTTP错误码映射关系：2300000 + curl错误码。更多常用错误码可�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { http } from '@kit.NetworkKit';

@@ -26,13 +26,7 @@
 
 ### allowCredentials
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FIDO2_PublicKeyCredentialDescriptorArray FIDO2_PublicKeyCredentialRequestOptions::allowCredentials
@@ -44,13 +38,7 @@
 
 ### challenge
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Uint8Buff FIDO2_PublicKeyCredentialRequestOptions::challenge
@@ -62,13 +50,7 @@
 
 ### extensions
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. char* FIDO2_PublicKeyCredentialRequestOptions::extensions
@@ -80,13 +62,7 @@
 
 ### hints
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FIDO2_PublicKeyCredentialHintArray FIDO2_PublicKeyCredentialRequestOptions::hints
@@ -98,13 +74,7 @@
 
 ### rpId
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. char* FIDO2_PublicKeyCredentialRequestOptions::rpId
@@ -116,13 +86,7 @@
 
 ### timeout
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint32_t FIDO2_PublicKeyCredentialRequestOptions::timeout
@@ -134,13 +98,7 @@
 
 ### userVerification
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FIDO2_UserVerificationRequirement FIDO2_PublicKeyCredentialRequestOptions::userVerification

@@ -75,13 +75,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum Data_AssetStatus
@@ -113,13 +107,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_Data_Asset_SetName(Data_Asset *asset, const char *name)
@@ -152,13 +140,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_Data_Asset_SetUri(Data_Asset *asset, const char *uri)
@@ -191,13 +173,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_Data_Asset_SetPath(Data_Asset *asset, const char *path)
@@ -230,13 +206,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_Data_Asset_SetCreateTime(Data_Asset *asset, int64_t createTime)
@@ -269,13 +239,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_Data_Asset_SetModifyTime(Data_Asset *asset, int64_t modifyTime)
@@ -308,13 +272,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_Data_Asset_SetSize(Data_Asset *asset, size_t size)
@@ -347,13 +305,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_Data_Asset_SetStatus(Data_Asset *asset, Data_AssetStatus status)
@@ -386,13 +338,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_Data_Asset_GetName(Data_Asset *asset, char *name, size_t *length)
@@ -426,13 +372,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_Data_Asset_GetUri(Data_Asset *asset, char *uri, size_t *length)
@@ -466,13 +406,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_Data_Asset_GetPath(Data_Asset *asset, char *path, size_t *length)
@@ -506,13 +440,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_Data_Asset_GetCreateTime(Data_Asset *asset, int64_t *createTime)
@@ -549,13 +477,7 @@ Data\_Asset
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_Data_Asset_GetModifyTime(Data_Asset *asset, int64_t *modifyTime)
@@ -588,13 +510,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_Data_Asset_GetSize(Data_Asset *asset, size_t *size)
@@ -627,13 +543,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_Data_Asset_GetStatus(Data_Asset *asset, Data_AssetStatus *status)
@@ -666,13 +576,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Data_Asset *OH_Data_Asset_CreateOne(void)
@@ -696,13 +600,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_Data_Asset_DestroyOne(Data_Asset *asset)
@@ -734,13 +632,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Data_Asset **OH_Data_Asset_CreateMultiple(uint32_t count)
@@ -772,13 +664,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_Data_Asset_DestroyMultiple(Data_Asset **assets, uint32_t count)

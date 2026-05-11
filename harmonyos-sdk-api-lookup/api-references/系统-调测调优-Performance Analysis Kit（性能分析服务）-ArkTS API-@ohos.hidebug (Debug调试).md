@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';
@@ -40,13 +34,7 @@ getNativeHeapSize(): bigint
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';
@@ -75,13 +63,7 @@ getNativeHeapAllocatedSize(): bigint
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';
@@ -110,13 +92,7 @@ getNativeHeapFreeSize(): bigint
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';
@@ -149,13 +125,7 @@ getPss(): bigint
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';
@@ -184,13 +154,7 @@ getVss(): bigint
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';
@@ -223,13 +187,7 @@ getSharedDirty(): bigint
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';
@@ -262,13 +220,7 @@ getPrivateDirty(): bigint
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';
@@ -301,13 +253,7 @@ getCpuUsage(): number
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';
@@ -351,13 +297,7 @@ getServiceDump(serviceid: number, fd: number, args: Array<string>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileIo } from '@kit.CoreFileKit';
@@ -412,13 +352,7 @@ startJsCpuProfiling(filename: string): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';
@@ -445,13 +379,7 @@ stopJsCpuProfiling(): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';
@@ -500,13 +428,7 @@ dumpJsHeapData(filename: string): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';
@@ -548,13 +470,7 @@ dumpJsHeapData(filename: string, needClean: boolean): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';
@@ -591,13 +507,7 @@ startProfiling(filename: string): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';
@@ -625,13 +535,7 @@ stopProfiling(): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';
@@ -667,13 +571,7 @@ dumpHeapData(filename: string): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';
@@ -701,13 +599,7 @@ getAppVMMemoryInfo(): VMMemoryInfo
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';
@@ -737,13 +629,7 @@ getAppVMObjectUsedSize(): bigint
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';
@@ -775,13 +661,7 @@ getAppThreadCpuUsage(): ThreadCpuUsage[]
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';
@@ -847,13 +727,7 @@ trace单位流量实测方法：limitSize设置为最大值500M，调用startApp
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';
@@ -900,13 +774,7 @@ stopAppTraceCapture(): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';
@@ -975,13 +843,7 @@ requestTrace(config: RequestTraceConfig): Promise<string>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug, hilog } from '@kit.PerformanceAnalysisKit';
@@ -1023,13 +885,7 @@ getAppMemoryLimit(): MemoryLimit
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';
@@ -1073,13 +929,7 @@ getSystemCpuUsage(): number
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';
@@ -1133,13 +983,7 @@ setAppResourceLimit(type: string, value: number, enableDebugLog: boolean): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';
@@ -1181,13 +1025,7 @@ getAppNativeMemInfo(): NativeMemInfo
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';
@@ -1218,13 +1056,7 @@ getAppNativeMemInfoAsync(): Promise<NativeMemInfo>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. hidebug.getAppNativeMemInfoAsync().then((nativeMemInfo: hidebug.NativeMemInfo)=>{
@@ -1266,13 +1098,7 @@ getAppNativeMemInfoWithCache(forceRefresh?: boolean): NativeMemInfo
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let nativeMemInfo: hidebug.NativeMemInfo = hidebug.getAppNativeMemInfoWithCache();
@@ -1301,13 +1127,7 @@ getSystemMemInfo(): SystemMemInfo
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';
@@ -1338,13 +1158,7 @@ getVMRuntimeStats(): GcStats
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';
@@ -1395,13 +1209,7 @@ getVMRuntimeStat(item: string): number
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';
@@ -1663,13 +1471,7 @@ isDebugState(): boolean
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';
@@ -1709,13 +1511,7 @@ getGraphicsMemory(): Promise<number>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';
@@ -1764,13 +1560,7 @@ getGraphicsMemorySync(): number
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';
@@ -1823,13 +1613,7 @@ getGraphicsMemorySummary(interval?: number): Promise<GraphicsMemorySummary>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';
@@ -1895,13 +1679,7 @@ dumpJsRawHeapData(needGC?: boolean): Promise<string>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';
@@ -1969,13 +1747,7 @@ dumpJsRawHeapData(needGC: boolean, needClean: boolean): Promise<string>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';
@@ -2028,13 +1800,7 @@ enableGwpAsanGrayscale(options?: GwpAsanOptions, duration?: number): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';
@@ -2084,13 +1850,7 @@ disableGwpAsanGrayscale(): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';
@@ -2118,13 +1878,7 @@ getGwpAsanGrayscaleState(): number
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';
@@ -2159,13 +1913,7 @@ setJsRawHeapTrimLevel(level: JsRawHeapTrimLevel): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';
@@ -2222,13 +1970,7 @@ setProcDumpInSharedOOM(enable: boolean): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';
@@ -2262,13 +2004,7 @@ getRssInfo(): RssInfo
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hidebug } from '@kit.PerformanceAnalysisKit';

@@ -10,13 +10,7 @@ webNativeMessagingExtensionManager模块提供基于Web标准的消息扩展管�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webNativeMessagingExtensionManager } from '@kit.ArkWeb';
@@ -83,13 +77,7 @@ onConnect(connection: ConnectionNativeInfo): void
 
 **示例:**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, Want } from '@kit.AbilityKit';
@@ -156,13 +144,7 @@ onDisconnect(connection: ConnectionNativeInfo): void
 
 **示例:**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, Want } from '@kit.AbilityKit';
@@ -230,13 +212,7 @@ onFailed(code: NmErrorCode, errMsg: string): void
 
 **示例:**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, Want } from '@kit.AbilityKit';
@@ -325,13 +301,7 @@ connectNative(context: UIAbilityContext, want: Want, callback: WebExtensionConne
 
 **示例:**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, Want } from '@kit.AbilityKit';
@@ -421,13 +391,7 @@ disconnectNative(connectionId: number): Promise<void>
 
 **示例:**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';

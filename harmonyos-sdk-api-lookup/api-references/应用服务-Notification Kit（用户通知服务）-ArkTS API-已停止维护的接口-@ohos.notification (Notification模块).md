@@ -12,13 +12,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import Notification from '@ohos.notification';
@@ -45,13 +39,7 @@ publish(request: NotificationRequest, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import NotificationManager from '@ohos.notificationManager';
@@ -108,13 +96,7 @@ publish(request: NotificationRequest): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import NotificationManager from '@ohos.notificationManager';
@@ -161,13 +143,7 @@ cancel(id: number, label: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import Base from '@ohos.base';
@@ -212,13 +188,7 @@ cancel(id: number, label?: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import Base from '@ohos.base';
@@ -251,13 +221,7 @@ cancel(id: number, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import Base from '@ohos.base';
@@ -293,13 +257,7 @@ cancelAll(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import Base from '@ohos.base';
@@ -335,13 +293,7 @@ cancelAll(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import Base from '@ohos.base';
@@ -374,13 +326,7 @@ addSlot(type: SlotType, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import Base from '@ohos.base';
@@ -424,13 +370,7 @@ addSlot(type: SlotType): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import Base from '@ohos.base';
@@ -463,13 +403,7 @@ getSlot(slotType: SlotType, callback: AsyncCallback<NotificationSlot>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import Base from '@ohos.base';
@@ -514,13 +448,7 @@ getSlot(slotType: SlotType): Promise<NotificationSlot>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import Base from '@ohos.base';
@@ -553,13 +481,7 @@ getSlots(callback: AsyncCallback<Array<NotificationSlot>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import Base from '@ohos.base';
@@ -595,13 +517,7 @@ getSlots(): Promise<Array<NotificationSlot>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import Base from '@ohos.base';
@@ -634,13 +550,7 @@ removeSlot(slotType: SlotType, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import Base from '@ohos.base';
@@ -685,13 +595,7 @@ removeSlot(slotType: SlotType): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import Base from '@ohos.base';
@@ -724,13 +628,7 @@ removeAllSlots(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import Base from '@ohos.base';
@@ -765,13 +663,7 @@ removeAllSlots(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import Base from '@ohos.base';
@@ -803,13 +695,7 @@ getActiveNotificationCount(callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import Base from '@ohos.base';
@@ -845,13 +731,7 @@ getActiveNotificationCount(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import Base from '@ohos.base';
@@ -883,13 +763,7 @@ getActiveNotifications(callback: AsyncCallback<Array<NotificationRequest>>): voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import Base from '@ohos.base';
@@ -926,13 +800,7 @@ getActiveNotifications(): Promise<Array<[NotificationRequest](/consumer/cn/doc/h
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import Base from '@ohos.base';
@@ -966,13 +834,7 @@ cancelGroup(groupName: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import Base from '@ohos.base';
@@ -1018,13 +880,7 @@ cancelGroup(groupName: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import Base from '@ohos.base';
@@ -1058,13 +914,7 @@ isSupportTemplate(templateName: string, callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import Base from '@ohos.base';
@@ -1109,13 +959,7 @@ isSupportTemplate(templateName: string): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import Base from '@ohos.base';
@@ -1148,13 +992,7 @@ requestEnableNotification(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import Base from '@ohos.base';
@@ -1190,13 +1028,7 @@ requestEnableNotification(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import Base from '@ohos.base';
@@ -1228,13 +1060,7 @@ isDistributedEnabled(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import Base from '@ohos.base';
@@ -1270,13 +1096,7 @@ isDistributedEnabled(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import Base from '@ohos.base';

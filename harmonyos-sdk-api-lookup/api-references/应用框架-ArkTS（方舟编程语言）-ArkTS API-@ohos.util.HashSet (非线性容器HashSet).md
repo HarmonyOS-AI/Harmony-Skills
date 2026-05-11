@@ -18,13 +18,7 @@ HashSet和[TreeSet](https://developer.huawei.com/consumer/cn/doc/harmonyos-refer
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { HashSet } from '@kit.ArkTS';
@@ -50,13 +44,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let hashSet = new HashSet<number>();
@@ -93,13 +81,7 @@ HashSet的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let hashSet = new HashSet<number>();
@@ -137,13 +119,7 @@ isEmpty(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const hashSet = new HashSet<number>();
@@ -192,13 +168,7 @@ has(value: T): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let hashSet = new HashSet<string>();
@@ -248,13 +218,7 @@ add(value: T): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let hashSet = new HashSet<string>();
@@ -303,13 +267,7 @@ remove(value: T): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let hashSet = new HashSet<string>();
@@ -343,13 +301,7 @@ clear(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let hashSet = new HashSet<string>();
@@ -392,13 +344,7 @@ values(): IterableIterator<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let hashSet = new HashSet<string>();
@@ -456,13 +402,7 @@ callbackFn的参数说明：
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let hashSet = new HashSet<string>();
@@ -475,13 +415,7 @@ callbackFn的参数说明：
 8. // value:sparrow key:sparrow
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 不建议在forEach中使用add、remove方法，因其可能导致迭代过程中的状态异常，建议使用for循环来进行安全的插入与删除操作。
@@ -526,13 +460,7 @@ entries(): IterableIterator<[T, T]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let hashSet = new HashSet<string>();
@@ -551,13 +479,7 @@ entries(): IterableIterator<[T, T]>
 14. // value:sparrow
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 不建议在entries中使用set、remove方法，因其可能导致迭代过程中的状态异常，建议使用for循环来进行安全的插入与删除操作。
@@ -602,13 +524,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let hashSet = new HashSet<string>();
@@ -633,13 +549,7 @@ PhonePC/2in1TabletTVWearable
 20. // value: sparrow
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 不建议在Symbol.iterator中使用set、remove方法，因其可能导致迭代过程中的状态异常，建议使用for循环来进行安全的插入与删除操作。

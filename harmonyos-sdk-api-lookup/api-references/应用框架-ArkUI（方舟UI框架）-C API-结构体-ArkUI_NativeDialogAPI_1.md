@@ -1,10 +1,4 @@
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct {...} ArkUI_NativeDialogAPI_1
@@ -61,13 +55,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ArkUI_NativeDialogHandle (*create)()
@@ -93,13 +81,7 @@ create方法需要在调用[show](/consumer/cn/doc/harmonyos-references/capi-ark
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void (*dispose)(ArkUI_NativeDialogHandle handle)
@@ -119,13 +101,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t (*setContent)(ArkUI_NativeDialogHandle handle, ArkUI_NodeHandle content)
@@ -160,13 +136,7 @@ setContent方法需要在调用[show](/consumer/cn/doc/harmonyos-references/capi
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t (*removeContent)(ArkUI_NativeDialogHandle handle)
@@ -200,13 +170,7 @@ removeContent方法需要在调用[show](/consumer/cn/doc/harmonyos-references/c
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t (*setContentAlignment)(ArkUI_NativeDialogHandle handle, int32_t alignment, float offsetX, float offsetY)
@@ -243,13 +207,7 @@ setContentAlignment方法需要在调用[show](/consumer/cn/doc/harmonyos-refere
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t (*resetContentAlignment)(ArkUI_NativeDialogHandle handle)
@@ -283,13 +241,7 @@ resetContentAlignment方法需要在调用[show](/consumer/cn/doc/harmonyos-refe
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t (*setModalMode)(ArkUI_NativeDialogHandle handle, bool isModal)
@@ -324,13 +276,7 @@ setModalMode方法需要在调用[show](/consumer/cn/doc/harmonyos-references/ca
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t (*setAutoCancel)(ArkUI_NativeDialogHandle handle, bool autoCancel)
@@ -365,13 +311,7 @@ setAutoCancel方法需要在调用[show](/consumer/cn/doc/harmonyos-references/c
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t (*setMask)(ArkUI_NativeDialogHandle handle, uint32_t maskColor, const ArkUI_Rect* maskRect)
@@ -407,13 +347,7 @@ setMask方法需要在调用[show](/consumer/cn/doc/harmonyos-references/capi-ar
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t (*setBackgroundColor)(ArkUI_NativeDialogHandle handle, uint32_t backgroundColor)
@@ -448,13 +382,7 @@ setBackgroundColor方法需要在调用[show](/consumer/cn/doc/harmonyos-referen
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t (*setCornerRadius)(ArkUI_NativeDialogHandle handle, float topLeft, float topRight,float bottomLeft, float bottomRight)
@@ -492,13 +420,7 @@ setCornerRadius方法需要在调用[show](/consumer/cn/doc/harmonyos-references
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t (*setGridColumnCount)(ArkUI_NativeDialogHandle handle, int32_t gridCount)
@@ -533,13 +455,7 @@ setGridColumnCount方法需要在调用[show](/consumer/cn/doc/harmonyos-referen
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t (*enableCustomStyle)(ArkUI_NativeDialogHandle handle, bool enableCustomStyle)
@@ -574,13 +490,7 @@ enableCustomStyle方法需要在调用[show](/consumer/cn/doc/harmonyos-referenc
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t (*enableCustomAnimation)(ArkUI_NativeDialogHandle handle, bool enableCustomAnimation)
@@ -615,13 +525,7 @@ enableCustomAnimation方法需要在调用[show](/consumer/cn/doc/harmonyos-refe
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t (*registerOnWillDismiss)(ArkUI_NativeDialogHandle handle, ArkUI_OnWillDismissEvent eventHandler)
@@ -656,13 +560,7 @@ registerOnWillDismiss方法需要在调用[show](/consumer/cn/doc/harmonyos-refe
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t (*show)(ArkUI_NativeDialogHandle handle, bool showInSubWindow)
@@ -693,13 +591,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t (*close)(ArkUI_NativeDialogHandle handle)
@@ -729,13 +621,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t (*registerOnWillDismissWithUserData)(ArkUI_NativeDialogHandle handle, void* userData, void (*callback)(ArkUI_DialogDismissEvent* event))

@@ -70,13 +70,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要显示通过[opacity](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-opacity#opacity)设置组件的不透明度。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

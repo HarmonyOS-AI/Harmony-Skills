@@ -22,13 +22,7 @@ restoreDefault(): void
 
 当光标移出绿框时，通过CursorController的restoreDefault方法恢复默认光标样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pointer } from '@kit.InputKit';
@@ -86,13 +80,7 @@ setCursor(value: PointerStyle): void
 
 当光标进入蓝框时，通过CursorController的setCursor方法修改光标样式为PointerStyle.WEST。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pointer } from '@kit.InputKit';

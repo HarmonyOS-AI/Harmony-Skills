@@ -6,13 +6,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { WindowManager } from '@kit.SpeechKit';
@@ -44,13 +38,7 @@ static setWindowStage(windowStage: window.WindowStage): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -118,13 +106,7 @@ static getWindowStage(): window.WindowStage
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { WindowManager } from '@kit.SpeechKit';

@@ -331,13 +331,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[AlertDialogParamWithConfirm](/consumer/cn/doc/harmonyos-references/ts-methods-alert-dialog-box#alertdialogparamwithconfirm对象说明)、[AlertDialogParamWithButtons](/consumer/cn/doc/harmonyos-references/ts-methods-alert-dialog-box#alertdialogparamwithbuttons对象说明)和[AlertDialogParamWithOptions](/consumer/cn/doc/harmonyos-references/ts-methods-alert-dialog-box#alertdialogparamwithoptions10对象说明)实现了分别弹出一、二、三个按钮的弹窗。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -483,13 +477,7 @@ PhonePC/2in1TabletTVWearable
 
 在2in1设备上设置[AlertDialogParam](/consumer/cn/doc/harmonyos-references/ts-methods-alert-dialog-box#alertdialogparam对象说明)中showInSubWindow属性的值为true时，可以弹出在主窗外显示的弹窗。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -561,13 +549,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置[AlertDialogParam](/consumer/cn/doc/harmonyos-references/ts-methods-alert-dialog-box#alertdialogparam对象说明)中的transition属性来实现弹窗的显示和消失动画。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -616,13 +598,7 @@ PhonePC/2in1TabletTVWearable
 
 示例定义了AlertDialog的样式，包括宽度、高度、背景色、阴影等。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -689,13 +665,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例展示了在折叠屏悬停态下设置dialog布局区域的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -749,13 +719,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例展示了弹窗生命周期的相关接口的使用方法。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -815,13 +779,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 19开始，在AlertDialogParam中新增了backgroundBlurStyleOptions属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -874,13 +832,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 19开始，在AlertDialogParam中新增了backgroundEffect属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry

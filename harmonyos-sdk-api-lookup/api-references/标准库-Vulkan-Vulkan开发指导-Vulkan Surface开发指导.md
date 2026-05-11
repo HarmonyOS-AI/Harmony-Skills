@@ -22,13 +22,7 @@
 
 使用平台扩展的接口，需要定义一个宏VK\_USE\_PLATFORM\_OHOS，我们在CMakeLists.txt定义这个宏。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ADD_DEFINITIONS(-DVK_USE_PLATFORM_OHOS=1)
@@ -38,13 +32,7 @@
 
 CMakeLists.txt中添加Vulkan的lib和周边模块的lib。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. libvulkan.so
@@ -60,13 +48,7 @@ CMakeLists.txt中添加Vulkan的lib和周边模块的lib。
 
 **头文件**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <ace/xcomponent/native_interface_xcomponent.h>
@@ -76,13 +58,7 @@ CMakeLists.txt中添加Vulkan的lib和周边模块的lib。
 
 1. **首先需要创建一个Vulkan实例**。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. VkInstance instance = VK_NULL_HANDLE;
@@ -113,13 +89,7 @@ CMakeLists.txt中添加Vulkan的lib和周边模块的lib。
 
    1. ets/pages/Index.ets中增加一个XComponent组件。
 
-      收起
-
-      自动换行
-
-      深色代码主题
-
-      复制
+      
 
       ```
       1. XComponent({
@@ -133,13 +103,7 @@ CMakeLists.txt中添加Vulkan的lib和周边模块的lib。
       ```
    2. 从XComponent组件中获取OHNativeWindow。
 
-      收起
-
-      自动换行
-
-      深色代码主题
-
-      复制
+      
 
       ```
       1. // XComponent在创建Surface时的回调函数
@@ -174,13 +138,7 @@ CMakeLists.txt中添加Vulkan的lib和周边模块的lib。
       ```
 3. **创建VkSurfaceKHR对象**。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. VkSurfaceKHR surface = VK_NULL_HANDLE;

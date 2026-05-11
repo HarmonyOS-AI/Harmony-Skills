@@ -33,13 +33,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. char XEG_ExtensionProperties::extensionName[XEG_MAX_EXTENSION_NAME_SIZE]
@@ -53,13 +47,7 @@ XEngine支持的扩展特性名称。
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint32_t XEG_ExtensionProperties::version

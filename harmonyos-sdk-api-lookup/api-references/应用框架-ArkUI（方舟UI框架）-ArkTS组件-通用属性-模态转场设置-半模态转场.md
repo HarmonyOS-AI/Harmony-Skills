@@ -395,13 +395,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过height设置不同高度的半模态弹窗。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -481,13 +475,7 @@ PhonePC/2in1TabletTVWearable
 2. 区别于height属性在不同时刻设置不同挡位的能力，多挡位能力有手势切换挡位高度的效果，且更适合固定高度区间的场景；
 3. 若高度范围不确定，且可能存在大于3个不同高度的场景，不建议使用detents属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -538,13 +526,7 @@ PhonePC/2in1TabletTVWearable
 
 bindSheet属性的borderWidth、borderColor属性值使用LocalizedEdgeWidths类型和LocalizedEdgeColors类型。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -606,13 +588,7 @@ bindSheet属性的borderWidth、borderColor属性值使用LocalizedEdgeWidths类
 
 bindSheet注册onWillDismiss与onWillSpringBackWhenDismiss。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -669,13 +645,7 @@ ScrollSizeMode.CONTINUOUS 持续更新内容适合detents多挡位切换场景�
 
 建议在builder内减少UI加载耗时的操作，滑动时内容实时刷新对性能要求较高。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -732,13 +702,7 @@ ScrollSizeMode.CONTINUOUS 持续更新内容适合detents多挡位切换场景�
 
 通过设置SheetKeyboardAvoidMode为RESIZE\_ONLY，当键盘高度变化时，根据高度变化实现滚动组件的滚动。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -859,13 +823,7 @@ ScrollSizeMode.CONTINUOUS 持续更新内容适合detents多挡位切换场景�
 
 其中，从API version 15开始，半模态的radius属性值使用LocalizedBorderRadiuses类型。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LengthMetrics } from '@kit.ArkUI';
@@ -922,13 +880,7 @@ ScrollSizeMode.CONTINUOUS 持续更新内容适合detents多挡位切换场景�
 
 从API version 20开始，此示例实现半模态侧边样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LengthMetrics } from '@kit.ArkUI';
@@ -1033,13 +985,7 @@ ScrollSizeMode.CONTINUOUS 持续更新内容适合detents多挡位切换场景�
 
 从API version 20开始，此示例实现半模态的全屏显示效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

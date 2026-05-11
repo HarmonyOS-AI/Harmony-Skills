@@ -2,13 +2,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { map } from '@kit.MapKit';
@@ -55,13 +49,7 @@ constructor(fromSize: number, toSize: number)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let animation: map.FontSizeAnimation = new map.FontSizeAnimation(5, 25);

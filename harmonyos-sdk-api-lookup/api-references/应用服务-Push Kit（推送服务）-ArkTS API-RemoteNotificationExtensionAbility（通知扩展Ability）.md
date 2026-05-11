@@ -14,13 +14,7 @@ RemoteNotificationExtensionAbility为通知扩展Ability，提供获取场景化
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RemoteNotificationExtensionAbility } from '@kit.PushKit';
@@ -78,13 +72,7 @@ onReceiveMessage(remoteNotificationInfo: pushCommon.RemoteNotificationInfo): Pro
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RemoteNotificationExtensionAbility, pushCommon } from '@kit.PushKit';
@@ -128,13 +116,7 @@ onDestroy(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RemoteNotificationExtensionAbility } from '@kit.PushKit';

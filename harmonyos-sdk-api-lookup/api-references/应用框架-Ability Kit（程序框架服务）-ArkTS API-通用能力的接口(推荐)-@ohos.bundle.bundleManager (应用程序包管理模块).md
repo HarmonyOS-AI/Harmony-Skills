@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bundleManager } from '@kit.AbilityKit';
@@ -315,13 +309,7 @@ getBundleInfoForSelf(bundleFlags: number): Promise<BundleInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 获取bundleInfo，包含带有metadataArray信息的appInfo信息
@@ -377,13 +365,7 @@ getBundleInfoForSelf(bundleFlags: number, callback: AsyncCallback<BundleInfo>): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 获取bundleInfo，包含permissions信息的abilitiesInfo信息
@@ -452,13 +434,7 @@ getProfileByAbility(moduleName: string, abilityName: string, metadataName: strin
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bundleManager } from '@kit.AbilityKit';
@@ -533,13 +509,7 @@ getProfileByAbility(moduleName: string, abilityName: string, metadataName?: stri
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bundleManager } from '@kit.AbilityKit';
@@ -562,13 +532,7 @@ getProfileByAbility(moduleName: string, abilityName: string, metadataName?: stri
 18. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bundleManager } from '@kit.AbilityKit';
@@ -640,13 +604,7 @@ getProfileByAbilitySync(moduleName: string, abilityName: string, metadataName?: 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bundleManager } from '@kit.AbilityKit';
@@ -666,13 +624,7 @@ getProfileByAbilitySync(moduleName: string, abilityName: string, metadataName?: 
 15. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bundleManager } from '@kit.AbilityKit';
@@ -733,13 +685,7 @@ getProfileByExtensionAbility(moduleName: string, extensionAbilityName: string, m
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bundleManager } from '@kit.AbilityKit';
@@ -811,13 +757,7 @@ getProfileByExtensionAbility(moduleName: string, extensionAbilityName: string, m
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bundleManager } from '@kit.AbilityKit';
@@ -898,13 +838,7 @@ getProfileByExtensionAbilitySync(moduleName: string, extensionAbilityName: strin
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bundleManager } from '@kit.AbilityKit';
@@ -974,13 +908,7 @@ getBundleInfoForSelfSync(bundleFlags: number): BundleInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bundleManager } from '@kit.AbilityKit';
@@ -1040,13 +968,7 @@ canOpenLink(link: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bundleManager } from '@kit.AbilityKit';
@@ -1095,13 +1017,7 @@ getLaunchWant(): Want
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1162,13 +1078,7 @@ getBundleInfo(bundleName: string, bundleFlags: number, userId: number, callback:
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 额外获取包含AbilityInfo信息的bundleInfo
@@ -1195,13 +1105,7 @@ getBundleInfo(bundleName: string, bundleFlags: number, userId: number, callback:
 22. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 额外获取包含ApplicationInfo中的metadata的bundleInfo
@@ -1270,13 +1174,7 @@ getBundleInfo(bundleName: string, bundleFlags: number, callback: AsyncCallback<B
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 额外获取extensionAbility
@@ -1353,13 +1251,7 @@ getBundleInfo(bundleName: string, bundleFlags: number, userId?: number): Promise
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 额外获取ApplicationInfo和SignatureInfo
@@ -1384,13 +1276,7 @@ getBundleInfo(bundleName: string, bundleFlags: number, userId?: number): Promise
 20. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bundleManager } from '@kit.AbilityKit';
@@ -1463,13 +1349,7 @@ getBundleInfoSync(bundleName: string, bundleFlags: number, userId: number): Bund
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bundleManager } from '@kit.AbilityKit';
@@ -1538,13 +1418,7 @@ getBundleInfoSync(bundleName: string, bundleFlags: number): BundleInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bundleManager } from '@kit.AbilityKit';
@@ -1600,13 +1474,7 @@ getBundleNameByUid(uid: number, callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bundleManager } from '@kit.AbilityKit';
@@ -1673,13 +1541,7 @@ getBundleNameByUid(uid: number): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bundleManager } from '@kit.AbilityKit';
@@ -1744,13 +1606,7 @@ getBundleNameByUidSync(uid: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bundleManager } from '@kit.AbilityKit';
@@ -1812,13 +1668,7 @@ getAppCloneIdentity(uid: number): Promise<AppCloneIdentity>;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bundleManager } from '@kit.AbilityKit';
@@ -1880,13 +1730,7 @@ getSignatureInfo(uid: number): SignatureInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bundleManager } from '@kit.AbilityKit';
@@ -1949,13 +1793,7 @@ getAbilityInfo(uri: string, abilityFlags: number): Promise<Array<AbilityInfo>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bundleManager } from '@kit.AbilityKit';
@@ -2000,13 +1838,7 @@ cleanBundleCacheFilesForSelf(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bundleManager } from '@kit.AbilityKit';
@@ -2055,13 +1887,7 @@ getPluginBundlePathForSelf(pluginBundleName: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bundleManager } from '@kit.AbilityKit';
@@ -2127,13 +1953,7 @@ getLaunchWantForBundleSync(bundleName: string, userId?: number): Want
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 示例接口含有userId参数，获取用于启动指定用户下的应用程序所需的Want参数
@@ -2154,13 +1974,7 @@ getLaunchWantForBundleSync(bundleName: string, userId?: number): Want
 16. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 示例接口不含userId参数，获取用于启动当前用户下的应用程序所需的Want参数

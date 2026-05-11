@@ -12,13 +12,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { InsightIntentExecutor } from '@kit.AbilityKit';
@@ -82,13 +76,7 @@ onExecuteInUIAbilityForegroundMode(name: string, param: Record<string, Object>, 
 
 同步返回意图执行结果的示例如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { InsightIntentExecutor, insightIntent } from '@kit.AbilityKit';
@@ -133,13 +121,7 @@ onExecuteInUIAbilityForegroundMode(name: string, param: Record<string, Object>, 
 
 使用Promise异步返回意图执行结果的示例如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { InsightIntentExecutor, insightIntent } from '@kit.AbilityKit';
@@ -217,13 +199,7 @@ onExecuteInUIAbilityBackgroundMode(name: string, param: Record<string, Object>):
 
 同步返回意图执行结果的示例如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { InsightIntentExecutor, insightIntent } from '@kit.AbilityKit';
@@ -243,13 +219,7 @@ onExecuteInUIAbilityBackgroundMode(name: string, param: Record<string, Object>):
 
 使用Promise异步返回意图执行结果的示例如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { InsightIntentExecutor, insightIntent } from '@kit.AbilityKit';
@@ -310,13 +280,7 @@ onExecuteInUIExtensionAbility(name: string, param: Record<string, Object>, pageL
 
 同步返回意图执行结果的示例如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { InsightIntentExecutor, insightIntent, UIExtensionContentSession } from '@kit.AbilityKit';
@@ -354,13 +318,7 @@ onExecuteInUIExtensionAbility(name: string, param: Record<string, Object>, pageL
 
 使用Promise异步返回意图执行结果的示例如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { InsightIntentExecutor, insightIntent, UIExtensionContentSession } from '@kit.AbilityKit';
@@ -434,13 +392,7 @@ onExecuteInServiceExtensionAbility(name: string, param: Record<string, Object>):
 
 同步返回意图执行结果的示例如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { InsightIntentExecutor, insightIntent } from '@kit.AbilityKit';
@@ -474,13 +426,7 @@ onExecuteInServiceExtensionAbility(name: string, param: Record<string, Object>):
 
 使用Promise异步返回意图执行结果的示例如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { InsightIntentExecutor, insightIntent } from '@kit.AbilityKit';

@@ -109,13 +109,7 @@ PhonePC/2in1TabletTVWearable
 
 以下示例展示了ForEach在List组件内使用时的拖拽效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -158,13 +152,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，以下示例展示了ForEach在List组件设置拖拽效果后触发的回调事件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

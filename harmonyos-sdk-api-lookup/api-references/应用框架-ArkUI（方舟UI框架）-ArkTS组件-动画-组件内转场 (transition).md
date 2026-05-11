@@ -454,13 +454,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示如何通过同一[TransitionEffect](/consumer/cn/doc/harmonyos-references/ts-transition-animation-component#transitioneffect10对象说明)来实现图片的出现与消失，出现和消失互为逆过程。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -505,13 +499,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示使用不同[TransitionEffect](/consumer/cn/doc/harmonyos-references/ts-transition-animation-component#transitioneffect10对象说明)来实现图片的出现和消失。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -576,13 +564,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示通过父子组件都配置[transition](/consumer/cn/doc/harmonyos-references/ts-transition-animation-component#transition)来实现图片的出现和消失。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import bundleState from '@ohos.bundleState'
@@ -45,13 +39,7 @@ isIdleState(bundleName: string, callback: AsyncCallback<boolean>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -95,13 +83,7 @@ isIdleState(bundleName: string): Promise<boolean>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';

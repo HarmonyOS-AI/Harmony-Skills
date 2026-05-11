@@ -6,13 +6,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { mapCommon } from '@kit.MapKit';
@@ -60,13 +54,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 地图初始化参数
@@ -128,13 +116,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let position: mapCommon.LatLng = {
@@ -168,13 +150,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let cameraPosition: mapCommon.CameraPosition = {
@@ -211,13 +187,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let bounds: mapCommon.LatLngBounds = {
@@ -255,13 +225,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let patternItem: mapCommon.PatternItem = {
@@ -294,13 +258,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let style: mapCommon.MyLocationStyle = {
@@ -337,13 +295,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let poi: mapCommon.Poi = {
@@ -422,13 +374,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let markerOptions: mapCommon.MarkerOptions = {
@@ -487,13 +433,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let mapCircleOptions: mapCommon.MapCircleOptions = {
@@ -541,13 +481,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let polygonOptions: mapCommon.MapPolygonOptions = {
@@ -604,13 +538,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let polylineOption: mapCommon.MapPolylineOptions = {
@@ -687,13 +615,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pointAnnotationOptions: mapCommon.PointAnnotationParams = {
@@ -748,13 +670,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let bubbleOptions: mapCommon.BubbleParams = {
@@ -802,13 +718,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let text: mapCommon.Text = {
@@ -846,13 +756,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 初始化参数，左边距0，底边距50
@@ -888,13 +792,7 @@ VisibleRegion包含四个点，这四个点定义了地图相机的四边形可�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 示例中this.mapController来源参考指南显示地图示例代码
@@ -925,13 +823,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let point: mapCommon.MapPoint = {
@@ -963,13 +855,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // styleId需要替换为您自己的样式ID，样式ID可在Petal Maps Studio平台上创建
@@ -1000,13 +886,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let clusterItem: mapCommon.ClusterItem = {
@@ -1048,13 +928,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let clusterItem1: mapCommon.ClusterItem = {
@@ -1108,13 +982,7 @@ getCustomIcon?(clusterItems: Array<ClusterItem>): Promise<image.PixelMap>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 实现mapCommon.ClusterOverlayParams中的getCustomIcon方法
@@ -1190,13 +1058,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let imageOverlayParams: mapCommon.ImageOverlayParams = {
@@ -1244,13 +1106,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let points: Array<mapCommon.LatLng> = [
@@ -1430,13 +1286,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let buildingTexture: mapCommon.BuildingTexture = {
@@ -1473,13 +1323,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 示例中this.mapController来源参考指南显示地图示例代码
@@ -1650,13 +1494,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 设置弧线参数
@@ -1706,13 +1544,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let location: mapCommon.CoordinateLatLng = {
@@ -1745,13 +1577,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: mapCommon.TileOverlayParams = {
@@ -1789,13 +1615,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: mapCommon.TileOverlayOptions = {

@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { generateBarcode } from '@kit.ScanKit';
@@ -82,13 +76,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { scanCore, generateBarcode } from '@kit.ScanKit';
@@ -149,13 +137,7 @@ createBarcode(content: string, options: CreateOptions): Promise<image.PixelMap>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from '@kit.ImageKit';
@@ -238,13 +220,7 @@ createBarcode(content: string, options: CreateOptions, callback: AsyncCallback<i
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from '@kit.ImageKit';
@@ -316,13 +292,7 @@ createBarcode(content: ArrayBuffer, options: CreateOptions): Promise<image.Pixel
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from '@kit.ImageKit';

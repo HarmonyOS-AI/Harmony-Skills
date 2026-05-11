@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileIo } from '@kit.CoreFileKit';
@@ -26,13 +20,7 @@ PhonePC/2in1TabletTVWearable
 
 使用该功能模块对文件/目录进行操作前，需要先获取其应用沙箱路径，获取方式及其接口用法请参考：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -84,13 +72,7 @@ stat(file: string | number): Promise<Stat>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -130,13 +112,7 @@ stat(file: string | number, callback: AsyncCallback<Stat>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -184,13 +160,7 @@ statSync(file: string | number): Stat
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let stat = fileIo.statSync(pathDir);
@@ -234,13 +204,7 @@ access(path: string, mode?: AccessModeType): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -293,13 +257,7 @@ access(path: string, mode: AccessModeType, flag: AccessFlagType): Promise<boolea
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -343,13 +301,7 @@ access(path: string, callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -405,13 +357,7 @@ accessSync(path: string, mode?: AccessModeType): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -466,13 +412,7 @@ accessSync(path: string, mode: AccessModeType, flag: AccessFlagType): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -525,13 +465,7 @@ close(file: number | File): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -572,13 +506,7 @@ close(file: number | File, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -620,13 +548,7 @@ closeSync(file: number | File): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -672,13 +594,7 @@ copy(srcUri: string, destUri: string, options?: CopyOptions): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -737,13 +653,7 @@ copy(srcUri: string, destUri: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -799,13 +709,7 @@ copy(srcUri: string, destUri: string, options: CopyOptions, callback: AsyncCallb
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -872,13 +776,7 @@ copyFile(src: string | number, dest: string | number, mode?: number): Promise<vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -921,13 +819,7 @@ copyFile(src: string | number, dest: string | number, mode: number, callback: As
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -971,13 +863,7 @@ copyFile(src: string | number, dest: string | number, callback: AsyncCallback<vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1021,13 +907,7 @@ copyFileSync(src: string | number, dest: string | number, mode?: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let srcPath = pathDir + "/srcDir/test.txt";
@@ -1069,13 +949,7 @@ copyDir(src: string, dest: string, mode?: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1117,13 +991,7 @@ copyDir(src: string, dest: string, mode: number, callback: AsyncCallback<void, A
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1173,13 +1041,7 @@ copyDir(src: string, dest: string, callback: AsyncCallback<void, Array<ConflictF
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1227,13 +1089,7 @@ copyDirSync(src: string, dest: string, mode?: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1282,13 +1138,7 @@ dup(fd: number): File
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -1335,13 +1185,7 @@ connectDfs(networkId: string, listeners: DfsListeners): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1399,13 +1243,7 @@ disconnectDfs(networkId: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1458,13 +1296,7 @@ setxattr(path: string, key: string, value: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1506,13 +1338,7 @@ setxattrSync(path: string, key: string, value: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1562,13 +1388,7 @@ getxattr(path: string, key: string): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1616,13 +1436,7 @@ getxattrSync(path: string, key: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1672,13 +1486,7 @@ mkdir(path: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1726,13 +1534,7 @@ mkdir(path: string, recursion: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1772,13 +1574,7 @@ mkdir(path: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1821,13 +1617,7 @@ mkdir(path: string, recursion: boolean, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1868,13 +1658,7 @@ mkdirSync(path: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let dirPath = pathDir + "/testDir";
@@ -1908,13 +1692,7 @@ mkdirSync(path: string, recursion: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let dirPath = pathDir + "/testDir1/testDir2/testDir3";
@@ -1956,13 +1734,7 @@ open(path: string, mode?: number): Promise<File>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2006,13 +1778,7 @@ open(path: string, mode: number, callback: AsyncCallback<File>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2055,13 +1821,7 @@ open(path: string, callback: AsyncCallback<File>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2112,13 +1872,7 @@ openSync(path: string, mode?: number): File
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -2163,13 +1917,7 @@ read(fd: number, buffer: ArrayBuffer, options?: ReadOptions): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2217,13 +1965,7 @@ read(fd: number, buffer: ArrayBuffer, options?: ReadOptions, callback: AsyncCall
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2279,13 +2021,7 @@ readSync(fd: number, buffer: ArrayBuffer, options?: ReadOptions): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -2333,13 +2069,7 @@ rmdir(path: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2383,13 +2113,7 @@ rmdir(path: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2434,13 +2158,7 @@ rmdirSync(path: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let dirPath = pathDir + "/testDir";
@@ -2481,13 +2199,7 @@ unlink(path: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2527,13 +2239,7 @@ unlink(path: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2574,13 +2280,7 @@ unlinkSync(path: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -2623,13 +2323,7 @@ write(fd: number, buffer: ArrayBuffer | string, options?: WriteOptions): Promise
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2675,13 +2369,7 @@ write(fd: number, buffer: ArrayBuffer | string, options?: WriteOptions, callback
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2735,13 +2423,7 @@ writeSync(fd: number, buffer: ArrayBuffer | string, options?: WriteOptions): num
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -2787,13 +2469,7 @@ truncate(file: string | number, len?: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2835,13 +2511,7 @@ truncate(file: string | number, len?: number, callback: AsyncCallback<void>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2884,13 +2554,7 @@ truncateSync(file: string | number, len?: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -2931,13 +2595,7 @@ readLines(filePath: string, options?: Options): Promise<ReaderIterator>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2982,13 +2640,7 @@ readLines(filePath: string, options?: Options, callback: AsyncCallback<ReaderIte
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3042,13 +2694,7 @@ readLinesSync(filePath: string, options?: Options): ReaderIterator
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Options } from '@kit.CoreFileKit';
@@ -3097,13 +2743,7 @@ next(): ReaderIteratorResult
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3172,13 +2812,7 @@ readText(filePath: string, options?: ReadTextOptions): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3219,13 +2853,7 @@ readText(filePath: string, options?: ReadTextOptions, callback: AsyncCallback<st
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3282,13 +2910,7 @@ readTextSync(filePath: string, options?: ReadTextOptions): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ReadTextOptions } from '@kit.CoreFileKit';
@@ -3337,13 +2959,7 @@ lstat(path: string): Promise<Stat>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3381,13 +2997,7 @@ lstat(path: string, callback: AsyncCallback<Stat>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3434,13 +3044,7 @@ lstatSync(path: string): Stat
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/linkToFile";
@@ -3487,13 +3091,7 @@ rename(oldPath: string, newPath: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3539,13 +3137,7 @@ rename(oldPath: string, newPath: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3592,13 +3184,7 @@ renameSync(oldPath: string, newPath: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let srcFile = pathDir + "/test.txt";
@@ -3638,13 +3224,7 @@ fsync(fd: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3685,13 +3265,7 @@ fsync(fd: number, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3732,13 +3306,7 @@ fsyncSync(fd: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -3779,13 +3347,7 @@ fdatasync(fd: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3826,13 +3388,7 @@ fdatasync(fd: number, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3873,13 +3429,7 @@ fdatasyncSync(fd: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -3925,13 +3475,7 @@ symlink(target: string, srcPath: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3975,13 +3519,7 @@ symlink(target: string, srcPath: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4026,13 +3564,7 @@ symlinkSync(target: string, srcPath: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let srcFile = pathDir + "/test.txt";
@@ -4077,13 +3609,7 @@ listFile(path: string, options?: ListFileOptions): Promise<string[]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4138,13 +3664,7 @@ listFile(path: string, options?: ListFileOptions, callback: AsyncCallback<string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4208,13 +3728,7 @@ listFileSync(path: string, options?: ListFileOptions): string[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Filter, ListFileOptions} from '@kit.CoreFileKit';
@@ -4269,13 +3783,7 @@ lseek(fd: number, offset: number, whence?: WhenceType): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -4323,13 +3831,7 @@ moveDir(src: string, dest: string, mode?: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4374,13 +3876,7 @@ moveDir(src: string, dest: string, mode: number, callback: AsyncCallback<void, A
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4433,13 +3929,7 @@ moveDir(src: string, dest: string, callback: AsyncCallback<void, Array<ConflictF
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4490,13 +3980,7 @@ moveDirSync(src: string, dest: string, mode?: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4557,13 +4041,7 @@ moveFile(src: string, dest: string, mode?: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4608,13 +4086,7 @@ moveFile(src: string, dest: string, mode: number, callback: AsyncCallback<void>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4660,13 +4132,7 @@ moveFile(src: string, dest: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4712,13 +4178,7 @@ moveFileSync(src: string, dest: string, mode?: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let srcPath = pathDir + "/source.txt";
@@ -4759,13 +4219,7 @@ mkdtemp(prefix: string): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4802,13 +4256,7 @@ mkdtemp(prefix: string, callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4854,13 +4302,7 @@ mkdtempSync(prefix: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let res = fileIo.mkdtempSync(pathDir + "/XXXXXX");
@@ -4891,13 +4333,7 @@ utimes(path: string, mtime: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -4940,13 +4376,7 @@ createRandomAccessFile(file: string | File, mode?: number): Promise<RandomAccess
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4988,13 +4418,7 @@ createRandomAccessFile(file: string | File, callback: AsyncCallback<RandomAccess
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5038,13 +4462,7 @@ createRandomAccessFile(file: string | File, mode: number, callback: AsyncCallbac
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5094,13 +4512,7 @@ createRandomAccessFile(file: string | File, mode?: number, options?: RandomAcces
 
 接口抛出错误码的详细介绍请参见[基础文件IO错误码](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/errorcode-filemanagement#基础文件io错误码)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5149,13 +4561,7 @@ createRandomAccessFileSync(file: string | File, mode?: number): RandomAccessFile
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -5198,13 +4604,7 @@ createRandomAccessFileSync(file: string | File, mode?: number, options?: RandomA
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -5248,13 +4648,7 @@ createStream(path: string, mode: string): Promise<Stream>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5296,13 +4690,7 @@ createStream(path: string, mode: string, callback: AsyncCallback<Stream>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5353,13 +4741,7 @@ createStreamSync(path: string, mode: string): Stream
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -5403,13 +4785,7 @@ fdopenStream(fd: number, mode: string): Promise<Stream>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5458,13 +4834,7 @@ fdopenStream(fd: number, mode: string, callback: AsyncCallback<Stream>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5522,13 +4892,7 @@ fdopenStreamSync(fd: number, mode: string): Stream
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -5574,13 +4938,7 @@ createReadStream(path: string, options?: ReadStreamOptions ): ReadStream
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 创建文件可读流
@@ -5630,13 +4988,7 @@ createWriteStream(path: string, options?: WriteStreamOptions): WriteStream
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 创建文件可读流
@@ -5709,13 +5061,7 @@ getBaseFile(): File
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -5761,13 +5107,7 @@ openRead(): ReadStream
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -5822,13 +5162,7 @@ readFully(): ArrayBuffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -5883,13 +5217,7 @@ startWrite(): WriteStream
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -5926,13 +5254,7 @@ finishWrite(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -5968,13 +5290,7 @@ failWrite(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -6011,13 +5327,7 @@ delete(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -6079,13 +5389,7 @@ createWatcher(path: string, events: number, listener: WatchEventListener): Watch
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -6186,13 +5490,7 @@ cancel(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6261,13 +5559,7 @@ onCancel(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TaskSignal } from '@kit.CoreFileKit';
@@ -6307,13 +5599,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TaskSignal } from '@kit.CoreFileKit';
@@ -6385,13 +5671,7 @@ isBlockDevice(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -6422,13 +5702,7 @@ isCharacterDevice(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -6461,13 +5735,7 @@ isDirectory(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let dirPath = pathDir + "/test";
@@ -6498,13 +5766,7 @@ isFIFO(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -6537,13 +5799,7 @@ isFile(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -6574,13 +5830,7 @@ isSocket(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -6611,13 +5861,7 @@ isSymbolicLink(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -6656,13 +5900,7 @@ close(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6702,13 +5940,7 @@ close(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6742,13 +5974,7 @@ closeSync(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -6782,13 +6008,7 @@ flush(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6829,13 +6049,7 @@ flush(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6870,13 +6084,7 @@ flushSync(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -6920,13 +6128,7 @@ write(buffer: ArrayBuffer | string, options?: WriteOptions): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6975,13 +6177,7 @@ write(buffer: ArrayBuffer | string, options?: WriteOptions, callback: AsyncCallb
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -7041,13 +6237,7 @@ writeSync(buffer: ArrayBuffer | string, options?: WriteOptions): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { WriteOptions } from '@kit.CoreFileKit';
@@ -7098,13 +6288,7 @@ read(buffer: ArrayBuffer, options?: ReadOptions): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -7155,13 +6339,7 @@ read(buffer: ArrayBuffer, options?: ReadOptions, callback: AsyncCallback<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -7221,13 +6399,7 @@ readSync(buffer: ArrayBuffer, options?: ReadOptions): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ReadOptions } from '@kit.CoreFileKit';
@@ -7287,13 +6459,7 @@ getParent(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -7334,13 +6500,7 @@ lock(exclusive?: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -7381,13 +6541,7 @@ lock(exclusive?: boolean, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -7428,13 +6582,7 @@ tryLock(exclusive?: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -7460,13 +6608,7 @@ unlock(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -7547,13 +6689,7 @@ setFilePointer(filePointer:number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -7578,13 +6714,7 @@ close(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -7625,13 +6755,7 @@ write(buffer: ArrayBuffer | string, options?: WriteOptions): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -7683,13 +6807,7 @@ write(buffer: ArrayBuffer | string, options?: WriteOptions, callback: AsyncCallb
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -7751,13 +6869,7 @@ writeSync(buffer: ArrayBuffer | string, options?: WriteOptions): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { WriteOptions } from '@kit.CoreFileKit';
@@ -7806,13 +6918,7 @@ read(buffer: ArrayBuffer, options?: ReadOptions): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -7863,13 +6969,7 @@ read(buffer: ArrayBuffer, options?: ReadOptions, callback: AsyncCallback<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -7930,13 +7030,7 @@ readSync(buffer: ArrayBuffer, options?: ReadOptions): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -7973,13 +7067,7 @@ getReadStream(): ReadStream
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const filePath = pathDir + "/test.txt";
@@ -8013,13 +7101,7 @@ getWriteStream(): WriteStream
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const filePath = pathDir + "/test.txt";
@@ -8051,13 +7133,7 @@ start(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -8082,13 +7158,7 @@ stop(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -8349,13 +7419,7 @@ seek(offset: number, whence?: WhenceType): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const filePath = pathDir + "/test.txt";
@@ -8381,13 +7445,7 @@ close(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const filePath = pathDir + "/test.txt";
@@ -8447,13 +7505,7 @@ seek(offset: number, whence?: WhenceType): number;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const filePath = pathDir + "/test.txt";
@@ -8479,13 +7531,7 @@ close(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const filePath = pathDir + "/test.txt";

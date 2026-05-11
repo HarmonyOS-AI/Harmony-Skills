@@ -10,13 +10,7 @@ AI识图是通过聚合OCR（Optical Character Recognition）、主体分割、�
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionImageAnalyzer } from '@kit.VisionKit';
@@ -198,13 +192,7 @@ setImageAnalyzerVisibility(visibility: ImageAnalyzerVisibility): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionImageAnalyzer } from '@kit.VisionKit';
@@ -255,13 +243,7 @@ setAIButtonPosition(position: Rect): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionImageAnalyzer } from '@kit.VisionKit';
@@ -316,13 +298,7 @@ setAIButtonVisibility(visible: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionImageAnalyzer } from '@kit.VisionKit';
@@ -373,13 +349,7 @@ setCustomTextMenuItems(menus: Menu[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionImageAnalyzer } from '@kit.VisionKit';
@@ -430,13 +400,7 @@ startSubjectAnalyzer(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionImageAnalyzer } from '@kit.VisionKit';
@@ -490,13 +454,7 @@ setCustomSubjectMenuItems(menus: Menu[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionImageAnalyzer } from '@kit.VisionKit';
@@ -554,13 +512,7 @@ setSelectedSubjects(subjectIds: number[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionImageAnalyzer } from '@kit.VisionKit';
@@ -616,13 +568,7 @@ getSelectedSubjects(): Promise<Subject[] | null>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionImageAnalyzer } from '@kit.VisionKit';
@@ -683,13 +629,7 @@ getSubject(point: visionBase.Point): Promise<Subject | null>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionImageAnalyzer } from '@kit.VisionKit';
@@ -751,13 +691,7 @@ getSubjectsImage(subjectIds: number[]): Promise<PixelMap | null>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionImageAnalyzer } from '@kit.VisionKit';
@@ -818,13 +752,7 @@ getImageAnalyzerUIStatus(): Promise<ImageAnalyzerUIStatus>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionImageAnalyzer } from '@kit.VisionKit';
@@ -898,13 +826,7 @@ startObjectSearch(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionImageAnalyzer } from '@kit.VisionKit';
@@ -949,13 +871,7 @@ stopObjectSearch(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionImageAnalyzer } from '@kit.VisionKit';
@@ -1004,13 +920,7 @@ setSubjectMenuVisibility(visible: boolean): void
 | --- | --- | --- | --- |
 | visible | boolean | 是 | 设置图像分割菜单状态。  true：显示图像分割菜单；false：隐藏图像分割菜单。  默认是true。 |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionImageAnalyzer } from '@kit.VisionKit';
@@ -1062,13 +972,7 @@ on(type: 'aiButtonStatusChange', callback: Callback<AIButtonStatus>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionImageAnalyzer } from '@kit.VisionKit';
@@ -1123,13 +1027,7 @@ off(type: 'aiButtonStatusChange', callback?: Callback<AIButtonStatus>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionImageAnalyzer } from '@kit.VisionKit';
@@ -1187,13 +1085,7 @@ on(type: 'imageAnalyzerVisibilityChange', callback: Callback<ImageAnalyzerVisibi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionImageAnalyzer } from '@kit.VisionKit';
@@ -1251,13 +1143,7 @@ off(type: 'imageAnalyzerVisibilityChange', callback?: Callback<ImageAnalyzerVisi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionImageAnalyzer } from '@kit.VisionKit';
@@ -1315,13 +1201,7 @@ on(type: 'textAnalysis', callback: Callback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionImageAnalyzer } from '@kit.VisionKit';
@@ -1378,13 +1258,7 @@ off(type: 'textAnalysis', callback?: Callback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionImageAnalyzer } from '@kit.VisionKit';
@@ -1441,13 +1315,7 @@ on(type: 'selectedTextChange', callback: Callback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionImageAnalyzer } from '@kit.VisionKit';
@@ -1504,13 +1372,7 @@ off(type: 'selectedTextChange', callback?: Callback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionImageAnalyzer } from '@kit.VisionKit';
@@ -1567,13 +1429,7 @@ on(type: 'subjectAnalysis', callback: Callback<Subject[]>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionImageAnalyzer } from '@kit.VisionKit';
@@ -1630,13 +1486,7 @@ off(type: 'subjectAnalysis', callback?: Callback<Subject[]>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionImageAnalyzer } from '@kit.VisionKit';
@@ -1693,13 +1543,7 @@ on(type: 'selectedSubjectsChange', callback: Callback<Subject[]>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionImageAnalyzer } from '@kit.VisionKit';
@@ -1756,13 +1600,7 @@ off(type: 'selectedSubjectsChange', callback?: Callback<Subject[]>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionImageAnalyzer } from '@kit.VisionKit';
@@ -1817,13 +1655,7 @@ on(type: 'objectSearchPanelVisibilityChange', callback: Callback<ObjectSearchPan
 | type | string | 是 | 值为"objectSearchPanelVisibilityChange"。监听图片搜索事件。 |
 | callback | [Callback](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-base#callback)<[ObjectSearchPanelVisibility](/consumer/cn/doc/harmonyos-references/vision-image-analyzer#objectsearchpanelvisibility)> | 是 | 回调函数。返回图片搜索事件信息。 |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionImageAnalyzer } from '@kit.VisionKit';
@@ -1878,13 +1710,7 @@ off(type: 'objectSearchPanelVisibilityChange', callback?: Callback<ObjectSearchP
 | type | string | 是 | 值为"objectSearchPanelVisibilityChange"。取消监听图片搜索事件。 |
 | callback | [Callback](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-base#callback)<[ObjectSearchPanelVisibility](/consumer/cn/doc/harmonyos-references/vision-image-analyzer#objectsearchpanelvisibility)> | 否 | 回调函数。返回图片搜索事件信息。需与订阅时传入的回调函数是同一个。若无此参数，则取消注册所有的回调函数。 |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionImageAnalyzer } from '@kit.VisionKit';
@@ -1939,13 +1765,7 @@ on(type: 'cursorMoveInText', callback: Callback<void>): void
 | type | string | 是 | 值为"cursorMoveInText"。监听光标移入图片内文字区域事件。 |
 | callback | [Callback](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-base#callback)<void> | 是 | 回调函数。返回为空，表示光标移入图片内文字区域。 |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionImageAnalyzer } from '@kit.VisionKit';
@@ -2000,13 +1820,7 @@ off(type: 'cursorMoveInText', callback?: Callback<void>): void
 | type | string | 是 | 值为"cursorMoveInText"。取消监听光标移入图片内文字区域事件。 |
 | callback | [Callback](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-base#callback)<void> | 否 | 回调函数。返回为空，表示光标移入图片内文字区域。需与订阅时传入的回调函数是同一个。若无此参数，则取消注册所有的回调函数。 |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionImageAnalyzer } from '@kit.VisionKit';
@@ -2061,13 +1875,7 @@ on(type: 'cursorMoveOutText', callback: Callback<void>): void
 | type | string | 是 | 值为"cursorMoveOutText"。监听光标移出图片内文字区域事件。 |
 | callback | [Callback](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-base#callback)<void> | 是 | 回调函数。返回为空。表示光标移出图片内文字区域事件。 |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionImageAnalyzer } from '@kit.VisionKit';
@@ -2122,13 +1930,7 @@ off(type: 'cursorMoveOutText', callback?: Callback<void>): void
 | type | string | 是 | 值为"cursorMoveOutText"。取消监听光标移出图片内文字区域事件。 |
 | callback | [Callback](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-base#callback)<void> | 否 | 回调函数。返回为空。需与订阅时传入的回调函数是同一个。若无此参数，则取消注册所有的回调函数。 |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionImageAnalyzer } from '@kit.VisionKit';
@@ -2196,13 +1998,7 @@ on(type: 'analyzerFailed', callback: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionImageAnalyzer } from '@kit.VisionKit';
@@ -2271,13 +2067,7 @@ off(type: 'analyzerFailed', callback?: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionImageAnalyzer } from '@kit.VisionKit';

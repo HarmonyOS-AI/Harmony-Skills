@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { jsLeakWatcher } from '@kit.PerformanceAnalysisKit';
@@ -40,13 +34,7 @@ enable(isEnable: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. jsLeakWatcher.enable(true);
@@ -73,13 +61,7 @@ watch(obj: object, msg: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let obj:Object = new Object();
@@ -106,13 +88,7 @@ check(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let leakObjlist:string = jsLeakWatcher.check();
@@ -146,13 +122,7 @@ dump(filePath: string): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let context = this.getUIContext().getHostContext();
@@ -195,13 +165,7 @@ enableLeakWatcher(isEnabled: boolean, configs: Array<string>, callback: Callback
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let config: Array<string> = ['XComponent'];
@@ -249,13 +213,7 @@ enableLeakWatcher(isEnabled: boolean, configs: LeakWatcherConfig, callback: Call
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum MonitorObjectType {

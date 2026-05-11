@@ -44,13 +44,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Http_Headers *OH_Http_CreateHeaders(void)
@@ -80,13 +74,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_Http_DestroyHeaders(Http_Headers **headers)
@@ -112,13 +100,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint32_t OH_Http_SetHeaderValue(struct Http_Headers *headers, const char *name, const char *value)
@@ -154,13 +136,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Http_HeaderValue *OH_Http_GetHeaderValue(Http_Headers *headers, const char *name)
@@ -195,13 +171,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Http_HeaderEntry *OH_Http_GetHeaderEntries(Http_Headers *headers)
@@ -235,13 +205,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_Http_DestroyHeaderEntries(Http_HeaderEntry **headerEntry)
@@ -267,13 +231,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Http_Request *OH_Http_CreateRequest(const char *url)
@@ -307,13 +265,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_Http_Request(Http_Request *request, Http_ResponseCallback callback, Http_EventsHandler handler)
@@ -355,13 +307,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_Http_Destroy(struct Http_Request **request)

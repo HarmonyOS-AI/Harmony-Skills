@@ -60,13 +60,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[SymbolGlyphModifier](/consumer/cn/doc/harmonyos-references/universal-attributes-attribute-symbolglyphmodifier#symbolglyphmodifier)和TextInput组件的[cancelButton](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-basic-components-textinput#cancelbutton18)属性展示了自定义右侧symbol类型清除按钮样式的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SymbolGlyphModifier } from '@kit.ArkUI';

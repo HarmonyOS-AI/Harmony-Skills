@@ -6,13 +6,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { relationalStore } from '@kit.ArkData';
@@ -79,13 +73,7 @@ getRdbStore支持多线程并发操作。
 
 FA模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { featureAbility } from '@kit.AbilityKit';
@@ -112,13 +100,7 @@ FA模型示例：
 
 Stage模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -215,13 +197,7 @@ getRdbStore支持多线程并发操作。
 
 FA模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { featureAbility } from '@kit.AbilityKit';
@@ -245,13 +221,7 @@ FA模型示例：
 
 Stage模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -342,13 +312,7 @@ getRdbStoreSync支持多线程并发操作。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -414,13 +378,7 @@ deleteRdbStore(context: Context, name: string, callback: AsyncCallback<void>): v
 
 FA模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { featureAbility } from '@kit.AbilityKit';
@@ -441,13 +399,7 @@ FA模型示例：
 
 Stage模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -538,13 +490,7 @@ getRdbStoreSync支持多线程并发操作。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -617,13 +563,7 @@ deleteRdbStore(context: Context, name: string): Promise<void>
 
 FA模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { featureAbility } from '@kit.AbilityKit';
@@ -642,13 +582,7 @@ FA模型示例：
 
 Stage模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -710,13 +644,7 @@ deleteRdbStore(context: Context, config: StoreConfig, callback: AsyncCallback<vo
 
 FA模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { featureAbility } from '@kit.AbilityKit';
@@ -742,13 +670,7 @@ FA模型示例：
 
 Stage模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -824,13 +746,7 @@ deleteRdbStore(context: Context, config: StoreConfig): Promise<void>
 
 FA模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { featureAbility } from "@kit.AbilityKit";
@@ -854,13 +770,7 @@ FA模型示例：
 
 Stage模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -904,13 +814,7 @@ isVectorSupported(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { contextConstant, UIAbility } from '@kit.AbilityKit';
@@ -987,13 +891,7 @@ isTokenizerSupported(tokenizer: Tokenizer): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let customType = relationalStore.Tokenizer.CUSTOM_TOKENIZER;
@@ -1041,13 +939,7 @@ getInsertSqlInfo(table: string, values: ValuesBucket, conflict?: ConflictResolut
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const bucket: relationalStore.ValuesBucket = {
@@ -1103,13 +995,7 @@ getUpdateSqlInfo(predicates: RdbPredicates, values: ValuesBucket, conflict?: Con
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const bucket: relationalStore.ValuesBucket = {
@@ -1164,13 +1050,7 @@ getDeleteSqlInfo(predicates: RdbPredicates): SqlInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const predicates = new relationalStore.RdbPredicates("users");
@@ -1218,13 +1098,7 @@ getQuerySqlInfo(predicates: RdbPredicates, columns?: Array<string>): SqlInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const predicates = new relationalStore.RdbPredicates("users");

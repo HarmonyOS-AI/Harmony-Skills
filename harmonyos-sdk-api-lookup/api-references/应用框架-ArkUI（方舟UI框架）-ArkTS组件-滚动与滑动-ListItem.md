@@ -449,13 +449,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例实现了创建ListItem的基本用法。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -513,13 +507,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例展示了ListItem设置了swipeAction的横滑效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -601,13 +589,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例展示了ListItem的卡片样式效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -651,13 +633,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[ComponentContent](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-arkui-componentcontent#componentcontent-1)设置ListItem中的划出组件操作时显示的操作项。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -774,13 +750,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 21开始，该示例通过[ListItemSwipeActionManager](/consumer/cn/doc/harmonyos-references/ts-container-listitem#listitemswipeactionmanager21)管理ListItem的划出菜单。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

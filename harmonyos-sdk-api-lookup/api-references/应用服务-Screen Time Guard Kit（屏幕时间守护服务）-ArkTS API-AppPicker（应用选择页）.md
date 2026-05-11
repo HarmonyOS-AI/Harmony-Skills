@@ -10,13 +10,7 @@ AppPicker模块支持拉起具有不同功能的应用页，目前包括应用�
 
 PhoneTablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { appPicker } from '@kit.ScreenTimeGuardKit';
@@ -74,13 +68,7 @@ startAppPicker(context: common.Context, appSelection: guardService.AppInfo): Pro
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -158,13 +146,7 @@ startAppForm(context: common.Context, appSelection: guardService.AppInfo, appSub
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';

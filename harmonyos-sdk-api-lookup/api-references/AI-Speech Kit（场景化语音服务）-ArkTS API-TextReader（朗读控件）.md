@@ -6,13 +6,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -73,13 +67,7 @@ init(context: common.BaseContext, readParams: ReaderParam): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -167,13 +155,7 @@ start(readInfoList: ReadInfo[], articleId?: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -255,13 +237,7 @@ start(readInfoList: ReadInfo[], articleId: string | undefined, startParams: Star
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -331,13 +307,7 @@ stop(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -384,13 +354,7 @@ resetParam(paramName: ResetParamType) : void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -440,13 +404,7 @@ release(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -485,13 +443,7 @@ pause(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -533,13 +485,7 @@ resume(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -578,13 +524,7 @@ playPrev(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -623,13 +563,7 @@ playNext(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -667,13 +601,7 @@ hidePanel(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -711,13 +639,7 @@ showPanel(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -755,13 +677,7 @@ showMinibar(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -799,13 +715,7 @@ hideMinibar(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -859,13 +769,7 @@ queryReadState(id?: string): ReadState
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -913,13 +817,7 @@ setArticleContent(id: string, content?: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -965,13 +863,7 @@ setArticle(readInfo: ReadInfo): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -1036,13 +928,7 @@ loadMore(readInfos: ReadInfo[], isEnd: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ReadStateCode, TextReader, TextReaderIcon } from '@kit.SpeechKit';
@@ -1178,13 +1064,7 @@ queryReadStateByCategoryId(categoryId: string): ReadState
 | --- | --- |
 | 401 | Parameter error. |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -1232,13 +1112,7 @@ on(type: 'setArticle', callback: Callback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -1287,13 +1161,7 @@ off(type: 'setArticle', callback?: Callback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -1340,13 +1208,7 @@ on(type: 'clickArticle', callback: Callback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -1395,13 +1257,7 @@ off(type: 'clickArticle', callback?: Callback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -1448,13 +1304,7 @@ on(type: 'clickAuthor', callback: Callback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -1503,13 +1353,7 @@ off(type: 'clickAuthor', callback?: Callback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -1556,13 +1400,7 @@ on(type: 'clickNotification', callback: Callback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -1611,13 +1449,7 @@ off(type: 'clickNotification', callback?: Callback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -1664,13 +1496,7 @@ on(type: 'showPanel', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -1719,13 +1545,7 @@ off(type: 'showPanel', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -1773,13 +1593,7 @@ on(type: 'hidePanel', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -1828,13 +1642,7 @@ off(type: 'hidePanel', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -1882,13 +1690,7 @@ on(type: 'stop', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -1937,13 +1739,7 @@ off(type: 'stop', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -1990,13 +1786,7 @@ on(type:'release', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -2045,13 +1835,7 @@ off(type: 'release', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -2098,13 +1882,7 @@ on(type: 'stateChange', callback: Callback<ReadState>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -2153,13 +1931,7 @@ off(type: 'stateChange', callback?: Callback<ReadState>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -2206,13 +1978,7 @@ on(type: 'requestMore', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -2259,13 +2025,7 @@ on(type: 'requestMore', callback: Callback<string>): void
 | --- | --- |
 | 401 | Parameter error. |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -2314,13 +2074,7 @@ off(type: 'requestMore', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -2367,13 +2121,7 @@ off(type: 'requestMore', callback: Callback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -2422,13 +2170,7 @@ on(type: 'eventNotification' , callback: Callback<NotificationEvent>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -2477,13 +2219,7 @@ off(type: 'eventNotification', callback?: Callback<NotificationEvent>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -2530,13 +2266,7 @@ on(type: 'eventPanel', callback: Callback<PanelEvent>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -2585,13 +2315,7 @@ off(type: 'eventPanel', callback?: Callback<PanelEvent>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -2639,13 +2363,7 @@ on(type: 'eventReadList', callback: Callback<Array<ListEventState>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -2696,13 +2414,7 @@ off(type: 'eventReadList', callback?: Callback<Array<ListEventState>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -2749,13 +2461,7 @@ on(type: 'readProgress', callback: Callback<ReadProgress>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -2804,13 +2510,7 @@ off(type: 'readProgress', callback?: Callback<ReadProgress>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';
@@ -2971,13 +2671,7 @@ PhonePC/2in1Tablet
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextReader } from '@kit.SpeechKit';

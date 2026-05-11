@@ -6,13 +6,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { HdsActionBar } from '@kit.UIDesignKit';
@@ -257,13 +251,7 @@ PhonePC/2in1TabletTV
 
 HdsActionBar提供一种多按钮组件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { HdsActionBar, ActionBarButton, ActionBarStyle } from '@kit.UIDesignKit'

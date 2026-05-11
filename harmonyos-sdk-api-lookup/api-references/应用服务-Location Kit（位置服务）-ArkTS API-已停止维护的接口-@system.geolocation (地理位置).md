@@ -10,13 +10,7 @@
 
 WearableLite Wearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import geolocation from '@system.geolocation';
@@ -54,13 +48,7 @@ getLocation(options?: GetLocationOption): void
 
 **JS示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <div class="container">
@@ -71,13 +59,7 @@ getLocation(options?: GetLocationOption): void
 6. </div>
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. .container {
@@ -105,13 +87,7 @@ getLocation(options?: GetLocationOption): void
 23. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. export default {
@@ -152,13 +128,7 @@ getLocationType(options?: GetLocationTypeOption): void
 
 **JS示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <div class="container">
@@ -169,13 +139,7 @@ getLocationType(options?: GetLocationTypeOption): void
 6. </div>
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. .container {
@@ -203,13 +167,7 @@ getLocationType(options?: GetLocationTypeOption): void
 23. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. export default {
@@ -252,13 +210,7 @@ subscribe(options: SubscribeLocationOption): void
 
 **JS示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <div class="container">
@@ -269,13 +221,7 @@ subscribe(options: SubscribeLocationOption): void
 6. </div>
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. .container {
@@ -303,13 +249,7 @@ subscribe(options: SubscribeLocationOption): void
 23. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. export default {
@@ -344,13 +284,7 @@ unsubscribe(): void
 
 **JS示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <div class="container">
@@ -361,13 +295,7 @@ unsubscribe(): void
 6. </div>
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. .container {
@@ -395,13 +323,7 @@ unsubscribe(): void
 23. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. export default {
@@ -435,13 +357,7 @@ getSupportedCoordTypes(): Array<string>
 
 **JS示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <div class="container">
@@ -452,13 +368,7 @@ getSupportedCoordTypes(): Array<string>
 6. </div>
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. .container {
@@ -486,13 +396,7 @@ getSupportedCoordTypes(): Array<string>
 23. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. export default {

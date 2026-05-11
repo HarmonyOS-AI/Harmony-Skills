@@ -8,13 +8,7 @@ Ability模块将二级模块API组织在一起方便开发者进行导出。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ability } from '@kit.AbilityKit';
@@ -146,13 +140,7 @@ StartAbilityParameter二级模块。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ability } from '@kit.AbilityKit';

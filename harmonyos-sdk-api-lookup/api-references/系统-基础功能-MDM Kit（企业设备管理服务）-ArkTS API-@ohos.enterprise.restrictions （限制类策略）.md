@@ -12,13 +12,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { restrictions } from '@kit.MDMKit';
@@ -114,13 +108,7 @@ setDisallowedPolicy(admin: Want, feature: string, disallow: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { restrictions } from '@kit.MDMKit';
@@ -235,13 +223,7 @@ getDisallowedPolicy(admin: Want | null, feature: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { restrictions } from '@kit.MDMKit';
@@ -304,13 +286,7 @@ setDisallowedPolicyForAccount(admin: Want, feature: string, disallow: boolean, a
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { restrictions } from '@kit.MDMKit';
@@ -377,13 +353,7 @@ getDisallowedPolicyForAccount(admin: Want | null, feature: string, accountId: nu
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { restrictions } from '@kit.MDMKit';
@@ -446,13 +416,7 @@ addDisallowedListForAccount(admin: Want, feature: string, list: Array<string>, a
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { restrictions } from '@kit.MDMKit';
@@ -516,13 +480,7 @@ removeDisallowedListForAccount(admin: Want, feature: string, list: Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { restrictions } from '@kit.MDMKit';
@@ -591,13 +549,7 @@ getDisallowedListForAccount(admin: Want, feature: string, accountId: number): Ar
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { restrictions } from '@kit.MDMKit';
@@ -658,13 +610,7 @@ setUserRestriction(admin: Want, settingsItem: string, restricted: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -730,13 +676,7 @@ getUserRestricted(admin: Want, settingsItem: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -799,13 +739,7 @@ setUserRestrictionForAccount(admin: Want, settingsItem: string, accountId: numbe
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -874,13 +808,7 @@ getUserRestrictedForAccount(admin: Want | null, settingsItem: string, accountId:
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -946,13 +874,7 @@ setDisallowedPolicy(admin: Want, feature: FeatureForDevice, disallow: boolean): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { restrictions } from '@kit.MDMKit';
@@ -1018,13 +940,7 @@ getDisallowedPolicy(admin: Want | null, feature: FeatureForDevice): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { restrictions } from '@kit.MDMKit';

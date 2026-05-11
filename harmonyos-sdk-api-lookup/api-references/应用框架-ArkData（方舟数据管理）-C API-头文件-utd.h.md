@@ -61,13 +61,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_Utd* OH_Utd_Create(const char* typeId)
@@ -99,13 +93,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_Utd_Destroy(OH_Utd* pThis)
@@ -129,13 +117,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char* OH_Utd_GetTypeId(OH_Utd* pThis)
@@ -167,13 +149,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char* OH_Utd_GetDescription(OH_Utd* pThis)
@@ -205,13 +181,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char* OH_Utd_GetReferenceUrl(OH_Utd* pThis)
@@ -243,13 +213,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char* OH_Utd_GetIconFile(OH_Utd* pThis)
@@ -281,13 +245,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char** OH_Utd_GetBelongingToTypes(OH_Utd* pThis, unsigned int* count)
@@ -320,13 +278,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char** OH_Utd_GetFilenameExtensions(OH_Utd* pThis, unsigned int* count)
@@ -359,13 +311,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char** OH_Utd_GetMimeTypes(OH_Utd* pThis, unsigned int* count)
@@ -398,13 +344,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char** OH_Utd_GetTypesByFilenameExtension(const char* extension, unsigned int* count)
@@ -437,13 +377,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char** OH_Utd_GetTypesByMimeType(const char* mimeType, unsigned int* count)
@@ -476,13 +410,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bool OH_Utd_BelongsTo(const char* srcTypeId, const char* destTypeId)
@@ -515,13 +443,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bool OH_Utd_IsLower(const char* srcTypeId, const char* destTypeId)
@@ -554,13 +476,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bool OH_Utd_IsHigher(const char* srcTypeId, const char* destTypeId)
@@ -593,13 +509,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bool OH_Utd_Equals(OH_Utd* utd1, OH_Utd* utd2)
@@ -632,13 +542,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_Utd_DestroyStringList(const char** list, unsigned int count)

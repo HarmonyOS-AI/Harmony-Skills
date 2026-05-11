@@ -2,13 +2,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { map, mapCommon } from '@kit.MapKit';
@@ -30,13 +24,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let clusterItem1: mapCommon.ClusterItem = {
@@ -91,13 +79,7 @@ on(type: 'clusterClick', callback: Callback<Array<mapCommon.ClusterItem>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. clusterOverlay.on("clusterClick", (clusterItems) => {
@@ -134,13 +116,7 @@ off(type: 'clusterClick', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. clusterOverlay.off("clusterClick", () => {
@@ -175,13 +151,7 @@ on(type: 'click', callback: Callback<Array<mapCommon.ClusterItem>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (clusterItem: Array<mapCommon.ClusterItem>) => {
@@ -225,13 +195,7 @@ off(type: 'click', callback?: Callback<Array<mapCommon.ClusterItem>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (clusterItem: Array<mapCommon.ClusterItem>) => {
@@ -280,13 +244,7 @@ on(type: 'markerClusterClick', callback: Callback<MarkerClusterInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (markerClusterInfo: map.MarkerClusterInfo) => {
@@ -330,13 +288,7 @@ off(type: 'markerClusterClick', callback?: Callback<MarkerClusterInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = (markerClusterInfo: map.MarkerClusterInfo) => {
@@ -391,13 +343,7 @@ addItem(item: mapCommon.ClusterItem): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let clusterItem: mapCommon.ClusterItem = {
@@ -435,13 +381,7 @@ remove(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. await clusterOverlay.remove();

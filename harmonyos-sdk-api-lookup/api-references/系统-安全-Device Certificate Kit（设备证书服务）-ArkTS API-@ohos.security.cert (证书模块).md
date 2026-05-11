@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -977,13 +971,7 @@ createX509Cert(inStream : EncodingBlob, callback : AsyncCallback<X509Cert>) : vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -1066,13 +1054,7 @@ createX509Cert(inStream : EncodingBlob) : Promise<X509Cert>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -1151,13 +1133,7 @@ verify(key : cryptoFramework.PubKey, callback : AsyncCallback<void>) : void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -1256,13 +1232,7 @@ verify(key : cryptoFramework.PubKey) : Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -1348,13 +1318,7 @@ getEncoded(callback : AsyncCallback<EncodingBlob>) : void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -1436,13 +1400,7 @@ getEncoded() : Promise<EncodingBlob>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -1519,13 +1477,7 @@ getPublicKey() : cryptoFramework.PubKey
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -1608,13 +1560,7 @@ checkValidityWithDate(date: string) : void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -1686,13 +1632,7 @@ getVersion() : number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -1756,13 +1696,7 @@ getSerialNumber() : number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -1835,13 +1769,7 @@ getCertSerialNumber() : bigint
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -1926,13 +1854,7 @@ getIssuerName() : DataBlob
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -2022,13 +1944,7 @@ getIssuerName(encodingType: EncodingType): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -2135,13 +2051,7 @@ getSubjectName(encodingType?: EncodingType) : DataBlob
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -2228,13 +2138,7 @@ getNotBeforeTime() : string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -2315,13 +2219,7 @@ getNotAfterTime() : string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -2403,13 +2301,7 @@ getSignature() : DataBlob
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -2491,13 +2383,7 @@ getSignatureAlgName() : string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -2579,13 +2465,7 @@ getSignatureAlgOid() : string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -2667,13 +2547,7 @@ getSignatureAlgParams() : DataBlob
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -2768,13 +2642,7 @@ getKeyUsage() : DataBlob
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -2865,13 +2733,7 @@ getExtKeyUsage() : DataArray
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -2951,13 +2813,7 @@ getBasicConstraints() : number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -3036,13 +2892,7 @@ getSubjectAltNames() : DataArray
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -3138,13 +2988,7 @@ getIssuerAltNames() : DataArray
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -3243,13 +3087,7 @@ getItem(itemType: CertItemType) : DataBlob
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -3339,13 +3177,7 @@ match(param: X509CertMatchParameters): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -3451,13 +3283,7 @@ getCRLDistributionPoint(): DataArray
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -3540,13 +3366,7 @@ getIssuerX500DistinguishedName(): X500DistinguishedName
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -3639,13 +3459,7 @@ getSubjectX500DistinguishedName(): X500DistinguishedName
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -3738,13 +3552,7 @@ toString(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -3846,13 +3654,7 @@ toString(encodingType: EncodingType): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -3943,13 +3745,7 @@ hashCode(): Uint8Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -4042,13 +3838,7 @@ getExtensionsObject(): CertExtension
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -4143,13 +3933,7 @@ createCertExtension(inStream : EncodingBlob, callback : AsyncCallback<CertExtens
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -4225,13 +4009,7 @@ createCertExtension(inStream : EncodingBlob) : Promise<CertExtension>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -4303,13 +4081,7 @@ getEncoded() : EncodingBlob
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -4392,13 +4164,7 @@ getOidList(valueType : ExtensionOidType) : DataArray
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -4482,13 +4248,7 @@ getEntry(valueType: ExtensionEntryType, oid : DataBlob) : DataBlob
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -4566,13 +4326,7 @@ checkCA() : number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -4645,13 +4399,7 @@ hasUnsupportedCriticalExtension(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -4719,13 +4467,7 @@ createX509Crl(inStream : EncodingBlob, callback : AsyncCallback<X509Crl>) : void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -4808,13 +4550,7 @@ createX509Crl(inStream : EncodingBlob) : Promise<X509Crl>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -4887,13 +4623,7 @@ createX509CRL(inStream : EncodingBlob, callback : AsyncCallback<X509CRL>) : void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -4974,13 +4704,7 @@ createX509CRL(inStream : EncodingBlob) : Promise<X509CRL>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -5070,13 +4794,7 @@ isRevoked(cert : X509Cert) : boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -5169,13 +4887,7 @@ getType() : string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -5252,13 +4964,7 @@ getEncoded(callback : AsyncCallback<EncodingBlob>) : void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -5341,13 +5047,7 @@ getEncoded() : Promise<EncodingBlob>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -5426,13 +5126,7 @@ verify(key : cryptoFramework.PubKey, callback : AsyncCallback<void>) : void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -5600,13 +5294,7 @@ verify(key : cryptoFramework.PubKey) : Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -5751,13 +5439,7 @@ getVersion() : number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -5833,13 +5515,7 @@ getIssuerName() : DataBlob
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -5921,13 +5597,7 @@ getLastUpdate() : string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -6009,13 +5679,7 @@ getNextUpdate() : string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -6105,13 +5769,7 @@ getRevokedCert(serialNumber : number) : X509CrlEntry
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -6202,13 +5860,7 @@ getRevokedCertWithCert(cert : X509Cert) : X509CrlEntry
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -6327,13 +5979,7 @@ getRevokedCerts(callback : AsyncCallback<Array<X509CrlEntry>>) : void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -6415,13 +6061,7 @@ getRevokedCerts() : Promise<Array<X509CrlEntry>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -6500,13 +6140,7 @@ getTbsInfo() : DataBlob
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -6588,13 +6222,7 @@ getSignature() : DataBlob
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -6676,13 +6304,7 @@ getSignatureAlgName() : string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -6764,13 +6386,7 @@ getSignatureAlgOid() : string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -6853,13 +6469,7 @@ getSignatureAlgParams() : DataBlob
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -6951,13 +6561,7 @@ isRevoked(cert : X509Cert) : boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -7048,13 +6652,7 @@ getType() : string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -7129,13 +6727,7 @@ getEncoded(callback : AsyncCallback<EncodingBlob>) : void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -7216,13 +6808,7 @@ getEncoded() : Promise<EncodingBlob>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -7299,13 +6885,7 @@ verify(key : cryptoFramework.PubKey, callback : AsyncCallback<void>) : void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -7471,13 +7051,7 @@ verify(key : cryptoFramework.PubKey) : Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -7620,13 +7194,7 @@ getVersion() : number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -7704,13 +7272,7 @@ getIssuerName() : DataBlob
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -7799,13 +7361,7 @@ getIssuerName(encodingType: EncodingType): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -7889,13 +7445,7 @@ getLastUpdate() : string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -7975,13 +7525,7 @@ getNextUpdate() : string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -8069,13 +7613,7 @@ getRevokedCert(serialNumber : bigint) : X509CRLEntry
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -8164,13 +7702,7 @@ getRevokedCertWithCert(cert : X509Cert) : X509CRLEntry
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -8287,13 +7819,7 @@ getRevokedCerts(callback : AsyncCallback<Array<X509CRLEntry>>) : void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -8373,13 +7899,7 @@ getRevokedCerts() : Promise<Array<X509CRLEntry>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -8456,13 +7976,7 @@ getSignature() : DataBlob
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -8542,13 +8056,7 @@ getSignatureAlgName() : string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -8628,13 +8136,7 @@ getSignatureAlgOid() : string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -8715,13 +8217,7 @@ getSignatureAlgParams() : DataBlob
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -8801,13 +8297,7 @@ getTBSInfo() : DataBlob
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -8887,13 +8377,7 @@ getExtensions(): DataBlob
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -8984,13 +8468,7 @@ match(param: X509CRLMatchParameters): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -9113,13 +8591,7 @@ getIssuerX500DistinguishedName(): X500DistinguishedName
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -9197,13 +8669,7 @@ toString(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -9290,13 +8756,7 @@ toString(encodingType: EncodingType): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -9377,13 +8837,7 @@ hashCode(): Uint8Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -9461,13 +8915,7 @@ getExtensionsObject(): CertExtension
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -9560,13 +9008,7 @@ createCertChainValidator(algorithm :string) : CertChainValidator
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -9640,13 +9082,7 @@ validate(certChain : CertChainData, callback : AsyncCallback<void>) : void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -9790,13 +9226,7 @@ validate(certChain : CertChainData) : Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -9934,13 +9364,7 @@ getEncoded(callback : AsyncCallback<EncodingBlob>) : void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -10031,13 +9455,7 @@ getEncoded() : Promise<EncodingBlob>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -10113,13 +9531,7 @@ getSerialNumber() : number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -10203,13 +9615,7 @@ getCertIssuer() : DataBlob
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -10293,13 +9699,7 @@ getRevocationDate() : string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -10388,13 +9788,7 @@ getEncoded(callback : AsyncCallback<EncodingBlob>) : void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -10483,13 +9877,7 @@ getEncoded() : Promise<EncodingBlob>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -10575,13 +9963,7 @@ getSerialNumber() : bigint
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -10668,13 +10050,7 @@ getCertIssuer() : DataBlob
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -10766,13 +10142,7 @@ getCertIssuer(encodingType: EncodingType): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -10856,13 +10226,7 @@ getRevocationDate() : string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -10944,13 +10308,7 @@ getExtensions(): DataBlob
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -11035,13 +10393,7 @@ hasExtensions(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -11123,13 +10475,7 @@ getCertIssuerX500DistinguishedName(): X500DistinguishedName
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -11206,13 +10552,7 @@ toString(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -11289,13 +10629,7 @@ hashCode(): Uint8Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -11372,13 +10706,7 @@ getExtensionsObject(): CertExtension
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -11530,13 +10858,7 @@ createCertCRLCollection(certs: Array<X509Cert>, crls?: Array<X509CRL>): CertCRLC
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -11665,13 +10987,7 @@ selectCerts(param: X509CertMatchParameters): Promise<Array<X509Cert>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -11769,13 +11085,7 @@ selectCerts(param: X509CertMatchParameters, callback: AsyncCallback<Array<X509Ce
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -11880,13 +11190,7 @@ selectCRLs(param: X509CRLMatchParameters): Promise<Array<X509CRL>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -12020,13 +11324,7 @@ selectCRLs(param: X509CRLMatchParameters, callback: AsyncCallback<Array<X509CRL>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -12167,13 +11465,7 @@ createX509CertChain(inStream: EncodingBlob): Promise<X509CertChain>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -12298,13 +11590,7 @@ createX509CertChain(inStream: EncodingBlob, callback: AsyncCallback<X509CertChai
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -12431,13 +11717,7 @@ createX509CertChain(certs: Array<X509Cert>): X509CertChain
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -12544,13 +11824,7 @@ buildX509CertChain(param: [CertChainBuildParameters](/consumer/cn/doc/harmonyos-
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -12696,13 +11970,7 @@ parsePkcs12(data: Uint8Array, config: Pkcs12ParsingConfig): Pkcs12Data
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -12924,13 +12192,7 @@ parsePkcs12(data: Uint8Array, password: string): Promise<Pkcs12Data>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -13155,13 +12417,7 @@ createPkcs12(data: Pkcs12Data, config: Pkcs12CreationConfig): Promise<Uint8Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -13349,13 +12605,7 @@ createPkcs12Sync(data: Pkcs12Data, config: Pkcs12CreationConfig): Uint8Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -13549,13 +12799,7 @@ createTrustAnchorsWithKeyStore(keystore: Uint8Array, pwd: string): Promise<Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -13713,13 +12957,7 @@ getCertList(): Array<X509Cert>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -13860,13 +13098,7 @@ validate(param: CertChainValidationParameters): Promise<CertChainValidationResul
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -14024,13 +13256,7 @@ validate(param: CertChainValidationParameters, callback: AsyncCallback<CertChain
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -14172,13 +13398,7 @@ toString(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -14314,13 +13534,7 @@ hashCode(): Uint8Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -14467,13 +13681,7 @@ generateCsr(keyInfo: PrivateKeyInfo, config: CsrGenerationConfig): string | Uint
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -14587,13 +13795,7 @@ createX500DistinguishedName(nameStr: string): Promise<X500DistinguishedName>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -14674,13 +13876,7 @@ createX500DistinguishedName(nameDer: Uint8Array): Promise<X500DistinguishedName>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -14746,13 +13942,7 @@ getName(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -14822,13 +14012,7 @@ getName(type: string): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -14895,13 +14079,7 @@ getName(encodingType: EncodingType): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -14959,13 +14137,7 @@ getEncoded(): EncodingBlob
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -15032,13 +14204,7 @@ createCmsGenerator(contentType: CmsContentType): CmsGenerator
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -15146,13 +14312,7 @@ addSigner(cert: X509Cert, keyInfo: PrivateKeyInfo, config: CmsSignerConfig): voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -15275,13 +14435,7 @@ addCert(cert: X509Cert): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -15375,13 +14529,7 @@ setRecipientEncryptionAlgorithm(algorithm: CmsRecipientEncryptionAlgorithm): voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -15445,13 +14593,7 @@ addRecipientInfo(recipientInfo: CmsRecipientInfo): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -15578,13 +14720,7 @@ doFinal(data: Uint8Array, options?: CmsGeneratorOptions): Promise<Uint8Array | s
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -15727,13 +14863,7 @@ doFinalSync(data: Uint8Array, options?: CmsGeneratorOptions): Uint8Array | strin
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -15865,13 +14995,7 @@ getEncryptedContentData(): Promise<Uint8Array>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -16002,13 +15126,7 @@ createCmsParser(): CmsParser
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -16180,13 +15298,7 @@ setRawData(data: Uint8Array | string, cmsFormat: CmsFormat): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -16334,13 +15446,7 @@ getContentType(): CmsContentType
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -16502,13 +15608,7 @@ verifySignedData(config: CmsVerificationConfig): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -16655,13 +15755,7 @@ getContentData(): Promise<Uint8Array>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -16819,13 +15913,7 @@ getCerts(type: CmsCertType): Promise<Array<[X509Cert](/consumer/cn/doc/harmonyos
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';
@@ -16985,13 +16073,7 @@ decryptEnvelopedData(config: CmsEnvelopedDecryptionConfig): Promise<Uint8Array>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cert } from '@kit.DeviceCertificateKit';

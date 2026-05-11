@@ -1,2 +1,0 @@
-* **[自定义事件拦截](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-on-touch-intercept)**
-* **[自定义事件分发](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-on-child-touch-test)**

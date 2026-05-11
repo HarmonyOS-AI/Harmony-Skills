@@ -11,13 +11,7 @@ Web组件地理位置权限管理对象。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webview } from '@kit.ArkWeb';
@@ -61,13 +55,7 @@ static allowGeolocation(origin: string, incognito?: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -128,13 +116,7 @@ static deleteGeolocation(origin: string, incognito?: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -196,13 +178,7 @@ static getAccessibleGeolocation(origin: string, callback: AsyncCallback<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -277,13 +253,7 @@ static getAccessibleGeolocation(origin: string, incognito?: boolean): Promise<bo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -348,13 +318,7 @@ static getStoredGeolocation(callback: AsyncCallback<Array<string>>, incognito?: 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -427,13 +391,7 @@ static getStoredGeolocation(incognito?: boolean): Promise<Array<string>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -487,13 +445,7 @@ static deleteAllGeolocation(incognito?: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

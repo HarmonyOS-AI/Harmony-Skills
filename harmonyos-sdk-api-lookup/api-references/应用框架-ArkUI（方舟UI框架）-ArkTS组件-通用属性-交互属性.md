@@ -1,8 +1,0 @@
-* **[禁用控制](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-enable)**
-* **[焦点控制](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-focus)**
-* **[拖拽控制](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-drag-drop)**
-* **[拖拽排序](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-drag-sorting)**
-* **[悬浮态效果](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-hover-effect)**
-* **[点击音效](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-click-sound)**
-* **[触摸交互控制](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/touch-interactions)**
-* **[鼠标光标控制](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-cursor)**

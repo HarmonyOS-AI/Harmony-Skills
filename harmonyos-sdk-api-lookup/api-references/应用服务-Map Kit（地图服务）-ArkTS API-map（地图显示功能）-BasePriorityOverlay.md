@@ -2,13 +2,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { map, mapCommon } from '@kit.MapKit';
@@ -54,13 +48,7 @@ getMaxZoom(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 以pointAnnotation为例
@@ -105,13 +93,7 @@ getMinZoom(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 以pointAnnotation为例
@@ -144,13 +126,7 @@ setPriority(priority: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 以pointAnnotation为例
@@ -184,13 +160,7 @@ setZoom(minZoom: number, maxZoom: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 以pointAnnotation为例
@@ -223,13 +193,7 @@ setAnimation(animation: Animation): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 创建一个透明度动画，从0.2到1
@@ -276,13 +240,7 @@ startAnimation(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 创建一个透明度动画，从0.2到1
@@ -331,13 +289,7 @@ clearAnimation(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. pointAnnotation.clearAnimation();

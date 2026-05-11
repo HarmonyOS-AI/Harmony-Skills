@@ -12,13 +12,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hiAppEvent } from '@kit.PerformanceAnalysisKit';
@@ -83,13 +77,7 @@ addWatcher接口涉及I/O操作。在对性能敏感的业务场景中，开发�
 
 方法一：设置回调条件triggerCondition，实现onTrigger()回调。当满足回调条件时，系统将自动触发回调。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -135,13 +123,7 @@ addWatcher接口涉及I/O操作。在对性能敏感的业务场景中，开发�
 
 在手动处理订阅事件的方法中，由于事件可能未生成或日志信息未抓取完成，建议在进程启动后延时重试调用takeNext()获取此类事件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -172,13 +154,7 @@ addWatcher接口涉及I/O操作。在对性能敏感的业务场景中，开发�
 
 方法三：实现onReceive()回调，当监听的事件发生后实时触发回调。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -238,13 +214,7 @@ removeWatcher(watcher: Watcher): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 1. 定义一个事件观察者
@@ -307,13 +277,7 @@ setEventParam(params: Record<string, ParamType>, domain: string, name?: string):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -381,13 +345,7 @@ setEventConfig(name: string, config: Record<string, ParamType>): Promise<void>
 
 以下示例用于模拟配置MAIN\_THREAD\_JANK事件的采集堆栈自定义参数：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -441,13 +399,7 @@ configEventPolicy(policy: EventPolicy): Promise<void>
 
 以下示例用于模拟设置MAIN\_THREAD\_JANK事件的配置策略：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -562,13 +514,7 @@ constructor(watcherName: string)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 添加数据观察者“Watcher1”，订阅监听系统事件
@@ -618,13 +564,7 @@ setSize(size: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 创建订阅数据持有者实例，holder2持有的数据为已通过addWatcher添加的观察者“Watcher1”监听到的事件
@@ -666,13 +606,7 @@ setRow(size: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 创建订阅数据持有者实例，holder3持有的数据为已通过addWatcher添加的观察者“Watcher1”监听到的事件
@@ -707,13 +641,7 @@ takeNext(): AppEventPackage
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 创建订阅数据持有者实例，holder4持有的数据为已通过addWatcher添加的观察者“Watcher1”监听到的事件
@@ -822,13 +750,7 @@ write接口涉及I/O操作，执行时间通常在毫秒级别。因此，开发
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -907,13 +829,7 @@ write接口涉及I/O操作，执行时间通常在毫秒级别。因此，开发
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -979,13 +895,7 @@ addProcessor(processor: Processor): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -1044,13 +954,7 @@ addProcessorFromConfig(processorName: string, configName?: string): Promise<numb
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1095,13 +999,7 @@ removeProcessor(id: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -1151,13 +1049,7 @@ setUserId(name: string, value: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -1209,13 +1101,7 @@ getUserId(name: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -1262,13 +1148,7 @@ setUserProperty(name: string, value: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -1320,13 +1200,7 @@ getUserProperty(name: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -1354,13 +1228,7 @@ clearData(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. hiAppEvent.clearData();
@@ -1399,13 +1267,7 @@ configure(config: ConfigOption): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 配置打点开关为关闭状态

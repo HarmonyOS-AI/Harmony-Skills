@@ -133,13 +133,7 @@
 
 ### AuthenticationExtensionsClientOutputs
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct AuthenticationExtensionsClientOutputs AuthenticationExtensionsClientOutputs
@@ -153,13 +147,7 @@
 
 ### FIDO2\_Algorithm
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef enum FIDO2_Algorithm FIDO2_Algorithm
@@ -173,13 +161,7 @@
 
 ### FIDO2\_AttestationConveyancePreference
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef enum FIDO2_AttestationConveyancePreference FIDO2_AttestationConveyancePreference
@@ -193,13 +175,7 @@
 
 ### FIDO2\_AttestationFormatsArray
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct FIDO2_AttestationFormatsArray FIDO2_AttestationFormatsArray
@@ -213,13 +189,7 @@
 
 ### FIDO2\_AuthenticatorAttachment
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef enum FIDO2_AuthenticatorAttachment FIDO2_AuthenticatorAttachment
@@ -233,13 +203,7 @@
 
 ### FIDO2\_AuthenticatorAttestationResponse
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct FIDO2_AuthenticatorAttestationResponse FIDO2_AuthenticatorAttestationResponse
@@ -253,13 +217,7 @@
 
 ### FIDO2\_AuthenticatorMetadata
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct FIDO2_AuthenticatorMetadata FIDO2_AuthenticatorMetadata
@@ -273,13 +231,7 @@
 
 ### FIDO2\_AuthenticatorMetadataArray
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct FIDO2_AuthenticatorMetadataArray FIDO2_AuthenticatorMetadataArray
@@ -293,13 +245,7 @@
 
 ### FIDO2\_AuthenticatorResponse
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct FIDO2_AuthenticatorResponse FIDO2_AuthenticatorResponse
@@ -313,13 +259,7 @@
 
 ### FIDO2\_AuthenticatorSelectionCriteria
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct FIDO2_AuthenticatorSelectionCriteria FIDO2_AuthenticatorSelectionCriteria
@@ -333,13 +273,7 @@
 
 ### FIDO2\_AuthenticatorTransport
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef enum FIDO2_AuthenticatorTransport FIDO2_AuthenticatorTransport
@@ -353,13 +287,7 @@
 
 ### FIDO2\_AuthenticatorTransportArray
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct FIDO2_AuthenticatorTransportArray FIDO2_AuthenticatorTransportArray
@@ -373,13 +301,7 @@
 
 ### FIDO2\_Capability
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct FIDO2_Capability FIDO2_Capability
@@ -393,13 +315,7 @@
 
 ### FIDO2\_CapabilityArray
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct FIDO2_CapabilityArray FIDO2_CapabilityArray
@@ -413,13 +329,7 @@
 
 ### FIDO2\_ClientCapability
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef enum FIDO2_ClientCapability FIDO2_ClientCapability
@@ -433,13 +343,7 @@
 
 ### FIDO2\_CredentialCreationOptionArray
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct FIDO2_CredentialCreationOptionArray FIDO2_CredentialCreationOptionArray
@@ -453,13 +357,7 @@
 
 ### FIDO2\_CredentialCreationOptions
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct FIDO2_CredentialCreationOptions FIDO2_CredentialCreationOptions
@@ -473,13 +371,7 @@
 
 ### FIDO2\_CredentialMediationRequirement
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef enum FIDO2_CredentialMediationRequirement FIDO2_CredentialMediationRequirement
@@ -493,13 +385,7 @@
 
 ### FIDO2\_CredentialRequestOptions
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct FIDO2_CredentialRequestOptions FIDO2_CredentialRequestOptions
@@ -513,13 +399,7 @@
 
 ### FIDO2\_ErrorCode
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef enum FIDO2_ErrorCode FIDO2_ErrorCode
@@ -533,13 +413,7 @@
 
 ### FIDO2\_PublicKeyAssertionCredential
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct FIDO2_PublicKeyAssertionCredential FIDO2_PublicKeyAssertionCredential
@@ -553,13 +427,7 @@
 
 ### FIDO2\_PublicKeyAttestationCredential
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct FIDO2_PublicKeyAttestationCredential FIDO2_PublicKeyAttestationCredential
@@ -573,13 +441,7 @@
 
 ### FIDO2\_PublicKeyCredentialCreationOptions
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct FIDO2_PublicKeyCredentialCreationOptions FIDO2_PublicKeyCredentialCreationOptions
@@ -593,13 +455,7 @@
 
 ### FIDO2\_PublicKeyCredentialDescriptor
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct FIDO2_PublicKeyCredentialDescriptor FIDO2_PublicKeyCredentialDescriptor
@@ -613,13 +469,7 @@
 
 ### FIDO2\_PublicKeyCredentialDescriptorArray
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct FIDO2_PublicKeyCredentialDescriptorArray FIDO2_PublicKeyCredentialDescriptorArray
@@ -633,13 +483,7 @@ PublicKey凭证描述符数组。
 
 ### FIDO2\_PublicKeyCredentialHint
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef enum FIDO2_PublicKeyCredentialHint FIDO2_PublicKeyCredentialHint
@@ -653,13 +497,7 @@ PublicKey凭证描述符数组。
 
 ### FIDO2\_PublicKeyCredentialHintArray
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct FIDO2_PublicKeyCredentialHintArray FIDO2_PublicKeyCredentialHintArray
@@ -673,13 +511,7 @@ PublicKey凭证描述符数组。
 
 ### FIDO2\_PublicKeyCredentialParameters
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct FIDO2_PublicKeyCredentialParameters FIDO2_PublicKeyCredentialParameters
@@ -693,13 +525,7 @@ PublicKey凭证描述符数组。
 
 ### FIDO2\_PublicKeyCredentialRequestOptions
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct FIDO2_PublicKeyCredentialRequestOptions FIDO2_PublicKeyCredentialRequestOptions
@@ -713,13 +539,7 @@ PublicKey凭证描述符数组。
 
 ### FIDO2\_PublicKeyCredentialRpEntity
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct FIDO2_PublicKeyCredentialRpEntity FIDO2_PublicKeyCredentialRpEntity
@@ -733,13 +553,7 @@ PublicKey凭证描述符数组。
 
 ### FIDO2\_PublicKeyCredentialType
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef enum FIDO2_PublicKeyCredentialType FIDO2_PublicKeyCredentialType
@@ -753,13 +567,7 @@ PublicKey凭证描述符数组。
 
 ### FIDO2\_PublicKeyCredentialUserEntity
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct FIDO2_PublicKeyCredentialUserEntity FIDO2_PublicKeyCredentialUserEntity
@@ -773,13 +581,7 @@ PublicKey凭证描述符数组。
 
 ### FIDO2\_TokenBinding
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct FIDO2_TokenBinding FIDO2_TokenBinding
@@ -793,13 +595,7 @@ Token binding协议，用于客户端与依赖方通信。
 
 ### FIDO2\_TokenBindingStatus
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef enum FIDO2_TokenBindingStatus FIDO2_TokenBindingStatus
@@ -813,13 +609,7 @@ TokenBinding协议的状态。
 
 ### FIDO2\_UserVerificationRequirement
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef enum FIDO2_UserVerificationRequirement FIDO2_UserVerificationRequirement
@@ -833,13 +623,7 @@ TokenBinding协议的状态。
 
 ### FIDO2\_Uvm
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef enum FIDO2_Uvm FIDO2_Uvm
@@ -853,13 +637,7 @@ UVM的枚举。
 
 ### Uint8Buff
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct Uint8Buff Uint8Buff
@@ -875,13 +653,7 @@ UVM的枚举。
 
 ### FIDO2\_Algorithm
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum FIDO2_Algorithm
@@ -909,13 +681,7 @@ UVM的枚举。
 
 ### FIDO2\_AttestationConveyancePreference
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum FIDO2_AttestationConveyancePreference
@@ -938,13 +704,7 @@ UVM的枚举。
 
 ### FIDO2\_AuthenticatorAttachment
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum FIDO2_AuthenticatorAttachment
@@ -965,13 +725,7 @@ UVM的枚举。
 
 ### FIDO2\_AuthenticatorTransport
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum FIDO2_AuthenticatorTransport
@@ -996,13 +750,7 @@ UVM的枚举。
 
 ### FIDO2\_ClientCapability
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum FIDO2_ClientCapability
@@ -1031,13 +779,7 @@ UVM的枚举。
 
 ### FIDO2\_CredentialMediationRequirement
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum FIDO2_CredentialMediationRequirement
@@ -1060,13 +802,7 @@ UVM的枚举。
 
 ### FIDO2\_ErrorCode
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum FIDO2_ErrorCode
@@ -1109,13 +845,7 @@ UVM的枚举。
 
 ### FIDO2\_PublicKeyCredentialHint
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum FIDO2_PublicKeyCredentialHint
@@ -1137,13 +867,7 @@ UVM的枚举。
 
 ### FIDO2\_PublicKeyCredentialType
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum FIDO2_PublicKeyCredentialType
@@ -1163,13 +887,7 @@ UVM的枚举。
 
 ### FIDO2\_TokenBindingStatus
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum FIDO2_TokenBindingStatus
@@ -1190,13 +908,7 @@ TokenBinding协议的状态。
 
 ### FIDO2\_UserVerificationRequirement
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum FIDO2_UserVerificationRequirement
@@ -1218,13 +930,7 @@ TokenBinding协议的状态。
 
 ### FIDO2\_Uvm
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum FIDO2_Uvm
@@ -1248,13 +954,7 @@ UVM的枚举。
 
 ### HMS\_FIDO2\_authenticate()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FIDO2_ErrorCode HMS_FIDO2_authenticate (const FIDO2_CredentialRequestOptions options, const FIDO2_TokenBinding tokenBinding, const char * origin, FIDO2_PublicKeyAssertionCredential ** publicKeyAssertionCredential)
@@ -1285,13 +985,7 @@ UVM的枚举。
 
 ### HMS\_FIDO2\_AuthenticatorMetadataArray\_Destroy()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void HMS_FIDO2_AuthenticatorMetadataArray_Destroy (FIDO2_AuthenticatorMetadataArray * authenticators)
@@ -1313,13 +1007,7 @@ UVM的枚举。
 
 ### HMS\_FIDO2\_CapabilityArray\_Destroy()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void HMS_FIDO2_CapabilityArray_Destroy (FIDO2_CapabilityArray * capability)
@@ -1341,13 +1029,7 @@ UVM的枚举。
 
 ### HMS\_FIDO2\_getClientCapability()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FIDO2_ErrorCode HMS_FIDO2_getClientCapability (FIDO2_CapabilityArray ** capability)
@@ -1373,13 +1055,7 @@ UVM的枚举。
 
 ### HMS\_FIDO2\_getPlatformAuthenticator()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FIDO2_ErrorCode HMS_FIDO2_getPlatformAuthenticator (FIDO2_AuthenticatorMetadataArray ** authenticators)
@@ -1405,13 +1081,7 @@ UVM的枚举。
 
 ### HMS\_FIDO2\_initCreationOptions()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void HMS_FIDO2_initCreationOptions (FIDO2_CredentialCreationOptions * options)
@@ -1433,13 +1103,7 @@ UVM的枚举。
 
 ### HMS\_FIDO2\_initRequestOptions()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void HMS_FIDO2_initRequestOptions (FIDO2_CredentialRequestOptions * options)
@@ -1461,13 +1125,7 @@ UVM的枚举。
 
 ### HMS\_FIDO2\_initTokenBinding()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void HMS_FIDO2_initTokenBinding (FIDO2_TokenBinding * tokenBinding)
@@ -1489,13 +1147,7 @@ UVM的枚举。
 
 ### HMS\_FIDO2\_PublicKeyAssertionCredential\_Destroy()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void HMS_FIDO2_PublicKeyAssertionCredential_Destroy (FIDO2_PublicKeyAssertionCredential * publicKeyAssertionCredential)
@@ -1517,13 +1169,7 @@ UVM的枚举。
 
 ### HMS\_FIDO2\_PublicKeyAttestationCredential\_Destroy()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void HMS_FIDO2_PublicKeyAttestationCredential_Destroy (FIDO2_PublicKeyAttestationCredential * publicKeyAttestationCredential)
@@ -1545,13 +1191,7 @@ UVM的枚举。
 
 ### HMS\_FIDO2\_register()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FIDO2_ErrorCode HMS_FIDO2_register (const FIDO2_CredentialCreationOptions options, const FIDO2_TokenBinding tokenBinding, const char * origin, FIDO2_PublicKeyAttestationCredential ** publicKeyAttestationCredential)

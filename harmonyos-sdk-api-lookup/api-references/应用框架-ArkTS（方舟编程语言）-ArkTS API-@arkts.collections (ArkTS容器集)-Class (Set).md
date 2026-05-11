@@ -16,13 +16,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { collections } from '@kit.ArkTS';
@@ -75,39 +69,21 @@ constructor(values?: readonly T[] | null)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 正例1：
 2. const mySet = new collections.Set<number>();
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 正例2：
 2. const mySet = new collections.Set<number>([1, 2, 3, 4, 5]);
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 反例：
@@ -157,13 +133,7 @@ constructor(iterable: Iterable<T>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const mapper = new Map([
@@ -208,13 +178,7 @@ entries(): IterableIterator<[T, T]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const mySet = new collections.Set<number>([0, 1, 2, 3]);
@@ -259,13 +223,7 @@ keys(): IterableIterator<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const mySet = new collections.Set<number>([0, 1, 2, 3]);
@@ -310,13 +268,7 @@ values(): IterableIterator<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 例1：
@@ -329,13 +281,7 @@ values(): IterableIterator<T>
 8. console.info(iterator.next().value);
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 例2：
@@ -377,13 +323,7 @@ clear(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const mySet = new collections.Set<number>([0, 1]);
@@ -435,13 +375,7 @@ delete(value: T): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const mySet = new collections.Set<string>(["hello", "world"]);
@@ -497,13 +431,7 @@ callbackFn的参数说明：
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 正例：
@@ -512,13 +440,7 @@ callbackFn的参数说明：
 4. });
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 反例：
@@ -570,13 +492,7 @@ has(value: T): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const mySet = new collections.Set<string>(["hello", "world"]);
@@ -627,13 +543,7 @@ add(value: T): Set<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 正例：
@@ -641,13 +551,7 @@ add(value: T): Set<T>
 3. mySet.add("foo");
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 反例：
@@ -693,13 +597,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let set = new collections.Set<number>([1, 2, 3, 4, 5]);

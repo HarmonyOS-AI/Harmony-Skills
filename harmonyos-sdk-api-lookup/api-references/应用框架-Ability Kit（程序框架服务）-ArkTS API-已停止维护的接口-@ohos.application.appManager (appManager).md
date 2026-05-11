@@ -8,13 +8,7 @@ appManager模块提供应用管理的能力，包括查询当前系统是否处�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import appManager from '@ohos.application.appManager';
@@ -44,13 +38,7 @@ isRunningInStabilityTest(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import appManager from '@ohos.application.appManager';
@@ -88,13 +76,7 @@ isRunningInStabilityTest(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import appManager from '@ohos.application.appManager';
@@ -127,13 +109,7 @@ isRamConstrainedDevice(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import appManager from '@ohos.application.appManager';
@@ -166,13 +142,7 @@ isRamConstrainedDevice(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import appManager from '@ohos.application.appManager';
@@ -206,13 +176,7 @@ getAppMemorySize(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import appManager from '@ohos.application.appManager';
@@ -245,13 +209,7 @@ getAppMemorySize(callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import appManager from '@ohos.application.appManager';
@@ -289,13 +247,7 @@ getProcessRunningInfos(): Promise<Array<ProcessRunningInfo>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import appManager from '@ohos.application.appManager';
@@ -332,13 +284,7 @@ getProcessRunningInfos(callback: AsyncCallback<Array<ProcessRunningInfo>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import appManager from '@ohos.application.appManager';

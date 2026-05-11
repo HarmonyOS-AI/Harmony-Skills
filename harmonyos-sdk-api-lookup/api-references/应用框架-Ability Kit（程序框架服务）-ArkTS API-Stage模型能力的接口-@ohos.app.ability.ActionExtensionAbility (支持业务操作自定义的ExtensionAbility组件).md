@@ -14,13 +14,7 @@ ActionExtensionAbility是为开发者提供的自定义操作业务模板，继�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ActionExtensionAbility } from '@kit.AbilityKit';

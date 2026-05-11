@@ -1,2 +1,0 @@
-* **[CertManager](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-certmanager)**
-* **[CertManagerType](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-certmanagertype)**

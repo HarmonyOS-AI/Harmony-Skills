@@ -283,13 +283,7 @@ PhonePC/2in1TabletTVWearable
 
 示例1通过配置[allowDrop](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-drag-drop#allowdrop)设置组件是否可落入，通过配置[draggable](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-drag-drop#draggable)设置组件是否可拖拽。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -414,13 +408,7 @@ PhonePC/2in1TabletTVWearable
 
 示例2通过配置[dragPreview](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-drag-drop#dragpreview11)设置拖拽过程的预览图。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -490,13 +478,7 @@ PhonePC/2in1TabletTVWearable
 
 示例3通过配置[dragPreviewOptions](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-drag-drop#dragpreviewoptions11)为ENABLE\_DEFAULT\_SHADOW、ENABLE\_DEFAULT\_RADIUS设置默认阴影和统一圆角效果。从API version 18开始，通过配置[dragPreviewOptions](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-drag-drop#dragpreviewoptions11)为ENABLE\_DRAG\_ITEM\_GRAY\_EFFECT设置灰显效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -546,13 +528,7 @@ PhonePC/2in1TabletTVWearable
 
 示例4通过配置[isMultiSelectionEnabled](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-drag-drop#draginteractionoptions12)实现Grid组件的多选拖拽效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -595,13 +571,7 @@ PhonePC/2in1TabletTVWearable
 
 示例5通过配置[defaultAnimationBeforeLifting](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-drag-drop#draginteractionoptions12)实现Grid组件的默认点按效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -644,13 +614,7 @@ PhonePC/2in1TabletTVWearable
 
 示例6通过配置[ImageModifier](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-drag-drop#imagemodifier12)实现Image组件的自定义背板图样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -705,13 +669,7 @@ PhonePC/2in1TabletTVWearable
 
 使用网络图片时，需要申请权限ohos.permission.INTERNET。具体申请方式请参考[声明权限](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/declare-permissions)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -941,13 +899,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 18开始，示例8通过设置[enableHapticFeedback](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-drag-drop#draginteractionoptions12)实现图片拖拽的震动效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1002,13 +954,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 15开始，示例9通过配置[onlyForLifting](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-events-drag-drop#previewconfiguration15)实现自定义预览图，仅用于浮起效果以及配置[isLiftingDisabled](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-drag-drop#draginteractionoptions12)实现禁用浮起效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1115,13 +1061,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 19开始，示例10通过配置[DragPreviewMode](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-drag-drop#dragpreviewmode11枚举说明)为ENABLE\_TOUCH\_POINT\_CALCULATION\_BASED\_ON\_FINAL\_PREVIEW实现根据拖拽预览图的初始尺寸来计算拖拽过程中跟手点位置。当设置[DragPreviewMode](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-drag-drop#dragpreviewmode11枚举说明)为ENABLE\_MULTI\_TILE\_EFFECT时，该属性不生效。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -1210,13 +1150,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 19开始，示例11通过配置[DraggingSizeChangeEffect](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-drag-drop#draggingsizechangeeffect19枚举说明)实现不同拖拽过渡效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -1313,13 +1247,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 23开始，示例12通过组件的[onDragStart](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-events-drag-drop#ondragstart)接口传递其类型，并在目标组件的[allowDrop](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-drag-drop#allowdrop)属性中设置允许该类型落入，即可实现自定义组件的拖拽落入功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { unifiedDataChannel } from '@kit.ArkData';

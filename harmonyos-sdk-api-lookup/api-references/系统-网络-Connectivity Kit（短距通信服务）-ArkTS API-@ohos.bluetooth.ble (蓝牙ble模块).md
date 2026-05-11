@@ -9,13 +9,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ble } from '@kit.ConnectivityKit';
@@ -79,13 +73,7 @@ createGattServer(): GattServer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let gattServer: ble.GattServer = ble.createGattServer();
@@ -136,13 +124,7 @@ createGattClientDevice(deviceId: string): GattClientDevice
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -190,13 +172,7 @@ getConnectedBLEDevices(): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -254,13 +230,7 @@ getConnectedBLEDevices(profile: BleProfile): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -314,13 +284,7 @@ startBLEScan(filters: Array<ScanFilter>, options?: ScanOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.ConnectivityKit';
@@ -385,13 +349,7 @@ stopBLEScan(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -449,13 +407,7 @@ startAdvertising(setting: AdvertiseSetting, advData: AdvertiseData, advResponse?
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let manufactureValueBuffer = new Uint8Array(4);
@@ -537,13 +489,7 @@ stopAdvertising(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -600,13 +546,7 @@ startAdvertising(advertisingParams: AdvertisingParams, callback: AsyncCallback<n
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let manufactureValueBuffer = new Uint8Array(4);
@@ -722,13 +662,7 @@ startAdvertising(advertisingParams: AdvertisingParams): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let manufactureValueBuffer = new Uint8Array(4);
@@ -830,13 +764,7 @@ enableAdvertising(advertisingEnableParams: AdvertisingEnableParams, callback: As
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let manufactureValueBuffer = new Uint8Array(4);
@@ -959,13 +887,7 @@ enableAdvertising(advertisingEnableParams: AdvertisingEnableParams): Promise<voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let manufactureValueBuffer = new Uint8Array(4);
@@ -1079,13 +1001,7 @@ disableAdvertising(advertisingDisableParams: AdvertisingDisableParams, callback:
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let manufactureValueBuffer = new Uint8Array(4);
@@ -1204,13 +1120,7 @@ disableAdvertising(advertisingDisableParams: AdvertisingDisableParams): Promise<
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let manufactureValueBuffer = new Uint8Array(4);
@@ -1322,13 +1232,7 @@ stopAdvertising(advertisingId: number, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let manufactureValueBuffer = new Uint8Array(4);
@@ -1445,13 +1349,7 @@ stopAdvertising(advertisingId: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let manufactureValueBuffer = new Uint8Array(4);
@@ -1552,13 +1450,7 @@ on(type: 'advertisingStateChange', callback: Callback<AdvertisingStateChangeInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -1608,13 +1500,7 @@ off(type: 'advertisingStateChange', callback?: Callback<AdvertisingStateChangeIn
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -1667,13 +1553,7 @@ on(type: 'BLEDeviceFind', callback: Callback<Array<ScanResult>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -1727,13 +1607,7 @@ off(type: 'BLEDeviceFind', callback?: Callback<Array<ScanResult>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -1797,13 +1671,7 @@ server端添加服务。该操作会在蓝牙子系统中注册该服务，表�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -1879,13 +1747,7 @@ removeService(serviceUuid: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -1946,13 +1808,7 @@ getService(serviceUuid: string): GattService
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2007,13 +1863,7 @@ server端获取本端已添加的服务能力。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2059,13 +1909,7 @@ close(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -2123,13 +1967,7 @@ server端发送特征值变化通知或者指示给client端。使用Callback异
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -2206,13 +2044,7 @@ server端发送特征值变化通知或者指示给对端设备。使用Promise�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -2279,13 +2111,7 @@ client请求是指通过下述接口订阅回调收到的请求消息：
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -2345,13 +2171,7 @@ server端订阅client的特征值读请求事件，server端收到该事件后�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -2413,13 +2233,7 @@ server端取消订阅client的特征值读请求事件。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -2468,13 +2282,7 @@ server端订阅client的特征值写请求事件，server端收到该事件后�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -2539,13 +2347,7 @@ server端取消订阅client的特征值写请求事件。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -2594,13 +2396,7 @@ server端订阅client的描述符读请求事件，server端收到该事件后�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -2662,13 +2458,7 @@ server端取消订阅client的描述符读请求事件。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -2717,13 +2507,7 @@ server端订阅client的描述符写请求事件，server端收到该事件后�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -2788,13 +2572,7 @@ server端取消订阅client的描述符写请求事件。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -2843,13 +2621,7 @@ server端订阅GATT profile协议的连接状态变化事件。使用Callback异
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { constant } from '@kit.ConnectivityKit';
@@ -2903,13 +2675,7 @@ server端取消订阅GATT profile协议的连接状态变化事件。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -2956,13 +2722,7 @@ server端订阅MTU（最大传输单元）大小变更事件。使用Callback异
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -3011,13 +2771,7 @@ server端取消订阅MTU（最大传输单元）大小变更事件。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -3073,13 +2827,7 @@ getConnectedState(deviceId: string): ProfileConnectionState
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3141,13 +2889,7 @@ readPhy(deviceId: string): Promise<PhyValue>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let gattServer: ble.GattServer = ble.createGattServer();
@@ -3211,13 +2953,7 @@ server端设置和指定设备连接链路的物理通道类型。使用Promise�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let gattServer: ble.GattServer = ble.createGattServer();
@@ -3268,13 +3004,7 @@ onBlePhyUpdate(callback: Callback<PhyValue>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function BlePhyCallback(data:ble.PhyValue) {
@@ -3323,13 +3053,7 @@ offBlePhyUpdate(callback?: Callback<PhyValue>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function BlePhyCallback(data:ble.PhyValue) {
@@ -3385,13 +3109,7 @@ client端主动发起和server蓝牙设备的GATT协议连接。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -3435,13 +3153,7 @@ client断开与远端蓝牙低功耗设备的连接。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -3483,13 +3195,7 @@ close(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -3539,13 +3245,7 @@ client获取server端设备名称。使用Callback异步回调。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ble, constant } from '@kit.ConnectivityKit';
@@ -3607,13 +3307,7 @@ client获取远端蓝牙低功耗设备的名称。使用Promise异步回调。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ble, constant } from '@kit.ConnectivityKit';
@@ -3684,13 +3378,7 @@ client获取server端支持的所有服务能力，即服务发现流程。使�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ble, constant } from '@kit.ConnectivityKit';
@@ -3761,13 +3449,7 @@ client端获取蓝牙低功耗设备的所有服务，即服务发现。使用Pr
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ble, constant } from '@kit.ConnectivityKit';
@@ -3842,13 +3524,7 @@ client端从指定的server端特征值读取数据。使用Callback异步回调
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -3942,13 +3618,7 @@ client端从指定的server端特征值读取数据。使用Promise异步回调�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -4026,13 +3696,7 @@ client端从指定的server端描述符读取数据。使用Callback异步回调
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -4119,13 +3783,7 @@ client端从指定的server端描述符读取数据。使用Promise异步回调�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -4197,13 +3855,7 @@ client端向指定的server端特征值写入数据。使用Callback异步回调
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -4294,13 +3946,7 @@ client端向指定的server端特征值写入数据。使用Promise异步回调�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -4378,13 +4024,7 @@ client端向指定的server端描述符写入数据。使用Callback异步回调
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -4469,13 +4109,7 @@ client端向指定的server端描述符写入数据。使用Promise异步回调�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -4538,13 +4172,7 @@ client端获取GATT连接链路信号强度 (Received Signal Strength Indication
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -4601,13 +4229,7 @@ client端获取GATT连接链路信号强度 (Received Signal Strength Indication
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -4664,13 +4286,7 @@ client端同server端协商[MTU](https://developer.huawei.com/consumer/cn/doc/ha
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -4732,13 +4348,7 @@ client端启用或者禁用接收server端特征值内容变更通知的能力�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -4825,13 +4435,7 @@ client端启用或者禁用接收server端特征值内容变更通知的能力�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -4905,13 +4509,7 @@ client端启用或者禁用接收server端特征值内容变更指示的能力�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -4998,13 +4596,7 @@ client端启用或者禁用接收server端特征值内容变更指示的能力�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -5067,13 +4659,7 @@ client端订阅server端特征值变化事件。使用Callback异步回调。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -5127,13 +4713,7 @@ client端取消订阅server端特征值变化事件。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -5182,13 +4762,7 @@ client端订阅GATT profile协议的连接状态变化事件。使用Callback异
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -5241,13 +4815,7 @@ client端取消订阅GATT profile协议的连接状态变化事件。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -5296,13 +4864,7 @@ client端订阅MTU（最大传输单元）大小变更事件。使用Callback异
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -5353,13 +4915,7 @@ client端取消订阅MTU（最大传输单元）大小变更事件。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -5408,13 +4964,7 @@ client端设备订阅server端设备服务变化的通知事件，使用Callback
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5467,13 +5017,7 @@ client端设备取消订阅server端设备服务变化的通知事件。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5526,13 +5070,7 @@ getConnectedState(): ProfileConnectionState
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5592,13 +5130,7 @@ updateConnectionParam(param: ConnectionParam): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5650,13 +5182,7 @@ readPhy(): Promise<PhyValue>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let gattClient: ble.GattClientDevice = ble.createGattClientDevice('XX:XX:XX:XX:XX:XX');
@@ -5718,13 +5244,7 @@ client端设置连接链路的物理通道类型。使用Promise异步回调。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let gattClient: ble.GattClientDevice = ble.createGattClientDevice('XX:XX:XX:XX:XX:XX');
@@ -5774,13 +5294,7 @@ onBlePhyUpdate(callback: Callback<PhyValue>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function BlePhyCallback(data:ble.PhyValue) {
@@ -5829,13 +5343,7 @@ offBlePhyUpdate(callback?: Callback<PhyValue>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function BlePhyCallback(data:ble.PhyValue) {
@@ -5871,13 +5379,7 @@ createBleScanner(): BleScanner
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -5949,13 +5451,7 @@ startScan(filters: Array<ScanFilter>, options?: ScanOptions): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -6025,13 +5521,7 @@ stopScan(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -6083,13 +5573,7 @@ on(type: 'BLEDeviceFind', callback: Callback<ScanReport>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';
@@ -6145,13 +5629,7 @@ off(type: 'BLEDeviceFind', callback?: Callback<ScanReport>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError } from '@kit.BasicServicesKit';

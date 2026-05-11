@@ -2,13 +2,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { map } from '@kit.MapKit';
@@ -34,13 +28,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let animation = new map.RotateAnimation(0, 270);
@@ -93,13 +81,7 @@ setDuration(duration: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. animation.setDuration(3000);
@@ -131,13 +113,7 @@ setFillMode(fillMode: AnimationFillMode): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. animation.setFillMode(map.AnimationFillMode.BACKWARDS);
@@ -169,13 +145,7 @@ setInterpolator(curve: Curves.Curve): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. animation.setInterpolator(Curve.Linear);
@@ -207,13 +177,7 @@ setRepeatCount(repeatCount: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. animation.setRepeatCount(100);
@@ -245,13 +209,7 @@ setRepeatMode(repeatMode: AnimationRepeatMode): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. animation.setRepeatMode(map.AnimationRepeatMode.RESTART);
@@ -286,13 +244,7 @@ on(type: 'start', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. animation.on("start", () => {
@@ -329,13 +281,7 @@ off(type: 'start', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. animation.off("start", () => {
@@ -372,13 +318,7 @@ on(type: 'end', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. animation.on("end", () => {
@@ -415,13 +355,7 @@ off(type: 'end', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. animation.off("end", () => {
@@ -456,13 +390,7 @@ on(type: 'animationStart', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = () => {
@@ -506,13 +434,7 @@ off(type: 'animationStart', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = () => {
@@ -561,13 +483,7 @@ on(type: 'animationEnd', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = () => {
@@ -611,13 +527,7 @@ off(type: 'animationEnd', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback1 = () => {

@@ -2,13 +2,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { map, mapCommon } from '@kit.MapKit';
@@ -30,13 +24,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from '@kit.ImageKit';
@@ -87,13 +75,7 @@ getColor(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let color: number = mapPolyline.getColor();
@@ -125,13 +107,7 @@ getColors(): Array<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let colors: Array<number> = mapPolyline.getColors();
@@ -163,13 +139,7 @@ getEndCap(): mapCommon.CapStyle
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let endCap: mapCommon.CapStyle = mapPolyline.getEndCap();
@@ -201,13 +171,7 @@ getJointType(): mapCommon.JointType
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let jointType: mapCommon.JointType = mapPolyline.getJointType();
@@ -239,13 +203,7 @@ getPatterns(): Array<mapCommon.PatternItem>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let patterns: Array<mapCommon.PatternItem> = mapPolyline.getPatterns();
@@ -277,13 +235,7 @@ getPoints(): Array<mapCommon.LatLng>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let points: Array<mapCommon.LatLng> = mapPolyline.getPoints();
@@ -315,13 +267,7 @@ getStartCap(): mapCommon.CapStyle
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let startCap: mapCommon.CapStyle = mapPolyline.getStartCap();
@@ -353,13 +299,7 @@ getWidth(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let width: number = mapPolyline.getWidth();
@@ -391,13 +331,7 @@ isClickable(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let isClickable: boolean = mapPolyline.isClickable();
@@ -429,13 +363,7 @@ isGeodesic(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let isGeodesic: boolean = mapPolyline.isGeodesic();
@@ -467,13 +395,7 @@ isGradient(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let isGradient: boolean = mapPolyline.isGradient();
@@ -505,13 +427,7 @@ setClickable(clickable: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. mapPolyline.setClickable(true);
@@ -543,13 +459,7 @@ setColor(color: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. mapPolyline.setColor(0xff000000);
@@ -581,13 +491,7 @@ setColors(colors: Array<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. mapPolyline.setColors([0xffffff00, 0xff000000]);
@@ -619,13 +523,7 @@ setEndCap(endCap: mapCommon.CapStyle): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. mapPolyline.setEndCap(mapCommon.CapStyle.BUTT);
@@ -657,13 +555,7 @@ setGeodesic(geodesic: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. mapPolyline.setGeodesic(true);
@@ -695,13 +587,7 @@ setGradient(gradient: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. mapPolyline.setGradient(true);
@@ -733,13 +619,7 @@ setJointType(jointType: mapCommon.JointType): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. mapPolyline.setJointType(mapCommon.JointType.DEFAULT);
@@ -771,13 +651,7 @@ setPatterns(patterns: Array<mapCommon.PatternItem>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let linePattern: Array<mapCommon.PatternItem> = [
@@ -814,13 +688,7 @@ setPoints(points: Array<mapCommon.LatLng>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let points: Array<mapCommon.LatLng> = [
@@ -859,13 +727,7 @@ setStartCap(startCap: mapCommon.CapStyle): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. mapPolyline.setStartCap(mapCommon.CapStyle.BUTT);
@@ -897,13 +759,7 @@ setWidth(width: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. mapPolyline.setWidth(20);
@@ -943,13 +799,7 @@ setCustomTexture(customTexture: ResourceStr | image.PixelMap): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 图标存放在resources/rawfile目录下
@@ -991,13 +841,7 @@ setCustomTexture(customTexture: ResourceStr | image.PixelMap, isTextureMappingUs
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 图标需存放在resources/rawfile目录下
@@ -1048,13 +892,7 @@ setCustomTextureIndexes(customTextureIndexes: number[]): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. await mapPolyline.setCustomTextureIndexes([0,1,0]);

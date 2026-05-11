@@ -8,13 +8,7 @@ SOTER提供移动端免密身份认证能力，支持使用SOTER协议的应用�
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { soter } from '@kit.OnlineAuthenticationKit';
@@ -93,13 +87,7 @@ getVersionSync(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let res: string = soter.getVersionSync();// 开发者处理结果
@@ -140,13 +128,7 @@ getVersion(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -204,13 +186,7 @@ hasAppSecureKeySync(keyType: KeyType): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let keyType: soter.KeyType = soter.KeyType.ECC_P256; // 密钥选型，当前只支持ECC_P256
@@ -264,13 +240,7 @@ hasAppSecureKey(keyType: KeyType): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -331,13 +301,7 @@ generateAppSecureKeySync(keyType: KeyType): Uint8Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let keyType: soter.KeyType = soter.KeyType.ECC_P256; // 密钥选型，当前只支持ECC_P256
@@ -391,13 +355,7 @@ generateAppSecureKey(keyType: KeyType): Promise<Uint8Array>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -458,13 +416,7 @@ getAppSecureKeySync(keyType: KeyType): Uint8Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let keyType: soter.KeyType = soter.KeyType.ECC_P256; // 密钥选型，当前只支持ECC_P256
@@ -518,13 +470,7 @@ getAppSecureKey(keyType: KeyType): Promise<Uint8Array>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -586,13 +532,7 @@ hasAuthKeySync(keyAlias: string, keyType: KeyType): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let keyType: soter.KeyType = soter.KeyType.ECC_P256; // 密钥选型，当前只支持ECC_P256
@@ -648,13 +588,7 @@ hasAuthKey(keyAlias: string, keyType: KeyType): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -717,13 +651,7 @@ generateAuthKeySync(keyAlias: string, keyType: KeyType): SignedResult
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let keyType: soter.KeyType = soter.KeyType.ECC_P256; // 密钥选型，当前只支持ECC_P256
@@ -780,13 +708,7 @@ generateAuthKey(keyAlias: string, keyType: KeyType): Promise<SignedResult>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -849,13 +771,7 @@ getAuthKeySync(keyAlias: string, keyType: KeyType): SignedResult
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let keyType: soter.KeyType = soter.KeyType.ECC_P256; // 密钥选型，当前只支持ECC_P256
@@ -912,13 +828,7 @@ getAuthKey(keyAlias: string, keyType: KeyType): Promise<SignedResult>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -980,13 +890,7 @@ generateChallengeSync(keyAlias: string): Uint8Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let keyAlias: string = 'keyAlias';
@@ -1040,13 +944,7 @@ generateChallenge(keyAlias: string): Promise<Uint8Array>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1109,13 +1007,7 @@ signWithAuthKeySync(keyAlias: string, authToken: Uint8Array, info: string): Sign
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let keyAlias: string = 'keyAlias';
@@ -1172,13 +1064,7 @@ signWithAuthKey(keyAlias: string, authToken: Uint8Array, info: string): Promise<
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1232,13 +1118,7 @@ deleteAuthKeySync(keyAlias: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 删除认证密钥
@@ -1290,13 +1170,7 @@ deleteAuthKey(keyAlias: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1338,13 +1212,7 @@ deleteAppSecureKeySync(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 删除应用密钥
@@ -1386,13 +1254,7 @@ deleteAppSecureKey(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

@@ -1,1 +1,0 @@
-* **[C API](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/content-embed-c)**

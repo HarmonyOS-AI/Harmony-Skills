@@ -11,13 +11,7 @@ Picture类，一些包含特殊信息的图片可以解码为Picture（也可以
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from '@kit.ImageKit';
@@ -43,13 +37,7 @@ getMainPixelmap(): PixelMap
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -104,13 +92,7 @@ getHdrComposedPixelmap(): Promise<PixelMap>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -176,13 +158,7 @@ getHdrComposedPixelmapWithOptions(options?: HdrComposeOptions): Promise<PixelMap
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from '@kit.ImageKit';
@@ -233,13 +209,7 @@ getGainmapPixelmap(): PixelMap | null
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -298,13 +268,7 @@ setAuxiliaryPicture(type: AuxiliaryPictureType, auxiliaryPicture: AuxiliaryPictu
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function SetAuxiliaryPicture(context: Context) {
@@ -370,13 +334,7 @@ getAuxiliaryPicture(type: AuxiliaryPictureType): AuxiliaryPicture | null
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function GetAuxiliaryPicture(pictureObj : image.Picture) {
@@ -427,13 +385,7 @@ setMetadata(metadataType: MetadataType, metadata: Metadata): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -506,13 +458,7 @@ getMetadata(metadataType: MetadataType): Promise<Metadata>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function GetPictureObjMetadataProperties(pictureObj : image.Picture) {
@@ -561,13 +507,7 @@ marshalling(sequence: rpc.MessageSequence): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -630,13 +570,7 @@ release(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function Release(pictureObj : image.Picture) {

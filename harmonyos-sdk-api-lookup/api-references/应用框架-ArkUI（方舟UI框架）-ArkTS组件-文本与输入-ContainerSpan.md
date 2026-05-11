@@ -84,13 +84,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 11开始，该示例通过[textBackgroundStyle](/consumer/cn/doc/harmonyos-references/ts-basic-components-containerspan#textbackgroundstyle)属性展示了文本设置背景样式的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -129,13 +123,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 12开始，该示例通过[attributeModifier](/consumer/cn/doc/harmonyos-references/ts-basic-components-containerspan#attributemodifier12)属性展示了文本设置背景样式的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ContainerSpanModifier } from '@kit.ArkUI';

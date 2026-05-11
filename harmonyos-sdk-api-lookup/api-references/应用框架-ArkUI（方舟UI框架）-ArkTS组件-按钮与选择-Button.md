@@ -569,13 +569,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例实现了两种创建按钮的方式，包含子组件或使用文本内容创建相应的按钮。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -639,13 +633,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过if/else控制按钮的显示文本。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -679,13 +667,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置labelStyle自定义按钮文本的显示样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -729,13 +711,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置controlSize、buttonStyle实现不同尺寸按钮的重要程度。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -776,13 +752,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置role实现按钮的角色。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -814,13 +784,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例实现了自定义样式的功能，自定义样式实现了一个圆圈替换原本的按钮样式。如果按压，圆圈将变成红色，标题会显示按压字样；如果没有按压，圆圈将变成黑色，标题会显示非按压字样。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class MyButtonStyle implements ContentModifier<ButtonConfiguration> {
@@ -893,13 +857,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置ButtonType.ROUNDED\_RECTANGLE创建圆角矩形按钮。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -945,13 +903,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 23开始，新增textAlign接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry

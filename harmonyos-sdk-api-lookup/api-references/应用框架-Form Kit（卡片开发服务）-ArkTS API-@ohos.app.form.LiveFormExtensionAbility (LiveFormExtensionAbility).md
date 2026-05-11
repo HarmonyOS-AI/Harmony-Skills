@@ -12,13 +12,7 @@ LiveFormExtensionAbility模块提供互动卡片功能，包括创建、销毁�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LiveFormExtensionAbility } from '@kit.FormKit';
@@ -71,13 +65,7 @@ LiveFormExtensionAbility界面内容对象创建后调用。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIExtensionContentSession } from '@kit.AbilityKit';
@@ -116,13 +104,7 @@ LiveFormExtensionAbility生命周期回调，在销毁时回调，执行资源�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LiveFormExtensionAbility, LiveFormInfo } from '@kit.FormKit';

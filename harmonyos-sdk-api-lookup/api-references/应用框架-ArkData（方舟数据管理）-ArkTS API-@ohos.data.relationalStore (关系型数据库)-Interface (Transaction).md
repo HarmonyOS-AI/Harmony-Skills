@@ -17,13 +17,7 @@
 
 示例代码中this.context定义见Stage模型的应用[Context](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-inner-application-context)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -65,13 +59,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { relationalStore } from '@kit.ArkData';
@@ -115,13 +103,7 @@ commit(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. if (store != undefined) {
@@ -180,13 +162,7 @@ rollback(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. if (store != undefined) {
@@ -263,13 +239,7 @@ insert(table: string, values: ValuesBucket, conflict?: ConflictResolution): Prom
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const valueBucket1: relationalStore.ValuesBucket = {
@@ -354,13 +324,7 @@ insertSync(table: string, values: ValuesBucket | sendableRelationalStore.ValuesB
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let value5 = 'Lisa';
@@ -453,13 +417,7 @@ batchInsert(table: string, values: Array<ValuesBucket>): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const valueBucket3: relationalStore.ValuesBucket = {
@@ -558,13 +516,7 @@ batchInsertSync(table: string, values: Array<ValuesBucket>): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const valueBucket6: relationalStore.ValuesBucket = {
@@ -671,13 +623,7 @@ batchInsertWithConflictResolution(table: string, values: Array<ValuesBucket>, co
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const valueBucket9: relationalStore.ValuesBucket = {
@@ -789,13 +735,7 @@ batchInsertWithConflictResolutionSync(table: string, values: Array<ValuesBucket>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const valueBucketC: relationalStore.ValuesBucket = {
@@ -904,13 +844,7 @@ conflict参数不建议使用ON\_CONFLICT\_FAIL策略，可能无法返回正确
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function transBatchInsertWithReturningExample(trans: relationalStore.Transaction)
@@ -995,13 +929,7 @@ conflict参数不建议使用ON\_CONFLICT\_FAIL策略，可能无法返回正确
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function transBatchInsertWithReturningSyncExample(trans: relationalStore.Transaction)
@@ -1077,13 +1005,7 @@ update(values: ValuesBucket, predicates: RdbPredicates, conflict?: ConflictResol
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const valueBucketF: relationalStore.ValuesBucket = {
@@ -1168,13 +1090,7 @@ updateSync(values: ValuesBucket, predicates: RdbPredicates, conflict?: ConflictR
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const valueBucketG: relationalStore.ValuesBucket = {
@@ -1260,13 +1176,7 @@ conflict参数不建议使用ON\_CONFLICT\_FAIL策略，可能无法返回正确
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function transUpdateWithReturningExample(trans: relationalStore.Transaction)
@@ -1347,13 +1257,7 @@ conflict参数不建议使用ON\_CONFLICT\_FAIL策略，可能无法返回正确
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function transUpdateWithReturningSyncExample(trans: relationalStore.Transaction)
@@ -1431,13 +1335,7 @@ delete(predicates: RdbPredicates):Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates2 = new relationalStore.RdbPredicates('EMPLOYEE');
@@ -1514,13 +1412,7 @@ deleteSync(predicates: RdbPredicates): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates3 = new relationalStore.RdbPredicates('EMPLOYEE');
@@ -1595,13 +1487,7 @@ deleteWithReturning(predicates: RdbPredicates, config: ReturningConfig): Promise
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function transDeleteWithReturningExample(trans: relationalStore.Transaction)
@@ -1675,13 +1561,7 @@ deleteWithReturningSync(predicates: RdbPredicates, config: ReturningConfig): Res
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function transDeleteWithReturningSyncExample(trans: relationalStore.Transaction)
@@ -1752,13 +1632,7 @@ query(predicates: RdbPredicates, columns?: Array<string>): Promise<ResultSet>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates4 = new relationalStore.RdbPredicates('EMPLOYEE');
@@ -1842,13 +1716,7 @@ querySync(predicates: RdbPredicates, columns?: Array<string>): ResultSet
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates5 = new relationalStore.RdbPredicates('EMPLOYEE');
@@ -1932,13 +1800,7 @@ querySql(sql: string, args?: Array<ValueType>): Promise<ResultSet>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. if (store != undefined) {
@@ -2019,13 +1881,7 @@ querySqlSync(sql: string, args?: Array<ValueType>): ResultSet
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. if (store != undefined) {
@@ -2098,13 +1954,7 @@ queryWithoutRowCount(predicates: RdbPredicates, columns?: Array<string>): Promis
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function queryWithoutRowCountExample(store : relationalStore.RdbStore) {
@@ -2185,13 +2035,7 @@ queryWithoutRowCountSync(predicates: RdbPredicates, columns?: Array<string>): Li
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function queryWithoutRowCountSyncExample(store : relationalStore.RdbStore) {
@@ -2273,13 +2117,7 @@ querySqlWithoutRowCount(sql: string, bindArgs?: Array<ValueType>): Promise<LiteR
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function querySqlWithoutRowCountExample(store : relationalStore.RdbStore) {
@@ -2359,13 +2197,7 @@ querySqlWithoutRowCountSync(sql: string, bindArgs?: Array<ValueType>):LiteResult
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function querySqlWithoutRowCountSyncExample(store : relationalStore.RdbStore) {
@@ -2465,13 +2297,7 @@ execute(sql: string, args?: Array<ValueType>): Promise<ValueType>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. if (store != undefined) {
@@ -2557,13 +2383,7 @@ executeSync(sql: string, args?: Array<ValueType>): ValueType
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 删除表中所有数据

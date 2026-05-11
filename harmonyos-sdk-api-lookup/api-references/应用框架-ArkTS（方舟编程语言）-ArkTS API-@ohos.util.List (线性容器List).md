@@ -22,13 +22,7 @@ List和[LinkedList](https://developer.huawei.com/consumer/cn/doc/harmonyos-refer
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { List } from '@kit.ArkTS';
@@ -76,13 +70,7 @@ List的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let list = new List<string | number | boolean | object>();
@@ -128,13 +116,7 @@ add(element: T): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let list = new List<string | number | boolean | object>();
@@ -187,13 +169,7 @@ insert(element: T, index: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let list = new List<string | number | boolean>();
@@ -243,13 +219,7 @@ has(element: T): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let list = new List<string>();
@@ -299,13 +269,7 @@ get(index: number): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let list = new List<number>()
@@ -360,13 +324,7 @@ getLastIndexOf(element: T): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let list = new List<number>()
@@ -421,13 +379,7 @@ getIndexOf(element: T): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let list = new List<number>()
@@ -482,13 +434,7 @@ equal(obj: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let list = new List<number>()
@@ -545,13 +491,7 @@ removeByIndex(index: number): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let list = new List<number>()
@@ -604,13 +544,7 @@ remove(element: T): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let list = new List<number>()
@@ -666,13 +600,7 @@ callbackFn的参数说明：
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let list = new List<number>()
@@ -735,13 +663,7 @@ callbackFn的参数说明：
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let list = new List<number>()
@@ -791,13 +713,7 @@ sort(comparator: ListComparatorFn<T>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let list = new List<number>()
@@ -855,13 +771,7 @@ getSubList(fromIndex: number, toIndex: number): List<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let list = new List<number>()
@@ -897,13 +807,7 @@ clear(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let list = new List<number>()
@@ -959,13 +863,7 @@ set(index: number, element: T): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let list = new List<number | string>();
@@ -1009,13 +907,7 @@ convertToArray(): Array<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let list = new List<number>()
@@ -1059,13 +951,7 @@ isEmpty(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let list = new List<number>()
@@ -1109,13 +995,7 @@ getFirst(): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let list = new List<number>()
@@ -1159,13 +1039,7 @@ getLast(): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let list = new List<number>()
@@ -1209,13 +1083,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let list = new List<number>();

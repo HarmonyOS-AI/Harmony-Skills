@@ -71,13 +71,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置GestureGroup，实现了长按和拖动的组合手势顺序识别功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

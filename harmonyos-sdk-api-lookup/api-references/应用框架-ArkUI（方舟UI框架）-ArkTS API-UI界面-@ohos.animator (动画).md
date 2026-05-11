@@ -14,13 +14,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Animator as animator, AnimatorOptions, AnimatorResult, SimpleAnimatorOptions } from '@kit.ArkUI';
@@ -87,13 +81,7 @@ create(options: AnimatorOptions): AnimatorResult
 
 推荐通过使用[UIContext](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-uicontext)中的[createAnimator](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-uicontext#createanimator)接口明确UI上下文。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Animator as animator, AnimatorOptions } from '@kit.ArkUI';
@@ -157,13 +145,7 @@ create(options: AnimatorOptions | SimpleAnimatorOptions): AnimatorResult
 
 推荐通过使用[UIContext](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-uicontext)中的[createAnimator](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-uicontext#createanimator)接口明确UI上下文。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Animator as animator, SimpleAnimatorOptions } from '@kit.ArkUI';
@@ -205,13 +187,7 @@ createAnimator(options: AnimatorOptions): AnimatorResult
 
 完整示例请参考[基于ArkTS扩展的声明式开发范式](/consumer/cn/doc/harmonyos-references/js-apis-animator#基于arkts扩展的声明式开发范式)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Animator as animator } from '@kit.ArkUI';
@@ -288,13 +264,7 @@ reset(options: AnimatorOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AnimatorResult } from '@kit.ArkUI';
@@ -368,13 +338,7 @@ reset(options: AnimatorOptions | SimpleAnimatorOptions): void
 
 完整示例请参考[基于ArkTS扩展的声明式开发范式](/consumer/cn/doc/harmonyos-references/js-apis-animator#基于arkts扩展的声明式开发范式)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Animator as animator, AnimatorResult, AnimatorOptions, SimpleAnimatorOptions } from '@kit.ArkUI';
@@ -413,13 +377,7 @@ play(): void
 
 完整示例请参考[基于ArkTS扩展的声明式开发范式](/consumer/cn/doc/harmonyos-references/js-apis-animator#基于arkts扩展的声明式开发范式)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. animator.play();
@@ -441,13 +399,7 @@ finish(): void
 
 完整示例请参考[基于ArkTS扩展的声明式开发范式](/consumer/cn/doc/harmonyos-references/js-apis-animator#基于arkts扩展的声明式开发范式)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. animator.finish();
@@ -469,13 +421,7 @@ pause(): void
 
 完整示例请参考[基于ArkTS扩展的声明式开发范式](/consumer/cn/doc/harmonyos-references/js-apis-animator#基于arkts扩展的声明式开发范式)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. animator.pause();
@@ -497,13 +443,7 @@ cancel(): void
 
 完整示例请参考[基于ArkTS扩展的声明式开发范式](/consumer/cn/doc/harmonyos-references/js-apis-animator#基于arkts扩展的声明式开发范式)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. animator.cancel();
@@ -525,13 +465,7 @@ reverse(): void
 
 完整示例请参考[基于ArkTS扩展的声明式开发范式](/consumer/cn/doc/harmonyos-references/js-apis-animator#基于arkts扩展的声明式开发范式)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. animator.reverse();
@@ -563,13 +497,7 @@ setExpectedFrameRateRange(rateRange: ExpectedFrameRateRange): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AnimatorResult } from '@kit.ArkUI';
@@ -631,13 +559,7 @@ update(options: AnimatorOptions): void
 
 完整示例请参考[基于ArkTS扩展的声明式开发范式](/consumer/cn/doc/harmonyos-references/js-apis-animator#基于arkts扩展的声明式开发范式)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. animator.update(options);
@@ -722,13 +644,7 @@ SimpleAnimatorOptions的构造函数。
 
 完整示例请参考[基于ArkTS扩展的声明式开发范式](/consumer/cn/doc/harmonyos-references/js-apis-animator#基于arkts扩展的声明式开发范式)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AnimatorResult, SimpleAnimatorOptions } from '@kit.ArkUI';
@@ -781,13 +697,7 @@ duration(duration: number): SimpleAnimatorOptions
 
 完整示例请参考[基于ArkTS扩展的声明式开发范式](/consumer/cn/doc/harmonyos-references/js-apis-animator#基于arkts扩展的声明式开发范式)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AnimatorResult, SimpleAnimatorOptions } from '@kit.ArkUI';
@@ -840,13 +750,7 @@ easing(curve: string): SimpleAnimatorOptions
 
 完整示例请参考[基于ArkTS扩展的声明式开发范式](/consumer/cn/doc/harmonyos-references/js-apis-animator#基于arkts扩展的声明式开发范式)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AnimatorResult, SimpleAnimatorOptions } from '@kit.ArkUI';
@@ -899,13 +803,7 @@ delay(delay: number): SimpleAnimatorOptions
 
 完整示例请参考[基于ArkTS扩展的声明式开发范式](/consumer/cn/doc/harmonyos-references/js-apis-animator#基于arkts扩展的声明式开发范式)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AnimatorResult, SimpleAnimatorOptions } from '@kit.ArkUI';
@@ -958,13 +856,7 @@ fill(fillMode: [FillMode](https://developer.huawei.com/consumer/cn/doc/harmonyos
 
 完整示例请参考[基于ArkTS扩展的声明式开发范式](/consumer/cn/doc/harmonyos-references/js-apis-animator#基于arkts扩展的声明式开发范式)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AnimatorResult, SimpleAnimatorOptions } from '@kit.ArkUI';
@@ -1017,13 +909,7 @@ direction(direction: [PlayMode](https://developer.huawei.com/consumer/cn/doc/har
 
 完整示例请参考[基于ArkTS扩展的声明式开发范式](/consumer/cn/doc/harmonyos-references/js-apis-animator#基于arkts扩展的声明式开发范式)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AnimatorResult, SimpleAnimatorOptions } from '@kit.ArkUI';
@@ -1076,13 +962,7 @@ iterations(iterations: number): SimpleAnimatorOptions
 
 完整示例请参考[基于ArkTS扩展的声明式开发范式](/consumer/cn/doc/harmonyos-references/js-apis-animator#基于arkts扩展的声明式开发范式)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AnimatorResult, SimpleAnimatorOptions } from '@kit.ArkUI';
@@ -1109,13 +989,7 @@ PhonePC/2in1TabletTVWearable
 
 ### 基于JS扩展的类Web开发范式
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- hml -->
@@ -1125,13 +999,7 @@ PhonePC/2in1TabletTVWearable
 5. </div>
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Animator as animator, AnimatorResult } from '@kit.ArkUI';
@@ -1223,13 +1091,7 @@ PhonePC/2in1TabletTVWearable
 
 推荐通过使用[UIContext](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-uicontext)中的[createAnimator](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-uicontext#createanimator)接口明确UI上下文。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AnimatorResult } from '@kit.ArkUI';
@@ -1399,13 +1261,7 @@ PhonePC/2in1TabletTVWearable
 
 ### 位移动画示例（简易入参）
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AnimatorResult, SimpleAnimatorOptions } from '@kit.ArkUI';

@@ -9,13 +9,7 @@ NodeContent是ArkUI提供的[ContentSlot](https://developer.huawei.com/consumer/
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeContent } from '@kit.ArkUI';
@@ -45,13 +39,7 @@ constructor()
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { nativeNode } from 'libNativeNode.so'; // 开发者自己实现的so
@@ -131,13 +119,7 @@ removeFrameNode(node: FrameNode): void
 
 添加删除NodeContent中的FrameNode节点。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

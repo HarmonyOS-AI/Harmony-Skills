@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TipsDialog, SelectDialog, ConfirmDialog, AlertDialog, LoadingDialog, CustomContentDialog } from '@kit.ArkUI';
@@ -267,13 +261,7 @@ PhonePC/2in1TabletTVWearable
 
 上图下文弹出框，包含imageRes、content等内容。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TipsDialog } from '@kit.ArkUI';
@@ -330,13 +318,7 @@ PhonePC/2in1TabletTVWearable
 
 纯列表弹出框，包含selectedIndex、radioContent等内容。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SelectDialog } from '@kit.ArkUI';
@@ -405,13 +387,7 @@ PhonePC/2in1TabletTVWearable
 
 文本与勾选弹出框，包含content、checkTips等内容。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ConfirmDialog } from '@kit.ArkUI';
@@ -476,13 +452,7 @@ PhonePC/2in1TabletTVWearable
 
 纯文本弹出框，包含primaryTitle、secondaryTitle、content等内容。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AlertDialog } from '@kit.ArkUI';
@@ -539,13 +509,7 @@ PhonePC/2in1TabletTVWearable
 
 进度加载类弹出框，包含content等内容。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LoadingDialog } from '@kit.ArkUI';
@@ -588,13 +552,7 @@ PhonePC/2in1TabletTVWearable
 
 自定义主题风格弹出框，包含content、theme等内容。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { CustomColors, CustomTheme, LoadingDialog } from '@kit.ArkUI';
@@ -653,13 +611,7 @@ PhonePC/2in1TabletTVWearable
 
 自定义深浅色模式弹出框，包含content、themeColorMode等内容。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LoadingDialog } from '@kit.ArkUI';
@@ -703,13 +655,7 @@ PhonePC/2in1TabletTVWearable
 
 支持自定义内容弹出框，包含contentBuilder、buttons等内容。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { CustomContentDialog } from '@kit.ArkUI';
@@ -770,13 +716,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 14开始，该示例展示了设置跟手弹出框（警告弹出框为例），包含visible、popover、targetBuilder等内容。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AlertDialog, PopoverDialog, PopoverOptions } from '@kit.ArkUI';
@@ -839,13 +779,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 18开始，该示例展示了设置默认获焦按钮弹出框（以AlertDialog为例），包含defaultFocus等内容。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AlertDialog } from '@kit.ArkUI';

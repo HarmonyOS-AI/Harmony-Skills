@@ -42,13 +42,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t AREngine_ARSemanticDensePointData::id
@@ -62,13 +56,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. float AREngine_ARSemanticDensePointData::x
@@ -82,13 +70,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. float AREngine_ARSemanticDensePointData::y
@@ -102,13 +84,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. float AREngine_ARSemanticDensePointData::z
@@ -122,13 +98,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t AREngine_ARSemanticDensePointData::r
@@ -142,13 +112,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t AREngine_ARSemanticDensePointData::g
@@ -162,13 +126,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t AREngine_ARSemanticDensePointData::b
@@ -182,13 +140,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t AREngine_ARSemanticDensePointData::a
@@ -202,13 +154,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. float AREngine_ARSemanticDensePointData::confidence

@@ -12,13 +12,7 @@ autoFillManager模块为应用提供账号、密码、地址、电话号码等�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { autoFillManager } from '@kit.AbilityKit';
@@ -60,13 +54,7 @@ onFailure(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets, 含有账号、密码框等组件的页面
@@ -141,13 +129,7 @@ requestAutoSave(context: UIContext, callback?: AutoSaveCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -188,13 +170,7 @@ requestAutoSave(context: UIContext, callback?: AutoSaveCallback): void
 36. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets

@@ -12,13 +12,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { relationalStore } from '@kit.ArkData';
@@ -64,13 +58,7 @@ PhonePC/2in1TabletTVWearable
 
 示例代码中this.context定义见Stage模型的应用[Context](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-inner-application-context)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 设置数据库版本
@@ -160,13 +148,7 @@ insert(table: string, values: ValuesBucket, callback: AsyncCallback<number>):voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let value1 = "Lisa";
@@ -259,13 +241,7 @@ insert(table: string, values: ValuesBucket, conflict: ConflictResolution, callba
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let value1 = "Lisa";
@@ -365,13 +341,7 @@ insert(table: string, values: ValuesBucket):Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -471,13 +441,7 @@ insert(table: string, values: ValuesBucket, conflict: ConflictResolution):Promis
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -577,13 +541,7 @@ insertSync(table: string, values: ValuesBucket, conflict?: ConflictResolution):n
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let value1 = "Lisa";
@@ -682,13 +640,7 @@ insertSync(table: string, values: sendableRelationalStore.ValuesBucket, conflict
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableRelationalStore } from '@kit.ArkData';
@@ -770,13 +722,7 @@ batchInsert(table: string, values: Array<ValuesBucket>, callback: AsyncCallback<
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let value1 = "Lisa";
@@ -891,13 +837,7 @@ batchInsert(table: string, values: Array<ValuesBucket>):Promise<number>
 
 关系型数据库：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -950,13 +890,7 @@ batchInsert(table: string, values: Array<ValuesBucket>):Promise<number>
 
 向量数据库：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let createSql = "CREATE TABLE IF NOT EXISTS test (id INTEGER PRIMARY KEY AUTOINCREMENT, data1 floatvector(2));";
@@ -1037,13 +971,7 @@ batchInsertSync(table: string, values: Array<ValuesBucket>):number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let value1 = "Lisa";
@@ -1160,13 +1088,7 @@ batchInsertWithConflictResolution(table: string, values: Array<ValuesBucket>, co
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1280,13 +1202,7 @@ batchInsertWithConflictResolutionSync(table: string, values: Array<ValuesBucket>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let value1 = "Lisa";
@@ -1396,13 +1312,7 @@ conflict参数不建议使用ON\_CONFLICT\_FAIL策略，可能无法返回正确
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function batchInsertWithReturningExample(rdbStore: relationalStore.RdbStore)
@@ -1488,13 +1398,7 @@ conflict参数不建议使用ON\_CONFLICT\_FAIL策略，可能无法返回正确
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function batchInsertWithReturningSyncExample(rdbStore: relationalStore.RdbStore)
@@ -1567,13 +1471,7 @@ update(values: ValuesBucket, predicates: RdbPredicates, callback: AsyncCallback<
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let value1 = "Rose";
@@ -1666,13 +1564,7 @@ update(values: ValuesBucket, predicates: RdbPredicates, conflict: ConflictResolu
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let value1 = "Rose";
@@ -1771,13 +1663,7 @@ update(values: ValuesBucket, predicates: RdbPredicates):Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1877,13 +1763,7 @@ update(values: ValuesBucket, predicates: RdbPredicates, conflict: ConflictResolu
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1983,13 +1863,7 @@ updateSync(values: ValuesBucket, predicates: RdbPredicates, conflict?: ConflictR
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let value1 = "Rose";
@@ -2085,13 +1959,7 @@ conflict参数不建议使用ON\_CONFLICT\_FAIL策略，可能无法返回正确
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function updateWithReturningExample(rdbStore: relationalStore.RdbStore)
@@ -2173,13 +2041,7 @@ conflict参数不建议使用ON\_CONFLICT\_FAIL策略，可能无法返回正确
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function updateWithReturningSyncExample(rdbStore: relationalStore.RdbStore)
@@ -2255,13 +2117,7 @@ delete(predicates: RdbPredicates, callback: AsyncCallback<number>):void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new relationalStore.RdbPredicates("EMPLOYEE");
@@ -2334,13 +2190,7 @@ delete(predicates: RdbPredicates):Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2413,13 +2263,7 @@ deleteSync(predicates: RdbPredicates):number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new relationalStore.RdbPredicates("EMPLOYEE");
@@ -2486,13 +2330,7 @@ deleteWithReturning(predicates: RdbPredicates, config: ReturningConfig): Promise
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function deleteWithReturningExample(rdbStore: relationalStore.RdbStore)
@@ -2567,13 +2405,7 @@ deleteWithReturningSync(predicates: RdbPredicates, config: ReturningConfig): Res
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function deleteWithReturningSyncExample(rdbStore: relationalStore.RdbStore)
@@ -2630,13 +2462,7 @@ query(predicates: RdbPredicates, callback: AsyncCallback<ResultSet>):void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new relationalStore.RdbPredicates("EMPLOYEE");
@@ -2702,13 +2528,7 @@ query(predicates: RdbPredicates, columns: Array<string>, callback: AsyncCallback
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new relationalStore.RdbPredicates("EMPLOYEE");
@@ -2781,13 +2601,7 @@ query(predicates: RdbPredicates, columns?: Array<string>):Promise<ResultSet>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2860,13 +2674,7 @@ querySync(predicates: RdbPredicates, columns?: Array<string>):ResultSet
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new relationalStore.RdbPredicates("EMPLOYEE");
@@ -2936,13 +2744,7 @@ queryWithoutRowCount(predicates: RdbPredicates, columns?: Array<string>): Promis
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function queryWithoutRowCountEmployee(store : relationalStore.RdbStore) {
@@ -3015,13 +2817,7 @@ queryWithoutRowCountSync(predicates: RdbPredicates, columns?: Array<string>): Li
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new relationalStore.RdbPredicates("EMPLOYEE");
@@ -3093,13 +2889,7 @@ querySqlWithoutRowCount(sql: string, bindArgs?: Array<ValueType>): Promise<LiteR
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function querySqlWithoutRowCountEmployee(store : relationalStore.RdbStore) {
@@ -3171,13 +2961,7 @@ querySqlWithoutRowCountSync(sql: string, bindArgs?: Array<ValueType>):LiteResult
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. if (store != undefined) {
@@ -3246,13 +3030,7 @@ remoteQuery(device: string, table: string, predicates: RdbPredicates, columns: A
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { distributedDeviceManager } from '@kit.DistributedServiceKit';
@@ -3351,13 +3129,7 @@ remoteQuery(device: string, table: string, predicates: RdbPredicates, columns: A
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { distributedDeviceManager } from '@kit.DistributedServiceKit';
@@ -3446,13 +3218,7 @@ querySql(sql: string, callback: AsyncCallback<ResultSet>):void
 
 关系型数据库：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. if (store != undefined) {
@@ -3483,13 +3249,7 @@ querySql(sql: string, callback: AsyncCallback<ResultSet>):void
 
 向量数据库：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 相似度的计算符号是<->，余弦距离的计算符号是<=>
@@ -3544,13 +3304,7 @@ querySql(sql: string, bindArgs: Array<ValueType>, callback: AsyncCallback<Result
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. if (store != undefined) {
@@ -3627,13 +3381,7 @@ querySql(sql: string, bindArgs?: Array<ValueType>):Promise<ResultSet>
 
 关系型数据库：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3664,13 +3412,7 @@ querySql(sql: string, bindArgs?: Array<ValueType>):Promise<ResultSet>
 
 向量数据库：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 查询id为1，与[1.5, 2.5]相似度小于0.5，且以相似度进行升序排序的前10条数据
@@ -3721,13 +3463,7 @@ querySqlSync(sql: string, bindArgs?: Array<ValueType>):ResultSet
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. if (store != undefined) {
@@ -3809,13 +3545,7 @@ executeSql(sql: string, callback: AsyncCallback<void>):void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const SQL_DELETE_TABLE = "DELETE FROM test WHERE name = 'zhangsan'";
@@ -3886,13 +3616,7 @@ executeSql(sql: string, bindArgs: Array<ValueType>, callback: AsyncCallback<void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const SQL_DELETE_TABLE = "DELETE FROM test WHERE name = ?";
@@ -3970,13 +3694,7 @@ executeSql(sql: string, bindArgs?: Array<ValueType>):Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4062,13 +3780,7 @@ execute(sql: string, args?: Array<ValueType>):Promise<ValueType>
 
 关系型数据库：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4106,13 +3818,7 @@ execute(sql: string, args?: Array<ValueType>):Promise<ValueType>
 
 向量数据库：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // FLOATVECTOR(2)是维度为2的向量属性，后续操作repr需依照该维度进行。
@@ -4195,13 +3901,7 @@ execute(sql: string, txId: number, args?: Array<ValueType>): Promise<ValueType>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4291,13 +3991,7 @@ executeSync(sql: string, args?: Array<ValueType>): ValueType
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 校验数据库完整性
@@ -4386,13 +4080,7 @@ getModifyTime(table: string, columnName: string, primaryKeys: PRIKeyType[], call
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let PRIKey = [1, 4, 2, 3];
@@ -4466,13 +4154,7 @@ getModifyTime(table: string, columnName: string, primaryKeys: PRIKeyType[]): Pro
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4532,13 +4214,7 @@ beginTransaction():void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let value1 = "Lisa";
@@ -4613,13 +4289,7 @@ beginTrans(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4696,13 +4366,7 @@ createTransaction(options?: TransactionOptions): Promise<Transaction>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4763,13 +4427,7 @@ commit():void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let value1 = "Lisa";
@@ -4848,13 +4506,7 @@ commit(txId : number):Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4920,13 +4572,7 @@ rollBack():void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5014,13 +4660,7 @@ rollback(txId : number):Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5096,13 +4736,7 @@ backup(destName:string, callback: AsyncCallback<void>):void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. if (store != undefined) {
@@ -5174,13 +4808,7 @@ backup(destName:string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5246,13 +4874,7 @@ restore(srcName:string, callback: AsyncCallback<void>):void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. if (store != undefined) {
@@ -5324,13 +4946,7 @@ restore(srcName:string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5381,13 +4997,7 @@ setDistributedTables(tables: Array<string>, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. if (store != undefined) {
@@ -5444,13 +5054,7 @@ setDistributedTables(tables: Array<string>): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5502,13 +5106,7 @@ setDistributedTables(tables: Array<string>, type: DistributedType, callback: Asy
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. if (store != undefined) {
@@ -5561,13 +5159,7 @@ setDistributedTables(tables: Array<string>, type: DistributedType, config: Distr
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. if (store != undefined) {
@@ -5629,13 +5221,7 @@ setDistributedTables(tables: Array<string>, type?: DistributedType, config?: Dis
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5692,13 +5278,7 @@ obtainDistributedTableName(device: string, table: string, callback: AsyncCallbac
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { distributedDeviceManager } from '@kit.DistributedServiceKit';
@@ -5780,13 +5360,7 @@ obtainDistributedTableName(device: string, table: string): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { distributedDeviceManager } from '@kit.DistributedServiceKit';
@@ -5855,13 +5429,7 @@ sync(mode: SyncMode, predicates: RdbPredicates, callback: AsyncCallback<Array<[s
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { distributedDeviceManager } from '@kit.DistributedServiceKit';
@@ -5942,13 +5510,7 @@ sync(mode: SyncMode, predicates: RdbPredicates): Promise<Array<[string, number]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { distributedDeviceManager } from '@kit.DistributedServiceKit';
@@ -6017,13 +5579,7 @@ cloudSync(mode: SyncMode, progress: Callback<ProgressDetails>, callback: AsyncCa
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. if (store != undefined) {
@@ -6080,13 +5636,7 @@ cloudSync(mode: SyncMode, progress: Callback<ProgressDetails>): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6137,13 +5687,7 @@ cloudSync(mode: SyncMode, tables: string[], progress: Callback<ProgressDetails>,
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const tables = ["table1", "table2"];
@@ -6203,13 +5747,7 @@ cloudSync(mode: SyncMode, tables: string[], progress: Callback<ProgressDetails>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6261,13 +5799,7 @@ on(event: 'dataChange', type: SubscribeType, observer: Callback<Array<string>>):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6326,13 +5858,7 @@ on(event: 'dataChange', type: SubscribeType, observer: Callback<Array<string>>| 
 
 **示例1：type为SUBSCRIBE\_TYPE\_REMOTE**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6358,13 +5884,7 @@ on(event: 'dataChange', type: SubscribeType, observer: Callback<Array<string>>| 
 
 **示例2：type为SUBSCRIBE\_TYPE\_LOCAL\_DETAILS**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6444,13 +5964,7 @@ on(event: string, interProcess: boolean, observer: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6503,13 +6017,7 @@ on(event: 'autoSyncProgress', progress: Callback<ProgressDetails>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6563,13 +6071,7 @@ on(event: 'statistics', observer: Callback<SqlExecutionInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6646,13 +6148,7 @@ on(event: 'sqliteErrorOccurred', observer: Callback<ExceptionMessage>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6722,13 +6218,7 @@ on(event: 'perfStat', observer: Callback<SqlExecutionInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6808,13 +6298,7 @@ off(event:'dataChange', type: SubscribeType, observer: Callback<Array<string>>):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6884,13 +6368,7 @@ off(event:'dataChange', type: SubscribeType, observer?: Callback<Array<string>>|
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6960,13 +6438,7 @@ off(event: string, interProcess: boolean, observer?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -7029,13 +6501,7 @@ off(event: 'autoSyncProgress', progress?: Callback<ProgressDetails>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -7097,13 +6563,7 @@ off(event: 'statistics', observer?: Callback<SqlExecutionInfo>): void
 | 14800000 | Inner error. |
 | 14800014 | The target instance is already closed. |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -7151,13 +6611,7 @@ off(event: 'sqliteErrorOccurred', observer?: Callback<ExceptionMessage>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -7203,13 +6657,7 @@ off(event: 'perfStat', observer?: Callback<SqlExecutionInfo>): void
 | 801 | Capability not supported. |
 | 14800014 | The target instance is already closed. |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -7259,13 +6707,7 @@ emit(event: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. if (store != undefined) {
@@ -7324,13 +6766,7 @@ cleanDirtyData(table: string, cursor: number, callback: AsyncCallback<void>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. if (store != undefined) {
@@ -7394,13 +6830,7 @@ cleanDirtyData(table: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. if (store != undefined) {
@@ -7472,13 +6902,7 @@ cleanDirtyData(table: string, cursor?: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -7559,13 +6983,7 @@ attach不能并发调用，否则可能出现未响应情况并报错14800015，
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 非加密数据库附加非加密数据库。
@@ -7650,13 +7068,7 @@ attach不能并发调用，否则可能出现未响应情况并报错14800015，
 
 **示例1：非加密数据库附加非加密数据库**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -7685,13 +7097,7 @@ attach不能并发调用，否则可能出现未响应情况并报错14800015，
 
 **示例2：非加密数据库附加加密数据库**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -7780,13 +7186,7 @@ detach(attachName: string, waitTime?: number) : Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -7863,13 +7263,7 @@ lockRow(predicates: RdbPredicates):Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -7948,13 +7342,7 @@ unlockRow(predicates: RdbPredicates):Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -8027,13 +7415,7 @@ queryLockedRow(predicates: RdbPredicates, columns?: Array<string>):Promise<Resul
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -8095,13 +7477,7 @@ close(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -8174,13 +7550,7 @@ rekey(cryptoParam?: CryptoParam): Promise<void>
 
 示例代码中this.context定义见Stage模型的应用[Context](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-inner-application-context)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -8218,13 +7588,7 @@ rekey(cryptoParam?: CryptoParam): Promise<void>
 33. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -8321,13 +7685,7 @@ setLocale(locale: string) : Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -8410,13 +7768,7 @@ rekeyEx(cryptoParam: CryptoParam): Promise<void>
 
 **示例1：原数据库为默认参数加密数据库，更换密钥和加密参数**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -8463,13 +7815,7 @@ rekeyEx(cryptoParam: CryptoParam): Promise<void>
 
 **示例2：原数据库为自定义参数加密数据库，更换自定义密钥和加密参数**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -8526,13 +7872,7 @@ rekeyEx(cryptoParam: CryptoParam): Promise<void>
 
 **示例3：原数据库为默认参数加密库，更换自定义密钥和加密参数**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -8580,13 +7920,7 @@ rekeyEx(cryptoParam: CryptoParam): Promise<void>
 
 **示例4：原数据库为自定义参数加密数据库，更换数据库生成密钥和自定义加密参数**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -8643,13 +7977,7 @@ rekeyEx(cryptoParam: CryptoParam): Promise<void>
 
 **示例5：原数据库为自定义参数加密数据库，更换为非加密数据库**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -8702,13 +8030,7 @@ rekeyEx(cryptoParam: CryptoParam): Promise<void>
 
 **示例6：原数据库为非加密数据库，更换为自定义参数加密数据库**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';

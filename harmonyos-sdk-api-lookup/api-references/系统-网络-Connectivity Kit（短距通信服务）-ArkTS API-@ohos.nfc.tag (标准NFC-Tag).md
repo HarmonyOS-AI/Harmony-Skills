@@ -14,13 +14,7 @@
 
 PhoneWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -32,13 +26,7 @@ PhoneWearable
 
 在对相关Tag类型卡片进行读写之前，必须先获取[TagInfo](/consumer/cn/doc/harmonyos-references/js-apis-nfctag#taginfo)相关属性值，以确认设备读取到的Tag卡片支持哪些技术类型。这样Tag应用程序才能调用正确的接口和所读取到的Tag卡片进行通信。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -737,13 +725,7 @@ unregisterForegroundDispatch(elementName: [ElementName](https://developer.huawei
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -886,13 +868,7 @@ off(type: 'readerMode', elementName: [ElementName](https://developer.huawei.com/
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -1039,13 +1015,7 @@ off(type: 'readerModeWithInterval', elementName: ElementName, callback?: Callbac
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -1147,13 +1117,7 @@ makeUriRecord(uri: string): NdefRecord
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -1213,13 +1177,7 @@ makeTextRecord(text: string, locale: string): NdefRecord
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -1279,13 +1237,7 @@ makeApplicationRecord(bundleName: string): NdefRecord
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -1345,13 +1297,7 @@ makeMimeRecord(mimeType: string, mimeData: number[]): NdefRecord
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -1413,13 +1359,7 @@ makeExternalRecord(domainName: string, type: string, externalData: number[]): Nd
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -1480,13 +1420,7 @@ messageToBytes(ndefMessage: [NdefMessage](https://developer.huawei.com/consumer/
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -1542,13 +1476,7 @@ createNdefMessage(data: number[]): [NdefMessage](https://developer.huawei.com/co
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';
@@ -1602,13 +1530,7 @@ createNdefMessage(ndefRecords: NdefRecord[]): [NdefMessage](https://developer.hu
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { tag } from '@kit.ConnectivityKit';

@@ -915,13 +915,7 @@ PhonePC/2in1TabletTVWearable
 
 ### 导入对象
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. scroller: Scroller = new Scroller();
@@ -1529,13 +1523,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例展示了Scroll组件部分属性和scroller控制器的使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1639,13 +1627,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例使用onScrollFrameBegin事件实现了内层List组件和外层Scroll组件的嵌套滚动。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LengthMetrics } from '@kit.ArkUI';
@@ -1724,13 +1706,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例使用[nestedScroll](/consumer/cn/doc/harmonyos-references/ts-container-scroll#nestedscroll10)属性实现了内层List组件和外层Scroll组件的嵌套滚动。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -1800,13 +1776,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例使用[enableScrollInteraction](/consumer/cn/doc/harmonyos-references/ts-container-scroll#enablescrollinteraction10)属性和[onScrollFrameBegin](/consumer/cn/doc/harmonyos-references/ts-container-scroll#onscrollframebegin9)事件实现了父组件向子组件传递滚动。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -1903,13 +1873,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例实现了Scroll组件的限位滚动。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -1947,13 +1911,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例展示了如何获得List组件的子组件索引。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2033,13 +1991,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例实现了Scroll组件开启边缘渐隐效果并设置边缘渐隐长度。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2081,13 +2033,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[edgeEffect](/consumer/cn/doc/harmonyos-references/ts-container-scroll#edgeeffect)接口，实现了Scroll组件设置单边边缘效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2125,13 +2071,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[enablePaging](/consumer/cn/doc/harmonyos-references/ts-container-scroll#enablepaging11)接口，实现了Scroll组件滑动翻页效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2167,13 +2107,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[scrollTo](/consumer/cn/doc/harmonyos-references/ts-container-scroll#scrollto)接口，实现了Scroll组件设置过界停留效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2238,13 +2172,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，该示例实现了Scroll组件自由滚动和缩放效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -2282,13 +2210,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 22 开始，该示例实现了获取内容总大小的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2367,13 +2289,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 19开始，新增UIScrollEvent接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, typeNode } from '@kit.ArkUI';

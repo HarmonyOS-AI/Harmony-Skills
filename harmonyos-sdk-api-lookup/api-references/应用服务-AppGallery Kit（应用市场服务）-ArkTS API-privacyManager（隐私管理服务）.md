@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { privacyManager } from '@kit.AppGalleryKit';
@@ -233,13 +227,7 @@ getAppPrivacyMgmtInfo(): AppPrivacyMgmtInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -327,13 +315,7 @@ getAppPrivacyResult(): AppPrivacyResult[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -415,13 +397,7 @@ disableService(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { privacyManager } from '@kit.AppGalleryKit';
@@ -481,13 +457,7 @@ requestAppPrivacyConsent(context:common.UIAbilityContext):Promise<ConsentResult>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { privacyManager } from '@kit.AppGalleryKit';

@@ -18,13 +18,7 @@ TreeSet和[HashSet](https://developer.huawei.com/consumer/cn/doc/harmonyos-refer
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TreeSet } from '@kit.ArkTS';
@@ -90,26 +84,14 @@ comparator的参数说明：
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 默认构造
 2. let treeSet = new TreeSet<string | number | boolean | Object>();
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 使用comparator firstValue < secondValue，表示期望结果为升序排序。反之firstValue > secondValue，表示为降序排序。
@@ -129,13 +111,7 @@ comparator的参数说明：
 15. // value: d
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 当插入自定义类型时，则必须要提供比较函数。
@@ -186,13 +162,7 @@ isEmpty(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let treeSet = new TreeSet<string>();
@@ -240,13 +210,7 @@ has(value: T): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let treeSet  = new TreeSet<number>();
@@ -287,13 +251,7 @@ getFirstValue(): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let treeSet = new TreeSet<string>();
@@ -335,13 +293,7 @@ getLastValue(): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let treeSet = new TreeSet<string>();
@@ -392,13 +344,7 @@ add(value: T): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let treeSet = new TreeSet<string>();
@@ -446,13 +392,7 @@ remove(value: T): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let treeSet = new TreeSet<string>();
@@ -503,13 +443,7 @@ getLowerValue(key: T): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let treeSet = new TreeSet<string>();
@@ -561,13 +495,7 @@ getHigherValue(key: T): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let treeSet = new TreeSet<string>();
@@ -610,13 +538,7 @@ popFirst(): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let treeSet = new TreeSet<string>();
@@ -658,13 +580,7 @@ popLast(): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let treeSet = new TreeSet<string>();
@@ -698,13 +614,7 @@ clear(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let treeSet = new TreeSet<string>();
@@ -747,13 +657,7 @@ values(): IterableIterator<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let treeSet = new TreeSet<string>();
@@ -811,13 +715,7 @@ callbackFn的参数说明：
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let treeSet = new TreeSet<string>();
@@ -830,13 +728,7 @@ callbackFn的参数说明：
 8. // value:sparrow
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 不建议在forEach中使用set、remove方法，会导致死循环等不可预知的风险，可使用for循环来进行插入和删除。
@@ -881,13 +773,7 @@ entries(): IterableIterator<[T, T]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let treeSet = new TreeSet<string>();
@@ -903,13 +789,7 @@ entries(): IterableIterator<[T, T]>
 11. // TreeSet: squirrel
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 不建议在entries中使用set、remove方法，会导致死循环等不可预知的风险，可使用for循环来进行插入和删除。
@@ -954,13 +834,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let treeSet = new TreeSet<string>();
@@ -984,13 +858,7 @@ PhonePC/2in1TabletTVWearable
 19. // value:squirrel
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 不建议在Symbol.iterator中使用set、remove方法，会导致死循环等不可预知的风险，可使用for循环来进行插入和删除。
