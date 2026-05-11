@@ -1,5 +1,0 @@
-* **[公共说明](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-rest-overview)**
-* **[直连商户](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-merc)**
-* **[平台类商户/服务商](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-agent-merc)**
-* **[通用接口](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-api-common)**
-* **[REST API错误码](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-error-code-rest)**

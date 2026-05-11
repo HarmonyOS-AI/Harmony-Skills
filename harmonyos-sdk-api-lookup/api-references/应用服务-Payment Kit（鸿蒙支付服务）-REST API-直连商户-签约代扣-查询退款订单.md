@@ -1,2 +1,0 @@
-* **[通过sysRefundOrderNo查询退款订单信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-withhold-query-sys-refund-order)**
-* **[通过mercRefundOrderNo查询退款订单信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-withhold-query-merc-refund-order)**

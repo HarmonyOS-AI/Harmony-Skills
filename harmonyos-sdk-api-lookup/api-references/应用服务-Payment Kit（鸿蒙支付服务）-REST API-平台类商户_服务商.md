@@ -1,5 +1,0 @@
-* **[基础支付](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-partner-pay)**
-* **[支付并签约](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-partner-pay-and-sign)**
-* **[签约代扣](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-partner-withhold)**
-* **[合单支付（仅支持平台类商户）](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-partner-combined-pay)**
-* **[账单](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-partner-bill)**

@@ -1,2 +1,0 @@
-* **[接收退款申请事件通知](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/iap-server-refund-receive-notify)**
-* **[返回退款审核结果](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/iap-server-refund-return-result)**

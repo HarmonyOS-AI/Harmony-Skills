@@ -1,4 +1,0 @@
-* **[获取应用级凭证](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-api-common-get-app-token)**
-* **[实名信息验证与授权](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-api-common-verifacation)**
-* **[人脸核身实人验证](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-api-common-face-verifactaion)**
-* **[运营工具](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-api-common-promotion-service)**

@@ -1,1 +1,0 @@
-* **[归因结果回传](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/store-rest-receive)**

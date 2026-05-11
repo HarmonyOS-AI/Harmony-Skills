@@ -1,2 +1,0 @@
-* **[通过sysTransOrderNo查询订单信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-withhold-query-sys-order)**
-* **[通过mercOrderNo查询订单信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-withhold-query-merc-order)**

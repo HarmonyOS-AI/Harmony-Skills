@@ -1,2 +1,0 @@
-* **[canvas组件](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-lite-components-canvas-canvas)**
-* **[CanvasRenderingContext2D对象](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-lite-components-canvas-canvasrenderingcontext2d)**
