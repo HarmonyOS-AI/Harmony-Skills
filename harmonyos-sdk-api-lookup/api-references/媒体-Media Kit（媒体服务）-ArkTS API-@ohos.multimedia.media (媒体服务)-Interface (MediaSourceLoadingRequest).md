@@ -9,13 +9,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { media } from '@kit.MediaKit';
@@ -68,13 +62,7 @@ respondData(uuid: number, offset: number, buffer: ArrayBuffer): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { HashMap } from '@kit.ArkTS';
@@ -111,13 +99,7 @@ respondHeader(uuid: number, header?: Record<string, string>, redirectUrl?: strin
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { HashMap } from '@kit.ArkTS';
@@ -161,13 +143,7 @@ finishLoading(uuid: number, state: LoadingRequestError): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { HashMap } from '@kit.ArkTS';

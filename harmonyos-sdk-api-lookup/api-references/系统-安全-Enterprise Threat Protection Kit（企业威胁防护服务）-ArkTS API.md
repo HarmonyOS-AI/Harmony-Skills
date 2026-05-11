@@ -1,2 +1,0 @@
-* **[virusRemediation（文件访问与处置）](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/erprisethreatprotection-virusremediation-interface)**
-* **[ArkTS API 错误码](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/errorcode-enterprise-threat-protection)**

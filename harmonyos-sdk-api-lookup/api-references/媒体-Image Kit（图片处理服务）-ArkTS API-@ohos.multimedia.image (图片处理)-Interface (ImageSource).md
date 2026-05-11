@@ -14,13 +14,7 @@ ImageSource的所有方法均不支持并发调用。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from '@kit.ImageKit';
@@ -63,13 +57,7 @@ getImageInfo(index: number, callback: AsyncCallback<ImageInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -109,13 +97,7 @@ getImageInfo(callback: AsyncCallback<ImageInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -163,13 +145,7 @@ getImageInfo(index?: number): Promise<ImageInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -216,13 +192,7 @@ getImageInfoSync(index?: number): ImageInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function GetImageInfoSync(context : Context) {
@@ -292,13 +262,7 @@ getImageProperty(key:PropertyKey, options?: ImagePropertyOptions): Promise<strin
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -358,13 +322,7 @@ getImageProperties(key: Array<PropertyKey>): Promise<Record<PropertyKey, string|
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -425,13 +383,7 @@ getImagePropertySync(key:PropertyKey): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function GetImagePropertySync(context : Context) {
@@ -497,13 +449,7 @@ modifyImageProperty(key: PropertyKey, value: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -568,13 +514,7 @@ modifyImageProperties(records: Record<PropertyKey, string|null>): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -643,13 +583,7 @@ modifyImagePropertiesEnhanced(records: Record<string, string | null>): Promise<v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from '@kit.ImageKit';
@@ -731,13 +665,7 @@ readImageMetadata(propertyKeys?: string[], index?: number): Promise<ImageMetadat
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -804,13 +732,7 @@ writeImageMetadata(imageMetadata: ImageMetadata): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -880,13 +802,7 @@ readImageMetadataByType(metadataTypes?: MetadataType[], index?: number): Promise
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -937,13 +853,7 @@ createImageRawData(): Promise<ImageRawData>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -997,13 +907,7 @@ updateData(buf: ArrayBuffer, isFinished: boolean, offset: number, length: number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1042,13 +946,7 @@ updateData(buf: ArrayBuffer, isFinished: boolean, offset: number, length: number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1109,13 +1007,7 @@ createPicture(options?: DecodingOptionsForPicture): Promise<Picture>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function CreatePicture(imageSourceObj : image.ImageSource) {
@@ -1177,13 +1069,7 @@ createPictureAtIndex(index: number): Promise<Picture>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function CreatePictures(imageSourceObj : image.ImageSource) {
@@ -1239,13 +1125,7 @@ createPixelMap(options?: DecodingOptions): Promise<PixelMap>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1291,13 +1171,7 @@ createPixelMap(callback: AsyncCallback<PixelMap>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1346,13 +1220,7 @@ createPixelMap(options: DecodingOptions, callback: AsyncCallback<PixelMap>): voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1417,13 +1285,7 @@ createPixelMapSync(options?: DecodingOptions): PixelMap
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function CreatePixelMapSync(context : Context) {
@@ -1509,13 +1371,7 @@ createPixelMapList(options?: DecodingOptions): Promise<Array<PixelMap>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1588,13 +1444,7 @@ createPixelMapList(callback: AsyncCallback<Array<PixelMap>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1662,13 +1512,7 @@ createPixelMapList(options: DecodingOptions, callback: AsyncCallback<Array<Pixel
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1744,13 +1588,7 @@ createPixelMapUsingAllocator(options?: DecodingOptions, allocatorType?: Allocato
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function CreatePixelMapUsingAllocator(context : Context) {
@@ -1830,13 +1668,7 @@ createPixelMapUsingAllocatorSync(options?: DecodingOptions, allocatorType?: Allo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function CreatePixelMapUsingAllocator(context : Context) {
@@ -1899,13 +1731,7 @@ getDelayTimeList(callback: AsyncCallback<Array<number>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1958,13 +1784,7 @@ getDelayTimeList(): Promise<Array<number>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2016,13 +1836,7 @@ getFrameCount(callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2076,13 +1890,7 @@ getFrameCount(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2129,13 +1937,7 @@ getDisposalTypeList(): Promise<Array<number>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2173,13 +1975,7 @@ release(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2219,13 +2015,7 @@ release(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2274,13 +2064,7 @@ getImageProperty(key:string, options?: GetImagePropertyOptions): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2322,13 +2106,7 @@ getImageProperty(key:string, callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2372,13 +2150,7 @@ getImageProperty(key:string, options: GetImagePropertyOptions, callback: AsyncCa
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2431,13 +2203,7 @@ modifyImageProperty(key: string, value: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2484,13 +2250,7 @@ modifyImageProperty(key: string, value: string, callback: AsyncCallback<void>): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

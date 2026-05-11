@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ExceptionPrompt, PromptOptions, MarginType } from '@kit.ArkUI';
@@ -107,13 +101,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例展示了如何设置异常提示的异常图标、异常提示的文字、边距样式和右侧图标按钮的文字内容。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ExceptionPrompt, PromptOptions, MarginType } from '@kit.ArkUI';
@@ -152,13 +140,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例使用自定义弹窗设置弹窗类型的异常提示。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ExceptionPrompt, PromptOptions, MarginType } from '@kit.ArkUI';
@@ -288,13 +270,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 18开始，该示例通过设置PromptOptions的属性symbolStyle，展示了自定义Symbol类型图标。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ExceptionPrompt, MarginType, SymbolGlyphModifier } from '@kit.ArkUI';

@@ -2,13 +2,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { map, mapCommon } from '@kit.MapKit';
@@ -30,13 +24,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let markerOptions: mapCommon.MarkerOptions = {
@@ -74,13 +62,7 @@ getTitle(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let title: string = marker.getTitle();
@@ -112,13 +94,7 @@ getSnippet(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let snippet: string = marker.getSnippet();
@@ -150,13 +126,7 @@ getAlpha(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let alpha: number = marker.getAlpha();
@@ -188,13 +158,7 @@ getPosition(): mapCommon.LatLng
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let position: mapCommon.LatLng = marker.getPosition();
@@ -226,13 +190,7 @@ getRotation(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let rotation: number = marker.getRotation();
@@ -264,13 +222,7 @@ isClickable(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let isClickable: boolean = marker.isClickable();
@@ -302,13 +254,7 @@ isDraggable(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let isDraggable: boolean = marker.isDraggable();
@@ -340,13 +286,7 @@ isFlat(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let isFlat: boolean = marker.isFlat();
@@ -378,13 +318,7 @@ setAlpha(alpha: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. marker.setAlpha(0.5);
@@ -416,13 +350,7 @@ setClickable(clickable: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. marker.setClickable(true);
@@ -454,13 +382,7 @@ setDraggable(draggable: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. marker.setDraggable(true);
@@ -492,13 +414,7 @@ setFlat(flat: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. marker.setFlat(true);
@@ -538,13 +454,7 @@ setIcon(icon: string | image.PixelMap | Resource): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 图标需存放在resources/rawfile目录下
@@ -580,13 +490,7 @@ setMarkerAnchor(anchorU: number, anchorV: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. marker.setMarkerAnchor(1.0, 1.0);
@@ -618,13 +522,7 @@ setPosition(latLng: mapCommon.LatLng): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let position: mapCommon.LatLng = {
@@ -660,13 +558,7 @@ setRotation(rotation: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. marker.setRotation(30);
@@ -698,13 +590,7 @@ setTitle(title: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. marker.setTitle("title");
@@ -736,13 +622,7 @@ setSnippet(snippet: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. marker.setSnippet("su");
@@ -775,13 +655,7 @@ setInfoWindowAnchor(anchorU: number, anchorV: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. marker.setInfoWindowAnchor(0.5, 0.5);
@@ -813,13 +687,7 @@ setInfoWindowVisible(visible: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. marker.setInfoWindowVisible(true);
@@ -851,13 +719,7 @@ isInfoWindowVisible(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let visible: boolean = marker.isInfoWindowVisible();
@@ -889,13 +751,7 @@ setAnimation(animation: Animation): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let animation: map.AlphaAnimation = new map.AlphaAnimation(0.2, 1);
@@ -933,13 +789,7 @@ startAnimation(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let animation: map.AlphaAnimation = new map.AlphaAnimation(0.2, 1);
@@ -978,13 +828,7 @@ clearAnimation(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. marker.clearAnimation();
@@ -1016,13 +860,7 @@ getAltitude(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let altitude: number = marker.getAltitude();
@@ -1054,13 +892,7 @@ setAltitude(altitude: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. marker.setAltitude(500);
@@ -1092,13 +924,7 @@ setAnnotationVisible(visible: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. marker.setAnnotationVisible(true);
@@ -1130,13 +956,7 @@ isAnnotationVisible(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let isVisible = marker.isAnnotationVisible();
@@ -1168,13 +988,7 @@ setPriority(priority: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. marker.setPriority(50);
@@ -1206,13 +1020,7 @@ getPriority(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let priority: number = marker.getPriority();
@@ -1262,13 +1070,7 @@ setIconBuilder(iconBuilder: CustomBuilder): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Builder
@@ -1317,13 +1119,7 @@ setOffset(x: number, y: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. marker.setOffset(20,20);
@@ -1355,13 +1151,7 @@ getOffsetX(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let X: number = marker.getOffsetX();
@@ -1393,13 +1183,7 @@ getOffsetY(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let Y: number = marker.getOffsetY();

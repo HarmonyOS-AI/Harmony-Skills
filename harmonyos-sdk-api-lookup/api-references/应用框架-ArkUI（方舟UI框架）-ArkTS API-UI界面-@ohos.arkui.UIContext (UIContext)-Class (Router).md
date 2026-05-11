@@ -49,13 +49,7 @@ pushUrl(options: router.RouterOptions): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { router } from '@kit.ArkUI';
@@ -113,13 +107,7 @@ pushUrl(options: router.RouterOptions): Promise<void>
 53. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 在second页面中接收传递过来的参数
@@ -207,13 +195,7 @@ pushUrl(options: router.RouterOptions, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -304,13 +286,7 @@ pushUrl(options: router.RouterOptions, mode: router.RouterMode): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { router } from '@kit.ArkUI';
@@ -399,13 +375,7 @@ pushUrl(options: router.RouterOptions, mode: router.RouterMode, callback: AsyncC
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { router } from '@kit.ArkUI';
@@ -501,13 +471,7 @@ replaceUrl(options: router.RouterOptions): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -584,13 +548,7 @@ replaceUrl(options: router.RouterOptions, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -677,13 +635,7 @@ replaceUrl(options: router.RouterOptions, mode: router.RouterMode): Promise<void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { router } from '@kit.ArkUI';
@@ -768,13 +720,7 @@ replaceUrl(options: router.RouterOptions, mode: router.RouterMode, callback: Asy
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { router } from '@kit.ArkUI';
@@ -868,13 +814,7 @@ pushNamedRoute(options: router.NamedRouterOptions): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -955,13 +895,7 @@ pushNamedRoute(options: router.NamedRouterOptions, callback: AsyncCallback<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1052,13 +986,7 @@ pushNamedRoute(options: router.NamedRouterOptions, mode: router.RouterMode): Pro
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { router } from '@kit.ArkUI';
@@ -1146,13 +1074,7 @@ pushNamedRoute(options: router.NamedRouterOptions, mode: router.RouterMode, call
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { router } from '@kit.ArkUI';
@@ -1248,13 +1170,7 @@ replaceNamedRoute(options: router.NamedRouterOptions): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1331,13 +1247,7 @@ replaceNamedRoute(options: router.NamedRouterOptions, callback: AsyncCallback<vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1424,13 +1334,7 @@ replaceNamedRoute(options: router.NamedRouterOptions, mode: router.RouterMode): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { router } from '@kit.ArkUI';
@@ -1515,13 +1419,7 @@ replaceNamedRoute(options: router.NamedRouterOptions, mode: router.RouterMode, c
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { router } from '@kit.ArkUI';
@@ -1596,13 +1494,7 @@ back(options?: router.RouterOptions ): void
 
 完整示例请参考[PushUrl](/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-router#pushurl)中的示例。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Router , UIContext } from '@kit.ArkUI';
@@ -1636,13 +1528,7 @@ back(index: number, params?: Object): void
 
 完整示例请参考[PushUrl](/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-router#pushurl)中的示例。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Router , UIContext } from '@kit.ArkUI';
@@ -1654,13 +1540,7 @@ back(index: number, params?: Object): void
 
 完整示例请参考[PushUrl](/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-router#pushurl)中的示例。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Router , UIContext } from '@kit.ArkUI';
@@ -1685,13 +1565,7 @@ clear(): void
 
 完整示例请参考[PushUrl](/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-router#pushurl)中的示例。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Router , UIContext } from '@kit.ArkUI';
@@ -1729,13 +1603,7 @@ getLength(): string
 
 完整示例请参考[PushUrl](/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-router#pushurl)中的示例。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Router , UIContext } from '@kit.ArkUI';
@@ -1770,13 +1638,7 @@ getStackSize(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -1826,13 +1688,7 @@ getState(): router.RouterState
 
 完整示例请参考[PushUrl](/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-router#pushurl)中的示例。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Router , UIContext } from '@kit.ArkUI';
@@ -1879,13 +1735,7 @@ getStateByIndex(index: number): router.RouterState | undefined
 
 完整示例请参考[PushUrl](/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-router#pushurl)中的示例。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Router , UIContext } from '@kit.ArkUI';
@@ -1933,13 +1783,7 @@ getStateByUrl(url: string): Array<router.[RouterState](https://developer.huawei.
 
 完整示例请参考[PushUrl](/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-router#pushurl)中的示例。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Router , UIContext } from '@kit.ArkUI';
@@ -1989,13 +1833,7 @@ showAlertBeforeBackPage(options: router.EnableAlertOptions): void
 
 完整示例请参考[PushUrl](/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-router#pushurl)中的示例。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Router , UIContext } from '@kit.ArkUI';
@@ -2030,13 +1868,7 @@ hideAlertBeforeBackPage(): void
 
 完整示例请参考[PushUrl](/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-router#pushurl)中的示例。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Router , UIContext } from '@kit.ArkUI';
@@ -2070,13 +1902,7 @@ getParams(): Object
 
 完整示例请参考[PushUrl](/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-router#pushurl)中的示例。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Router , UIContext } from '@kit.ArkUI';

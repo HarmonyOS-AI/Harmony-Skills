@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -53,13 +47,7 @@ isWifiActive(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -99,13 +87,7 @@ enableWifi(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -144,13 +126,7 @@ disableWifi(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -192,13 +168,7 @@ scan(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -240,13 +210,7 @@ startScan(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -336,13 +300,7 @@ getScanResults(callback: AsyncCallback<Array<WifiScanInfo>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -425,13 +383,7 @@ getScanResultsSync(): Array<[WifiScanInfo](/consumer/cn/doc/harmonyos-references
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -495,13 +447,7 @@ getScanInfoList(): Array<WifiScanInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -879,13 +825,7 @@ addCandidateConfig(config: WifiDeviceConfig): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -947,13 +887,7 @@ addCandidateConfig(config: WifiDeviceConfig, callback: AsyncCallback<number>): v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -1021,13 +955,7 @@ removeCandidateConfig(networkId: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -1086,13 +1014,7 @@ removeCandidateConfig(networkId: number, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -1146,13 +1068,7 @@ removeDevice(id: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -1207,13 +1123,7 @@ API 10起：ohos.permission.GET\_WIFI\_INFO
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -1272,13 +1182,7 @@ connectToCandidateConfig(networkId: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -1347,13 +1251,7 @@ connectToCandidateConfigWithUserAction(networkId: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -1414,13 +1312,7 @@ addDeviceConfig(config: WifiDeviceConfig): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -1478,13 +1370,7 @@ addDeviceConfig(config: WifiDeviceConfig, callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -1537,13 +1423,7 @@ getDeviceConfigs(): Array<WifiDeviceConfig>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -1592,13 +1472,7 @@ connectToNetwork(networkId: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -1655,13 +1529,7 @@ getSignalLevel(rssi: number, band: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -1754,13 +1622,7 @@ getLinkedInfo(callback: AsyncCallback<WifiLinkedInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -1812,13 +1674,7 @@ getLinkedInfoSync(): WifiLinkedInfo;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -1938,13 +1794,7 @@ isConnected(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -1986,13 +1836,7 @@ ohos.permission.MANAGE\_ENTERPRISE\_WIFI\_CONNECTION 仅企业应用可用)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -2064,13 +1908,7 @@ isFeatureSupported(featureId: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -2121,13 +1959,7 @@ API8-15 ohos.permission.GET\_WIFI\_LOCAL\_MAC权限仅向系统应用开放，�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -2174,13 +2006,7 @@ getIpInfo(): IpInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -2247,13 +2073,7 @@ getIpv6Info(): Ipv6Info
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -2322,13 +2142,7 @@ getCountryCode(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -2383,13 +2197,7 @@ isBandTypeSupported(bandType: WifiBandType): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -2438,13 +2246,7 @@ isMeteredHotspot(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -2491,13 +2293,7 @@ isHotspotActive(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -2581,13 +2377,7 @@ getP2pLinkedInfo(callback: AsyncCallback<WifiP2pLinkedInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -2706,13 +2496,7 @@ API 10起：ohos.permission.GET\_WIFI\_INFO
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -2801,13 +2585,7 @@ API 10起：ohos.permission.GET\_WIFI\_INFO
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -2931,13 +2709,7 @@ API 11起：ohos.permission.GET\_WIFI\_INFO
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -2991,13 +2763,7 @@ createGroup(config: WifiP2PConfig): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -3080,13 +2846,7 @@ removeGroup(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -3136,13 +2896,7 @@ API 10起：ohos.permission.GET\_WIFI\_INFO
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -3237,13 +2991,7 @@ p2pCancelConnect(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -3284,13 +3032,7 @@ API 10起：ohos.permission.GET\_WIFI\_INFO
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -3329,13 +3071,7 @@ stopDiscoverDevices(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -3387,13 +3123,7 @@ getMultiLinkedInfo(): Array<WifiLinkedInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -3513,13 +3243,7 @@ off(type: 'wifiStateChange', callback?: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -3618,13 +3342,7 @@ off(type: 'wifiConnectionChange', callback?: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -3723,13 +3441,7 @@ off(type: 'wifiScanStateChange', callback?: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -3815,13 +3527,7 @@ off(type: 'wifiRssiChange', callback?: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -3918,13 +3624,7 @@ off(type: 'hotspotStateChange', callback?: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -4022,13 +3722,7 @@ off(type: 'p2pStateChange', callback?: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -4114,13 +3808,7 @@ off(type: 'p2pConnectionChange', callback?: Callback<WifiP2pLinkedInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -4206,13 +3894,7 @@ off(type: 'p2pDeviceChange', callback?: Callback<WifiP2pDevice>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -4298,13 +3980,7 @@ off(type: 'p2pPeerDeviceChange', callback?: Callback<WifiP2pDevice[]>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -4390,13 +4066,7 @@ off(type: 'p2pPersistentGroupChange', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';
@@ -4491,13 +4161,7 @@ off(type: 'p2pDiscoveryChange', callback?: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.ConnectivityKit';

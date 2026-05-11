@@ -14,13 +14,7 @@ EmbeddedUIExtensionAbility为开发者提供了跨进程界面嵌入的能力，
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { EmbeddedUIExtensionAbility } from '@kit.AbilityKit';

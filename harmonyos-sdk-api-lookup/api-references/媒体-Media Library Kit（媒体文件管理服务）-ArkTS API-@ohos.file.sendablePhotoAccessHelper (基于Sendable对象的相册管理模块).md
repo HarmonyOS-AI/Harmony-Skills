@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendablePhotoAccessHelper } from '@kit.MediaLibraryKit';
@@ -62,13 +56,7 @@ getPhotoAccessHelper(context: Context): PhotoAccessHelper
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 此处获取的phAccessHelper实例为全局对象，后续使用到phAccessHelper的地方默认为使用此处获取的对象，如未添加此段代码报phAccessHelper未定义的错误请自行添加。
@@ -140,13 +128,7 @@ getAssets(options: photoAccessHelper.FetchOptions): Promise<FetchResult<PhotoAss
 
 phAccessHelper的创建请参考[sendablePhotoAccessHelper.getPhotoAccessHelper](/consumer/cn/doc/harmonyos-references/js-apis-sendablephotoaccesshelper#sendablephotoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -219,13 +201,7 @@ getBurstAssets(burstKey: string, options: photoAccessHelper.FetchOptions): Promi
 
 phAccessHelper的创建请参考[sendablePhotoAccessHelper.getPhotoAccessHelper](/consumer/cn/doc/harmonyos-references/js-apis-sendablephotoaccesshelper#sendablephotoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { photoAccessHelper } from '@kit.MediaLibraryKit';
@@ -312,13 +288,7 @@ createAsset(photoType: PhotoType, extension: string, options?: photoAccessHelper
 
 phAccessHelper的创建请参考[sendablePhotoAccessHelper.getPhotoAccessHelper](/consumer/cn/doc/harmonyos-references/js-apis-sendablephotoaccesshelper#sendablephotoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { photoAccessHelper } from '@kit.MediaLibraryKit';
@@ -388,13 +358,7 @@ getAlbums(type: AlbumType, subtype: AlbumSubtype, options?: photoAccessHelper.Fe
 
 phAccessHelper的创建请参考[sendablePhotoAccessHelper.getPhotoAccessHelper](/consumer/cn/doc/harmonyos-references/js-apis-sendablephotoaccesshelper#sendablephotoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -470,13 +434,7 @@ getAlbums(options: photoAccessHelper.FetchOptions): Promise<FetchResult<Album>>
 
 phAccessHelper的创建请参考[sendablePhotoAccessHelper.getPhotoAccessHelper](/consumer/cn/doc/harmonyos-references/js-apis-sendablephotoaccesshelper#sendablephotoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -538,13 +496,7 @@ release(): Promise<void>
 
 phAccessHelper的创建请参考[sendablePhotoAccessHelper.getPhotoAccessHelper](/consumer/cn/doc/harmonyos-references/js-apis-sendablephotoaccesshelper#sendablephotoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function example(phAccessHelper: sendablePhotoAccessHelper.PhotoAccessHelper) {
@@ -617,13 +569,7 @@ convertToPhotoAsset(): photoAccessHelper.PhotoAsset
 
 phAccessHelper的创建请参考[sendablePhotoAccessHelper.getPhotoAccessHelper](/consumer/cn/doc/harmonyos-references/js-apis-sendablephotoaccesshelper#sendablephotoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -687,13 +633,7 @@ get(member: string): photoAccessHelper.MemberType
 
 phAccessHelper的创建请参考[sendablePhotoAccessHelper.getPhotoAccessHelper](/consumer/cn/doc/harmonyos-references/js-apis-sendablephotoaccesshelper#sendablephotoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -755,13 +695,7 @@ set(member: string, value: string): void
 
 phAccessHelper的创建请参考[sendablePhotoAccessHelper.getPhotoAccessHelper](/consumer/cn/doc/harmonyos-references/js-apis-sendablephotoaccesshelper#sendablephotoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -823,13 +757,7 @@ commitModify(): Promise<void>
 
 phAccessHelper的创建请参考[sendablePhotoAccessHelper.getPhotoAccessHelper](/consumer/cn/doc/harmonyos-references/js-apis-sendablephotoaccesshelper#sendablephotoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -902,13 +830,7 @@ getThumbnail(size?: image.Size): Promise<image.PixelMap>
 
 phAccessHelper的创建请参考[sendablePhotoAccessHelper.getPhotoAccessHelper](/consumer/cn/doc/harmonyos-references/js-apis-sendablephotoaccesshelper#sendablephotoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -977,13 +899,7 @@ getCount(): number
 
 phAccessHelper的创建请参考[sendablePhotoAccessHelper.getPhotoAccessHelper](/consumer/cn/doc/harmonyos-references/js-apis-sendablephotoaccesshelper#sendablephotoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -1034,13 +950,7 @@ isAfterLast(): boolean
 
 phAccessHelper的创建请参考[sendablePhotoAccessHelper.getPhotoAccessHelper](/consumer/cn/doc/harmonyos-references/js-apis-sendablephotoaccesshelper#sendablephotoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -1088,13 +998,7 @@ close(): void
 
 phAccessHelper的创建请参考[sendablePhotoAccessHelper.getPhotoAccessHelper](/consumer/cn/doc/harmonyos-references/js-apis-sendablephotoaccesshelper#sendablephotoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -1149,13 +1053,7 @@ getFirstObject(): Promise<T>
 
 phAccessHelper的创建请参考[sendablePhotoAccessHelper.getPhotoAccessHelper](/consumer/cn/doc/harmonyos-references/js-apis-sendablephotoaccesshelper#sendablephotoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -1208,13 +1106,7 @@ getNextObject(): Promise<T>
 
 phAccessHelper的创建请参考[sendablePhotoAccessHelper.getPhotoAccessHelper](/consumer/cn/doc/harmonyos-references/js-apis-sendablephotoaccesshelper#sendablephotoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -1266,13 +1158,7 @@ getLastObject(): Promise<T>
 
 phAccessHelper的创建请参考[sendablePhotoAccessHelper.getPhotoAccessHelper](/consumer/cn/doc/harmonyos-references/js-apis-sendablephotoaccesshelper#sendablephotoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -1332,13 +1218,7 @@ getObjectByPosition(index: number): Promise<T>
 
 phAccessHelper的创建请参考[sendablePhotoAccessHelper.getPhotoAccessHelper](/consumer/cn/doc/harmonyos-references/js-apis-sendablephotoaccesshelper#sendablephotoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -1389,13 +1269,7 @@ getAllObjects(): Promise<Array<T>>
 
 phAccessHelper的创建请参考[sendablePhotoAccessHelper.getPhotoAccessHelper](/consumer/cn/doc/harmonyos-references/js-apis-sendablephotoaccesshelper#sendablephotoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -1472,13 +1346,7 @@ convertToPhotoAlbum(): photoAccessHelper.Album
 
 phAccessHelper的创建请参考[sendablePhotoAccessHelper.getPhotoAccessHelper](/consumer/cn/doc/harmonyos-references/js-apis-sendablephotoaccesshelper#sendablephotoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -1551,13 +1419,7 @@ getAssets(options: photoAccessHelper.FetchOptions): Promise<FetchResult<PhotoAss
 
 phAccessHelper的创建请参考[sendablePhotoAccessHelper.getPhotoAccessHelper](/consumer/cn/doc/harmonyos-references/js-apis-sendablephotoaccesshelper#sendablephotoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -1620,13 +1482,7 @@ commitModify(): Promise<void>
 
 phAccessHelper的创建请参考[sendablePhotoAccessHelper.getPhotoAccessHelper](/consumer/cn/doc/harmonyos-references/js-apis-sendablephotoaccesshelper#sendablephotoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';

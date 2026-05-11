@@ -8,13 +8,7 @@
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -736,13 +730,7 @@ deserialize(buffer: ArrayBuffer): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -786,13 +774,7 @@ serialize(): Promise<ArrayBuffer>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -849,13 +831,7 @@ addImage(name: string, pixelMap: image.PixelMap, widthInMeters: number): Promise
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from '@kit.ImageKit';
@@ -906,13 +882,7 @@ getImageCount(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -955,13 +925,7 @@ getCapacity(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -1004,13 +968,7 @@ getImageAddMode(): ARAddAugmentedImageMode
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -1053,13 +1011,7 @@ setImageAddMode(mode: ARAddAugmentedImageMode): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -1102,13 +1054,7 @@ release(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -1293,13 +1239,7 @@ getFrame(): ARFrame
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine, arViewController } from '@kit.AREngine';
@@ -1372,13 +1312,7 @@ createAnchor(pose: ARPose): ARAnchor
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Quaternion, Vec3 } from '@kit.ArkGraphics3D';
@@ -1437,13 +1371,7 @@ detachAnchor(anchor: ARAnchor): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -1491,13 +1419,7 @@ getAllAnchors(): Array<ARAnchor>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // arSession创建参考ARSession.getFrame接口示例代码
@@ -1550,13 +1472,7 @@ getAllTrackables(type: ARTrackableType): Array<ARTrackable>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // arSession创建参考ARSession.getFrame接口示例代码
@@ -1599,13 +1515,7 @@ openFlash(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // arSession创建参考ARSession.getFrame接口示例代码
@@ -1648,13 +1558,7 @@ closeFlash(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // arSession创建参考ARSession.getFrame接口示例代码
@@ -1697,13 +1601,7 @@ release(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // arSession创建参考ARSession.getFrame接口示例代码
@@ -1815,13 +1713,7 @@ getPose(): ARPose
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -1863,13 +1755,7 @@ detach(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -1915,13 +1801,7 @@ release(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -2012,13 +1892,7 @@ getData(): ArrayBuffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -2066,13 +1940,7 @@ getTypes(): Array<ARBlendShapeType>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -2120,13 +1988,7 @@ release(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -2194,13 +2056,7 @@ getVertices2D(): ArrayBuffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -2248,13 +2104,7 @@ getVertices3D(): ArrayBuffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -2302,13 +2152,7 @@ release(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -2384,13 +2228,7 @@ getPose(): ARPose
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -2441,13 +2279,7 @@ getDisplayOrientedPose(): ARPose
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -2504,13 +2336,7 @@ getProjectionMatrix(near: number, far: number): Matrix4
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -2559,13 +2385,7 @@ getImageIntrinsics(): ARCameraIntrinsics
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -2626,13 +2446,7 @@ getGeometry(): ARGeometry
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -2679,13 +2493,7 @@ getBlendShapes(): ARBlendShapes
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -2732,13 +2540,7 @@ getLandmark(): ARLandmark
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -2799,13 +2601,7 @@ getFace(): ARFace
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine, arViewController } from '@kit.AREngine';
@@ -2896,13 +2692,7 @@ getLandmarks2D(): Array<ARBodyLandmark2D>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -2972,13 +2762,7 @@ getCamera(): ARCamera
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -3033,13 +2817,7 @@ getUpdatedTrackables(type: ARTrackableType): Array<ARTrackable>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -3096,13 +2874,7 @@ hitTest(x: number, y: number): Array<ARHitResult>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -3149,13 +2921,7 @@ acquireSceneMesh(): ARSceneMesh
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -3203,13 +2969,7 @@ acquireDepthImage16Bits(): ARImage
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -3257,13 +3017,7 @@ acquireDepthConfidenceImage(): ARImage
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -3309,13 +3063,7 @@ acquireSemanticDense(): ARSemanticDenseData
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -3361,13 +3109,7 @@ acquireBodySkeleton(): Array<ARBody>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -3413,13 +3155,7 @@ release(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -3489,13 +3225,7 @@ getVertices(): ArrayBuffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -3543,13 +3273,7 @@ getTexCoord(): ArrayBuffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -3597,13 +3321,7 @@ getIndices(): ArrayBuffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -3651,13 +3369,7 @@ getTriangleLabels(): ArrayBuffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -3705,13 +3417,7 @@ release(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -3787,13 +3493,7 @@ getHitPose(): ARPose
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -3840,13 +3540,7 @@ getTrackable(): ARTrackable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -3893,13 +3587,7 @@ createAnchor(): ARAnchor
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -3946,13 +3634,7 @@ release(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -4023,13 +3705,7 @@ release(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -4101,13 +3777,7 @@ getPolygonXZ(): ArrayBuffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -4154,13 +3824,7 @@ getSubsumedBy(): ARPlane
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -4216,13 +3880,7 @@ isPoseInExtents(pose: ARPose): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -4279,13 +3937,7 @@ isPoseInPolygon(pose: ARPose): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -4349,13 +4001,7 @@ getPlane(): ARPlane
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine, ARView, arViewController } from '@kit.AREngine';
@@ -4449,13 +4095,7 @@ getMatrix(): Matrix4
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -4503,13 +4143,7 @@ release(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -4578,13 +4212,7 @@ getVertices(): ArrayBuffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -4631,13 +4259,7 @@ getVertexNormals(): ArrayBuffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -4684,13 +4306,7 @@ getTriangleIndices(): ArrayBuffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -4737,13 +4353,7 @@ release(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -4812,13 +4422,7 @@ acquirePointData(): ARSemanticDensePointData
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -4865,13 +4469,7 @@ acquireCubeData(): Array<ARSemanticDenseCubeData>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -4918,13 +4516,7 @@ release(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -4992,13 +4584,7 @@ getPose(): ARPose
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -5044,13 +4630,7 @@ getAnchors(): Array<ARAnchor>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -5105,13 +4685,7 @@ createAnchor(pose: ARPose): ARAnchor
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -5158,13 +4732,7 @@ release(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -5208,13 +4776,7 @@ createARAugmentedImageDatabase(): Promise<ARAugmentedImageDatabase>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine } from '@kit.AREngine';
@@ -5266,13 +4828,7 @@ createARPose(rotation: Quaternion, translation: Vec3): ARPose
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Quaternion, Vec3 } from '@kit.ArkGraphics3D';

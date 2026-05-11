@@ -6,13 +6,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { trustedAppService } from '@kit.DeviceSecurityKit';
@@ -67,13 +61,7 @@ createAttestKey(options: AttestOptions): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { trustedAppService } from '@kit.DeviceSecurityKit';
@@ -261,13 +249,7 @@ destroyAttestKey(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { trustedAppService } from '@kit.DeviceSecurityKit';
@@ -374,13 +356,7 @@ PhonePC/2in1Tablet
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { trustedAppService } from '@kit.DeviceSecurityKit';
@@ -500,13 +476,7 @@ finalizeAttestContext(options: AttestOptions): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { trustedAppService } from '@kit.DeviceSecurityKit';
@@ -646,13 +616,7 @@ PhoneTablet
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { trustedAppService } from '@kit.DeviceSecurityKit';
@@ -844,13 +808,7 @@ PhonePC/2in1Tablet
 
 **安全图像压缩示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { trustedAppService } from '@kit.DeviceSecurityKit';
@@ -894,13 +852,7 @@ PhonePC/2in1Tablet
 
 **安全图像裁剪示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { trustedAppService } from '@kit.DeviceSecurityKit';
@@ -944,13 +896,7 @@ PhonePC/2in1Tablet
 
 **安全图像压缩并裁剪示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { trustedAppService } from '@kit.DeviceSecurityKit';

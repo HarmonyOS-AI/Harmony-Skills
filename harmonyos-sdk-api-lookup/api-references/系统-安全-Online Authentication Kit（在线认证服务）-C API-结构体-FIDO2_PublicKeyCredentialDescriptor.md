@@ -22,13 +22,7 @@
 
 ### id
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Uint8Buff FIDO2_PublicKeyCredentialDescriptor::id
@@ -40,13 +34,7 @@
 
 ### transports
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FIDO2_AuthenticatorTransportArray FIDO2_PublicKeyCredentialDescriptor::transports
@@ -58,13 +46,7 @@
 
 ### type
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FIDO2_PublicKeyCredentialType FIDO2_PublicKeyCredentialDescriptor::type

@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SelectionMenu, EditorMenuOptions, ExpandedMenuOptions, EditorEventInfo, SelectionMenuOptions } from '@kit.ArkUI';
@@ -151,13 +145,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例展示了文本绑定不同触发方式的自定义文本选择菜单的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {
@@ -492,13 +480,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 11开始，该示例通过设置[EditorMenuOptions](/consumer/cn/doc/harmonyos-references/ohos-arkui-advanced-selectionmenu#editormenuoptions)的属性symbolStyle，展示了自定义Symbol类型图标。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {

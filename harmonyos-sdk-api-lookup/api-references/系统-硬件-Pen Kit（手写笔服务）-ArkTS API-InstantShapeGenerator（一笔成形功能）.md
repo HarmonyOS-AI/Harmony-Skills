@@ -10,13 +10,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { InstantShapeGenerator, ShapeInfo } from '@kit.Penkit';
@@ -67,13 +61,7 @@ PhonePC/2in1Tablet
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. private shapeInfo : ShapeInfo = {
@@ -117,13 +105,7 @@ processTouchEvent(event: TouchEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. instantShapeGenerator: InstantShapeGenerator = new InstantShapeGenerator();
@@ -182,13 +164,7 @@ getPathFromString(shapeString: string, penSize: number): Path2D
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 通过回调方法获取识别结果
@@ -232,13 +208,7 @@ notifyAreaChange(width: number, height: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 画布
@@ -286,13 +256,7 @@ setPauseTime(time: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. aboutToAppear() {
@@ -317,13 +281,7 @@ release(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. aboutToDisappear(){
@@ -364,13 +322,7 @@ onShapeRecognized(callback: Callback<ShapeInfo>): InstantShapeGenerator
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 通过回调方法获取识别结果

@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib } from '@kit.BasicServicesKit';
@@ -54,13 +48,7 @@ zipFile(inFile: string, outFile: string, options: Options): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 代码中使用的路径需为应用的沙箱路径，如/data/storage/el2/base/temp,也可以通过context获取。
@@ -117,13 +105,7 @@ unzipFile(inFile:string, outFile:string, options: Options): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 代码中使用的路径需为应用的沙箱路径，如/data/storage/el2/base/temp,也可以通过context获取。
@@ -185,13 +167,7 @@ compressFile(inFile: string, outFile: string, options: Options, callback: AsyncC
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 代码中使用的路径需为应用的沙箱路径，如/data/storage/el2/base/temp,也可以通过context获取。
@@ -268,13 +244,7 @@ compressFile(inFile: string, outFile: string, options: Options): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 代码中使用的路径需为应用的沙箱路径，如/data/storage/el2/base/temp,也可以通过context获取。
@@ -345,13 +315,7 @@ decompressFile(inFile: string, outFile: string, options: Options, callback: Asyn
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 代码中使用的路径需为应用的沙箱路径，如/data/storage/el2/base/temp,也可以通过context获取。
@@ -430,13 +394,7 @@ decompressFile(inFile: string, outFile: string, options?: Options): Promise<void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 代码中使用的路径需为应用的沙箱路径，如/data/storage/el2/base/temp,也可以通过context获取。
@@ -504,13 +462,7 @@ decompressFile(inFile: string, outFile: string, callback: AsyncCallback<void>): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 代码中使用的路径需为应用的沙箱路径，如/data/storage/el2/base/temp,也可以通过context获取。
@@ -576,13 +528,7 @@ getOriginalSize(compressedFile: string): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 代码中使用的路径需为应用的沙箱路径，如/data/storage/el2/base/temp，也可以通过context获取。
@@ -647,13 +593,7 @@ compressFiles(inFiles: Array<string>, outFile: string, options: Options): Promis
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 代码中使用的路径需为应用的沙箱路径，如/data/storage/el2/base/temp，也可以通过context获取。
@@ -703,13 +643,7 @@ createChecksum(): Promise<Checksum>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib } from '@kit.BasicServicesKit';
@@ -741,13 +675,7 @@ createChecksumSync(): Checksum
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib } from '@kit.BasicServicesKit';
@@ -802,13 +730,7 @@ adler32(adler: number, buf: ArrayBuffer): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib } from '@kit.BasicServicesKit';
@@ -870,13 +792,7 @@ adler32Combine(adler1: number, adler2: number, len2: number): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -948,13 +864,7 @@ crc32(crc: number, buf: ArrayBuffer): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -1018,13 +928,7 @@ crc32Combine(crc1: number, crc2: number, len2: number): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -1096,13 +1000,7 @@ crc64(crc: number, buf: ArrayBuffer): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -1146,13 +1044,7 @@ getCrcTable(): Promise<Array<number>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -1188,13 +1080,7 @@ getCrc64Table(): Promise<Array<number>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -1230,13 +1116,7 @@ createZip(): Promise<Zip>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -1270,13 +1150,7 @@ createZipSync(): Zip
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib } from '@kit.BasicServicesKit';
@@ -1312,13 +1186,7 @@ getZStream(): Promise<ZStream>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib } from '@kit.BasicServicesKit';
@@ -1352,13 +1220,7 @@ zlibVersion(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib } from '@kit.BasicServicesKit';
@@ -1392,13 +1254,7 @@ zlibCompileFlags(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib } from '@kit.BasicServicesKit';
@@ -1453,13 +1309,7 @@ compress(dest: ArrayBuffer, source: ArrayBuffer, sourceLen?: number): Promise<Zi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -1525,13 +1375,7 @@ compress2(dest: ArrayBuffer, source: ArrayBuffer, level: CompressLevel, sourceLe
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -1596,13 +1440,7 @@ uncompress(dest:ArrayBuffer, source: ArrayBuffer, sourceLen?: number): Promise<Z
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -1673,13 +1511,7 @@ uncompress2(dest: ArrayBuffer, source: ArrayBuffer, sourceLen?: number): Promise
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -1746,13 +1578,7 @@ compressBound(sourceLen: number): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -1816,13 +1642,7 @@ inflateValidate(strm: ZStream, check: number): Promise<ReturnStatus>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -1891,13 +1711,7 @@ inflateSyncPoint(strm: ZStream): Promise<ReturnStatus>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -1968,13 +1782,7 @@ inflateSync(strm: ZStream): Promise<ReturnStatus>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -2074,13 +1882,7 @@ inflateResetKeep(strm: ZStream): Promise<ReturnStatus>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -2151,13 +1953,7 @@ inflateSetDictionary(strm: ZStream, dictionary: ArrayBuffer): Promise<ReturnStat
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -2264,13 +2060,7 @@ inflateReset2(strm: ZStream, windowBits: number): Promise<ReturnStatus>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -2339,13 +2129,7 @@ inflateReset(strm: ZStream): Promise<ReturnStatus>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -2416,13 +2200,7 @@ inflatePrime(strm: ZStream, bits: number, value: number): Promise<ReturnStatus>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -2490,13 +2268,7 @@ inflateMark(strm: ZStream): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -2566,13 +2338,7 @@ inflateInit2(strm: ZStream, windowBits: number): Promise<ReturnStatus>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -2636,13 +2402,7 @@ inflateInit(strm: ZStream): Promise<ReturnStatus>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -2708,13 +2468,7 @@ inflateGetHeader(strm: ZStream, header: GzHeader): Promise<ReturnStatus>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -2784,13 +2538,7 @@ inflateGetDictionary(strm: ZStream, dictionary: ArrayBuffer): Promise<Dictionary
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -2859,13 +2607,7 @@ inflateEnd(strm: ZStream): Promise<ReturnStatus>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -2939,13 +2681,7 @@ inflateCopy(source: Zip): Promise<ReturnStatus>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -3014,13 +2750,7 @@ inflateCodesUsed(strm: ZStream): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -3181,13 +2911,7 @@ inflateBack(strm: ZStream, backIn: InflateBackInputCallback, inDesc: object, bac
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -3425,13 +3149,7 @@ inflate(strm: ZStream, flush: CompressFlushMode): Promise<ReturnStatus>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -3527,13 +3245,7 @@ deflateInit(strm: ZStream, level: CompressLevel): Promise<ReturnStatus>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -3607,13 +3319,7 @@ deflateInit2(strm: ZStream, level: CompressLevel, method: CompressMethod, window
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -3685,13 +3391,7 @@ deflate(strm: ZStream, flush: CompressFlushMode): Promise<ReturnStatus>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -3765,13 +3465,7 @@ deflateEnd(strm: ZStream): Promise<ReturnStatus>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -3850,13 +3544,7 @@ deflateBound(strm: ZStream, sourceLength: number): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -3931,13 +3619,7 @@ deflateSetHeader(strm: ZStream, head: GzHeader): Promise<ReturnStatus>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -4012,13 +3694,7 @@ deflateCopy(source: Zip): Promise<ReturnStatus>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -4093,13 +3769,7 @@ deflateSetDictionary(strm: ZStream, dictionary: ArrayBuffer): Promise<ReturnStat
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -4174,13 +3844,7 @@ deflateGetDictionary(strm: ZStream, dictionary: ArrayBuffer): Promise<Dictionary
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -4263,13 +3927,7 @@ deflateTune(strm: ZStream, goodLength: number, maxLazy: number, niceLength: numb
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -4343,13 +4001,7 @@ deflateReset(strm: ZStream): Promise<ReturnStatus>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -4423,13 +4075,7 @@ deflateResetKeep(strm: ZStream): Promise<ReturnStatus>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -4503,13 +4149,7 @@ deflatePending(strm: ZStream): Promise<DeflatePendingOutputInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -4585,13 +4225,7 @@ deflateParams(strm: ZStream, level: CompressLevel, strategy: CompressStrategy): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -4667,13 +4301,7 @@ deflatePrime(strm: ZStream, bits: number, value: number): Promise<ReturnStatus>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib, BusinessError } from '@kit.BasicServicesKit';
@@ -5005,13 +4633,7 @@ createGZip(): Promise<GZip>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib } from '@kit.BasicServicesKit';
@@ -5043,13 +4665,7 @@ createGZipSync(): GZip
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib } from '@kit.BasicServicesKit';
@@ -5105,13 +4721,7 @@ gzdopen(fd: number, mode: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib } from '@kit.BasicServicesKit';
@@ -5191,13 +4801,7 @@ gzbuffer(size: number):Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileIo as fs } from '@kit.CoreFileKit';
@@ -5280,13 +4884,7 @@ gzopen(path: string, mode: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib } from '@kit.BasicServicesKit';
@@ -5346,13 +4944,7 @@ gzeof(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib } from '@kit.BasicServicesKit';
@@ -5423,13 +5015,7 @@ gzdirect(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib } from '@kit.BasicServicesKit';
@@ -5501,13 +5087,7 @@ gzclose(): Promise<ReturnStatus>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib } from '@kit.BasicServicesKit';
@@ -5567,13 +5147,7 @@ gzclearerr(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib } from '@kit.BasicServicesKit';
@@ -5656,13 +5230,7 @@ gzerror(): Promise<GzErrorOutputInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib } from '@kit.BasicServicesKit';
@@ -5745,13 +5313,7 @@ gzgetc(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib } from '@kit.BasicServicesKit';
@@ -5834,13 +5396,7 @@ gzflush(flush: CompressFlushMode): Promise<ReturnStatus>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib } from '@kit.BasicServicesKit';
@@ -5922,13 +5478,7 @@ gzfwrite(buf: ArrayBuffer, size: number, nitems: number): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib } from '@kit.BasicServicesKit';
@@ -6015,13 +5565,7 @@ gzfread(buf: ArrayBuffer, size: number, nitems: number): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib } from '@kit.BasicServicesKit';
@@ -6102,13 +5646,7 @@ gzclosew(): Promise<ReturnStatus>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib } from '@kit.BasicServicesKit';
@@ -6178,13 +5716,7 @@ gzcloser(): Promise<ReturnStatus>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib } from '@kit.BasicServicesKit';
@@ -6266,13 +5798,7 @@ gzwrite(buf: ArrayBuffer, len: number): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib } from '@kit.BasicServicesKit';
@@ -6357,13 +5883,7 @@ gzungetc(c: number): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib } from '@kit.BasicServicesKit';
@@ -6437,13 +5957,7 @@ gztell(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib } from '@kit.BasicServicesKit';
@@ -6524,13 +6038,7 @@ gzsetparams(level: CompressLevel, strategy: CompressStrategy): Promise<ReturnSta
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib } from '@kit.BasicServicesKit';
@@ -6612,13 +6120,7 @@ gzseek(offset: number, whence: OffsetReferencePoint): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib } from '@kit.BasicServicesKit';
@@ -6689,13 +6191,7 @@ gzrewind(): Promise<ReturnStatus>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib } from '@kit.BasicServicesKit';
@@ -6777,13 +6273,7 @@ gzread(buf: ArrayBuffer): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib } from '@kit.BasicServicesKit';
@@ -6872,13 +6362,7 @@ gzputs(str: string): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib } from '@kit.BasicServicesKit';
@@ -6958,13 +6442,7 @@ gzputc(ch: number): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib } from '@kit.BasicServicesKit';
@@ -7046,13 +6524,7 @@ gzprintf(format: string, ...args: Array<string | number>): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib } from '@kit.BasicServicesKit';
@@ -7123,13 +6595,7 @@ gzoffset(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib } from '@kit.BasicServicesKit';
@@ -7209,13 +6675,7 @@ gzgets(buf: ArrayBuffer): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { zlib } from '@kit.BasicServicesKit';

@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {thermal} from '@kit.BasicServicesKit';
@@ -50,13 +44,7 @@ registerThermalLevelCallback(callback: Callback<ThermalLevel>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -99,13 +87,7 @@ unregisterThermalLevelCallback(callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -138,13 +120,7 @@ getLevel(): ThermalLevel
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let level = thermal.getLevel();
@@ -175,13 +151,7 @@ subscribeThermalLevel(callback: AsyncCallback<ThermalLevel>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. thermal.subscribeThermalLevel((err: Error, level: thermal.ThermalLevel) => {
@@ -213,13 +183,7 @@ unsubscribeThermalLevel(callback?: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. thermal.unsubscribeThermalLevel(() => {
@@ -251,13 +215,7 @@ getThermalLevel(): ThermalLevel
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let level = thermal.getThermalLevel();

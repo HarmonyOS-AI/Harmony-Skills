@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { distributedDataObject } from '@kit.ArkData';
@@ -61,13 +55,7 @@ create(context: Context, source: object): DataObject
 
 FA模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 导入模块
@@ -93,13 +81,7 @@ FA模型示例：
 
 Stage模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 导入模块
@@ -148,13 +130,7 @@ genSessionId(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let sessionId: string = distributedDataObject.genSessionId();
@@ -307,13 +283,7 @@ setSessionId(sessionId: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // g_object加入分布式组网
@@ -362,13 +332,7 @@ setSessionId(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // g_object加入分布式组网
@@ -423,13 +387,7 @@ setSessionId(sessionId?: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // g_object加入分布式组网
@@ -477,13 +435,7 @@ on(type: 'change', callback: (sessionId: string, fields: Array<string>) => void)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. g_object.on("change", (sessionId: string, fields: Array<string>) => {
@@ -527,13 +479,7 @@ off(type: 'change', callback?: (sessionId: string, fields: Array<string>) => voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 删除数据变更回调changeCallback
@@ -580,13 +526,7 @@ on(type: 'status', callback: (sessionId: string, networkId: string, status: 'onl
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. g_object.on("status", (sessionId: string, networkId: string, status: 'online' | 'offline') => {
@@ -625,13 +565,7 @@ off(type: 'status', callback?:(sessionId: string, networkId: string, status: 'on
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 删除上下线回调changeCallback
@@ -682,13 +616,7 @@ save(deviceId: string, callback: AsyncCallback<SaveSuccessResponse>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. g_object.setSessionId("123456");
@@ -752,13 +680,7 @@ save(deviceId: string): Promise<SaveSuccessResponse>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. g_object.setSessionId("123456");
@@ -808,13 +730,7 @@ revokeSave(callback: AsyncCallback<RevokeSaveSuccessResponse>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. g_object.setSessionId("123456");
@@ -876,13 +792,7 @@ revokeSave(): Promise<RevokeSaveSuccessResponse>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. g_object.setSessionId("123456");
@@ -941,13 +851,7 @@ bindAssetStore(assetKey: string, bindInfo: BindInfo, callback: AsyncCallback<voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -1044,13 +948,7 @@ bindAssetStore(assetKey: string, bindInfo: BindInfo): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -1125,13 +1023,7 @@ on(type: 'change', callback: DataObserver): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const changeCallback1: distributedDataObject.DataObserver = (sessionId: string, fields: Array<string>) => {
@@ -1170,13 +1062,7 @@ off(type: 'change', callback?: DataObserver): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const changeCallback1: distributedDataObject.DataObserver = (sessionId: string, fields: Array<string>) => {
@@ -1232,13 +1118,7 @@ on(type: 'status', callback: StatusObserver): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const statusCallback1: distributedDataObject.StatusObserver = (sessionId: string, networkId: string, status: string) => {
@@ -1272,13 +1152,7 @@ off(type: 'status', callback?: StatusObserver): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const statusCallback1: distributedDataObject.StatusObserver = (sessionId: string, networkId: string, status: string) => {
@@ -1323,13 +1197,7 @@ on(type: 'progressChanged', callback: ProgressObserver): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const progressChangedCallback: distributedDataObject.ProgressObserver = (sessionId: string, progress: number) => {
@@ -1364,13 +1232,7 @@ off(type: 'progressChanged', callback?: ProgressObserver): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const progressChangedCallback1: distributedDataObject.ProgressObserver = (sessionId: string, progress: number) => {
@@ -1453,13 +1315,7 @@ setAsset(assetKey: string, uri: string): Promise<void>
 
 **示例:**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -1562,13 +1418,7 @@ setAssets(assetsKey: string, uris: Array<string>): Promise<void>
 
 **示例:**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -1644,13 +1494,7 @@ createDistributedObject(source: object): DistributedObject
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class SourceObject {
@@ -1709,13 +1553,7 @@ setSessionId(sessionId?: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class SourceObject {
@@ -1763,13 +1601,7 @@ on(type: 'change', callback: (sessionId: string, fields: Array<string>) => void)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class SourceObject {
@@ -1821,13 +1653,7 @@ off(type: 'change', callback?: (sessionId: string, fields: Array<string>) => voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class SourceObject {
@@ -1882,13 +1708,7 @@ on(type: 'status', callback: (sessionId: string, networkId: string, status: 'onl
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class SourceObject {
@@ -1936,13 +1756,7 @@ off(type: 'status', callback?: (sessionId: string, networkId: string, status: 'o
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class SourceObject {

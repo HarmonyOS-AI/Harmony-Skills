@@ -6,13 +6,7 @@
 
 PhoneTabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthStore } from '@kit.HealthServiceKit';
@@ -813,13 +807,7 @@ Health Service初始化接口，使用Promise异步方式，其他接口调用�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthStore } from '@kit.HealthServiceKit';
@@ -887,13 +875,7 @@ insertDataSource(dataSource: DataSourceBase): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthStore } from '@kit.HealthServiceKit';
@@ -977,13 +959,7 @@ readDataSource(request: DataSourceReadRequest): Promise<DataSource[]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthStore } from '@kit.HealthServiceKit';
@@ -1056,13 +1032,7 @@ updateDataSource(dataSource: DataSource): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthStore } from '@kit.HealthServiceKit';
@@ -1149,13 +1119,7 @@ saveData(sampleData: SamplePoint[] | SamplePoint): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthStore } from '@kit.HealthServiceKit';
@@ -1236,13 +1200,7 @@ saveData(exerciseSequence: ExerciseSequence[] | ExerciseSequence): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthStore } from '@kit.HealthServiceKit';
@@ -1369,13 +1327,7 @@ saveData(healthSequence: HealthSequence[] | HealthSequence): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthStore } from '@kit.HealthServiceKit';
@@ -1488,13 +1440,7 @@ readData<T extends SamplePoint>(request: SamplePointReadRequest): Promise<T[]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthStore } from '@kit.HealthServiceKit';
@@ -1572,13 +1518,7 @@ readData<T extends ExerciseSequence>(request: ExerciseSequenceReadRequest): Prom
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthStore } from '@kit.HealthServiceKit';
@@ -1668,13 +1608,7 @@ readData<T extends HealthSequence>(request: HealthSequenceReadRequest): Promise<
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthStore } from '@kit.HealthServiceKit';
@@ -1757,13 +1691,7 @@ deleteData(request: SamplePointDeleteRequest | SamplePointDeleteRequest[]): Prom
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthStore } from '@kit.HealthServiceKit';
@@ -1836,13 +1764,7 @@ deleteData(request: ExerciseSequenceDeleteRequest | ExerciseSequenceDeleteReques
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthStore } from '@kit.HealthServiceKit';
@@ -1914,13 +1836,7 @@ deleteData(request: HealthSequenceDeleteRequest | HealthSequenceDeleteRequest[])
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthStore } from '@kit.HealthServiceKit';
@@ -1992,13 +1908,7 @@ deleteData(samplePoint: SamplePoint | SamplePoint[]): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthStore } from '@kit.HealthServiceKit';
@@ -2074,13 +1984,7 @@ deleteData(exerciseSequence: ExerciseSequence | ExerciseSequence[]): Promise<voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthStore } from '@kit.HealthServiceKit';
@@ -2157,13 +2061,7 @@ deleteData(healthSequence: HealthSequence | HealthSequence[]): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthStore } from '@kit.HealthServiceKit';
@@ -2241,13 +2139,7 @@ aggregateData<T extends AggregateResult>(request: AggregateRequest | AggregateRe
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthStore } from '@kit.HealthServiceKit';
@@ -2337,13 +2229,7 @@ requestAuthorizations(context: common.UIAbilityContext, request: AuthorizationRe
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthStore } from '@kit.HealthServiceKit';
@@ -2421,13 +2307,7 @@ getAuthorizations(request: AuthorizationRequest): Promise<AuthorizationResponse>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthStore } from '@kit.HealthServiceKit';
@@ -2493,13 +2373,7 @@ cancelAuthorizations(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthStore } from '@kit.HealthServiceKit';
@@ -2558,13 +2432,7 @@ syncAll(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthStore } from '@kit.HealthServiceKit';
@@ -2607,13 +2475,7 @@ on(type: 'serviceDie', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthStore } from '@kit.HealthServiceKit';
@@ -2653,13 +2515,7 @@ off(type: 'serviceDie', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthStore } from '@kit.HealthServiceKit';

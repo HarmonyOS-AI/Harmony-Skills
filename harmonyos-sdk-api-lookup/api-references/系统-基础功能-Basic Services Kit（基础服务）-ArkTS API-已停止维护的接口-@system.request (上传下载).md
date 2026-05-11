@@ -9,13 +9,7 @@ system.request部件主要给应用提供上传下载文件的基础能力。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Request } from '@kit.BasicServicesKit';
@@ -45,13 +39,7 @@ upload(options: UploadRequestOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import  { Request, UploadRequestOptions, UploadResponse } from '@kit.BasicServicesKit';
@@ -192,13 +180,7 @@ download(options: DownloadRequestOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import  { Request, DownloadResponse, DownloadRequestOptions } from '@kit.BasicServicesKit';
@@ -300,13 +282,7 @@ onDownloadComplete(options: OnDownloadCompleteOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import  { Request, OnDownloadCompleteOptions, OnDownloadCompleteResponse } from '@kit.BasicServicesKit';

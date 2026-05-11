@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { userAuth } from '@kit.UserAuthenticationKit';
@@ -174,13 +168,7 @@ getAuthLockState(authType: UserAuthType): Promise<AuthLockState>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { userAuth } from '@kit.UserAuthenticationKit';
@@ -249,13 +237,7 @@ getEnrolledState(authType: UserAuthType): EnrolledState
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { userAuth } from '@kit.UserAuthenticationKit';
@@ -353,13 +335,7 @@ onResult(result: UserAuthResult): void
 
 发起用户认证，采用认证可信等级≥ATL3的锁屏口令认证，获取认证结果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -411,13 +387,7 @@ onResult(result: UserAuthResult): void
 
 发起用户认证，采用认证可信等级≥ATL3的锁屏口令+认证类型相关+复用设备解锁最大有效时长认证，获取认证结果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -473,13 +443,7 @@ onResult(result: UserAuthResult): void
 
 发起用户认证，采用认证可信等级≥ATL3的锁屏口令+任意应用认证类型相关+复用任意应用最大有效时长认证，获取认证结果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -570,13 +534,7 @@ type AuthTipCallback = (authTipInfo: AuthTipInfo) => void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -670,13 +628,7 @@ on(type: 'result', callback: IAuthCallback): void
 
 以模系统弹窗方式进行用户身份认证。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -727,13 +679,7 @@ on(type: 'result', callback: IAuthCallback): void
 
 以模应用弹窗方式进行用户身份认证。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -836,13 +782,7 @@ off(type: 'result', callback?: IAuthCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -927,13 +867,7 @@ start(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1003,13 +937,7 @@ cancel(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1089,13 +1017,7 @@ on(type: 'authTip', callback: AuthTipCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1177,13 +1099,7 @@ off(type: 'authTip', callback?: AuthTipCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1273,13 +1189,7 @@ getUserAuthInstance(authParam: AuthParam, widgetParam: WidgetParam): UserAuthIns
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1437,13 +1347,7 @@ callback(result : EventInfo) : void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { userAuth } from '@kit.UserAuthenticationKit';
@@ -1538,13 +1442,7 @@ on : (name : AuthEventKey, callback : AuthEvent) => void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { userAuth } from '@kit.UserAuthenticationKit';
@@ -1618,13 +1516,7 @@ off : (name : AuthEventKey) => void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { userAuth } from '@kit.UserAuthenticationKit';
@@ -1689,13 +1581,7 @@ start : () => void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { userAuth } from '@kit.UserAuthenticationKit';
@@ -1745,13 +1631,7 @@ cancel : () => void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { userAuth } from '@kit.UserAuthenticationKit';
@@ -1818,13 +1698,7 @@ getAuthInstance(challenge : Uint8Array, authType : UserAuthType, authTrustLevel 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { userAuth } from '@kit.UserAuthenticationKit';
@@ -1896,13 +1770,7 @@ getAvailableStatus(authType : UserAuthType, authTrustLevel : AuthTrustLevel): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { userAuth } from '@kit.UserAuthenticationKit';
@@ -1963,13 +1831,7 @@ constructor()
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { userAuth } from '@kit.UserAuthenticationKit';
@@ -2003,13 +1865,7 @@ getVersion() : number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { userAuth } from '@kit.UserAuthenticationKit';
@@ -2054,13 +1910,7 @@ getAvailableStatus(authType : UserAuthType, authTrustLevel : AuthTrustLevel) : n
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { userAuth } from '@kit.UserAuthenticationKit';
@@ -2111,13 +1961,7 @@ auth(challenge: Uint8Array, authType: UserAuthType, authTrustLevel: AuthTrustLev
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { userAuth } from '@kit.UserAuthenticationKit';
@@ -2174,13 +2018,7 @@ cancelAuth(contextID : Uint8Array) : number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { userAuth } from '@kit.UserAuthenticationKit';
@@ -2231,13 +2069,7 @@ onResult: (result : number, extraInfo : AuthResult) => void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { userAuth } from '@kit.UserAuthenticationKit';
@@ -2286,13 +2118,7 @@ onAcquireInfo ?: (module : number, acquire : number, extraInfo : any) => void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { userAuth } from '@kit.UserAuthenticationKit';
@@ -2524,13 +2350,7 @@ getAuthenticator(): Authenticator
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { userAuth } from '@kit.UserAuthenticationKit';
@@ -2576,13 +2396,7 @@ execute(type: AuthType, level: SecureLevel, callback: AsyncCallback<number>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { userAuth } from '@kit.UserAuthenticationKit';
@@ -2632,13 +2446,7 @@ execute(type : AuthType, level : SecureLevel): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { userAuth } from '@kit.UserAuthenticationKit';

@@ -33,13 +33,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint16_t NetworkBoost_MultiPathQuotaInfo::count
@@ -53,13 +47,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint16_t NetworkBoost_MultiPathQuotaInfo::duration

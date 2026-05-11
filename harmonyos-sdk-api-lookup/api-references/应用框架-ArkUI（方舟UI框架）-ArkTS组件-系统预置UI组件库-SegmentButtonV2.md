@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TabSegmentButtonV2, CapsuleSegmentButtonV2, MultiCapsuleSegmentButtonV2, SegmentButtonV2Items } from '@kit.ArkUI';
@@ -42,13 +36,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. TabSegmentButtonV2({
@@ -136,13 +124,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. CapsuleSegmentButtonV2({
@@ -230,13 +212,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. MultiCapsuleSegmentButtonV2({
@@ -530,13 +506,7 @@ PhonePC/2in1TabletTVWearable
 
 此示例说明页签型分段按钮的基本用法。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SegmentButtonV2Items, TabSegmentButtonV2 } from '@kit.ArkUI';
@@ -676,13 +646,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例介绍单选胶囊型分段按钮的基本用法。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { CapsuleSegmentButtonV2, SegmentButtonV2Items } from '@kit.ArkUI';
@@ -814,13 +778,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例介绍多选胶囊型分段按钮的基本用法。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { MultiCapsuleSegmentButtonV2, SegmentButtonV2Items } from '@kit.ArkUI';
@@ -952,13 +910,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例介绍页签型分段按钮，单选的胶囊型分段按钮，多选的胶囊型分段按钮Modifier的基本用法。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {
@@ -1057,13 +1009,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 24开始，[TabSegmentButtonV2](/consumer/cn/doc/harmonyos-references/ohos-arkui-advanced-segmentbuttonv2#tabsegmentbuttonv2)和[CapsuleSegmentButtonV2](/consumer/cn/doc/harmonyos-references/ohos-arkui-advanced-segmentbuttonv2#capsulesegmentbuttonv2)新增enableStateAnimation属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TabSegmentButtonV2, CapsuleSegmentButtonV2, SegmentButtonV2Items } from '@kit.ArkUI';

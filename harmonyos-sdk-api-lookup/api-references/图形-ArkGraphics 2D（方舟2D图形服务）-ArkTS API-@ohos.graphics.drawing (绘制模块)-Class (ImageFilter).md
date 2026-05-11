@@ -11,13 +11,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -64,13 +58,7 @@ static createBlurImageFilter(sigmaX: number, sigmaY: number, tileMode: TileMode,
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -108,13 +96,7 @@ static createFromImage(pixelmap: image.PixelMap, srcRect?: common2D.Rect | null,
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -202,13 +184,7 @@ static createBlendImageFilter(mode: BlendMode, background: ImageFilter, foregrou
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -251,13 +227,7 @@ static createComposeImageFilter(cOuter: ImageFilter, cInner: ImageFilter): Image
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -315,13 +285,7 @@ static createFromColorFilter(colorFilter: ColorFilter, imageFilter?: ImageFilter
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -361,13 +325,7 @@ static createOffsetImageFilter(dx: number, dy: number, input?: ImageFilter | nul
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -405,13 +363,7 @@ static createFromShaderEffect(shader: ShaderEffect): ImageFilter
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';

@@ -12,13 +12,7 @@
 
 如果开发者需要使用libuv相关功能，首先请添加头文件：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <uv.h>
@@ -26,13 +20,7 @@
 
 其次在CMakeLists.txt中添加以下动态链接库：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. libuv.so
@@ -72,13 +60,7 @@ HarmonyOS还将长期通过Node-API来为开发者提供和主线程交互及扩
 
 ArkTS侧:
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -104,13 +86,7 @@ ArkTS侧:
 
 Native侧:
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include "napi/native_api.h"
@@ -170,13 +146,7 @@ Native侧:
 
 在index.d.ts文件中添加如下代码：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. export const test:() => number;
@@ -184,13 +154,7 @@ Native侧:
 
 在CMakeLists.txt中添加以下动态链接库：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. libhilog_ndk.z.so
@@ -202,13 +166,7 @@ Native侧:
 
 ArkTS侧:
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -234,13 +192,7 @@ ArkTS侧:
 
 Native侧:
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include "napi/native_api.h"
@@ -298,13 +250,7 @@ Native侧:
 
 在index.d.ts文件中添加如下代码：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. export const test:() => number;
@@ -312,13 +258,7 @@ Native侧:
 
 在CMakeLists.txt中添加以下动态链接库：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. libhilog_ndk.z.so
@@ -334,13 +274,7 @@ Native侧:
 
 ArkTS侧:
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -366,13 +300,7 @@ ArkTS侧:
 
 Native侧:
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include "napi/native_api.h"
@@ -454,13 +382,7 @@ Native侧:
 
 在index.d.ts添加如下代码：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. export const testClose:() => number;
@@ -468,13 +390,7 @@ Native侧:
 
 在CMakeLists.txt中添加以下动态链接库：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. libhilog_ndk.z.so
@@ -497,13 +413,7 @@ Native侧:
 
 ArkTS侧:
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -529,13 +439,7 @@ ArkTS侧:
 
 Native侧:
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include "napi/native_api.h"
@@ -618,13 +522,7 @@ Native侧:
 
 在index.d.ts添加如下代码：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. export const testClose:() => number;
@@ -632,13 +530,7 @@ Native侧:
 
 在CMakeLists.txt中添加以下动态链接库：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. libhilog_ndk.z.so
@@ -660,13 +552,7 @@ Native侧:
 
 相关函数为：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. /**
@@ -718,13 +604,7 @@ Node-API与之对应的接口为[napi\_threadsafe\_function](https://developer.h
 
 相关函数：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. /**
@@ -819,13 +699,7 @@ Node-API与之对应的接口为[napi\_threadsafe\_function](https://developer.h
 
 ArkTS侧：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -858,13 +732,7 @@ ArkTS侧：
 
 Native侧：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <napi/native_api.h>
@@ -1006,13 +874,7 @@ Native侧：
 
 在index.d.ts添加如下代码：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. export const testTimerAsync:() => number;
@@ -1062,13 +924,7 @@ UV\_RUN\_NOWAIT：非阻塞模式，该模式下不会执行pending\_queue，而
 
 **2. 常用接口**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int uv_loop_init(uv_loop_t* loop);
@@ -1076,13 +932,7 @@ UV\_RUN\_NOWAIT：非阻塞模式，该模式下不会执行pending\_queue，而
 
 对loop进行初始化。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int uv_loop_close(uv_loop_t* loop);
@@ -1090,13 +940,7 @@ UV\_RUN\_NOWAIT：非阻塞模式，该模式下不会执行pending\_queue，而
 
 关闭loop，该函数只有在loop中所有的句柄和请求都关闭后才能成功返回，否则将返回UV\_EBUSY。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int uv_loop_delete(uv_loop_t* loop);
@@ -1104,13 +948,7 @@ UV\_RUN\_NOWAIT：非阻塞模式，该模式下不会执行pending\_queue，而
 
 释放loop，该接口会先调用uv\_loop\_close，然后再将loop释放掉。在HarmonyOS平台上，由于assert函数不生效，因此不论uv\_loop\_close函数是否成功清理loop上的资源，都会将loop释放掉。开发者使用该接口时，请务必确保在loop线程退出时，loop上的资源可以被正确释放，即挂在loop上的handle和request均被关闭，否则会导致资源泄漏。**开发者使用该接口时务必格外谨慎，建议非必要不使用。**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uv_loop_t* uv_default_loop(void);
@@ -1118,13 +956,7 @@ UV\_RUN\_NOWAIT：非阻塞模式，该模式下不会执行pending\_queue，而
 
 该函数创建一个进程级的loop。在HarmonyOS中，由于目前的应用主循环及其他JS工作线程还存在着libuv的loop。因此我们不建议开发者使用该函数来创建loop并实现业务功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int uv_run(uv_loop_t* loop, uv_run_mode mode);
@@ -1132,13 +964,7 @@ UV\_RUN\_NOWAIT：非阻塞模式，该模式下不会执行pending\_queue，而
 
 启动事件循环。运行模式可查看事件循环运行的三种方式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int uv_loop_alive(uv_loop_t loop);
@@ -1146,13 +972,7 @@ UV\_RUN\_NOWAIT：非阻塞模式，该模式下不会执行pending\_queue，而
 
 判断loop是否处于活跃状态。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void uv_stop(uv_loop_t* loop);
@@ -1168,13 +988,7 @@ request表示一个短暂性的请求，一个request只触发一次回调操作
 
 下面是HarmonyOS系统中最常用的几个Handles和Requests：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. /* Handle Type */
@@ -1199,13 +1013,7 @@ request表示一个短暂性的请求，一个request只触发一次回调操作
 
 在这里，需要特别说明一下uv\_close的使用方法。uv\_close被用来关闭一个handle，但是关闭handle的动作是异步的。函数原型为：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void uv_close(uv_handle_t* handle, uv_close_cb close_cb)
@@ -1226,13 +1034,7 @@ close\_cb：处理该句柄的函数，用来进行内存管理等操作。
 
 对于libuv中的requests，开发者需要确保在进行异步任务提交时，**通过动态申请的request，要在loop所在线程执行的complete回调函数中释放**。用uv\_work\_t举例，代码可参考如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uv_work_t* work = new uv_work_t;
@@ -1257,13 +1059,7 @@ close\_cb：处理该句柄的函数，用来进行内存管理等操作。
 
 ArkTS侧：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -1299,13 +1095,7 @@ ArkTS侧：
 
 Native C++侧：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <napi/native_api.h>
@@ -1362,13 +1152,7 @@ Native C++侧：
 
 在index.d.ts添加如下代码：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. export const testTimer:() => number;
@@ -1378,13 +1162,7 @@ Native C++侧：
 
 **场景一：** 在上述场景中，需保证在JS主线程上进行timer的相关操作。将上述TestTimer函数的代码做如下修改，便可以避免崩溃发生。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. static napi_value TestTimer(napi_env env, napi_callback_info info)
@@ -1406,13 +1184,7 @@ Native C++侧：
 
 ArkTS侧：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -1445,13 +1217,7 @@ ArkTS侧：
 
 Native侧：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <napi/native_api.h>
@@ -1523,13 +1289,7 @@ Native侧：
 
 在index.d.ts添加如下代码：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. export const testTimerAsync:() => number;
@@ -1542,13 +1302,7 @@ Native侧：
 
 libuv的线程间通信是通过uv\_async\_t句柄来进行的，相关函数如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int uv_async_init(uv_loop_t* loop, uv_async_t* handle, uv_async_cb async_cb)
@@ -1562,13 +1316,7 @@ async\_cb：回调函数。
 
 返回：成功，返回0。失败，返回错误码。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int uv_async_send(uv_async_t* handle)
@@ -1587,13 +1335,7 @@ handle：线程间通信句柄。
 
 示例代码：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <iostream>
@@ -1641,13 +1383,7 @@ handle：线程间通信句柄。
 
 可以看到，每触发一次，主线程都会执行一次回调函数。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. 0th:subThread triggered
@@ -1677,13 +1413,7 @@ handle：线程间通信句柄。
 
 线程池是libuv的一个核心功能，libuv中的线程池通过uv\_loop\_t中的成员变量wq\_async来控制工作线程与主线程的通信。核心函数如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int uv_queue_work(uv_loop_t* loop,
@@ -1732,13 +1462,7 @@ work\_cb与after\_work\_cb的执行有一个时序问题，只有work\_cb执行�
 
   函数原型：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. /**
@@ -1765,13 +1489,7 @@ work\_cb与after\_work\_cb的执行有一个时序问题，只有work\_cb执行�
 
   函数原型：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. /**
@@ -1794,13 +1512,7 @@ work\_cb与after\_work\_cb的执行有一个时序问题，只有work\_cb执行�
 
   文件类提供的所有异步接口，在应用主线程中都是可以生效的。主要有如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. /**
@@ -1907,13 +1619,7 @@ work\_cb与after\_work\_cb的执行有一个时序问题，只有work\_cb执行�
 
   函数原型：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. /**
@@ -1940,13 +1646,7 @@ work\_cb与after\_work\_cb的执行有一个时序问题，只有work\_cb执行�
 
   函数原型：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. /**

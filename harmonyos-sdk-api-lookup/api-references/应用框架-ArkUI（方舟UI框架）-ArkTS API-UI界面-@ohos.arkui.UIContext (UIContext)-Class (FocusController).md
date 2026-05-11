@@ -22,13 +22,7 @@ clearFocus(): void
 
 在该示例中，按钮"button2"默认获焦，点击按钮"clearFocus"后，焦点回到该页面的根容器节点"column1"，此时按下键盘TAB键，按钮"button2"重新获焦。可通过点击"button1"使该按钮获焦，点击按钮"clearFocus"后，焦点同样回到该页面的根容器节点"column1"，此时按下键盘TAB键，由按钮"button1"重新获焦。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -111,13 +105,7 @@ requestFocus(key: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -196,13 +184,7 @@ activate(isActive: boolean, autoInactive?: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 该示例表示在页面加载完成时进入焦点激活态，可按方向键在button间走焦
@@ -265,13 +247,7 @@ isActive(): boolean
 
 验证isActive返回UI实例的焦点激活态。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -342,13 +318,7 @@ setAutoFocusTransfer(isAutoFocusTransfer: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @CustomDialog
@@ -422,13 +392,7 @@ setKeyProcessingMode(mode: KeyProcessingMode): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 该示例演示了在页面加载完成后设置走焦类型的实现方式。

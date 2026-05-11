@@ -119,13 +119,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例展示了QRCode组件的基本使用方法，通过[color](/consumer/cn/doc/harmonyos-references/ts-basic-components-qrcode#color)属性设置二维码颜色、[backgroundColor](/consumer/cn/doc/harmonyos-references/ts-basic-components-qrcode#backgroundcolor)属性设置二维码背景颜色、[contentOpacity](/consumer/cn/doc/harmonyos-references/ts-basic-components-qrcode#contentopacity11)属性设置二维码不透明度。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -161,13 +155,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[backgroundColor](/consumer/cn/doc/harmonyos-references/ts-basic-components-qrcode#backgroundcolor)属性设置二维码背景颜色为透明，从而实现二维码内容与背景融合。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

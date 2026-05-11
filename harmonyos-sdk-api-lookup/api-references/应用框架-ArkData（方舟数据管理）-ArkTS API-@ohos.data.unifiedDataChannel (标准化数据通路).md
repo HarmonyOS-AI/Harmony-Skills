@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { unifiedDataChannel } from '@kit.ArkData';
@@ -67,13 +61,7 @@ type GetDelayData = (type: string) => UnifiedData
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uniformDataStruct, uniformTypeDescriptor } from '@kit.ArkData';
@@ -146,13 +134,7 @@ PhonePC/2in1TabletTV
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uniformDataStruct, uniformTypeDescriptor } from '@kit.ArkData';
@@ -216,13 +198,7 @@ constructor()
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let unifiedData = new unifiedDataChannel.UnifiedData();
@@ -260,13 +236,7 @@ constructor(record: UnifiedRecord)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uniformDataStruct, uniformTypeDescriptor } from '@kit.ArkData';
@@ -311,13 +281,7 @@ addRecord(record: UnifiedRecord): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uniformDataStruct, uniformTypeDescriptor } from '@kit.ArkData';
@@ -358,13 +322,7 @@ getRecords(): Array<UnifiedRecord>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uniformDataStruct, uniformTypeDescriptor } from '@kit.ArkData';
@@ -439,13 +397,7 @@ hasType(type: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uniformDataStruct, uniformTypeDescriptor } from '@kit.ArkData';
@@ -490,13 +442,7 @@ getTypes(): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uniformDataStruct, uniformTypeDescriptor } from '@kit.ArkData';
@@ -538,13 +484,7 @@ PhonePC/2in1TabletTV
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function parseSummary(summary : unifiedDataChannel.Summary) {
@@ -588,13 +528,7 @@ constructor()
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let unifiedRecord = new unifiedDataChannel.UnifiedRecord();
@@ -637,13 +571,7 @@ constructor(type: string, value: ValueType)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uniformDataStruct, uniformTypeDescriptor } from '@kit.ArkData';
@@ -692,13 +620,7 @@ getType(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uniformDataStruct, uniformTypeDescriptor } from '@kit.ArkData';
@@ -738,13 +660,7 @@ getValue(): ValueType
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uniformDataStruct, uniformTypeDescriptor } from '@kit.ArkData';
@@ -799,13 +715,7 @@ addEntry(type: string, value: ValueType): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uniformDataStruct, uniformTypeDescriptor } from '@kit.ArkData';
@@ -872,13 +782,7 @@ getEntry(type: string): ValueType
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uniformDataStruct, uniformTypeDescriptor } from '@kit.ArkData';
@@ -948,13 +852,7 @@ getEntries(): Record<string, ValueType>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uniformDataStruct, uniformTypeDescriptor } from '@kit.ArkData';
@@ -1023,13 +921,7 @@ getTypes(): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uniformDataStruct, uniformTypeDescriptor } from '@kit.ArkData';
@@ -1091,13 +983,7 @@ PhonePC/2in1TabletTV
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let text = new unifiedDataChannel.Text();
@@ -1127,13 +1013,7 @@ PhonePC/2in1TabletTV
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let text = new unifiedDataChannel.PlainText();
@@ -1160,13 +1040,7 @@ PhonePC/2in1TabletTV
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let link = new unifiedDataChannel.Hyperlink();
@@ -1193,13 +1067,7 @@ HTML类型数据，是[Text](/consumer/cn/doc/harmonyos-references/js-apis-data-
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let html = new unifiedDataChannel.HTML();
@@ -1226,13 +1094,7 @@ File类型数据，是[UnifiedRecord](/consumer/cn/doc/harmonyos-references/js-a
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { unifiedDataChannel } from '@kit.ArkData';
@@ -1273,13 +1135,7 @@ PhonePC/2in1TabletTV
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { unifiedDataChannel } from '@kit.ArkData';
@@ -1316,13 +1172,7 @@ PhonePC/2in1TabletTV
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { unifiedDataChannel } from '@kit.ArkData';
@@ -1359,13 +1209,7 @@ PhonePC/2in1TabletTV
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { unifiedDataChannel } from '@kit.ArkData';
@@ -1402,13 +1246,7 @@ PhonePC/2in1TabletTV
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { unifiedDataChannel } from '@kit.ArkData';
@@ -1445,13 +1283,7 @@ SystemDefinedRecord是[UnifiedRecord](/consumer/cn/doc/harmonyos-references/js-a
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let sdr = new unifiedDataChannel.SystemDefinedRecord();
@@ -1486,13 +1318,7 @@ PhonePC/2in1TabletTV
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let form = new unifiedDataChannel.SystemDefinedForm();
@@ -1533,13 +1359,7 @@ PhonePC/2in1TabletTV
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let appItem = new unifiedDataChannel.SystemDefinedAppItem();
@@ -1576,13 +1396,7 @@ PhonePC/2in1TabletTV
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from '@kit.ImageKit'; // PixelMap类定义所在模块
@@ -1643,13 +1457,7 @@ ApplicationDefinedRecord是[UnifiedRecord](/consumer/cn/doc/harmonyos-references
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let record = new unifiedDataChannel.ApplicationDefinedRecord();
@@ -1963,13 +1771,7 @@ insertData(options: Options, data: UnifiedData, callback: AsyncCallback<string>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uniformDataStruct, uniformTypeDescriptor } from '@kit.ArkData';
@@ -2041,13 +1843,7 @@ insertData(options: Options, data: UnifiedData): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uniformDataStruct, uniformTypeDescriptor } from '@kit.ArkData';
@@ -2110,13 +1906,7 @@ updateData(options: Options, data: UnifiedData, callback: AsyncCallback<void>): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uniformDataStruct, uniformTypeDescriptor } from '@kit.ArkData';
@@ -2208,13 +1998,7 @@ updateData(options: Options, data: UnifiedData): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uniformDataStruct, uniformTypeDescriptor } from '@kit.ArkData';
@@ -2296,13 +2080,7 @@ queryData(options: Options, callback: AsyncCallback<Array<UnifiedData>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uniformDataStruct, uniformTypeDescriptor } from '@kit.ArkData';
@@ -2375,13 +2153,7 @@ queryData(options: Options): Promise<Array<UnifiedData>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uniformDataStruct, uniformTypeDescriptor } from '@kit.ArkData';
@@ -2445,13 +2217,7 @@ deleteData(options: Options, callback: AsyncCallback<Array<UnifiedData>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uniformDataStruct, uniformTypeDescriptor } from '@kit.ArkData';
@@ -2524,13 +2290,7 @@ deleteData(options: Options): Promise<Array<UnifiedData>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uniformDataStruct, uniformTypeDescriptor } from '@kit.ArkData';
@@ -2598,13 +2358,7 @@ setAppShareOptions(intention: Intention, shareOptions: ShareOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2652,13 +2406,7 @@ removeAppShareOptions(intention: Intention): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2712,13 +2460,7 @@ convertRecordsToEntries(data: UnifiedData): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { unifiedDataChannel } from '@kit.ArkData';

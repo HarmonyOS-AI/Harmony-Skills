@@ -6,13 +6,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bookParser } from '@kit.ReaderKit';
@@ -127,13 +121,7 @@ type CallbackRes<T, V> = (data: T) => V
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bookParser, readerCore, ReadPageComponent } from '@kit.ReaderKit';
@@ -235,13 +223,7 @@ getDefaultHandler(path: string): Promise<BookParserHandler>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bookParser } from '@kit.ReaderKit';
@@ -316,13 +298,7 @@ getBookInfo(): BookInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bookParser } from '@kit.ReaderKit';
@@ -385,13 +361,7 @@ getCatalogList(): CatalogItem[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bookParser } from '@kit.ReaderKit';
@@ -454,13 +424,7 @@ getSpineList(): SpineItem[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bookParser } from '@kit.ReaderKit';
@@ -533,13 +497,7 @@ getSpineItemContent(spineIndex: number): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bookParser } from '@kit.ReaderKit';
@@ -618,13 +576,7 @@ getResourceContent(spineIndex: number, filePath: string): ArrayBuffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bookParser } from '@kit.ReaderKit';
@@ -699,13 +651,7 @@ getDomPosByCatalogHref(href: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bookParser } from '@kit.ReaderKit';
@@ -784,13 +730,7 @@ getAbsoluteResourcePath(spineIndex: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bookParser } from '@kit.ReaderKit';

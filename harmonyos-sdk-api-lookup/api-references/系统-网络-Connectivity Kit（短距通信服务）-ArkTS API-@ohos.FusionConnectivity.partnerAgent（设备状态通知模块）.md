@@ -13,13 +13,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { partnerAgent } from '@kit.ConnectivityKit';
@@ -47,13 +41,7 @@ isPartnerAgentSupported(): boolean
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { partnerAgent } from '@kit.ConnectivityKit';
@@ -119,13 +107,7 @@ bindDevice(deviceAddress: PartnerDeviceAddress, deviceCapability: DeviceCapabili
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { partnerAgent, common } from '@kit.ConnectivityKit';
@@ -206,13 +188,7 @@ unbindDevice(deviceAddress: PartnerDeviceAddress): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { partnerAgent, common } from '@kit.ConnectivityKit';
@@ -283,13 +259,7 @@ isDeviceBound(deviceAddress: PartnerDeviceAddress): boolean
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { partnerAgent, common } from '@kit.ConnectivityKit';
@@ -346,13 +316,7 @@ getBoundDevices(): PartnerDeviceAddress[]
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { partnerAgent, common } from '@kit.ConnectivityKit';
@@ -412,13 +376,7 @@ isDeviceControlEnabled(deviceAddress: PartnerDeviceAddress): boolean
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { partnerAgent, common } from '@kit.ConnectivityKit';

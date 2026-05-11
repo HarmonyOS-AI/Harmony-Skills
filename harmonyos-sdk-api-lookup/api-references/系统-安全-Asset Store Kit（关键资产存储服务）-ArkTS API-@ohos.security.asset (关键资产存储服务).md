@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { asset } from '@kit.AssetStoreKit';
@@ -76,13 +70,7 @@ add(attributes: AssetMap): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { asset } from '@kit.AssetStoreKit';
@@ -151,13 +139,7 @@ addSync(attributes: AssetMap): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { asset } from '@kit.AssetStoreKit';
@@ -226,13 +208,7 @@ remove(query: AssetMap): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { asset } from '@kit.AssetStoreKit';
@@ -292,13 +268,7 @@ removeSync(query: AssetMap): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { asset } from '@kit.AssetStoreKit';
@@ -367,13 +337,7 @@ update(query: AssetMap, attributesToUpdate: AssetMap): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { asset } from '@kit.AssetStoreKit';
@@ -438,13 +402,7 @@ updateSync(query: AssetMap, attributesToUpdate: AssetMap): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { asset } from '@kit.AssetStoreKit';
@@ -515,13 +473,7 @@ preQuery(query: AssetMap): Promise<Uint8Array>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { asset } from '@kit.AssetStoreKit';
@@ -592,13 +544,7 @@ preQuerySync(query: AssetMap): Uint8Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { asset } from '@kit.AssetStoreKit';
@@ -670,13 +616,7 @@ query(query: AssetMap): Promise<Array<AssetMap>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { asset } from '@kit.AssetStoreKit';
@@ -756,13 +696,7 @@ querySync(query: AssetMap): Array<AssetMap>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { asset } from '@kit.AssetStoreKit';
@@ -832,13 +766,7 @@ postQuery(handle: AssetMap): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { asset } from '@kit.AssetStoreKit';
@@ -889,13 +817,7 @@ postQuerySync(handle: AssetMap): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { asset } from '@kit.AssetStoreKit';
@@ -951,13 +873,7 @@ querySyncResult(query: AssetMap): Promise<SyncResult>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { asset } from '@kit.AssetStoreKit';

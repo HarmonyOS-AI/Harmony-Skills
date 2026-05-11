@@ -6,13 +6,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { authentication } from '@kit.AccountKit';
@@ -60,13 +54,7 @@ createLoginWithHuaweiIDRequest(): LoginWithHuaweiIDRequest
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { authentication } from '@kit.AccountKit';
@@ -101,13 +89,7 @@ createAuthorizationWithHuaweiIDRequest(): AuthorizationWithHuaweiIDRequest
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { authentication } from '@kit.AccountKit';
@@ -142,13 +124,7 @@ createCancelAuthorizationRequest(): CancelAuthorizationRequest
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { authentication } from '@kit.AccountKit';
@@ -202,13 +178,7 @@ getHuaweiIDState(request: StateRequest): Promise<StateResult>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { authentication } from '@kit.AccountKit';
@@ -294,13 +264,7 @@ getMobileNumberConsistency(request: ConsistencyRequest): Promise<ConsistencyResu
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { authentication } from '@kit.AccountKit';
@@ -362,13 +326,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { authentication } from '@kit.AccountKit';
@@ -404,13 +362,7 @@ ID Token签名算法，该类型为枚举，根据IdTokenSignAlgorithm的不同�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { authentication } from '@kit.AccountKit';
@@ -446,13 +398,7 @@ Account Kit登录请求响应对象，解析响应结果可得到OpenID、UnionI
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { authentication } from '@kit.AccountKit';
@@ -555,13 +501,7 @@ Account Kit登录成功返回的凭据，用于获取用户相关信息和关联
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { authentication } from '@kit.AccountKit';
@@ -669,13 +609,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { authentication } from '@kit.AccountKit';
@@ -714,13 +648,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { authentication } from '@kit.AccountKit';
@@ -824,13 +752,7 @@ Account Kit授权成功返回的凭据，用于获取用户相关信息（头像
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { authentication } from '@kit.AccountKit';
@@ -930,13 +852,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { authentication } from '@kit.AccountKit';
@@ -972,13 +888,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { authentication } from '@kit.AccountKit';
@@ -1118,13 +1028,7 @@ constructor(context?: common.Context)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { authentication } from '@kit.AccountKit';
@@ -1181,13 +1085,7 @@ executeRequest(request: AuthenticationRequest, callback: AsyncCallback<Authentic
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { authentication } from '@kit.AccountKit';
@@ -1318,13 +1216,7 @@ executeRequest(request: AuthenticationRequest): Promise<AuthenticationResponse>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { authentication } from '@kit.AccountKit';
@@ -1507,13 +1399,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { authentication } from '@kit.AccountKit';
@@ -1547,13 +1433,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { authentication } from '@kit.AccountKit';
@@ -1626,13 +1506,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { authentication } from '@kit.AccountKit';
@@ -1665,13 +1539,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { authentication } from '@kit.AccountKit';

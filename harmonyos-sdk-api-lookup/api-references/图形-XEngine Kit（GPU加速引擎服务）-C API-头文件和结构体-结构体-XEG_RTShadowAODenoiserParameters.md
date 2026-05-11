@@ -37,13 +37,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. float XEG_RTShadowAODenoiserParameters::ghostingAlpha = 0.0f
@@ -57,13 +51,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. float XEG_RTShadowAODenoiserParameters::positionConstantDistance = 1.0f
@@ -77,13 +65,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint32_t XEG_RTShadowAODenoiserParameters::spatialDenoiseTimes = 2
@@ -97,13 +79,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint32_t XEG_RTShadowAODenoiserParameters::spatialMaxKernelStep = 0
@@ -117,13 +93,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. float XEG_RTShadowAODenoiserParameters::spatialNormalWeight = 1.0f
@@ -137,13 +107,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. float XEG_RTShadowAODenoiserParameters::temporalBlendFactor = 0.075f

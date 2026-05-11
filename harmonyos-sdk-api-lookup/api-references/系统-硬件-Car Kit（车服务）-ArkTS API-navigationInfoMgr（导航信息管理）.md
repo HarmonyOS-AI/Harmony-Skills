@@ -6,13 +6,7 @@
 
 PhoneTablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { navigationInfoMgr } from '@kit.CarKit';
@@ -372,13 +366,7 @@ getNavigationController(): NavigationController
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { navigationInfoMgr } from '@kit.CarKit';
@@ -435,13 +423,7 @@ updateNavigationStatus(navigationStatus: NavigationStatus): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { navigationInfoMgr } from '@kit.CarKit';
@@ -534,13 +516,7 @@ updateNavigationMetadata(navigationMetadata: NavigationMetadata): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { navigationInfoMgr } from '@kit.CarKit';
@@ -615,13 +591,7 @@ registerSystemNavigationListener(listener: SystemNavigationListener): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { navigationInfoMgr } from '@kit.CarKit';
@@ -695,13 +665,7 @@ unregisterSystemNavigationListener(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { navigationInfoMgr } from '@kit.CarKit';

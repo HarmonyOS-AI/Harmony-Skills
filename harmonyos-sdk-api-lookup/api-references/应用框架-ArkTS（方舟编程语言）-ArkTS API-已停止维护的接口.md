@@ -1,1 +1,0 @@
-* **[@ohos.util.Vector (线性容器Vector)](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-vector)**

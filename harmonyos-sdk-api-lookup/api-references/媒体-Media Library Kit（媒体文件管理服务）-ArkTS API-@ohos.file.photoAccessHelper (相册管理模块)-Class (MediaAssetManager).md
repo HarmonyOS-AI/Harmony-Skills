@@ -9,13 +9,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { photoAccessHelper } from '@kit.MediaLibraryKit';
@@ -71,13 +65,7 @@ static requestImage(context: Context, asset: PhotoAsset, requestOptions: Request
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -168,13 +156,7 @@ static requestImageData(context: Context, asset: PhotoAsset, requestOptions: Req
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -265,13 +247,7 @@ static requestMovingPhoto(context: Context, asset: PhotoAsset, requestOptions: R
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -361,13 +337,7 @@ static requestVideoFile(context: Context, asset: PhotoAsset, requestOptions: Req
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -442,13 +412,7 @@ static cancelRequest(context: Context, requestId: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -507,13 +471,7 @@ static loadMovingPhoto(context: Context, imageFileUri: string, videoFileUri: str
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function example(context: Context) {
@@ -576,13 +534,7 @@ static quickRequestImage(context: Context, asset: PhotoAsset, requestOptions: Re
 
 phAccessHelper的创建请参考[photoAccessHelper.getPhotoAccessHelper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-photoaccesshelper-f#photoaccesshelpergetphotoaccesshelper)的示例使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';

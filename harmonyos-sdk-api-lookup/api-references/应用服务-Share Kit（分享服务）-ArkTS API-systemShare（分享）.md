@@ -11,13 +11,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { systemShare } from '@kit.ShareKit';
@@ -438,13 +432,7 @@ constructor(record: SharedRecord)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { systemShare } from '@kit.ShareKit';
@@ -491,13 +479,7 @@ addRecord(record: SharedRecord): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { systemShare } from '@kit.ShareKit';
@@ -538,13 +520,7 @@ getRecords(): Array<SharedRecord>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { systemShare } from '@kit.ShareKit';
@@ -610,13 +586,7 @@ constructor(data: SharedData)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { systemShare } from '@kit.ShareKit';
@@ -675,13 +645,7 @@ show(context: common.UIAbilityContext, options: ShareControllerOptions): Promise
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { systemShare } from '@kit.ShareKit';
@@ -751,13 +715,7 @@ on(event: 'dismiss', callback: () => void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { systemShare } from '@kit.ShareKit';
@@ -813,13 +771,7 @@ off(event: 'dismiss', callback: () => void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { systemShare } from '@kit.ShareKit';
@@ -879,13 +831,7 @@ on(type: 'shareCompleted', callback: Callback<ShareOperationResult>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { systemShare } from '@kit.ShareKit';
@@ -939,13 +885,7 @@ off(type: 'shareCompleted', callback?: Callback<ShareOperationResult>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { systemShare } from '@kit.ShareKit';
@@ -1007,13 +947,7 @@ getSharedData(want: Want): Promise<SharedData>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1080,13 +1014,7 @@ getContactInfo(want: Want): Promise<ContactInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1160,13 +1088,7 @@ getWant(data: SharedData, options?: ShareControllerOptions): Promise<Want>
 
 不配置预览模式
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1204,13 +1126,7 @@ getWant(data: SharedData, options?: ShareControllerOptions): Promise<Want>
 
 配置预览模式
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

@@ -10,13 +10,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fido2 } from '@kit.OnlineAuthenticationKit';
@@ -754,13 +748,7 @@ getClientCapabilities(context: common.Context): Promise<Map<ClientCapability, bo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -822,13 +810,7 @@ getPlatformAuthenticators(context: common.Context): Promise<Array<AuthenticatorM
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -903,13 +885,7 @@ register(context: common.Context, options: CredentialCreationOptions, tokenBindi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -993,13 +969,7 @@ authenticate(context: common.Context, options: CredentialRequestOptions, tokenBi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';

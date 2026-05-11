@@ -23,13 +23,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { taskpool } from '@kit.ArkTS';
@@ -78,13 +72,7 @@ execute(func: Function, ...args: Object[]): Promise<Object>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Concurrent
@@ -141,13 +129,7 @@ execute<A extends Array<Object>, R>(func: (...args: A) => R | Promise<R>, ...arg
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Concurrent
@@ -224,13 +206,7 @@ execute(task: Task, priority?: Priority): Promise<Object>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Concurrent
@@ -312,13 +288,7 @@ execute(task: Task, configs: Configs): Promise<Object>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Concurrent
@@ -391,13 +361,7 @@ execute任务的校验是结合new GenericsTask一起用的，参数、返回值
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Concurrent
@@ -481,13 +445,7 @@ execute任务的校验是结合new GenericsTask一起用的，参数、返回值
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Concurrent
@@ -555,13 +513,7 @@ execute(group: TaskGroup, priority?: Priority): Promise<Object[]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Concurrent
@@ -640,13 +592,7 @@ configs配置里可以指定任务组执行的超时时间和优先级。指定�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Concurrent
@@ -720,13 +666,7 @@ executeDelayed(delayTime: number, task: Task, priority?: Priority): Promise<Obje
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // import BusinessError
@@ -794,13 +734,7 @@ executeDelayed任务的校验是结合new GenericsTask一起用的，参数、�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // import BusinessError
@@ -859,13 +793,7 @@ executePeriodically(period: number, task: Task, priority?: Priority): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Concurrent
@@ -947,13 +875,7 @@ executePeriodically任务的校验是结合new GenericsTask一起用的，参数
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Concurrent
@@ -1031,13 +953,7 @@ cancel(task: Task): void
 
 **正在执行的任务取消示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1127,13 +1043,7 @@ cancel(group: TaskGroup): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1208,13 +1118,7 @@ cancel(taskId: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1288,13 +1192,7 @@ terminateTask(longTask: LongTask): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Concurrent
@@ -1358,13 +1256,7 @@ isConcurrent(func: Function): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Concurrent
@@ -1396,13 +1288,7 @@ getTaskPoolInfo(): TaskPoolInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let taskpoolInfo: taskpool.TaskPoolInfo = taskpool.getTaskPoolInfo();
@@ -1445,13 +1331,7 @@ getTask(taskId: number, taskName?: string): Task | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { taskpool } from '@kit.ArkTS';
@@ -1507,13 +1387,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Concurrent
@@ -1607,13 +1481,7 @@ Task的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Concurrent
@@ -1660,13 +1528,7 @@ Task的构造函数用于创建任务，并可指定任务名称。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Concurrent
@@ -1702,13 +1564,7 @@ static isCanceled(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Concurrent
@@ -1730,13 +1586,7 @@ isCanceled方法需要和taskpool.cancel方法搭配使用，如果不调用canc
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1807,13 +1657,7 @@ setTransferList(transfer?: ArrayBuffer[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Concurrent
@@ -1885,13 +1729,7 @@ setCloneList(cloneList: Object[] | ArrayBuffer[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // sendable.ets
@@ -1947,13 +1785,7 @@ setCloneList(cloneList: Object[] | ArrayBuffer[]): void
 51. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // index.ets
@@ -2071,13 +1903,7 @@ static sendData(...args: Object[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Concurrent
@@ -2104,13 +1930,7 @@ static sendData(...args: Object[]): void
 22. taskpoolTest();
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 异步函数中调用该方法
@@ -2178,13 +1998,7 @@ onReceiveData(callback?: Function): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Concurrent
@@ -2246,13 +2060,7 @@ addDependency(...tasks: Task[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Concurrent
@@ -2320,13 +2128,7 @@ removeDependency(...tasks: Task[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Concurrent
@@ -2396,13 +2198,7 @@ onEnqueued(callback: CallbackFunction): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { taskpool } from '@kit.ArkTS';
@@ -2458,13 +2254,7 @@ onStartExecution(callback: CallbackFunction): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { taskpool } from '@kit.ArkTS';
@@ -2520,13 +2310,7 @@ onExecutionFailed(callback: CallbackFunctionWithError): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { taskpool } from '@kit.ArkTS';
@@ -2588,13 +2372,7 @@ onExecutionSucceeded(callback: CallbackFunction): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { taskpool } from '@kit.ArkTS';
@@ -2639,13 +2417,7 @@ isDone(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2726,13 +2498,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Concurrent
@@ -2788,13 +2554,7 @@ GenericsTask的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Concurrent
@@ -2855,13 +2615,7 @@ GenericsTask的构造函数，可以指定任务名称。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Concurrent
@@ -2895,13 +2649,7 @@ TaskGroup的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let taskGroup = new taskpool.TaskGroup();
@@ -2939,13 +2687,7 @@ TaskGroup的构造函数，支持指定任务组名称。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let taskGroupName: string = "groupName";
@@ -2987,13 +2729,7 @@ addTask(func: Function, ...args: Object[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Concurrent
@@ -3041,13 +2777,7 @@ addTask(task: Task): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Concurrent
@@ -3113,13 +2843,7 @@ SequenceRunner的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let runner: taskpool.SequenceRunner = new taskpool.SequenceRunner();
@@ -3163,13 +2887,7 @@ SequenceRunner的构造函数。构造一个全局串行队列，如果名字相
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let runner:taskpool.SequenceRunner = new taskpool.SequenceRunner("runner1", taskpool.Priority.LOW);
@@ -3224,13 +2942,7 @@ execute(task: Task): Promise<Object>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Concurrent
@@ -3308,13 +3020,7 @@ AsyncRunner的构造函数。构造一个非全局的异步队列，如果参数
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let runner: taskpool.AsyncRunner = new taskpool.AsyncRunner(5);
@@ -3359,13 +3065,7 @@ AsyncRunner的构造函数用于构造一个全局异步队列。如果队列名
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let runner:taskpool.AsyncRunner = new taskpool.AsyncRunner("runner1", 5, 5);
@@ -3426,13 +3126,7 @@ execute(task: Task, priority?: Priority): Promise<Object>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { taskpool } from '@kit.ArkTS';
@@ -3588,13 +3282,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { taskpool } from '@kit.ArkTS';
@@ -3694,13 +3382,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例一**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 支持普通函数、引用入参传递
@@ -3723,26 +3405,14 @@ PhonePC/2in1TabletTVWearable
 
 **示例二**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // b.ets
 2. export let c: string = "hello";
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 引用import变量
@@ -3770,13 +3440,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例三**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3803,13 +3467,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例四**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // c.ets
@@ -3839,13 +3497,7 @@ PhonePC/2in1TabletTVWearable
 25. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // index.ets
@@ -3857,13 +3509,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例五**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3911,13 +3557,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例六**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3963,13 +3603,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例七**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 待执行的任务组取消成功
@@ -4018,13 +3652,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例八**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 分别创建执行100个高、中、低优先级的任务，查看其各项信息

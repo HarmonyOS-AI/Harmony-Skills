@@ -8,13 +8,7 @@ MDNS即多播DNS（Multicast DNS），提供局域网内的本地服务添加、
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { mdns } from '@kit.NetworkKit';
@@ -65,13 +59,7 @@ addLocalService(context: Context, serviceInfo: LocalServiceInfo, callback: Async
 
 Stage模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { mdns } from '@kit.NetworkKit';
@@ -149,13 +137,7 @@ addLocalService(context: Context, serviceInfo: LocalServiceInfo): Promise<LocalS
 
 Stage模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { mdns } from '@kit.NetworkKit';
@@ -225,13 +207,7 @@ removeLocalService(context: Context, serviceInfo: LocalServiceInfo, callback: As
 
 Stage模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { mdns } from '@kit.NetworkKit';
@@ -309,13 +285,7 @@ removeLocalService(context: Context, serviceInfo: LocalServiceInfo): Promise<Loc
 
 Stage模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { mdns } from '@kit.NetworkKit';
@@ -386,13 +356,7 @@ createDiscoveryService(context: Context, serviceType: string): DiscoveryService
 
 Stage模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { mdns } from '@kit.NetworkKit';
@@ -451,13 +415,7 @@ resolveLocalService(context: Context, serviceInfo: LocalServiceInfo, callback: A
 
 Stage模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { mdns } from '@kit.NetworkKit';
@@ -535,13 +493,7 @@ resolveLocalService(context: Context, serviceInfo: LocalServiceInfo): Promise<Lo
 
 Stage模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { mdns } from '@kit.NetworkKit';
@@ -592,13 +544,7 @@ startSearchingMDNS(): void
 
 Stage模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { mdns } from '@kit.NetworkKit';
@@ -632,13 +578,7 @@ stopSearchingMDNS(): void
 
 Stage模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { mdns } from '@kit.NetworkKit';
@@ -679,13 +619,7 @@ on(type: 'discoveryStart', callback: Callback<DiscoveryEventInfo>): void
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { mdns } from '@kit.NetworkKit';
@@ -732,13 +666,7 @@ off(type: 'discoveryStart', callback?: Callback<DiscoveryEventInfo>): void
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { mdns } from '@kit.NetworkKit';
@@ -789,13 +717,7 @@ on(type: 'discoveryStop', callback: Callback<DiscoveryEventInfo>): void
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { mdns } from '@kit.NetworkKit';
@@ -842,13 +764,7 @@ off(type: 'discoveryStop', callback?: Callback<[DiscoveryEventInfo](/consumer/cn
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { mdns } from '@kit.NetworkKit';
@@ -899,13 +815,7 @@ on(type: 'serviceFound', callback: Callback<LocalServiceInfo>): void
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { mdns } from '@kit.NetworkKit';
@@ -955,13 +865,7 @@ off(type: 'serviceFound', callback?: Callback<LocalServiceInfo>): void
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { mdns } from '@kit.NetworkKit';
@@ -1015,13 +919,7 @@ on(type: 'serviceLost', callback: Callback<LocalServiceInfo>): void
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { mdns } from '@kit.NetworkKit';
@@ -1068,13 +966,7 @@ off(type: 'serviceLost', callback?: Callback<LocalServiceInfo>): void
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { mdns } from '@kit.NetworkKit';

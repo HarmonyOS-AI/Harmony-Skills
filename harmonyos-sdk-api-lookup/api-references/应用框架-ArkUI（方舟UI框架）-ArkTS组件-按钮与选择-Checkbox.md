@@ -412,13 +412,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置CheckBoxShape实现圆形和圆角方形多选框样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -452,13 +446,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置mark实现自定义多选框的颜色。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -511,13 +499,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[contentModifier](/consumer/cn/doc/harmonyos-references/ts-basic-components-checkbox#contentmodifier12)属性实现了自定义多选框样式的功能，自定义样式实现了一个五边形多选框，如果选中，内部会出现红色三角图案，标题会显示选中字样，如果取消选中，红色三角图案消失，标题会显示非选中字样。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -610,13 +592,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置indicatorBuilder实现选中样式为Text。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -675,13 +651,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过选中Checkbox以及CheckboxGroup多选框来获取选中的信息。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -843,13 +813,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过设置手势事件实现Checkbox滑动多选。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

@@ -6,13 +6,7 @@
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { quickBarManager } from '@kit.DeskTopExtensionKit';
@@ -151,13 +145,7 @@ addCustomCategory(context: common.Context, categoryName: string): Promise<Custom
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { quickBarManager } from '@kit.DeskTopExtensionKit';
@@ -223,13 +211,7 @@ addQuickTask(context: common.Context, categoryId: number, taskInfo: QuickTaskInf
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { quickBarManager } from '@kit.DeskTopExtensionKit';
@@ -318,13 +300,7 @@ getCustomCategories(context: common.Context): Promise<CustomCategory[]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { quickBarManager } from '@kit.DeskTopExtensionKit';
@@ -388,13 +364,7 @@ getTasksFromCategory(context: common.Context, categoryId: number): Promise<Quick
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { quickBarManager } from '@kit.DeskTopExtensionKit';
@@ -462,13 +432,7 @@ updateCustomCategory(context: common.Context, category: CustomCategory): Promise
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { quickBarManager } from '@kit.DeskTopExtensionKit';
@@ -536,13 +500,7 @@ updateQuickTask(context: common.Context, task: QuickTask): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { quickBarManager } from '@kit.DeskTopExtensionKit';
@@ -635,13 +593,7 @@ deleteQuickTask(context: common.Context, taskId: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { quickBarManager } from '@kit.DeskTopExtensionKit';
@@ -704,13 +656,7 @@ deleteCustomCategory(context: common.Context, categoryId: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { quickBarManager } from '@kit.DeskTopExtensionKit';
@@ -774,13 +720,7 @@ addQuickBarGroup(context: common.Context, group: QuickBarGroup): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { quickBarManager } from '@kit.DeskTopExtensionKit';
@@ -845,13 +785,7 @@ deleteQuickBarGroup(context: common.Context, groupKey: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { quickBarManager } from '@kit.DeskTopExtensionKit';
@@ -904,13 +838,7 @@ getQuickBarGroups(context: common.Context): Promise<QuickBarGroup[]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { quickBarManager } from '@kit.DeskTopExtensionKit';
@@ -966,13 +894,7 @@ setWindowToGroup(context: common.Context, windowid: string, groupKey?: string): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { quickBarManager } from '@kit.DeskTopExtensionKit';

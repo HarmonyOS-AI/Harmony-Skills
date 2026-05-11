@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearableLite Wearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -1137,13 +1131,7 @@ API version 9-11系统能力为SystemCapability.Security.CryptoFramework；从AP
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -1180,13 +1168,7 @@ API version 9-11系统能力为SystemCapability.Security.CryptoFramework；从AP
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -1255,13 +1237,7 @@ API version 10-11系统能力为SystemCapability.Security.CryptoFramework；从A
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -1348,13 +1324,7 @@ getEncodedDer(format: string): DataBlob
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -1412,13 +1382,7 @@ getEncodedPem(format: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -1463,13 +1427,7 @@ API version 9-11系统能力为SystemCapability.Security.CryptoFramework；从AP
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -1532,13 +1490,7 @@ API version 10-11系统能力为SystemCapability.Security.CryptoFramework；从A
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -1624,13 +1576,7 @@ getEncodedDer(format: string): DataBlob
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -1689,13 +1635,7 @@ getEncodedPem(format: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -1770,13 +1710,7 @@ getEncodedPem(format: string, config: KeyEncodingConfig): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -1845,13 +1779,7 @@ getPubKey(): Promise<PubKey>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -1955,13 +1883,7 @@ getPubKeySync(): PubKey
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -2107,13 +2029,7 @@ API version 9-11系统能力为SystemCapability.Security.CryptoFramework；从AP
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -2187,13 +2103,7 @@ API version 9-11系统能力为SystemCapability.Security.CryptoFramework；从AP
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -2242,13 +2152,7 @@ API version 9-11系统能力为SystemCapability.Security.CryptoFramework；从AP
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -2305,13 +2209,7 @@ generateSymKeySync(): SymKey
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -2370,13 +2268,7 @@ API version 9-11系统能力为SystemCapability.Security.CryptoFramework；从AP
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -2444,13 +2336,7 @@ API version 9-11系统能力为SystemCapability.Security.CryptoFramework；从AP
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -2524,13 +2410,7 @@ convertKeySync(key: DataBlob): SymKey
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -2595,13 +2475,7 @@ API version 9-11系统能力为SystemCapability.Security.CryptoFramework；从AP
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -2667,13 +2541,7 @@ API version 9-11系统能力为SystemCapability.Security.CryptoFramework；从AP
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -2724,13 +2592,7 @@ API version 9-11系统能力为SystemCapability.Security.CryptoFramework；从AP
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -2779,13 +2641,7 @@ generateKeyPairSync(): KeyPair
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -2841,13 +2697,7 @@ API version 9-11系统能力为SystemCapability.Security.CryptoFramework；从AP
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -2917,13 +2767,7 @@ API version 9-11系统能力为SystemCapability.Security.CryptoFramework；从AP
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -2991,13 +2835,7 @@ convertKeySync(pubKey: DataBlob | null, priKey: DataBlob | null): KeyPair
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -3074,13 +2912,7 @@ convertPemKey(pubKey: string | null, priKey: string | null): Promise<KeyPair>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -3171,13 +3003,7 @@ convertPemKey(pubKey: string | null, priKey: string | null, password: string): P
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -3260,13 +3086,7 @@ convertPemKeySync接口与convertPemKey接口注意事项相同，见[convertPem
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -3357,13 +3177,7 @@ convertPemKeySync接口与convertPemKey接口注意事项相同，见[convertPem
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -3446,13 +3260,7 @@ API version 10-11系统能力为SystemCapability.Security.CryptoFramework；从A
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -3546,13 +3354,7 @@ API version 10-11系统能力为SystemCapability.Security.CryptoFramework；从A
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -3633,13 +3435,7 @@ API version 10-11系统能力为SystemCapability.Security.CryptoFramework；从A
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -3718,13 +3514,7 @@ generateKeyPairSync(): KeyPair
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -3810,13 +3600,7 @@ API version 10-11系统能力为SystemCapability.Security.CryptoFramework；从A
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -3897,13 +3681,7 @@ API version 10-11系统能力为SystemCapability.Security.CryptoFramework；从A
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -3982,13 +3760,7 @@ generatePriKeySync(): PriKey
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -4072,13 +3844,7 @@ API version10-11系统能力为SystemCapability.Security.CryptoFramework；从AP
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -4159,13 +3925,7 @@ API version 10-11系统能力为SystemCapability.Security.CryptoFramework；从A
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -4244,13 +4004,7 @@ generatePubKeySync(): PubKey
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -4346,13 +4100,7 @@ API version 11系统能力为SystemCapability.Security.CryptoFramework；从API 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -4416,13 +4164,7 @@ static convertPoint(curveName: string, encodedPoint: Uint8Array): Point
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -4480,13 +4222,7 @@ static getEncodedPoint(curveName: string, point: Point, format: string): Uint8Ar
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -4560,13 +4296,7 @@ API version 11系统能力为SystemCapability.Security.CryptoFramework；从API 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -4629,13 +4359,7 @@ static genCipherTextBySpec(spec: SM2CipherTextSpec, mode?: string): DataBlob
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -4698,13 +4422,7 @@ static getCipherTextSpec(cipherText: DataBlob, mode?: string): SM2CipherTextSpec
 | 17620001 | memory operation failed. |
 | 17630001 | crypto operation error. |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -4777,13 +4495,7 @@ API version 9-11系统能力为SystemCapability.Security.CryptoFramework；从AP
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -5183,13 +4895,7 @@ API version 9-11系统能力为SystemCapability.Security.CryptoFramework；从AP
 
 更多加解密流程的完整示例请参考[加解密开发指导](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-aes-sym-encrypt-decrypt-gcm)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -5311,13 +5017,7 @@ API version 9-11系统能力为SystemCapability.Security.CryptoFramework；从AP
 
 此外，更多加解密流程的完整示例可参考[加解密开发指导](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-aes-sym-encrypt-decrypt-gcm)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -5421,13 +5121,7 @@ doFinalSync(data: DataBlob | null): DataBlob
 
 此外，更多加解密流程的完整示例可参考[加解密开发指导](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-aes-sym-encrypt-decrypt-gcm)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -5511,13 +5205,7 @@ API version 10-11系统能力为SystemCapability.Security.CryptoFramework；从A
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -5575,13 +5263,7 @@ API version 10-11系统能力为SystemCapability.Security.CryptoFramework；从A
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -5637,13 +5319,7 @@ API version 9-11系统能力为SystemCapability.Security.CryptoFramework；从AP
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -6089,13 +5765,7 @@ signSync(data: DataBlob | null): DataBlob
 
 此外，更多签名验签的完整示例可参考[签名验签开发指导](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-rsa-sign-sig-verify-pkcs1)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -6161,13 +5831,7 @@ signSync(data: DataBlob | null): DataBlob
 
 此外，更多签名验签的完整示例可参考[签名验签开发指导](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-rsa-sign-sig-verify-pkcs1)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -6235,13 +5899,7 @@ signSync(data: DataBlob | null): DataBlob
 
 此外，更多签名验签的完整示例可参考[签名验签开发指导](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-rsa-sign-sig-verify-pkcs1)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -6347,13 +6005,7 @@ API version 10-11系统能力为SystemCapability.Security.CryptoFramework；从A
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -6410,13 +6062,7 @@ API version 10-11系统能力为SystemCapability.Security.CryptoFramework；从A
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -6473,13 +6119,7 @@ API version 9-11系统能力为SystemCapability.Security.CryptoFramework；从AP
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -6910,13 +6550,7 @@ verifySync(data: DataBlob | null, signatureData: DataBlob): boolean
 
 此外，更多签名验签的完整示例可参考[签名验签开发指导](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-rsa-sign-sig-verify-pkcs1)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -6992,13 +6626,7 @@ verifySync(data: DataBlob | null, signatureData: DataBlob): boolean
 
 更多示例请参见[签名验签开发指导](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-rsa-sign-sig-verify-pkcs1)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -7076,13 +6704,7 @@ verifySync(data: DataBlob | null, signatureData: DataBlob): boolean
 
 此外，更多签名验签的完整示例可参考[签名验签开发指导](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-rsa-sign-sig-verify-pkcs1)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -7203,13 +6825,7 @@ recover(signatureData: DataBlob): Promise<DataBlob | null>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -7376,13 +6992,7 @@ API version 10-11系统能力为SystemCapability.Security.CryptoFramework；从A
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -7441,13 +7051,7 @@ API version 10-11系统能力为SystemCapability.Security.CryptoFramework；从A
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -7504,13 +7108,7 @@ API version 9-11系统能力为SystemCapability.Security.CryptoFramework；从AP
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -7665,13 +7263,7 @@ generateSecretSync(priKey: PriKey, pubKey: PubKey): DataBlob
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -7692,13 +7284,7 @@ generateSecretSync(priKey: PriKey, pubKey: PubKey): DataBlob
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -7719,13 +7305,7 @@ generateSecretSync(priKey: PriKey, pubKey: PubKey): DataBlob
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -7784,13 +7364,7 @@ API version 9-11系统能力为SystemCapability.Security.CryptoFramework；从AP
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -7988,13 +7562,7 @@ API version 9-11系统能力为SystemCapability.Security.CryptoFramework；从AP
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -8048,13 +7616,7 @@ API version 9-11系统能力为SystemCapability.Security.CryptoFramework；从AP
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -8104,13 +7666,7 @@ digestSync(): DataBlob
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -8159,13 +7715,7 @@ API version 9-11系统能力为SystemCapability.Security.CryptoFramework；从AP
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -8221,13 +7771,7 @@ API version 9-11系统能力为SystemCapability.Security.CryptoFramework；从AP
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -8287,13 +7831,7 @@ createMac(macSpec: MacSpec): Mac
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -8607,13 +8145,7 @@ API version 9-11系统能力为SystemCapability.Security.CryptoFramework；从AP
 
 此外，更多HMAC的完整示例可参考开发指导中[消息认证码计算](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-compute-hmac#分段hmac)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -8673,13 +8205,7 @@ API version 9-11系统能力为SystemCapability.Security.CryptoFramework；从AP
 
 此外，更多HMAC的完整示例可参考开发指导[消息认证码计算](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-compute-hmac#分段hmac)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -8735,13 +8261,7 @@ doFinalSync(): DataBlob
 
 此外，更多HMAC的完整示例可参考开发指导[消息认证码计算](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/crypto-compute-hmac#分段hmac)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -8794,13 +8314,7 @@ API version 9-11系统能力为SystemCapability.Security.CryptoFramework；从AP
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -8871,13 +8385,7 @@ API version 9-11系统能力为SystemCapability.Security.CryptoFramework；从AP
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -8952,13 +8460,7 @@ API version 9-11系统能力为SystemCapability.Security.CryptoFramework；从AP
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -9019,13 +8521,7 @@ API version 9-11系统能力为SystemCapability.Security.CryptoFramework；从AP
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -9084,13 +8580,7 @@ API version 10-11系统能力为SystemCapability.Security.CryptoFramework；从A
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -9137,13 +8627,7 @@ enableHardwareEntropy(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -9200,13 +8684,7 @@ API version 9-11系统能力为SystemCapability.Security.CryptoFramework；从AP
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -9274,13 +8752,7 @@ API version 11系统能力为SystemCapability.Security.CryptoFramework；从API 
 
 * PBKDF2算法
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -9350,13 +8822,7 @@ API version 11系统能力为SystemCapability.Security.CryptoFramework；从API 
 
 * PBKDF2算法
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -9379,13 +8845,7 @@ API version 11系统能力为SystemCapability.Security.CryptoFramework；从API 
   ```
 * HKDF算法
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -9454,13 +8914,7 @@ API version 11系统能力为SystemCapability.Security.CryptoFramework；从API 
 
 * PBKDF2算法
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -9483,13 +8937,7 @@ API version 11系统能力为SystemCapability.Security.CryptoFramework；从API 
   ```
 * HKDF算法
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -9557,13 +9005,7 @@ generateSecretSync(params: KdfSpec): DataBlob
 
 * PBKDF2算法
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -9581,13 +9023,7 @@ generateSecretSync(params: KdfSpec): DataBlob
   ```
 * HKDF算法
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -9653,13 +9089,7 @@ static genEccSignatureSpec(data: Uint8Array): EccSignatureSpec
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';
@@ -9723,13 +9153,7 @@ static genEccSignature(spec: EccSignatureSpec): Uint8Array;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';

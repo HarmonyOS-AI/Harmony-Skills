@@ -46,13 +46,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 24开始，新增[enableClickSoundEffect](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-click-sound#enableclicksoundeffect)属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry

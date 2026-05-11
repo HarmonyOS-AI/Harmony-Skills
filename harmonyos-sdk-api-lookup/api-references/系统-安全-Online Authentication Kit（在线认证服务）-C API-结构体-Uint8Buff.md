@@ -21,13 +21,7 @@
 
 ### length
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint32_t Uint8Buff::length
@@ -39,13 +33,7 @@
 
 ### val
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint8_t* Uint8Buff::val

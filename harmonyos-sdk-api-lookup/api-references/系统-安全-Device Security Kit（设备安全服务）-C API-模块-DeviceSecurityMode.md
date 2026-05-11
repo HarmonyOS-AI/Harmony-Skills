@@ -60,13 +60,7 @@ PhonePC/2in1TabletWearable
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef enum DSM_DeviceSecurityMode DSM_DeviceSecurityMode
@@ -86,13 +80,7 @@ PhonePC/2in1TabletWearable
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum DSM_DeviceSecurityMode
@@ -119,13 +107,7 @@ PhonePC/2in1TabletWearable
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. DSM_DeviceSecurityMode HMS_DSM_GetDeviceSecurityMode(void)

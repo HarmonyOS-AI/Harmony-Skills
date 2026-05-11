@@ -307,13 +307,7 @@ PhonePC/2in1TabletTVWearable
 
 通过fillOpacity、stroke、strokeDashArray属性可分别设置圆的透明度、边框颜色和边框间隙样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -343,13 +337,7 @@ PhonePC/2in1TabletTVWearable
 
 width、height属性分别使用不同的长度类型绘制圆。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -375,13 +363,7 @@ width、height属性分别使用不同的长度类型绘制圆。
 
 以下示例展示了如何使用attributeModifier动态设置Circle组件的fill、fillOpacity、stroke、strokeDashArray、strokeDashOffset、strokeLineCap、strokeOpacity、strokeWidth和antiAlias属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

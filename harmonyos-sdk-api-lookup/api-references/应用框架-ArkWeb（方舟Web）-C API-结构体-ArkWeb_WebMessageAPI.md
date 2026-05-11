@@ -1,10 +1,4 @@
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct {...} ArkWeb_WebMessageAPI
@@ -59,13 +53,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ArkWeb_WebMessagePtr (*createWebMessage)()
@@ -87,13 +75,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void (*destroyWebMessage)(ArkWeb_WebMessagePtr* webMessage)
@@ -115,13 +97,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void (*setType)(ArkWeb_WebMessagePtr webMessage, ArkWeb_WebMessageType type)
@@ -144,13 +120,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ArkWeb_WebMessageType (*getType)(ArkWeb_WebMessagePtr webMessage)
@@ -172,13 +142,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void (*setData)(ArkWeb_WebMessagePtr webMessage, void* data, size_t dataLength)
@@ -202,13 +166,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void* (*getData)(ArkWeb_WebMessagePtr webMessage, size_t* dataLength)

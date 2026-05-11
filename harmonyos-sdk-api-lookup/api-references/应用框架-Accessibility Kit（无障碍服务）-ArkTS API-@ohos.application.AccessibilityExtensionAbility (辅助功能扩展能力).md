@@ -8,13 +8,7 @@ AccessibilityExtensionAbility基于ExtensionAbility框架，提供辅助功能�
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AccessibilityExtensionAbility } from '@kit.AccessibilityKit';
@@ -79,13 +73,7 @@ type AccessibilityElement = \_AccessibilityElement
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AccessibilityElement } from '@kit.AccessibilityKit';
@@ -111,13 +99,7 @@ type ElementAttributeValues = \_ElementAttributeValues
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ElementAttributeValues } from '@kit.AccessibilityKit';
@@ -143,13 +125,7 @@ type FocusDirection = \_FocusDirection
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FocusDirection } from '@kit.AccessibilityKit';
@@ -175,13 +151,7 @@ type ElementAttributeKeys = keyof ElementAttributeValues
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ElementAttributeKeys } from '@kit.AccessibilityKit';
@@ -207,13 +177,7 @@ type FocusType = \_FocusType
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FocusType } from '@kit.AccessibilityKit';
@@ -239,13 +203,7 @@ type WindowType = \_WindowType
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { WindowType } from '@kit.AccessibilityKit';
@@ -271,13 +229,7 @@ type Rect = \_Rect
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Rect } from '@kit.AccessibilityKit';
@@ -303,13 +255,7 @@ type AccessibilityExtensionContext = \_AccessibilityExtensionContext.default
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AccessibilityExtensionAbility } from '@kit.AccessibilityKit';
@@ -425,13 +371,7 @@ onConnect(): void;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AccessibilityExtensionAbility } from '@kit.AccessibilityKit';
@@ -459,13 +399,7 @@ onDisconnect(): void;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AccessibilityExtensionAbility } from '@kit.AccessibilityKit';
@@ -501,13 +435,7 @@ onAccessibilityEvent(event: AccessibilityEvent): void;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AccessibilityExtensionAbility, AccessibilityEvent } from '@kit.AccessibilityKit';
@@ -554,13 +482,7 @@ onKeyEvent(keyEvent: KeyEvent): boolean;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AccessibilityExtensionAbility } from '@kit.AccessibilityKit';

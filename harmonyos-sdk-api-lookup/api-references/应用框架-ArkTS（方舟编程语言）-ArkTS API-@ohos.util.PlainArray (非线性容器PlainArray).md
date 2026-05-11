@@ -20,13 +20,7 @@ PlainArray和[LightWeightMap](https://developer.huawei.com/consumer/cn/doc/harmo
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PlainArray } from '@kit.ArkTS';
@@ -74,13 +68,7 @@ PlainArray的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let plainArray = new PlainArray<string>();
@@ -118,13 +106,7 @@ isEmpty(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const plainArray = new PlainArray<string>();
@@ -173,13 +155,7 @@ has(key: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let plainArray = new PlainArray<string>();
@@ -229,13 +205,7 @@ get(key: number): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let plainArray = new PlainArray<string>();
@@ -286,13 +256,7 @@ getIndexOfKey(key: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let plainArray = new PlainArray<string>();
@@ -342,13 +306,7 @@ getIndexOfValue(value: T): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let plainArray = new PlainArray<string>();
@@ -399,13 +357,7 @@ getKeyAt(index: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let plainArray = new PlainArray<string>();
@@ -457,13 +409,7 @@ getValueAt(index: number): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let plainArray = new PlainArray<string>();
@@ -505,13 +451,7 @@ clone(): PlainArray<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let plainArray = new PlainArray<string>();
@@ -555,13 +495,7 @@ add(key: number, value: T): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let plainArray = new PlainArray<string>();
@@ -610,13 +544,7 @@ remove(key: number): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let plainArray = new PlainArray<string>();
@@ -667,13 +595,7 @@ removeAt(index: number): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let plainArray = new PlainArray<string>();
@@ -726,13 +648,7 @@ removeRangeFrom(index: number, size: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let plainArray = new PlainArray<string>();
@@ -777,13 +693,7 @@ setValueAt(index: number, value: T): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let plainArray = new PlainArray<string | number>();
@@ -826,13 +736,7 @@ toString(): String
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let plainArray = new PlainArray<string>();
@@ -866,13 +770,7 @@ clear(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let plainArray = new PlainArray<string>();
@@ -927,13 +825,7 @@ callbackFn的参数说明：
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let plainArray = new PlainArray<string>();
@@ -946,13 +838,7 @@ callbackFn的参数说明：
 8. // value:sparrow index:2
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 不建议在forEach中使用add、remove、removeAt方法，因其可能导致迭代过程中的状态异常，建议使用for循环来进行安全的插入与删除操作。
@@ -998,13 +884,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let plainArray = new PlainArray<string>();
@@ -1018,13 +898,7 @@ PhonePC/2in1TabletTVWearable
 9. // value:sparrow index:2
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 不建议在Symbol.iterator中使用add、remove、removeAt方法，会导致死循环等不可预知的风险，可使用for循环来进行插入和删除。

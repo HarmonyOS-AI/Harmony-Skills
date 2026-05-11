@@ -6,13 +6,7 @@
 
 Phone
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { walletTransitCard } from '@kit.WalletKit';
@@ -55,13 +49,7 @@ constructor(context: common.UIAbilityContext, callerId: string)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -134,13 +122,7 @@ getCardMetadataInDevice(specifiedDeviceType: DeviceType, callerToken?: string): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -224,13 +206,7 @@ getTransitCardInfo(logicalCardNumber: string, specifiedDeviceId: string, callerT
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -324,13 +300,7 @@ canAddTransitCard(issuerId: string, specifiedDeviceId: string): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -402,13 +372,7 @@ setupWalletEnvironment(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -490,13 +454,7 @@ addTransitCard(addCardOpaqueData: string, serverOrderId: string): Promise<CardMe
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -585,13 +543,7 @@ rechargeTransitCard(logicalCardNumber: string, specifiedDeviceId: string, server
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -682,13 +634,7 @@ updateTransitCard(logicalCardNumber: string, specifiedDeviceId: string, serverOr
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -777,13 +723,7 @@ deleteTransitCard(logicalCardNumber: string, specifiedDeviceId: string, serverOr
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';

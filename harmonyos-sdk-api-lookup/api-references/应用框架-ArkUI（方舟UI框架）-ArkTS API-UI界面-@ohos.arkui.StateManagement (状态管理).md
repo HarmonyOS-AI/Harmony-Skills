@@ -17,13 +17,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AppStorageV2, PersistenceV2, UIUtils } from '@kit.ArkUI';
@@ -85,13 +79,7 @@ defaultCreator?: StorageDefaultCreator<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AppStorageV2 } from '@kit.ArkUI';
@@ -137,13 +125,7 @@ static remove<T>(keyOrType: string | TypeConstructorWithArgs<T>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 假设AppStorageV2中存在key为key_as2的键，从AppStorageV2中删除该键值对数据
@@ -182,13 +164,7 @@ key在Array中的顺序是无序的，与key插入到AppStorageV2中的顺序无
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 假设AppStorageV2中存在两个key（key_as1、key_as2），返回[key_as1、key_as2]赋值给keys
@@ -253,13 +229,7 @@ static globalConnect<T extends object>(type: ConnectOptions<T>): T | undefined
 
 仅供开发者了解globalConnect用法，完整使用需开发者自己写出@Entry组件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PersistenceV2, Type } from '@kit.ArkUI';
@@ -331,13 +301,7 @@ type: ConnectOptionsCollections<T, S> | ConnectOptions<T>
 
 当globalConnect持久化Array<ClassA>类型的数据时，开发者需要使用defaultSubCreator选项去告诉状态管理框架创建ClassA类的一个实例。如下是globalConnect持久化Array<ClassA>类型的数据的示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class ClassA {
@@ -371,13 +335,7 @@ type: ConnectOptionsCollections<T, S> | ConnectOptions<T>
 
 如下展示globalConnect持久化Map类型的示例代码：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PersistenceV2, ConnectOptions } from '@kit.ArkUI';
@@ -443,13 +401,7 @@ static save<T>(keyOrType: string | TypeConstructorWithArgs<T>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @ObservedV2
@@ -489,13 +441,7 @@ static notifyOnError(callback: PersistenceErrorCallback | undefined): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 持久化失败时调用
@@ -546,13 +492,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class ClassA {
@@ -577,13 +517,7 @@ PhonePC/2in1TabletTVWearable
 
 当StorageDefaultCreator<S>返回值为undefined或null时，持久化会失败。当StorageDefaultCreator<S>直接设置为undefined或null时,状态管理框架会按照原始的类型（如Object类型）进行持久化，但是会丢失class对象中的方法。在如下示例中，StorageDefaultCreator<S>直接被设置为undefined或null时，持久化过程中ClassA对象中的report方法将被丢失。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PersistenceV2, UIUtils } from '@kit.ArkUI';
@@ -765,13 +699,7 @@ static getTarget<T extends object>(source: T): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIUtils } from '@kit.ArkUI';
@@ -829,13 +757,7 @@ getLifecycle用于获取[自定义组件的生命周期](https://developer.huawe
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIUtils, ComponentAppear } from '@kit.ArkUI';
@@ -890,13 +812,7 @@ static canBeObserved<T extends object>(source: T): ObservedResult
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIUtils } from '@kit.ArkUI';
@@ -1037,13 +953,7 @@ static makeObserved<T extends object>(source: T): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIUtils } from '@kit.ArkUI';
@@ -1103,13 +1013,7 @@ static enableV2Compatibility<T extends object>(source: T): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIUtils } from '@kit.ArkUI';
@@ -1182,13 +1086,7 @@ static makeV1Observed<T extends object>(source: T): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIUtils } from '@kit.ArkUI';
@@ -1264,13 +1162,7 @@ static makeBinding<T>(getter: GetterCallback<T>): Binding<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Binding, MutableBinding, UIUtils } from '@kit.ArkUI';
@@ -1345,13 +1237,7 @@ static makeBinding<T>(getter: GetterCallback<T>, setter: SetterCallback<T>): Mut
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Binding, MutableBinding, UIUtils } from '@kit.ArkUI';
@@ -1441,26 +1327,14 @@ static addMonitor(target: object, path: string | string[], monitorCallback: Moni
 1. 在ObservedClass的构造方法里，添加对name属性的同步监听回调onChange。
 2. 点击Text组件，将name改为Jack和Jane，触发两次onChange回调，打印日志如下。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ObservedClass property name change from Tom to Jack
 2. ObservedClass property name change from Jack to Jane
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIUtils } from '@kit.ArkUI';
@@ -1540,13 +1414,7 @@ static clearMonitor(target: object, path: string | string[], monitorCallback?: M
 1. 在ObservedClass的构造方法中，添加对age属性的同步监听回调onChange。
 2. 点击Text组件，触发age自增，onChange的监听回调函数被触发。打印日志如下。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. ObservedClass property age change from 10 to 11
@@ -1554,13 +1422,7 @@ static clearMonitor(target: object, path: string | string[], monitorCallback?: M
 3. 点击clear monitor，删除age的监听函数onChange。
 4. 再次点击Text组件，触发age自增，onChange不会被触发。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIUtils } from '@kit.ArkUI';
@@ -1645,13 +1507,7 @@ static applySync<T>(task: TaskCallback): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIUtils } from '@kit.ArkUI';
@@ -1722,13 +1578,7 @@ static flushUpdates(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIUtils } from '@kit.ArkUI';
@@ -1798,13 +1648,7 @@ static flushUIUpdates(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIUtils } from '@kit.ArkUI';
@@ -1927,13 +1771,7 @@ type StorageDefaultCreator<T> = () => T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PersistenceV2 } from '@kit.ArkUI';
@@ -2002,13 +1840,7 @@ new(...args: any): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PersistenceV2 } from '@kit.ArkUI';
@@ -2065,13 +1897,7 @@ type PersistenceErrorCallback = (key: string, reason: 'quota' | 'serialization' 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PersistenceV2, Type } from '@kit.ArkUI';
@@ -2141,13 +1967,7 @@ new(): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PersistenceV2, Type } from '@kit.ArkUI';
@@ -2213,13 +2033,7 @@ type TypeDecorator = <T>(type: TypeConstructor<T>) => PropertyDecorator
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PersistenceV2, Type } from '@kit.ArkUI';
@@ -2257,13 +2071,7 @@ type TypeDecorator = <T>(type: TypeConstructor<T>) => PropertyDecorator
 
 在使用@Type装饰嵌套类属性时，仅支持自定义class类型，传入其他类型会持久化失败。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @ObservedV2
@@ -2306,13 +2114,7 @@ type GetterCallback<T> = () => T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Binding, UIUtils } from '@kit.ArkUI';
@@ -2370,13 +2172,7 @@ type SetterCallback<T> = (newValue: T) => void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { MutableBinding, UIUtils } from '@kit.ArkUI';
@@ -2443,13 +2239,7 @@ get value(): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Binding, UIUtils } from '@kit.ArkUI';
@@ -2534,13 +2324,7 @@ get value(): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { MutableBinding, UIUtils } from '@kit.ArkUI';

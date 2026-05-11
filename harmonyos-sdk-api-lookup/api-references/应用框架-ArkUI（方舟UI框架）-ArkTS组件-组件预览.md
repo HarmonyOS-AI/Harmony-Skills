@@ -1,1 +1,0 @@
-* **[组件预览](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-component-previewer)**

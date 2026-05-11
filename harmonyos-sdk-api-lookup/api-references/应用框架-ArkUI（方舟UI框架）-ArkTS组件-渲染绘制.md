@@ -1,3 +1,0 @@
-* **[XComponent](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-basic-components-xcomponent)**
-* **[Component3D](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-basic-components-component3d)**
-* **[EmbeddedComponent](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-container-embedded-component)**

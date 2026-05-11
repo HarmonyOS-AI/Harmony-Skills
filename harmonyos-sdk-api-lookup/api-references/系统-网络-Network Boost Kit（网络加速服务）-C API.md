@@ -1,3 +1,0 @@
-* **[模块](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/network-boost-c-module)**
-* **[头文件](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/network-boost-c-files)**
-* **[结构体](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/network-boost-c-struct)**

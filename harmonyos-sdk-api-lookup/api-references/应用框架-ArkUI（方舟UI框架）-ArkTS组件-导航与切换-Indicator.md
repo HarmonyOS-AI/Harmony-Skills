@@ -277,13 +277,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[Swiper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-container-swiper)组件的[indicator](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-container-swiper#indicator)接口与[IndicatorComponent](/consumer/cn/doc/harmonyos-references/ts-swiper-components-indicator#indicatorcomponent)的构造函数绑定同一[IndicatorComponentController](/consumer/cn/doc/harmonyos-references/ts-swiper-components-indicator#indicatorcomponentcontroller)对象，实现了圆点单独导航点与Swiper的交互。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -350,13 +344,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[Swiper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-container-swiper)组件的[indicator](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-container-swiper#indicator)接口与[IndicatorComponent](/consumer/cn/doc/harmonyos-references/ts-swiper-components-indicator#indicatorcomponent)的构造函数绑定同一[IndicatorComponentController](/consumer/cn/doc/harmonyos-references/ts-swiper-components-indicator#indicatorcomponentcontroller)对象，实现了数字单独导航点与Swiper的交互。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry

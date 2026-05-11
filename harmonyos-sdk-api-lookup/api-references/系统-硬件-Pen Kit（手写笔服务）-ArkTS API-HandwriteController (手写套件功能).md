@@ -10,13 +10,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { HandwriteController } from '@kit.Penkit';
@@ -249,13 +243,7 @@ scrollTo(yOffset: number): void
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { HandwriteController, HandwriteComponent, PenType, PenHspInfo } from '@kit.Penkit';

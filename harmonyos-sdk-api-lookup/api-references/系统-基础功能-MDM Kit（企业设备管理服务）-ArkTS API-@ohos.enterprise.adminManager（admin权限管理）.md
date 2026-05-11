@@ -10,13 +10,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { adminManager } from '@kit.MDMKit';
@@ -72,13 +66,7 @@ disableAdmin(admin: Want, userId?: number): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { adminManager } from '@kit.MDMKit';
@@ -139,13 +127,7 @@ isByodAdmin(admin: Want): boolean
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -203,13 +185,7 @@ subscribeManagedEventSync(admin: Want, managedEvents: Array<ManagedEvent>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { adminManager } from '@kit.MDMKit';
@@ -268,13 +244,7 @@ unsubscribeManagedEventSync(admin: Want, managedEvents: Array<ManagedEvent>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { adminManager } from '@kit.MDMKit';
@@ -335,13 +305,7 @@ setDelegatedPolicies(admin: Want, bundleName: string, policies: Array<string>): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { adminManager } from '@kit.MDMKit';
@@ -410,13 +374,7 @@ getDelegatedPolicies(admin: Want, bundleName: string): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { adminManager } from '@kit.MDMKit';
@@ -483,13 +441,7 @@ getDelegatedBundleNames(admin: Want, policy: string): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { adminManager } from '@kit.MDMKit';
@@ -550,13 +502,7 @@ startAdminProvision(admin: Want, type: AdminType, context: common.Context, param
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { adminManager } from '@kit.MDMKit';
@@ -632,13 +578,7 @@ enableDeviceAdmin(admin: Want): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -704,13 +644,7 @@ disableDeviceAdmin(admin: Want): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';

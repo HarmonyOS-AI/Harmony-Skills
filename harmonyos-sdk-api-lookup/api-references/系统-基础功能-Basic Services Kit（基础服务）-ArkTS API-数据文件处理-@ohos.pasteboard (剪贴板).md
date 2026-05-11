@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pasteboard } from '@kit.BasicServicesKit';
@@ -101,13 +95,7 @@ createData(mimeType: string, value: ValueType): PasteData
 
 **示例1：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let dataXml = new ArrayBuffer(256);
@@ -116,13 +104,7 @@ createData(mimeType: string, value: ValueType): PasteData
 
 **示例2：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let dataText = 'hello';
@@ -167,13 +149,7 @@ createData(data: Record<string, ValueType>): PasteData
 
 **示例1：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pasteData: pasteboard.PasteData = pasteboard.createData({
@@ -184,13 +160,7 @@ createData(data: Record<string, ValueType>): PasteData
 
 **示例2：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let record: Record<string, pasteboard.ValueType> = {};
@@ -240,13 +210,7 @@ createRecord(mimeType: string, value: ValueType): PasteDataRecord
 
 **示例1：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let dataXml = new ArrayBuffer(256);
@@ -255,13 +219,7 @@ createRecord(mimeType: string, value: ValueType): PasteDataRecord
 
 **示例2：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pasteData: pasteboard.PasteData = pasteboard.createData(pasteboard.MIMETYPE_TEXT_PLAIN, 'hello');
@@ -291,13 +249,7 @@ getSystemPasteboard(): SystemPasteboard
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const systemPasteboard: pasteboard.SystemPasteboard = pasteboard.getSystemPasteboard();
@@ -353,13 +305,7 @@ createHtmlData(htmlText: string): PasteData
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let html = "<!DOCTYPE html>\n" + "<html>\n" + "<head>\n" + "<meta charset=\"utf-8\">\n" + "<title>HTML-PASTEBOARD_HTML</title>\n" + "</head>\n" + "<body>\n" + "    <h1>HEAD</h1>\n" + "    <p></p>\n" + "</body>\n" + "</html>";
@@ -398,13 +344,7 @@ createWantData(want: Want): PasteData
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -448,13 +388,7 @@ createPlainTextData(text: string): PasteData
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pasteData: pasteboard.PasteData = pasteboard.createPlainTextData('content');
@@ -492,13 +426,7 @@ createUriData(uri: string): PasteData
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pasteData: pasteboard.PasteData = pasteboard.createUriData('dataability:///com.example.myapplication1/user.txt');
@@ -536,13 +464,7 @@ createHtmlTextRecord(htmlText: string): PasteDataRecord
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let html = "<!DOCTYPE html>\n" + "<html>\n" + "<head>\n" + "<meta charset=\"utf-8\">\n" + "<title>HTML-PASTEBOARD_HTML</title>\n" + "</head>\n" + "<body>\n" + "    <h1>HEAD</h1>\n" + "    <p></p>\n" + "</body>\n" + "</html>";
@@ -581,13 +503,7 @@ createWantRecord(want: Want): PasteDataRecord
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -631,13 +547,7 @@ createPlainTextRecord(text: string): PasteDataRecord
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let record: pasteboard.PasteDataRecord = pasteboard.createPlainTextRecord('hello');
@@ -675,13 +585,7 @@ createUriRecord(uri: string): PasteDataRecord
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let record: pasteboard.PasteDataRecord = pasteboard.createUriRecord('dataability:///com.example.myapplication1/user.txt');
@@ -800,13 +704,7 @@ cancel(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError, pasteboard } from '@kit.BasicServicesKit';
@@ -918,13 +816,7 @@ toPlainText(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let record: pasteboard.PasteDataRecord = pasteboard.createRecord(pasteboard.MIMETYPE_TEXT_HTML, '<html>hello</html>');
@@ -963,13 +855,7 @@ addEntry(type: string, value: ValueType): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let html = "<!DOCTYPE html>\n" + "<html>\n" + "<head>\n" + "<meta charset=\"utf-8\">\n" + "<title>HTML-PASTEBOARD_HTML</title>\n" + "</head>\n" + "<body>\n" + "    <h1>HEAD</h1>\n" + "    <p></p>\n" + "</body>\n" + "</html>";
@@ -1016,13 +902,7 @@ getValidTypes(types: Array<string>): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let html = "<!DOCTYPE html>\n" + "<html>\n" + "<head>\n" + "<meta charset=\"utf-8\">\n" + "<title>HTML-PASTEBOARD_HTML</title>\n" + "</head>\n" + "<body>\n" + "    <h1>HEAD</h1>\n" + "    <p></p>\n" + "</body>\n" + "</html>";
@@ -1076,13 +956,7 @@ getData(type: string): Promise<ValueType>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1139,13 +1013,7 @@ convertToText(callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1184,13 +1052,7 @@ convertToText(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1235,13 +1097,7 @@ getPrimaryText(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1276,13 +1132,7 @@ getPrimaryHtml(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1317,13 +1167,7 @@ getPrimaryWant(): Want
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -1359,13 +1203,7 @@ getPrimaryUri(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1400,13 +1238,7 @@ getPrimaryPixelMap(): image.PixelMap
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from '@kit.ImageKit';
@@ -1448,13 +1280,7 @@ addRecord(record: PasteDataRecord): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pasteData: pasteboard.PasteData = pasteboard.createData(pasteboard.MIMETYPE_TEXT_URI, 'dataability:///com.example.myapplication1/user.txt');
@@ -1499,13 +1325,7 @@ addRecord(mimeType: string, value: ValueType): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pasteData: pasteboard.PasteData = pasteboard.createData(pasteboard.MIMETYPE_TEXT_URI, 'dataability:///com.example.myapplication1/user.txt');
@@ -1535,13 +1355,7 @@ getMimeTypes(): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pasteData: pasteboard.PasteData = pasteboard.createData(pasteboard.MIMETYPE_TEXT_PLAIN, 'hello');
@@ -1570,13 +1384,7 @@ getPrimaryMimeType(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pasteData: pasteboard.PasteData = pasteboard.createData(pasteboard.MIMETYPE_TEXT_PLAIN, 'hello');
@@ -1605,13 +1413,7 @@ getProperty(): PasteDataProperty
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pasteData: pasteboard.PasteData = pasteboard.createData(pasteboard.MIMETYPE_TEXT_PLAIN, 'hello');
@@ -1650,13 +1452,7 @@ setProperty(property: PasteDataProperty): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. type AdditionType = Record<string, Record<string, Object>>;
@@ -1672,13 +1468,7 @@ setProperty(property: PasteDataProperty): void
 
 [PasteDataProperty](/consumer/cn/doc/harmonyos-references/js-apis-pasteboard#pastedataproperty7)的localOnly与shareOption属性互斥，最终结果以shareOption为准，shareOption会影响localOnly的值。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. (async () => {
@@ -1752,13 +1542,7 @@ getRecord(index: number): PasteDataRecord
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pasteData: pasteboard.PasteData = pasteboard.createData(pasteboard.MIMETYPE_TEXT_PLAIN, 'hello');
@@ -1787,13 +1571,7 @@ getRecordCount(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pasteData: pasteboard.PasteData = pasteboard.createData(pasteboard.MIMETYPE_TEXT_PLAIN, 'hello');
@@ -1822,13 +1600,7 @@ getTag(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pasteData: pasteboard.PasteData = pasteboard.createData(pasteboard.MIMETYPE_TEXT_PLAIN, 'hello');
@@ -1875,13 +1647,7 @@ hasType(mimeType: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pasteData: pasteboard.PasteData = pasteboard.createData(pasteboard.MIMETYPE_TEXT_PLAIN, 'hello');
@@ -1921,13 +1687,7 @@ removeRecord(index: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pasteData: pasteboard.PasteData = pasteboard.createData(pasteboard.MIMETYPE_TEXT_PLAIN, 'hello');
@@ -1968,13 +1728,7 @@ replaceRecord(index: number, record: PasteDataRecord): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pasteData: pasteboard.PasteData = pasteboard.createData(pasteboard.MIMETYPE_TEXT_PLAIN, 'hello');
@@ -1994,13 +1748,7 @@ pasteStart(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2029,13 +1777,7 @@ pasteComplete(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2076,13 +1818,7 @@ addHtmlRecord(htmlText: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pasteData: pasteboard.PasteData = pasteboard.createPlainTextData('hello');
@@ -2114,13 +1850,7 @@ addWantRecord(want: Want): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -2157,13 +1887,7 @@ addTextRecord(text: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pasteData: pasteboard.PasteData = pasteboard.createPlainTextData('hello');
@@ -2194,13 +1918,7 @@ addUriRecord(uri: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pasteData: pasteboard.PasteData = pasteboard.createPlainTextData('hello');
@@ -2249,13 +1967,7 @@ getRecordAt(index: number): PasteDataRecord
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pasteData: pasteboard.PasteData = pasteboard.createPlainTextData('hello');
@@ -2304,13 +2016,7 @@ hasMimeType(mimeType: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pasteData: pasteboard.PasteData = pasteboard.createPlainTextData('hello');
@@ -2359,13 +2065,7 @@ removeRecordAt(index: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pasteData: pasteboard.PasteData = pasteboard.createPlainTextData('hello');
@@ -2405,13 +2105,7 @@ replaceRecordAt(index: number, record: PasteDataRecord): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pasteData: pasteboard.PasteData = pasteboard.createPlainTextData('hello');
@@ -2427,13 +2121,7 @@ PhonePC/2in1TabletTVWearable
 
 在调用SystemPasteboard的接口前，需要先通过[getSystemPasteboard](/consumer/cn/doc/harmonyos-references/js-apis-pasteboard#pasteboardgetsystempasteboard)获取系统剪贴板。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const systemPasteboard: pasteboard.SystemPasteboard = pasteboard.getSystemPasteboard();
@@ -2470,13 +2158,7 @@ on(type: 'update', callback: () =>void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const systemPasteboard: pasteboard.SystemPasteboard = pasteboard.getSystemPasteboard();
@@ -2517,13 +2199,7 @@ off(type: 'update', callback?: () =>void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const systemPasteboard: pasteboard.SystemPasteboard = pasteboard.getSystemPasteboard();
@@ -2565,13 +2241,7 @@ clearData(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const systemPasteboard: pasteboard.SystemPasteboard = pasteboard.getSystemPasteboard();
@@ -2606,13 +2276,7 @@ clearData(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2660,13 +2324,7 @@ setData(data: PasteData, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pasteData: pasteboard.PasteData = pasteboard.createData(pasteboard.MIMETYPE_TEXT_PLAIN, 'content');
@@ -2722,13 +2380,7 @@ setData(data: PasteData): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2778,13 +2430,7 @@ getData(callback: AsyncCallback<PasteData>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2834,13 +2480,7 @@ getData(): Promise<PasteData>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2875,13 +2515,7 @@ hasRemoteData(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const systemPasteboard: pasteboard.SystemPasteboard = pasteboard.getSystemPasteboard();
@@ -2922,13 +2556,7 @@ hasData(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2965,13 +2593,7 @@ hasData(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3018,13 +2640,7 @@ clear(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const systemPasteboard: pasteboard.SystemPasteboard = pasteboard.getSystemPasteboard();
@@ -3061,13 +2677,7 @@ clear(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3114,13 +2724,7 @@ getPasteData(callback: AsyncCallback<PasteData>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3159,13 +2763,7 @@ getPasteData(): Promise<PasteData>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3212,13 +2810,7 @@ hasPasteData(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3257,13 +2849,7 @@ hasPasteData(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3311,13 +2897,7 @@ setPasteData(data: PasteData, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pasteData: pasteboard.PasteData = pasteboard.createPlainTextData('content');
@@ -3363,13 +2943,7 @@ setPasteData(data: PasteData): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3415,13 +2989,7 @@ isRemoteData(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const systemPasteboard: pasteboard.SystemPasteboard = pasteboard.getSystemPasteboard();
@@ -3465,13 +3033,7 @@ getDataSource(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const systemPasteboard: pasteboard.SystemPasteboard = pasteboard.getSystemPasteboard();
@@ -3524,13 +3086,7 @@ hasDataType(mimeType: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const systemPasteboard: pasteboard.SystemPasteboard = pasteboard.getSystemPasteboard();
@@ -3566,13 +3122,7 @@ clearDataSync(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const systemPasteboard: pasteboard.SystemPasteboard = pasteboard.getSystemPasteboard();
@@ -3619,13 +3169,7 @@ getDataSync(): PasteData
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const systemPasteboard: pasteboard.SystemPasteboard = pasteboard.getSystemPasteboard();
@@ -3670,13 +3214,7 @@ setDataSync(data: PasteData): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pasteData: pasteboard.PasteData = pasteboard.createData(pasteboard.MIMETYPE_TEXT_PLAIN, 'hello');
@@ -3721,13 +3259,7 @@ hasDataSync(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const systemPasteboard: pasteboard.SystemPasteboard = pasteboard.getSystemPasteboard();
@@ -3774,13 +3306,7 @@ getUnifiedData(): Promise<unifiedDataChannel.UnifiedData>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3835,13 +3361,7 @@ getUnifiedDataSync(): unifiedDataChannel.UnifiedData
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { unifiedDataChannel } from '@kit.ArkData';
@@ -3897,13 +3417,7 @@ setUnifiedData(data: unifiedDataChannel.UnifiedData): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3959,13 +3473,7 @@ setUnifiedDataSync(data: unifiedDataChannel.UnifiedData): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { unifiedDataChannel } from '@kit.ArkData';
@@ -4024,13 +3532,7 @@ setAppShareOptions(shareOptions: ShareOption): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const systemPasteboard: pasteboard.SystemPasteboard = pasteboard.getSystemPasteboard();
@@ -4067,13 +3569,7 @@ removeAppShareOptions(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const systemPasteboard: pasteboard.SystemPasteboard = pasteboard.getSystemPasteboard();
@@ -4141,13 +3637,7 @@ detectPatterns(patterns: Array<Pattern>): Promise<Array<Pattern>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pasteboard } from '@kit.BasicServicesKit'
@@ -4192,13 +3682,7 @@ getMimeTypes(): Promise<Array<string>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pasteboard, BusinessError } from '@kit.BasicServicesKit'
@@ -4259,13 +3743,7 @@ getDataWithProgress(params: GetDataParams): Promise<PasteData>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError, pasteboard } from '@kit.BasicServicesKit';
@@ -4335,13 +3813,7 @@ getChangeCount(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError, pasteboard } from '@kit.BasicServicesKit';
@@ -4385,13 +3857,7 @@ onRemoteUpdate(callback: UpdateCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const systemPasteboard: pasteboard.SystemPasteboard = pasteboard.getSystemPasteboard();
@@ -4421,13 +3887,7 @@ offRemoteUpdate(callback?: UpdateCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const systemPasteboard: pasteboard.SystemPasteboard = pasteboard.getSystemPasteboard();

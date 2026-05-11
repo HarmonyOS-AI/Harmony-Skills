@@ -1,10 +1,4 @@
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum ArkUI_NodeAttributeType
@@ -22,13 +16,7 @@
 
 ## NODE\_TOGGLE\_SELECTED\_COLOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TOGGLE_SELECTED_COLOR = MAX_NODE_SCOPE_NUM * ARKUI_NODE_TOGGLE = 5000
@@ -58,13 +46,7 @@
 
 ## NODE\_TOGGLE\_SWITCH\_POINT\_COLOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TOGGLE_SWITCH_POINT_COLOR = 5001
@@ -94,13 +76,7 @@ Switch类型的圆形滑块颜色属性，支持属性设置，属性重置和�
 
 ## NODE\_TOGGLE\_VALUE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TOGGLE_VALUE = 5002
@@ -130,13 +106,7 @@ Switch类型的开关值，支持属性设置，属性重置和属性获取接�
 
 ## NODE\_TOGGLE\_UNSELECTED\_COLOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TOGGLE_UNSELECTED_COLOR = 5003
@@ -166,13 +136,7 @@ Switch类型的开关值，支持属性设置，属性重置和属性获取接�
 
 ## NODE\_BUTTON\_LABEL
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_BUTTON_LABEL = MAX_NODE_SCOPE_NUM * ARKUI_NODE_BUTTON = 9000
@@ -202,13 +166,7 @@ button按钮的文本内容属性，支持属性设置，属性重置和属性�
 
 ## NODE\_BUTTON\_TYPE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_BUTTON_TYPE = 9001
@@ -238,13 +196,7 @@ Button按钮的样式属性，支持属性设置，属性重置和属性获取�
 
 ## NODE\_BUTTON\_MIN\_FONT\_SCALE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_BUTTON_MIN_FONT_SCALE = 9002
@@ -274,13 +226,7 @@ Button按钮的最小字体缩放倍数属性，支持属性设置，属性重�
 
 ## NODE\_BUTTON\_MAX\_FONT\_SCALE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_BUTTON_MAX_FONT_SCALE = 9003
@@ -310,13 +256,7 @@ Button按钮的最大字体缩放倍数属性，支持属性设置，属性重�
 
 ## NODE\_CHECKBOX\_SELECT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_CHECKBOX_SELECT = MAX_NODE_SCOPE_NUM * ARKUI_NODE_CHECKBOX = 11000
@@ -346,13 +286,7 @@ Button按钮的最大字体缩放倍数属性，支持属性设置，属性重�
 
 ## NODE\_CHECKBOX\_SELECT\_COLOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_CHECKBOX_SELECT_COLOR = 11001
@@ -382,13 +316,7 @@ Button按钮的最大字体缩放倍数属性，支持属性设置，属性重�
 
 ## NODE\_CHECKBOX\_UNSELECT\_COLOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_CHECKBOX_UNSELECT_COLOR = 11002
@@ -418,13 +346,7 @@ Button按钮的最大字体缩放倍数属性，支持属性设置，属性重�
 
 ## NODE\_CHECKBOX\_MARK
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_CHECKBOX_MARK = 11003
@@ -458,13 +380,7 @@ Button按钮的最大字体缩放倍数属性，支持属性设置，属性重�
 
 ## NODE\_CHECKBOX\_SHAPE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_CHECKBOX_SHAPE = 11004
@@ -494,13 +410,7 @@ CheckBox组件形状, 支持属性设置，属性重置和属性获取。
 
 ## NODE\_CHECKBOX\_NAME
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_CHECKBOX_NAME = 11005
@@ -530,13 +440,7 @@ CheckBox组件形状, 支持属性设置，属性重置和属性获取。
 
 ## NODE\_CHECKBOX\_GROUP
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_CHECKBOX_GROUP = 11006
@@ -566,13 +470,7 @@ CheckBox组件形状, 支持属性设置，属性重置和属性获取。
 
 ## NODE\_SLIDER\_BLOCK\_COLOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SLIDER_BLOCK_COLOR = MAX_NODE_SCOPE_NUM * ARKUI_NODE_SLIDER = 17000
@@ -602,13 +500,7 @@ Slider滑块的颜色，支持属性设置，属性重置和属性获取。
 
 ## NODE\_SLIDER\_TRACK\_COLOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SLIDER_TRACK_COLOR = 17001
@@ -638,13 +530,7 @@ Slider滑轨的背景颜色，支持属性设置，属性重置和属性获取�
 
 ## NODE\_SLIDER\_SELECTED\_COLOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SLIDER_SELECTED_COLOR = 17002
@@ -674,13 +560,7 @@ Slider滑轨的已滑动部分颜色，支持属性设置，属性重置和属�
 
 ## NODE\_SLIDER\_SHOW\_STEPS
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SLIDER_SHOW_STEPS = 17003
@@ -710,13 +590,7 @@ Slider滑轨的已滑动部分颜色，支持属性设置，属性重置和属�
 
 ## NODE\_SLIDER\_BLOCK\_STYLE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SLIDER_BLOCK_STYLE = 17004
@@ -758,13 +632,7 @@ Slider滑块形状参数，支持属性设置，属性重置和属性获取。
 
 ## NODE\_SLIDER\_VALUE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SLIDER_VALUE = 17005
@@ -794,13 +662,7 @@ slider进度值，支持属性设置，属性重置和属性获取。
 
 ## NODE\_SLIDER\_MIN\_VALUE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SLIDER_MIN_VALUE = 17006
@@ -830,13 +692,7 @@ slider最小值，支持属性设置，属性重置和属性获取。
 
 ## NODE\_SLIDER\_MAX\_VALUE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SLIDER_MAX_VALUE = 17007
@@ -866,13 +722,7 @@ slider最大值，支持属性设置，属性重置和属性获取。
 
 ## NODE\_SLIDER\_STEP
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SLIDER_STEP = 17008
@@ -902,13 +752,7 @@ Slider滑动步长，支持属性设置，属性重置和属性获取。
 
 ## NODE\_SLIDER\_DIRECTION
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SLIDER_DIRECTION = 17009
@@ -938,13 +782,7 @@ Slider滑动条滑动方向，支持属性设置，属性重置和属性获取�
 
 ## NODE\_SLIDER\_REVERSE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SLIDER_REVERSE = 17010
@@ -974,13 +812,7 @@ Slider滑动条取值范围是否反向，支持属性设置，属性重置和�
 
 ## NODE\_SLIDER\_STYLE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SLIDER_STYLE = 17011
@@ -1010,13 +842,7 @@ Slider的滑块与滑轨显示样式，支持属性设置，属性重置和属�
 
 ## NODE\_SLIDER\_TRACK\_THICKNESS
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SLIDER_TRACK_THICKNESS = 17012
@@ -1046,13 +872,7 @@ Slider滑块的滑轨粗细属性，支持属性设置，属性重置和属性�
 
 ## NODE\_SLIDER\_ENABLE\_HAPTIC\_FEEDBACK
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SLIDER_ENABLE_HAPTIC_FEEDBACK = 17013
@@ -1084,13 +904,7 @@ Slider滑块的滑轨粗细属性，支持属性设置，属性重置和属性�
 
 ## NODE\_SLIDER\_PREFIX
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SLIDER_PREFIX = 17014
@@ -1112,13 +926,7 @@ Slider滑块的滑轨粗细属性，支持属性设置，属性重置和属性�
 
 ## NODE\_SLIDER\_SUFFIX
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SLIDER_SUFFIX = 17015
@@ -1140,13 +948,7 @@ Slider滑块的滑轨粗细属性，支持属性设置，属性重置和属性�
 
 ## NODE\_SLIDER\_BLOCK\_LINEAR\_GRADIENT\_COLOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SLIDER_BLOCK_LINEAR_GRADIENT_COLOR = 17016
@@ -1176,13 +978,7 @@ Slider滑块的颜色，支持属性设置，属性重置和属性获取。
 
 ## NODE\_SLIDER\_TRACK\_LINEAR\_GRADIENT\_COLOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SLIDER_TRACK_LINEAR_GRADIENT_COLOR = 17017
@@ -1212,13 +1008,7 @@ Slider滑轨的背景颜色，支持属性设置，属性重置和属性获取�
 
 ## NODE\_SLIDER\_SELECTED\_LINEAR\_GRADIENT\_COLOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SLIDER_SELECTED_LINEAR_GRADIENT_COLOR = 17018
@@ -1248,13 +1038,7 @@ Slider滑轨的已滑动部分颜色，支持属性设置，属性重置和属�
 
 ## NODE\_RADIO\_CHECKED
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_RADIO_CHECKED = MAX_NODE_SCOPE_NUM * ARKUI_NODE_RADIO = 18000
@@ -1284,13 +1068,7 @@ Slider滑轨的已滑动部分颜色，支持属性设置，属性重置和属�
 
 ## NODE\_RADIO\_STYLE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_RADIO_STYLE = 18001
@@ -1324,13 +1102,7 @@ Slider滑轨的已滑动部分颜色，支持属性设置，属性重置和属�
 
 ## NODE\_RADIO\_VALUE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_RADIO_VALUE = 18002
@@ -1360,13 +1132,7 @@ Slider滑轨的已滑动部分颜色，支持属性设置，属性重置和属�
 
 ## NODE\_RADIO\_GROUP
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_RADIO_GROUP = 18003
@@ -1396,13 +1162,7 @@ Slider滑轨的已滑动部分颜色，支持属性设置，属性重置和属�
 
 ## NODE\_CHECKBOX\_GROUP\_NAME
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_CHECKBOX_GROUP_NAME = MAX_NODE_SCOPE_NUM * ARKUI_NODE_CHECKBOX_GROUP = 21000
@@ -1432,13 +1192,7 @@ Slider滑轨的已滑动部分颜色，支持属性设置，属性重置和属�
 
 ## NODE\_CHECKBOX\_GROUP\_SELECT\_ALL
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_CHECKBOX_GROUP_SELECT_ALL = 21001
@@ -1468,13 +1222,7 @@ Slider滑轨的已滑动部分颜色，支持属性设置，属性重置和属�
 
 ## NODE\_CHECKBOX\_GROUP\_SELECTED\_COLOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_CHECKBOX_GROUP_SELECTED_COLOR = 21002
@@ -1504,13 +1252,7 @@ Slider滑轨的已滑动部分颜色，支持属性设置，属性重置和属�
 
 ## NODE\_CHECKBOX\_GROUP\_UNSELECTED\_COLOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_CHECKBOX_GROUP_UNSELECTED_COLOR = 21003
@@ -1540,13 +1282,7 @@ Slider滑轨的已滑动部分颜色，支持属性设置，属性重置和属�
 
 ## NODE\_CHECKBOX\_GROUP\_MARK
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_CHECKBOX_GROUP_MARK = 21004
@@ -1580,13 +1316,7 @@ Slider滑轨的已滑动部分颜色，支持属性设置，属性重置和属�
 
 ## NODE\_CHECKBOX\_GROUP\_SHAPE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_CHECKBOX_GROUP_SHAPE = 21005

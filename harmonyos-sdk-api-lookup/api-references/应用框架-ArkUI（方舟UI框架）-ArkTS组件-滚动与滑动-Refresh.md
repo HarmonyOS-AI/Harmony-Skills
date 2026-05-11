@@ -265,13 +265,7 @@ PhonePC/2in1TabletTVWearable
 
 刷新区域使用默认刷新样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -341,13 +335,7 @@ PhonePC/2in1TabletTVWearable
 
 通过[promptText](/consumer/cn/doc/harmonyos-references/ts-container-refresh#refreshoptions对象说明)参数设置刷新区域显示文本。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -409,13 +397,7 @@ PhonePC/2in1TabletTVWearable
 
 通过[builder](/consumer/cn/doc/harmonyos-references/ts-container-refresh#refreshoptions对象说明)参数自定义刷新区域显示内容。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -489,13 +471,7 @@ PhonePC/2in1TabletTVWearable
 
 通过[refreshingContent](/consumer/cn/doc/harmonyos-references/ts-container-refresh#refreshoptions对象说明)参数自定义刷新区域显示内容。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -591,13 +567,7 @@ PhonePC/2in1TabletTVWearable
 
 通过[pullDownRatio](/consumer/cn/doc/harmonyos-references/ts-container-refresh#pulldownratio12)属性和[onOffsetChange](/consumer/cn/doc/harmonyos-references/ts-container-refresh#onoffsetchange12)事件实现最大下拉距离。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -685,13 +655,7 @@ PhonePC/2in1TabletTVWearable
 
 Refresh组件与[List](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-container-list)组件组合实现下拉刷新上拉加载更多效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -793,13 +757,7 @@ Refresh组件与[List](https://developer.huawei.com/consumer/cn/doc/harmonyos-re
 
 从API version 20开始，通过[maxPullDownDistance](/consumer/cn/doc/harmonyos-references/ts-container-refresh#maxpulldowndistance20)属性设置最大下拉距离。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -861,13 +819,7 @@ Refresh组件与[List](https://developer.huawei.com/consumer/cn/doc/harmonyos-re
 
 通过[pullDownRatio](/consumer/cn/doc/harmonyos-references/ts-container-refresh#pulldownratio12)属性禁止下拉刷新。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -938,13 +890,7 @@ Refresh组件与[List](https://developer.huawei.com/consumer/cn/doc/harmonyos-re
 
 调用[edgeEffect](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-container-scrollable-common#edgeeffect11)时，将options参数的[alwaysEnabled](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-container-scrollable-common#edgeeffectoptions11对象说明)设置为true，可以在不满一屏的情况下实现Refresh组件的下拉刷新效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1012,13 +958,7 @@ Refresh组件与[List](https://developer.huawei.com/consumer/cn/doc/harmonyos-re
 
 从API version 23开始，新增pullUpToCancelRefresh接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

@@ -53,13 +53,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_NativeBuffer_ColorSpace
@@ -118,13 +112,7 @@ API version 12之前，使用该枚举请引用native\_buffer.h头文件；从AP
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_NativeBuffer_MetadataType
@@ -155,13 +143,7 @@ OH\_NativeBuffer的图像标准。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_NativeBuffer_MetadataKey
@@ -188,13 +170,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_NativeBuffer_Format
@@ -265,13 +241,7 @@ API version 22之前，使用该枚举请引用native\_buffer.h头文件；从AP
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_NativeBuffer_TransformType

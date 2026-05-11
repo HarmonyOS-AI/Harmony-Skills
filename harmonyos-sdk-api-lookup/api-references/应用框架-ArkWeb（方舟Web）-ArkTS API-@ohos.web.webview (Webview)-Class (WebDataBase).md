@@ -11,13 +11,7 @@ Web组件数据库管理对象。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webview } from '@kit.ArkWeb';
@@ -62,13 +56,7 @@ static getHttpAuthCredentials(host: string, realm: string): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -133,13 +121,7 @@ static saveHttpAuthCredentials(host: string, realm: string, username: string, pa
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -189,13 +171,7 @@ static existHttpAuthCredentials(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -235,13 +211,7 @@ static deleteHttpAuthCredentials(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

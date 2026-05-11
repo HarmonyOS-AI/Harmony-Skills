@@ -135,13 +135,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过按钮控制组件的挂载和卸载，触发onAttach和onDetach事件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

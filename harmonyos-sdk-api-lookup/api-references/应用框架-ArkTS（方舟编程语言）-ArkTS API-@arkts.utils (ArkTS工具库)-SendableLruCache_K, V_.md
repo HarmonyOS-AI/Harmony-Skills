@@ -14,13 +14,7 @@ SendableLruCache首批接口从API version 18开始支持。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ArkTSUtils } from '@kit.ArkTS'
@@ -42,13 +36,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new ArkTSUtils.SendableLruCache<number, number>();
@@ -81,13 +69,7 @@ constructor(capacity?: number)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new ArkTSUtils.SendableLruCache<number, number>();
@@ -125,13 +107,7 @@ updateCapacity(newCapacity: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new ArkTSUtils.SendableLruCache<number, number>();
@@ -160,13 +136,7 @@ toString(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new ArkTSUtils.SendableLruCache<number, number>();
@@ -200,13 +170,7 @@ getCapacity(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new ArkTSUtils.SendableLruCache<number, number>();
@@ -229,13 +193,7 @@ clear(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new ArkTSUtils.SendableLruCache<number, number>();
@@ -271,13 +229,7 @@ getCreateCount(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Sendable
@@ -323,13 +275,7 @@ getMissCount(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new ArkTSUtils.SendableLruCache<number, number>();
@@ -362,13 +308,7 @@ getRemoveCount(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new ArkTSUtils.SendableLruCache<number, number>();
@@ -402,13 +342,7 @@ getMatchCount(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new ArkTSUtils.SendableLruCache<number, number>();
@@ -441,13 +375,7 @@ getPutCount(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new ArkTSUtils.SendableLruCache<number, number>();
@@ -479,13 +407,7 @@ isEmpty(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new ArkTSUtils.SendableLruCache<number, number>();
@@ -525,13 +447,7 @@ get(key: K): V | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new ArkTSUtils.SendableLruCache<number, number>();
@@ -572,13 +488,7 @@ put(key: K,value: V): V
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new ArkTSUtils.SendableLruCache<number, number>();
@@ -609,13 +519,7 @@ values(): V[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new ArkTSUtils.SendableLruCache<number|string,number|string>();
@@ -649,13 +553,7 @@ keys(): K[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new ArkTSUtils.SendableLruCache<number, number>();
@@ -696,13 +594,7 @@ remove(key: K): V | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new ArkTSUtils.SendableLruCache<number, number>();
@@ -742,13 +634,7 @@ contains(key: K): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new ArkTSUtils.SendableLruCache<number, number>();
@@ -780,13 +666,7 @@ entries(): IterableIterator<[K,V]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new ArkTSUtils.SendableLruCache<number, number>();

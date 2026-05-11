@@ -86,13 +86,7 @@ OffscreenCanvas支持以下属性：
 
 ### width
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -130,13 +124,7 @@ OffscreenCanvas支持以下属性：
 
 ### height
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -200,13 +188,7 @@ transferToImageBitmap(): ImageBitmap
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -275,13 +257,7 @@ getContext(contextType: "2d", options?: RenderingContextSettings): OffscreenCanv
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -350,13 +326,7 @@ DevEco Studio的预览器不支持显示在Worker线程中绘制的内容。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { worker } from '@kit.ArkTS';
@@ -415,13 +385,7 @@ DevEco Studio的预览器不支持显示在Worker线程中绘制的内容。
 
 Worker线程在onmessage中接收到主线程postMessage发送的OffscreenCanvas，并进行绘制。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // entry/src/main/ets/workers/Worker.ets

@@ -6,13 +6,7 @@
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rag } from '@kit.DataAugmentationKit';
@@ -124,13 +118,7 @@ abstract streamChat(query: string, callback: Callback<LLMStreamAnswer>): Promise
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -195,13 +183,7 @@ abstract cancel(chatId: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { http } from '@kit.NetworkKit';
@@ -245,13 +227,7 @@ RAG会话的配置项。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rag, retrieval } from '@kit.DataAugmentationKit';
@@ -449,13 +425,7 @@ streamRun(question: string, config: RunConfig, callback: AsyncCallback<Stream>):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -532,13 +502,7 @@ cancel(runId: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -591,13 +555,7 @@ close(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rag } from '@kit.DataAugmentationKit';
@@ -658,13 +616,7 @@ createRagSession(context: common.Context, config: Config): Promise<RagSession>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, ConfigurationConstant, UIAbility, Want, common } from '@kit.AbilityKit';
@@ -760,13 +712,7 @@ feedback(context: common.Context, feedbackInfo: FeedbackInfo): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { rag, retrieval } from '@kit.DataAugmentationKit';

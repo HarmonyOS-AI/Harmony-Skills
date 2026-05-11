@@ -33,13 +33,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. char Rcp_IpAddress::ipAddress[RCP_IP_MAX_LEN]
@@ -53,13 +47,7 @@ ip地址。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. struct Rcp_IpAddress* Rcp_IpAddress::next

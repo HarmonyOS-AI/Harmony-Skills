@@ -12,13 +12,7 @@ PhotoEditorExtensionContext是PhotoEditorExtensionAbility的上下文，继承�
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -67,13 +61,7 @@ saveEditedContentWithUri(uri: string): Promise<AbilityResult>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common, UIExtensionContentSession, Want } from '@kit.AbilityKit';
@@ -176,13 +164,7 @@ saveEditedContentWithImage(pixeMap: image.PixelMap, option: image.PackingOption)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common, UIExtensionContentSession, Want } from '@kit.AbilityKit';

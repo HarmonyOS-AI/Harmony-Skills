@@ -8,13 +8,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { advertising } from '@kit.AdsKit';
@@ -63,13 +57,7 @@ showAd(ad: Advertisement, options: AdDisplayOptions, context?: common.UIAbilityC
 
 其中context的获取方式参见[各类context的获取方式](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/application-context-stage#context的获取方式)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -124,13 +112,7 @@ getAdRequestBody(adParams: AdRequestParams[], adOptions: AdOptions): Promise<str
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { advertising } from '@kit.AdsKit';
@@ -185,13 +167,7 @@ parseAdResponse(adResponse: string, listener: MultiSlotsAdLoadListener, context:
 
 其中context的获取方式参见[各类context的获取方式](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/application-context-stage#context的获取方式)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -250,13 +226,7 @@ registerWebAdInterface(controller: web\_webview.WebviewController, context: comm
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -320,13 +290,7 @@ registerWebAdInterface(controller: web\_webview.WebviewController, context: comm
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -389,13 +353,7 @@ deleteWebAdInterface(controller: web\_webview.WebviewController, needRefresh: bo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { advertising } from '@kit.AdsKit';
@@ -455,13 +413,7 @@ constructor(context: common.Context)
 
 其中context的获取方式参见[各类context的获取方式](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/application-context-stage#context的获取方式)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -512,13 +464,7 @@ loadAd(adParam: AdRequestParams, adOptions: AdOptions, listener: AdLoadListener)
 
 其中context的获取方式参见[各类context的获取方式](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/application-context-stage#context的获取方式)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -586,13 +532,7 @@ loadAdWithMultiSlots(adParams: AdRequestParams[], adOptions: AdOptions, listener
 
 其中context的获取方式参见[各类context的获取方式](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/application-context-stage#context的获取方式)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -653,13 +593,7 @@ onAdLoadFailure(errorCode: number, errorMsg: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { advertising } from '@kit.AdsKit';
@@ -695,13 +629,7 @@ onAdLoadSuccess(ads: Array<Advertisement>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { advertising } from '@kit.AdsKit';
@@ -748,13 +676,7 @@ onAdLoadFailure(errorCode: number, errorMsg: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { advertising } from '@kit.AdsKit';
@@ -790,13 +712,7 @@ onAdLoadSuccess(adsMap: Map<string, Array<Advertisement>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { advertising } from '@kit.AdsKit';
@@ -846,13 +762,7 @@ onStatusChanged(status: string, ad: Advertisement, data: string)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { advertising } from '@kit.AdsKit';

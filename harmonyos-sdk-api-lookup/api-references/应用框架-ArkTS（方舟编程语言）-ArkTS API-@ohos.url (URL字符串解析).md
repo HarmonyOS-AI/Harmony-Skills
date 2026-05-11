@@ -8,13 +8,7 @@ URL代表的是统一资源定位符，本模块提供了常用的工具函数�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { url } from '@kit.ArkTS';
@@ -58,13 +52,7 @@ URLParams的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 通过string[][]方式构造URLParams对象：
@@ -114,13 +102,7 @@ append(name: string, value: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let urlObject = url.URL.parseURL('https://developer.exampleUrl/?fod=1&bard=2');
@@ -160,13 +142,7 @@ delete(name: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let urlObject = url.URL.parseURL('https://developer.exampleUrl/?fod=1&bard=2');
@@ -214,13 +190,7 @@ getAll(name: string): string[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let urlObject = url.URL.parseURL('https://developer.exampleUrl/?fod=1&bard=2');
@@ -251,13 +221,7 @@ entries(): IterableIterator<[string, string]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let paramsObject = new url.URLParams("keyName1=valueName1&keyName2=valueName2");
@@ -312,13 +276,7 @@ forEach(callbackFn: (value: string, key: string, searchParams: URLParams) => voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const myURLObject = url.URL.parseURL('https://developer.exampleUrl/?fod=1&bard=2');
@@ -371,13 +329,7 @@ get(name: string): string | null
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let paramsObject = new url.URLParams('name=Jonathan&age=18');
@@ -426,13 +378,7 @@ has(name: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let urlObject = url.URL.parseURL('https://developer.exampleUrl/?fod=1&bard=2');
@@ -475,13 +421,7 @@ set(name: string, value: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let urlObject = url.URL.parseURL('https://developer.exampleUrl/?fod=1&bard=2');
@@ -503,13 +443,7 @@ sort(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let paramsObject = new url.URLParams("c=3&a=9&b=4&d=2"); // Create a test URLParams object
@@ -539,13 +473,7 @@ keys(): IterableIterator<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let paramsObject = new url.URLParams("key1=value1&key2=value2");
@@ -579,13 +507,7 @@ values(): IterableIterator<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let paramsObject = new url.URLParams("key1=value1&key2=value2");
@@ -619,13 +541,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const paramsObject = new url.URLParams('fod=bay&edg=bap');
@@ -659,13 +575,7 @@ toString(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let urlObject = url.URL.parseURL('https://developer.exampleUrl/?fod=1&bard=2');
@@ -721,13 +631,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let that = url.URL.parseURL('http://username:password@host:8080/directory/file?foo=1&bar=2#fragment');
@@ -775,13 +679,7 @@ URL的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let mm = 'https://username:password@host:8080';
@@ -856,13 +754,7 @@ static parseURL(url: string, base?: string | URL): URL
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let mm = 'https://username:password@host:8080/test/test1/test3';
@@ -901,13 +793,7 @@ toString(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const urlObject = url.URL.parseURL('https://username:password@host:8080/directory/file?query=pppppp#qwer=da');
@@ -936,13 +822,7 @@ toJSON(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const urlObject = url.URL.parseURL('https://username:password@host:8080/directory/file?query=pppppp#qwer=da');
@@ -979,13 +859,7 @@ URLSearchParams的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let objectParams = new url.URLSearchParams([ ['user1', 'abc1'], ['query2', 'first2'], ['query3', 'second3'] ]);
@@ -1020,13 +894,7 @@ append(name: string, value: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let urlObject = new url.URL('https://developer.exampleUrl/?fod=1&bard=2');
@@ -1058,13 +926,7 @@ delete(name: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let urlObject = new url.URL('https://developer.exampleUrl/?fod=1&bard=2');
@@ -1104,13 +966,7 @@ getAll(name: string): string[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let urlObject = new url.URL('https://developer.exampleUrl/?fod=1&bard=2');
@@ -1143,13 +999,7 @@ entries(): IterableIterator<[string, string]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let searchParamsObject = new url.URLSearchParams("keyName1=valueName1&keyName2=valueName2");
@@ -1196,13 +1046,7 @@ forEach(callbackFn: (value: string, key: string, searchParams: URLSearchParams) 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const myURLObject = new url.URL('https://developer.exampleUrl/?fod=1&bard=2');
@@ -1243,13 +1087,7 @@ get(name: string): string | null
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let paramsObject = new url.URLSearchParams('name=Jonathan&age=18');
@@ -1290,13 +1128,7 @@ has(name: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let urlObject = new url.URL('https://developer.exampleUrl/?fod=1&bard=2');
@@ -1329,13 +1161,7 @@ set(name: string, value: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let urlObject = new url.URL('https://developer.exampleUrl/?fod=1&bard=2');
@@ -1359,13 +1185,7 @@ sort(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let searchParamsObject = new url.URLSearchParams("c=3&a=9&b=4&d=2"); // Create a test URLSearchParams object
@@ -1397,13 +1217,7 @@ keys(): IterableIterator<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let searchParamsObject = new url.URLSearchParams("key1=value1&key2=value2");
@@ -1439,13 +1253,7 @@ values(): IterableIterator<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let searchParams = new url.URLSearchParams("key1=value1&key2=value2");
@@ -1481,13 +1289,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const paramsObject = new url.URLSearchParams('fod=bay&edg=bap');
@@ -1523,13 +1325,7 @@ toString(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let urlObject = new url.URL('https://developer.exampleUrl/?fod=1&bard=2');

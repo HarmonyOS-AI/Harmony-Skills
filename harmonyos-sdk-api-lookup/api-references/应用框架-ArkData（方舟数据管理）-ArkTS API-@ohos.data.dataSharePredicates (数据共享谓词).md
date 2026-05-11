@@ -15,13 +15,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataSharePredicates } from '@kit.ArkData';
@@ -66,13 +60,7 @@ equalTo(field: string, value: ValueType): DataSharePredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new dataSharePredicates.DataSharePredicates();
@@ -103,13 +91,7 @@ and(): DataSharePredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new dataSharePredicates.DataSharePredicates();
@@ -150,13 +132,7 @@ orderByAsc(field: string): DataSharePredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new dataSharePredicates.DataSharePredicates();
@@ -195,13 +171,7 @@ orderByDesc(field: string): DataSharePredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new dataSharePredicates.DataSharePredicates();
@@ -241,13 +211,7 @@ limit(total: number, offset: number): DataSharePredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new dataSharePredicates.DataSharePredicates();
@@ -287,13 +251,7 @@ in(field: string, value: Array<ValueType>): DataSharePredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new dataSharePredicates.DataSharePredicates();
@@ -331,13 +289,7 @@ notEqualTo(field: string, value: ValueType): DataSharePredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new dataSharePredicates.DataSharePredicates();
@@ -366,13 +318,7 @@ beginWrap(): DataSharePredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new dataSharePredicates.DataSharePredicates();
@@ -406,13 +352,7 @@ endWrap(): DataSharePredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new dataSharePredicates.DataSharePredicates();
@@ -446,13 +386,7 @@ or(): DataSharePredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new dataSharePredicates.DataSharePredicates()
@@ -492,13 +426,7 @@ like(field: string, value: string): DataSharePredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new dataSharePredicates.DataSharePredicates();
@@ -537,13 +465,7 @@ between(field: string, low: ValueType, high: ValueType): DataSharePredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new dataSharePredicates.DataSharePredicates();
@@ -582,13 +504,7 @@ notBetween(field: string, low: ValueType, high: ValueType): DataSharePredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new dataSharePredicates.DataSharePredicates();
@@ -626,13 +542,7 @@ greaterThan(field: string, value: ValueType): DataSharePredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new dataSharePredicates.DataSharePredicates();
@@ -670,13 +580,7 @@ lessThan(field: string, value: ValueType): DataSharePredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new dataSharePredicates.DataSharePredicates();
@@ -714,13 +618,7 @@ greaterThanOrEqualTo(field: string, value: ValueType): DataSharePredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new dataSharePredicates.DataSharePredicates();
@@ -758,13 +656,7 @@ lessThanOrEqualTo(field: string, value: ValueType): DataSharePredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new dataSharePredicates.DataSharePredicates();
@@ -802,13 +694,7 @@ notIn(field: string, value: Array<ValueType>): DataSharePredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new dataSharePredicates.DataSharePredicates();

@@ -59,13 +59,7 @@ PhonePC/2in1TabletWearable
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum BatteryInfo_BatteryPluggedType
@@ -95,13 +89,7 @@ PhonePC/2in1TabletWearable
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t OH_BatteryInfo_GetCapacity()
@@ -127,13 +115,7 @@ PhonePC/2in1TabletWearable
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. BatteryInfo_BatteryPluggedType OH_BatteryInfo_GetPluggedType()

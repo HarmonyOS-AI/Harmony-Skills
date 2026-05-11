@@ -1092,13 +1092,7 @@ PhonePC/2in1TabletTVWearable
 
 设置SecurityComponent的基础属性，生成一个保存控件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -1152,13 +1146,7 @@ PhonePC/2in1TabletTVWearable
 
 以容器和容器内组件作为锚点进行布局。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -1232,13 +1220,7 @@ PhonePC/2in1TabletTVWearable
 
 安全控件文本高度自适应。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -1581,13 +1563,7 @@ PhonePC/2in1TabletTVWearable
 
 设置安全控件系统焦点框样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ColorMetrics, LengthMetrics } from '@kit.ArkUI';

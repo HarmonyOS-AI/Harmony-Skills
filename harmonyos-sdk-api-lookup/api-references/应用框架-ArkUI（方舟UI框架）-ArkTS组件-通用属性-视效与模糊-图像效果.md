@@ -1365,13 +1365,7 @@ PhonePC/2in1TabletTVWearable
 
 设置图片的效果，包括阴影，灰度，高光，饱和度，对比度，图像反转，叠色，色相旋转等。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1467,13 +1461,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示通过[linearGradientBlur](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-image-effect#lineargradientblur12)设置组件的内容线性渐变模糊效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1505,13 +1493,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示通过[renderGroup](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-image-effect#rendergroup10)来设置组件是否先整体离屏渲染绘制后，再与父组件融合绘制。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1566,13 +1548,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示通过[blendMode](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-image-effect#blendmode11)将当前组件内容与下方画布内容混合。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1617,13 +1593,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要通过[InvertOptions](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-image-effect#invertoptions11对象说明)来实现前景智能取反色。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1665,13 +1635,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要通过[useShadowBatching](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-image-effect#useshadowbatching11)搭配[shadow](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-image-effect#shadow)实现同层阴影不重叠效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1769,13 +1733,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示通过[sphericalEffect](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-image-effect#sphericaleffect12)设置组件的图像球面效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1814,13 +1772,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示通过[lightUpEffect](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-image-effect#lightupeffect12)设置组件的图像渐亮效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1857,13 +1809,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示通过[pixelStretchEffect](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-image-effect#pixelstretcheffect12)设置组件的图像边缘像素扩展效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1902,13 +1848,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示通过[systemBarEffect](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-image-effect#systembareffect12)来实现系统导航条智能反色。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

@@ -12,13 +12,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { EnterpriseAdminExtensionAbility } from '@kit.MDMKit';
@@ -56,13 +50,7 @@ onAdminEnabled(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { EnterpriseAdminExtensionAbility } from '@kit.MDMKit';
@@ -87,13 +75,7 @@ onAdminDisabled(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { EnterpriseAdminExtensionAbility } from '@kit.MDMKit';
@@ -126,13 +108,7 @@ onBundleAdded(bundleName: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { EnterpriseAdminExtensionAbility } from '@kit.MDMKit';
@@ -167,13 +143,7 @@ onBundleAdded(bundleName: string, accountId: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { EnterpriseAdminExtensionAbility } from '@kit.MDMKit';
@@ -208,13 +178,7 @@ onBundleRemoved(bundleName: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { EnterpriseAdminExtensionAbility } from '@kit.MDMKit';
@@ -249,13 +213,7 @@ onBundleRemoved(bundleName: string, accountId: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { EnterpriseAdminExtensionAbility } from '@kit.MDMKit';
@@ -290,13 +248,7 @@ onAppStart(bundleName: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { EnterpriseAdminExtensionAbility } from '@kit.MDMKit';
@@ -330,13 +282,7 @@ onAppStop(bundleName: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { EnterpriseAdminExtensionAbility } from '@kit.MDMKit';
@@ -370,13 +316,7 @@ onSystemUpdate(systemUpdateInfo: systemManager.SystemUpdateInfo): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { EnterpriseAdminExtensionAbility } from '@kit.MDMKit';
@@ -403,13 +343,7 @@ EnterpriseAdminExtensionAbility启动事件回调。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { EnterpriseAdminExtensionAbility } from '@kit.MDMKit';
@@ -443,13 +377,7 @@ onAccountAdded(accountId: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { EnterpriseAdminExtensionAbility } from '@kit.MDMKit';
@@ -483,13 +411,7 @@ onAccountSwitched(accountId: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { EnterpriseAdminExtensionAbility } from '@kit.MDMKit';
@@ -523,13 +445,7 @@ onAccountRemoved(accountId: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { EnterpriseAdminExtensionAbility } from '@kit.MDMKit';
@@ -566,13 +482,7 @@ Kiosk模式为系统层面提供的一种应用运行模式，该模式下会将
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { EnterpriseAdminExtensionAbility } from '@kit.MDMKit';
@@ -607,13 +517,7 @@ onKioskModeExiting(bundleName: string, accountId: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { EnterpriseAdminExtensionAbility } from '@kit.MDMKit';
@@ -648,13 +552,7 @@ onMarketAppInstallResult(bundleName: string, result: common.InstallationResult):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { EnterpriseAdminExtensionAbility, common } from '@kit.MDMKit';
@@ -688,13 +586,7 @@ onDeviceAdminEnabled(bundleName: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { EnterpriseAdminExtensionAbility } from '@kit.MDMKit';
@@ -727,13 +619,7 @@ onDeviceAdminDisabled(bundleName: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { EnterpriseAdminExtensionAbility } from '@kit.MDMKit';
@@ -772,13 +658,7 @@ onKeyEvent(keyEvent: systemManager.KeyEvent): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { EnterpriseAdminExtensionAbility } from '@kit.MDMKit';
@@ -903,13 +783,7 @@ onLogCollected(result: common.Result): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -973,13 +847,7 @@ onStartupGuideCompleted(scene: common.StartupScene): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { EnterpriseAdminExtensionAbility, common } from '@kit.MDMKit';
@@ -1011,13 +879,7 @@ onDeviceBootCompleted(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { EnterpriseAdminExtensionAbility } from '@kit.MDMKit';

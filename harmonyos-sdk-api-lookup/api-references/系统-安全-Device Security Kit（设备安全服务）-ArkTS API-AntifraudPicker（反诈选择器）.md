@@ -6,13 +6,7 @@
 
 PhoneTablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {antifraudPicker} from '@kit.DeviceSecurityKit';
@@ -188,13 +182,7 @@ selectFraudMessage(context: common.Context, options?: [AntifraudMessageOptions](
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { antifraudPicker} from '@kit.DeviceSecurityKit';
@@ -264,13 +252,7 @@ selectFraudCallLog(context: common.Context, options?: [AntifraudCallLogOptions](
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { antifraudPicker} from '@kit.DeviceSecurityKit';
@@ -395,13 +377,7 @@ selectFraudApp(context: common.Context, options?: [AntifraudAppOptions](/consume
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { antifraudPicker} from '@kit.DeviceSecurityKit';

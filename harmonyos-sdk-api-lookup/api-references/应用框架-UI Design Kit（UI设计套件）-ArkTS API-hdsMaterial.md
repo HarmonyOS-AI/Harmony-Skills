@@ -6,13 +6,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hdsMaterial } from '@kit.UIDesignKit';
@@ -44,13 +38,7 @@ getSystemMaterialTypes(): Array<MaterialType>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hdsMaterial } from '@kit.UIDesignKit';

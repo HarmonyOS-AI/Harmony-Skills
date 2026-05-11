@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sceneManager } from '@kit.AppGalleryKit';
@@ -46,13 +40,7 @@ getSelfSceneCode(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sceneManager } from '@kit.AppGalleryKit';
@@ -88,13 +76,7 @@ getAdsVerificationVersion(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sceneManager } from '@kit.AppGalleryKit';

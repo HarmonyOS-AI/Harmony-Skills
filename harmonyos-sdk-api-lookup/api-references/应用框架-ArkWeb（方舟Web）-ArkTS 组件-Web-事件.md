@@ -25,13 +25,7 @@ onAlert(callback: Callback<OnAlertEvent, boolean>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -73,13 +67,7 @@ onAlert(callback: Callback<OnAlertEvent, boolean>)
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!--index.html-->
@@ -124,13 +112,7 @@ onBeforeUnload(callback: Callback<OnBeforeUnloadEvent, boolean>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -179,13 +161,7 @@ onBeforeUnload(callback: Callback<OnBeforeUnloadEvent, boolean>)
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!--index.html-->
@@ -226,13 +202,7 @@ onConfirm(callback: Callback<OnConfirmEvent, boolean>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -280,13 +250,7 @@ onConfirm(callback: Callback<OnConfirmEvent, boolean>)
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!--index.html-->
@@ -336,13 +300,7 @@ onPrompt(callback: Callback<OnPromptEvent, boolean>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -424,13 +382,7 @@ onPrompt(callback: Callback<OnPromptEvent, boolean>)
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!--index.html-->
@@ -476,13 +428,7 @@ onConsole(callback: Callback<OnConsoleEvent, boolean>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -517,13 +463,7 @@ onConsole(callback: Callback<OnConsoleEvent, boolean>)
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -559,13 +499,7 @@ onDownloadStart(callback: Callback<OnDownloadStartEvent>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -613,13 +547,7 @@ onErrorReceive(callback: Callback<OnErrorReceiveEvent>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -674,13 +602,7 @@ onHttpErrorReceive(callback: Callback<OnHttpErrorReceiveEvent>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -742,13 +664,7 @@ onPageBegin(callback: Callback<OnPageBeginEvent>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -792,13 +708,7 @@ onPageEnd(callback: Callback<OnPageEndEvent>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -846,13 +756,7 @@ onLoadStarted(callback: Callback<OnLoadStartedEvent>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -902,13 +806,7 @@ onLoadFinished(callback: Callback<OnLoadFinishedEvent>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -952,13 +850,7 @@ onProgressChange(callback: Callback<OnProgressChangeEvent>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1001,13 +893,7 @@ onTitleReceive(callback: Callback<OnTitleReceiveEvent>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1052,13 +938,7 @@ onRefreshAccessedHistory(callback: Callback<OnRefreshAccessedHistoryEvent>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1109,13 +989,7 @@ onRenderExited(callback: Callback<OnRenderExitedEvent>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1163,13 +1037,7 @@ onRenderProcessNotResponding(callback: OnRenderProcessNotRespondingCallback)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1212,13 +1080,7 @@ onRenderProcessResponding(callback: OnRenderProcessRespondingCallback)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1262,13 +1124,7 @@ onShowFileSelector(callback: Callback<OnShowFileSelectorEvent, boolean>)
 
 1. 拉起文件选择器。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. // xxx.ets
@@ -1306,13 +1162,7 @@ onShowFileSelector(callback: Callback<OnShowFileSelectorEvent, boolean>)
    ```
 2. 拉起图库选择器。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. // xxx.ets
@@ -1352,13 +1202,7 @@ onShowFileSelector(callback: Callback<OnShowFileSelectorEvent, boolean>)
    ```
 3. 拉起相机选择器。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. // xxx.ets
@@ -1410,13 +1254,7 @@ onShowFileSelector(callback: Callback<OnShowFileSelectorEvent, boolean>)
 
    加载的html文件。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. <!DOCTYPE html>
@@ -1452,13 +1290,7 @@ onResourceLoad(callback: Callback<OnResourceLoadEvent>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1500,13 +1332,7 @@ onScaleChange(callback: Callback<OnScaleChangeEvent>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1548,13 +1374,7 @@ onInterceptRequest(callback: Callback<OnInterceptRequestEvent, WebResourceRespon
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1636,13 +1456,7 @@ onHttpAuthRequest(callback: Callback<OnHttpAuthRequestEvent, boolean>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1725,13 +1539,7 @@ onSslErrorEventReceive(callback: Callback<OnSslErrorEventReceiveEvent>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1840,13 +1648,7 @@ onSslErrorEvent(callback: OnSslErrorEventCallback)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1965,13 +1767,7 @@ onClientAuthenticationRequest(callback: Callback<OnClientAuthenticationEvent>)
 
 安装私有凭证以实现双向认证。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2052,13 +1848,7 @@ onClientAuthenticationRequest(callback: Callback<OnClientAuthenticationEvent>)
 
 1. 构造 GlobalContext 单例对象。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. // GlobalContext.ets
@@ -2085,13 +1875,7 @@ onClientAuthenticationRequest(callback: Callback<OnClientAuthenticationEvent>)
    ```
 2. 构造 CertManagerService 对象以对接证书管理。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. // CertMgrService.ets
@@ -2151,13 +1935,7 @@ onClientAuthenticationRequest(callback: Callback<OnClientAuthenticationEvent>)
    ```
 3. 将当前Ability的上下文存储到GlobalContext中。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. // EntryAbility.ets
@@ -2214,13 +1992,7 @@ onClientAuthenticationRequest(callback: Callback<OnClientAuthenticationEvent>)
    ```
 4. 实现双向认证功能。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. import { webview } from '@kit.ArkWeb';
@@ -2301,13 +2073,7 @@ onVerifyPin(callback: OnVerifyPinCallback)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2419,13 +2185,7 @@ onPermissionRequest(callback: Callback<OnPermissionRequestEvent>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2486,13 +2246,7 @@ onPermissionRequest(callback: Callback<OnPermissionRequestEvent>)
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -2550,13 +2304,7 @@ onContextMenuShow(callback: Callback<OnContextMenuShowEvent, boolean>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2720,13 +2468,7 @@ onContextMenuShow(callback: Callback<OnContextMenuShowEvent, boolean>)
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -2762,13 +2504,7 @@ onContextMenuHide(callback: OnContextMenuHideCallback)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2818,13 +2554,7 @@ onScroll(callback: Callback<OnScrollEvent>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2867,13 +2597,7 @@ onGeolocationShow(callback: Callback<OnGeolocationShowEvent>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2936,13 +2660,7 @@ onGeolocationShow(callback: Callback<OnGeolocationShowEvent>)
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!DOCTYPE html>
@@ -2986,13 +2704,7 @@ onGeolocationHide(callback: () => void)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3035,13 +2747,7 @@ onFullScreenEnter(callback: OnFullScreenEnterCallback)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3087,13 +2793,7 @@ onFullScreenExit(callback: () => void)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3150,13 +2850,7 @@ onWindowNew(callback: Callback<OnWindowNewEvent>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3215,13 +2909,7 @@ onWindowNew(callback: Callback<OnWindowNewEvent>)
 54. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- window.html页面代码 -->
@@ -3270,13 +2958,7 @@ onWindowNewExt(callback: Callback<OnWindowNewExtEvent>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3339,13 +3021,7 @@ onWindowNewExt(callback: Callback<OnWindowNewExtEvent>)
 58. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- window.html页面代码 -->
@@ -3392,13 +3068,7 @@ onActivateContent(callback: Callback<void>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3460,13 +3130,7 @@ onActivateContent(callback: Callback<void>)
 57. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- window.html页面代码 -->
@@ -3509,13 +3173,7 @@ onWindowExit(callback: () => void)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3557,13 +3215,7 @@ onSearchResultReceive(callback: Callback<OnSearchResultReceiveEvent>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3608,13 +3260,7 @@ onDataResubmitted(callback: Callback<OnDataResubmittedEvent>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3649,13 +3295,7 @@ onDataResubmitted(callback: Callback<OnDataResubmittedEvent>)
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -3693,13 +3333,7 @@ onPageVisible(callback: Callback<OnPageVisibleEvent>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3741,13 +3375,7 @@ onInterceptKeyEvent(callback: (event: KeyEvent) => boolean)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3793,13 +3421,7 @@ onTouchIconUrlReceived(callback: Callback<OnTouchIconUrlReceivedEvent>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3841,13 +3463,7 @@ onFaviconReceived(callback: Callback<OnFaviconReceivedEvent>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3892,13 +3508,7 @@ onAudioStateChanged(callback: Callback<OnAudioStateChangedEvent>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3942,13 +3552,7 @@ onFirstContentfulPaint(callback: Callback<OnFirstContentfulPaintEvent>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3994,13 +3598,7 @@ onFirstMeaningfulPaint(callback: [OnFirstMeaningfulPaintCallback](https://develo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4043,13 +3641,7 @@ onLargestContentfulPaint(callback: [OnLargestContentfulPaintCallback](https://de
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4100,13 +3692,7 @@ onLoadIntercept(callback: Callback<OnLoadInterceptEvent, boolean>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4152,13 +3738,7 @@ onRequestSelected(callback: () => void)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4200,13 +3780,7 @@ onScreenCaptureRequest(callback: Callback<OnScreenCaptureRequestEvent>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4269,13 +3843,7 @@ onOverScroll(callback: Callback<OnOverScrollEvent>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4324,13 +3892,7 @@ onControllerAttached(callback: () => void)
 
 在该回调中使用loadUrl加载网页
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4354,13 +3916,7 @@ onControllerAttached(callback: () => void)
 
 在该回调中使用getWebId
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4392,13 +3948,7 @@ onControllerAttached(callback: () => void)
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -4430,13 +3980,7 @@ onNavigationEntryCommitted(callback: [OnNavigationEntryCommittedCallback](https:
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4487,13 +4031,7 @@ onSafeBrowsingCheckResult(callback: OnSafeBrowsingCheckResultCallback)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4541,13 +4079,7 @@ onSafeBrowsingCheckFinish(callback: OnSafeBrowsingCheckResultCallback)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4590,13 +4122,7 @@ onNativeEmbedLifecycleChange(callback: (event: NativeEmbedDataInfo) => void)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -4651,13 +4177,7 @@ onNativeEmbedLifecycleChange(callback: (event: NativeEmbedDataInfo) => void)
 50. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4749,13 +4269,7 @@ onNativeEmbedLifecycleChange(callback: (event: NativeEmbedDataInfo) => void)
 
 加载的html文件
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!--index.html-->
@@ -4795,13 +4309,7 @@ onNativeEmbedGestureEvent(callback: (event: NativeEmbedTouchInfo) => void)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4931,13 +4439,7 @@ onNativeEmbedGestureEvent(callback: (event: NativeEmbedTouchInfo) => void)
 
 加载的html文件
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!--index.html-->
@@ -4981,13 +4483,7 @@ onIntelligentTrackingPreventionResult(callback: OnIntelligentTrackingPreventionC
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -5046,13 +4542,7 @@ onOverrideUrlLoading(callback: OnOverrideUrlLoadingCallback)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -5079,13 +4569,7 @@ onOverrideUrlLoading(callback: OnOverrideUrlLoadingCallback)
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!--index.html-->
@@ -5121,13 +4605,7 @@ onViewportFitChanged(callback: OnViewportFitChangedCallback)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -5159,13 +4637,7 @@ onViewportFitChanged(callback: OnViewportFitChangedCallback)
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -5200,13 +4672,7 @@ onInterceptKeyboardAttach(callback: WebKeyboardCallback)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -5319,13 +4785,7 @@ onInterceptKeyboardAttach(callback: WebKeyboardCallback)
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -5399,13 +4859,7 @@ onNativeEmbedVisibilityChange(callback: OnNativeEmbedVisibilityChangeCallback)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -5517,13 +4971,7 @@ onNativeEmbedVisibilityChange(callback: OnNativeEmbedVisibilityChangeCallback)
 
 加载的html文件
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -5566,13 +5014,7 @@ onNativeEmbedMouseEvent(callback: MouseInfoCallback)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -5684,13 +5126,7 @@ onNativeEmbedMouseEvent(callback: MouseInfoCallback)
 
 加载的html文件
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!--index.html-->
@@ -5730,13 +5166,7 @@ onNativeEmbedObjectParamChange(callback: OnNativeEmbedObjectParamChangeCallback)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -5848,13 +5278,7 @@ onNativeEmbedObjectParamChange(callback: OnNativeEmbedObjectParamChangeCallback)
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!--index.html-->
@@ -5902,13 +5326,7 @@ onOverrideErrorPage(callback: OnOverrideErrorPageCallback)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -6005,13 +5423,7 @@ API version 8开始支持，从API version 10开始废弃，建议使用[onLoadI
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -6056,13 +5468,7 @@ onPdfLoadEvent(callback: Callback<OnPdfLoadEvent>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -6105,13 +5511,7 @@ onPdfScrollAtBottom(callback: Callback<OnPdfScrollEvent>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -6158,13 +5558,7 @@ Web组件检测到白屏时触发此回调。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // onDetectedBlankScreen.ets
@@ -6252,13 +5646,7 @@ onCameraCaptureStateChange(callback: OnCameraCaptureStateChangeCallback)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -6340,13 +5728,7 @@ onCameraCaptureStateChange(callback: OnCameraCaptureStateChangeCallback)
 
 加载的html文件
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -6416,13 +5798,7 @@ onMicrophoneCaptureStateChange(callback: OnMicrophoneCaptureStateChangeCallback)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -6504,13 +5880,7 @@ onMicrophoneCaptureStateChange(callback: OnMicrophoneCaptureStateChangeCallback)
 
 加载的html文件
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -6570,13 +5940,7 @@ onTextSelectionChange(callback: TextSelectionChangeCallback)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // onTextSelectionChange.ets
@@ -6600,13 +5964,7 @@ onTextSelectionChange(callback: TextSelectionChangeCallback)
 
 加载的html文件
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -6648,13 +6006,7 @@ onFirstScreenPaint(callback: OnFirstScreenPaintCallback)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // onFirstScreenPaint.ets

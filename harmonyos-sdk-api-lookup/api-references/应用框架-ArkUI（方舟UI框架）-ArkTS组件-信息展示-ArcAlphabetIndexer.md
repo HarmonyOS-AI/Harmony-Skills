@@ -16,13 +16,7 @@ PhonePC/2in1TabletTVWearable
 
 API version 21及之前版本：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ArcAlphabetIndexer, ArcAlphabetIndexerAttribute } from '@kit.ArkUI';
@@ -30,13 +24,7 @@ API version 21及之前版本：
 
 API version 22及之后版本：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ArcAlphabetIndexer } from '@kit.ArkUI';
@@ -411,13 +399,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例实现了弧形索引条和弧形列表联动控制和定位。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

@@ -13,13 +13,7 @@
 
 PhoneTabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wearEngine } from '@kit.WearEngine';
@@ -71,13 +65,7 @@ getAuthClient(context: common.Context): AuthClient
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wearEngine } from '@kit.WearEngine';
@@ -149,13 +137,7 @@ requestAuthorization(request: AuthorizationRequest): Promise<AuthorizationRespon
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wearEngine } from '@kit.WearEngine';
@@ -216,13 +198,7 @@ getAuthorization(): Promise<AuthorizationResponse>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wearEngine } from '@kit.WearEngine';
@@ -343,13 +319,7 @@ getDeviceClient(context: common.Context): DeviceClient
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wearEngine } from '@kit.WearEngine';
@@ -409,13 +379,7 @@ getConnectedDevices(): Promise<Device[]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wearEngine } from '@kit.WearEngine';
@@ -508,13 +472,7 @@ isWearEngineCapabilitySupported(capability: WearEngineCapability): Promise<boole
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wearEngine } from '@kit.WearEngine';
@@ -588,13 +546,7 @@ isDeviceCapabilitySupported(capability: DeviceCapability): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wearEngine } from '@kit.WearEngine';
@@ -660,13 +612,7 @@ getSerialNumber(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wearEngine } from '@kit.WearEngine';
@@ -814,13 +760,7 @@ getMonitorClient(context: common.Context): MonitorClient
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wearEngine } from '@kit.WearEngine';
@@ -898,13 +838,7 @@ queryStatus(deviceRandomId: string, item: MonitorItem): Promise<MonitorData>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wearEngine } from '@kit.WearEngine';
@@ -985,13 +919,7 @@ subscribeEvent(deviceRandomId: string, type: MonitorEvent, callback: Callback<Mo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wearEngine } from '@kit.WearEngine';
@@ -1074,13 +1002,7 @@ unsubscribeEvent(deviceRandomId: string, type: MonitorEvent, callback: Callback<
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wearEngine } from '@kit.WearEngine';
@@ -1236,13 +1158,7 @@ getP2pClient(context: common.Context): P2pClient
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wearEngine } from '@kit.WearEngine';
@@ -1317,13 +1233,7 @@ isRemoteAppInstalled(deviceRandomId: string, remoteBundleName: string): Promise<
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wearEngine } from '@kit.WearEngine';
@@ -1409,13 +1319,7 @@ getRemoteAppVersion(deviceRandomId: string, remoteBundleName: string): Promise<n
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wearEngine } from '@kit.WearEngine';
@@ -1502,13 +1406,7 @@ startRemoteApp(deviceRandomId: string, remoteBundleName: string, transformLocalB
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wearEngine } from '@kit.WearEngine';
@@ -1595,13 +1493,7 @@ startRemoteApp(deviceRandomId: string, remoteApp: AppInfo, startConfig: StartCon
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wearEngine } from '@kit.WearEngine';
@@ -1689,13 +1581,7 @@ sendMessage(deviceRandomId: string, appParam: P2pAppParam, message: P2pMessage):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wearEngine } from '@kit.WearEngine';
@@ -1789,13 +1675,7 @@ transferFile(deviceRandomId: string, appParam: P2pAppParam, file: P2pFile, callb
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wearEngine } from '@kit.WearEngine';
@@ -1908,13 +1788,7 @@ cancelFileTransfer(deviceRandomId: string, appParam: P2pAppParam, file: P2pFile)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wearEngine } from '@kit.WearEngine';
@@ -2019,13 +1893,7 @@ registerMessageReceiver(deviceRandomId: string, appParam: P2pAppParam, callback:
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wearEngine } from '@kit.WearEngine';
@@ -2122,13 +1990,7 @@ registerFileReceiver(deviceRandomId: string, appParam: P2pAppParam, callback: Ca
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wearEngine } from '@kit.WearEngine';
@@ -2224,13 +2086,7 @@ registerFileReceiverWithProgress(deviceRandomId: string, appParam: P2pAppParam, 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wearEngine } from '@kit.WearEngine';
@@ -2330,13 +2186,7 @@ unregisterMessageReceiver(deviceRandomId: string, appParam: P2pAppParam, callbac
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wearEngine } from '@kit.WearEngine';
@@ -2438,13 +2288,7 @@ unregisterFileReceiver(deviceRandomId: string, appParam: P2pAppParam, callback: 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wearEngine } from '@kit.WearEngine';
@@ -2693,13 +2537,7 @@ getNotifyClient(context: common.Context): NotifyClient
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wearEngine } from '@kit.WearEngine';
@@ -2776,13 +2614,7 @@ notify(deviceRandomId: string, options: NotificationOptions): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wearEngine } from '@kit.WearEngine';
@@ -3053,13 +2885,7 @@ getSensorClient(context: common.Context): SensorClient
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wearEngine } from '@kit.WearEngine';
@@ -3135,13 +2961,7 @@ getSensorList(deviceRandomId: string): Promise<Sensor[]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wearEngine } from '@kit.WearEngine';
@@ -3221,13 +3041,7 @@ subscribeSensor(deviceRandomId: string, type: SensorType, callback: Callback<Sen
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wearEngine } from '@kit.WearEngine';
@@ -3314,13 +3128,7 @@ unsubscribeSensor(deviceRandomId: string, type: SensorType, callback: Callback<S
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wearEngine } from '@kit.WearEngine';
@@ -3506,13 +3314,7 @@ on(type: 'serviceDie', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wearEngine } from '@kit.WearEngine';
@@ -3566,13 +3368,7 @@ off(type: 'serviceDie', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wearEngine } from '@kit.WearEngine';
@@ -3626,13 +3422,7 @@ destroy(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wearEngine } from '@kit.WearEngine';

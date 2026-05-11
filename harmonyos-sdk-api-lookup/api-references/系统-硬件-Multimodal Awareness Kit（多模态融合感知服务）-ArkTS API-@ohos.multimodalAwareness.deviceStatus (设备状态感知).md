@@ -8,13 +8,7 @@
 
 Phone
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { deviceStatus } from '@kit.MultimodalAwarenessKit';
@@ -70,13 +64,7 @@ on(type: 'steadyStandingDetect', callback: Callback<SteadyStandingStatus>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -123,13 +111,7 @@ off(type: 'steadyStandingDetect', callback?: Callback<SteadyStandingStatus>): vo
 
 示例一：取消订阅该客户端订阅设备静止姿态感知（支架态）事件的所有回调。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -141,13 +123,7 @@ off(type: 'steadyStandingDetect', callback?: Callback<SteadyStandingStatus>): vo
 
 示例二：取消订阅该客户端订阅设备静止姿态感知（支架态）事件的特定回调。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 定义callback变量

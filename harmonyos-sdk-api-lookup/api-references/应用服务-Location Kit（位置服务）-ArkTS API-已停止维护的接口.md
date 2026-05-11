@@ -1,2 +1,0 @@
-* **[@ohos.geolocation (位置服务)](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-geolocation)**
-* **[@system.geolocation (地理位置)](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-system-location)**

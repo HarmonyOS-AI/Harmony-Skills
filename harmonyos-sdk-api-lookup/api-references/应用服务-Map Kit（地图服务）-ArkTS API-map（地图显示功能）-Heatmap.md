@@ -2,13 +2,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { map, mapCommon } from '@kit.MapKit';
@@ -30,13 +24,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: mapCommon.WeightedLatLng[] = [];
@@ -88,13 +76,7 @@ setData(data: mapCommon.WeightedLatLng[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: mapCommon.WeightedLatLng[] = [
@@ -135,13 +117,7 @@ getData(): mapCommon.WeightedLatLng[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: mapCommon.WeightedLatLng[] = heatMap.getData();
@@ -173,13 +149,7 @@ setColor(color: Record<number, number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let record: Record<number, number> = {
@@ -221,13 +191,7 @@ getColor(): Record<number, number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let record: Record<number, number> = heatMap.getColor();
@@ -259,13 +223,7 @@ setIntensity(intensity: number | Record<number, number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let intensity: Record<number, number> | number = {
@@ -302,13 +260,7 @@ getIntensity(): number | Record<number, number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let intensity: Record<number, number> | number = heatMap.getIntensity();
@@ -340,13 +292,7 @@ setOpacity(opacity: number | Record<number, number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let opacity: Record<number, number> | number = {
@@ -383,13 +329,7 @@ getOpacity(): number | Record<number, number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let opacity: Record<number, number> | number = heatMap.getOpacity();
@@ -421,13 +361,7 @@ setRadius(radius: number | Record<number, number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. heatMap.setRadius(3000);
@@ -459,13 +393,7 @@ getRadius(): number | Record<number, number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let radius: number | Record<number, number> = heatMap.getRadius();
@@ -497,13 +425,7 @@ setRadiusUnit(radiusUnit: mapCommon.RadiusUnit): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. heatMap.setRadiusUnit(mapCommon.RadiusUnit.PIXEL_UNIT);
@@ -535,13 +457,7 @@ getRadiusUnit(): mapCommon.RadiusUnit
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let radiusUnit: mapCommon.RadiusUnit = heatMap.getRadiusUnit();
@@ -573,13 +489,7 @@ setVisible(visible: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. heatMap.setVisible(false);
@@ -611,13 +521,7 @@ isVisible(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let isVisible: boolean = heatMap.isVisible();
@@ -641,13 +545,7 @@ remove(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. heatMap.remove();

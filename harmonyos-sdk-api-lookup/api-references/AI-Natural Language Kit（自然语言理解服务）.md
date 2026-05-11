@@ -1,2 +1,0 @@
-* **[ArkTS API](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/natural-language-arkts)**
-* **[ArkTS API错误码](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/natural-language-error-code)**

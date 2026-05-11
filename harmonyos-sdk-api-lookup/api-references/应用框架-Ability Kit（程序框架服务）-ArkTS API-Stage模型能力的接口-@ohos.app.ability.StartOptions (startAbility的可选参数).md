@@ -9,13 +9,7 @@ StartOptions可以作为启动UIAbility接口（例如[startAbility()](https://d
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { StartOptions } from '@kit.AbilityKit';
@@ -55,13 +49,7 @@ StartOptions用于指定启动目标UIAbility时的选项。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, Want, StartOptions, bundleManager, CompletionHandler } from '@kit.AbilityKit';

@@ -12,13 +12,7 @@ PhonePC/2in1TabletWearable
 
 在使用AccessibilityExtensionContext的功能前，需要通过AccessibilityExtensionAbility子类实例获取AccessibilityExtensionContext的实例。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AccessibilityExtensionAbility } from '@kit.AccessibilityKit';
@@ -217,13 +211,7 @@ setTargetBundleName(targetNames: Array<string>): Promise<void>;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -271,13 +259,7 @@ setTargetBundleName(targetNames: Array<string>, callback: AsyncCallback<void>): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -339,13 +321,7 @@ getFocusElement(isAccessibilityFocus?: boolean): Promise<AccessibilityElement>;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AccessibilityElement } from '@kit.AccessibilityKit';
@@ -396,13 +372,7 @@ getFocusElement(callback: AsyncCallback<AccessibilityElement>): void;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AccessibilityElement } from '@kit.AccessibilityKit';
@@ -456,13 +426,7 @@ getFocusElement(isAccessibilityFocus: boolean, callback: AsyncCallback<Accessibi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AccessibilityElement } from '@kit.AccessibilityKit';
@@ -524,13 +488,7 @@ getWindowRootElement(windowId?: number): Promise<AccessibilityElement>;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AccessibilityElement } from '@kit.AccessibilityKit';
@@ -581,13 +539,7 @@ getWindowRootElement(callback: AsyncCallback<AccessibilityElement>): void;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AccessibilityElement } from '@kit.AccessibilityKit';
@@ -641,13 +593,7 @@ getWindowRootElement(windowId: number, callback: AsyncCallback<AccessibilityElem
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AccessibilityElement } from '@kit.AccessibilityKit';
@@ -709,13 +655,7 @@ getWindows(displayId?: number): Promise<Array<AccessibilityElement>>;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AccessibilityElement } from '@kit.AccessibilityKit';
@@ -763,13 +703,7 @@ getWindows(callback: AsyncCallback<Array<AccessibilityElement>>): void;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AccessibilityElement } from '@kit.AccessibilityKit';
@@ -820,13 +754,7 @@ getWindows(displayId: number, callback: AsyncCallback<Array<AccessibilityElement
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AccessibilityElement } from '@kit.AccessibilityKit';
@@ -885,13 +813,7 @@ injectGesture(gesturePath: GesturePath): Promise<void>;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { GesturePath, GesturePoint } from '@kit.AccessibilityKit';
@@ -946,13 +868,7 @@ injectGesture(gesturePath: GesturePath, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { GesturePath, GesturePoint } from '@kit.AccessibilityKit';
@@ -1007,13 +923,7 @@ injectGestureSync(gesturePath: GesturePath): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { GesturePath, GesturePoint } from '@kit.AccessibilityKit';
@@ -1060,13 +970,7 @@ attributeNames<T extends keyof ElementAttributeValues>() : Promise<Array<T>>;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ElementAttributeKeys } from '@kit.AccessibilityKit';
@@ -1104,13 +1008,7 @@ attributeNames<T extends keyof ElementAttributeValues>(callback: AsyncCallback<A
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ElementAttributeKeys } from '@kit.AccessibilityKit';
@@ -1169,13 +1067,7 @@ attributeValue<T extends keyof ElementAttributeValues>(attributeName: T): Promis
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ElementAttributeKeys } from '@kit.AccessibilityKit';
@@ -1227,13 +1119,7 @@ attributeValue<T extends keyof ElementAttributeValues>(attributeName: T, callbac
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ElementAttributeKeys } from '@kit.AccessibilityKit';
@@ -1275,13 +1161,7 @@ actionNames(): Promise<Array<string>>;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1318,13 +1198,7 @@ actionNames(callback: AsyncCallback<Array<string>>): void;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // rootElement是AccessibilityElement的实例
@@ -1381,13 +1255,7 @@ performAction(actionName: string, parameters?: object): Promise<void>;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1404,13 +1272,7 @@ performAction(actionName: string, parameters?: object): Promise<void>;
 
 **无参数Action示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1426,13 +1288,7 @@ performAction(actionName: string, parameters?: object): Promise<void>;
 
 **有参数Action示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1450,13 +1306,7 @@ performAction(actionName: string, parameters?: object): Promise<void>;
 13. });
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1508,13 +1358,7 @@ performAction(actionName: string, callback: AsyncCallback<void>): void;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1568,13 +1412,7 @@ performAction(actionName: string, parameters: object, callback: AsyncCallback<vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1635,13 +1473,7 @@ findElement(type: 'content', condition: string): Promise<Array<AccessibilityElem
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1692,13 +1524,7 @@ findElement(type: 'content', condition: string, callback: AsyncCallback<Array<Ac
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1758,13 +1584,7 @@ findElement(type: 'focusType', condition: FocusType): Promise<AccessibilityEleme
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FocusType } from '@kit.AccessibilityKit';
@@ -1816,13 +1636,7 @@ findElement(type: 'focusType', condition: FocusType, callback: AsyncCallback<Acc
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FocusType } from '@kit.AccessibilityKit';
@@ -1883,13 +1697,7 @@ findElement(type: 'focusDirection', condition: FocusDirection): Promise<Accessib
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FocusDirection } from '@kit.AccessibilityKit';
@@ -1941,13 +1749,7 @@ findElement(type: 'focusDirection', condition: FocusDirection, callback: AsyncCa
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FocusDirection } from '@kit.AccessibilityKit';

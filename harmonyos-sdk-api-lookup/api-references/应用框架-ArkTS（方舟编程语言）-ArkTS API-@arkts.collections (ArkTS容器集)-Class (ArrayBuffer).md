@@ -12,13 +12,7 @@ ArkTS TypedArray（[Int8Array](https://developer.huawei.com/consumer/cn/doc/harm
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { collections } from '@kit.ArkTS';
@@ -71,13 +65,7 @@ constructor(byteLength: number)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let arrayBuffer: collections.ArrayBuffer = new collections.ArrayBuffer(10);
@@ -127,13 +115,7 @@ slice(begin: number, end?: number): ArrayBuffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let arrayBuffer: collections.ArrayBuffer = new collections.ArrayBuffer(10);

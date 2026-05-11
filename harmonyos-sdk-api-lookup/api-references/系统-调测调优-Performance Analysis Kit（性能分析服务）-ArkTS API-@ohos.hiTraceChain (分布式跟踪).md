@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hiTraceChain } from '@kit.PerformanceAnalysisKit';
@@ -126,13 +120,7 @@ begin(name: string, flags?: number): HiTraceId
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 开始跟踪，跟踪标志是INCLUDE_ASYNC与DONOT_CREATE_SPAN的并集。
@@ -165,13 +153,7 @@ end(id: HiTraceId): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 开始跟踪，跟踪标志是DEFAULT。
@@ -202,13 +184,7 @@ getId(): HiTraceId
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 开始跟踪，跟踪标志是DEFAULT。
@@ -245,13 +221,7 @@ setId(id: HiTraceId): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 获取当前跟踪链中的跟踪标识。
@@ -274,13 +244,7 @@ clearId(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 业务开始前，尝试清除跟踪标识。
@@ -313,13 +277,7 @@ createSpan(): HiTraceId
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 开始跟踪，跟踪标志是DEFAULT。
@@ -361,13 +319,7 @@ type为客户端发送CS和客户端接收CR的信息埋点需配套使用；typ
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 开始跟踪，跟踪标志是INCLUDE_ASYNC与DONOT_CREATE_SPAN的并集。
@@ -406,13 +358,7 @@ isValid(id: HiTraceId): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 开始跟踪，跟踪标志是DEFAULT。
@@ -455,13 +401,7 @@ isFlagEnabled(id: HiTraceId, flag: HiTraceFlag): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 开始跟踪，跟踪标志是INCLUDE_ASYNC。
@@ -496,13 +436,7 @@ enableFlag(id: HiTraceId, flag: HiTraceFlag): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 开始跟踪，跟踪标志是INCLUDE_ASYNC。

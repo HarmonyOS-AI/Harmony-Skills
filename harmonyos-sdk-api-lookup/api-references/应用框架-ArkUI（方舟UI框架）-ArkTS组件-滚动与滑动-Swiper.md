@@ -2363,13 +2363,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，新增onScrollStateChanged事件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2509,13 +2503,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[DigitIndicator](/consumer/cn/doc/harmonyos-references/ts-container-swiper#digitindicator10)接口，实现了数字指示器的效果和功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2604,13 +2592,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[displayCount](/consumer/cn/doc/harmonyos-references/ts-container-swiper#displaycount8)属性实现了按组翻页效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2699,13 +2681,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[customContentTransition](/consumer/cn/doc/harmonyos-references/ts-container-swiper#customcontenttransition12)接口，实现了自定义Swiper页面按组翻页动画效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -2723,13 +2699,7 @@ PhonePC/2in1TabletTVWearable
 13. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // CommonUtil.ets
@@ -2746,13 +2716,7 @@ PhonePC/2in1TabletTVWearable
 12. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2859,13 +2823,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过DotIndicator接口的[maxDisplayCount](/consumer/cn/doc/harmonyos-references/ts-container-swiper#maxdisplaycount12)属性，实现了圆点导航点超长显示动画效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class MyDataSource implements IDataSource {
@@ -2963,13 +2921,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[preloadItems](/consumer/cn/doc/harmonyos-references/ts-container-swiper#preloaditems18)接口实现了预加载指定子节点。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3043,13 +2995,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[onSelected](/consumer/cn/doc/harmonyos-references/ts-container-swiper#onselected18)接口，实现了[Tabs](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-container-tabs)与Swiper联动切换。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3160,13 +3106,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[onContentWillScroll](/consumer/cn/doc/harmonyos-references/ts-container-swiper#oncontentwillscroll15)事件实现了单方向的滑动翻页，即只能滑动向前翻页，滑动向后翻页的行为会被拦截。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3257,13 +3197,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[bottom](/consumer/cn/doc/harmonyos-references/ts-container-swiper#bottom19)和[space](/consumer/cn/doc/harmonyos-references/ts-container-swiper#space19)接口，实现了圆点导航点与底部间距为0的间距控制以及导航点之间的间距控制。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LengthMetrics } from '@kit.ArkUI';
@@ -3371,13 +3305,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 22开始，新增[displayCount](/consumer/cn/doc/harmonyos-references/ts-container-swiper#displaycount22)接口，用于设置Swiper视窗内元素显示个数。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class MyDataSource implements IDataSource {
@@ -3447,13 +3375,7 @@ Swiper宽度属于[md](https://developer.huawei.com/consumer/cn/doc/harmonyos-gu
 
 从API version 23开始，新增[startFakeDrag](/consumer/cn/doc/harmonyos-references/ts-container-swiper#startfakedrag23)接口、[fakeDragBy](/consumer/cn/doc/harmonyos-references/ts-container-swiper#fakedragby23)接口、[stopFakeDrag](/consumer/cn/doc/harmonyos-references/ts-container-swiper#stopfakedrag23)接口、[isFakeDragging](/consumer/cn/doc/harmonyos-references/ts-container-swiper#isfakedragging23)接口，用于实现模拟拖拽。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // SwiperFakeDragExample.ets

@@ -8,13 +8,7 @@ Ability信息，可以通过[bundleManager.getBundleInfoForSelf](https://develop
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bundleManager } from '@kit.AbilityKit';

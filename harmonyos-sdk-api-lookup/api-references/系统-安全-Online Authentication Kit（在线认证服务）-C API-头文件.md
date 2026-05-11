@@ -1,1 +1,0 @@
-* **[fido2\_api.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/onlineauthentication_capi_header_fido2)**

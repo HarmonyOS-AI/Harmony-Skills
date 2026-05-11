@@ -38,13 +38,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_Drawing_ColorSpace* OH_Drawing_ColorSpaceCreateSrgb(void)
@@ -70,13 +64,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_Drawing_ColorSpace* OH_Drawing_ColorSpaceCreateSrgbLinear(void)
@@ -102,13 +90,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void OH_Drawing_ColorSpaceDestroy(OH_Drawing_ColorSpace* colorSpace)

@@ -35,13 +35,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. float AREngine_ClipPlaneDistance::far
@@ -55,13 +49,7 @@ OpenGL远裁剪平面距离，以m为单位。
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. float AREngine_ClipPlaneDistance::near

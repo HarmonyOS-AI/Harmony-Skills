@@ -18,13 +18,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PhotoEditorExtensionAbility } from '@kit.AbilityKit';
@@ -60,13 +54,7 @@ onCreate(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PhotoEditorExtensionAbility } from '@kit.AbilityKit';
@@ -104,13 +92,7 @@ onStartContentEditing(uri: string, want: Want, session: UIExtensionContentSessio
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PhotoEditorExtensionAbility, Want, UIExtensionContentSession } from '@kit.AbilityKit';
@@ -138,13 +120,7 @@ onForeground(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PhotoEditorExtensionAbility } from '@kit.AbilityKit';
@@ -172,13 +148,7 @@ onBackground(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PhotoEditorExtensionAbility } from '@kit.AbilityKit';
@@ -216,13 +186,7 @@ onDestroy(): void | Promise<void>
 
 * 同步回调示例如下：
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. import { PhotoEditorExtensionAbility } from '@kit.AbilityKit';
@@ -238,13 +202,7 @@ onDestroy(): void | Promise<void>
   ```
 * Promise异步回调示例如下：
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. import { PhotoEditorExtensionAbility } from '@kit.AbilityKit';

@@ -68,13 +68,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例展示了超链接图片和文本跳转的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry

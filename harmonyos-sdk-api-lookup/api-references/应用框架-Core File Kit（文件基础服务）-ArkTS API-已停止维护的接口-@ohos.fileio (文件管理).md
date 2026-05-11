@@ -9,13 +9,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import fileio from '@ohos.fileio';
@@ -27,13 +21,7 @@ PhonePC/2in1TabletTVWearable
 
 使用该功能模块对文件/目录进行操作前，需要先获取其应用沙箱路径，获取方式及其接口用法请参考：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import UIAbility from '@ohos.app.ability.UIAbility';
@@ -81,13 +69,7 @@ stat(path: string): Promise<Stat>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -124,13 +106,7 @@ stat(path: string, callback: AsyncCallback<Stat>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -171,13 +147,7 @@ statSync(path: string): Stat
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let stat = fileio.statSync(pathDir);
@@ -216,13 +186,7 @@ opendir(path: string): Promise<Dir>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -259,13 +223,7 @@ opendir(path: string, callback: AsyncCallback<Dir>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -307,13 +265,7 @@ opendirSync(path: string): Dir
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let dir = fileio.opendirSync(pathDir);
@@ -354,13 +306,7 @@ access(path: string, mode?: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -398,13 +344,7 @@ access(path: string, mode?: number, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -439,13 +379,7 @@ accessSync(path: string, mode?: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -490,13 +424,7 @@ close(fd: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -534,13 +462,7 @@ close(fd: number, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -575,13 +497,7 @@ closeSync(fd: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -623,13 +539,7 @@ copyFile(src: string|number, dest: string|number, mode?: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -669,13 +579,7 @@ copyFile(src: string|number, dest: string|number, mode: number, callback: AsyncC
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -712,13 +616,7 @@ copyFileSync(src: string|number, dest: string|number, mode?: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let srcPath = pathDir + "srcDir/test.txt";
@@ -759,13 +657,7 @@ mkdir(path: string, mode?: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -803,13 +695,7 @@ mkdir(path: string, mode: number, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -844,13 +730,7 @@ mkdirSync(path: string, mode?: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let dirPath = pathDir + '/testDir';
@@ -891,13 +771,7 @@ open(path: string, flags?: number, mode?: number): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -936,13 +810,7 @@ open(path: string, flags: number, mode: number, callback: AsyncCallback<number>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -1075,13 +943,7 @@ readSync(fd: number, buffer: ArrayBuffer, options?: { offset?: number; length?: 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -1122,13 +984,7 @@ rmdir(path: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -1165,13 +1021,7 @@ rmdir(path: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -1206,13 +1056,7 @@ rmdirSync(path: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let dirPath = pathDir + '/testDir';
@@ -1251,13 +1095,7 @@ unlink(path: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -1294,13 +1132,7 @@ unlink(path: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -1334,13 +1166,7 @@ unlinkSync(path: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -1381,13 +1207,7 @@ write(fd: number, buffer: ArrayBuffer|string, options?: { offset?: number; lengt
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -1427,13 +1247,7 @@ write(fd: number, buffer: ArrayBuffer|string, options: { offset?: number; length
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -1480,13 +1294,7 @@ writeSync(fd: number, buffer: ArrayBuffer|string, options?: { offset?: number; l
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -1527,13 +1335,7 @@ hash(path: string, algorithm: string): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -1571,13 +1373,7 @@ hash(path: string, algorithm: string, callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -1622,13 +1418,7 @@ chmod(path: string, mode: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -1666,13 +1456,7 @@ chmod(path: string, mode: number, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -1707,13 +1491,7 @@ chmodSync(path: string, mode: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -1752,13 +1530,7 @@ fstat(fd: number): Promise<Stat>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -1796,13 +1568,7 @@ fstat(fd: number, callback: AsyncCallback<Stat>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -1845,13 +1611,7 @@ fstatSync(fd: number): Stat
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -1892,13 +1652,7 @@ ftruncate(fd: number, len?: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -1937,13 +1691,7 @@ ftruncate(fd: number, len?: number, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -1980,13 +1728,7 @@ ftruncateSync(fd: number, len?: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -2028,13 +1770,7 @@ truncate(path: string, len?: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -2073,13 +1809,7 @@ truncate(path: string, len?: number, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -2115,13 +1845,7 @@ truncateSync(path: string, len?: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -2162,13 +1886,7 @@ readText(filePath: string, options?: { position?: number; length?: number; encod
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -2206,13 +1924,7 @@ readText(filePath: string, options: { position?: number; length?: number; encodi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -2263,13 +1975,7 @@ readTextSync(filePath: string, options?: { position?: number; length?: number; e
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -2316,13 +2022,7 @@ lstat(path: string): Promise<Stat>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -2359,13 +2059,7 @@ lstat(path: string, callback: AsyncCallback<Stat>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -2407,13 +2101,7 @@ lstatSync(path: string): Stat
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -2453,13 +2141,7 @@ rename(oldPath: string, newPath: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -2498,13 +2180,7 @@ rename(oldPath: string, newPath: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -2539,13 +2215,7 @@ renameSync(oldPath: string, newPath: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let srcFile = pathDir + "/test.txt";
@@ -2585,13 +2255,7 @@ fsync(fd: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -2629,13 +2293,7 @@ fsync(fd: number, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -2670,13 +2328,7 @@ fsyncSync(fd: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -2716,13 +2368,7 @@ fdatasync(fd: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -2760,13 +2406,7 @@ fdatasync(fd: number, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -2801,13 +2441,7 @@ fdatasyncSync(fd: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -2848,13 +2482,7 @@ symlink(target: string, srcPath: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -2893,13 +2521,7 @@ symlink(target: string, srcPath: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -2935,13 +2557,7 @@ symlinkSync(target: string, srcPath: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let srcFile = pathDir + "/test.txt";
@@ -2983,13 +2599,7 @@ chown(path: string, uid: number, gid: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -3029,13 +2639,7 @@ chown(path: string, uid: number, gid: number, callback: AsyncCallback<void>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -3072,13 +2676,7 @@ chownSync(path: string, uid: number, gid: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -3118,13 +2716,7 @@ mkdtemp(prefix: string): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -3160,13 +2752,7 @@ mkdtemp(prefix: string, callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -3207,13 +2793,7 @@ mkdtempSync(prefix: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let res = fileio.mkdtempSync(pathDir + "/XXXXXX");
@@ -3252,13 +2832,7 @@ fchmod(fd: number, mode: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -3298,13 +2872,7 @@ fchmod(fd: number, mode: number, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -3341,13 +2909,7 @@ fchmodSync(fd: number, mode: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -3389,13 +2951,7 @@ createStream(path: string, mode: string): Promise<Stream>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -3433,13 +2989,7 @@ createStream(path: string, mode: string, callback: AsyncCallback<Stream>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -3482,13 +3032,7 @@ createStreamSync(path: string, mode: string): Stream
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -3528,13 +3072,7 @@ fdopenStream(fd: number, mode: string): Promise<Stream>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -3573,13 +3111,7 @@ fdopenStream(fd: number, mode: string, callback: AsyncCallback<Stream>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -3623,13 +3155,7 @@ fdopenStreamSync(fd: number, mode: string): Stream
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -3671,13 +3197,7 @@ fchown(fd: number, uid: number, gid: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -3718,13 +3238,7 @@ fchown(fd: number, uid: number, gid: number, callback: AsyncCallback<void>): voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -3762,13 +3276,7 @@ fchownSync(fd: number, uid: number, gid: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -3811,13 +3319,7 @@ lchown(path: string, uid: number, gid: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -3857,13 +3359,7 @@ lchown(path: string, uid: number, gid: number, callback: AsyncCallback<void>): v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -3900,13 +3396,7 @@ lchownSync(path: string, uid: number, gid: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -3948,13 +3438,7 @@ createWatcher(filename: string, events: number, callback: AsyncCallback<number>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -4038,13 +3522,7 @@ isBlockDevice(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -4075,13 +3553,7 @@ isCharacterDevice(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -4112,13 +3584,7 @@ isDirectory(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let dirPath = pathDir + "/test";
@@ -4149,13 +3615,7 @@ isFIFO(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -4186,13 +3646,7 @@ isFile(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -4223,13 +3677,7 @@ isSocket(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -4260,13 +3708,7 @@ isSymbolicLink(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test";
@@ -4299,13 +3741,7 @@ stop(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -4341,13 +3777,7 @@ stop(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -4393,13 +3823,7 @@ close(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -4436,13 +3860,7 @@ close(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -4469,13 +3887,7 @@ closeSync(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -4507,13 +3919,7 @@ flush(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -4550,13 +3956,7 @@ flush(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -4583,13 +3983,7 @@ flushSync(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -4630,13 +4024,7 @@ write(buffer: ArrayBuffer|string, options?: { offset?: number; length?: number; 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -4685,13 +4073,7 @@ write(buffer: ArrayBuffer|string, options: { offset?: number; length?: number; p
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -4748,13 +4130,7 @@ writeSync(buffer: ArrayBuffer|string, options?: { offset?: number; length?: numb
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -4805,13 +4181,7 @@ read(buffer: ArrayBuffer, options?: { position?: number; offset?: number; length
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -4863,13 +4233,7 @@ read(buffer: ArrayBuffer, options: { position?: number; offset?: number; length?
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -4928,13 +4292,7 @@ readSync(buffer: ArrayBuffer, options?: { position?: number; offset?: number; le
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test.txt";
@@ -4986,13 +4344,7 @@ read(): Promise<Dirent>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -5027,13 +4379,7 @@ read(callback: AsyncCallback<Dirent>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -5069,13 +4415,7 @@ readSync(): Dirent
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let dirent = dir.readSync();
@@ -5097,13 +4437,7 @@ close(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -5128,13 +4462,7 @@ close(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -5159,13 +4487,7 @@ closeSync(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. dir.closeSync();
@@ -5215,13 +4537,7 @@ isBlockDevice(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let dir = fileio.opendirSync(pathDir);
@@ -5252,13 +4568,7 @@ isCharacterDevice(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let dir = fileio.opendirSync(pathDir);
@@ -5289,13 +4599,7 @@ isDirectory(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let dir = fileio.opendirSync(pathDir);
@@ -5326,13 +4630,7 @@ isFIFO(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let dir = fileio.opendirSync(pathDir);
@@ -5363,13 +4661,7 @@ isFile(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let dir = fileio.opendirSync(pathDir);
@@ -5400,13 +4692,7 @@ isSocket(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let dir = fileio.opendirSync(pathDir);
@@ -5437,13 +4723,7 @@ isSymbolicLink(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let dir = fileio.opendirSync(pathDir);

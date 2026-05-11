@@ -36,13 +36,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HMS_GCP_Color HMS_GCP_PickedColorInfo::color
@@ -56,13 +50,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HMS_GCP_ColorSpace HMS_GCP_PickedColorInfo::colorSpace
@@ -76,13 +64,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int64_t HMS_GCP_PickedColorInfo::timestamp

@@ -8,13 +8,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { screenLockFileManager } from '@kit.AbilityKit';
@@ -114,13 +108,7 @@ acquireAccess(): AccessStatus
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 申请锁屏下应用敏感数据访问权限
@@ -172,13 +160,7 @@ releaseAccess(): ReleaseStatus
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 释放锁屏下应用敏感数据访问权限
@@ -228,13 +210,7 @@ queryAppKeyState(): KeyStatus
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 查询锁屏下应用敏感数据访问权限

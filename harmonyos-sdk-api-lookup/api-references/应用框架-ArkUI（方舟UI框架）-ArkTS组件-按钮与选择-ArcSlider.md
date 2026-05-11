@@ -9,13 +9,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {
@@ -405,13 +399,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 18开始，该示例展示了ArcSlider组件的基本用法。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

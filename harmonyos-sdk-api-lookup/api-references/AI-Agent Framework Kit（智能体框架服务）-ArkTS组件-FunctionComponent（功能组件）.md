@@ -8,13 +8,7 @@ Agent Framework Kit（智能体框架服务）提供了拉起指定智能体的�
 
 PhoneTablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AgentController, BaseOptions, FunctionController, FunctionOptions, ButtonType, FunctionComponent } from '@kit.AgentFrameworkKit';
@@ -62,13 +56,7 @@ Agent功能组件，可以实现拉起智能体功能。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from "@kit.BasicServicesKit";
@@ -157,13 +145,7 @@ isAgentSupport(context: common.UIAbilityContext, agentId: string): Promise<boole
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from "@kit.BasicServicesKit";
@@ -237,13 +219,7 @@ on(type: 'agentDialogOpened', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from "@kit.BasicServicesKit";
@@ -314,13 +290,7 @@ off(type: 'agentDialogOpened', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from "@kit.BasicServicesKit";
@@ -391,13 +361,7 @@ on(type: 'agentDialogClosed', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from "@kit.BasicServicesKit";
@@ -468,13 +432,7 @@ off(type: 'agentDialogClosed', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from "@kit.BasicServicesKit";

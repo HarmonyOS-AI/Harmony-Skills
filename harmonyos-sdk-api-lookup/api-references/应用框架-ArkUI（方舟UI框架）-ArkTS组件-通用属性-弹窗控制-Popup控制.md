@@ -320,13 +320,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 15开始，分别在PopupOptions和CustomPopupOptions中新增了keyboardAvoidMode属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -413,13 +407,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置[PopupOptions](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-popup#popupoptions类型说明)中的messageOptions属性，实现了弹出自定义文本样式的气泡。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -468,13 +456,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置[PopupOptions](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-popup#popupoptions类型说明)中的arrowHeight、arrowWidth、radius、shadow和popupColor属性，实现了气泡箭头以及气泡本身的样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -524,13 +506,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置[PopupOptions](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-popup#popupoptions类型说明)或[CustomPopupOptions](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-popup#custompopupoptions8类型说明)中的transition属性，实现了气泡显示以及退出的动效。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -602,13 +578,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置[PopupOptions](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-popup#popupoptions类型说明)中的onWillDismiss属性，实现了当气泡退出时，拦截退出事件并执行回调函数。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -661,13 +631,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过将[PopupOptions](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-popup#popupoptions类型说明)中onWillDismiss属性设置为false，实现拦截气泡的退出事件。同时，配置[PopupOptions](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-popup#popupoptions类型说明)中的followTransformOfTarget属性，可以设置宿主变换位置时，气泡是否跟随显示到相应位置。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -721,13 +685,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，在PopupOptions中新增了outlineWidth、borderWidth、outlineLinearGradient、borderLinearGradient属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -770,13 +728,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，在PopupOptions中新增了avoidTarget属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

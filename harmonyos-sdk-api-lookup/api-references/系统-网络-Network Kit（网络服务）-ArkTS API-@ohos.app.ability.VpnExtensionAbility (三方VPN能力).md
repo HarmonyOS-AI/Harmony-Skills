@@ -9,13 +9,7 @@ VpnExtensionAbility模块提供三方VPN相关能力，提供三方VPN创建、�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { VpnExtensionAbility } from '@kit.NetworkKit';
@@ -57,13 +51,7 @@ onCreate(want: Want): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { VpnExtensionAbility } from '@kit.NetworkKit';
@@ -88,13 +76,7 @@ VpnExtensionAbility生命周期回调，在销毁时回调，执行资源清理�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { VpnExtensionAbility } from '@kit.NetworkKit';

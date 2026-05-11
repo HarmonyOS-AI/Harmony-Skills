@@ -8,13 +8,7 @@ vibrator模块提供控制设备马达振动的能力。包括启动指定时长
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { vibrator } from '@kit.SensorServiceKit';
@@ -61,13 +55,7 @@ startVibration(effect: VibrateEffect, attribute: VibrateAttribute, callback: Asy
 
 1. 按照预置振动效果触发马达振动：
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. import { vibrator } from '@kit.SensorServiceKit';
@@ -111,13 +99,7 @@ startVibration(effect: VibrateEffect, attribute: VibrateAttribute, callback: Asy
    ```
 2. 按照自定义振动配置文件触发马达振动：
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. import { vibrator } from '@kit.SensorServiceKit';
@@ -170,13 +152,7 @@ startVibration(effect: VibrateEffect, attribute: VibrateAttribute, callback: Asy
    ```
 3. 按照指定时长触发马达振动：
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. import { vibrator } from '@kit.SensorServiceKit';
@@ -250,13 +226,7 @@ startVibration(effect: VibrateEffect, attribute: VibrateAttribute): Promise<void
 
 1. 按照预置振动效果触发马达振动：
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. import { vibrator } from '@kit.SensorServiceKit';
@@ -300,13 +270,7 @@ startVibration(effect: VibrateEffect, attribute: VibrateAttribute): Promise<void
    ```
 2. 按照自定义振动配置文件触发马达振动：
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. import { vibrator } from '@kit.SensorServiceKit';
@@ -359,13 +323,7 @@ startVibration(effect: VibrateEffect, attribute: VibrateAttribute): Promise<void
    ```
 3. 按照指定时长触发马达振动：
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. import { vibrator } from '@kit.SensorServiceKit';
@@ -425,13 +383,7 @@ stopVibration(stopMode: VibratorStopMode, callback: AsyncCallback<void>): void
 
 1. 停止指定时长振动：
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. import { vibrator } from '@kit.SensorServiceKit';
@@ -474,13 +426,7 @@ stopVibration(stopMode: VibratorStopMode, callback: AsyncCallback<void>): void
    ```
 2. 停止预置振动：
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. import { vibrator } from '@kit.SensorServiceKit';
@@ -565,13 +511,7 @@ stopVibration(stopMode: VibratorStopMode): Promise<void>
 
 1. 停止指定时长振动：
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. import { vibrator } from '@kit.SensorServiceKit';
@@ -610,13 +550,7 @@ stopVibration(stopMode: VibratorStopMode): Promise<void>
    ```
 2. 停止预置振动：
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. import { vibrator } from '@kit.SensorServiceKit';
@@ -688,13 +622,7 @@ stopVibration(callback: AsyncCallback<void>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { vibrator } from '@kit.SensorServiceKit';
@@ -750,13 +678,7 @@ stopVibration(): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { vibrator } from '@kit.SensorServiceKit';
@@ -817,13 +739,7 @@ stopVibration(param?: VibratorInfoParam): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { vibrator } from '@kit.SensorServiceKit';
@@ -884,13 +800,7 @@ stopVibrationSync(): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { vibrator } from '@kit.SensorServiceKit';
@@ -939,13 +849,7 @@ isSupportEffect(effectId: string, callback: AsyncCallback<boolean>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { vibrator } from '@kit.SensorServiceKit';
@@ -1027,13 +931,7 @@ isSupportEffect(effectId: string): Promise<boolean>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { vibrator } from '@kit.SensorServiceKit';
@@ -1110,13 +1008,7 @@ isSupportEffectSync(effectId: string): boolean
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { vibrator } from '@kit.SensorServiceKit';
@@ -1172,13 +1064,7 @@ getEffectInfoSync(effectId: string, param?: VibratorInfoParam): EffectInfo
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { vibrator } from '@kit.SensorServiceKit';
@@ -1222,13 +1108,7 @@ getVibratorInfoSync(param?: VibratorInfoParam): Array<VibratorInfo>;
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { vibrator } from '@kit.SensorServiceKit';
@@ -1274,13 +1154,7 @@ on(type: 'vibratorStateChange', callback: Callback<VibratorStatusEvent>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { vibrator } from '@kit.SensorServiceKit';
@@ -1332,13 +1206,7 @@ off(type: 'vibratorStateChange', callback?: Callback<VibratorStatusEvent>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { vibrator } from '@kit.SensorServiceKit';
@@ -1454,13 +1322,7 @@ isHdHapticSupported(): boolean
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { vibrator } from '@kit.SensorServiceKit';
@@ -1521,13 +1383,7 @@ addContinuousEvent(time: number, duration: number, options?: ContinuousParam): V
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { vibrator } from '@kit.SensorServiceKit';
@@ -1602,13 +1458,7 @@ addTransientEvent(time: number, options?: TransientParam): VibratorPatternBuilde
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { vibrator } from '@kit.SensorServiceKit';
@@ -1650,13 +1500,7 @@ build(): VibratorPattern;
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { vibrator } from '@kit.SensorServiceKit';
@@ -2021,13 +1865,7 @@ vibrate(duration: number): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { vibrator } from '@kit.SensorServiceKit';
@@ -2065,13 +1903,7 @@ vibrate(duration: number, callback?: AsyncCallback<void>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { vibrator } from '@kit.SensorServiceKit';
@@ -2118,13 +1950,7 @@ vibrate(effectId: EffectId): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { vibrator } from '@kit.SensorServiceKit';
@@ -2162,13 +1988,7 @@ vibrate(effectId: EffectId, callback?: AsyncCallback<void>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { vibrator } from '@kit.SensorServiceKit';
@@ -2215,13 +2035,7 @@ stop(stopMode: VibratorStopMode): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { vibrator } from '@kit.SensorServiceKit';
@@ -2268,13 +2082,7 @@ stop(stopMode: VibratorStopMode, callback?: AsyncCallback<void>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { vibrator } from '@kit.SensorServiceKit';

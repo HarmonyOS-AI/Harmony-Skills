@@ -6,13 +6,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { media } from '@kit.MediaKit';
@@ -55,13 +49,7 @@ createAVPlayer(callback: AsyncCallback<AVPlayer>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -114,13 +102,7 @@ createAVPlayer(): Promise<AVPlayer>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -172,13 +154,7 @@ createAVRecorder(callback: AsyncCallback<AVRecorder>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -230,13 +206,7 @@ createAVRecorder(): Promise<AVRecorder>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -289,13 +259,7 @@ createAVTranscoder(): Promise<AVTranscoder>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -343,13 +307,7 @@ createAVMetadataExtractor(callback: AsyncCallback<AVMetadataExtractor>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -395,13 +353,7 @@ createAVMetadataExtractor(): Promise<AVMetadataExtractor>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -456,13 +408,7 @@ createSoundPool(maxStreams: number, audioRenderInfo: audio.AudioRendererInfo, ca
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { audio } from '@kit.AudioKit';
@@ -528,13 +474,7 @@ createSoundPool(maxStreams: number, audioRenderInfo: audio.AudioRendererInfo): P
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { audio } from '@kit.AudioKit';
@@ -588,13 +528,7 @@ createAVScreenCaptureRecorder(): Promise<AVScreenCaptureRecorder>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -642,13 +576,7 @@ createAVImageGenerator(callback: AsyncCallback<AVImageGenerator>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -694,13 +622,7 @@ createAVImageGenerator(): Promise<AVImageGenerator>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -760,13 +682,7 @@ createMediaSourceWithUrl(url: string, headers?: Record<string, string>): MediaSo
 
 **示例1：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let headers: Record<string, string> = {"User-Agent" : "User-Agent-Value"};
@@ -775,13 +691,7 @@ createMediaSourceWithUrl(url: string, headers?: Record<string, string>): MediaSo
 
 **示例2：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { media } from "@kit.MediaKit";
@@ -833,13 +743,7 @@ createMediaSourceWithStreamData(streams: Array<MediaStream>): MediaSource
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let streams : Array<media.MediaStream> = [];
@@ -873,13 +777,7 @@ createAudioPlayer(): AudioPlayer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let audioPlayer: media.AudioPlayer = media.createAudioPlayer();
@@ -909,13 +807,7 @@ createVideoPlayer(callback: AsyncCallback<VideoPlayer>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -955,13 +847,7 @@ createVideoPlayer(): Promise<VideoPlayer>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1003,13 +889,7 @@ createAudioRecorder(): AudioRecorder
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let audioRecorder: media.AudioRecorder = media.createAudioRecorder();

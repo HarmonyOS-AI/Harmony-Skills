@@ -119,13 +119,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例实现了如何使用DrawingRenderingContext中的方法绘制图形。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common2D, drawing } from '@kit.ArkGraphics2D';
@@ -189,13 +183,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例实现了通过[makeFromRawFile](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-graphics-drawing-typeface#makefromrawfile18)（从API version 18开始）加载自定义字体。并使用[drawTextBlob](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-graphics-drawing-canvas#drawtextblob)绘制文本，drawing接口绘制自定义文字时，不需要调用this.uiContext.getFont().[registerFont](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-font#registerfont)或者fontCollection.[loadFontSync](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-graphics-text#loadfontsync)提前注册字体，而是通过drawing.Typeface.[makeFromRawFile](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-graphics-drawing-typeface#makefromrawfile18)（从API version 18开始）传入rawfile目录下的自定义字体文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';

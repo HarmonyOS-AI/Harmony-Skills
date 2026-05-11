@@ -16,13 +16,7 @@ OpenGL ES 3.2
 
 CMakeLists.txt中添加以下lib。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. libace_ndk.z.so
@@ -33,13 +27,7 @@ CMakeLists.txt中添加以下lib。
 
 **头文件**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <ace/xcomponent/native_interface_xcomponent.h>
@@ -63,13 +51,7 @@ CMakeLists.txt中添加以下lib。
 * OpenGL ES扩展接口的官方参考文档：[OpenGL ES扩展接口](https://registry.khronos.org/OpenGL/index_es.php)
 * 开发者可以调用glGetString查询芯片厂商支持的扩展接口，调用之前务必初始化上下文。具体示例如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. EGLDisplay display;
@@ -103,13 +85,7 @@ CMakeLists.txt中添加以下lib。
 
 ## 简单示例
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void enableVertexAttrib(GLuint index, float *data, int32_t len)
@@ -312,13 +288,7 @@ CMakeLists.txt中添加以下lib。
 
 ### 使用eglGetDisplay连接渲染目标设备
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. EGLDisplay eglGetDisplay(EGLNativeDisplayType display_id);
@@ -332,13 +302,7 @@ display\_id 参数通常是一个表示显示设备的本地显示类型，EGLNa
 
 当成功打开连接之后则需要调用eglInitialize初始化EGL。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. EGLBoolean eglInitialize(EGLDisplay display,    // 指定EGL显示连接
@@ -361,13 +325,7 @@ EGL初始化成功之后，需要确定可用渲染表面的类型和配置，�
 
   当没有特殊配置需求时建议使用此种方法，因为这样更容易获得最佳配置。
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. EGLBoolean eglChooseConfig(EGLDisplay dpy,     // EGL显示连接句柄，标识了要进行配置选择的显示连接。
@@ -377,13 +335,7 @@ EGL初始化成功之后，需要确定可用渲染表面的类型和配置，�
   5. EGLint *num_config);    // 存储满足attrib_list需求，得到的满足需求的实际配置数量。
   ```
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. // 如以上代码所示这里指定所需配置的属性为
@@ -402,13 +354,7 @@ EGL初始化成功之后，需要确定可用渲染表面的类型和配置，�
 
   以下提供使用此种方法得到满足需求的配置，具体可见示例：
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. #include <EGL/egl.h>
@@ -447,13 +393,7 @@ EGL初始化成功之后，需要确定可用渲染表面的类型和配置，�
   34. }
   ```
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. EGLBoolean eglGetConfigs(EGLDisplay display, // EGL显示连接句柄，标识了要进行配置选择的显示连接。
@@ -467,13 +407,7 @@ EGL初始化成功之后，需要确定可用渲染表面的类型和配置，�
   + 当我们传递configs为nullptr时，接口会返回EGL\_TRUE，并将得到的EGL所有可用配置数量保存在num\_config中，这时即可根据得到的数量初始化configs来保存这些配置了，具体见如上代码。
   + 当传递configs数组接受所有配置时，将得到所有配置并保存在configs，这样即可得到所有的可用配置，接下来可以根据具体需求筛选一组config保存下来。
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. // 选择合适的配置
@@ -492,13 +426,7 @@ EGL初始化成功之后，需要确定可用渲染表面的类型和配置，�
 
   如上所示遍历configs每个配置，使用eglGetConfigAttrib查询该配置下特定属性的值，将该值保存在第4个参数中，并判断值是否是自己需要的，如果需要则保存该配置，以待使用。调用成功则返回EGL\_TRUE，调用失败则返回EGL\_FALSE。 如果返回EGL\_FALSE，可以使用eglGetError查询失败的原因，如果返回EGL\_BAD ATTRIBUTE则attribute不是有效的属性。
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. EGLBoolean eglGetConfigAttrib(EGLDisplay display,     // EGL 显示连接句柄，标识了要进行配置选择的显示连接
@@ -511,13 +439,7 @@ EGL初始化成功之后，需要确定可用渲染表面的类型和配置，�
 
 得到符合渲染需求的EGLConfig之后，可以使用eglCreateWindowSurface创建窗口表面。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. EGLSurface eglCreateWindowSurface(EGLDisplay dpy,             // EGLDisplay对象，表示与窗口表面关联的显示连接。
@@ -528,13 +450,7 @@ EGL初始化成功之后，需要确定可用渲染表面的类型和配置，�
 
 eglCreateWindowSurface接受的属性attrib\_list的值如下所示：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. EGL_RENDER_BUFFER EGL_SINGLE_BUFFER或EGL_BACK_BUFFER
@@ -550,13 +466,7 @@ eglCreateWindowSurface创建窗口表面失败的可能原因如下：
 * EGL\_BAD\_NATIVE\_WINDOW：如果提供的窗口句柄无效，则会发生这种错误。
 * EGL\_BAD\_ALLOC：如果eglCreateWindowSurface无法为新的EGL窗口分配资源，或者已经有与提供的窗口关联的EGLConfig，则会发生这种错误。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. EGLint attribList[] = { EGL_RENDER_BUFFER, EGL_BACK_BUFFER, EGL_NONE };
@@ -586,13 +496,7 @@ eglCreateWindowSurface创建窗口表面失败的可能原因如下：
 
 1. 首先需要在ArkTS 中定义XComponent并设置 XComponentController。XComponent组件用于在UI中嵌入基于OpenGL或Vulkan等图形API实现的渲染内容。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. Column() {
@@ -605,13 +509,7 @@ eglCreateWindowSurface创建窗口表面失败的可能原因如下：
    ```
 2. 创建 XComponentController子类，实现回调方法：
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. class MyXComponentController extends XComponentController {
@@ -632,13 +530,7 @@ eglCreateWindowSurface创建窗口表面失败的可能原因如下：
    ```
 3. 使用surfaceId获取NativeWindow：surfaceId是在XComponent创建过程中生成的。在onSurfaceCreated 回调中，可以使用OH\_NativeWindow\_CreateNativeWindowFromSurfaceId函数通过surfaceId获取nativeWindow。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. napi_value PluginManager::SetSurfaceId(napi_env env, napi_callback_info info)
@@ -665,13 +557,7 @@ eglCreateWindowSurface创建窗口表面失败的可能原因如下：
 
 eglCreateContext函数用于创建一个新的EGL上下文，并将其与特定的显示设备（display）和配置（config）关联起来。允许指定共享上下文（shareContext），以便与已经存在的OpenGL上下文共享状态信息。该函数的参数说明如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. EGLContext eglCreateContext(EGLDisplay display,        // EGLDisplay类型，表示要创建上下文的EGL显示连接。
@@ -682,13 +568,7 @@ eglCreateContext函数用于创建一个新的EGL上下文，并将其与特定�
 
 eglCreateContext 的attribList属性列表如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. EGLint attrib3_list[] = {
@@ -701,13 +581,7 @@ eglCreateContext 创建渲染上下文失败的原因为EGL\_BAD\_CONFIG，即�
 
 ### 使用eglMakeCurrent将EGL上下文与绘图表面进行关联
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. EGLBoolean eglMakeCurrent(EGLDisplay display, // EGL显示连接的句柄，用于标识渲染设备。
@@ -718,13 +592,7 @@ eglCreateContext 创建渲染上下文失败的原因为EGL\_BAD\_CONFIG，即�
 
 ### 创建并使用着色器程序
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 创建顶点着色器
@@ -747,13 +615,7 @@ eglCreateContext 创建渲染上下文失败的原因为EGL\_BAD\_CONFIG，即�
 18. glUseProgram(mProgramHandle);
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. GLuint glCreateShader(GLenum shaderType);
@@ -761,13 +623,7 @@ eglCreateContext 创建渲染上下文失败的原因为EGL\_BAD\_CONFIG，即�
 
 glCreateShader用于创建一个指定类型（顶点着色器、片段着色器等）的着色器对象，并返回该对象的句柄。其中shaderType参数指定要创建的着色器类型，可以是GL\_VERTEX\_SHADER（顶点着色器）或 GL\_FRAGMENT\_SHADER（片段着色器）等。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void glShaderSource(GLuint shader, GLsizei count, const GLchar \**string, const GLint *length);
@@ -780,13 +636,7 @@ glShaderSource函数用于设置着色器对象的源代码。其中各参数含
 * string：指向源代码字符串的指针数组。
 * length：指向包含每个源代码字符串长度的整数数组，可以为nullptr，表示每个字符串都以null结尾。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void glCompileShader(GLuint shader);
@@ -794,13 +644,7 @@ glShaderSource函数用于设置着色器对象的源代码。其中各参数含
 
 glCompileShader函数用于编译指定的着色器对象，其中shader参数是要编译的着色器对象的标识符。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. GLuint glCreateProgram(void);
@@ -808,13 +652,7 @@ glCompileShader函数用于编译指定的着色器对象，其中shader参数�
 
 glCreateProgram函数用于创建一个新的着色器程序对象，该函数返回一个新创建的着色器程序对象的标识符。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void glAttachShader(GLuint program, GLuint shader);
@@ -822,13 +660,7 @@ glCreateProgram函数用于创建一个新的着色器程序对象，该函数�
 
 glAttachShader函数用于将一个着色器对象附加到一个着色器程序对象上，参数program是目标着色器程序对象的标识符，参数shader是要附加的着色器对象的标识符。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void glLinkProgram(GLuint program);
@@ -838,13 +670,7 @@ glLinkProgram函数用于链接一个着色器程序对象，将附加到该程�
 
 参数program是要链接的着色器程序对象的标识符。链接着色器程序时，OpenGL将会执行以下操作：将各个着色器对象中的代码合并成一个可执行的渲染管线。执行连接器优化，以优化渲染管线的性能。并将Uniform变量和Uniform块的信息进行绑定。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void glUseProgram(GLuint program);
@@ -854,13 +680,7 @@ glUseProgram函数用于激活指定的着色器程序对象。在调用glUsePro
 
 在使用glCompileShader时可以使用以下代码检查是否正常。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 编译着色器
@@ -892,13 +712,7 @@ glUseProgram函数用于激活指定的着色器程序对象。在调用glUsePro
 
 在使用glLinkProgram可使用如下代码检查是否正常。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 链接程序对象
@@ -930,13 +744,7 @@ glUseProgram函数用于激活指定的着色器程序对象。在调用glUsePro
 
 ### 使用glViewport设置视口大小
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void glViewport(GLint x, GLint y, GLsizei width, GLsizei height)
@@ -946,13 +754,7 @@ glViewport函数用于设置视口，指定OpenGL ES渲染区域在窗口的位�
 
 ### 使用glClearColor设置清除颜色缓冲区时使用的颜色
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void glClearColor(GLfloat red, GLfloat green, GLfloat blue, GLfloat alpha);
@@ -962,13 +764,7 @@ glClearColor(1.0f, 1.0f, 1.0f, 1.0f)此时设置清除颜色缓冲区时使用�
 
 ### 使用glClear执行清除操作
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void glClear(GLbitfield mask);
@@ -984,13 +780,7 @@ glClear函数用于清除指定的缓冲区。参数mask指定需要清除的缓
 
 ### 使用glGetAttribLocation获取属性变量位置
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. GLint glGetAttribLocation(GLuint program, const GLchar *name);
@@ -1000,13 +790,7 @@ glGetAttribLocation函数用于获取顶点着色器中某个属性的位置，�
 
 ### 使用glGetUniformLocation获取统一变量位置
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. GLint glGetUniformLocation(GLuint program, const GLchar *name);
@@ -1016,13 +800,7 @@ glGetUniformLocation函数用于查询特定统一变量在程序对象中的位
 
 ### 使用glUniformMatrix4fv传递4×4矩阵
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void glUniformMatrix4fv(GLint location, GLsizei count, GLboolean transpose, const GLfloat *value);
@@ -1037,13 +815,7 @@ glGetUniformLocation函数用于获取着色器中uniform变量的位置。其�
 
 ### 使用glUniform3f向着色器传递颜色和方向
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void glUniform3f(GLint location, GLfloat v0, GLfloat v1, GLfloat v2);
@@ -1053,13 +825,7 @@ glUniform3f函数为当前程序对象指定Uniform变量的值。其中location
 
 ### 创建缓冲区并上传数据到GPU
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. GLuint buffer;
@@ -1070,13 +836,7 @@ glUniform3f函数为当前程序对象指定Uniform变量的值。其中location
 6. glEnableVertexAttribArray(index);                                          // 启用顶点属性数组
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void glBindBuffer(GLenum target,   // target：指定要绑定的缓冲目标,可为以下值之一：
@@ -1085,13 +845,7 @@ glUniform3f函数为当前程序对象指定Uniform变量的值。其中location
 4. GLuint buffer);  // buffer为要绑定的顶点缓冲对象的名称。
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void glBufferData(GLenum target,       // target：指定缓冲对象的类型，可为以下值之一：
@@ -1107,13 +861,7 @@ glUniform3f函数为当前程序对象指定Uniform变量的值。其中location
 
 一旦调用glBufferData函数，数据就被复制到了OpenGL的缓冲对象中，并存储在GPU的显存中。这意味着数据可以在GPU上被高效地访问和处理，而无需频繁地从CPU内存传输数据，从而提高了渲染性能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void glVertexAttribPointer(GLuint index,         // 指定要修改的顶点数组的起始索引，索引它与顶点着色器中的属性变量绑定。（layout (location = 0) in vec3 aPos;）
@@ -1124,13 +872,7 @@ glUniform3f函数为当前程序对象指定Uniform变量的值。其中location
 6. const void *offset);  // 属性在缓冲区中的偏移量，允许在缓冲区中指定一个位置开始读取数据。
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void glEnableVertexAttribArray(GLuint index);
@@ -1140,13 +882,7 @@ glEnableVertexAttribArray函数用于启用指定索引的顶点属性数组。�
 
 ### 启用功能
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void glEnable(GLenum cap);
@@ -1160,13 +896,7 @@ glEnable函数用于启用各种功能，具体功能由参数cap决定，cap可
 
 ### 绘制图元并显示
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void glDrawArrays(GLenum mode,   // 参数指定要绘制的图元的类型，比如GL_TRIANGLES表示绘制三角形。
@@ -1177,13 +907,7 @@ glEnable函数用于启用各种功能，具体功能由参数cap决定，cap可
 
 glDrawArrays函数用于根据当前绑定的顶点数组和顶点属性以及其他设置来绘制图元。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. EGLBoolean eglSwapBuffers(EGLDisplay dpy,      // EGL显示连接

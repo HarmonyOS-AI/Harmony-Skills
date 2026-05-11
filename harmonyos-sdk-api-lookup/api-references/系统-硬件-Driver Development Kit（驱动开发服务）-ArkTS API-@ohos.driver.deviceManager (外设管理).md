@@ -8,13 +8,7 @@
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { deviceManager } from '@kit.DriverDevelopmentKit';
@@ -61,13 +55,7 @@ queryDevices(busType?: number): Array<Readonly<Device>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { deviceManager } from '@kit.DriverDevelopmentKit';
@@ -128,13 +116,7 @@ bindDriverWithDeviceId(deviceId: number, onDisconnect: AsyncCallback<number>): P
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { deviceManager } from '@kit.DriverDevelopmentKit';
@@ -197,13 +179,7 @@ unbindDriverWithDeviceId(deviceId: number): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { deviceManager } from '@kit.DriverDevelopmentKit';
@@ -263,13 +239,7 @@ bindDevice(deviceId: number, onDisconnect: AsyncCallback<number>, callback: Asyn
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { deviceManager } from '@kit.DriverDevelopmentKit';
@@ -339,13 +309,7 @@ bindDeviceDriver(deviceId: number, onDisconnect: AsyncCallback<number>, callback
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { deviceManager } from '@kit.DriverDevelopmentKit';
@@ -416,13 +380,7 @@ bindDevice(deviceId: number, onDisconnect: AsyncCallback<number>): Promise<{devi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { deviceManager } from '@kit.DriverDevelopmentKit';
@@ -492,13 +450,7 @@ bindDeviceDriver(deviceId: number, onDisconnect: AsyncCallback<number>): Promise
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { deviceManager } from '@kit.DriverDevelopmentKit';
@@ -558,13 +510,7 @@ unbindDevice(deviceId: number, callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { deviceManager } from '@kit.DriverDevelopmentKit';
@@ -630,13 +576,7 @@ unbindDevice(deviceId: number): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { deviceManager } from '@kit.DriverDevelopmentKit';

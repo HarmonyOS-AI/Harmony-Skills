@@ -8,13 +8,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { stylusInteraction } from '@kit.Penkit';
@@ -43,13 +37,7 @@ on(type: 'squeeze', receiver: Callback<SqueezeEvent>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -86,13 +74,7 @@ off(type: 'squeeze', receiver?: Callback<SqueezeEvent>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -128,13 +110,7 @@ on(type: 'doubleTap', receiver: Callback<DoubleTapEvent>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -170,13 +146,7 @@ off(type: 'doubleTap', receiver?: Callback<DoubleTapEvent>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

@@ -10,13 +10,7 @@ TimeGuardExtensionContext是TimeGuardExtensionAbility的上下文环境，继承
 
 PhoneTablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TimeGuardExtensionContext } from '@kit.ScreenTimeGuardKit';

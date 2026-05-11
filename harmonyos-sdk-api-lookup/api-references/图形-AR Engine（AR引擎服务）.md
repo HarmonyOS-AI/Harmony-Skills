@@ -1,4 +1,0 @@
-* **[ArkTS API](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arengine-arkts-api)**
-* **[ArkTS组件](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arengine-arkts-api-component)**
-* **[C API](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arengine-capi)**
-* **[AR Engine错误码](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arengine-error-code)**

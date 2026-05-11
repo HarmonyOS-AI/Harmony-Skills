@@ -14,13 +14,7 @@ FastBuffer通过from构造时，仅支持FastBuffer、Uint8Array、string、Arra
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -86,13 +80,7 @@ alloc(size: number, fill?: string | FastBuffer | number, encoding?: BufferEncodi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -136,13 +124,7 @@ allocUninitializedFromPool(size: number): FastBuffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -182,13 +164,7 @@ allocUninitialized(size: number): FastBuffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -229,13 +205,7 @@ byteLength(value: string | FastBuffer | TypedArray | DataView | ArrayBuffer | Sh
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -290,13 +260,7 @@ compare(buf1: FastBuffer | Uint8Array, buf2: FastBuffer | Uint8Array): -1 | 0 | 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -354,13 +318,7 @@ concat(list: FastBuffer[] | Uint8Array[], totalLength?: number): FastBuffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -402,13 +360,7 @@ from(array: number[]): FastBuffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -461,13 +413,7 @@ from(arrayBuffer: ArrayBuffer | SharedArrayBuffer, byteOffset?: number, length?:
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -520,13 +466,7 @@ from(buffer: FastBuffer | Uint8Array): FastBuffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -576,13 +516,7 @@ from(value: string, encoding?: BufferEncoding): FastBuffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -626,13 +560,7 @@ isBuffer(obj: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -684,13 +612,7 @@ isEncoding(encoding: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -739,13 +661,7 @@ fastbuffer.transcode支持的编码：'ascii' | 'utf8' | 'utf16le'| 'ucs2' | 'la
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -777,13 +693,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -843,13 +753,7 @@ compare(target: FastBuffer | Uint8Array, targetStart?: number, targetEnd?: numbe
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -909,13 +813,7 @@ copy(target: FastBuffer| Uint8Array, targetStart?: number, sourceStart?: number,
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -954,13 +852,7 @@ entries(): IterableIterator<[number, number]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -1022,13 +914,7 @@ equals(otherBuffer: Uint8Array | FastBuffer): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -1087,13 +973,7 @@ fill(value: string | FastBuffer | Uint8Array | number, offset?: number, end?: nu
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -1139,13 +1019,7 @@ includes(value: string | number | FastBuffer | Uint8Array, byteOffset?: number, 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -1193,13 +1067,7 @@ indexOf(value: string | number | FastBuffer | Uint8Array, byteOffset?: number, e
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -1233,13 +1101,7 @@ keys(): IterableIterator<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -1281,13 +1143,7 @@ values(): IterableIterator<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -1345,13 +1201,7 @@ lastIndexOf(value: string | number | FastBuffer | Uint8Array, byteOffset?: numbe
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -1403,13 +1253,7 @@ readBigInt64BE(offset?: number): bigint
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -1460,13 +1304,7 @@ readBigInt64LE(offset?: number): bigint
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -1517,13 +1355,7 @@ readBigUInt64BE(offset?: number): bigint
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -1574,13 +1406,7 @@ readBigUInt64LE(offset?: number): bigint
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -1631,13 +1457,7 @@ readDoubleBE(offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -1687,13 +1507,7 @@ readDoubleLE(offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -1743,13 +1557,7 @@ readFloatBE(offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -1799,13 +1607,7 @@ readFloatLE(offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -1855,13 +1657,7 @@ readInt8(offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -1913,13 +1709,7 @@ readInt16BE(offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -1969,13 +1759,7 @@ readInt16LE(offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -2025,13 +1809,7 @@ readInt32BE(offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -2081,13 +1859,7 @@ readInt32LE(offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -2138,13 +1910,7 @@ readIntBE(offset: number, byteLength: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -2196,13 +1962,7 @@ readIntLE(offset: number, byteLength: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -2252,13 +2012,7 @@ readUInt8(offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -2310,13 +2064,7 @@ readUInt16BE(offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -2368,13 +2116,7 @@ readUInt16LE(offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -2426,13 +2168,7 @@ readUInt32BE(offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -2482,13 +2218,7 @@ readUInt32LE(offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -2539,13 +2269,7 @@ readUIntBE(offset: number, byteLength: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -2596,13 +2320,7 @@ readUIntLE(offset: number, byteLength: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -2643,13 +2361,7 @@ subarray(start?: number, end?: number): FastBuffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -2696,13 +2408,7 @@ swap16(): FastBuffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -2747,13 +2453,7 @@ swap32(): FastBuffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -2798,13 +2498,7 @@ swap64(): FastBuffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -2839,13 +2533,7 @@ toJSON(): Object
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -2898,13 +2586,7 @@ toString(encoding?: string, start?: number, end?: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -2961,13 +2643,7 @@ write(str: string, offset?: number, length?: number, encoding?: string): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -3024,13 +2700,7 @@ writeBigInt64BE(value: bigint, offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -3082,13 +2752,7 @@ writeBigInt64LE(value: bigint, offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -3140,13 +2804,7 @@ writeBigUInt64BE(value: bigint, offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -3198,13 +2856,7 @@ writeBigUInt64LE(value: bigint, offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -3256,13 +2908,7 @@ writeDoubleBE(value: number, offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -3314,13 +2960,7 @@ writeDoubleLE(value: number, offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -3372,13 +3012,7 @@ writeFloatBE(value: number, offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -3430,13 +3064,7 @@ writeFloatLE(value: number, offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -3488,13 +3116,7 @@ writeInt8(value: number, offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -3549,13 +3171,7 @@ writeInt16BE(value: number, offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -3607,13 +3223,7 @@ writeInt16LE(value: number, offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -3665,13 +3275,7 @@ writeInt32BE(value: number, offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -3723,13 +3327,7 @@ writeInt32LE(value: number, offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -3782,13 +3380,7 @@ writeIntBE(value: number, offset: number, byteLength: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -3841,13 +3433,7 @@ writeIntLE(value: number, offset: number, byteLength: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -3899,13 +3485,7 @@ writeUInt8(value: number, offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -3966,13 +3546,7 @@ writeUInt16BE(value: number, offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -4027,13 +3601,7 @@ writeUInt16LE(value: number, offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -4088,13 +3656,7 @@ writeUInt32BE(value: number, offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -4146,13 +3708,7 @@ writeUInt32LE(value: number, offset?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -4205,13 +3761,7 @@ writeUIntBE(value: number, offset: number, byteLength: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';
@@ -4264,13 +3814,7 @@ writeUIntLE(value: number, offset: number, byteLength: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fastbuffer } from '@kit.ArkTS';

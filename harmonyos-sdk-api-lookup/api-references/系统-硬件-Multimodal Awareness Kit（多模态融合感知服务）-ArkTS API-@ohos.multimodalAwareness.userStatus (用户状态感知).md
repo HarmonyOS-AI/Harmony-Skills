@@ -8,13 +8,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { userStatus } from '@kit.MultimodalAwarenessKit';
@@ -91,13 +85,7 @@ on(type: 'userAgeGroupDetected', callback: Callback<UserClassification>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -152,13 +140,7 @@ off(type: 'userAgeGroupDetected', callback?: Callback<UserClassification>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

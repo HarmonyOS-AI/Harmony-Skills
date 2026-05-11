@@ -51,13 +51,7 @@ static ref<T>(propName: string): AbstractProperty<T> | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AppStorage.setOrCreate('PropA', 47);
@@ -103,13 +97,7 @@ static setAndRef<T>(propName: string, defaultValue: T): AbstractProperty<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AppStorage.setOrCreate('PropA', 47);
@@ -151,13 +139,7 @@ static link<T>(propName: string): SubscribedAbstractProperty<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AppStorage.setOrCreate('PropA', 47);
@@ -201,13 +183,7 @@ static setAndLink<T>(propName: string, defaultValue: T): SubscribedAbstractPrope
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AppStorage.setOrCreate('PropA', 47);
@@ -245,13 +221,7 @@ static prop<T>(propName: string): SubscribedAbstractProperty<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AppStorage.setOrCreate('PropA', 47);
@@ -295,13 +265,7 @@ static setAndProp<T>(propName: string, defaultValue: T): SubscribedAbstractPrope
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AppStorage.setOrCreate('PropA', 47);
@@ -338,13 +302,7 @@ static has(propName: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AppStorage.has('simpleProp');
@@ -380,13 +338,7 @@ static get<T>(propName: string): T | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AppStorage.setOrCreate('PropA', 47);
@@ -428,13 +380,7 @@ static set<T>(propName: string, newValue: T): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AppStorage.setOrCreate('PropA', 48);
@@ -471,13 +417,7 @@ static setOrCreate<T>(propName: string, newValue: T): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AppStorage.setOrCreate('simpleProp', 121);
@@ -525,13 +465,7 @@ static delete(propName: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AppStorage.setOrCreate('PropA', 47);
@@ -564,13 +498,7 @@ static keys(): IterableIterator<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AppStorage.setOrCreate('PropB', 48);
@@ -601,13 +529,7 @@ static clear(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AppStorage.setOrCreate('PropA', 47);
@@ -636,13 +558,7 @@ static size(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AppStorage.setOrCreate('PropB', 48);
@@ -685,13 +601,7 @@ static Link(propName: string): any
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AppStorage.SetOrCreate('PropA', 47);
@@ -733,13 +643,7 @@ static SetAndLink<T>(propName: string, defaultValue: T): SubscribedAbstractPrope
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AppStorage.SetOrCreate('PropA', 47);
@@ -781,13 +685,7 @@ Prop仅支持简单类型。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AppStorage.SetOrCreate('PropA', 47);
@@ -829,13 +727,7 @@ static SetAndProp<S>(propName: string, defaultValue: S): SubscribedAbstractPrope
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AppStorage.SetOrCreate('PropA', 47);
@@ -874,13 +766,7 @@ static Has(propName: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AppStorage.Has('simpleProp');
@@ -918,13 +804,7 @@ static Get<T>(propName: string): T | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AppStorage.SetOrCreate('PropA', 47);
@@ -964,13 +844,7 @@ static Set<T>(propName: string, newValue: T): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AppStorage.SetOrCreate('PropA', 48);
@@ -1005,13 +879,7 @@ newValue不能为null或undefined。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AppStorage.SetOrCreate('simpleProp', 121);
@@ -1053,13 +921,7 @@ static Delete(propName: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AppStorage.SetOrCreate('PropA', 47);
@@ -1094,13 +956,7 @@ static Keys(): IterableIterator<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AppStorage.SetOrCreate('PropB', 48);
@@ -1131,13 +987,7 @@ static staticClear(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let simple = AppStorage.staticClear();
@@ -1169,13 +1019,7 @@ static Clear(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AppStorage.SetOrCreate('PropA', 47);
@@ -1214,13 +1058,7 @@ static IsMutable(propName: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AppStorage.SetOrCreate('PropA', 47);
@@ -1251,13 +1089,7 @@ static Size(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AppStorage.SetOrCreate('PropB', 48);
@@ -1294,13 +1126,7 @@ constructor(initializingProperties?: Object)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let para: Record<string, number> = { 'PropA': 47 };
@@ -1369,13 +1195,7 @@ has(propName: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let para: Record<string, number> = { 'PropA': 47 };
@@ -1415,13 +1235,7 @@ get<T>(propName: string): T | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let para: Record<string, number> = { 'PropA': 47 };
@@ -1466,13 +1280,7 @@ set<T>(propName: string, newValue: T): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let para: Record<string, number> = { 'PropA': 47 };
@@ -1520,13 +1328,7 @@ setOrCreate<T>(propName: string, newValue: T): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let para: Record<string, number> = { 'PropA': 47 };
@@ -1568,13 +1370,7 @@ ref<T>(propName: string): AbstractProperty<T> | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let para: Record<string, number> = { 'PropA': 47 };
@@ -1621,13 +1417,7 @@ setAndRef<T>(propName: string, defaultValue: T): AbstractProperty<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let para: Record<string, number> = { 'PropA': 47 };
@@ -1672,13 +1462,7 @@ link<T>(propName: string): SubscribedAbstractProperty<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let para: Record<string, number> = { 'PropA': 47 };
@@ -1725,13 +1509,7 @@ setAndLink<T>(propName: string, defaultValue: T): SubscribedAbstractProperty<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let para: Record<string, number> = { 'PropA': 47 };
@@ -1772,13 +1550,7 @@ prop<S>(propName: string): SubscribedAbstractProperty<S>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let para: Record<string, number> = { 'PropA': 47 };
@@ -1825,13 +1597,7 @@ setAndProp<S>(propName: string, defaultValue: S): SubscribedAbstractProperty<S>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let para: Record<string, number> = { 'PropA': 47 };
@@ -1881,13 +1647,7 @@ delete(propName: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let para: Record<string, number> = { 'PropA': 47 };
@@ -1923,13 +1683,7 @@ keys(): IterableIterator<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let para: Record<string, number> = { 'PropA': 47 };
@@ -1961,13 +1715,7 @@ size(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let para: Record<string, number> = { 'PropA': 47 };
@@ -2001,13 +1749,7 @@ clear(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let para: Record<string, number> = { 'PropA': 47 };
@@ -2043,13 +1785,7 @@ static GetShared(): LocalStorage
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let storage: LocalStorage = LocalStorage.GetShared();
@@ -2083,13 +1819,7 @@ get(): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AppStorage.setOrCreate('PropA', 47);
@@ -2123,13 +1853,7 @@ set(newValue: T): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AppStorage.setOrCreate('PropA', 47);
@@ -2170,13 +1894,7 @@ info(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AppStorage.setOrCreate('PropA', 47);
@@ -2214,13 +1932,7 @@ abstract get(): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AppStorage.setOrCreate('PropA', 47);
@@ -2256,13 +1968,7 @@ abstract set(newValue: T): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AppStorage.setOrCreate('PropA', 47);
@@ -2296,13 +2002,7 @@ abstract aboutToBeDeleted(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AppStorage.setOrCreate('PropA', 47);
@@ -2332,13 +2032,7 @@ info(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AppStorage.setOrCreate('PropA', 47);
@@ -2428,13 +2122,7 @@ static deleteProp(key: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. PersistentStorage.deleteProp('highScore');
@@ -2462,13 +2150,7 @@ static persistProps(props: PersistPropsOptions[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. PersistentStorage.persistProps([{ key: 'highScore', defaultValue: '0' }, { key: 'wightScore', defaultValue: '1' }]);
@@ -2496,13 +2178,7 @@ static keys(): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let keys: Array<string> = PersistentStorage.keys();
@@ -2541,13 +2217,7 @@ static PersistProp<T>(key: string, defaultValue: T): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. PersistentStorage.PersistProp('highScore', '0');
@@ -2577,13 +2247,7 @@ static DeleteProp(key: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. PersistentStorage.DeleteProp('highScore');
@@ -2613,13 +2277,7 @@ static PersistProps(properties: {key: string; defaultValue: any;}[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. PersistentStorage.PersistProps([{ key: 'highScore', defaultValue: '0' }, { key: 'wightScore', defaultValue: '1' }]);
@@ -2649,13 +2307,7 @@ static Keys(): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let keys: Array<string> = PersistentStorage.Keys();
@@ -2743,13 +2395,7 @@ static envProps(props: EnvPropsOptions[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Environment.envProps([{ key: 'accessibilityEnabled', defaultValue: 'default' }, {
@@ -2780,13 +2426,7 @@ static keys(): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Environment.envProps([{ key: 'accessibilityEnabled', defaultValue: 'default' }, {
@@ -2834,13 +2474,7 @@ static EnvProp<S>(key: string, value: S): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Environment.EnvProp('accessibilityEnabled', 'default');
@@ -2870,13 +2504,7 @@ static EnvProps(props: {key: string; defaultValue: any;}[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Environment.EnvProps([{ key: 'accessibilityEnabled', defaultValue: 'default' }, {
@@ -2909,13 +2537,7 @@ static Keys(): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Environment.EnvProps([{ key: 'accessibilityEnabled', defaultValue: 'default' }, {

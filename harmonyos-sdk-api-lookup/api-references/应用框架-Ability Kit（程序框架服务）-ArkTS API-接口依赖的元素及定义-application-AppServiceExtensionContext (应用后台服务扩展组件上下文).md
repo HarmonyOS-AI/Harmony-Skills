@@ -12,13 +12,7 @@ AppServiceExtensionContext提供了连接、断开ServiceExtensionAbility（系�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -32,13 +26,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AppServiceExtensionAbility, Want } from '@kit.AbilityKit';
@@ -114,13 +102,7 @@ startAbility(want: Want, options?: StartOptions): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AppServiceExtensionAbility, Want, StartOptions } from '@kit.AbilityKit';
@@ -202,13 +184,7 @@ connectServiceExtensionAbility(want: Want, callback: ConnectOptions): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AppServiceExtensionAbility, Want, common } from '@kit.AbilityKit';
@@ -338,13 +314,7 @@ terminateSelf(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AppServiceExtensionAbility, Want } from '@kit.AbilityKit';

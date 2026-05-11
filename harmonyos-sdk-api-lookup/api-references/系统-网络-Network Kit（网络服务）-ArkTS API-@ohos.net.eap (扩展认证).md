@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {eap} from '@kit.NetworkKit';
@@ -62,13 +56,7 @@ regCustomEapHandler(netType: number, eapCode: number, eapType: number, callback:
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {eap} from '@kit.NetworkKit';
@@ -127,13 +115,7 @@ unregCustomEapHandler(netType:number, eapCode: number, eapType: number, callback
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {eap} from '@kit.NetworkKit';
@@ -192,13 +174,7 @@ replyCustomEapData(result: CustomResult, data: EapData): void
 | 33200009 | netmanager stop. |
 | 33200099 | internal error. |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {eap} from '@kit.NetworkKit';
@@ -255,13 +231,7 @@ startEthEap(netId: number, profile: EthEapProfile): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {eap} from '@kit.NetworkKit';
@@ -329,13 +299,7 @@ logOffEthEap(netId: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {eap} from '@kit.NetworkKit';

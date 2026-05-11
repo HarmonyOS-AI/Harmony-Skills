@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -45,13 +39,7 @@ onConnect(elementName: ElementName, remote: rpc.IRemoteObject): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, common, Want, AbilityConstant } from '@kit.AbilityKit';
@@ -102,13 +90,7 @@ onDisconnect(elementName: ElementName): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, common, Want, AbilityConstant } from '@kit.AbilityKit';
@@ -159,13 +141,7 @@ onFailed(code: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, common, Want, AbilityConstant } from '@kit.AbilityKit';

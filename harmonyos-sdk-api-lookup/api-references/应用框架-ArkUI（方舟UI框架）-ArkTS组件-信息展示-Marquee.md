@@ -276,13 +276,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 23开始，[MarqueeOptions](/consumer/cn/doc/harmonyos-references/ts-basic-components-marquee#marqueeoptions18对象说明)新增spacing、delay属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LengthMetrics } from '@kit.ArkUI';

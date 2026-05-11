@@ -8,13 +8,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionBase, objectDetection } from '@kit.CoreVisionKit';
@@ -112,13 +106,7 @@ static create(): Promise<ObjectDetector>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { objectDetection } from '@kit.CoreVisionKit';
@@ -180,13 +168,7 @@ destroy(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { objectDetection } from '@kit.CoreVisionKit';
@@ -269,13 +251,7 @@ process(request: visionBase.Request): Promise<ObjectDetectionResponse>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { objectDetection, visionBase } from '@kit.CoreVisionKit';

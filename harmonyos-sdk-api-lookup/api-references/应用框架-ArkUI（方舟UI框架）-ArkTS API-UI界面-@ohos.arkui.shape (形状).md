@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { CircleShape, EllipseShape, PathShape, RectShape } from "@kit.ArkUI";
@@ -572,13 +566,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示通过[clipShape](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-sharp-clipping#clipshape12)和[maskShape](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-sharp-clipping#maskshape12)将图片裁剪和遮罩成不同形状。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { CircleShape, EllipseShape, PathShape, RectShape } from '@kit.ArkUI';

@@ -385,13 +385,7 @@ PhonePC/2in1TabletTVWearable
 
 设置组件的宽度、高度、内边距及外边距。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -492,13 +486,7 @@ PhonePC/2in1TabletTVWearable
 
 使用LocalizedPadding类型和LocalizedMargin类型定义padding和margin属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -556,13 +544,7 @@ PhonePC/2in1TabletTVWearable
 
 对容器设置组件级安全区。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -598,13 +580,7 @@ PhonePC/2in1TabletTVWearable
 
 使用attributeModifier对容器设置组件级安全区。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -651,13 +627,7 @@ PhonePC/2in1TabletTVWearable
 
 对容器大小设置布局策略。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

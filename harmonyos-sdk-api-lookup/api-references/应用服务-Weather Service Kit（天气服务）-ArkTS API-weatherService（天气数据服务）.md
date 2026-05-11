@@ -6,13 +6,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { weatherService } from '@kit.WeatherServiceKit';
@@ -66,13 +60,7 @@ getWeather(request: WeatherRequest): Promise<Weather>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 引入
@@ -155,13 +143,7 @@ getWeatherWithContext(context: common.Context, request: WeatherRequest): Promise
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 引入

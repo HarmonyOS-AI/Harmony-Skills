@@ -575,13 +575,7 @@ PhonePC/2in1TabletTVWearable
 
 ### 导入对象
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let controller: VideoController = new VideoController();
@@ -755,13 +749,7 @@ PhonePC/2in1TabletTVWearable
 
 基础用法包括：控制栏、预览图、自动播放、播放速度、响应快捷键（从API version 15开始，支持通过[enableShortcutKey](/consumer/cn/doc/harmonyos-references/ts-media-components-video#enableshortcutkey15)设置组件开启快捷键响应）、控制器（开始播放、暂停播放、停止播放、重置AVPlayer、跳转等）、首帧送显（从API version 18开始，支持通过[posterOptions](/consumer/cn/doc/harmonyos-references/ts-media-components-video#posteroptions18对象说明)设置视频播放的首帧送显选项。从API version 21开始，posterOptions支持通过[PosterOptions](/consumer/cn/doc/harmonyos-references/ts-media-components-video#posteroptions18对象说明)的contentTransitionEffect参数来设置当前视频的预览图内容变化时的转场动效。）以及一些状态回调方法。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -901,13 +889,7 @@ PhonePC/2in1TabletTVWearable
 
 通过enableAnalyzer属性开启图像AI分析。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -967,13 +949,7 @@ PhonePC/2in1TabletTVWearable
 
 以下示例展示了如何使Video组件能够播放拖入的视频。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1016,13 +992,7 @@ PhonePC/2in1TabletTVWearable
 
 通过objectFit属性设置视频填充模式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1083,13 +1053,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，支持通过[onError](/consumer/cn/doc/harmonyos-references/ts-media-components-video#onerror)获取错误信息，该示例以传入不存在的视频资源路径为例。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1135,13 +1099,7 @@ PhonePC/2in1TabletTVWearable
 
 以下示例展示了如何使用attributeModifier动态设置Video组件的enableAnalyzer、analyzerConfig属性和onStart、onPause、onFinish、onError、onStop、onPrepared、onSeeking、onSeeked、onUpdate、onFullscreenChange方法。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

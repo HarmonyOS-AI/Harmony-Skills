@@ -18,13 +18,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { vpnExtension } from '@kit.NetworkKit';
@@ -127,13 +121,7 @@ startVpnExtensionAbility(want: Want): Promise<void>
 
 Stage 模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -220,13 +208,7 @@ stopVpnExtensionAbility(want: Want): Promise<void>
 
 Stage 模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -320,13 +302,7 @@ createVpnConnection(context: VpnExtensionContext): VpnConnection
 
 Stage 模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { vpnExtension, VpnExtensionAbility } from '@kit.NetworkKit';
@@ -394,13 +370,7 @@ create(config: VpnConfig): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { vpnExtension, VpnExtensionAbility } from '@kit.NetworkKit';
@@ -521,13 +491,7 @@ protect(socketFd: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { vpnExtension, VpnExtensionAbility } from '@kit.NetworkKit';
@@ -591,13 +555,7 @@ destroy(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { vpnExtension, VpnExtensionAbility } from '@kit.NetworkKit';
@@ -657,13 +615,7 @@ destroy(vpnId: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { vpnExtension, VpnExtensionAbility } from '@kit.NetworkKit';
@@ -721,13 +673,7 @@ generateVpnId(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { vpnExtension, VpnExtensionAbility } from '@kit.NetworkKit';
@@ -767,13 +713,7 @@ protectProcessNet(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { vpnExtension, VpnExtensionAbility } from '@kit.NetworkKit';
@@ -829,13 +769,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { vpnExtension} from '@kit.NetworkKit';

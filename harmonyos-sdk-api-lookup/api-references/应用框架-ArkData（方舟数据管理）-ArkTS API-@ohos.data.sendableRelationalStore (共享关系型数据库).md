@@ -16,13 +16,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableRelationalStore } from '@kit.ArkData';
@@ -67,13 +61,7 @@ toSendableValuesBucket(valuesBucket: NonSendableBucket): ValuesBucket
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const asset1: sendableRelationalStore.NonSendableAsset = {
@@ -146,13 +134,7 @@ fromSendableValuesBucket(valuesBucket: ValuesBucket): NonSendableBucket
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const asset1: sendableRelationalStore.NonSendableAsset = {
@@ -225,13 +207,7 @@ toSendableAsset(asset: NonSendableAsset): Asset
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const asset1: sendableRelationalStore.NonSendableAsset = {
@@ -284,13 +260,7 @@ fromSendableAsset(asset: Asset): NonSendableAsset
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const asset1: sendableRelationalStore.NonSendableAsset = {
@@ -343,13 +313,7 @@ fromSendableValues(values: collections.Array<ValueType>): NonSendableValues
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableRelationalStore } from '@kit.ArkData';
@@ -400,13 +364,7 @@ toSendableValues(values: NonSendableValues): collections.Array<ValueType>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { relationalStore, sendableRelationalStore } from '@kit.ArkData';
@@ -549,13 +507,7 @@ PhonePC/2in1TabletTVWearable
 
 调用taskpool执行数据查询时，调用ResultSet的getSendableRow方法，获取可跨线程传递的数据行返回主线程，主线程中调用fromSendableValuesBucket方法，转为常规ValuesBucket执行后续处理。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets

@@ -113,13 +113,7 @@ PhonePC/2in1TabletTVWearable
 
 本示例展示如何设置可拖动的ColumnSplit组件及其效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -150,13 +144,7 @@ PhonePC/2in1TabletTVWearable
 
 本示例展示如何设置带有间隔的ColumnSplit组件及其效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

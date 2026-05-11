@@ -8,13 +8,7 @@ WantAgent模块提供了创建WantAgent实例、获取实例的用户ID、获取
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wantAgent from '@ohos.wantAgent';
@@ -43,13 +37,7 @@ getWantAgent(info: WantAgentInfo, callback: AsyncCallback<WantAgent>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wantAgent, { WantAgent as _WantAgent } from '@ohos.wantAgent';
@@ -122,13 +110,7 @@ getWantAgent(info: WantAgentInfo): Promise<WantAgent>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wantAgent, { WantAgent as _WantAgent } from '@ohos.wantAgent';
@@ -186,13 +168,7 @@ getBundleName(agent: WantAgent, callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wantAgent, { WantAgent as _WantAgent } from '@ohos.wantAgent';
@@ -276,13 +252,7 @@ getBundleName(agent: WantAgent): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wantAgent, { WantAgent as _WantAgent } from '@ohos.wantAgent';
@@ -349,13 +319,7 @@ getUid(agent: WantAgent, callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wantAgent, { WantAgent as _WantAgent } from '@ohos.wantAgent';
@@ -439,13 +403,7 @@ getUid(agent: WantAgent): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wantAgent, { WantAgent as _WantAgent } from '@ohos.wantAgent';
@@ -512,13 +470,7 @@ cancel(agent: WantAgent, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wantAgent, { WantAgent as _WantAgent } from '@ohos.wantAgent';
@@ -602,13 +554,7 @@ cancel(agent: WantAgent): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wantAgent, { WantAgent as _WantAgent } from '@ohos.wantAgent';
@@ -677,13 +623,7 @@ trigger(agent: WantAgent, triggerInfo: TriggerInfo, callback?: Callback<Complete
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wantAgent, { WantAgent as _WantAgent } from '@ohos.wantAgent';
@@ -762,13 +702,7 @@ equal(agent: WantAgent, otherAgent: WantAgent, callback: AsyncCallback<boolean>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wantAgent, { WantAgent as _WantAgent } from '@ohos.wantAgent';
@@ -855,13 +789,7 @@ equal(agent: WantAgent, otherAgent: WantAgent): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import wantAgent, { WantAgent as _WantAgent } from '@ohos.wantAgent';

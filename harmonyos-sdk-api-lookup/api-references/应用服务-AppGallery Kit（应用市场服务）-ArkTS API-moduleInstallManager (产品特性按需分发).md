@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { moduleInstallManager } from '@kit.AppGalleryKit';
@@ -208,13 +202,7 @@ getInstalledModule(moduleName: string): InstalledModule
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { moduleInstallManager } from '@kit.AppGalleryKit';
@@ -325,13 +313,7 @@ createModuleInstallRequest(context: common.UIAbilityContext | common.ExtensionCo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -423,13 +405,7 @@ addModule(moduleName: string): ReturnCode
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -516,13 +492,7 @@ fetchModules(moduleInstallRequest: ModuleInstallRequest): Promise<ModuleInstallS
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -613,13 +583,7 @@ cancelTask(taskId: string): ReturnCode
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { moduleInstallManager } from '@kit.AppGalleryKit';
@@ -682,13 +646,7 @@ showCellularDataConfirmation(context: common.UIAbilityContext | common.Extension
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -763,13 +721,7 @@ on(type: 'moduleInstallStatus', callback: Callback<ModuleInstallSessionState>, t
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { moduleInstallManager } from '@kit.AppGalleryKit';
@@ -823,13 +775,7 @@ off(type: 'moduleInstallStatus', callback?: Callback<ModuleInstallSessionState>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { moduleInstallManager } from '@kit.AppGalleryKit';

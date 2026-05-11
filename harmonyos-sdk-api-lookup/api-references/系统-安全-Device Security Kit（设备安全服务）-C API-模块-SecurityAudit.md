@@ -91,13 +91,7 @@ PC/2in1
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct SecurityAudit_AuthClient_Impl SecurityAudit_AuthClient
@@ -113,13 +107,7 @@ PC/2in1
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct SecurityAudit_Client_Impl SecurityAudit_Client
@@ -135,13 +123,7 @@ PC/2in1
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef void(* SecurityAudit_Handler) (const SecurityAudit_Event *events, uint64_t count)
@@ -170,13 +152,7 @@ PC/2in1
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum SecurityAudit_Auth_Event
@@ -205,13 +181,7 @@ PC/2in1
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum SecurityAudit_AuthResult
@@ -234,13 +204,7 @@ PC/2in1
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum SecurityAudit_FilterType
@@ -273,13 +237,7 @@ PC/2in1
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum SecurityAudit_Notify_Event
@@ -351,13 +309,7 @@ PC/2in1
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t HMS_SecurityAudit_AddAuthEventFilter (const SecurityAudit_AuthClient * client, SecurityAudit_Auth_Event event, const SecurityAudit_Filter * filter )
@@ -391,13 +343,7 @@ ohos.permission.kernel.AUTH\_AUDIT\_EVENT
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t HMS_SecurityAudit_AddFilter (const SecurityAudit_Client * client, SecurityAudit_Notify_Event event, const SecurityAudit_Filter * filter )
@@ -431,13 +377,7 @@ ohos.permission.QUERY\_AUDIT\_EVENT
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t HMS_SecurityAudit_Auth (const SecurityAudit_AuthClient * client, const SecurityAudit_Event * event, SecurityAudit_AuthResult authResult )
@@ -471,13 +411,7 @@ ohos.permission.kernel.AUTH\_AUDIT\_EVENT
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t HMS_SecurityAudit_DeleteAuthClient (SecurityAudit_AuthClient * client)
@@ -509,13 +443,7 @@ ohos.permission.kernel.AUTH\_AUDIT\_EVENT
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t HMS_SecurityAudit_DeleteClient (SecurityAudit_Client * client)
@@ -547,13 +475,7 @@ ohos.permission.QUERY\_AUDIT\_EVENT
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t HMS_SecurityAudit_NewAuthClient (SecurityAudit_AuthClient ** client, SecurityAudit_Handler handler )
@@ -586,13 +508,7 @@ ohos.permission.kernel.AUTH\_AUDIT\_EVENT
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t HMS_SecurityAudit_NewClient (SecurityAudit_Client ** client, SecurityAudit_Handler handler )
@@ -625,13 +541,7 @@ ohos.permission.QUERY\_AUDIT\_EVENT
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t HMS_SecurityAudit_RemoveAuthEventFilter (const SecurityAudit_AuthClient * client, SecurityAudit_Auth_Event event, const SecurityAudit_Filter * filter )
@@ -665,13 +575,7 @@ ohos.permission.kernel.AUTH\_AUDIT\_EVENT
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t HMS_SecurityAudit_RemoveFilter (const SecurityAudit_Client * client, SecurityAudit_Notify_Event event, const SecurityAudit_Filter * filter )
@@ -705,13 +609,7 @@ ohos.permission.QUERY\_AUDIT\_EVENT
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t HMS_SecurityAudit_Subscribe (const SecurityAudit_Client * client, const SecurityAudit_Notify_Event * events, uint64_t count )
@@ -745,13 +643,7 @@ ohos.permission.QUERY\_AUDIT\_EVENT
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t HMS_SecurityAudit_SubscribeAuthEvent (const SecurityAudit_AuthClient * client, const SecurityAudit_Auth_Event * events, uint64_t count )
@@ -785,13 +677,7 @@ ohos.permission.kernel.AUTH\_AUDIT\_EVENT
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t HMS_SecurityAudit_Unsubscribe (const SecurityAudit_Client * client, const SecurityAudit_Notify_Event * events, uint64_t count )
@@ -825,13 +711,7 @@ ohos.permission.QUERY\_AUDIT\_EVENT
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t HMS_SecurityAudit_UnsubscribeAuthEvent (const SecurityAudit_AuthClient * client, const SecurityAudit_Auth_Event * events, uint64_t count )
@@ -865,13 +745,7 @@ ohos.permission.kernel.AUTH\_AUDIT\_EVENT
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t HMS_SecurityAudit_QueryAllProcesses(char** result)
@@ -903,13 +777,7 @@ ohos.permission.QUERY\_AUDIT\_EVENT
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t HMS_SecurityAudit_QueryProcesses(uint64_t* pids, uint64_t count, char** result)
@@ -943,13 +811,7 @@ ohos.permission.QUERY\_AUDIT\_EVENT
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t HMS_SecurityAudit_AcquireCodeSign(char* path, char** outOwnedResult)

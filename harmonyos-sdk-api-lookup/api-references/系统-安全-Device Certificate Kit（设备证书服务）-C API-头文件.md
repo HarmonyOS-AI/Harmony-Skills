@@ -1,2 +1,0 @@
-* **[cm\_native\_api.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-cm-native-api-h)**
-* **[cm\_native\_type.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-cm-native-type-h)**

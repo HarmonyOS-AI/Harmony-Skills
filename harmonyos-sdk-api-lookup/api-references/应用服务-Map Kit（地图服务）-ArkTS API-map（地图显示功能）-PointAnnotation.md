@@ -2,13 +2,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { map, mapCommon } from '@kit.MapKit';
@@ -30,13 +24,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pointAnnotationOptions: mapCommon.PointAnnotationParams = {
@@ -79,13 +67,7 @@ getPosition(): mapCommon.LatLng
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let position: mapCommon.LatLng = pointAnnotation.getPosition();
@@ -117,13 +99,7 @@ getTitleText(): mapCommon.Text
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let titleText: mapCommon.Text = pointAnnotation.getTitleText();
@@ -155,13 +131,7 @@ setTitleText(text: mapCommon.Text): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 以pointAnnotation为例
@@ -201,13 +171,7 @@ setTitleAnimation(animation: FontSizeAnimation): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let animation: map.FontSizeAnimation = new map.FontSizeAnimation(5, 25);
@@ -248,13 +212,7 @@ startTitleAnimation(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. pointAnnotation.startTitleAnimation();

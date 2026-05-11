@@ -10,13 +10,7 @@ continuationManager模块提供了流转/协同入口管理服务能力，包括
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { continuationManager } from '@kit.AbilityKit';
@@ -48,13 +42,7 @@ register(callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { continuationManager } from '@kit.AbilityKit';
@@ -97,13 +85,7 @@ register(options: ContinuationExtraParams, callback: AsyncCallback<number>): voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { continuationManager } from '@kit.AbilityKit';
@@ -157,13 +139,7 @@ register(options?: ContinuationExtraParams): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { continuationManager } from '@kit.AbilityKit';
@@ -222,13 +198,7 @@ registerContinuation(callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { continuationManager } from '@kit.AbilityKit';
@@ -292,13 +262,7 @@ registerContinuation(options: ContinuationExtraParams, callback: AsyncCallback<n
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { continuationManager } from '@kit.AbilityKit';
@@ -373,13 +337,7 @@ registerContinuation(options?: ContinuationExtraParams): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { continuationManager } from '@kit.AbilityKit';
@@ -428,13 +386,7 @@ on(type: 'deviceConnect', callback: Callback<ContinuationResult>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { continuationManager } from '@kit.AbilityKit';
@@ -473,13 +425,7 @@ on(type: 'deviceDisconnect', callback: Callback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { continuationManager } from '@kit.AbilityKit';
@@ -516,13 +462,7 @@ off(type: 'deviceConnect', callback?: Callback<ContinuationResult>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { continuationManager } from '@kit.AbilityKit';
@@ -561,13 +501,7 @@ off(type: 'deviceDisconnect', callback?: Callback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { continuationManager } from '@kit.AbilityKit';
@@ -623,13 +557,7 @@ on(type: 'deviceSelected', token: number, callback: Callback<Array<ContinuationR
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { continuationManager } from '@kit.AbilityKit';
@@ -695,13 +623,7 @@ on(type: 'deviceUnselected', token: number, callback: Callback<Array<Continuatio
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { continuationManager } from '@kit.AbilityKit';
@@ -767,13 +689,7 @@ off(type: 'deviceSelected', token: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { continuationManager } from '@kit.AbilityKit';
@@ -831,13 +747,7 @@ off(type: 'deviceUnselected', token: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { continuationManager } from '@kit.AbilityKit';
@@ -877,13 +787,7 @@ startDeviceManager(token: number, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { continuationManager } from '@kit.AbilityKit';
@@ -926,13 +830,7 @@ startDeviceManager(token: number, options: ContinuationExtraParams, callback: As
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { continuationManager } from '@kit.AbilityKit';
@@ -987,13 +885,7 @@ startDeviceManager(token: number, options?: ContinuationExtraParams): Promise<vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { continuationManager } from '@kit.AbilityKit';
@@ -1055,13 +947,7 @@ startContinuationDeviceManager(token: number, callback: AsyncCallback<void>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { continuationManager } from '@kit.AbilityKit';
@@ -1125,13 +1011,7 @@ startContinuationDeviceManager(token: number, options: ContinuationExtraParams, 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { continuationManager } from '@kit.AbilityKit';
@@ -1207,13 +1087,7 @@ startContinuationDeviceManager(token: number, options?: ContinuationExtraParams)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { continuationManager } from '@kit.AbilityKit';
@@ -1264,13 +1138,7 @@ updateConnectStatus(token: number, deviceId: string, status: DeviceConnectState,
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { continuationManager } from '@kit.AbilityKit';
@@ -1322,13 +1190,7 @@ updateConnectStatus(token: number, deviceId: string, status: DeviceConnectState)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { continuationManager } from '@kit.AbilityKit';
@@ -1391,13 +1253,7 @@ updateContinuationState(token: number, deviceId: string, status: DeviceConnectSt
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { continuationManager } from '@kit.AbilityKit';
@@ -1470,13 +1326,7 @@ updateContinuationState(token: number, deviceId: string, status: DeviceConnectSt
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { continuationManager } from '@kit.AbilityKit';
@@ -1524,13 +1374,7 @@ unregister(token: number, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { continuationManager } from '@kit.AbilityKit';
@@ -1579,13 +1423,7 @@ unregister(token: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { continuationManager } from '@kit.AbilityKit';
@@ -1644,13 +1482,7 @@ unregisterContinuation(token: number, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { continuationManager } from '@kit.AbilityKit';
@@ -1720,13 +1552,7 @@ unregisterContinuation(token: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { continuationManager } from '@kit.AbilityKit';

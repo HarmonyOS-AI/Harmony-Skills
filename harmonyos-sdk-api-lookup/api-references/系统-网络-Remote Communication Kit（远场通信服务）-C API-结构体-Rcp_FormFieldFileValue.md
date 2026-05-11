@@ -34,13 +34,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Rcp_ContentOrPathOrCallback Rcp_FormFieldFileValue::contentOrPathOrCb
@@ -54,13 +48,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. char Rcp_FormFieldFileValue::contentType[RCP_MAX_CONTENT_TYPE_LEN]
@@ -74,13 +62,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. char Rcp_FormFieldFileValue::remoteFileName[RCP_MAX_FILENAME_LEN]

@@ -9,13 +9,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { WorkSchedulerExtensionAbility } from '@kit.BackgroundTasksKit';
@@ -75,13 +69,7 @@ onWorkStart(work: workScheduler.WorkInfo): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { workScheduler } from '@kit.BackgroundTasksKit';
@@ -115,13 +103,7 @@ onWorkStop(work: workScheduler.WorkInfo): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { workScheduler } from '@kit.BackgroundTasksKit';

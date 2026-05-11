@@ -9,13 +9,7 @@
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AVInputCastPicker } from '@kit.AVSessionKit';
@@ -31,13 +25,7 @@ PC/2in1
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AVInputCastPicker({
@@ -95,13 +83,7 @@ PC/2in1
 
 录音设备选择组件功能的示例说明参考如下。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AVCastPickerState, AVInputCastPicker } from '@kit.AVSessionKit';

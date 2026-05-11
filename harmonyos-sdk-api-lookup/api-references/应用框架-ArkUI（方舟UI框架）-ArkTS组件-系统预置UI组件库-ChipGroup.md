@@ -8,13 +8,7 @@ ChipGroup组件提供操作块群组，用于文件或资源内容的分类等�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ChipSize, ChipGroup } from '@kit.ArkUI';
@@ -30,13 +24,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ChipGroup({
@@ -221,13 +209,7 @@ ChipGroup的尾部图标选项类型。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. IconGroupSuffix({items: Array<IconItemOptions | SymbolGlyphModifier | SymbolItemOptions>})
@@ -316,13 +298,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例实现了在没有最右侧builder时的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ChipSize, ChipGroup } from '@kit.ArkUI';
@@ -398,13 +374,7 @@ PhonePC/2in1TabletTVWearable
 
 通过配置suffix实现最右侧的自定义组件效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ChipSize, ChipGroup, IconGroupSuffix } from '@kit.ArkUI';
@@ -503,13 +473,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例实现了IconGroupSuffix和ChipGroup传入SymbolGlyph资源。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ChipSize, ChipGroup, IconGroupSuffix, SymbolGlyphModifier } from '@kit.ArkUI';
@@ -612,13 +576,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例实现ChipGroup在单选模式下，有后缀区域和无后缀区域的屏幕朗读功能，具体播报内容为accessibilityText属性中的内容。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ChipGroup, IconGroupSuffix, SymbolGlyphModifier } from '@kit.ArkUI';
@@ -803,13 +761,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例实现了ChipGroup在多选模式下，有后缀区域和无后缀区域的屏幕朗读功能，具体播报内容为accessibilityText属性中的内容。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ChipGroup, IconGroupSuffix, SymbolGlyphModifier } from '@kit.ArkUI';

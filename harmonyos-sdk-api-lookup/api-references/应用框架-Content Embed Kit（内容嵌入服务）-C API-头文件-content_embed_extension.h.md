@@ -71,13 +71,7 @@
 
 ### OH\_ContentEmbed\_Extension\_GetContentEmbedContext()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Extension_GetContentEmbedContext(ContentEmbed_ExtensionInstanceHandle ceInstance, ContentEmbed_ExtensionContextHandle *ceContext)
@@ -108,13 +102,7 @@
 
 ### OH\_ContentEmbed\_Extension\_GetContext()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Extension_GetContext(ContentEmbed_ExtensionContextHandle ceContext, AbilityRuntime_ContextHandle *context)
@@ -145,13 +133,7 @@
 
 ### OH\_ContentEmbed\_Extension\_GetExtensionInstance()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Extension_GetExtensionInstance(AbilityRuntime_ExtensionInstanceHandle baseInstance, ContentEmbed_ExtensionInstanceHandle *ceInstance)
@@ -182,13 +164,7 @@
 
 ### OH\_ContentEmbed\_Extension\_OnCreateFunc()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef void (*OH_ContentEmbed_Extension_OnCreateFunc)(ContentEmbed_ExtensionInstanceHandle instance, AbilityBase_Want *want)
@@ -213,13 +189,7 @@ OE Extension实例创建时的生命周期函数类型。
 
 ### OH\_ContentEmbed\_Extension\_OnDestroyFunc()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef void (*OH_ContentEmbed_Extension_OnDestroyFunc)(ContentEmbed_ExtensionInstanceHandle instance)
@@ -243,13 +213,7 @@ OE Extension实例销毁时的生命周期函数类型。
 
 ### OH\_ContentEmbed\_Extension\_OnObjectAttachFunc()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef void (*OH_ContentEmbed_Extension_OnObjectAttachFunc)(ContentEmbed_ExtensionInstanceHandle instance, ContentEmbed_ObjectHandle object)
@@ -274,13 +238,7 @@ OE Extension实例销毁时的生命周期函数类型。
 
 ### OH\_ContentEmbed\_Extension\_OnObjectDetachFunc()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef void (*OH_ContentEmbed_Extension_OnObjectDetachFunc)(ContentEmbed_ExtensionInstanceHandle instance, ContentEmbed_ObjectHandle object)
@@ -305,13 +263,7 @@ OE Extension实例销毁时的生命周期函数类型。
 
 ### OH\_ContentEmbed\_Extension\_OnWriteToDataStreamFunc()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef void (*OH_ContentEmbed_Extension_OnWriteToDataStreamFunc)(ContentEmbed_ObjectHandle object)
@@ -335,13 +287,7 @@ OE Extension实例销毁时的生命周期函数类型。
 
 ### OH\_ContentEmbed\_Extension\_OnGetSnapshotFunc()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef void (*OH_ContentEmbed_Extension_OnGetSnapshotFunc)(ContentEmbed_ObjectHandle object)
@@ -365,13 +311,7 @@ OE Extension实例销毁时的生命周期函数类型。
 
 ### OH\_ContentEmbed\_Extension\_OnDoEditFunc()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef void (*OH_ContentEmbed_Extension_OnDoEditFunc)(ContentEmbed_ObjectHandle object)
@@ -395,13 +335,7 @@ OE Extension实例销毁时的生命周期函数类型。
 
 ### OH\_ContentEmbed\_Extension\_OnGetEditStatusFunc()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef void (*OH_ContentEmbed_Extension_OnGetEditStatusFunc)(ContentEmbed_ObjectHandle object, bool *isEditing, bool *isModified)
@@ -427,13 +361,7 @@ OE Extension实例销毁时的生命周期函数类型。
 
 ### OH\_ContentEmbed\_Extension\_OnGetCapabilityFunc()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef void (*OH_ContentEmbed_Extension_OnGetCapabilityFunc)(ContentEmbed_ObjectHandle object, uint32_t *bitmask)
@@ -458,13 +386,7 @@ OE Extension实例销毁时的生命周期函数类型。
 
 ### OH\_ContentEmbed\_Extension\_RegisterOnCreateFunc()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Extension_RegisterOnCreateFunc(ContentEmbed_ExtensionInstanceHandle instance, OH_ContentEmbed_Extension_OnCreateFunc onCreateFunc)
@@ -495,13 +417,7 @@ OE Extension实例销毁时的生命周期函数类型。
 
 ### OH\_ContentEmbed\_Extension\_RegisterOnDestroyFunc()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Extension_RegisterOnDestroyFunc(ContentEmbed_ExtensionInstanceHandle instance, OH_ContentEmbed_Extension_OnDestroyFunc onDestroyFunc)
@@ -532,13 +448,7 @@ OE Extension实例销毁时的生命周期函数类型。
 
 ### OH\_ContentEmbed\_Extension\_RegisterOnObjectAttachFunc()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Extension_RegisterOnObjectAttachFunc(ContentEmbed_ExtensionInstanceHandle instance, OH_ContentEmbed_Extension_OnObjectAttachFunc onObjectAttachFunc)
@@ -571,13 +481,7 @@ OE Extension实例销毁时的生命周期函数类型。
 
 ### OH\_ContentEmbed\_Extension\_UnRegisterOnObjectAttachFunc()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Extension_UnRegisterOnObjectAttachFunc(ContentEmbed_ExtensionInstanceHandle instance)
@@ -607,13 +511,7 @@ OE Extension实例销毁时的生命周期函数类型。
 
 ### OH\_ContentEmbed\_Extension\_RegisterOnObjectDetachFunc()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Extension_RegisterOnObjectDetachFunc(ContentEmbed_ExtensionInstanceHandle instance, OH_ContentEmbed_Extension_OnObjectDetachFunc onObjectDetachFunc)
@@ -646,13 +544,7 @@ OE Extension实例销毁时的生命周期函数类型。
 
 ### OH\_ContentEmbed\_Extension\_UnRegisterOnObjectDetachFunc()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Extension_UnRegisterOnObjectDetachFunc(ContentEmbed_ExtensionInstanceHandle instance)
@@ -682,13 +574,7 @@ OE Extension实例销毁时的生命周期函数类型。
 
 ### OH\_ContentEmbed\_Extension\_RegisterOnWriteToDataStreamFunc()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Extension_RegisterOnWriteToDataStreamFunc(ContentEmbed_ObjectHandle object, OH_ContentEmbed_Extension_OnWriteToDataStreamFunc onWriteToDataStreamFunc)
@@ -719,13 +605,7 @@ OE Extension实例销毁时的生命周期函数类型。
 
 ### OH\_ContentEmbed\_Extension\_RegisterOnGetSnapshotFunc()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Extension_RegisterOnGetSnapshotFunc(ContentEmbed_ObjectHandle object, OH_ContentEmbed_Extension_OnGetSnapshotFunc onGetSnapshotFunc)
@@ -756,13 +636,7 @@ OE Extension实例销毁时的生命周期函数类型。
 
 ### OH\_ContentEmbed\_Extension\_RegisterOnDoEditFunc()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Extension_RegisterOnDoEditFunc(ContentEmbed_ObjectHandle object, OH_ContentEmbed_Extension_OnDoEditFunc onDoEditFunc)
@@ -793,13 +667,7 @@ OE Extension实例销毁时的生命周期函数类型。
 
 ### OH\_ContentEmbed\_Extension\_RegisterOnGetEditStatusFunc()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Extension_RegisterOnGetEditStatusFunc(ContentEmbed_ObjectHandle object, OH_ContentEmbed_Extension_OnGetEditStatusFunc onGetEditStatusFunc)
@@ -830,13 +698,7 @@ OE Extension实例销毁时的生命周期函数类型。
 
 ### OH\_ContentEmbed\_Extension\_RegisterOnGetCapabilityFunc()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Extension_RegisterOnGetCapabilityFunc(ContentEmbed_ObjectHandle object, OH_ContentEmbed_Extension_OnGetCapabilityFunc onGetCapabilityFunc)
@@ -867,13 +729,7 @@ OE Extension实例销毁时的生命周期函数类型。
 
 ### OH\_ContentEmbed\_Extension\_GetContentEmbedDocument()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Extension_GetContentEmbedDocument(ContentEmbed_ObjectHandle object, ContentEmbed_Document **ceDocument)
@@ -904,13 +760,7 @@ OE Extension实例销毁时的生命周期函数类型。
 
 ### OH\_ContentEmbed\_Extension\_CallbackToOnUpdate()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Extension_CallbackToOnUpdate(ContentEmbed_ObjectHandle object)
@@ -940,13 +790,7 @@ OE Extension实例销毁时的生命周期函数类型。
 
 ### OH\_ContentEmbed\_Extension\_CallbackToOnError()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Extension_CallbackToOnError(ContentEmbed_ObjectHandle object, ContentEmbed_ErrorCode code)
@@ -977,13 +821,7 @@ OE Extension实例销毁时的生命周期函数类型。
 
 ### OH\_ContentEmbed\_Extension\_CallbackToOnEditingFinished()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Extension_CallbackToOnEditingFinished(ContentEmbed_ObjectHandle object, bool dataModified)
@@ -1014,13 +852,7 @@ OE Extension实例销毁时的生命周期函数类型。
 
 ### OH\_ContentEmbed\_Extension\_CallbackToOnExtensionStopped()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Extension_CallbackToOnExtensionStopped(ContentEmbed_ExtensionInstanceHandle instance)
@@ -1050,13 +882,7 @@ OE Extension实例销毁时的生命周期函数类型。
 
 ### OH\_ContentEmbed\_Extension\_SetSnapshot()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Extension_SetSnapshot(ContentEmbed_ObjectHandle object, OH_PixelmapNative *pixelMap)
@@ -1087,13 +913,7 @@ OE Extension实例销毁时的生命周期函数类型。
 
 ### OH\_ContentEmbed\_Extension\_ContextStartSelfUIAbility()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Extension_ContextStartSelfUIAbility(ContentEmbed_ExtensionContextHandle context, AbilityBase_Want *want)
@@ -1124,13 +944,7 @@ OE Extension实例销毁时的生命周期函数类型。
 
 ### OH\_ContentEmbed\_Extension\_ContextStartSelfUIAbilityWithStartOptions()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Extension_ContextStartSelfUIAbilityWithStartOptions(ContentEmbed_ExtensionContextHandle context, AbilityBase_Want *want, AbilityRuntime_StartOptions *options)
@@ -1162,13 +976,7 @@ OE Extension实例销毁时的生命周期函数类型。
 
 ### OH\_ContentEmbed\_Extension\_ContextTerminateAbility()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Extension_ContextTerminateAbility(ContentEmbed_ExtensionContextHandle context)

@@ -16,13 +16,7 @@ PhonePC/2in1TabletTVWearable
 
 API version 21及之前版本：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {
@@ -36,13 +30,7 @@ API version 21及之前版本：
 
 API version 22及之后版本：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {
@@ -767,13 +755,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过设置arcSwiper的基本属性，展示了组件的基本功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -901,13 +883,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[customContentTransition](/consumer/cn/doc/harmonyos-references/ts-container-arcswiper#customcontenttransition)接口，实现了自定义ArcSwiper页面切换动画。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Decimal } from '@kit.ArkTS';

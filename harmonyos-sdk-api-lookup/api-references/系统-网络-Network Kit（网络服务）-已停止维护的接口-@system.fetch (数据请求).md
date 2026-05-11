@@ -7,13 +7,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import fetch from '@system.fetch';
@@ -99,13 +93,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. export default {
@@ -133,13 +121,7 @@ PhonePC/2in1TabletTVWearable
 
 默认支持https，如果要支持http，需要在config.json里增加network标签，属性标识 "cleartextTraffic": true。即：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. {

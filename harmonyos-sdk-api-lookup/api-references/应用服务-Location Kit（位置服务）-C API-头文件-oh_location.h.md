@@ -38,13 +38,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Location_ResultCode OH_Location_IsLocatingEnabled(bool* enabled)
@@ -76,13 +70,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Location_ResultCode OH_Location_StartLocating(const Location_RequestConfig* requestConfig)
@@ -116,13 +104,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Location_ResultCode OH_Location_StopLocating(const Location_RequestConfig* requestConfig)

@@ -89,13 +89,7 @@ PhonePC/2in1TabletTVWearable
 
 此示例为bindTips通过绑定Button产生悬浮气泡。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -124,13 +118,7 @@ PhonePC/2in1TabletTVWearable
 
 此示例展示了如何使用bindTips配置多个悬浮气泡依次显示和消失。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

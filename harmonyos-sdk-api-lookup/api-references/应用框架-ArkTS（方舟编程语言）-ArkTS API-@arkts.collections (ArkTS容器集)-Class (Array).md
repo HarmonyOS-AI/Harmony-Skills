@@ -18,13 +18,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { collections } from '@kit.ArkTS';
@@ -68,13 +62,7 @@ constructor()
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array = new collections.Array<number>();
@@ -114,13 +102,7 @@ ArkTS Array的构造函数，通过开发者提供的元素进行初始化。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array = new collections.Array<number>(1, 2, 3, 4);
@@ -159,13 +141,7 @@ ArkTS Array的构造函数，通过开发者提供的元素进行初始化。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let arrayPara  = [1,2,3];
@@ -213,13 +189,7 @@ static create<T>(arrayLength: number, initialValue: T): Array<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array = collections.Array.create<number>(3, 10); // [10, 10, 10]
@@ -265,13 +235,7 @@ static from<T>(arrayLike: ArrayLike<T>): Array<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 正例
@@ -279,13 +243,7 @@ static from<T>(arrayLike: ArrayLike<T>): Array<T>
 3. let sendableArray = collections.Array.from<string>(array); // 返回Sendable Array<T>
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 反例
@@ -333,13 +291,7 @@ static from<T>(iterable: Iterable<T>): Array<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const mapper = new Map([
@@ -391,13 +343,7 @@ static from<T>(arrayLike: ArrayLike<T> | Iterable<T>, mapFn: ArrayFromMapFn<T, T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array : Array<number> = [1, 2, 3]; // 原生Array<T>，T是Sendable数据类型。
@@ -446,13 +392,7 @@ static from<U, T>(arrayLike: ArrayLike<U> | Iterable<U>, mapFn: ArrayFromMapFn<U
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array : Array<number> = [1, 2, 3]; // 原生Array<T>
@@ -500,13 +440,7 @@ static isArray(value: Object | undefined | null): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let arr: collections.Array<string> = new collections.Array('a', 'b', 'c', 'd');
@@ -554,13 +488,7 @@ static of<T>(...items: T[]): Array<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let arr: collections.Array<string> = collections.Array.of('a', 'b', 'c', 'd');
@@ -611,13 +539,7 @@ copyWithin(target: number, start: number, end?: number): Array<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array: collections.Array<number> = collections.Array.from([1, 2, 3, 4, 5, 6, 7, 8]);
@@ -667,13 +589,7 @@ lastIndexOf(searchElement: T, fromIndex?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array: collections.Array<number> = collections.Array.from([3, 5, 9]);
@@ -724,13 +640,7 @@ some(predicate: ArrayPredicateFn<T, Array<T>>): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let newArray: collections.Array<number> = collections.Array.from([-10, 20, -30, 40, -50]);
@@ -779,13 +689,7 @@ reduceRight(callbackFn: ArrayReduceCallback<T, T, Array<T>>): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array = new collections.Array<number>(1, 2, 3, 4, 5);
@@ -836,13 +740,7 @@ reduceRight<U = T>(callbackFn: ArrayReduceCallback<U, T, Array<T>>, initialValue
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 此处使用一个初始值为0的累加器，并将其与Array中的每个元素相加，最终返回累加后的总和
@@ -884,13 +782,7 @@ pop(): T | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array = new collections.Array<number>(1, 2, 3);
@@ -939,13 +831,7 @@ push(...items: T[]): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array = new collections.Array<number>(1, 2, 3);
@@ -994,13 +880,7 @@ join(separator?: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array = new collections.Array<string>('a', 'b', 'c');
@@ -1040,13 +920,7 @@ shift(): T | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array = new collections.Array<number>(1, 2, 3);
@@ -1086,13 +960,7 @@ reverse(): Array<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array = new collections.Array<number>(1, 2, 3, 4, 5);
@@ -1142,13 +1010,7 @@ unshift(...items: T[]): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array = new collections.Array<number>(1, 2, 3);
@@ -1188,13 +1050,7 @@ ArkTS数组转换为字符串。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array = new collections.Array<number>(1, 2, 3, 4, 5);
@@ -1245,13 +1101,7 @@ slice(start?: number, end?: number): Array<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array = new collections.Array<number>(1, 2, 3, 4, 5);
@@ -1300,13 +1150,7 @@ sort(compareFn?: (a: T, b: T) => number): Array<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array = new collections.Array<number>(1, 3, 5, 4, 2);
@@ -1357,13 +1201,7 @@ indexOf(searchElement: T, fromIndex?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array = new collections.Array<string>('a', 'b', 'c');
@@ -1404,13 +1242,7 @@ forEach(callbackFn: (value: T, index: number, array: Array<T>) => void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array = new collections.Array<string>('a', 'b', 'c');
@@ -1461,13 +1293,7 @@ map<U>(callbackFn: (value: T, index: number, array: Array<T>) => U): Array<U>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 此处将原始Array中的每个字符串元素转换为大写形式，并返回一个新Array，其中包含转换后的字符串
@@ -1520,13 +1346,7 @@ filter(predicate: (value: T, index: number, array: Array<T>) => boolean): Array<
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array = new collections.Array<number>(1, 2, 3, 4, 5);
@@ -1575,13 +1395,7 @@ reduce(callbackFn: (previousValue: T, currentValue: T, currentIndex: number, arr
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array = new collections.Array<number>(1, 2, 3, 4, 5);
@@ -1631,13 +1445,7 @@ reduce<U>(callbackFn: (previousValue: U, currentValue: T, currentIndex: number, 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 此处使用一个初始值为0的累加器，并将其与Array中的每个元素相加，最终返回累加后的总和
@@ -1687,13 +1495,7 @@ at(index: number): T | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array = new collections.Array<number>(1, 2, 3, 4, 5);
@@ -1733,13 +1535,7 @@ entries(): IterableIterator<[number, T]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array = new collections.Array<number>(1, 2, 3, 4, 5);
@@ -1780,13 +1576,7 @@ keys(): IterableIterator<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array = new collections.Array<number>(1, 2, 3, 4, 5);
@@ -1829,13 +1619,7 @@ values(): IterableIterator<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array = new collections.Array<number>(1, 2, 3, 4, 5);
@@ -1887,13 +1671,7 @@ find(predicate: (value: T, index: number, obj: Array<T>) => boolean): T | undefi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array = new collections.Array<number>(1, 2, 3, 4, 5);
@@ -1943,13 +1721,7 @@ includes(searchElement: T, fromIndex?: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array = new collections.Array<number>(1, 2, 3, 4, 5);
@@ -1998,13 +1770,7 @@ findIndex(predicate: (value: T, index: number, obj: Array<T>) => boolean): numbe
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array = new collections.Array<number>(1, 2, 3, 4, 5);
@@ -2055,13 +1821,7 @@ fill(value: T, start?: number, end?: number): Array<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array = new collections.Array(1, 2, 3, 4, 5);
@@ -2102,13 +1862,7 @@ shrinkTo(arrayLength: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array1 = new collections.Array(1, 2, 3, 4, 5);
@@ -2153,13 +1907,7 @@ extendTo(arrayLength: number, initialValue: T): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array1 = new collections.Array(1, 2, 3);
@@ -2211,13 +1959,7 @@ concat(...items: ConcatArray<T>[]): Array<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array = new collections.Array(1, 2, 3);
@@ -2269,13 +2011,7 @@ splice(start: number): Array<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array = new collections.Array<number>(1, 2, 3, 4, 5);
@@ -2323,13 +2059,7 @@ every(predicate: ArrayPredicateFn<T, Array<T>>): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let newArray: collections.Array<number> = collections.Array.from([-10, 20, -30, 40, -50]);
@@ -2369,13 +2099,7 @@ toLocaleString(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 当前应用所在系统为法国地区
@@ -2428,13 +2152,7 @@ splice(start: number, deleteCount: number, ...items: T[]): Array<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 例1：
@@ -2442,13 +2160,7 @@ splice(start: number, deleteCount: number, ...items: T[]): Array<T>
 3. let removeArray = array.splice(2, 2); // array内容变为[1, 2, 5]，返回[3, 4]
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 例2：
@@ -2492,13 +2204,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array= new collections.Array<number>(1, 2, 3, 4);
@@ -2549,13 +2255,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array = new collections.Array<number>(1, 2, 4);

@@ -41,13 +41,7 @@ AppServiceExtensionAbility提供了[onCreate()](/consumer/cn/doc/harmonyos-refer
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AppServiceExtensionAbility } from '@kit.AbilityKit';
@@ -95,13 +89,7 @@ onCreate(want: Want): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AppServiceExtensionAbility, Want } from '@kit.AbilityKit';
@@ -128,13 +116,7 @@ onDestroy(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AppServiceExtensionAbility } from '@kit.AbilityKit';
@@ -170,13 +152,7 @@ onRequest(want: Want, startId: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AppServiceExtensionAbility, Want } from '@kit.AbilityKit';
@@ -221,13 +197,7 @@ onConnect(want: Want): rpc.RemoteObject
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AppServiceExtensionAbility, Want } from '@kit.AbilityKit';
@@ -273,13 +243,7 @@ onDisconnect(want: Want): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AppServiceExtensionAbility, Want } from '@kit.AbilityKit';

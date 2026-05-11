@@ -8,13 +8,7 @@ BaseContext抽象类用于表示继承的子类Context是Stage模型还是FA模�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -38,13 +32,7 @@ PhonePC/2in1TabletTVWearable
 
 以Stage模型为例，用户可通过UIAbilityContext访问stageMode字段。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, AbilityConstant, Want } from '@kit.AbilityKit';

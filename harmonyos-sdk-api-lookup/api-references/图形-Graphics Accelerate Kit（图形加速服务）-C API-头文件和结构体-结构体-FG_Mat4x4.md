@@ -32,13 +32,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. float FG_Mat4x4::data[16U]
@@ -48,13 +42,7 @@ PhoneTabletTV
 
 4x4列主序矩阵元素值组成的一维数组：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. | a11 a12 a13 a14 |

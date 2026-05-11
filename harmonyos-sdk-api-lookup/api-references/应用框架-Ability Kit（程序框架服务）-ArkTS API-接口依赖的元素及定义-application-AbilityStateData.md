@@ -8,13 +8,7 @@ AbilityStateData是Ability状态信息的数据结构。使用[on](https://devel
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { appManager } from '@kit.AbilityKit';

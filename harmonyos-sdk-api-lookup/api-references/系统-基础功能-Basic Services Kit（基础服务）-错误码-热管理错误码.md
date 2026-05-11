@@ -23,13 +23,7 @@ Failed to connect to the service.
 
 1. 在控制台中输入如下命令，查看当前的系统服务列表。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. > hdc shell hidumper -ls

@@ -10,13 +10,7 @@ AgentHostProxy用于从[AgentExtensionAbility](https://developer.huawei.com/cons
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -58,13 +52,7 @@ sendData(data: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common, AgentExtensionAbility } from '@kit.AbilityKit';
@@ -120,13 +108,7 @@ authorize(handshakeData: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common, AgentExtensionAbility } from '@kit.AbilityKit';

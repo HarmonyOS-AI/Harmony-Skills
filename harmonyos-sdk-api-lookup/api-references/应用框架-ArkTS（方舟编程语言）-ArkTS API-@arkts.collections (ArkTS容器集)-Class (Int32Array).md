@@ -12,13 +12,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { collections } from '@kit.ArkTS';
@@ -66,13 +60,7 @@ constructor()
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let int32Array: collections.Int32Array = new collections.Int32Array();
@@ -111,13 +99,7 @@ constructor(length: number)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 以长度参数构造对象
@@ -157,13 +139,7 @@ constructor(elements: Iterable<number>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 从一个Iterable构造对象
@@ -205,13 +181,7 @@ constructor(array: ArrayLike<number> | ArrayBuffer)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 例1 从一个ArrayLike构造对象
@@ -219,13 +189,7 @@ constructor(array: ArrayLike<number> | ArrayBuffer)
 3. let array: collections.Int32Array = new collections.Int32Array(arrayLike);
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 例2 从一个ArrayBuffer构造对象
@@ -233,13 +197,7 @@ constructor(array: ArrayLike<number> | ArrayBuffer)
 3. let array: collections.Int32Array = new collections.Int32Array(arrayBuffer);
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 例3 从另一ArkTS Int32Array构造对象
@@ -285,13 +243,7 @@ constructor(buffer: ArrayBuffer, byteOffset?: number, length?: number)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let int32Array: collections.Int32Array = collections.Int32Array.from([1, 2, 3, 4, 5, 6]);
@@ -341,13 +293,7 @@ static from(arrayLike: ArrayLike<number>): Int32Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let arrayLike = [1, 3, 5];
@@ -395,13 +341,7 @@ static from<T>(arrayLike: ArrayLike<T>, mapFn: TypedArrayFromMapFn<T, number>): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 例1 从一个对象创建，Int32Array [0, 1, 2, 3, 4]
@@ -409,13 +349,7 @@ static from<T>(arrayLike: ArrayLike<T>, mapFn: TypedArrayFromMapFn<T, number>): 
 3. { length: 5 }, (v: Object, k: number) => k);
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 例2 从一个字符数组创建，Int32Array [1, 3, 5]
@@ -423,13 +357,7 @@ static from<T>(arrayLike: ArrayLike<T>, mapFn: TypedArrayFromMapFn<T, number>): 
 3. ["1", "3", "5"], (v: string, k: number) => parseInt(v));
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 例3 从一个字符串创建，Int32Array [1, 2, 3, 4, 5]
@@ -478,13 +406,7 @@ static from(arrayLike: Iterable<number>, mapFn?: TypedArrayFromMapFn<number, num
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 例1 不指定映射函数
@@ -493,13 +415,7 @@ static from(arrayLike: Iterable<number>, mapFn?: TypedArrayFromMapFn<number, num
 4. let array: collections.Int32Array = collections.Int32Array.from(set);
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 例2 指定映射函数
@@ -549,13 +465,7 @@ static of(...items: number[]): Int32Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let arr: collections.Int32Array = collections.Int32Array.of(1, 2, 3, 4);
@@ -595,13 +505,7 @@ ArkTS Int32Array转换为字符串。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array = new collections.Int32Array([1, 2, 3, 4, 5]);
@@ -642,13 +546,7 @@ toLocaleString(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 当前应用所在系统为法国地区
@@ -701,13 +599,7 @@ copyWithin(target: number, start: number, end?: number): Int32Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array: collections.Int32Array = collections.Int32Array.from([1, 2, 3, 4, 5, 6, 7, 8]);
@@ -757,13 +649,7 @@ some(predicate: TypedArrayPredicateFn<number, Int32Array>): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let arrayLike = [-10, 20, -30, 40, -50];
@@ -813,13 +699,7 @@ every(predicate: TypedArrayPredicateFn<number, Int32Array>): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let arrayLike = [-10, 20, -30, 40, -50];
@@ -871,13 +751,7 @@ fill(value: number, start?: number, end?: number): Int32Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let arrayLike = [1, 2, 3];
@@ -928,13 +802,7 @@ filter(predicate: TypedArrayPredicateFn<number, Int32Array>): Int32Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array: collections.Int32Array = collections.Int32Array.from([0, 1, 2, 3, 4]);
@@ -984,13 +852,7 @@ find(predicate: TypedArrayPredicateFn<number, Int32Array>): number | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array: collections.Int32Array = collections.Int32Array.from([0, 1, 2, 3, 4]);
@@ -1040,13 +902,7 @@ findIndex(predicate: TypedArrayPredicateFn<number, Int32Array>): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const array: collections.Int32Array = collections.Int32Array.from([1, 2, 3, 4, 5]);
@@ -1087,13 +943,7 @@ forEach(callbackFn: TypedArrayForEachCallback<number, Int32Array>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let int32Array: collections.Int32Array = collections.Int32Array.from([1, 2, 3]);
@@ -1145,13 +995,7 @@ indexOf(searchElement: number, fromIndex?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array: collections.Int32Array = collections.Int32Array.from([3, 5, 9]);
@@ -1203,13 +1047,7 @@ lastIndexOf(searchElement: number, fromIndex?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array: collections.Int32Array = collections.Int32Array.from([3, 5, 9]);
@@ -1261,13 +1099,7 @@ join(separator?: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array: collections.Int32Array = collections.Int32Array.from([1, 2, 3, 4, 5]);
@@ -1316,13 +1148,7 @@ map(callbackFn: TypedArrayMapCallback<number, Int32Array>): Int32Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array: collections.Int32Array = collections.Int32Array.from([25, 36, 49]);
@@ -1371,13 +1197,7 @@ reduce(callbackFn: TypedArrayReduceCallback<number, number, Int32Array>): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array: collections.Int32Array = collections.Int32Array.from([1, 2, 3, 4, 5]);
@@ -1427,13 +1247,7 @@ reduceRight(callbackFn: TypedArrayReduceCallback<number, number, Int32Array>): n
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array: collections.Int32Array = collections.Int32Array.from([1, 2, 3, 4, 5]);
@@ -1484,13 +1298,7 @@ reduce(callbackFn: TypedArrayReduceCallback<number, number, Int32Array>, initial
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array: collections.Int32Array = collections.Int32Array.from([1, 2, 3, 4, 5]);
@@ -1541,13 +1349,7 @@ reduceRight<U = number>(callbackFn: TypedArrayReduceCallback<U, number, Int32Arr
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array: collections.Int32Array = collections.Int32Array.from([1, 2, 3, 4, 5]);
@@ -1598,13 +1400,7 @@ reduce<U>(callbackFn: TypedArrayReduceCallback<U, number, Int32Array>, initialVa
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array: collections.Int32Array = collections.Int32Array.from([1, 2, 3, 4, 5]);
@@ -1645,13 +1441,7 @@ reverse(): Int32Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array: collections.Int32Array = collections.Int32Array.from([1, 2, 3, 4, 5]);
@@ -1693,13 +1483,7 @@ set(array: ArrayLike<number>, offset?: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let buffer: collections.ArrayBuffer = new collections.ArrayBuffer(32);
@@ -1750,13 +1534,7 @@ slice(start?: number, end?: number): Int32Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array: collections.Int32Array = collections.Int32Array.from([1, 2, 3, 4, 5]);
@@ -1807,13 +1585,7 @@ sort(compareFn?: TypedArrayCompareFn<number>): Int32Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array: collections.Int32Array = collections.Int32Array.from([1, 3, 5, 4, 2]);
@@ -1865,13 +1637,7 @@ subarray(begin?: number, end?: number): Int32Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array: collections.Int32Array = collections.Int32Array.from([1, 2, 3, 4, 5]);
@@ -1921,13 +1687,7 @@ at(index: number): number | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array: collections.Int32Array = collections.Int32Array.from([1, 2, 3, 4, 5]);
@@ -1979,13 +1739,7 @@ includes(searchElement: number, fromIndex?: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array: collections.Int32Array = collections.Int32Array.from([1, 2, 3]);
@@ -2027,13 +1781,7 @@ entries(): IterableIterator<[number, number]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array: collections.Int32Array = collections.Int32Array.from([11, 22, 33]);
@@ -2076,13 +1824,7 @@ keys(): IterableIterator<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array: collections.Int32Array = collections.Int32Array.from([1, 2, 3, 4, 5]);
@@ -2125,13 +1867,7 @@ values(): IterableIterator<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let array: collections.Int32Array = collections.Int32Array.from([1, 2, 3, 4, 5]);
@@ -2177,13 +1913,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let int32Array: collections.Int32Array = collections.Int32Array.from([1, 2, 3, 4, 5, 6]);
@@ -2223,13 +1953,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let int32Array = collections.Int32Array.from([1, 2, 4]);

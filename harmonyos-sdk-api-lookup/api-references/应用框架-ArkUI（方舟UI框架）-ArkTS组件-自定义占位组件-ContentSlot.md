@@ -50,13 +50,7 @@ PhonePC/2in1TabletTVWearable
 
 下面的示例展示了ContentSlot的基本用法。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { nativeNode } from 'libNativeNode.so'; // 开发者自己实现的so

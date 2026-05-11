@@ -20,13 +20,7 @@ Deque和[Queue](https://developer.huawei.com/consumer/cn/doc/harmonyos-reference
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Deque } from '@kit.ArkTS';
@@ -74,13 +68,7 @@ Deque的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let deque = new Deque<string | number | boolean | Object>();
@@ -118,13 +106,7 @@ insertFront(element: T): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class C1 {
@@ -175,13 +157,7 @@ insertEnd(element: T): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class C1 {
@@ -240,13 +216,7 @@ has(element: T): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let deque = new Deque<string>();
@@ -287,13 +257,7 @@ popFirst(): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let deque = new Deque<number>();
@@ -338,13 +302,7 @@ popLast(): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let deque = new Deque<number>();
@@ -401,13 +359,7 @@ callbackFn的参数说明：
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let deque = new Deque<number>();
@@ -458,13 +410,7 @@ getFirst(): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let deque = new Deque<number>();
@@ -508,13 +454,7 @@ getLast(): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let deque = new Deque<number>();
@@ -558,13 +498,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let deque = new Deque<number>();

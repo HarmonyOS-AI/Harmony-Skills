@@ -1,2 +1,0 @@
-* **[模块](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/notification-module)**
-* **[头文件](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/notification-headerfile)**

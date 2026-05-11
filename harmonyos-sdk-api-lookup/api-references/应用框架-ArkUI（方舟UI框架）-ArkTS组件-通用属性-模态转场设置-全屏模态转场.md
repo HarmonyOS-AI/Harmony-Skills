@@ -114,13 +114,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示通过bindContentCover来实现全屏模态转场。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -220,13 +214,7 @@ PhonePC/2in1TabletTVWearable
 
 全屏模态无动画转场模式下，自定义转场动画。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -342,13 +330,7 @@ PhonePC/2in1TabletTVWearable
 
 全屏模态上下切换转场。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -448,13 +430,7 @@ PhonePC/2in1TabletTVWearable
 
 全屏模态透明度渐变转场。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -555,13 +531,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示全屏模态旋转，平移等自定义转场。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -679,13 +649,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，该示例主要演示设置enableSafeArea为true后全屏模态适配安全区的内容效果。全屏模态容器其背景色为浅蓝色，内容颜色为灰色，内容在安全区内布局。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

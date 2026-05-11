@@ -365,13 +365,7 @@ PhonePC/2in1TabletTVWearable
 
 通过ImageAnimator组件播放Resource动画。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -461,13 +455,7 @@ PhonePC/2in1TabletTVWearable
 
 通过ImageAnimator组件播放PixelMap动画。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -569,13 +557,7 @@ PhonePC/2in1TabletTVWearable
 
 通过[monitorInvisibleArea](/consumer/cn/doc/harmonyos-references/ts-basic-components-imageanimator#monitorinvisiblearea17)属性实现了当ImageAnimator的[state](/consumer/cn/doc/harmonyos-references/ts-basic-components-imageanimator#state)属性为AnimationStatus.Running时，控制组件在不可见时停止播放，在可见时恢复播放。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry

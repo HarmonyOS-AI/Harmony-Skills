@@ -18,13 +18,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { xml } from '@kit.ArkTS';
@@ -73,13 +67,7 @@ buffer是开发者根据需要自定义大小的缓存区域，用于临时存�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let arrayBuffer = new ArrayBuffer(2048);
@@ -123,13 +111,7 @@ setAttributes(name: string, value: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -180,13 +162,7 @@ addEmptyElement(name: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -213,13 +189,7 @@ setDeclaration(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -270,13 +240,7 @@ startElement(name: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -310,13 +274,7 @@ endElement(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -369,13 +327,7 @@ setNamespace(prefix: string, namespace: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -423,13 +375,7 @@ setComment(text: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -478,13 +424,7 @@ setCDATA(text: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -529,13 +469,7 @@ setText(text: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -583,13 +517,7 @@ setDocType(text: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -644,13 +572,7 @@ XmlDynamicSerializer的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let serializer = new xml.XmlDynamicSerializer('utf-8');
@@ -678,13 +600,7 @@ getOutput(): ArrayBuffer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -738,13 +654,7 @@ setAttributes(name: string, value: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -796,13 +706,7 @@ addEmptyElement(name: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -840,13 +744,7 @@ setDeclaration(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -897,13 +795,7 @@ startElement(name: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -947,13 +839,7 @@ endElement(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -1006,13 +892,7 @@ setNamespace(prefix: string, namespace: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -1060,13 +940,7 @@ setComment(text: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -1116,13 +990,7 @@ setCdata(text: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -1168,13 +1036,7 @@ setText(text: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -1223,13 +1085,7 @@ setDocType(text: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -1281,13 +1137,7 @@ constructor(buffer: ArrayBuffer | DataView, encoding?: string)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -1332,13 +1182,7 @@ parseXml(option: ParseOptions): void
 
 具体使用场景可参照[解析XML标签和标签值](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/xml-parsing#解析xml标签和标签值)和[解析XML属性和属性值](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/xml-parsing#解析xml属性和属性值)
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { xml, util } from '@kit.ArkTS';
@@ -1399,13 +1243,7 @@ parse(option: ParseOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -1512,13 +1350,7 @@ getColumnNumber(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -1564,13 +1396,7 @@ getDepth(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -1616,13 +1442,7 @@ getLineNumber(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -1664,13 +1484,7 @@ getName(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -1712,13 +1526,7 @@ getNamespace(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -1764,13 +1572,7 @@ getPrefix(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -1816,13 +1618,7 @@ getText(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -1864,13 +1660,7 @@ isEmptyElementTag(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -1916,13 +1706,7 @@ isWhitespace(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -1968,13 +1752,7 @@ getAttributeCount(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -2059,13 +1837,7 @@ XmlSAXParser的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { xml, stream } from '@kit.ArkTS';
@@ -2113,13 +1885,7 @@ parse(xmlSAXHandler: XmlSAXHandler): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { xml, stream } from '@kit.ArkTS';
@@ -2262,13 +2028,7 @@ characters(content: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { xml, stream } from '@kit.ArkTS';

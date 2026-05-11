@@ -10,13 +10,7 @@ GesturePoint表示手势触摸点。
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { GesturePoint } from '@kit.AccessibilityKit';
@@ -64,13 +58,7 @@ constructor(positionX: number, positionY: number);
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { GesturePoint } from '@kit.AccessibilityKit';

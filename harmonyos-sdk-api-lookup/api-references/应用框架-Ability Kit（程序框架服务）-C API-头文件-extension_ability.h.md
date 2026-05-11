@@ -57,13 +57,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef void AbilityRuntime_Extension_CreateFunc(AbilityRuntime_ExtensionInstanceHandle handle, const char *abilityName)
@@ -92,13 +86,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_Extension_CreateFunc OH_AbilityRuntime_OnNativeExtensionCreate
@@ -112,13 +100,7 @@ ExtensionAbility入口函数名称声明。开发者需要实现一个类型为[
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/extension_ability.h>

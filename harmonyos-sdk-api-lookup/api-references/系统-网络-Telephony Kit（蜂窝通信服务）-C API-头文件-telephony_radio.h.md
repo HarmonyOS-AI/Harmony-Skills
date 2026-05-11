@@ -37,13 +37,7 @@ PhoneTabletWearable
 
 PhoneTabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Telephony_RadioResult OH_Telephony_GetNetworkState(Telephony_NetworkState *state)
@@ -79,13 +73,7 @@ PhoneTabletWearable
 
 PhoneTabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Telephony_RadioResult OH_Telephony_GetNetworkStateForSlot(int32_t slotId, Telephony_NetworkState *state)

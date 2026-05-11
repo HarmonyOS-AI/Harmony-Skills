@@ -10,13 +10,7 @@ FormEditExtensionContext是[FormEditExtensionAbility](https://developer.huawei.c
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FormEditExtensionAbility } from '@kit.FormKit';
@@ -71,13 +65,7 @@ startSecondPage(want: Want): Promise<[AbilityResult](https://developer.huawei.co
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FormEditExtensionAbility } from '@kit.FormKit';
@@ -151,13 +139,7 @@ startUIAbility(want: Want): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FormEditExtensionAbility } from '@kit.FormKit'

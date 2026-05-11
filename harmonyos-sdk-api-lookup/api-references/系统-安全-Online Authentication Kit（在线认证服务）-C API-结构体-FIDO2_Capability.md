@@ -21,13 +21,7 @@
 
 ### capability
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FIDO2_ClientCapability FIDO2_Capability::capability
@@ -39,13 +33,7 @@
 
 ### isSupported
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bool FIDO2_Capability::isSupported

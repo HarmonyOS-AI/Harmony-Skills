@@ -16,13 +16,7 @@ PhonePC/2in1TabletTVWearable
 
 ### 导入对象
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. dialogController : CustomDialogController | null = new CustomDialogController(CustomDialogControllerOptions)
@@ -217,13 +211,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例实现了在CustomDialog中打开另一个或另一些CustomDialog。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -374,13 +362,7 @@ PhonePC/2in1TabletTVWearable
 
 在2in1设备上设置[showInSubWindow](/consumer/cn/doc/harmonyos-references/ts-methods-custom-dialog-box#customdialogcontrolleroptions对象说明)为true时，可以弹出在主窗外显示的弹窗。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -471,13 +453,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例定义了CustomDialog的样式，包括宽度、高度、背景色、阴影等。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -571,13 +547,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例展示了在折叠屏悬停态下设置dialog布局区域的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @CustomDialog
@@ -675,13 +645,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，在CustomDialogController中新增了getState接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -742,13 +706,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例使用[@Link](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/arkts-link)和[@Consume](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/arkts-provide-and-consume)实现页面与弹窗内数据的双向绑定。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @CustomDialog
@@ -854,13 +812,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例使用[maskColor](/consumer/cn/doc/harmonyos-references/ts-methods-custom-dialog-box#customdialogcontrolleroptions对象说明)，[maskRect](/consumer/cn/doc/harmonyos-references/ts-methods-custom-dialog-box#customdialogcontrolleroptions对象说明)和[LoadingProgress](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-basic-components-loadingprogress)，实现带loading的弹窗，并展示不在maskRect区域的事件透传效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { window } from '@kit.ArkUI';
@@ -969,13 +921,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 15开始，在CustomDialogControllerOptions中新增了keyboardAvoidDistance属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { window } from '@kit.ArkUI';
@@ -1116,13 +1062,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 19开始，在[CustomDialogControllerOptions](/consumer/cn/doc/harmonyos-references/ts-methods-custom-dialog-box#customdialogcontrolleroptions对象说明)中新增了onDidAppear、onDidDisappear、onWillAppear和onWillDisappear属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1219,13 +1159,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例是在对齐方式为[DialogAlignment.Bottom](/consumer/cn/doc/harmonyos-references/ts-methods-custom-dialog-box#customdialogcontrolleroptions对象说明)时，展示[customStyle](/consumer/cn/doc/harmonyos-references/ts-methods-custom-dialog-box#customdialogcontrolleroptions对象说明)不同值下，弹窗内容与安全区域的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @CustomDialog
@@ -1315,13 +1249,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 19开始，在[CustomDialogControllerOptions](/consumer/cn/doc/harmonyos-references/ts-methods-custom-dialog-box#customdialogcontrolleroptions对象说明)中新增了backgroundBlurStyleOptions属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @CustomDialog
@@ -1385,13 +1313,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 19开始，在[CustomDialogControllerOptions](/consumer/cn/doc/harmonyos-references/ts-methods-custom-dialog-box#customdialogcontrolleroptions对象说明)中新增了backgroundEffect属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @CustomDialog
@@ -1454,13 +1376,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过状态变量同步自定义组件的宽度，实现自定义弹窗宽度动态切换。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @CustomDialog

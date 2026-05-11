@@ -99,13 +99,7 @@ PhonePC/2in1TabletTVWearable
 
 Stack的alignContent设置为Alignment.Bottom条件下子组件显示效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

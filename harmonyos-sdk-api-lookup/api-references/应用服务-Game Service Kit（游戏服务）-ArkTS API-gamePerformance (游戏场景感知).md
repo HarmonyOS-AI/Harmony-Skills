@@ -6,13 +6,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { gamePerformance } from '@kit.GameServiceKit';
@@ -341,13 +335,7 @@ init(gamePackageInfo: GamePackageInfo): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { gamePerformance } from '@kit.GameServiceKit';
@@ -412,13 +400,7 @@ updateGameInfo<T extends BaseGameInfo>(gameInfo: T): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 以更新游戏场景信息为例
@@ -480,13 +462,7 @@ Mali系列GPU不支持采集GPU性能信息，无法获取设备GPU性能信息�
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { gamePerformance } from '@kit.GameServiceKit';
@@ -547,13 +523,7 @@ Mali系列GPU不支持采集GPU性能信息，无法获取设备GPU性能信息�
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { gamePerformance } from '@kit.GameServiceKit';
@@ -609,13 +579,7 @@ off(type: 'deviceStateChanged', callback?: Callback<DeviceInfo>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { gamePerformance } from '@kit.GameServiceKit';
@@ -691,13 +655,7 @@ Mali系列GPU不支持采集GPU性能信息，无法获取设备GPU性能信息�
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { gamePerformance } from '@kit.GameServiceKit';
@@ -757,13 +715,7 @@ addGameCustomData(data: Record<string, string>, tag: GameCustomTag): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { gamePerformance } from '@kit.GameServiceKit';

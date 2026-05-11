@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -302,13 +296,7 @@ on(type: 'enableChange', callback: Callback<boolean>): void;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -370,13 +358,7 @@ on(type: 'styleChange', callback: Callback<CaptionsStyle>): void;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -436,13 +418,7 @@ off(type: 'enableChange', callback?: Callback<boolean>): void;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -507,13 +483,7 @@ off(type: 'styleChange', callback?: Callback<CaptionsStyle>): void;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -604,13 +574,7 @@ constructor(jsonObject: Object)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -648,13 +612,7 @@ constructor(type: EventType, bundleName: string, triggerAction: Action)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -787,13 +745,7 @@ getAbilityLists(abilityType: AbilityType, stateType: AbilityState): Promise<Arra
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -835,13 +787,7 @@ getAbilityLists(abilityType: AbilityType, stateType: AbilityState,callback: Asyn
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -915,13 +861,7 @@ getAccessibilityExtensionList(abilityType: AbilityType, stateType: AbilityState)
 
 **查询所有已安装的辅助应用示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -949,13 +889,7 @@ getAccessibilityExtensionList(abilityType: AbilityType, stateType: AbilityState)
 
 **查询所有已启用的具有语音反馈的辅助应用示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -1020,13 +954,7 @@ getAccessibilityExtensionList(abilityType: AbilityType, stateType: AbilityState,
 
 **查询所有已安装的辅助应用示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -1056,13 +984,7 @@ getAccessibilityExtensionList(abilityType: AbilityType, stateType: AbilityState,
 
 **查询所有已启用的具有语音反馈的辅助应用示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -1126,13 +1048,7 @@ getAccessibilityExtensionListSync(abilityType: AbilityType, stateType: AbilitySt
 
 **查询所有已安装的辅助应用示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -1163,13 +1079,7 @@ getAccessibilityExtensionListSync(abilityType: AbilityType, stateType: AbilitySt
 
 **查询所有已启用的具有语音反馈的辅助应用示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -1190,13 +1100,7 @@ getAccessibilityExtensionListSync(abilityType: AbilityType, stateType: AbilitySt
 
 **查询屏幕朗读是否开启示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -1255,13 +1159,7 @@ getCaptionsManager(): CaptionsManager
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -1309,13 +1207,7 @@ on(type: 'accessibilityStateChange', callback: Callback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -1330,13 +1222,7 @@ on(type: 'accessibilityStateChange', callback: Callback<boolean>): void
 
 **监听屏幕朗读是否开启示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -1412,13 +1298,7 @@ on(type: 'touchGuideStateChange', callback: Callback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -1471,13 +1351,7 @@ on(type: 'screenReaderStateChange', callback: Callback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -1527,13 +1401,7 @@ on(type: 'touchModeChange', callback: Callback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -1584,13 +1452,7 @@ onAnimationReduceStateChange(callback: Callback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -1641,13 +1503,7 @@ onFlashReminderStateChange(callback: Callback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -1698,13 +1554,7 @@ onAudioMonoStateChange(callback: Callback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -1763,13 +1613,7 @@ off(type: 'accessibilityStateChange', callback?: Callback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -1814,13 +1658,7 @@ off(type: 'touchGuideStateChange', callback?: Callback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -1865,13 +1703,7 @@ off(type: 'screenReaderStateChange', callback?: Callback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -1916,13 +1748,7 @@ off(type: 'touchModeChange', callback?: Callback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -1972,13 +1798,7 @@ offAnimationReduceStateChange(callback?: Callback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -2028,13 +1848,7 @@ offFlashReminderStateChange(callback?: Callback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -2084,13 +1898,7 @@ offAudioMonoStateChange(callback?: Callback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -2142,13 +1950,7 @@ isOpenAccessibility(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -2185,13 +1987,7 @@ isOpenAccessibility(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -2230,13 +2026,7 @@ isOpenAccessibilitySync(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -2271,13 +2061,7 @@ isOpenTouchGuide(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -2314,13 +2098,7 @@ isOpenTouchGuide(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -2359,13 +2137,7 @@ isOpenTouchGuideSync(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -2397,13 +2169,7 @@ isScreenReaderOpenSync(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -2433,13 +2199,7 @@ isAnimationReduceEnabled(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -2485,13 +2245,7 @@ isAnimationReduceEnabledSync(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -2533,13 +2287,7 @@ isFlashReminderEnabled(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -2585,13 +2333,7 @@ isFlashReminderEnabledSync(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -2633,13 +2375,7 @@ isAudioMonoEnabled(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -2685,13 +2421,7 @@ isAudioMonoEnabledSync(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -2743,13 +2473,7 @@ sendEvent(event: EventInfo): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -2793,13 +2517,7 @@ sendEvent(event: EventInfo, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -2862,13 +2580,7 @@ sendAccessibilityEvent(event: EventInfo): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -2922,13 +2634,7 @@ sendAccessibilityEvent(event: EventInfo, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -2951,13 +2657,7 @@ sendAccessibilityEvent(event: EventInfo, callback: AsyncCallback<void>): void
 
 **主动聚焦示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -2973,13 +2673,7 @@ sendAccessibilityEvent(event: EventInfo, callback: AsyncCallback<void>): void
 11. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -3003,13 +2697,7 @@ sendAccessibilityEvent(event: EventInfo, callback: AsyncCallback<void>): void
 
 **主动播报支持Resource示例18+：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';
@@ -3053,13 +2741,7 @@ getTouchModeSync(): string
 | --- | --- |
 | string | 表示当前操作模式。  - singleTouchMode：表示单击操作模式。  - doubleTouchMode：表示双击操作模式。  - none：表示未开启触摸浏览功能。 |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { accessibility } from '@kit.AccessibilityKit';

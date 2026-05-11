@@ -1,10 +1,4 @@
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum ArkUI_NodeAttributeType
@@ -22,13 +16,7 @@
 
 ## NODE\_TEXT\_CONTENT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_CONTENT = MAX_NODE_SCOPE_NUM * ARKUI_NODE_TEXT = 1000
@@ -58,13 +46,7 @@ Text组件设置文本内容属性，支持属性设置，属性重置，属性�
 
 ## NODE\_FONT\_COLOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_FONT_COLOR = 1001
@@ -94,13 +76,7 @@ Text组件设置文本内容属性，支持属性设置，属性重置，属性�
 
 ## NODE\_FONT\_SIZE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_FONT_SIZE = 1002
@@ -130,13 +106,7 @@ Text组件设置文本内容属性，支持属性设置，属性重置，属性�
 
 ## NODE\_FONT\_STYLE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_FONT_STYLE = 1003
@@ -166,13 +136,7 @@ Text组件设置文本内容属性，支持属性设置，属性重置，属性�
 
 ## NODE\_FONT\_WEIGHT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_FONT_WEIGHT = 1004
@@ -202,13 +166,7 @@ Text组件设置文本内容属性，支持属性设置，属性重置，属性�
 
 ## NODE\_TEXT\_LINE\_HEIGHT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_LINE_HEIGHT = 1005
@@ -238,13 +196,7 @@ Text组件设置文本内容属性，支持属性设置，属性重置，属性�
 
 ## NODE\_TEXT\_DECORATION
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_DECORATION = 1006
@@ -280,13 +232,7 @@ Text组件设置文本内容属性，支持属性设置，属性重置，属性�
 
 ## NODE\_TEXT\_CASE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_CASE = 1007
@@ -316,13 +262,7 @@ Text组件设置文本内容属性，支持属性设置，属性重置，属性�
 
 ## NODE\_TEXT\_LETTER\_SPACING
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_LETTER_SPACING = 1008
@@ -352,13 +292,7 @@ Text组件设置文本内容属性，支持属性设置，属性重置，属性�
 
 ## NODE\_TEXT\_MAX\_LINES
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_MAX_LINES = 1009
@@ -388,13 +322,7 @@ Text组件设置文本内容属性，支持属性设置，属性重置，属性�
 
 ## NODE\_TEXT\_ALIGN
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_ALIGN = 1010
@@ -424,13 +352,7 @@ Text组件设置文本内容属性，支持属性设置，属性重置，属性�
 
 ## NODE\_TEXT\_OVERFLOW
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_OVERFLOW = 1011
@@ -460,13 +382,7 @@ Text组件设置文本内容属性，支持属性设置，属性重置，属性�
 
 ## NODE\_FONT\_FAMILY
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_FONT_FAMILY = 1012
@@ -496,13 +412,7 @@ Text字体列表属性，支持属性设置，属性重置和属性获取。
 
 ## NODE\_TEXT\_COPY\_OPTION
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_COPY_OPTION = 1013
@@ -532,13 +442,7 @@ Text字体列表属性，支持属性设置，属性重置和属性获取。
 
 ## NODE\_TEXT\_BASELINE\_OFFSET
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_BASELINE_OFFSET = 1014
@@ -568,13 +472,7 @@ Text字体列表属性，支持属性设置，属性重置和属性获取。
 
 ## NODE\_TEXT\_TEXT\_SHADOW
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_TEXT_SHADOW = 1015
@@ -612,13 +510,7 @@ Text字体列表属性，支持属性设置，属性重置和属性获取。
 
 ## NODE\_TEXT\_MIN\_FONT\_SIZE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_MIN_FONT_SIZE = 1016
@@ -648,13 +540,7 @@ Text最小显示字号，支持属性设置，属性重置和属性获取。
 
 ## NODE\_TEXT\_MAX\_FONT\_SIZE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_MAX_FONT_SIZE = 1017
@@ -684,13 +570,7 @@ Text最大显示字号，支持属性设置，属性重置和属性获取。
 
 ## NODE\_TEXT\_FONT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_FONT = 1018
@@ -726,13 +606,7 @@ Text样式，支持属性设置，属性重置和属性获取。
 
 ## NODE\_TEXT\_HEIGHT\_ADAPTIVE\_POLICY
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_HEIGHT_ADAPTIVE_POLICY = 1019
@@ -762,13 +636,7 @@ Text自适应高度的方式，支持属性设置，属性重置和属性获取�
 
 ## NODE\_TEXT\_INDENT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INDENT = 1020
@@ -798,13 +666,7 @@ Text自适应高度的方式，支持属性设置，属性重置和属性获取�
 
 ## NODE\_TEXT\_WORD\_BREAK
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_WORD_BREAK = 1021
@@ -834,13 +696,7 @@ Text自适应高度的方式，支持属性设置，属性重置和属性获取�
 
 ## NODE\_TEXT\_ELLIPSIS\_MODE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_ELLIPSIS_MODE = 1022
@@ -870,13 +726,7 @@ Text自适应高度的方式，支持属性设置，属性重置和属性获取�
 
 ## NODE\_TEXT\_LINE\_SPACING
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_LINE_SPACING = 1023
@@ -906,13 +756,7 @@ Text自适应高度的方式，支持属性设置，属性重置和属性获取�
 
 ## NODE\_FONT\_FEATURE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_FONT_FEATURE = 1024
@@ -942,13 +786,7 @@ Text自适应高度的方式，支持属性设置，属性重置和属性获取�
 
 ## NODE\_TEXT\_ENABLE\_DATA\_DETECTOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_ENABLE_DATA_DETECTOR = 1025
@@ -978,13 +816,7 @@ Text自适应高度的方式，支持属性设置，属性重置和属性获取�
 
 ## NODE\_TEXT\_ENABLE\_DATA\_DETECTOR\_CONFIG
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_ENABLE_DATA_DETECTOR_CONFIG = 1026
@@ -1014,13 +846,7 @@ Text自适应高度的方式，支持属性设置，属性重置和属性获取�
 
 ## NODE\_TEXT\_SELECTED\_BACKGROUND\_COLOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_SELECTED_BACKGROUND_COLOR = 1027
@@ -1050,13 +876,7 @@ Text自适应高度的方式，支持属性设置，属性重置和属性获取�
 
 ## NODE\_TEXT\_CONTENT\_WITH\_STYLED\_STRING
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_CONTENT_WITH_STYLED_STRING = 1028
@@ -1092,13 +912,7 @@ Text组件使用格式化字符串对象设置文本内容属性，支持属性�
 
 ## NODE\_TEXT\_HALF\_LEADING
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_HALF_LEADING = 1029
@@ -1128,13 +942,7 @@ Text组件设置文本纵向居中显示。
 
 ## NODE\_IMMUTABLE\_FONT\_WEIGHT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMMUTABLE_FONT_WEIGHT = 1030
@@ -1164,13 +972,7 @@ Text组件设置文本纵向居中显示。
 
 ## NODE\_TEXT\_LINE\_COUNT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_LINE_COUNT = 1031
@@ -1192,13 +994,7 @@ Text组件设置文本纵向居中显示。
 
 ## NODE\_TEXT\_OPTIMIZE\_TRAILING\_SPACE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_OPTIMIZE_TRAILING_SPACE = 1032
@@ -1228,13 +1024,7 @@ Text组件设置文本纵向居中显示。
 
 ## NODE\_TEXT\_LINEAR\_GRADIENT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_LINEAR_GRADIENT = 1033
@@ -1276,13 +1066,7 @@ Text组件设置文本纵向居中显示。
 
 ## NODE\_TEXT\_RADIAL\_GRADIENT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_RADIAL_GRADIENT = 1034
@@ -1326,13 +1110,7 @@ Text组件设置文本纵向居中显示。
 
 ## NODE\_TEXT\_VERTICAL\_ALIGN
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_VERTICAL_ALIGN = 1035
@@ -1362,13 +1140,7 @@ Text组件设置文本纵向居中显示。
 
 ## NODE\_TEXT\_CONTENT\_ALIGN
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_CONTENT_ALIGN = 1036
@@ -1398,13 +1170,7 @@ Text组件设置文本纵向居中显示。
 
 ## NODE\_TEXT\_MIN\_LINES
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_MIN_LINES = 1037
@@ -1434,13 +1200,7 @@ Text组件设置文本纵向居中显示。
 
 ## NODE\_TEXT\_ENABLE\_SELECTED\_DATA\_DETECTOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_ENABLE_SELECTED_DATA_DETECTOR = 1038
@@ -1470,13 +1230,7 @@ Text组件设置文本纵向居中显示。
 
 ## NODE\_TEXT\_MIN\_LINE\_HEIGHT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_MIN_LINE_HEIGHT = 1040
@@ -1506,13 +1260,7 @@ Text组件设置文本纵向居中显示。
 
 ## NODE\_TEXT\_MAX\_LINE\_HEIGHT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_MAX_LINE_HEIGHT = 1041
@@ -1542,13 +1290,7 @@ Text组件设置文本纵向居中显示。
 
 ## NODE\_TEXT\_LINE\_HEIGHT\_MULTIPLE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_LINE_HEIGHT_MULTIPLE = 1042
@@ -1578,13 +1320,7 @@ Text组件设置文本纵向居中显示。
 
 ## NODE\_TEXT\_LAYOUT\_MANAGER
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_LAYOUT_MANAGER = 1043
@@ -1606,13 +1342,7 @@ Text组件设置文本纵向居中显示。
 
 ## NODE\_TEXT\_EDIT\_MENU\_OPTIONS
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_EDIT_MENU_OPTIONS = 1044
@@ -1634,13 +1364,7 @@ Text组件设置文本纵向居中显示。
 
 ## NODE\_TEXT\_BIND\_SELECTION\_MENU
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_BIND_SELECTION_MENU = 1045
@@ -1662,13 +1386,7 @@ Text组件设置文本纵向居中显示。
 
 ## NODE\_TEXT\_TEXT\_SELECTION
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_TEXT_SELECTION = 1046
@@ -1702,13 +1420,7 @@ Text组件设置文本纵向居中显示。
 
 ## NODE\_TEXT\_COMPRESS\_LEADING\_PUNCTUATION
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_COMPRESS_LEADING_PUNCTUATION = 1048
@@ -1738,13 +1450,7 @@ Text组件设置文本纵向居中显示。
 
 ## NODE\_TEXT\_INCLUDE\_FONT\_PADDING
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_INCLUDE_FONT_PADDING = 1049
@@ -1774,13 +1480,7 @@ Text组件设置文本纵向居中显示。
 
 ## NODE\_TEXT\_FALLBACK\_LINE\_SPACING
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_FALLBACK_LINE_SPACING = 1050
@@ -1810,13 +1510,7 @@ Text组件设置文本纵向居中显示。
 
 ## NODE\_TEXT\_MARQUEE\_OPTIONS
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_MARQUEE_OPTIONS = 1051
@@ -1846,13 +1540,7 @@ Text组件设置文本纵向居中显示。
 
 ## NODE\_TEXT\_DIRECTION
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_DIRECTION = 1052
@@ -1882,13 +1570,7 @@ Text组件设置文本纵向居中显示。
 
 ## NODE\_TEXT\_SELECTED\_DRAG\_PREVIEW\_STYLE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_SELECTED_DRAG_PREVIEW_STYLE = 1053
@@ -1918,13 +1600,7 @@ Text组件设置文本纵向居中显示。
 
 ## NODE\_SPAN\_CONTENT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SPAN_CONTENT = MAX_NODE_SCOPE_NUM * ARKUI_NODE_SPAN = 2000
@@ -1954,13 +1630,7 @@ Text组件设置文本纵向居中显示。
 
 ## NODE\_SPAN\_TEXT\_BACKGROUND\_STYLE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SPAN_TEXT_BACKGROUND_STYLE = 2001
@@ -1997,13 +1667,7 @@ Text组件设置文本纵向居中显示。
 
 ## NODE\_SPAN\_BASELINE\_OFFSET
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SPAN_BASELINE_OFFSET = 2002
@@ -2033,13 +1697,7 @@ Text组件设置文本纵向居中显示。
 
 ## NODE\_SPAN\_FONT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SPAN_FONT = 2003
@@ -2077,13 +1735,7 @@ Text组件设置文本纵向居中显示。
 
 ## NODE\_SPAN\_FONT\_WEIGHT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SPAN_FONT_WEIGHT = 2004
@@ -2115,13 +1767,7 @@ Text组件设置文本纵向居中显示。
 
 ## NODE\_IMAGE\_SPAN\_SRC
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMAGE_SPAN_SRC = MAX_NODE_SCOPE_NUM * ARKUI_NODE_IMAGE_SPAN = 3000
@@ -2153,13 +1799,7 @@ imageSpan组件图片地址属性，支持属性设置，属性重置，属性�
 
 ## NODE\_IMAGE\_SPAN\_VERTICAL\_ALIGNMENT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMAGE_SPAN_VERTICAL_ALIGNMENT = 3001
@@ -2189,13 +1829,7 @@ imageSpan组件图片地址属性，支持属性设置，属性重置，属性�
 
 ## NODE\_IMAGE\_SPAN\_ALT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMAGE_SPAN_ALT = 3002
@@ -2227,13 +1861,7 @@ imageSpan组件占位图地址属性，支持属性设置，属性重置，属�
 
 ## NODE\_IMAGE\_SPAN\_BASELINE\_OFFSET
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMAGE_SPAN_BASELINE_OFFSET = 3003
@@ -2263,13 +1891,7 @@ imageSpan组件的基线偏移量属性，支持属性设置，属性重置和�
 
 ## NODE\_IMAGE\_SPAN\_COLOR\_FILTER
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMAGE_SPAN_COLOR_FILTER = 3004
@@ -2303,13 +1925,7 @@ imageSpan组件的基线偏移量属性，支持属性设置，属性重置和�
 
 ## NODE\_IMAGE\_SPAN\_SUPPORT\_SVG2
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMAGE_SPAN_SUPPORT_SVG2 = 3005

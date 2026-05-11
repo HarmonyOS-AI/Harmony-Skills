@@ -745,13 +745,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 11开始，该示例通过[renderingStrategy](/consumer/cn/doc/harmonyos-references/ts-basic-components-symbolglyph#renderingstrategy)、[effectStrategy](/consumer/cn/doc/harmonyos-references/ts-basic-components-symbolglyph#effectstrategy)属性展示了不同的渲染和动效策略。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -842,13 +836,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 12开始，该示例通过[symbolEffect](/consumer/cn/doc/harmonyos-references/ts-basic-components-symbolglyph#symboleffect12)属性展示了各种动效的效果以及结合[symbolShadow](/consumer/cn/doc/harmonyos-references/ts-basic-components-symbolglyph#symbolshadow20)（从API version 20开始）的阴影效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -954,13 +942,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，该示例通过[shaderStyle](/consumer/cn/doc/harmonyos-references/ts-basic-components-symbolglyph#shaderstyle20)接口实现了symbolGlyph组件显示为渐变色的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry

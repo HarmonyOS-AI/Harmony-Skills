@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import prompt from '@ohos.prompt'
@@ -42,13 +36,7 @@ showToast(options: ShowToastOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import prompt from '@ohos.prompt'
@@ -104,13 +92,7 @@ showDialog(options: ShowDialogOptions): Promise<ShowDialogSuccessResponse>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import prompt from '@ohos.prompt'
@@ -159,13 +141,7 @@ showDialog(options: ShowDialogOptions, callback: AsyncCallback<ShowDialogSuccess
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import prompt from '@ohos.prompt'
@@ -244,13 +220,7 @@ showActionMenu(options: ActionMenuOptions, callback: AsyncCallback<ActionMenuSuc
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import prompt from '@ohos.prompt'
@@ -305,13 +275,7 @@ showActionMenu(options: ActionMenuOptions): Promise<ActionMenuSuccessResponse>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import prompt from '@ohos.prompt'

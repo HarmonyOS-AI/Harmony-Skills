@@ -1,10 +1,4 @@
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum ArkUI_NodeAttributeType
@@ -22,13 +16,7 @@
 
 ## NODE\_IMAGE\_SRC
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMAGE_SRC = MAX_NODE_SCOPE_NUM * ARKUI_NODE_IMAGE = 4000
@@ -60,13 +48,7 @@
 
 ## NODE\_IMAGE\_OBJECT\_FIT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMAGE_OBJECT_FIT = 4001
@@ -96,13 +78,7 @@
 
 ## NODE\_IMAGE\_INTERPOLATION
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMAGE_INTERPOLATION = 4002
@@ -132,13 +108,7 @@
 
 ## NODE\_IMAGE\_OBJECT\_REPEAT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMAGE_OBJECT_REPEAT = 4003
@@ -168,13 +138,7 @@
 
 ## NODE\_IMAGE\_COLOR\_FILTER
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMAGE_COLOR_FILTER = 4004
@@ -208,13 +172,7 @@
 
 ## NODE\_IMAGE\_AUTO\_RESIZE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMAGE_AUTO_RESIZE = 4005
@@ -244,13 +202,7 @@
 
 ## NODE\_IMAGE\_ALT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMAGE_ALT = 4006
@@ -282,13 +234,7 @@
 
 ## NODE\_IMAGE\_DRAGGABLE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMAGE_DRAGGABLE = 4007
@@ -318,13 +264,7 @@
 
 ## NODE\_IMAGE\_RENDER\_MODE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMAGE_RENDER_MODE = 4008
@@ -354,13 +294,7 @@
 
 ## NODE\_IMAGE\_FIT\_ORIGINAL\_SIZE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMAGE_FIT_ORIGINAL_SIZE = 4009
@@ -390,13 +324,7 @@
 
 ## NODE\_IMAGE\_FILL\_COLOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMAGE_FILL_COLOR = 4010
@@ -426,13 +354,7 @@
 
 ## NODE\_IMAGE\_RESIZABLE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMAGE_RESIZABLE = 4011
@@ -470,13 +392,7 @@
 
 ## NODE\_IMAGE\_SYNC\_LOAD
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMAGE_SYNC_LOAD = 4012
@@ -506,13 +422,7 @@
 
 ## NODE\_IMAGE\_SOURCE\_SIZE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMAGE_SOURCE_SIZE = 4013
@@ -544,13 +454,7 @@
 
 ## NODE\_IMAGE\_IMAGE\_MATRIX
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMAGE_IMAGE_MATRIX = 4014
@@ -580,13 +484,7 @@
 
 ## NODE\_IMAGE\_MATCH\_TEXT\_DIRECTION
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMAGE_MATCH_TEXT_DIRECTION = 4015
@@ -616,13 +514,7 @@
 
 ## NODE\_IMAGE\_COPY\_OPTION
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMAGE_COPY_OPTION = 4016
@@ -652,13 +544,7 @@
 
 ## NODE\_IMAGE\_ENABLE\_ANALYZER
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMAGE_ENABLE_ANALYZER = 4017
@@ -688,13 +574,7 @@
 
 ## NODE\_IMAGE\_DYNAMIC\_RANGE\_MODE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMAGE_DYNAMIC_RANGE_MODE = 4018
@@ -724,13 +604,7 @@
 
 ## NODE\_IMAGE\_HDR\_BRIGHTNESS
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMAGE_HDR_BRIGHTNESS = 4019
@@ -760,13 +634,7 @@
 
 ## NODE\_IMAGE\_ORIENTATION
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMAGE_ORIENTATION = 4020
@@ -796,13 +664,7 @@
 
 ## NODE\_IMAGE\_SUPPORT\_SVG2
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMAGE_SUPPORT_SVG2 = 4021
@@ -832,13 +694,7 @@
 
 ## NODE\_IMAGE\_CONTENT\_TRANSITION
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMAGE_CONTENT_TRANSITION = 4022
@@ -868,13 +724,7 @@
 
 ## NODE\_IMAGE\_ALT\_PLACEHOLDER
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMAGE_ALT_PLACEHOLDER  = 4023
@@ -906,13 +756,7 @@
 
 ## NODE\_IMAGE\_ALT\_ERROR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMAGE_ALT_ERROR  = 4024
@@ -944,13 +788,7 @@
 
 ## NODE\_IMAGE\_ANTIALIASED
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMAGE_ANTIALIASED = 4025
@@ -980,13 +818,7 @@
 
 ## NODE\_IMAGE\_ANIMATOR\_IMAGES
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMAGE_ANIMATOR_IMAGES = ARKUI_NODE_IMAGE_ANIMATOR * MAX_NODE_SCOPE_NUM = 19000
@@ -1018,13 +850,7 @@
 
 ## NODE\_IMAGE\_ANIMATOR\_STATE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMAGE_ANIMATOR_STATE = 19001
@@ -1054,13 +880,7 @@
 
 ## NODE\_IMAGE\_ANIMATOR\_DURATION
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMAGE_ANIMATOR_DURATION = 19002
@@ -1090,13 +910,7 @@
 
 ## NODE\_IMAGE\_ANIMATOR\_REVERSE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMAGE_ANIMATOR_REVERSE = 19003
@@ -1126,13 +940,7 @@
 
 ## NODE\_IMAGE\_ANIMATOR\_FIXED\_SIZE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMAGE_ANIMATOR_FIXED_SIZE = 19004
@@ -1162,13 +970,7 @@
 
 ## NODE\_IMAGE\_ANIMATOR\_FILL\_MODE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMAGE_ANIMATOR_FILL_MODE = 19005
@@ -1198,13 +1000,7 @@
 
 ## NODE\_IMAGE\_ANIMATOR\_ITERATION
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IMAGE_ANIMATOR_ITERATION = 19006

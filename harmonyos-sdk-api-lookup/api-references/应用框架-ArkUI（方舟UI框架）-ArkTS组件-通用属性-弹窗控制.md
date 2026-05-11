@@ -1,3 +1,0 @@
-* **[Popup控制](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-popup)**
-* **[Tips控制](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-tips)**
-* **[菜单控制](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-menu)**

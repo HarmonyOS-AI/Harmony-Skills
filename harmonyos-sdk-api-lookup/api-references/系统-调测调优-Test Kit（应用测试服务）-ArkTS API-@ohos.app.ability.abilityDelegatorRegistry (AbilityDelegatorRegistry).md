@@ -10,13 +10,7 @@ AbilityDelegatorRegistry是自动化测试框架使用指南模块，该模块�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -64,13 +58,7 @@ getAbilityDelegator(): AbilityDelegator
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';
@@ -113,13 +101,7 @@ getArguments(): AbilityDelegatorArgs
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityDelegatorRegistry } from '@kit.TestKit';

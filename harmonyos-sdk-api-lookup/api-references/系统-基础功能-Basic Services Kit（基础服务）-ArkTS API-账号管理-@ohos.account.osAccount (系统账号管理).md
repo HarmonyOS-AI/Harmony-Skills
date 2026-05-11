@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { osAccount } from '@kit.BasicServicesKit';
@@ -40,13 +34,7 @@ getAccountManager(): AccountManager
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let accountManager: osAccount.AccountManager = osAccount.getAccountManager();
@@ -105,13 +93,7 @@ checkMultiOsAccountEnabled(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -161,13 +143,7 @@ checkMultiOsAccountEnabled(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -226,13 +202,7 @@ checkOsAccountActivated(localId: number, callback: AsyncCallback<boolean>): void
 
 **示例：** 判断ID为100的系统账号是否处于激活状态
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -301,13 +271,7 @@ checkOsAccountActivated(localId: number): Promise<boolean>
 
 **示例：** 判断ID为100的系统账号是否处于激活状态
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -365,13 +329,7 @@ isOsAccountConstraintEnabled(constraint: string): Promise<boolean>
 
 **示例：** 判断ID为100的系统账号是否有禁止使用Wi-Fi的约束
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -432,13 +390,7 @@ checkOsAccountConstraintEnabled(localId: number, constraint: string, callback: A
 
 **示例：** 判断ID为100的系统账号是否有禁止使用Wi-Fi的约束
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -509,13 +461,7 @@ checkOsAccountConstraintEnabled(localId: number, constraint: string): Promise<bo
 
 **示例：** 判断ID为100的系统账号是否有禁止使用Wi-Fi的约束
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -566,13 +512,7 @@ checkOsAccountTestable(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -622,13 +562,7 @@ checkOsAccountTestable(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -676,13 +610,7 @@ isOsAccountUnlocked(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -734,13 +662,7 @@ checkOsAccountVerified(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -794,13 +716,7 @@ checkOsAccountVerified(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -859,13 +775,7 @@ checkOsAccountVerified(localId: number, callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -934,13 +844,7 @@ checkOsAccountVerified(localId: number): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -993,13 +897,7 @@ getOsAccountCount(callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1052,13 +950,7 @@ getOsAccountCount(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1107,13 +999,7 @@ getOsAccountLocalId(callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1163,13 +1049,7 @@ getOsAccountLocalId(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1220,13 +1100,7 @@ getOsAccountLocalIdForUid(uid: number, callback: AsyncCallback<number>): void
 
 **示例：** 查询值为12345678的uid所属的系统账号的账号ID
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1286,13 +1160,7 @@ getOsAccountLocalIdForUid(uid: number): Promise<number>
 
 **示例：** 查询值为12345678的uid所属的系统账号ID
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1350,13 +1218,7 @@ getOsAccountLocalIdForUidSync(uid: number): number
 
 **示例：** 查询值为12345678的uid所属的系统账号ID
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1408,13 +1270,7 @@ getOsAccountLocalIdForDomain(domainInfo: DomainAccountInfo, callback: AsyncCallb
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1478,13 +1334,7 @@ getOsAccountLocalIdForDomain(domainInfo: DomainAccountInfo): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1544,13 +1394,7 @@ getOsAccountConstraints(localId: number, callback: AsyncCallback<Array<string>>)
 
 **示例：** 获取ID为100的系统账号的全部约束
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1619,13 +1463,7 @@ getOsAccountConstraints(localId: number): Promise<Array<string>>
 
 **示例：** 获取ID为100的系统账号的全部约束
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1675,13 +1513,7 @@ getActivatedOsAccountLocalIds(callback: AsyncCallback<Array<number>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1734,13 +1566,7 @@ getActivatedOsAccountLocalIds(): Promise<Array<number>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1796,13 +1622,7 @@ getCurrentOsAccount(callback: AsyncCallback<OsAccountInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1859,13 +1679,7 @@ getCurrentOsAccount(): Promise<OsAccountInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1914,13 +1728,7 @@ getOsAccountType(callback: AsyncCallback<OsAccountType>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1970,13 +1778,7 @@ getOsAccountType(): Promise<OsAccountType>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2028,13 +1830,7 @@ queryDistributedVirtualDeviceId(callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2087,13 +1883,7 @@ queryDistributedVirtualDeviceId(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2145,13 +1935,7 @@ getOsAccountLocalIdForSerialNumber(serialNumber: number, callback: AsyncCallback
 
 **示例：** 查询与SN码12345关联的系统账号的ID
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2213,13 +1997,7 @@ getOsAccountLocalIdForSerialNumber(serialNumber: number): Promise<number>
 
 **示例：** 查询与SN码12345关联的系统账号的ID
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2272,13 +2050,7 @@ getSerialNumberForOsAccountLocalId(localId: number, callback: AsyncCallback<numb
 
 **示例：** 获取ID为100的系统账号关联的SN码
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2340,13 +2112,7 @@ getSerialNumberForOsAccountLocalId(localId: number): Promise<number>
 
 **示例：** 获取ID为100的系统账号关联的SN码
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2389,13 +2155,7 @@ isMultiOsAccountEnable(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2434,13 +2194,7 @@ isMultiOsAccountEnable(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2480,13 +2234,7 @@ isOsAccountActived(localId: number, callback: AsyncCallback<boolean>): void
 
 **示例：** 判断ID为100的系统账号是否处于激活状态
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2536,13 +2284,7 @@ isOsAccountActived(localId: number): Promise<boolean>
 
 **示例：** 判断ID为100的系统账号是否处于激活状态
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2584,13 +2326,7 @@ isOsAccountConstraintEnable(localId: number, constraint: string, callback: Async
 
 **示例：** 判断ID为100的系统账号是否有禁止使用Wi-Fi的约束
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2642,13 +2378,7 @@ isOsAccountConstraintEnable(localId: number, constraint: string): Promise<boolea
 
 **示例：** 判断ID为100的系统账号是否有禁止使用Wi-Fi的约束
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2687,13 +2417,7 @@ isTestOsAccount(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2732,13 +2456,7 @@ isTestOsAccount(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2777,13 +2495,7 @@ isOsAccountVerified(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2825,13 +2537,7 @@ isOsAccountVerified(localId: number, callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2881,13 +2587,7 @@ isOsAccountVerified(localId?: number): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2926,13 +2626,7 @@ getCreatedOsAccountsCount(callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2973,13 +2667,7 @@ getCreatedOsAccountsCount(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3016,13 +2704,7 @@ getOsAccountLocalIdFromProcess(callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3061,13 +2743,7 @@ getOsAccountLocalIdFromProcess(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3105,13 +2781,7 @@ getOsAccountLocalIdFromUid(uid: number, callback: AsyncCallback<number>): void
 
 **示例：** 查询值为12345678的uid所属的系统账号ID
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3159,13 +2829,7 @@ getOsAccountLocalIdFromUid(uid: number): Promise<number>
 
 **示例：** 查询值为12345678的uid所属的系统账号ID
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3206,13 +2870,7 @@ getOsAccountLocalIdFromDomain(domainInfo: DomainAccountInfo, callback: AsyncCall
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3262,13 +2920,7 @@ getOsAccountLocalIdFromDomain(domainInfo: DomainAccountInfo): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3309,13 +2961,7 @@ getOsAccountAllConstraints(localId: number, callback: AsyncCallback<Array<string
 
 **示例：** 获取ID为100的系统账号的全部约束
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3365,13 +3011,7 @@ getOsAccountAllConstraints(localId: number): Promise<Array<string>>
 
 **示例：** 获取ID为100的系统账号的全部约束
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3409,13 +3049,7 @@ queryActivatedOsAccountIds(callback: AsyncCallback<Array<number>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3457,13 +3091,7 @@ queryActivatedOsAccountIds(): Promise<Array<number>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3502,13 +3130,7 @@ queryCurrentOsAccount(callback: AsyncCallback<OsAccountInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3549,13 +3171,7 @@ queryCurrentOsAccount(): Promise<OsAccountInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3592,13 +3208,7 @@ getOsAccountTypeFromProcess(callback: AsyncCallback<OsAccountType>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3637,13 +3247,7 @@ getOsAccountTypeFromProcess(): Promise<OsAccountType>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3682,13 +3286,7 @@ getDistributedVirtualDeviceId(callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3729,13 +3327,7 @@ getDistributedVirtualDeviceId(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3773,13 +3365,7 @@ getOsAccountLocalIdBySerialNumber(serialNumber: number, callback: AsyncCallback<
 
 **示例：** 查询与SN码12345关联的系统账号的ID
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3827,13 +3413,7 @@ getOsAccountLocalIdBySerialNumber(serialNumber: number): Promise<number>
 
 **示例：** 查询与SN码12345关联的系统账号的ID
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3872,13 +3452,7 @@ getSerialNumberByOsAccountLocalId(localId: number, callback: AsyncCallback<numbe
 
 **示例：** 获取ID为100的系统账号关联的SN码
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3926,13 +3500,7 @@ getSerialNumberByOsAccountLocalId(localId: number): Promise<number>
 
 **示例：** 获取ID为100的系统账号关联的SN码
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3976,13 +3544,7 @@ getOsAccountName(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4030,13 +3592,7 @@ getForegroundOsAccountLocalId(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4097,13 +3653,7 @@ getOsAccountDomainInfo(localId: number): Promise<DomainAccountInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4174,13 +3724,7 @@ updateAccountInfo(oldAccountInfo: DomainAccountInfo, newAccountInfo: DomainAccou
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4313,13 +3857,7 @@ static addServerConfig(parameters: Record<string, Object>): Promise<DomainServer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4380,13 +3918,7 @@ static removeServerConfig(configId: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4453,13 +3985,7 @@ static updateServerConfig(configId: string, parameters: Record<string, Object>):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4524,13 +4050,7 @@ static getServerConfig(configId: string): Promise<DomainServerConfig>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4586,13 +4106,7 @@ static getAllServerConfigs(): Promise<Array<DomainServerConfig>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4657,13 +4171,7 @@ static getAccountServerConfig(domainAccountInfo: DomainAccountInfo): Promise<Dom
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

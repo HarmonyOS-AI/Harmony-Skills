@@ -140,13 +140,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示通过使用onAccessibilityHover事件，对无障碍模式下的按钮进行设置。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -182,13 +176,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，新增了[onAccessibilityHoverTransparent](/consumer/cn/doc/harmonyos-references/ts-universal-accessibility-hover-event#onaccessibilityhovertransparent20)入参类型为AccessibilityTransparentCallback的接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry

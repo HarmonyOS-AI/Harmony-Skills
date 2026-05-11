@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -61,13 +55,7 @@ createBlendModeColorFilter(color: common2D.Color, mode: BlendMode) : ColorFilter
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common2D, drawing } from '@kit.ArkGraphics2D';
@@ -115,13 +103,7 @@ static createBlendModeColorFilter(color: common2D.Color | number, mode: BlendMod
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -168,13 +150,7 @@ createComposeColorFilter(outer: ColorFilter, inner: ColorFilter) : ColorFilter
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common2D, drawing } from '@kit.ArkGraphics2D';
@@ -205,13 +181,7 @@ createLinearToSRGBGamma() : ColorFilter
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -239,13 +209,7 @@ createSRGBGammaToLinear() : ColorFilter
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -273,13 +237,7 @@ createLumaColorFilter() : ColorFilter
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -325,13 +283,7 @@ static createMatrixColorFilter(matrix: Array<number>): ColorFilter
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -374,13 +326,7 @@ static createLightingColorFilter(mutColor: common2D.Color | number, addColor: co
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common2D, drawing } from '@kit.ArkGraphics2D';

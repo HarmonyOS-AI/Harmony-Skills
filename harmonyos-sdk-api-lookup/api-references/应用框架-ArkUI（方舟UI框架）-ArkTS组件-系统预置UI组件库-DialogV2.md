@@ -12,13 +12,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TipsDialogV2, SelectDialogV2, ConfirmDialogV2, AlertDialogV2, LoadingDialogV2, CustomContentDialogV2, PopoverDialogV2 } from '@kit.ArkUI';
@@ -349,13 +343,7 @@ PhonePC/2in1TabletTVWearable
 
 上图下文弹出框，包含imageRes、content等内容。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TipsDialogV2, AdvancedDialogV2Button, UIContext  } from '@kit.ArkUI';
@@ -424,13 +412,7 @@ PhonePC/2in1TabletTVWearable
 
 纯列表弹出框，包含selectedIndex、radioContent等内容。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SelectDialogV2, AdvancedDialogV2Button ,UIContext  } from '@kit.ArkUI';
@@ -501,13 +483,7 @@ PhonePC/2in1TabletTVWearable
 
 文本与勾选弹出框，包含content、checkTips等内容。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ConfirmDialogV2, AdvancedDialogV2Button, UIContext  } from '@kit.ArkUI';
@@ -576,13 +552,7 @@ PhonePC/2in1TabletTVWearable
 
 纯文本弹出框，包含primaryTitle、secondaryTitle、content等内容。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AlertDialogV2, AdvancedDialogV2Button, UIContext  } from '@kit.ArkUI';
@@ -643,13 +613,7 @@ PhonePC/2in1TabletTVWearable
 
 进度加载类弹出框，包含content等内容。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LoadingDialogV2, UIContext  } from '@kit.ArkUI';
@@ -695,13 +659,7 @@ PhonePC/2in1TabletTVWearable
 
 自定义主题风格弹出框，包含content、theme等内容。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { CustomColors, CustomTheme, LoadingDialogV2, UIContext  } from '@kit.ArkUI';
@@ -762,13 +720,7 @@ PhonePC/2in1TabletTVWearable
 
 支持自定义内容弹出框，包含contentBuilder、buttons等内容。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { CustomContentDialogV2, AdvancedDialogV2Button, UIContext  } from '@kit.ArkUI';
@@ -830,13 +782,7 @@ PhonePC/2in1TabletTVWearable
 
 跟手弹出框（警告弹出框为例），包含visible、popover、targetBuilder等内容。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AlertDialogV2, PopoverDialogV2, PopoverDialogV2Options, AdvancedDialogV2Button} from '@kit.ArkUI';

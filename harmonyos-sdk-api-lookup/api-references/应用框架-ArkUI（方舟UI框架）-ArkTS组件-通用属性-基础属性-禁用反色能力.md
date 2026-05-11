@@ -41,13 +41,7 @@ allowForceDark(value: boolean): T
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 组件添加allowForceDark(false)属性后，说明对当前组件不使用反色相关能力。

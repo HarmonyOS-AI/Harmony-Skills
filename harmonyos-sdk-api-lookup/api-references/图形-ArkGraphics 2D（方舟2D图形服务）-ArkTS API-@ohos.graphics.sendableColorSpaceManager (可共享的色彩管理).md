@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableColorSpaceManager } from '@kit.ArkGraphics2D';
@@ -75,13 +69,7 @@ create(colorSpaceName: colorSpaceManager.ColorSpace): ColorSpaceManager
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { colorSpaceManager, sendableColorSpaceManager } from '@kit.ArkGraphics2D';
@@ -129,13 +117,7 @@ create(primaries: colorSpaceManager.ColorSpacePrimaries, gamma: number): ColorSp
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { colorSpaceManager, sendableColorSpaceManager } from '@kit.ArkGraphics2D';
@@ -182,13 +164,7 @@ getColorSpaceName(): colorSpaceManager.ColorSpace
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let spaceName: colorSpaceManager.ColorSpace = colorSpace.getColorSpaceName();
@@ -214,13 +190,7 @@ getWhitePoint(): collections.Array<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { collections } from '@kit.ArkTS';
@@ -247,13 +217,7 @@ getGamma(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let gamma: number = colorSpace.getGamma();

@@ -6,13 +6,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hdsDrawable } from '@kit.UIDesignKit';
@@ -28,13 +22,7 @@ getHdsLayeredIcon(bundleName: string, layeredDrawableDescriptor: LayeredDrawable
 
 LayeredDrawableDescriptor对象：判断的方法是打开对应的Symbol json文件后观察其layered-image属性是否包含类似下面的结构：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. "layered-image":
@@ -83,13 +71,7 @@ LayeredDrawableDescriptor对象：判断的方法是打开对应的Symbol json�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LayeredDrawableDescriptor } from '@kit.ArkUI';
@@ -164,13 +146,7 @@ getHdsLayeredIconAsync(bundleName: string, layeredDrawableDescriptor: LayeredDra
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LayeredDrawableDescriptor } from '@kit.ArkUI';
@@ -252,13 +228,7 @@ getHdsIcon(bundleName: string, pixelMap: image.PixelMap, size: number, mask: ima
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LayeredDrawableDescriptor, DrawableDescriptor } from '@kit.ArkUI';
@@ -336,13 +306,7 @@ getHdsIconAsync(bundleName: string, pixelMap: image.PixelMap, size: number, mask
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LayeredDrawableDescriptor, DrawableDescriptor } from '@kit.ArkUI';
@@ -425,13 +389,7 @@ getHdsLayeredIcons(icons: Array<LayeredIcon>, options: Options): Promise<Array<P
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LayeredDrawableDescriptor } from '@kit.ArkUI';
@@ -525,13 +483,7 @@ getHdsIcons(icons: Array<Icon>, mask: image.PixelMap, options: Options): Promise
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LayeredDrawableDescriptor, DrawableDescriptor } from '@kit.ArkUI';

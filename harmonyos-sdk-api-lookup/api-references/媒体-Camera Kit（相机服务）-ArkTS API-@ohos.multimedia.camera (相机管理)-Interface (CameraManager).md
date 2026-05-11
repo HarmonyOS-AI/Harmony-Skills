@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { camera } from '@kit.CameraKit';
@@ -42,13 +36,7 @@ getSupportedCameras(): Array<CameraDevice>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -95,13 +83,7 @@ getSupportedSceneModes(camera: CameraDevice): Array<SceneMode>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -149,13 +131,7 @@ getSupportedOutputCapability(camera: CameraDevice, mode: SceneMode): CameraOutpu
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function getSupportedOutputCapability(camera: camera.CameraDevice, cameraManager: camera.CameraManager, sceneMode: camera.SceneMode): camera.CameraOutputCapability {
@@ -201,13 +177,7 @@ getSupportedFullOutputCapability(camera: CameraDevice, mode: SceneMode): CameraO
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { camera } from '@kit.CameraKit';
@@ -240,13 +210,7 @@ isCameraMuted(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function isCameraMuted(cameraManager: camera.CameraManager): boolean {
@@ -301,13 +265,7 @@ createCameraInput(camera: CameraDevice): CameraInput
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -372,13 +330,7 @@ createCameraInput(position: CameraPosition, type: CameraType): CameraInput
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -440,13 +392,7 @@ createPreviewOutput(profile: Profile, surfaceId: string): PreviewOutput
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -506,13 +452,7 @@ createPreviewOutput(surfaceId: string): PreviewOutput
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -571,13 +511,7 @@ createDeferredPreviewOutput(profile: Profile): PreviewOutput
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -637,13 +571,7 @@ createPhotoOutput(profile?: Profile): PhotoOutput
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -713,13 +641,7 @@ createVideoOutput(profile: VideoProfile, surfaceId: string): VideoOutput
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -779,13 +701,7 @@ createVideoOutput(surfaceId: string): VideoOutput
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -844,13 +760,7 @@ createMetadataOutput(metadataObjectTypes: Array<MetadataObjectType>): MetadataOu
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -909,13 +819,7 @@ createSession<T extends Session>(mode: SceneMode): T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -960,13 +864,7 @@ on(type: 'cameraStatus', callback: AsyncCallback<CameraStatusInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1008,13 +906,7 @@ off(type: 'cameraStatus', callback?: AsyncCallback<CameraStatusInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function unregisterCameraStatus(cameraManager: camera.CameraManager): void {
@@ -1049,13 +941,7 @@ on(type: 'foldStatusChange', callback: AsyncCallback<FoldStatusInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1097,13 +983,7 @@ off(type: 'foldStatusChange', callback?: AsyncCallback<FoldStatusInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function unregisterFoldStatusChange(cameraManager: camera.CameraManager): void {
@@ -1133,13 +1013,7 @@ isTorchSupported(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function isTorchSupported(cameraManager: camera.CameraManager): boolean {
@@ -1178,13 +1052,7 @@ isTorchModeSupported(mode: TorchMode): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function isTorchModeSupported(cameraManager: camera.CameraManager, torchMode: camera.TorchMode): boolean {
@@ -1215,13 +1083,7 @@ getTorchMode(): TorchMode
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function getTorchMode(cameraManager: camera.CameraManager): camera.TorchMode | undefined {
@@ -1264,13 +1126,7 @@ setTorchMode(mode: TorchMode): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1313,13 +1169,7 @@ on(type: 'torchStatusChange', callback: AsyncCallback<TorchStatusInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1360,13 +1210,7 @@ off(type: 'torchStatusChange', callback?: AsyncCallback<TorchStatusInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function unregisterTorchStatusChange(cameraManager: camera.CameraManager): void {
@@ -1417,13 +1261,7 @@ getCameraDevice(position: CameraPosition, type: CameraType): CameraDevice
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { camera } from '@kit.CameraKit';
@@ -1483,13 +1321,7 @@ getCameraDevices(position: CameraPosition, types: Array<CameraType>, connectType
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { camera } from '@kit.CameraKit';
@@ -1547,13 +1379,7 @@ getCameraConcurrentInfos(cameras: Array<CameraDevice>): Array<CameraConcurrentIn
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { camera } from '@kit.CameraKit';
@@ -1605,13 +1431,7 @@ getSupportedOutputCapability(camera: CameraDevice): CameraOutputCapability
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function getSupportedOutputCapability(camera: camera.CameraDevice, cameraManager: camera.CameraManager): camera.CameraOutputCapability {
@@ -1662,13 +1482,7 @@ createPhotoOutput(profile: Profile, surfaceId: string): PhotoOutput
 | --- | --- |
 | 7400101 | Parameter missing or parameter type incorrect. |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1721,13 +1535,7 @@ createCaptureSession(): CaptureSession
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

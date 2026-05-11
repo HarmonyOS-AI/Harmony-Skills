@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { nfcController } from '@kit.ConnectivityKit';
@@ -241,13 +235,7 @@ off(type: 'nfcStateChange', callback?: Callback<[NfcState](/consumer/cn/doc/harm
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { nfcController } from '@kit.ConnectivityKit';

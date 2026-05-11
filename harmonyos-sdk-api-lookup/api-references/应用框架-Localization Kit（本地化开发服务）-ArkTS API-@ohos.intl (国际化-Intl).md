@@ -13,13 +13,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { intl } from '@kit.LocalizationKit';
@@ -74,13 +68,7 @@ constructor()
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { intl } from '@kit.LocalizationKit';
@@ -118,13 +106,7 @@ constructor(locale: string, options?: LocaleOptions)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { intl } from '@kit.LocalizationKit';
@@ -160,13 +142,7 @@ toString(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { intl } from '@kit.LocalizationKit';
@@ -202,13 +178,7 @@ maximize(): Locale
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { intl } from '@kit.LocalizationKit';
@@ -252,13 +222,7 @@ minimize(): Locale
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { intl } from '@kit.LocalizationKit';
@@ -335,13 +299,7 @@ constructor()
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { intl } from '@kit.LocalizationKit';
@@ -377,13 +335,7 @@ constructor(locale: string | Array<string>, options?: DateTimeOptions)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { intl } from '@kit.LocalizationKit';
@@ -429,13 +381,7 @@ format(date: Date): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { intl } from '@kit.LocalizationKit';
@@ -485,13 +431,7 @@ formatRange(startDate: Date, endDate: Date): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { intl } from '@kit.LocalizationKit';
@@ -529,13 +469,7 @@ resolvedOptions(): DateTimeOptions
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { intl } from '@kit.LocalizationKit';
@@ -609,13 +543,7 @@ constructor()
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { intl } from '@kit.LocalizationKit';
@@ -647,13 +575,7 @@ constructor(locale: string | Array<string>, options?: NumberOptions)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { intl } from '@kit.LocalizationKit';
@@ -692,13 +614,7 @@ format(num: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { intl } from '@kit.LocalizationKit';
@@ -746,13 +662,7 @@ formatRange(startRange: number, endRange: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { intl } from '@kit.LocalizationKit';
@@ -783,13 +693,7 @@ resolvedOptions(): NumberOptions
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { intl } from '@kit.LocalizationKit';
@@ -860,13 +764,7 @@ constructor()
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { intl } from '@kit.LocalizationKit';
@@ -898,13 +796,7 @@ constructor(locale: string | Array<string>, options?: CollatorOptions)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { intl } from '@kit.LocalizationKit';
@@ -944,13 +836,7 @@ compare(first: string, second: string): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { intl } from '@kit.LocalizationKit';
@@ -983,13 +869,7 @@ resolvedOptions(): CollatorOptions
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { intl } from '@kit.LocalizationKit';
@@ -1053,13 +933,7 @@ constructor()
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { intl } from '@kit.LocalizationKit';
@@ -1093,13 +967,7 @@ constructor(locale: string | Array<string>, options?: PluralRulesOptions)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { intl } from '@kit.LocalizationKit';
@@ -1140,13 +1008,7 @@ select(n: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { intl } from '@kit.LocalizationKit';
@@ -1214,13 +1076,7 @@ constructor()
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { intl } from '@kit.LocalizationKit';
@@ -1254,13 +1110,7 @@ constructor(locale: string | Array<string>, options?: RelativeTimeFormatInputOpt
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { intl } from '@kit.LocalizationKit';
@@ -1306,13 +1156,7 @@ format(value: number, unit: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { intl } from '@kit.LocalizationKit';
@@ -1356,13 +1200,7 @@ formatToParts(value: number, unit: string): Array<object>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { intl } from '@kit.LocalizationKit';
@@ -1396,13 +1234,7 @@ resolvedOptions(): RelativeTimeFormatResolvedOptions
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { intl } from '@kit.LocalizationKit';

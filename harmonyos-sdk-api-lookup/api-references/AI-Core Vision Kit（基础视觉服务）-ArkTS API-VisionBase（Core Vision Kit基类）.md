@@ -6,13 +6,7 @@ visionBase作为一个基础的视觉能力库，封装基本资源对象，视�
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionBase } from '@kit.CoreVisionKit';
@@ -332,13 +326,7 @@ on(type: 'downloadStart', callback: Callback<DownloadStartData>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionBase } from '@kit.CoreVisionKit';
@@ -393,13 +381,7 @@ on(type: 'downloadComplete', callback: Callback<DownloadCompleteData>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionBase } from '@kit.CoreVisionKit';
@@ -454,13 +436,7 @@ on(type: 'downloadCancel', callback: Callback<DownloadCancelData>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionBase } from '@kit.CoreVisionKit';
@@ -515,13 +491,7 @@ on(type: 'downloadStatus', callback: Callback<DownloadStatusData>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionBase } from '@kit.CoreVisionKit';
@@ -576,13 +546,7 @@ on(type: 'downloadProgress', callback: Callback<DownloadProgressData>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionBase } from '@kit.CoreVisionKit';
@@ -637,13 +601,7 @@ off(type: 'downloadStart', callback?: Callback<DownloadStartData>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionBase } from '@kit.CoreVisionKit';
@@ -703,13 +661,7 @@ off(type: 'downloadComplete', callback?: Callback<DownloadCompleteData>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionBase } from '@kit.CoreVisionKit';
@@ -769,13 +721,7 @@ off(type: 'downloadCancel', callback?: Callback<DownloadCancelData>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionBase } from '@kit.CoreVisionKit';
@@ -835,13 +781,7 @@ off(type: 'downloadStatus', callback?: Callback<DownloadStatusData>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionBase } from '@kit.CoreVisionKit';
@@ -902,13 +842,7 @@ off(type: 'downloadProgress', callback?: Callback<DownloadProgressData>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { visionBase } from '@kit.CoreVisionKit';

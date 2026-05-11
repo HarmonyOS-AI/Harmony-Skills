@@ -310,13 +310,7 @@ type SourceOpenCallback = (request: MediaSourceLoadingRequest) => number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { HashMap } from '@kit.ArkTS';
@@ -362,13 +356,7 @@ type SourceReadCallback = (uuid: number, requestedOffset: number, requestedLengt
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let sourceReadCallback: media.SourceReadCallback = (uuid: number, requestedOffset: number, requestedLength: number) => {
@@ -403,13 +391,7 @@ type SourceCloseCallback = (uuid: number) => void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { HashMap } from '@kit.ArkTS';

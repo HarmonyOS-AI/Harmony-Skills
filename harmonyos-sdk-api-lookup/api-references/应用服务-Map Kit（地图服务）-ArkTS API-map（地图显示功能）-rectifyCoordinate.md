@@ -2,13 +2,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { map, mapCommon } from '@kit.MapKit';
@@ -65,13 +59,7 @@ rectifyCoordinate(context: common.Context, locations: Array<mapCommon.Coordinate
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let locations: Array<mapCommon.CoordinateLatLng> = [

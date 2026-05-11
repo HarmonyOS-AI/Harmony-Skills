@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {power} from '@kit.BasicServicesKit';
@@ -43,13 +37,7 @@ isActive(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let isActive = power.isActive();
@@ -82,13 +70,7 @@ rebootDevice(reason: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. power.rebootDevice('reboot_test');
@@ -114,13 +96,7 @@ getPowerMode(): DevicePowerMode
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let mode = power.getPowerMode();
@@ -157,13 +133,7 @@ isStandby(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -198,13 +168,7 @@ isScreenOn(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. power.isScreenOn((err: Error, data: boolean) => {
@@ -240,13 +204,7 @@ isScreenOn(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. power.isScreenOn()

@@ -8,13 +8,7 @@ Chip用于搜索框历史记录、邮件发送列表等场景。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Chip, ChipOptions, ChipSize } from '@kit.ArkUI';
@@ -345,13 +339,7 @@ PhonePC/2in1TabletTVWearable
 
 通过配置suffixIcon实现自定义操作块的后缀图标。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Chip, ChipSize, LengthMetrics } from '@kit.ArkUI';
@@ -408,13 +396,7 @@ PhonePC/2in1TabletTVWearable
 
 配置allowClose为true，显示后缀移除图标。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Chip, ChipSize, LengthMetrics } from '@kit.ArkUI';
@@ -465,13 +447,7 @@ PhonePC/2in1TabletTVWearable
 
 配置allowClose为false，隐藏后缀移除图标。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Chip, ChipSize, LengthMetrics } from '@kit.ArkUI';
@@ -524,13 +500,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置activated实现激活态操作块。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Chip, ChipSize } from '@kit.ArkUI';
@@ -590,13 +560,7 @@ PhonePC/2in1TabletTVWearable
 
 Chip组件的前缀图标使用symbol类型资源展示。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Chip, ChipSize, SymbolGlyphModifier } from '@kit.ArkUI';
@@ -653,13 +617,7 @@ Chip组件的前缀图标使用symbol类型资源展示。
 
 配置direction实现Chip布局镜像化展示。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Chip, ChipSize, LengthMetrics } from '@kit.ArkUI';
@@ -713,13 +671,7 @@ Chip组件的前缀图标使用symbol类型资源展示。
 
 该示例代码实现Chip组件Image类型后缀图标的无障碍朗读功能，点击后缀图标播报“图标，按钮，新手提醒”。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Chip } from '@kit.ArkUI';
@@ -812,13 +764,7 @@ Chip组件的前缀图标使用symbol类型资源展示。
 
 该示例代码实现Chip组件symbol类型后缀图标的无障碍朗读功能，点击后缀图标播报“音乐，按钮，新手提醒”。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Chip, SymbolGlyphModifier } from '@kit.ArkUI';
@@ -949,13 +895,7 @@ Chip组件的前缀图标使用symbol类型资源展示。
 
 示例展示Chip组件的无障碍属性设置，包括不同的accessibilitySelectedType类型和各种无障碍属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AccessibilitySelectedType, Chip, ChipSize } from '@kit.ArkUI';

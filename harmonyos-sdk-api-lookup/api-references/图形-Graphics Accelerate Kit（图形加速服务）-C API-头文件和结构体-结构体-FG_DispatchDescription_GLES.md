@@ -36,13 +36,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint32_t FG_DispatchDescription_GLES::inputColor
@@ -56,13 +50,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint32_t FG_DispatchDescription_GLES::inputDepthStencil
@@ -76,13 +64,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FG_Mat4x4 FG_DispatchDescription_GLES::invViewProj
@@ -96,13 +78,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint32_t FG_DispatchDescription_GLES::outputColor
@@ -116,13 +92,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FG_Mat4x4 FG_DispatchDescription_GLES::viewProj

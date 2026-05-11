@@ -14,13 +14,7 @@ EnterpriseAdminExtensionContext是[EnterpriseAdminExtensionAbility](https://deve
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.MDMKit';
@@ -91,13 +85,7 @@ startAbilityByAdmin(admin: Want, want: Want): Promise<void>
 
 需要在module.json5中配置被启动组件的信息。permissions为可选字段，需根据实际情况进行替换或者不填。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. "abilities": [
@@ -119,13 +107,7 @@ startAbilityByAdmin(admin: Want, want: Want): Promise<void>
 
 调用方应用需要在module.json5中申请对应的权限。启动其他应用中的组件时，调用方应用必须获取该组件所要求的权限。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. "requestPermissions": [
@@ -138,13 +120,7 @@ startAbilityByAdmin(admin: Want, want: Want): Promise<void>
 8. ]
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { EnterpriseAdminExtensionAbility } from '@kit.MDMKit';

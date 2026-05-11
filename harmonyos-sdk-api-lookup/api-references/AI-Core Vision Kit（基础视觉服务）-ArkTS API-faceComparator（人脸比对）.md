@@ -6,13 +6,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { faceComparator } from '@kit.CoreVisionKit';
@@ -73,13 +67,7 @@ init(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { faceComparator } from '@kit.CoreVisionKit';
@@ -140,13 +128,7 @@ release(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { faceComparator } from '@kit.CoreVisionKit';
@@ -229,13 +211,7 @@ compareFaces(visionInfo1: VisionInfo, visionInfo2: VisionInfo): Promise<FaceComp
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { faceComparator } from '@kit.CoreVisionKit';

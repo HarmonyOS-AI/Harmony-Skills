@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityAccessCtrl } from '@kit.AbilityKit';
@@ -42,13 +36,7 @@ createAtManager(): AtManager
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let atManager: abilityAccessCtrl.AtManager = abilityAccessCtrl.createAtManager();
@@ -104,13 +92,7 @@ checkAccessToken(tokenID: number, permissionName: Permissions): Promise<GrantSta
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityAccessCtrl } from '@kit.AbilityKit';
@@ -167,13 +149,7 @@ checkAccessTokenSync(tokenID: number, permissionName: Permissions): GrantStatus
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityAccessCtrl, Permissions } from '@kit.AbilityKit';
@@ -226,13 +202,7 @@ on(type: 'selfPermissionStateChange', permissionList: Array<Permissions>, callba
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityAccessCtrl, Permissions } from '@kit.AbilityKit';
@@ -286,13 +256,7 @@ off(type: 'selfPermissionStateChange', permissionList: Array<Permissions>, callb
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityAccessCtrl, Permissions } from '@kit.AbilityKit';
@@ -352,13 +316,7 @@ requestPermissionsFromUser(context: Context, permissionList: Array<Permissions>,
 
 关于向用户申请授权的完整流程及示例，请参见[向用户申请授权](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/request-user-authorization)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityAccessCtrl, Context, PermissionRequestResult, common } from '@kit.AbilityKit';
@@ -431,13 +389,7 @@ requestPermissionsFromUser(context: Context, permissionList: Array<Permissions>)
 
 关于向用户申请授权的完整流程及示例，请参见[向用户申请授权](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/request-user-authorization)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityAccessCtrl, Context, PermissionRequestResult, common } from '@kit.AbilityKit';
@@ -510,13 +462,7 @@ requestPermissionOnSetting(context: Context, permissionList: Array<Permissions>)
 
 示例中context的获取方式请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityAccessCtrl, Context, common } from '@kit.AbilityKit';
@@ -584,13 +530,7 @@ requestGlobalSwitch(context: Context, type: SwitchType): Promise<boolean>
 
 示例中context的获取方式请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityAccessCtrl, Context, common } from '@kit.AbilityKit';
@@ -647,13 +587,7 @@ getSelfPermissionStatus(permissionName: Permissions): PermissionStatus
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityAccessCtrl } from '@kit.AbilityKit';
@@ -713,13 +647,7 @@ openPermissionOnSetting(context: Context, permission: Permissions): Promise<Sele
 
 示例中context的获取方式请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityAccessCtrl, Context, common } from '@kit.AbilityKit';
@@ -775,13 +703,7 @@ verifyAccessTokenSync(tokenID: number, permissionName: Permissions): GrantStatus
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityAccessCtrl } from '@kit.AbilityKit';
@@ -829,13 +751,7 @@ verifyAccessToken(tokenID: number, permissionName: Permissions): Promise<GrantSt
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityAccessCtrl, Permissions } from '@kit.AbilityKit';
@@ -884,13 +800,7 @@ verifyAccessToken(tokenID: number, permissionName: string): Promise<GrantStatus>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { abilityAccessCtrl } from '@kit.AbilityKit';

@@ -22,13 +22,7 @@
 
 PhoneTablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AssetAccelerationExtensionAbility } from '@kit.GraphicsAccelerateKit';
@@ -137,13 +131,7 @@ onDownloadContentRequest(requestType: ContentRequestType, manifestUrl: string, a
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -205,13 +193,7 @@ onDownloadWithAppControl(requestType: ContentRequestType, manifestUrl: string, a
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -265,13 +247,7 @@ onBackgroundDownloadSucceeded(downloadTask: assetDownloadManager.AssetDownloadTa
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { assetDownloadManager, AssetAccelerationExtensionAbility } from '@kit.GraphicsAccelerateKit';
@@ -320,13 +296,7 @@ onBackgroundDownloadFailed(downloadTask: assetDownloadManager.AssetDownloadTask,
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { assetDownloadManager, AssetAccelerationExtensionAbility } from '@kit.GraphicsAccelerateKit';
@@ -374,13 +344,7 @@ onExtensionWillTerminate(error?: BusinessError<void>): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

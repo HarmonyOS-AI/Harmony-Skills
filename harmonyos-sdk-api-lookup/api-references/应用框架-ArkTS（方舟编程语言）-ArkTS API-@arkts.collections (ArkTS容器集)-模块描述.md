@@ -14,13 +14,7 @@ ArkTS容器并不是线程安全的，内部使用了fail-fast（快速失败）
 
 ## 导入模块
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { collections } from '@kit.ArkTS';

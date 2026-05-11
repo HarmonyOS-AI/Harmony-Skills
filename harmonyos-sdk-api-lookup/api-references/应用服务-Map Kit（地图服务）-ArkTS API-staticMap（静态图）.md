@@ -6,13 +6,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { staticMap } from '@kit.MapKit';
@@ -72,13 +66,7 @@ getMapImage(options: StaticMapOptions): Promise<image.PixelMap>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let staticMapOptions: staticMap.StaticMapOptions = {
@@ -148,13 +136,7 @@ getMapImage(context: common.Context, options: StaticMapOptions): Promise<image.P
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let staticMapOptions: staticMap.StaticMapOptions = {
@@ -197,13 +179,7 @@ StaticMapOptions定义了静态图的参数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let staticMapOptions: staticMap.StaticMapOptions = {
@@ -244,13 +220,7 @@ StaticMapMarker定义了标记点位置。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let staticMapMarker: staticMap.StaticMapMarker = {
@@ -291,13 +261,7 @@ StaticMapPath定义了添加到地图图像上的路径信息。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let staticMapPath: staticMap.StaticMapPath = {
@@ -338,13 +302,7 @@ IconSize定义了静态地图标记的默认图标大小。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let iconSize: staticMap.IconSize = staticMap.IconSize.TINY;

@@ -36,13 +36,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t XEG_AdaptiveVRSCreateInfo::adaptiveTileSize
@@ -56,13 +50,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. float XEG_AdaptiveVRSCreateInfo::errorSensitivity
@@ -76,13 +64,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bool XEG_AdaptiveVRSCreateInfo::flip
@@ -96,13 +78,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkRect2D XEG_AdaptiveVRSCreateInfo::inputRegion
@@ -116,13 +92,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkExtent2D XEG_AdaptiveVRSCreateInfo::inputSize

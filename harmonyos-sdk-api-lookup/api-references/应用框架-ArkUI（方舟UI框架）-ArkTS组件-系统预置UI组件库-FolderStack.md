@@ -313,13 +313,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例实现了折叠屏悬停能力。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -404,13 +398,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例展示了如何使用attributeModifier动态设置FolderStack组件的onFolderStateChange和onHoverStatusChange方法。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

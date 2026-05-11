@@ -8,13 +8,7 @@
 
 PhoneTabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sms } from '@kit.TelephonyKit';
@@ -56,13 +50,7 @@ createMessage(pdu: Array<number>, specification: string, callback: AsyncCallback
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sms } from '@kit.TelephonyKit';
@@ -119,13 +107,7 @@ createMessage(pdu: Array<number>, specification: string): Promise<ShortMessage>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sms } from '@kit.TelephonyKit';
@@ -182,13 +164,7 @@ sendMessage(options: SendMessageOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sms } from '@kit.TelephonyKit';
@@ -250,13 +226,7 @@ sendShortMessage(options: SendMessageOptions, callback: AsyncCallback<void>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sms } from '@kit.TelephonyKit';
@@ -327,13 +297,7 @@ sendShortMessage(options: SendMessageOptions): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sms } from '@kit.TelephonyKit';
@@ -382,13 +346,7 @@ getDefaultSmsSlotId(callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sms } from '@kit.TelephonyKit';
@@ -419,13 +377,7 @@ getDefaultSmsSlotId(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sms } from '@kit.TelephonyKit';
@@ -456,13 +408,7 @@ hasSmsCapability(): boolean
 | --- | --- |
 | boolean | - true：设备具备短信发送和接收能力。  - false：设备不具备短信发送和接收能力。 |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sms } from '@kit.TelephonyKit';
@@ -507,13 +453,7 @@ getDefaultSmsSimId(callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sms } from '@kit.TelephonyKit';
@@ -559,13 +499,7 @@ getDefaultSmsSimId(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sms } from '@kit.TelephonyKit';

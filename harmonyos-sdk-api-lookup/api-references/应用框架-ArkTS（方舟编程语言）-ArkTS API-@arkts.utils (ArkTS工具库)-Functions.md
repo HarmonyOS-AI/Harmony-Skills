@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ArkTSUtils } from '@kit.ArkTS'
@@ -50,13 +44,7 @@ isSendable(value: Object | null | undefined): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ArkTSUtils } from '@kit.ArkTS';

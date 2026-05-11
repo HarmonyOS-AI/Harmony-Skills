@@ -249,13 +249,7 @@ PhonePC/2in1TabletTVWearable
 
 GLTF模型加载示例。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -281,13 +275,7 @@ GLTF模型加载示例。
 
 自定义渲染示例。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AnimatorResult } from '@kit.ArkUI';

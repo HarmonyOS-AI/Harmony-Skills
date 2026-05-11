@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { remoteDevice } from '@kit.NearLinkKit';
@@ -133,13 +127,7 @@ createRemoteDevice(address: string): RemoteDevice
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { remoteDevice } from '@kit.NearLinkKit';
@@ -204,13 +192,7 @@ startPairing(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { remoteDevice } from '@kit.NearLinkKit';
@@ -265,13 +247,7 @@ getPairingState(): PairingState
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { remoteDevice } from '@kit.NearLinkKit';
@@ -325,13 +301,7 @@ getDeviceName(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { remoteDevice } from '@kit.NearLinkKit';
@@ -385,13 +355,7 @@ getDeviceClass(): DeviceClass
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { remoteDevice } from '@kit.NearLinkKit';
@@ -445,13 +409,7 @@ getConnectionState(): ConnectionState
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { remoteDevice } from '@kit.NearLinkKit';
@@ -505,13 +463,7 @@ getAcbState(): AcbState
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { remoteDevice } from '@kit.NearLinkKit';
@@ -565,13 +517,7 @@ getDeviceInformation(): DeviceInformation
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { remoteDevice } from '@kit.NearLinkKit';

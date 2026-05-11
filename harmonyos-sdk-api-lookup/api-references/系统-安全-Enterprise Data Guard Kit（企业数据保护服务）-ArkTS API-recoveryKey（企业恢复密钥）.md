@@ -8,13 +8,7 @@
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { recoveryKey } from '@kit.EnterpriseDataGuardKit';
@@ -86,13 +80,7 @@ getEnterpriseRecoveryKey(userId: number): Promise<EnterpriseRecoveryKeyInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -155,13 +143,7 @@ getAuthChallenge(): Promise<Uint8Array>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';
@@ -223,13 +205,7 @@ updateEnterpriseCertificate(signature: Uint8Array, cert: Uint8Array): Promise<nu
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -294,13 +270,7 @@ deleteEnterpriseRecoveryKey(userId: number, signature: Uint8Array): Promise<numb
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError, osAccount } from '@kit.BasicServicesKit';
@@ -371,13 +341,7 @@ verifyUserIdentityEnterprise(userId: number, userType: number, pinCode: string):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError, osAccount } from '@kit.BasicServicesKit';
@@ -453,13 +417,7 @@ verifyUserByDialog(userId: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { osAccount, BusinessError } from '@kit.BasicServicesKit';
@@ -526,13 +484,7 @@ getEnterpriseRecoveryKeyForResettingPin(userId: number, userType: number): Promi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { buffer } from '@kit.ArkTS';

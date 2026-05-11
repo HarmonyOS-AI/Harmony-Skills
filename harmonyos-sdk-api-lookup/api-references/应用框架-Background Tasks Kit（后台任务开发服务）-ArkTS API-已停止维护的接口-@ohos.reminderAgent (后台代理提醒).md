@@ -12,13 +12,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import reminderAgent from'@ohos.reminderAgent';
@@ -51,13 +45,7 @@ publishReminder(reminderReq: ReminderRequest, callback: AsyncCallback<number>): 
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -106,13 +94,7 @@ publishReminder(reminderReq: ReminderRequest): Promise<number>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let timer:reminderAgent.ReminderRequestTimer = {
@@ -150,13 +132,7 @@ cancelReminder(reminderId: number, callback: AsyncCallback<void>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -198,13 +174,7 @@ cancelReminder(reminderId: number): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. reminderAgent.cancelReminder(1).then(() => {
@@ -236,13 +206,7 @@ getValidReminders(callback: AsyncCallback<Array<ReminderRequest>>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -296,13 +260,7 @@ getValidReminders(): Promise<Array<ReminderRequest>>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. reminderAgent.getValidReminders().then((reminders: Array<reminderAgent.ReminderRequest>) => {
@@ -354,13 +312,7 @@ cancelAllReminders(callback: AsyncCallback<void>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -394,13 +346,7 @@ cancelAllReminders(): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. reminderAgent.cancelAllReminders().then(() => {
@@ -433,13 +379,7 @@ addNotificationSlot(slot: NotificationSlot, callback: AsyncCallback<void>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import notification from '@ohos.notificationManager'
@@ -485,13 +425,7 @@ addNotificationSlot(slot: NotificationSlot): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import notification from '@ohos.notificationManager'
@@ -529,13 +463,7 @@ removeNotificationSlot(slotType: notification.SlotType, callback: AsyncCallback<
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import notification from '@ohos.notification'
@@ -578,13 +506,7 @@ removeNotificationSlot(slotType: notification.SlotType): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import notification from '@ohos.notification'

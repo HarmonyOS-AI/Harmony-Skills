@@ -78,13 +78,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示通过renderFit设置宽高动画过程中的组件内容不同填充方式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

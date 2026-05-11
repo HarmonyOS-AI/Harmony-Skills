@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { extendService } from '@kit.AccountKit';
@@ -91,13 +85,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { extendService } from '@kit.AccountKit';
@@ -135,13 +123,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { extendService } from '@kit.AccountKit';
@@ -252,13 +234,7 @@ verifyAccount(context: common.Context, request: VerifyRequest, callback: AsyncCa
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { extendService } from '@kit.AccountKit';
@@ -350,13 +326,7 @@ verifyAccount(context: common.Context, request: VerifyRequest): Promise<VerifyRe
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { extendService } from '@kit.AccountKit';
@@ -433,13 +403,7 @@ startAccountCenter(context: common.Context, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { extendService } from '@kit.AccountKit';
@@ -516,13 +480,7 @@ startAccountCenter(context: common.Context): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { extendService } from '@kit.AccountKit';

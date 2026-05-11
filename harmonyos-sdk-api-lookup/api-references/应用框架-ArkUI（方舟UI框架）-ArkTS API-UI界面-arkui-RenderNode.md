@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -40,13 +34,7 @@ RenderNode的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode, FrameNode, NodeController } from '@kit.ArkUI';
@@ -121,13 +109,7 @@ appendChild(node: RenderNode): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode, FrameNode, NodeController } from '@kit.ArkUI';
@@ -213,13 +195,7 @@ insertChildAfter(child: RenderNode, sibling: RenderNode | null): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode, FrameNode, NodeController } from '@kit.ArkUI';
@@ -307,13 +283,7 @@ removeChild(node: RenderNode): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode, FrameNode, NodeController } from '@kit.ArkUI';
@@ -385,13 +355,7 @@ clearChildren(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode, FrameNode, NodeController } from '@kit.ArkUI';
@@ -472,13 +436,7 @@ getChild(index: number): RenderNode | null
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode, FrameNode, NodeController } from '@kit.ArkUI';
@@ -561,13 +519,7 @@ getFirstChild(): RenderNode | null
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode, FrameNode, NodeController } from '@kit.ArkUI';
@@ -655,13 +607,7 @@ getNextSibling(): RenderNode | null
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode, FrameNode, NodeController } from '@kit.ArkUI';
@@ -750,13 +696,7 @@ getPreviousSibling(): RenderNode | null
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode, FrameNode, NodeController } from '@kit.ArkUI';
@@ -861,13 +801,7 @@ get backgroundColor(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {  RenderNode, FrameNode, NodeController } from '@kit.ArkUI';
@@ -945,13 +879,7 @@ get clipToFrame(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {  RenderNode, FrameNode, NodeController } from '@kit.ArkUI';
@@ -1036,13 +964,7 @@ get opacity(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {  RenderNode, FrameNode, NodeController } from '@kit.ArkUI';
@@ -1122,13 +1044,7 @@ get size(): Size
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {  RenderNode, FrameNode, NodeController } from '@kit.ArkUI';
@@ -1207,13 +1123,7 @@ get position(): Position
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {  RenderNode, FrameNode, NodeController } from '@kit.ArkUI';
@@ -1293,13 +1203,7 @@ get frame(): Frame
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {  RenderNode, FrameNode, NodeController } from '@kit.ArkUI';
@@ -1378,13 +1282,7 @@ get pivot(): Pivot
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {  RenderNode, FrameNode, NodeController } from '@kit.ArkUI';
@@ -1466,13 +1364,7 @@ get scale(): Scale
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {  RenderNode, FrameNode, NodeController } from '@kit.ArkUI';
@@ -1552,13 +1444,7 @@ get translation(): Translation
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {  RenderNode, FrameNode, NodeController } from '@kit.ArkUI';
@@ -1638,13 +1524,7 @@ get rotation(): Rotation
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {  RenderNode, FrameNode, NodeController } from '@kit.ArkUI';
@@ -1710,13 +1590,7 @@ get transform(): Matrix4
 
 获取当前RenderNode的变换矩阵。默认值为：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. [
@@ -1741,13 +1615,7 @@ get transform(): Matrix4
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {  RenderNode, FrameNode, NodeController } from '@kit.ArkUI';
@@ -1832,13 +1700,7 @@ get shadowColor(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {  RenderNode, FrameNode, NodeController } from '@kit.ArkUI';
@@ -1919,13 +1781,7 @@ get shadowOffset(): Offset
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {  RenderNode, FrameNode, NodeController } from '@kit.ArkUI';
@@ -2007,13 +1863,7 @@ get label(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {  RenderNode, FrameNode, NodeController, UIContext } from '@kit.ArkUI';
@@ -2094,13 +1944,7 @@ get shadowAlpha(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {  RenderNode, FrameNode, NodeController } from '@kit.ArkUI';
@@ -2183,13 +2027,7 @@ get shadowElevation(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {  RenderNode, FrameNode, NodeController } from '@kit.ArkUI';
@@ -2273,13 +2111,7 @@ get shadowRadius(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode, FrameNode, NodeController } from '@kit.ArkUI';
@@ -2361,13 +2193,7 @@ RenderNode初始化时，会调用两次draw方法。第一次调用是在首次
 
 ArkTS侧代码：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -2422,13 +2248,7 @@ ArkTS侧代码：
 
 C++侧可通过NAPI来获取Canvas，并进行后续的自定义绘制操作。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // native_bridge.cpp
@@ -2508,13 +2328,7 @@ C++侧可通过NAPI来获取Canvas，并进行后续的自定义绘制操作。
 
 修改工程中的src/main/cpp/CMakeLists.txt文件，添加如下内容：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. # the minimum version of CMake.
@@ -2534,13 +2348,7 @@ C++侧可通过NAPI来获取Canvas，并进行后续的自定义绘制操作。
 
 同时在工程中的src/main/cpp/types/libentry/index.d.ts文件中，添加自定义绘制函数在ArkTs侧的定义，如：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { DrawContext } from '@kit.ArkUI';
@@ -2562,13 +2370,7 @@ invalidate(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import bridge from "libentry.so"; // 该 so 由开发者通过 NAPI 编写并生成
@@ -2671,13 +2473,7 @@ get borderStyle(): Edges<BorderStyle>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode, FrameNode, NodeController } from '@kit.ArkUI';
@@ -2764,13 +2560,7 @@ get borderWidth(): Edges<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode, FrameNode, NodeController } from '@kit.ArkUI';
@@ -2851,13 +2641,7 @@ get borderColor(): Edges<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode, FrameNode, NodeController } from '@kit.ArkUI';
@@ -2939,13 +2723,7 @@ get borderRadius(): BorderRadiuses
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode, FrameNode, NodeController } from '@kit.ArkUI';
@@ -3026,13 +2804,7 @@ get shapeMask(): ShapeMask
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode, FrameNode, NodeController, ShapeMask } from '@kit.ArkUI';
@@ -3120,13 +2892,7 @@ get shapeClip(): ShapeClip
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode, FrameNode, NodeController, ShapeClip } from '@kit.ArkUI';
@@ -3240,13 +3006,7 @@ dispose(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode, FrameNode, NodeController } from '@kit.ArkUI';
@@ -3340,13 +3100,7 @@ get markNodeGroup(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode, FrameNode, NodeController, DrawContext } from '@kit.ArkUI';
@@ -3445,13 +3199,7 @@ get lengthMetricsUnit(): LengthMetricsUnit
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode, FrameNode, NodeController, DrawContext } from '@kit.ArkUI';
@@ -3532,13 +3280,7 @@ isDisposed(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode, FrameNode, NodeController } from '@kit.ArkUI';

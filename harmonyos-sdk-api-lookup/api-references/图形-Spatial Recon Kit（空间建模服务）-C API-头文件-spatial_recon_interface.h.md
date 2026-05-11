@@ -63,13 +63,7 @@
 
 ### HMS\_SpatialReconStatus
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum HMS_SpatialReconStatus
@@ -97,13 +91,7 @@
 
 ### HMS\_SpatialReconOutputFormat
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum HMS_SpatialReconOutputFormat
@@ -124,13 +112,7 @@
 
 ### HMS\_SpatialReconRunningMode
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum HMS_SpatialReconRunningMode
@@ -155,13 +137,7 @@ SpatialRecon会话支持前台和后台两种运行模式。当应用切换到�
 
 ### HMS\_SpatialReconStage
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum HMS_SpatialReconStage
@@ -186,13 +162,7 @@ SpatialRecon会话支持前台和后台两种运行模式。当应用切换到�
 
 ### HMS\_SpatialReconModelType
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum HMS_SpatialReconModelType
@@ -212,13 +182,7 @@ SpatialRecon会话支持前台和后台两种运行模式。当应用切换到�
 
 ### HMS\_SpatialReconImageDataFormat
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum HMS_SpatialReconImageDataFormat
@@ -240,13 +204,7 @@ SpatialRecon会话支持前台和后台两种运行模式。当应用切换到�
 
 ### HMS\_SpatialReconCallbackFunc()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef void (*HMS_SpatialReconCallbackFunc)(HMS_SpatialReconStatus)
@@ -268,13 +226,7 @@ SpatialRecon会话支持前台和后台两种运行模式。当应用切换到�
 
 ### HMS\_SpatialRecon\_IsSupport()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HMS_SpatialReconStatus HMS_SpatialRecon_IsSupport(HMS_SpatialReconModelType type)
@@ -308,13 +260,7 @@ SpatialRecon会话支持前台和后台两种运行模式。当应用切换到�
 
 ### HMS\_SpatialRecon\_CreateSession()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HMS_SpatialReconStatus HMS_SpatialRecon_CreateSession(HMS_SpatialReconModelType type, const char* workPath, HMS_SpatialRecon_Session **outSpatialReconSession)
@@ -350,13 +296,7 @@ SpatialRecon会话支持前台和后台两种运行模式。当应用切换到�
 
 ### HMS\_SpatialRecon\_DestroySession()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HMS_SpatialReconStatus HMS_SpatialRecon_DestroySession(HMS_SpatialRecon_Session *spatialReconSession)
@@ -390,13 +330,7 @@ SpatialRecon会话支持前台和后台两种运行模式。当应用切换到�
 
 ### HMS\_SpatialRecon\_PushFrame()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HMS_SpatialReconStatus HMS_SpatialRecon_PushFrame(HMS_SpatialRecon_Session *spatialReconSession, HMS_SpatialRecon_DataFrame *inputFrame)
@@ -431,13 +365,7 @@ SpatialRecon会话支持前台和后台两种运行模式。当应用切换到�
 
 ### HMS\_SpatialRecon\_PushARFrame()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HMS_SpatialReconStatus HMS_SpatialRecon_PushARFrame(HMS_SpatialRecon_Session *spatialReconSession, AREngine_ARSession* arSession, AREngine_ARFrame *arFrame)
@@ -473,13 +401,7 @@ SpatialRecon会话支持前台和后台两种运行模式。当应用切换到�
 
 ### HMS\_SpatialRecon\_StartSession()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HMS_SpatialReconStatus HMS_SpatialRecon_StartSession(HMS_SpatialRecon_Session *spatialReconSession, HMS_SpatialRecon_ModelWriteInfo* writeInfo, HMS_SpatialReconCallbackFunc onSpatialReconFinished)
@@ -511,13 +433,7 @@ SpatialRecon会话支持前台和后台两种运行模式。当应用切换到�
 
 ### HMS\_SpatialRecon\_SetRunningMode()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HMS_SpatialReconStatus HMS_SpatialRecon_SetRunningMode(HMS_SpatialRecon_Session *spatialReconSession, HMS_SpatialReconRunningMode runningMode)
@@ -552,13 +468,7 @@ SpatialRecon会话支持前台和后台两种运行模式。当应用切换到�
 
 ### HMS\_SpatialRecon\_PauseSession()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HMS_SpatialReconStatus HMS_SpatialRecon_PauseSession(HMS_SpatialRecon_Session *spatialReconSession)
@@ -588,13 +498,7 @@ SpatialRecon会话支持前台和后台两种运行模式。当应用切换到�
 
 ### HMS\_SpatialRecon\_ResumeSession()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HMS_SpatialReconStatus HMS_SpatialRecon_ResumeSession(HMS_SpatialRecon_Session *spatialReconSession)
@@ -624,13 +528,7 @@ SpatialRecon会话支持前台和后台两种运行模式。当应用切换到�
 
 ### HMS\_SpatialRecon\_GetProgress()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HMS_SpatialReconStatus HMS_SpatialRecon_GetProgress(HMS_SpatialRecon_Session *spatialReconSession, float* progress, HMS_SpatialReconStage* stage)
@@ -666,13 +564,7 @@ SpatialRecon会话支持前台和后台两种运行模式。当应用切换到�
 
 ### HMS\_SpatialRecon\_GetRefinedFrame()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HMS_SpatialReconStatus HMS_SpatialRecon_GetRefinedFrame(HMS_SpatialRecon_Session *spatialReconSession, int iFrame, HMS_SpatialRecon_DataFrame *outFrame)
@@ -708,13 +600,7 @@ SpatialRecon会话支持前台和后台两种运行模式。当应用切换到�
 
 ### HMS\_SpatialRecon\_SaveResultToFile()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HMS_SpatialReconStatus HMS_SpatialRecon_SaveResultToFile(HMS_SpatialRecon_Session *spatialReconSession, HMS_SpatialRecon_ModelWriteInfo *writeInfo, HMS_SpatialReconCallbackFunc onSaved)

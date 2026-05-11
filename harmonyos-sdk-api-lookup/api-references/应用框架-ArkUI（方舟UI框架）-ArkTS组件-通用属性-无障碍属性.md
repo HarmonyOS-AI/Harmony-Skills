@@ -791,13 +791,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示accessibilityText无障碍文本和accessibilityDescription无障碍说明的播报内容。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -841,13 +835,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示优先使用子组件的无障碍文本进行朗读。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -879,13 +867,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示accessibilityDefaultFocus屏幕朗读当前页默认首焦点和accessibilityNextFocusId走焦过程中组件的下一个焦点。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -924,13 +906,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示accessibilityRole无障碍组件类型和accessibilityTextHint供无障碍辅助应用查询的组件的文本提示信息。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -969,13 +945,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示accessibilityScrollTriggerable设置无障碍节点是否支持屏幕朗读滚动、accessibilityFocusDrawLevel设置无障碍焦点绿框的绘制层级和accessibilityUseSamePage设置跨进程嵌入式显示的组件,如[EmbeddedComponent](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-container-embedded-component)的accessibilityUseSamePage属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1086,13 +1056,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示使用accessibilityGroup的可选参数stateControllerRoleType或者stateControllerId来选择一个特定子组件接管其无障碍状态信息，可选参数actionControllerRoleType或者actionControllerId来选择一个特定子组件接管其无障碍控制操作。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1149,13 +1113,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 23开始，新增accessibilityStateDescription接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1185,13 +1143,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 23开始，新增AccessibilityActionOptions。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

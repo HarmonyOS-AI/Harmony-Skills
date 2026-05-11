@@ -1,10 +1,4 @@
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum ArkUI_NodeAttributeType
@@ -22,13 +16,7 @@
 
 ## NODE\_SWIPER\_LOOP
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SWIPER_LOOP = MAX_NODE_SCOPE_NUM * ARKUI_NODE_SWIPER = 1001000
@@ -58,13 +46,7 @@ Swiper是否开启循环，支持属性设置，属性重置和属性获取接�
 
 ## NODE\_SWIPER\_AUTO\_PLAY
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SWIPER_AUTO_PLAY = 1001001
@@ -96,13 +78,7 @@ Swiper子组件是否自动播放，支持属性设置，属性重置和属性�
 
 ## NODE\_SWIPER\_SHOW\_INDICATOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SWIPER_SHOW_INDICATOR = 1001002
@@ -132,13 +108,7 @@ Swiper是否显示导航点指示器，支持属性设置，属性重置和属�
 
 ## NODE\_SWIPER\_INTERVAL
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SWIPER_INTERVAL = 1001003
@@ -168,13 +138,7 @@ Swiper是否显示导航点指示器，支持属性设置，属性重置和属�
 
 ## NODE\_SWIPER\_VERTICAL
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SWIPER_VERTICAL = 1001004
@@ -204,13 +168,7 @@ Swiper是否显示导航点指示器，支持属性设置，属性重置和属�
 
 ## NODE\_SWIPER\_DURATION
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SWIPER_DURATION = 1001005
@@ -240,13 +198,7 @@ Swiper是否显示导航点指示器，支持属性设置，属性重置和属�
 
 ## NODE\_SWIPER\_CURVE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SWIPER_CURVE = 1001006
@@ -276,13 +228,7 @@ Swiper是否显示导航点指示器，支持属性设置，属性重置和属�
 
 ## NODE\_SWIPER\_ITEM\_SPACE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SWIPER_ITEM_SPACE = 1001007
@@ -312,13 +258,7 @@ Swiper是否显示导航点指示器，支持属性设置，属性重置和属�
 
 ## NODE\_SWIPER\_INDEX
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SWIPER_INDEX = 1001008
@@ -349,13 +289,7 @@ Swiper是否显示导航点指示器，支持属性设置，属性重置和属�
 
 ## NODE\_SWIPER\_DISPLAY\_COUNT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SWIPER_DISPLAY_COUNT = 1001009
@@ -388,13 +322,7 @@ Swiper是否显示导航点指示器，支持属性设置，属性重置和属�
 
 ## NODE\_SWIPER\_DISABLE\_SWIPE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SWIPER_DISABLE_SWIPE = 1001010
@@ -424,13 +352,7 @@ Swiper是否显示导航点指示器，支持属性设置，属性重置和属�
 
 ## NODE\_SWIPER\_SHOW\_DISPLAY\_ARROW
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SWIPER_SHOW_DISPLAY_ARROW = 1001011
@@ -462,13 +384,7 @@ Swiper是否显示导航点指示器，支持属性设置，属性重置和属�
 
 ## NODE\_SWIPER\_EDGE\_EFFECT\_MODE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SWIPER_EDGE_EFFECT_MODE = 1001012
@@ -498,13 +414,7 @@ Swiper是否显示导航点指示器，支持属性设置，属性重置和属�
 
 ## NODE\_SWIPER\_NODE\_ADAPTER
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SWIPER_NODE_ADAPTER = 1001013
@@ -534,13 +444,7 @@ swiper组件适配器，支持属性设置，属性重置和属性获取接口�
 
 ## NODE\_SWIPER\_CACHED\_COUNT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SWIPER_CACHED_COUNT = 1001014
@@ -574,13 +478,7 @@ swiper组件Adapter缓存数量，支持属性设置，属性重置和属性获�
 
 ## NODE\_SWIPER\_PREV\_MARGIN
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SWIPER_PREV_MARGIN = 1001015
@@ -611,13 +509,7 @@ swiper组件Adapter缓存数量，支持属性设置，属性重置和属性获�
 
 ## NODE\_SWIPER\_NEXT\_MARGIN
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SWIPER_NEXT_MARGIN = 1001016
@@ -648,13 +540,7 @@ swiper组件Adapter缓存数量，支持属性设置，属性重置和属性获�
 
 ## NODE\_SWIPER\_INDICATOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SWIPER_INDICATOR = 1001017
@@ -686,13 +572,7 @@ swiper组件Adapter缓存数量，支持属性设置，属性重置和属性获�
 
 ## NODE\_SWIPER\_NESTED\_SCROLL
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SWIPER_NESTED_SCROLL = 1001018
@@ -722,13 +602,7 @@ swiper组件Adapter缓存数量，支持属性设置，属性重置和属性获�
 
 ## NODE\_SWIPER\_SWIPE\_TO\_INDEX
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SWIPER_SWIPE_TO_INDEX = 1001019
@@ -751,13 +625,7 @@ swiper组件Adapter缓存数量，支持属性设置，属性重置和属性获�
 
 ## NODE\_SWIPER\_INDICATOR\_INTERACTIVE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SWIPER_INDICATOR_INTERACTIVE = 1001020
@@ -787,13 +655,7 @@ swiper组件Adapter缓存数量，支持属性设置，属性重置和属性获�
 
 ## NODE\_SWIPER\_PAGE\_FLIP\_MODE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SWIPER_PAGE_FLIP_MODE = 1001021
@@ -816,13 +678,7 @@ swiper组件Adapter缓存数量，支持属性设置，属性重置和属性获�
 
 ## NODE\_SWIPER\_AUTO\_FILL
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SWIPER_AUTO_FILL = 1001022
@@ -854,13 +710,7 @@ swiper组件Adapter缓存数量，支持属性设置，属性重置和属性获�
 
 ## NODE\_SWIPER\_MAINTAIN\_VISIBLE\_CONTENT\_POSITION
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SWIPER_MAINTAIN_VISIBLE_CONTENT_POSITION = 1001023
@@ -890,13 +740,7 @@ swiper组件Adapter缓存数量，支持属性设置，属性重置和属性获�
 
 ## NODE\_SWIPER\_ITEMFILLPOLICY
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SWIPER_ITEMFILLPOLICY = 1001024

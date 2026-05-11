@@ -497,13 +497,7 @@ PhonePC/2in1TabletTVWearable
 
 设置内容在元素内的对齐方式和子元素在父组件主轴方向上的布局。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -557,13 +551,7 @@ PhonePC/2in1TabletTVWearable
 
 基于父组件、相对定位、锚点作出位置偏移。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -654,13 +642,7 @@ PhonePC/2in1TabletTVWearable
 
 使用position设置绝对定位，确定子组件相对父组件的位置。使用offset设置相对偏移，组件相对原本的布局位置进行偏移。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -742,13 +724,7 @@ PhonePC/2in1TabletTVWearable
 
 通用布局属性支持[使用镜像能力](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/arkts-internationalization#使用镜像能力)。下述示例从上到下依次通过[position](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-location#position)、[offset](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-location#offset)和[markAnchor](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-location#markanchor)实现镜像效果，为对比镜像前后的差异，浅蓝色对应镜像前效果，深蓝色对应镜像后效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -856,13 +832,7 @@ PhonePC/2in1TabletTVWearable
 
 设置内容在元素内的对齐方式和子元素在父组件主轴方向上的布局。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -933,13 +903,7 @@ PhonePC/2in1TabletTVWearable
 
 更改Stack中Text的位置。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

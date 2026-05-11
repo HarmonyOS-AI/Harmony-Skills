@@ -1,2 +1,0 @@
-* **[媒体会话管理错误码](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/errorcode-avsession)**
-* **[音频模板错误码](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/errorcode-avmusictemplate)**

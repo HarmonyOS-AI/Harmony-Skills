@@ -12,13 +12,7 @@ overlay特征应用指应用中包含有overlay资源包，overlay资源包详�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { overlay } from '@kit.AbilityKit';
@@ -65,13 +59,7 @@ setOverlayEnabled(moduleName:string, isEnabled: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { overlay } from '@kit.AbilityKit';
@@ -128,13 +116,7 @@ setOverlayEnabled(moduleName: string, isEnabled: boolean, callback: AsyncCallbac
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { overlay } from '@kit.AbilityKit';
@@ -199,13 +181,7 @@ getOverlayModuleInfo(moduleName: string): Promise<OverlayModuleInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { overlay } from '@kit.AbilityKit';
@@ -259,13 +235,7 @@ getOverlayModuleInfo(moduleName: string, callback: AsyncCallback<OverlayModuleIn
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { overlay } from '@kit.AbilityKit';
@@ -328,13 +298,7 @@ getTargetOverlayModuleInfos(targetModuleName: string): Promise<Array<OverlayModu
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { overlay } from '@kit.AbilityKit';
@@ -387,13 +351,7 @@ getTargetOverlayModuleInfos(targetModuleName: string, callback: AsyncCallback<Ar
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { overlay } from '@kit.AbilityKit';

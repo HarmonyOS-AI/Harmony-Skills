@@ -60,13 +60,7 @@ PhoneTabletWearable
 
 PhoneTabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum Telephony_RadioResult
@@ -93,13 +87,7 @@ PhoneTabletWearable
 
 PhoneTabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum Telephony_RegState
@@ -124,13 +112,7 @@ PhoneTabletWearable
 
 PhoneTabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum Telephony_RadioTechnology
@@ -164,13 +146,7 @@ PhoneTabletWearable
 
 PhoneTabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum Telephony_NsaState

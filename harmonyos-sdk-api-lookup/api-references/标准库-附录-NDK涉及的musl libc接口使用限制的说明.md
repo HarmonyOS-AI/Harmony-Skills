@@ -10,13 +10,7 @@
 
 * 查看进程faultlog日志，如果报错原因是signal:SIGSYS，且栈顶在ld-musl-{架构}.so.1库里，则进程终止可能是由Seccomp机制引起的。
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. cat /data/log/faultlog/faultlogger/cppcrash-xxxx
@@ -24,13 +18,7 @@
 
   错误示例：
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. Process name:com.example.myapplication

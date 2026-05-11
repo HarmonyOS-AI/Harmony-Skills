@@ -9,13 +9,7 @@ SendableContext符合[Sendable协议](https://developer.huawei.com/consumer/cn/d
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableContextManager } from '@kit.AbilityKit';

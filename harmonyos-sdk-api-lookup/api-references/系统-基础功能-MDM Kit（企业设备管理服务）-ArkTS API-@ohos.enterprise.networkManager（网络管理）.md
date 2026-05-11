@@ -12,13 +12,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { networkManager } from '@kit.MDMKit';
@@ -69,13 +63,7 @@ getAllNetworkInterfacesSync(admin: Want): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { networkManager } from '@kit.MDMKit';
@@ -141,13 +129,7 @@ getIpAddressSync(admin: Want, networkInterface: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { networkManager } from '@kit.MDMKit';
@@ -214,13 +196,7 @@ getMacSync(admin: Want, networkInterface: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { networkManager } from '@kit.MDMKit';
@@ -287,13 +263,7 @@ isNetworkInterfaceDisabledSync(admin: Want, networkInterface: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { networkManager } from '@kit.MDMKit';
@@ -355,13 +325,7 @@ setNetworkInterfaceDisabledSync(admin: Want, networkInterface: string, isDisable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { networkManager } from '@kit.MDMKit';
@@ -422,13 +386,7 @@ setGlobalProxySync(admin: Want, httpProxy: connection.HttpProxy): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { networkManager } from '@kit.MDMKit';
@@ -502,13 +460,7 @@ setGlobalProxyForAccount(admin: Want, httpProxy: connection.HttpProxy, accountId
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { networkManager } from '@kit.MDMKit';
@@ -582,13 +534,7 @@ getGlobalProxySync(admin: Want): connection.HttpProxy
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { networkManager } from '@kit.MDMKit';
@@ -657,13 +603,7 @@ getGlobalProxyForAccount(admin: Want | null, accountId: number): connection.Http
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { networkManager } from '@kit.MDMKit';
@@ -733,13 +673,7 @@ API version 21及之前版本，仅支持IPv4。从API version 22开始，支持
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { networkManager } from '@kit.MDMKit';
@@ -818,13 +752,7 @@ API version 21及之前版本，仅支持IPv4。从API version 22开始，支持
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { networkManager } from '@kit.MDMKit';
@@ -916,13 +844,7 @@ API version 21及之前版本，仅支持IPv4。从API version 22开始，支持
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { networkManager } from '@kit.MDMKit';
@@ -994,13 +916,7 @@ API version 21及之前版本，仅支持IPv4。从API version 22开始，支持
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { networkManager } from '@kit.MDMKit';
@@ -1074,13 +990,7 @@ API version 21及之前版本，仅支持IPv4。从API version 22开始，支持
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { networkManager } from '@kit.MDMKit';
@@ -1167,13 +1077,7 @@ API version 21及之前版本，仅支持IPv4。从API version 22开始，支持
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { networkManager } from '@kit.MDMKit';
@@ -1232,13 +1136,7 @@ turnOnMobileData(admin: Want, isForce: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { networkManager } from '@kit.MDMKit';
@@ -1295,13 +1193,7 @@ turnOffMobileData(admin: Want): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { networkManager } from '@kit.MDMKit';
@@ -1359,13 +1251,7 @@ addApn(admin: Want, apnInfo: Record<string, string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -1430,13 +1316,7 @@ deleteApn(admin: Want, apnId: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -1496,13 +1376,7 @@ updateApn(admin: Want, apnInfo: Record<string, string>, apnId: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -1568,13 +1442,7 @@ setPreferredApn(admin: Want, apnId: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -1639,13 +1507,7 @@ queryApn(admin: Want, apnInfo: Record<string, string>): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -1716,13 +1578,7 @@ queryApn(admin: Want, apnId: string): Record<string, string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -1784,13 +1640,7 @@ setEthernetConfig(admin: Want, networkInterface: string, config: InterfaceConfig
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';

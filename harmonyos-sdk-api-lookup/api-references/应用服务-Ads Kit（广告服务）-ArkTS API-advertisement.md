@@ -1,1 +1,0 @@
-* **[Advertisement (请求的广告内容)](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-advertisement)**

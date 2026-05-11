@@ -1,2 +1,0 @@
-* **[ContinuationExtraParams](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-continuation-continuationextraparams)**
-* **[ContinuationResult](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-continuation-continuationresult)**

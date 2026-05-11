@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -77,13 +71,7 @@ format(format: string, ...args: Object[]): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -189,13 +177,7 @@ errnoToString(errno: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let errnum = -1; // -1 : a system error number
@@ -266,13 +248,7 @@ callbackWrapper(original: Function): (err: Object, value: Object)=>void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function fn(input: string) {
@@ -326,13 +302,7 @@ promisify(original: (err: Object, value: Object) => void): Function
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function fn() {
@@ -390,13 +360,7 @@ generateRandomUUID(entropyCache?: boolean): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let uuid = util.generateRandomUUID(true);
@@ -444,13 +408,7 @@ generateRandomBinaryUUID(entropyCache?: boolean): Uint8Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let uuid = util.generateRandomBinaryUUID(true);
@@ -499,13 +457,7 @@ parseUUID(uuid: string): Uint8Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let uuid = util.parseUUID("84bdf796-66cc-4655-9b89-d6218d100f9c");
@@ -546,13 +498,7 @@ printf(format: string, ...args: Object[]): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let res = util.printf("%s", "hello world!");
@@ -592,13 +538,7 @@ getErrorString(errno: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let errnum = -1; // -1 : a system error number
@@ -679,13 +619,7 @@ getHash(object: object): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. interface Person {
@@ -724,13 +658,7 @@ getMainThreadStackTrace(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let stack = util.getMainThreadStackTrace();
@@ -766,13 +694,7 @@ static setMultithreadingDetectionEnabled(enabled: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -811,13 +733,7 @@ static getAllVMHeapMemoryInfo(): Promise<HeapMemoryInfo[]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -867,13 +783,7 @@ static onVMHeapMemoryPressure(callback: Callback<string>, heapMemoryThreshold: H
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -906,13 +816,7 @@ static offVMHeapMemoryPressure(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -1047,13 +951,7 @@ static addBefore(targetClass: Object, methodName: string, isStatic: boolean, bef
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class MyClass {
@@ -1153,13 +1051,7 @@ static addAfter(targetClass: Object, methodName: string, isStatic: boolean, afte
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class MyClass {
@@ -1250,13 +1142,7 @@ static replace(targetClass: Object, methodName: string, isStatic: boolean, inste
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class MyClass {
@@ -1329,13 +1215,7 @@ TextDecoder的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let textDecoder = new util.TextDecoder();
@@ -1385,13 +1265,7 @@ static create(encoding?: string, options?: TextDecoderOptions): TextDecoder
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let textDecoderOptions: util.TextDecoderOptions = {
@@ -1449,13 +1323,7 @@ decodeToString(input: Uint8Array, options?: DecodeToStringOptions): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 当解析不含有\0的字节的示例代码
@@ -1473,13 +1341,7 @@ decodeToString(input: Uint8Array, options?: DecodeToStringOptions): string
 13. // 输出结果：retStr = abc
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 当解析含有\0的字节的示例代码
@@ -1545,13 +1407,7 @@ decodeWithStream(input: Uint8Array, options?: DecodeWithStreamOptions): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let textDecoderOptions: util.TextDecoderOptions = {
@@ -1609,13 +1465,7 @@ TextDecoder的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let textDecoder = new util.TextDecoder("utf-8",{ignoreBOM: true});
@@ -1662,13 +1512,7 @@ decode(input: Uint8Array, options?: { stream?: false }): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let textDecoder = new util.TextDecoder("utf-8",{ignoreBOM: true});
@@ -1742,13 +1586,7 @@ TextEncoder的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let textEncoder = new util.TextEncoder();
@@ -1786,13 +1624,7 @@ TextEncoder的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let textEncoder = new util.TextEncoder("utf-8");
@@ -1838,13 +1670,7 @@ static create(encoding?: string): TextEncoder
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let textEncoder = util.TextEncoder.create("utf-8");
@@ -1890,13 +1716,7 @@ encodeInto(input?: string): Uint8Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let textEncoder = new util.TextEncoder();
@@ -1946,13 +1766,7 @@ encodeIntoUint8Array(input: string, dest: Uint8Array): EncodeIntoUint8ArrayInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let textEncoder = new util.TextEncoder();
@@ -2000,13 +1814,7 @@ encodeInto(input: string, dest: Uint8Array): { read: number; written: number }
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let textEncoder = new util.TextEncoder();
@@ -2049,13 +1857,7 @@ encode(input?: string): Uint8Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let textEncoder = new util.TextEncoder();
@@ -2084,13 +1886,7 @@ RationalNumber的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let rationalNumber = new util.RationalNumber();
@@ -2141,13 +1937,7 @@ static parseRationalNumber(numerator: number,denominator: number): RationalNumbe
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let rationalNumber = util.RationalNumber.parseRationalNumber(1,2);
@@ -2197,13 +1987,7 @@ static createRationalFromString(rationalString: string): RationalNumber
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let rational = util.RationalNumber.createRationalFromString("3/4");
@@ -2249,13 +2033,7 @@ compare(another: RationalNumber): number​
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let rationalNumber = util.RationalNumber.parseRationalNumber(1,2);
@@ -2287,13 +2065,7 @@ valueOf(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let rationalNumber = new util.RationalNumber(1,2);
@@ -2304,13 +2076,7 @@ valueOf(): number
 
 API 9及以上建议使用以下写法：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let rationalNumber = util.RationalNumber.parseRationalNumber(1,2);
@@ -2349,13 +2115,7 @@ equals(obj: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let rationalNumber = new util.RationalNumber(1,2);
@@ -2367,13 +2127,7 @@ equals(obj: Object): boolean
 
 API 9及以上建议使用以下写法：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let rationalNumber = util.RationalNumber.parseRationalNumber(1,2);
@@ -2428,13 +2182,7 @@ static getCommonFactor(number1: number, number2: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let result = util.RationalNumber.getCommonFactor(4,6);
@@ -2464,13 +2212,7 @@ getNumerator(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let rationalNumber = new util.RationalNumber(1,2);
@@ -2481,13 +2223,7 @@ getNumerator(): number
 
 API 9及以上建议使用以下写法：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let rationalNumber = util.RationalNumber.parseRationalNumber(1,2);
@@ -2518,13 +2254,7 @@ getDenominator(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let rationalNumber = new util.RationalNumber(1,2);
@@ -2535,13 +2265,7 @@ getDenominator(): number
 
 API 9及以上建议使用以下写法：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let rationalNumber = util.RationalNumber.parseRationalNumber(1,2)
@@ -2572,13 +2296,7 @@ isZero():boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let rationalNumber = new util.RationalNumber(1,2);
@@ -2589,13 +2307,7 @@ isZero():boolean
 
 API 9及以上建议使用以下写法：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let rationalNumber = util.RationalNumber.parseRationalNumber(1,2);
@@ -2626,13 +2338,7 @@ isNaN(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let rationalNumber = new util.RationalNumber(1,2);
@@ -2643,13 +2349,7 @@ isNaN(): boolean
 
 API 9及以上建议使用以下写法：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let rationalNumber = util.RationalNumber.parseRationalNumber(1,2);
@@ -2680,13 +2380,7 @@ isFinite():boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let rationalNumber = new util.RationalNumber(1,2);
@@ -2697,13 +2391,7 @@ isFinite():boolean
 
 API 9及以上建议使用以下写法：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let rationalNumber = util.RationalNumber.parseRationalNumber(1,2);
@@ -2734,13 +2422,7 @@ toString(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let rationalNumber = new util.RationalNumber(1,2);
@@ -2751,13 +2433,7 @@ toString(): string
 
 API 9及以上建议使用以下写法：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let rationalNumber = util.RationalNumber.parseRationalNumber(1,2);
@@ -2791,13 +2467,7 @@ RationalNumber的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let rationalNumber = new util.RationalNumber(1,2);
@@ -2835,13 +2505,7 @@ compareTo(another: RationalNumber): number​
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let rationalNumber = new util.RationalNumber(1,2);
@@ -2904,13 +2568,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new util.LRUCache<number, number>();
@@ -2953,13 +2611,7 @@ constructor(capacity?: number)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new util.LRUCache<number, number>();
@@ -2997,13 +2649,7 @@ updateCapacity(newCapacity: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new util.LRUCache<number, number>();
@@ -3032,13 +2678,7 @@ toString(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new util.LRUCache<number, number>();
@@ -3072,13 +2712,7 @@ getCapacity(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new util.LRUCache<number, number>();
@@ -3101,13 +2735,7 @@ clear(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new util.LRUCache<number, number>();
@@ -3143,13 +2771,7 @@ getCreateCount(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 创建新类ChildLRUCache继承LRUCache，重写createDefault方法，返回一个非undefined的值。
@@ -3193,13 +2815,7 @@ getMissCount(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new util.LRUCache<number, number>();
@@ -3232,13 +2848,7 @@ getRemovalCount(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new util.LRUCache<number, number>();
@@ -3272,13 +2882,7 @@ getMatchCount(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new util.LRUCache<number, number>();
@@ -3311,13 +2915,7 @@ getPutCount(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new util.LRUCache<number, number>();
@@ -3349,13 +2947,7 @@ isEmpty(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new util.LRUCache<number, number>();
@@ -3405,13 +2997,7 @@ get(key: K): V | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new util.LRUCache<number, number>();
@@ -3462,13 +3048,7 @@ put(key: K,value: V): V
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new util.LRUCache<number, number>();
@@ -3499,13 +3079,7 @@ values(): V[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new util.LRUCache<number, string>();
@@ -3547,13 +3121,7 @@ keys(): K[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new util.LRUCache<number, string>();
@@ -3613,13 +3181,7 @@ remove(key: K): V | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new util.LRUCache<number, number>();
@@ -3668,13 +3230,7 @@ afterRemoval(isEvict: boolean, key: K, value: V, newValue: V): void
 
 **示例一：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class ChildLRUCache<K, V> extends util.LRUCache<K, V> {
@@ -3701,13 +3257,7 @@ afterRemoval(isEvict: boolean, key: K, value: V, newValue: V): void
 
 **示例二：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class TestClass {
@@ -3802,13 +3352,7 @@ contains(key: K): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new util.LRUCache<number, number>();
@@ -3858,13 +3402,7 @@ createDefault(key: K): V
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new util.LRUCache<number, number>();
@@ -3895,13 +3433,7 @@ entries(): IterableIterator<[K, V]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new util.LRUCache<number, number>();
@@ -3938,13 +3470,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new util.LRUCache<number, number>();
@@ -3999,13 +3525,7 @@ compareTo(other: ScopeComparable): boolean
 
 构造新类，实现compareTo方法。后续示例代码中，均以此Temperature类为例。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class Temperature implements util.ScopeComparable {
@@ -4087,13 +3607,7 @@ constructor(lowerObj: ScopeType, upperObj: ScopeType)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class Temperature implements util.ScopeComparable {
@@ -4144,13 +3658,7 @@ toString(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class Temperature implements util.ScopeComparable {
@@ -4221,13 +3729,7 @@ intersect(range: ScopeHelper): ScopeHelper
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class Temperature implements util.ScopeComparable {
@@ -4302,13 +3804,7 @@ intersect(lowerObj:ScopeType,upperObj:ScopeType):ScopeHelper
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class Temperature implements util.ScopeComparable {
@@ -4363,13 +3859,7 @@ getUpper(): ScopeType
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class Temperature implements util.ScopeComparable {
@@ -4422,13 +3912,7 @@ getLower(): ScopeType
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class Temperature implements util.ScopeComparable {
@@ -4500,13 +3984,7 @@ expand(lowerObj: ScopeType,upperObj: ScopeType): ScopeHelper
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class Temperature implements util.ScopeComparable {
@@ -4579,13 +4057,7 @@ expand(range: ScopeHelper): ScopeHelper
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class Temperature implements util.ScopeComparable {
@@ -4659,13 +4131,7 @@ expand(value: ScopeType): ScopeHelper
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class Temperature implements util.ScopeComparable {
@@ -4737,13 +4203,7 @@ contains(value: ScopeType): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class Temperature implements util.ScopeComparable {
@@ -4815,13 +4275,7 @@ contains(range: ScopeHelper): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class Temperature implements util.ScopeComparable {
@@ -4895,13 +4349,7 @@ clamp(value: ScopeType): ScopeType
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class Temperature implements util.ScopeComparable {
@@ -4953,13 +4401,7 @@ Base64Helper的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let base64 = new util.Base64Helper();
@@ -5006,13 +4448,7 @@ encodeSync(src: Uint8Array, options?: Type): Uint8Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let base64Helper = new util.Base64Helper();
@@ -5063,13 +4499,7 @@ encodeToStringSync(src: Uint8Array, options?: Type): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // MIME编码
@@ -5181,13 +4611,7 @@ decodeSync(src: Uint8Array | string, options?: Type): Uint8Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let base64Helper = new util.Base64Helper();
@@ -5240,13 +4664,7 @@ encode(src: Uint8Array, options?: Type): Promise<Uint8Array>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let base64Helper = new util.Base64Helper();
@@ -5298,13 +4716,7 @@ encodeToString(src: Uint8Array, options?: Type): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let base64Helper = new util.Base64Helper();
@@ -5361,13 +4773,7 @@ decode(src: Uint8Array | string, options?: Type): Promise<Uint8Array>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let base64Helper = new util.Base64Helper();
@@ -5418,13 +4824,7 @@ StringDecoder的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let decoder = new util.StringDecoder();
@@ -5470,13 +4870,7 @@ write(chunk: string | Uint8Array): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let decoder = new util.StringDecoder('utf-8');
@@ -5526,13 +4920,7 @@ end(chunk?: string | Uint8Array): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let decoder = new util.StringDecoder('utf-8');
@@ -5582,13 +4970,7 @@ Types的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let type = new util.types();
@@ -5624,13 +5006,7 @@ isAnyArrayBuffer(value: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let type = new util.types();
@@ -5671,13 +5047,7 @@ ArrayBufferView类型包括：Int8Array、Int16Array、Int32Array、Uint8Array�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let type = new util.types();
@@ -5716,13 +5086,7 @@ isArgumentsObject(value: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let type = new util.types();
@@ -5764,13 +5128,7 @@ isArrayBuffer(value: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let type = new util.types();
@@ -5809,13 +5167,7 @@ isAsyncFunction(value: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let type = new util.types();
@@ -5858,13 +5210,7 @@ isBooleanObject(value: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let type = new util.types();
@@ -5907,13 +5253,7 @@ isBoxedPrimitive(value: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let type = new util.types();
@@ -5952,13 +5292,7 @@ isDataView(value: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let type = new util.types();
@@ -5998,13 +5332,7 @@ isDate(value: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let type = new util.types();
@@ -6043,13 +5371,7 @@ isExternal(value: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // /entry/src/main/cpp/napi_init.cpp
@@ -6082,13 +5404,7 @@ isExternal(value: Object): boolean
 28. ...
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import testNapi from 'libentry.so';
@@ -6134,13 +5450,7 @@ isFloat32Array(value: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let type = new util.types();
@@ -6179,13 +5489,7 @@ isFloat64Array(value: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let type = new util.types();
@@ -6224,26 +5528,14 @@ isGeneratorFunction(value: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // /entry/src/main/ets/pages/test.ts
 2. export function* foo() {}
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { foo } from './test'
@@ -6284,13 +5576,7 @@ isGeneratorObject(value: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // /entry/src/main/ets/pages/test.ts
@@ -6298,13 +5584,7 @@ isGeneratorObject(value: Object): boolean
 3. export const generator = foo();
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { generator } from './test'
@@ -6345,13 +5625,7 @@ isInt8Array(value: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let type = new util.types();
@@ -6390,13 +5664,7 @@ isInt16Array(value: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let type = new util.types();
@@ -6435,13 +5703,7 @@ isInt32Array(value: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let type = new util.types();
@@ -6480,13 +5742,7 @@ isMap(value: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let type = new util.types();
@@ -6525,13 +5781,7 @@ isMapIterator(value: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let type = new util.types();
@@ -6571,13 +5821,7 @@ isNativeError(value: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let type = new util.types();
@@ -6620,13 +5864,7 @@ isNumberObject(value: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let type = new util.types();
@@ -6665,13 +5903,7 @@ isPromise(value: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let type = new util.types();
@@ -6710,13 +5942,7 @@ isProxy(value: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class Target{
@@ -6759,13 +5985,7 @@ isRegExp(value: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let type = new util.types();
@@ -6804,13 +6024,7 @@ isSet(value: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let type = new util.types();
@@ -6850,13 +6064,7 @@ isSetIterator(value: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let type = new util.types();
@@ -6900,13 +6108,7 @@ isStringObject(value: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let type = new util.types();
@@ -6949,26 +6151,14 @@ isSymbolObject(value: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // /entry/src/main/ets/pages/test.ts
 2. export const symbols = Symbol('foo');
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { symbols } from './test'
@@ -7011,13 +6201,7 @@ TypedArray类型，包括Int8Array、Int16Array、Int32Array、Uint8Array、Uint
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let type = new util.types();
@@ -7056,13 +6240,7 @@ isUint8Array(value: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let type = new util.types();
@@ -7101,13 +6279,7 @@ isUint8ClampedArray(value: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let type = new util.types();
@@ -7146,13 +6318,7 @@ isUint16Array(value: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let type = new util.types();
@@ -7191,13 +6357,7 @@ isUint32Array(value: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let type = new util.types();
@@ -7236,13 +6396,7 @@ isWeakMap(value: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let type = new util.types();
@@ -7282,13 +6436,7 @@ isWeakSet(value: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let type = new util.types();
@@ -7327,13 +6475,7 @@ isBigInt64Array(value: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let type = new util.types();
@@ -7372,13 +6514,7 @@ isBigUint64Array(value: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let type = new util.types();
@@ -7417,13 +6553,7 @@ isModuleNamespaceObject(value: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // /entry/src/main/ets/pages/test.ts
@@ -7432,13 +6562,7 @@ isModuleNamespaceObject(value: Object): boolean
 4. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import * as nameSpace from './test';
@@ -7479,13 +6603,7 @@ isSharedArrayBuffer(value: Object): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let type = new util.types();
@@ -7553,13 +6671,7 @@ static register<T>(obj: AutoFinalizer<T>, heldValue: T): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class DeviceManageViewModel implements util.AutoFinalizer<string> {
@@ -7598,13 +6710,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro : util.LruBuffer<number,number>= new util.LruBuffer();
@@ -7639,13 +6745,7 @@ constructor(capacity?: number)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro : util.LruBuffer<number,number> = new util.LruBuffer();
@@ -7675,13 +6775,7 @@ updateCapacity(newCapacity: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro : util.LruBuffer<number,number> = new util.LruBuffer();
@@ -7712,13 +6806,7 @@ toString(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro : util.LruBuffer<number,number> = new util.LruBuffer();
@@ -7754,13 +6842,7 @@ getCapacity(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro : util.LruBuffer<number,number> = new util.LruBuffer();
@@ -7785,13 +6867,7 @@ clear(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro : util.LruBuffer<number,number> = new util.LruBuffer();
@@ -7824,13 +6900,7 @@ getCreateCount(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro : util.LruBuffer<number,number> = new util.LruBuffer();
@@ -7864,13 +6934,7 @@ getMissCount(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro : util.LruBuffer<number,number> = new util.LruBuffer();
@@ -7905,13 +6969,7 @@ getRemovalCount(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro : util.LruBuffer<number,number> = new util.LruBuffer();
@@ -7947,13 +7005,7 @@ getMatchCount(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro : util.LruBuffer<number,number> = new util.LruBuffer();
@@ -7988,13 +7040,7 @@ getPutCount(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro : util.LruBuffer<number,number> = new util.LruBuffer();
@@ -8028,13 +7074,7 @@ isEmpty(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro : util.LruBuffer<number,number> = new util.LruBuffer();
@@ -8076,13 +7116,7 @@ get(key: K): V | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro : util.LruBuffer<number,number> = new util.LruBuffer();
@@ -8125,13 +7159,7 @@ put(key: K,value: V): V
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro : util.LruBuffer<number,number> = new util.LruBuffer();
@@ -8164,13 +7192,7 @@ values(): V[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro : util.LruBuffer<number|string,number|string> = new util.LruBuffer();
@@ -8206,13 +7228,7 @@ keys(): K[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro : util.LruBuffer<number,number> = new util.LruBuffer();
@@ -8254,13 +7270,7 @@ remove(key: K): V | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro : util.LruBuffer<number,number> = new util.LruBuffer();
@@ -8297,13 +7307,7 @@ afterRemoval(isEvict: boolean,key: K,value: V,newValue: V): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class ChildLruBuffer<K, V> extends util.LruBuffer<K, V> {
@@ -8360,13 +7364,7 @@ contains(key: K): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro : util.LruBuffer<number,number> = new util.LruBuffer();
@@ -8408,13 +7406,7 @@ createDefault(key: K): V
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro : util.LruBuffer<number,number> = new util.LruBuffer();
@@ -8445,13 +7437,7 @@ entries(): IterableIterator<[K, V]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro : util.LruBuffer<number,number> = new util.LruBuffer();
@@ -8483,13 +7469,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro : util.LruBuffer<number,number> = new util.LruBuffer();
@@ -8530,13 +7510,7 @@ constructor(lowerObj: ScopeType, upperObj: ScopeType)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class Temperature implements util.ScopeComparable {
@@ -8590,13 +7564,7 @@ toString(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class Temperature implements util.ScopeComparable {
@@ -8659,13 +7627,7 @@ intersect(range: Scope): Scope
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class Temperature implements util.ScopeComparable {
@@ -8732,13 +7694,7 @@ intersect(lowerObj:ScopeType,upperObj:ScopeType):Scope
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class Temperature implements util.ScopeComparable {
@@ -8795,13 +7751,7 @@ getUpper(): ScopeType
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class Temperature implements util.ScopeComparable {
@@ -8856,13 +7806,7 @@ getLower(): ScopeType
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class Temperature implements util.ScopeComparable {
@@ -8926,13 +7870,7 @@ expand(lowerObj: ScopeType,upperObj: ScopeType): Scope
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class Temperature implements util.ScopeComparable {
@@ -8997,13 +7935,7 @@ expand(range: Scope): Scope
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class Temperature implements util.ScopeComparable {
@@ -9069,13 +8001,7 @@ expand(value: ScopeType): Scope
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class Temperature implements util.ScopeComparable {
@@ -9139,13 +8065,7 @@ contains(value: ScopeType): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class Temperature implements util.ScopeComparable {
@@ -9209,13 +8129,7 @@ contains(range: Scope): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class Temperature implements util.ScopeComparable {
@@ -9281,13 +8195,7 @@ clamp(value: ScopeType): ScopeType
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class Temperature implements util.ScopeComparable {
@@ -9343,13 +8251,7 @@ Base64的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let base64 = new  util.Base64();
@@ -9387,13 +8289,7 @@ encodeSync(src: Uint8Array): Uint8Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let base64 = new util.Base64();
@@ -9435,13 +8331,7 @@ encodeToStringSync(src: Uint8Array): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let base64 = new util.Base64();
@@ -9483,13 +8373,7 @@ decodeSync(src: Uint8Array | string): Uint8Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let base64 = new util.Base64();
@@ -9531,13 +8415,7 @@ encode(src: Uint8Array): Promise<Uint8Array>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let base64 = new util.Base64();
@@ -9580,13 +8458,7 @@ encodeToString(src: Uint8Array): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let base64 = new util.Base64();
@@ -9629,13 +8501,7 @@ decode(src: Uint8Array | string): Promise<Uint8Array>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let base64 = new util.Base64();

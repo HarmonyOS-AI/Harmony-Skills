@@ -6,13 +6,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { minorsProtection } from '@kit.AccountKit';
@@ -121,13 +115,7 @@ supportMinorsMode(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { minorsProtection } from '@kit.AccountKit';
@@ -183,13 +171,7 @@ getMinorsProtectionInfoSync(): MinorsProtectionInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { minorsProtection } from '@kit.AccountKit';
@@ -268,13 +250,7 @@ getMinorsProtectionInfo(): Promise<MinorsProtectionInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { minorsProtection } from '@kit.AccountKit';
@@ -371,13 +347,7 @@ verifyMinorsProtectionCredential(context: common.Context): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { minorsProtection } from '@kit.AccountKit';
@@ -464,13 +434,7 @@ leadToTurnOnMinorsMode(context: common.Context): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { minorsProtection } from '@kit.AccountKit';
@@ -555,13 +519,7 @@ leadToTurnOffMinorsMode(context: common.Context): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { minorsProtection } from '@kit.AccountKit';

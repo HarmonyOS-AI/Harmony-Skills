@@ -31,13 +31,7 @@ bind(id: string): void
 
 该示例通过监听onTouch事件控制放大镜对图片进行放大显示。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Magnifier } from '@kit.ArkUI';

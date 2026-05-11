@@ -14,13 +14,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.MDMKit';
@@ -71,13 +65,7 @@ isWifiActiveSync(admin: Want): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.MDMKit';
@@ -138,13 +126,7 @@ setWifiProfileSync(admin: Want, profile: WifiProfile): void
 
 **适用于公共开发Wi-Fi**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.MDMKit';
@@ -173,13 +155,7 @@ setWifiProfileSync(admin: Want, profile: WifiProfile): void
 
 **适用于多个同名Wi-Fi但不同BSSID的场景**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.MDMKit';
@@ -209,13 +185,7 @@ setWifiProfileSync(admin: Want, profile: WifiProfile): void
 
 **适用于老旧的工业设备等场景、安全性低**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.MDMKit';
@@ -245,13 +215,7 @@ setWifiProfileSync(admin: Want, profile: WifiProfile): void
 
 **适用于家庭网络、小型办公室、消费级路由器等场景**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.MDMKit';
@@ -280,13 +244,7 @@ setWifiProfileSync(admin: Want, profile: WifiProfile): void
 
 **适用于现代化IoT设备网络**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.MDMKit';
@@ -315,13 +273,7 @@ setWifiProfileSync(admin: Want, profile: WifiProfile): void
 
 **适用于公司网络和大学校园网络**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.MDMKit';
@@ -366,13 +318,7 @@ setWifiProfileSync(admin: Want, profile: WifiProfile): void
 40. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.MDMKit';
@@ -417,13 +363,7 @@ setWifiProfileSync(admin: Want, profile: WifiProfile): void
 40. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.MDMKit';
@@ -468,13 +408,7 @@ setWifiProfileSync(admin: Want, profile: WifiProfile): void
 40. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.MDMKit';
@@ -521,13 +455,7 @@ setWifiProfileSync(admin: Want, profile: WifiProfile): void
 
 **适用于需要固定IP地址供客户端访问等场景**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.MDMKit';
@@ -607,13 +535,7 @@ addAllowedWifiList(admin: Want, list: Array<WifiAccessInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.MDMKit';
@@ -676,13 +598,7 @@ removeAllowedWifiList(admin: Want, list: Array<WifiAccessInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.MDMKit';
@@ -750,13 +666,7 @@ getAllowedWifiList(admin: Want): Array<WifiAccessInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.MDMKit';
@@ -820,13 +730,7 @@ addDisallowedWifiList(admin: Want, list: Array<WifiAccessInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.MDMKit';
@@ -889,13 +793,7 @@ removeDisallowedWifiList(admin: Want, list: Array<WifiAccessInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.MDMKit';
@@ -963,13 +861,7 @@ getDisallowedWifiList(admin: Want): Array<WifiAccessInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { wifiManager } from '@kit.MDMKit';
@@ -1030,13 +922,7 @@ turnOnWifi(admin: Want, isForce: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -1097,13 +983,7 @@ turnOffWifi(admin: Want): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';

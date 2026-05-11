@@ -17,13 +17,7 @@ systemConfiguration模块提供系统环境变化监听回调能力，包括系�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { systemConfiguration } from '@kit.AbilityKit';
@@ -57,13 +51,7 @@ onColorModeUpdated(colorMode: ConfigurationConstant.ColorMode): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, systemConfiguration, ConfigurationConstant } from '@kit.AbilityKit';
@@ -111,13 +99,7 @@ onFontSizeScaleUpdated(fontSizeScale: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, systemConfiguration } from '@kit.AbilityKit';
@@ -165,13 +147,7 @@ onFontWeightScaleUpdated(fontWeightScale: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, systemConfiguration } from '@kit.AbilityKit';
@@ -219,13 +195,7 @@ onLanguageUpdated(language: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, systemConfiguration } from '@kit.AbilityKit';
@@ -273,13 +243,7 @@ onFontIdUpdated(fontId: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, systemConfiguration } from '@kit.AbilityKit';
@@ -327,13 +291,7 @@ onMCCUpdated(mcc: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, systemConfiguration } from '@kit.AbilityKit';
@@ -381,13 +339,7 @@ onMNCUpdated(mnc: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, systemConfiguration } from '@kit.AbilityKit';
@@ -435,13 +387,7 @@ onHasPointerDeviceUpdated(hasPointerDevice: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, systemConfiguration } from '@kit.AbilityKit';
@@ -489,13 +435,7 @@ onLocaleUpdated(locale: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, systemConfiguration } from '@kit.AbilityKit';

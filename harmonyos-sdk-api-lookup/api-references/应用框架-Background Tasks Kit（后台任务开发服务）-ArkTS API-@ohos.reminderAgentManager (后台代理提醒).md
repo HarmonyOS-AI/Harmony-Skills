@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { reminderAgentManager } from '@kit.BackgroundTasksKit';
@@ -61,13 +55,7 @@ publishReminder(reminderReq: ReminderRequest, callback: AsyncCallback<number>): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -135,13 +123,7 @@ publishReminder(reminderReq: ReminderRequest): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -192,13 +174,7 @@ cancelReminder(reminderId: number, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -254,13 +230,7 @@ cancelReminder(reminderId: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -305,13 +275,7 @@ getValidReminders(callback: AsyncCallback<Array<ReminderRequest>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -377,13 +341,7 @@ getValidReminders(): Promise<Array<ReminderRequest>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -447,13 +405,7 @@ cancelAllReminders(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -499,13 +451,7 @@ cancelAllReminders(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -549,13 +495,7 @@ addNotificationSlot(slot: NotificationSlot, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { notificationManager } from '@kit.NotificationKit';
@@ -613,13 +553,7 @@ addNotificationSlot(slot: NotificationSlot): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { notificationManager } from '@kit.NotificationKit';
@@ -667,13 +601,7 @@ removeNotificationSlot(slotType: notification.SlotType, callback: AsyncCallback<
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { notificationManager } from '@kit.NotificationKit';
@@ -728,13 +656,7 @@ removeNotificationSlot(slotType: notification.SlotType): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { notificationManager } from '@kit.NotificationKit';
@@ -778,13 +700,7 @@ getAllValidReminders(): Promise<Array<ReminderInfo>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -858,13 +774,7 @@ addExcludeDate(reminderId: number, date: Date): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -918,13 +828,7 @@ deleteExcludeDates(reminderId: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -977,13 +881,7 @@ getExcludeDates(reminderId: number): Promise<Array<Date>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1043,13 +941,7 @@ updateReminder(reminderId: number, reminderReq: ReminderRequest): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { reminderAgentManager } from '@kit.BackgroundTasksKit';
@@ -1107,13 +999,7 @@ cancelReminderOnDisplay(reminderId: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { reminderAgentManager } from '@kit.BackgroundTasksKit';
@@ -1170,13 +1056,7 @@ subscribeReminderState(callback: Callback<Array<ReminderState>>): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { reminderAgentManager } from '@kit.BackgroundTasksKit';
@@ -1233,13 +1113,7 @@ unsubscribeReminderState(callback?: Callback<Array<ReminderState>>): Promise<voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { reminderAgentManager } from '@kit.BackgroundTasksKit';

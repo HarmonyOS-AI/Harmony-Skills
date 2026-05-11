@@ -36,13 +36,7 @@ VK\_OHOS\_external\_memory 扩展用于在GPU Vulkan环境下与HarmonyOS的本�
 
 1. 启动渲染子线程，初始化Vulkan环境，动态加载libvulkan.so, 并加载Vulkan基础函数的指针。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. void VulkanRenderThread::ThreadMainLoop() {
@@ -85,13 +79,7 @@ VK\_OHOS\_external\_memory 扩展用于在GPU Vulkan环境下与HarmonyOS的本�
 
    动态加载libvulkan.so，并加载Vulkan基础函数的指针。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. // Dynamically load Vulkan library and base function pointers
@@ -119,13 +107,7 @@ VK\_OHOS\_external\_memory 扩展用于在GPU Vulkan环境下与HarmonyOS的本�
    ```
 2. 创建NativeImage对象作为OHNativeBuffer的消费端，并根据NativeImage对象获取对应的NativeWindow对象，将NativeWindow句柄传给视频编解码，作为OHNativeBuffer的生产端，用于生产视频帧内容。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. bool VulkanRenderThread::CreateNativeImage() {
@@ -159,13 +141,7 @@ VK\_OHOS\_external\_memory 扩展用于在GPU Vulkan环境下与HarmonyOS的本�
    ```
 3. 获取XComponent的NativeWindow对象，根据NativeWindow对象创建出Vulkan环境的VkSurface，用于绘制显示内容。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. void VulkanRenderThread::UpdateNativeWindow(void *window, uint64_t width, uint64_t height) {
@@ -190,13 +166,7 @@ VK\_OHOS\_external\_memory 扩展用于在GPU Vulkan环境下与HarmonyOS的本�
 
    同时更新初始化Vulkan的上下文，包括Vulkan的实列、选择物理设备、创建渲染管线等。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. void VulkanRender::SetupWindow(NativeWindow *nativeWindow) {
@@ -219,13 +189,7 @@ VK\_OHOS\_external\_memory 扩展用于在GPU Vulkan环境下与HarmonyOS的本�
 
    通过vkCreateSurfaceOHOS()创建VkSurface对象。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. bool VulkanRender::CreateSurface() {
@@ -244,13 +208,7 @@ VK\_OHOS\_external\_memory 扩展用于在GPU Vulkan环境下与HarmonyOS的本�
    ```
 4. 初始化视频解码的环境，包括初始化解封装器、初始化解码器。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. napi_value PluginRender::StartPlayer(napi_env env, napi_callback_info info)
@@ -286,13 +244,7 @@ VK\_OHOS\_external\_memory 扩展用于在GPU Vulkan环境下与HarmonyOS的本�
    ```
 5. 启动解码器、解码输入子线程、解码输出子线程。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. int32_t Player::Start() {
@@ -330,13 +282,7 @@ VK\_OHOS\_external\_memory 扩展用于在GPU Vulkan环境下与HarmonyOS的本�
    ```
 6. 在解码输入子线程中，通过解封装器读取视频数据，并交给解码器。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. void Player::VideoDecInputThread() {
@@ -381,13 +327,7 @@ VK\_OHOS\_external\_memory 扩展用于在GPU Vulkan环境下与HarmonyOS的本�
    ```
 7. 在解码输出子线程中，将解码后的视频提交给输出Surface。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. void Player::VideoDecOutputThread() {
@@ -436,13 +376,7 @@ VK\_OHOS\_external\_memory 扩展用于在GPU Vulkan环境下与HarmonyOS的本�
    ```
 8. 在NativeImage有可用数据后，通过OH\_NativeImage\_AcquireNativeWindowBuffer()获取视频数据，并通过OH\_NativeBuffer\_FromNativeWindowBuffer()转化NativeBuffer的类型。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. void VulkanRenderThread::DrawImage() {
@@ -479,13 +413,7 @@ VK\_OHOS\_external\_memory 扩展用于在GPU Vulkan环境下与HarmonyOS的本�
    * API version 23之前，基于标准库VkExternalMemoryImageCreateInfo结构体，系统支持扩展类型VK\_EXTERNAL\_MEMORY\_HANDLE\_TYPE\_OHOS\_NATIVE\_BUFFER\_BIT\_OHOS。
    * 从API version 23开始，VK\_EXTERNAL\_MEMORY\_HANDLE\_TYPE\_OHOS\_NATIVE\_BUFFER\_BIT\_OHOS已废弃，请改用VK\_EXTERNAL\_MEMORY\_HANDLE\_TYPE\_OH\_NATIVE\_BUFFER\_BIT\_OHOS。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. void VulkanRender::hwBufferToTexture(OH_NativeBuffer *buffer, float transformMatrix[16]) {

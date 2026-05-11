@@ -565,13 +565,7 @@ defaultTextStyle(style: TextPickerTextStyle)
 
 开启触控反馈时，需要在工程的src/main/module.json5文件的"module"内配置requestPermissions字段开启振动权限，配置如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. "requestPermissions": [
@@ -603,13 +597,7 @@ enableHapticFeedback(enable: Optional<boolean>)
 
 开启触控反馈时，需要在工程的src/main/module.json5文件的"module"内配置requestPermissions字段开启振动权限，配置如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. "requestPermissions": [
@@ -941,13 +929,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 18开始，新增了[TextPickerOptions](/consumer/cn/doc/harmonyos-references/ts-basic-components-textpicker#textpickeroptions对象说明)的columnWidths属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1044,13 +1026,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例使用[disappearTextStyle](/consumer/cn/doc/harmonyos-references/ts-basic-components-textpicker#disappeartextstyle10)、[textStyle](/consumer/cn/doc/harmonyos-references/ts-basic-components-textpicker#textstyle10)、[selectedTextStyle](/consumer/cn/doc/harmonyos-references/ts-basic-components-textpicker#selectedtextstyle10)设置文本选择器中的文本样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1090,13 +1066,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置[divider](/consumer/cn/doc/harmonyos-references/ts-basic-components-textpicker#divider12)为null实现无分割线样式的文本选择器。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1130,13 +1100,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置divider的DividerOptions设置文本选择器的分割线样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1175,13 +1139,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置[gradientHeight](/consumer/cn/doc/harmonyos-references/ts-basic-components-textpicker#gradientheight12)设置文本选择器的渐隐效果高度。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1215,13 +1173,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置[defaultPickerItemHeight](/consumer/cn/doc/harmonyos-references/ts-basic-components-textpicker#defaultpickeritemheight)设置选择项的高度。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1252,13 +1204,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置[canLoop](/consumer/cn/doc/harmonyos-references/ts-basic-components-textpicker#canloop10)设置文本选择器是否循环滚动。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1300,13 +1246,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置[selectedIndex](/consumer/cn/doc/harmonyos-references/ts-basic-components-textpicker#selectedindex10)设置默认选中项的索引值。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1338,13 +1278,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 15开始，新增disableTextStyleAnimation、defaultTextStyle接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1381,13 +1315,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置[selectedBackgroundStyle](/consumer/cn/doc/harmonyos-references/ts-basic-components-textpicker#selectedbackgroundstyle20)实现文本选择器选中项的背景样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LengthUnit } from '@kit.ArkUI';
@@ -1453,13 +1381,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，新增disappearTextStyle、textStyle和selectedTextStyle接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

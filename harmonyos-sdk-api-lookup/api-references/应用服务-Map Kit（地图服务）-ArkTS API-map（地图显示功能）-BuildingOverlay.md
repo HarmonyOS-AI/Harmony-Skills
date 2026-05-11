@@ -2,13 +2,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { map, mapCommon } from '@kit.MapKit';
@@ -30,13 +24,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let points: Array<mapCommon.LatLng> = [
@@ -228,13 +216,7 @@ getId(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let id: String = buildingOverlay.getId();
@@ -258,13 +240,7 @@ remove(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. buildingOverlay.remove();
@@ -296,13 +272,7 @@ setSideVisible(visible: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. buildingOverlay.setSideVisible(true);
@@ -334,13 +304,7 @@ setFloorVisible(visible: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. buildingOverlay.setFloorVisible(true);
@@ -372,13 +336,7 @@ setFloorBottomHeight(height: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. buildingOverlay.setFloorBottomHeight(80);

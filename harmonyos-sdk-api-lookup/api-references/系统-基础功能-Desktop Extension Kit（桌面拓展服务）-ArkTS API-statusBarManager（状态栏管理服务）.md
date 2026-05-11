@@ -6,13 +6,7 @@
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { statusBarManager } from '@kit.DeskTopExtensionKit';
@@ -224,13 +218,7 @@ addToStatusBar(context: common.Context, statusBarItem: StatusBarItem): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { statusBarManager } from '@kit.DeskTopExtensionKit';
@@ -353,13 +341,7 @@ addToStatusBar(context: common.Context, statusBarItem: StatusBarItem, callback: 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { statusBarManager } from '@kit.DeskTopExtensionKit';
@@ -483,13 +465,7 @@ removeFromStatusBar(context: common.Context): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { statusBarManager } from '@kit.DeskTopExtensionKit';
@@ -546,13 +522,7 @@ removeFromStatusBar(context: common.Context, callback: AsyncCallback<void>): voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { statusBarManager } from '@kit.DeskTopExtensionKit';
@@ -615,13 +585,7 @@ updateQuickOperationHeight(context: common.Context, height: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { statusBarManager } from '@kit.DeskTopExtensionKit';
@@ -679,13 +643,7 @@ updateQuickOperationHeight(context: common.Context, height: number, callback: As
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { statusBarManager } from '@kit.DeskTopExtensionKit';
@@ -752,13 +710,7 @@ updateStatusBarMenu(context: common.Context, statusBarGroupMenus: StatusBarGroup
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { statusBarManager } from '@kit.DeskTopExtensionKit';
@@ -837,13 +789,7 @@ updateStatusBarMenu(context: common.Context, statusBarGroupMenus: StatusBarGroup
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { statusBarManager } from '@kit.DeskTopExtensionKit';
@@ -926,13 +872,7 @@ updateStatusBarIcon(context: common.Context, statusBarIcon: StatusBarIcon): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { statusBarManager } from '@kit.DeskTopExtensionKit';
@@ -1013,13 +953,7 @@ updateStatusBarIcon(context: common.Context, statusBarIcon: StatusBarIcon, callb
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { statusBarManager } from '@kit.DeskTopExtensionKit';
@@ -1094,13 +1028,7 @@ on(type: 'statusBarIconClick', callback: Callback<emitter.EventData>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. private onStatusBarIconClick = (eventData: emitter.EventData) => {
@@ -1144,13 +1072,7 @@ off(type: 'statusBarIconClick', callback?: Callback<emitter.EventData>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. private onStatusBarIconClick = (eventData: emitter.EventData) => {
@@ -1196,13 +1118,7 @@ on(type: 'rightMenuClick', callback: Callback<emitter.EventData>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. private onRightMenuClick = (eventData: emitter.EventData) => {
@@ -1241,13 +1157,7 @@ off(type: 'rightMenuClick', callback?: Callback<emitter.EventData>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. private onRightMenuClick = (eventData: emitter.EventData) => {
@@ -1308,13 +1218,7 @@ updateStatusBarHoverTips(context: common.Context, hoverTips: string): Promise<vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { statusBarManager } from '@kit.DeskTopExtensionKit';
@@ -1382,13 +1286,7 @@ updateStatusBarMenuItem(context: common.Context, item: StatusBarMenuItem): Promi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { statusBarManager } from '@kit.DeskTopExtensionKit';
@@ -1489,13 +1387,7 @@ updateStatusBarSubMenuItem(context: common.Context, item: StatusBarSubMenuItem):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { statusBarManager } from '@kit.DeskTopExtensionKit';

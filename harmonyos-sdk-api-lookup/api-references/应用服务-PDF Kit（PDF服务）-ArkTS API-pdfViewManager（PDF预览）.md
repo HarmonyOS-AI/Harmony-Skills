@@ -8,13 +8,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager } from '@kit.PDFKit';
@@ -42,13 +36,7 @@ constructor()
 
 **起始版本：** 5.0.0(12)
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager } from '@kit.PDFKit';
@@ -80,13 +68,7 @@ setViewOffset(offsetX: number, offsetY: number, refreshView: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager, pdfService } from '@kit.PDFKit';
@@ -132,13 +114,7 @@ getPagePixelMap(pageIndex: number, isSync?: boolean): Promise<image.PixelMap>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager, pdfService } from '@kit.PDFKit';
@@ -175,13 +151,7 @@ registerScrollListener(listener: Callback<ScrollParam>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager } from '@kit.PDFKit';
@@ -213,13 +183,7 @@ enablePageDrag(verticalEnabled: boolean, horizontalEnabled: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager, pdfService } from '@kit.PDFKit';
@@ -267,13 +231,7 @@ loadDocument(path: string, password?: string, initPageIndex?: number, onProgress
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager, pdfService } from '@kit.PDFKit';
@@ -299,13 +257,7 @@ releaseDocument(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager, pdfService } from '@kit.PDFKit';
@@ -343,13 +295,7 @@ setHighlightRects(rectArray: Array<PageRects>, color?: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager, pdfService } from '@kit.PDFKit'
@@ -393,13 +339,7 @@ setHighlightText(pageIndex: number, textArray: string[], color: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager, pdfService } from '@kit.PDFKit';
@@ -436,13 +376,7 @@ setPageZoom(zoom: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager, pdfService } from '@kit.PDFKit';
@@ -479,13 +413,7 @@ getPageZoom(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager, pdfService } from '@kit.PDFKit';
@@ -534,13 +462,7 @@ setMaxZoom(maxZoom: number): boolean;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager, pdfService } from '@kit.PDFKit';
@@ -588,13 +510,7 @@ getMaxZoom(): number;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager, pdfService } from '@kit.PDFKit';
@@ -654,13 +570,7 @@ setMinZoom(minZoom: number): boolean;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager, pdfService } from '@kit.PDFKit';
@@ -708,13 +618,7 @@ getMinZoom(): number;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager, pdfService } from '@kit.PDFKit';
@@ -762,13 +666,7 @@ setPageLayout(columnCount: pdfService.PageLayout): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService, pdfViewManager } from '@kit.PDFKit';
@@ -805,13 +703,7 @@ getPageLayout(): pdfService.PageLayout
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService, pdfViewManager } from '@kit.PDFKit';
@@ -848,13 +740,7 @@ setPageContinuous(isContinuous: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager, pdfService } from '@kit.PDFKit';
@@ -891,13 +777,7 @@ isPageContinuous(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager, pdfService } from '@kit.PDFKit';
@@ -934,13 +814,7 @@ setPageFit(pageFit: pdfService.PageFit): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService, pdfViewManager } from '@kit.PDFKit';
@@ -977,13 +851,7 @@ getPageFit(): pdfService.PageFit
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService, pdfViewManager } from '@kit.PDFKit';
@@ -1021,13 +889,7 @@ setPageSpacing(horizontal: number, vertical?: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager, pdfService } from '@kit.PDFKit';
@@ -1064,13 +926,7 @@ getPageHorizontalSpacing(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager, pdfService } from '@kit.PDFKit';
@@ -1107,13 +963,7 @@ getPageVerticalSpacing(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager, pdfService } from '@kit.PDFKit';
@@ -1150,13 +1000,7 @@ getPageCount(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager, pdfService } from '@kit.PDFKit';
@@ -1193,13 +1037,7 @@ getPageIndex(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager, pdfService } from '@kit.PDFKit';
@@ -1236,13 +1074,7 @@ goToPage(pageIndex: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager, pdfService } from '@kit.PDFKit';
@@ -1280,13 +1112,7 @@ setPageRotation(pageIndex: number, angle: pdfService.RotationAngle): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService, pdfViewManager } from '@kit.PDFKit';
@@ -1331,13 +1157,7 @@ getPageRotation(pageIndex: number): pdfService.RotationAngle
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService, pdfViewManager } from '@kit.PDFKit';
@@ -1375,13 +1195,7 @@ enableAnnotation(annotationType: SupportedAnnotationType, color?: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager, pdfService } from '@kit.PDFKit';
@@ -1420,13 +1234,7 @@ addMarkupAnnotation(annotationType: SupportedAnnotationType, selectedRects: Arra
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService, pdfViewManager } from '@kit.PDFKit';
@@ -1457,13 +1265,7 @@ disableAnnotation(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager, pdfService } from '@kit.PDFKit';
@@ -1501,13 +1303,7 @@ deleteSelectedAnnotation(annotationIndex: number, pageIndex: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager, pdfService } from '@kit.PDFKit';
@@ -1547,13 +1343,7 @@ updateMarkupAnnotation(annotationIndex: number, pageIndex: number, color: number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager, pdfService } from '@kit.PDFKit';
@@ -1604,13 +1394,7 @@ saveDocument(path: string, onProgress?: Callback<number>): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService, pdfViewManager } from '@kit.PDFKit';
@@ -1656,13 +1440,7 @@ registerSelectedRectsChangedListener(listener: Callback<Array<SelectedRects>>): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager } from '@kit.PDFKit';
@@ -1693,13 +1471,7 @@ registerPageFitChangedListener(listener: Callback<pdfService.PageFit>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager, pdfService } from '@kit.PDFKit';
@@ -1730,13 +1502,7 @@ registerPageChangedListener(listener: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager } from '@kit.PDFKit';
@@ -1767,13 +1533,7 @@ registerScaleChangedListener(listener: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager } from '@kit.PDFKit';
@@ -1804,13 +1564,7 @@ registerTextSelectedListener(listener: Callback<TextSelectedParam>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager } from '@kit.PDFKit';
@@ -1841,13 +1595,7 @@ registerAnnotationSelectedListener(listener: Callback<SelectedAnnotation>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager } from '@kit.PDFKit';
@@ -1878,13 +1626,7 @@ registerImageSelectedListener(listener: Callback<ImageSelectedParam>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager } from '@kit.PDFKit';
@@ -1915,13 +1657,7 @@ registerActionClickListener(listener: Callback<RedirectInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager } from '@kit.PDFKit';
@@ -1952,13 +1688,7 @@ registerAnnotationChangedListener(listener: Callback<AnnotationChangedParam>): v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager } from '@kit.PDFKit';
@@ -1989,13 +1719,7 @@ registerPageCountChangedListener(listener: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager } from '@kit.PDFKit';
@@ -2027,13 +1751,7 @@ searchKey(text: string, listener: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager, pdfService } from '@kit.PDFKit';
@@ -2062,13 +1780,7 @@ clearSearch(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager, pdfService } from '@kit.PDFKit';
@@ -2105,13 +1817,7 @@ getSearchIndex(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager, pdfService } from '@kit.PDFKit';
@@ -2148,13 +1854,7 @@ setSearchIndex(index: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager, pdfService } from '@kit.PDFKit';
@@ -2191,13 +1891,7 @@ setDisplayDirection(displayDirection: DisplayDirection): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager, pdfService } from '@kit.PDFKit';
@@ -2240,13 +1934,7 @@ setNestedScroll(value: PdfNestedScrollOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager, pdfService } from '@kit.PDFKit';
@@ -2322,13 +2010,7 @@ constructor(content: string, actionType: RedirectType)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfViewManager } from '@kit.PDFKit';
@@ -2439,13 +2121,7 @@ constructor(pageIndex: number, rectArray: Array<pdfService.PdfRect>, isRotated: 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pdfService, pdfViewManager } from '@kit.PDFKit';

@@ -30,13 +30,7 @@
 
 ### attestation
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FIDO2_AttestationConveyancePreference FIDO2_PublicKeyCredentialCreationOptions::attestation
@@ -48,13 +42,7 @@
 
 ### attestationFormats
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FIDO2_AttestationFormatsArray FIDO2_PublicKeyCredentialCreationOptions::attestationFormats
@@ -66,13 +54,7 @@
 
 ### authenticatorSelection
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FIDO2_AuthenticatorSelectionCriteria FIDO2_PublicKeyCredentialCreationOptions::authenticatorSelection
@@ -84,13 +66,7 @@
 
 ### challenge
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Uint8Buff FIDO2_PublicKeyCredentialCreationOptions::challenge
@@ -102,13 +78,7 @@
 
 ### excludeCredentials
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FIDO2_PublicKeyCredentialDescriptorArray FIDO2_PublicKeyCredentialCreationOptions::excludeCredentials
@@ -120,13 +90,7 @@ FIDO服务器已注册的凭据列表。默认值为[]。可选。
 
 ### extensions
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. char* FIDO2_PublicKeyCredentialCreationOptions::extensions
@@ -138,13 +102,7 @@ FIDO服务器已注册的凭据列表。默认值为[]。可选。
 
 ### hints
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FIDO2_PublicKeyCredentialHintArray FIDO2_PublicKeyCredentialCreationOptions::hints
@@ -156,13 +114,7 @@ FIDO服务器已注册的凭据列表。默认值为[]。可选。
 
 ### pubKeyCredParams
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FIDO2_CredentialCreationOptionArray FIDO2_PublicKeyCredentialCreationOptions::pubKeyCredParams
@@ -174,13 +126,7 @@ FIDO服务器已注册的凭据列表。默认值为[]。可选。
 
 ### rp
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FIDO2_PublicKeyCredentialRpEntity FIDO2_PublicKeyCredentialCreationOptions::rp
@@ -192,13 +138,7 @@ FIDO服务器已注册的凭据列表。默认值为[]。可选。
 
 ### timeout
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint32_t FIDO2_PublicKeyCredentialCreationOptions::timeout
@@ -210,13 +150,7 @@ FIDO服务器已注册的凭据列表。默认值为[]。可选。
 
 ### user
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FIDO2_PublicKeyCredentialUserEntity FIDO2_PublicKeyCredentialCreationOptions::user

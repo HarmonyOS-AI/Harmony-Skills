@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { camera } from '@kit.CameraKit';
@@ -53,13 +47,7 @@ start(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -108,13 +96,7 @@ start(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -150,13 +132,7 @@ stop(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function stopVideoOutput(videoOutput: camera.VideoOutput): void {
@@ -188,13 +164,7 @@ stop(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -235,13 +205,7 @@ on(type: 'frameStart', callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -286,13 +250,7 @@ off(type: 'frameStart', callback?: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function unregisterVideoOutputFrameStart(videoOutput: camera.VideoOutput): void {
@@ -323,13 +281,7 @@ on(type: 'frameEnd', callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -370,13 +322,7 @@ off(type: 'frameEnd', callback?: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function unregisterVideoOutputFrameEnd(videoOutput: camera.VideoOutput): void {
@@ -411,13 +357,7 @@ on(type: 'error', callback: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -454,13 +394,7 @@ off(type: 'error', callback?: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function unregisterVideoOutputError(videoOutput: camera.VideoOutput): void {
@@ -490,13 +424,7 @@ getSupportedFrameRates(): Array<FrameRateRange>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function getSupportedFrameRates(videoOutput: camera.VideoOutput): Array<camera.FrameRateRange> {
@@ -547,13 +475,7 @@ setFrameRate(minFps: number, maxFps: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function setFrameRateRange(videoOutput: camera.VideoOutput, frameRateRange: Array<number>): void {
@@ -585,13 +507,7 @@ getActiveFrameRate(): FrameRateRange
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function getActiveFrameRate(videoOutput: camera.VideoOutput): camera.FrameRateRange {
@@ -632,13 +548,7 @@ getActiveProfile(): VideoProfile
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -678,13 +588,7 @@ isMirrorSupported(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function testIsMirrorSupported(videoOutput: camera.VideoOutput): boolean {
@@ -729,13 +633,7 @@ enableMirror(enabled: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { camera } from '@kit.CameraKit';
@@ -797,13 +695,7 @@ getVideoRotation(deviceDegree?: number): ImageRotation
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { camera } from '@kit.CameraKit';

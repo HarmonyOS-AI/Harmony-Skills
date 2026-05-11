@@ -210,13 +210,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过点击按钮弹出列表选择弹窗。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -288,13 +282,7 @@ PhonePC/2in1TabletTVWearable
 
 在2in1设备上设置[showInSubWindow](/consumer/cn/doc/harmonyos-references/ts-methods-action-sheet#actionsheetoptions对象说明)为true时，可以弹出在主窗外显示的弹窗。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -368,13 +356,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置[transition](/consumer/cn/doc/harmonyos-references/ts-methods-action-sheet#actionsheetoptions对象说明)实现弹窗的显示和消失动画。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -438,13 +420,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例定义了ActionSheet的样式，如宽度、高度、背景色、阴影等。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -528,13 +504,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例展示了在折叠屏悬停态下设置dialog布局区域的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -610,13 +580,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 19开始，在[ActionSheetOptions](/consumer/cn/doc/harmonyos-references/ts-methods-action-sheet#actionsheetoptions对象说明)中新增了onDidAppear、onDidDisappear、onWillAppear和onWillDisappear属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -697,13 +661,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 19开始，在[ActionSheetOptions](/consumer/cn/doc/harmonyos-references/ts-methods-action-sheet#actionsheetoptions对象说明)中新增了backgroundBlurStyleOptions属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -765,13 +723,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 19开始，在[ActionSheetOptions](/consumer/cn/doc/harmonyos-references/ts-methods-action-sheet#actionsheetoptions对象说明)中新增了backgroundEffect属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry

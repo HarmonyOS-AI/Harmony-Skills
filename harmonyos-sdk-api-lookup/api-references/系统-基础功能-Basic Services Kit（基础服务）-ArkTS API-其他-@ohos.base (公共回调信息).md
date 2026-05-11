@@ -11,13 +11,7 @@ PhonePC/2in1TabletTVWearableLite Wearable
 
 ArkTS示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AsyncCallback, BusinessError, Callback, ErrorCallback } from '@kit.BasicServicesKit';
@@ -25,13 +19,7 @@ ArkTS示例：
 
 JS示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import base from '@ohos.base';

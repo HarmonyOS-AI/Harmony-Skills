@@ -333,13 +333,7 @@ onClick(event: SaveButtonCallback)
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -422,13 +416,7 @@ PhonePC/2in1TabletTVWearable
 
 应用需要申请权限：ohos.permission.CUSTOMIZE\_SAVE\_BUTTON
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

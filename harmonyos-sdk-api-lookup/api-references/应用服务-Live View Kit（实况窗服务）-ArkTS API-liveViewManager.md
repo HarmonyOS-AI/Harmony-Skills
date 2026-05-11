@@ -6,13 +6,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { liveViewManager } from '@kit.LiveViewKit';
@@ -58,13 +52,7 @@ isLiveViewEnabled(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { liveViewManager } from '@kit.LiveViewKit';
@@ -135,13 +123,7 @@ startLiveView(liveView: LiveView): Promise<LiveViewResult>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { liveViewManager } from '@kit.LiveViewKit';
@@ -275,13 +257,7 @@ updateLiveView(liveView: LiveView): Promise<LiveViewResult>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { liveViewManager } from '@kit.LiveViewKit';
@@ -415,13 +391,7 @@ stopLiveView(liveView: LiveView): Promise<LiveViewResult>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { liveViewManager } from '@kit.LiveViewKit';
@@ -551,13 +521,7 @@ getActiveLiveView(id: number): Promise<LiveView>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { liveViewManager } from '@kit.LiveViewKit';
@@ -616,13 +580,7 @@ isGeofenceTriggerEnabled(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { liveViewManager } from '@kit.LiveViewKit';
@@ -699,13 +657,7 @@ startLiveViewByTrigger(liveView: LiveView, trigger:Trigger): Promise<LiveViewRes
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { liveViewManager } from '@kit.LiveViewKit';
@@ -852,13 +804,7 @@ stopLiveViewByTrigger(liveView: LiveView, trigger:Trigger): Promise<LiveViewResu
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { liveViewManager } from '@kit.LiveViewKit';

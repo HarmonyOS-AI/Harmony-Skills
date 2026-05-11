@@ -148,13 +148,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[color](/consumer/cn/doc/harmonyos-references/ts-basic-components-loadingprogress#color)接口，实现了设置加载动效颜色的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -178,13 +172,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[contentModifier](/consumer/cn/doc/harmonyos-references/ts-basic-components-loadingprogress#contentmodifier12)接口，实现了定制内容区的功能，并通过[enableLoading](/consumer/cn/doc/harmonyos-references/ts-basic-components-loadingprogress#enableloading10)接口实现了通过按钮切换是否显示LoadingProgress的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

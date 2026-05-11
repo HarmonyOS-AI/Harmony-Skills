@@ -9,13 +9,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BasicPrefetcher, IDataSourcePrefetching, IPrefetcher } from '@kit.ArkUI';
@@ -51,13 +45,7 @@ setDataSource(dataSource: IDataSourcePrefetching): void;
 | --- | --- | --- | --- |
 | dataSource | [IDataSourcePrefetching](/consumer/cn/doc/harmonyos-references/js-apis-arkui-prefetcher#idatasourceprefetching) | 是 | 支持预取能力的数据源。 |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class MyPrefetcher implements IPrefetcher {
@@ -94,13 +82,7 @@ visibleAreaChanged(minVisible: number, maxVisible: number): void;
 | minVisible | number | 是 | 列表可见区域的上界。 |
 | maxVisible | number | 是 | 列表可见区域的下界。 |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class MyPrefetcher implements IPrefetcher {
@@ -263,13 +245,7 @@ PhonePC/2in1TabletTVWearable
 
 下面示例展示了Prefetcher的预加载能力。该示例采用分页的方式，配合LazyForEach实现懒加载效果，并通过添加延时来模拟加载过程。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BasicPrefetcher, IDataSourcePrefetching } from '@kit.ArkUI';

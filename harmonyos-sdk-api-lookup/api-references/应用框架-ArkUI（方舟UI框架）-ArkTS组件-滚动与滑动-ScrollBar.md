@@ -133,13 +133,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例为ScrollBar组件有子节点时的滚动条样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -193,13 +187,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例为ScrollBar组件没有子节点时的滚动条样式。从API version 20开始，可通过[scrollBarColor](/consumer/cn/doc/harmonyos-references/ts-basic-components-scrollbar#scrollbarcolor20)设置滚动条颜色。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ColorMetrics } from '@kit.ArkUI'
@@ -250,13 +238,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，该示例通过[enableNestedScroll](/consumer/cn/doc/harmonyos-references/ts-basic-components-scrollbar#enablenestedscroll14)属性使ScrollBar组件支持嵌套滚动。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ColorMetrics } from '@kit.ArkUI'

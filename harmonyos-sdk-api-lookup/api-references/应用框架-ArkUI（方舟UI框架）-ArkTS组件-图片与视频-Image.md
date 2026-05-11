@@ -1263,13 +1263,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过传入[Resource](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-types#resource)资源，加载png、gif、svg和jpg等基本类型的图片。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -1316,13 +1310,7 @@ PhonePC/2in1TabletTVWearable
 
 使用网络图片时，需要申请权限ohos.permission.INTERNET。具体申请方式请参考[声明权限](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/declare-permissions)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { http } from '@kit.NetworkKit';
@@ -1389,13 +1377,7 @@ PhonePC/2in1TabletTVWearable
 
 使用网络图片时，需要申请权限ohos.permission.INTERNET。具体申请方式请参考[声明权限](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/declare-permissions)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cacheDownload } from '@kit.BasicServicesKit';
@@ -1436,13 +1418,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例为图片添加[onClick](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-events-click#onclick)和[onFinish](/consumer/cn/doc/harmonyos-references/ts-basic-components-image#onfinish)事件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -1485,13 +1461,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例使用[enableAnalyzer](/consumer/cn/doc/harmonyos-references/ts-basic-components-image#enableanalyzer11)接口开启图像AI分析。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from '@kit.ImageKit'
@@ -1546,13 +1516,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[resizable](/consumer/cn/doc/harmonyos-references/ts-basic-components-image#resizable11)属性的slice选项，调整不同方向对图片进行拉伸。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -1623,13 +1587,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例使用[resizable](/consumer/cn/doc/harmonyos-references/ts-basic-components-image#resizable11)属性的lattice选项，使用矩形网格对象对图片进行拉伸。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -1677,13 +1635,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[AnimatedDrawableDescriptor](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-arkui-drawabledescriptor#animateddrawabledescriptor12)对象播放PixelMap数组动画。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AnimationOptions, AnimatedDrawableDescriptor } from '@kit.ArkUI';
@@ -1764,13 +1716,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[colorFilter](/consumer/cn/doc/harmonyos-references/ts-basic-components-image#colorfilter9)属性实现了给图像设置颜色滤镜效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing, common2D } from '@kit.ArkGraphics2D';
@@ -1840,13 +1786,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[objectFit](/consumer/cn/doc/harmonyos-references/ts-basic-components-image#objectfit)属性为图像设置填充效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -1899,13 +1839,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例展示了[ResourceStr](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-types#resourcestr)类型与[ImageContent](/consumer/cn/doc/harmonyos-references/ts-basic-components-image#imagecontent12)类型作为数据源的显示图片效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -1937,13 +1871,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[privacySensitive](/consumer/cn/doc/harmonyos-references/ts-basic-components-image#privacysensitive12)属性展示了如何配置隐私隐藏，效果展示需要卡片框架支持。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -1970,13 +1898,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[linearGradient](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-basic-components-datapanel#lineargradient10)接口和[animateTo()](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-uicontext#animateto)接口实现了给图片设置扫光效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { curves } from '@kit.ArkUI';
@@ -2069,13 +1991,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 15开始，新增imageMatrix属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { matrix4 } from '@kit.ArkUI';
@@ -2144,13 +2060,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[sourceSize](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-basic-components-image#sourcesize)接口自定义图片的解码尺寸。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -2186,13 +2096,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[renderMode](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-basic-components-image#rendermode)接口设置图片渲染模式为黑白模式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -2221,13 +2125,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[objectRepeat](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-basic-components-image#objectrepeat)接口在竖直轴上重复绘制图片。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -2256,13 +2154,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[fillColor](/consumer/cn/doc/harmonyos-references/ts-basic-components-image#fillcolor15)属性为SVG图片设置不同颜色的填充效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -2316,13 +2208,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 19开始，新增hdrBrightness属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from '@kit.ImageKit';
@@ -2379,13 +2265,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[matchTextDirection](/consumer/cn/doc/harmonyos-references/ts-basic-components-image#matchtextdirection)接口，设置手机语言为维语时图片是否显示镜像翻转显示效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -2420,13 +2300,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[orientation](/consumer/cn/doc/harmonyos-references/ts-basic-components-image#orientation14)属性，设置图像内容的显示方向。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -2522,13 +2396,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[getImageProperty](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-image-imagesource#getimageproperty11)接口，获取图片的exif信息，再根据获取到的exif信息，通过[orientation](/consumer/cn/doc/harmonyos-references/ts-basic-components-image#orientation14)属性设置图像内容显示为正确方向。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from '@kit.ImageKit';
@@ -2650,13 +2518,7 @@ PhonePC/2in1TabletTVWearable
 
 通过按钮切换不同色域下的颜色值，动态改变SVG图片的填充颜色效果，以展示[ColorMetrics](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-arkui-graphics#colormetrics12)类型的使用方式和显示差异。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ColorMetrics } from '@kit.ArkUI';
@@ -2718,13 +2580,7 @@ PhonePC/2in1TabletTVWearable
 
 在当前应用的haps/entry/files目录下预置一张名为cloud.png的图片，随后使用应用沙箱路径显示该图片。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileUri } from '@kit.CoreFileKit';
@@ -2761,13 +2617,7 @@ PhonePC/2in1TabletTVWearable
 
 在工程pages目录同级位置创建common目录，在common目录下预置一张名为cloud1.png的图片，随后使用相对路径显示该图片。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -2793,13 +2643,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 21开始，新增supportSvg2属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -2836,13 +2680,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 21开始，该示例演示了在点击图片切换图源时，通过[contentTransition](/consumer/cn/doc/harmonyos-references/ts-basic-components-image#contenttransition21)属性实现淡入淡出效果，完成图片的平滑过渡。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -2877,13 +2715,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例演示了在图片加载过程中和加载失败时，通过设置[alt](/consumer/cn/doc/harmonyos-references/ts-basic-components-image#alt22)属性实现图片加载过程中和图片加载失败时显示指定图片。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -2926,13 +2758,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 23开始，ImageError新增downloadInfo属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -2959,13 +2785,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 23开始，新增[antialiased](/consumer/cn/doc/harmonyos-references/ts-basic-components-image#antialiased23)接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry

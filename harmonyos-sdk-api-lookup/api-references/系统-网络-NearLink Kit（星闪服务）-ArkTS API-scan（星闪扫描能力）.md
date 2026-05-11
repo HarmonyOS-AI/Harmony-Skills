@@ -6,13 +6,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { scan } from '@kit.NearLinkKit';
@@ -65,13 +59,7 @@ startScan(filters: Array<ScanFilters>, options?: ScanOptions): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { scan } from '@kit.NearLinkKit';
@@ -130,13 +118,7 @@ stopScan(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { scan } from '@kit.NearLinkKit';
@@ -188,13 +170,7 @@ on(type: 'deviceFound', callback: Callback<Array<ScanResults>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { scan } from '@kit.NearLinkKit';
@@ -247,13 +223,7 @@ off(type: 'deviceFound', callback?: Callback<Array<ScanResults>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { scan } from '@kit.NearLinkKit';

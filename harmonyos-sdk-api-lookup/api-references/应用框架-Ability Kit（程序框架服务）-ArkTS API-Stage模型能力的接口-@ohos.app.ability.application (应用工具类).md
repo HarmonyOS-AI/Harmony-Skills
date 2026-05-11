@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { application } from '@kit.AbilityKit';
@@ -85,13 +79,7 @@ createModuleContext(context: Context, moduleName: string): Promise<Context>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, application, common, Want } from '@kit.AbilityKit';
@@ -152,13 +140,7 @@ getApplicationContext(): ApplicationContext
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, application, Want } from '@kit.AbilityKit';
@@ -211,13 +193,7 @@ getApplicationContextInstance(): ApplicationContext
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, application, Want, common } from '@kit.AbilityKit';
@@ -266,13 +242,7 @@ createPluginModuleContext(context: Context, pluginBundleName: string, pluginModu
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, application, common, Want } from '@kit.AbilityKit';
@@ -355,13 +325,7 @@ promoteCurrentToCandidateMasterProcess(insertToHead: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, application, Want } from '@kit.AbilityKit';
@@ -420,13 +384,7 @@ demoteCurrentFromCandidateMasterProcess(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, application, Want } from '@kit.AbilityKit';
@@ -485,13 +443,7 @@ exitMasterProcessRole(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, application, Want } from '@kit.AbilityKit';
@@ -541,13 +493,7 @@ getAppPreloadType(): AppPreloadType
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityStage, application } from '@kit.AbilityKit';

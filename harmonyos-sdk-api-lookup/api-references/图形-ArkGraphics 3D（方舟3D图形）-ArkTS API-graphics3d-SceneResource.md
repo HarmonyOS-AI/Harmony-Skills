@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SceneResourceType, SceneResource, Shader, MaterialType, CullMode, Blend, RenderSort, Material,
@@ -77,13 +71,7 @@ destroy(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Shader, SceneResourceParameters, SceneResourceFactory, Scene } from '@kit.ArkGraphics3D';
@@ -147,13 +135,7 @@ setShaderInputs(inputs: Record<string, number | Vec2 | Vec3 | Vec4 | Image>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Image, MaterialType, Scene, SceneResourceFactory, Shader, ShaderMaterial } from '@kit.ArkGraphics3D';
@@ -510,13 +492,7 @@ onFinished(callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Animation, Scene } from '@kit.ArkGraphics3D';
@@ -556,13 +532,7 @@ onStarted(callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Animation, Scene } from '@kit.ArkGraphics3D';
@@ -594,13 +564,7 @@ pause(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Animation, Scene } from '@kit.ArkGraphics3D';
@@ -630,13 +594,7 @@ restart(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Animation, Scene } from '@kit.ArkGraphics3D';
@@ -674,13 +632,7 @@ seek(position: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Animation, Scene } from '@kit.ArkGraphics3D';
@@ -710,13 +662,7 @@ start(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Animation, Scene } from '@kit.ArkGraphics3D';
@@ -746,13 +692,7 @@ stop(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Animation, Scene } from '@kit.ArkGraphics3D';
@@ -782,13 +722,7 @@ finish(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Animation, Scene } from '@kit.ArkGraphics3D';
@@ -908,13 +842,7 @@ getPropertyValue(propertyName: string): Object | null | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SceneResourceFactory, Scene, Effect, EffectParameters } from '@kit.ArkGraphics3D';
@@ -965,13 +893,7 @@ setPropertyValue(propertyName: string, value: Object | undefined): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SceneResourceFactory, Scene, Effect, EffectParameters } from '@kit.ArkGraphics3D';

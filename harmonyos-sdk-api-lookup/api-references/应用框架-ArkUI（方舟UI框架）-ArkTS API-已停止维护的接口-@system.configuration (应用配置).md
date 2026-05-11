@@ -7,13 +7,7 @@
 
 PhonePC/2in1TabletTVWearableLite Wearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import Configuration from '@system.configuration';
@@ -43,13 +37,7 @@ static getLocale(): LocaleResponse
 
 ArkTS示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. export default {
@@ -62,13 +50,7 @@ ArkTS示例：
 
 JS示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- xxx.hml -->
@@ -98,13 +80,7 @@ JS示例：
 25. </div>
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. /* xxx.css */
@@ -155,13 +131,7 @@ JS示例：
 46. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.js

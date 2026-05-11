@@ -52,13 +52,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum DLP_ErrCode
@@ -86,13 +80,7 @@ DLP错误码的枚举。
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum DLP_FileAccess
@@ -121,13 +109,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. DLP_ErrCode OH_DLP_GetDlpPermissionInfo(DLP_FileAccess *dlpFileAccess, uint32_t *flags)
@@ -160,13 +142,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. DLP_ErrCode OH_DLP_GetOriginalFileName(const char *fileName, char **originalFileName)
@@ -199,13 +175,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. DLP_ErrCode OH_DLP_IsInSandbox(bool *isInSandbox)
@@ -237,13 +207,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. DLP_ErrCode OH_DLP_SetSandboxAppConfig(const char *configInfo)
@@ -275,13 +239,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. DLP_ErrCode OH_DLP_GetSandboxAppConfig(char **configInfo)
@@ -313,13 +271,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. DLP_ErrCode OH_DLP_CleanSandboxAppConfig()

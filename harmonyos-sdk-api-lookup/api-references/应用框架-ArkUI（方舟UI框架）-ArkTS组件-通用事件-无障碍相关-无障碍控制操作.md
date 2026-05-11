@@ -164,13 +164,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示通过使用onAccessibilityActionIntercept事件实现Toggle组件在无障碍模式下于点击事件发生之前拦截点击事件并确认是否拦截该点击事件的操作。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -222,13 +216,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 18开始，当获焦、失焦状态发生变化时，触发该回调函数。本示例展示了[onAccessibilityFocus](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-accessibility-event#onaccessibilityfocus)的基本用法，聚焦到"onAccessibilityFocus takes effect"时，会打印"[testingTag] isFocus current is true"，聚焦到除了"onAccessibilityFocus takes effect"以外的地方都会打印"[testingTag] isFocus current is false"。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

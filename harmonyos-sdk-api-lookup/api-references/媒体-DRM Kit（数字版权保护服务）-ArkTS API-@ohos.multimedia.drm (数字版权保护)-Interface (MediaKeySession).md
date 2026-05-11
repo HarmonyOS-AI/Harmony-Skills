@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -65,13 +59,7 @@ generateMediaKeyRequest(mimeType: string, initData: Uint8Array, mediaKeyType: nu
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -130,13 +118,7 @@ processMediaKeyResponse(response: Uint8Array): Promise<Uint8Array>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -186,13 +168,7 @@ checkMediaKeyStatus(): MediaKeyStatus[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -233,13 +209,7 @@ clearMediaKeys(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -304,13 +274,7 @@ generateOfflineReleaseRequest(mediaKeyId: Uint8Array): Promise<Uint8Array>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -370,13 +334,7 @@ processOfflineReleaseResponse(mediaKeyId: Uint8Array, response: Uint8Array): Pro
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -442,13 +400,7 @@ restoreOfflineMediaKeys(mediaKeyId: Uint8Array): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -498,13 +450,7 @@ getContentProtectionLevel(): ContentProtectionLevel
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -562,13 +508,7 @@ requireSecureDecoderModule(mimeType: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -618,13 +558,7 @@ on(type: 'keyRequired', callback: (eventInfo: EventInfo) => void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -670,13 +604,7 @@ off(type: 'keyRequired', callback?: (eventInfo: EventInfo) => void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -720,13 +648,7 @@ on(type: 'keyExpired', callback: (eventInfo: EventInfo) => void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -772,13 +694,7 @@ off(type: 'keyExpired', callback?: (eventInfo: EventInfo) => void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -822,13 +738,7 @@ on(type: 'vendorDefined', callback: (eventInfo: EventInfo) => void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -874,13 +784,7 @@ off(type: 'vendorDefined', callback?: (eventInfo: EventInfo) => void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -924,13 +828,7 @@ on(type: 'expirationUpdate', callback: (eventInfo: EventInfo) => void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -976,13 +874,7 @@ off(type: 'expirationUpdate', callback?: (eventInfo: EventInfo) => void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -1026,13 +918,7 @@ on(type: 'keysChange', callback: (keyInfo: KeysInfo[], newKeyAvailable: boolean)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -1080,13 +966,7 @@ off(type: 'keysChange', callback?: (keyInfo: KeysInfo[], newKeyAvailable: boolea
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -1121,13 +1001,7 @@ destroy(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';

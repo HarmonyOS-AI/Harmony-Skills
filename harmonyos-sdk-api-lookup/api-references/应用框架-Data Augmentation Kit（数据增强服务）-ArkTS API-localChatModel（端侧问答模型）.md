@@ -6,13 +6,7 @@
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { localChatModel } from '@kit.DataAugmentationKit';
@@ -38,13 +32,7 @@ PC/2in1
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { localChatModel } from '@kit.DataAugmentationKit';
@@ -75,13 +63,7 @@ PC/2in1
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { localChatModel } from '@kit.DataAugmentationKit';
@@ -114,13 +96,7 @@ PC/2in1
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { localChatModel } from '@kit.DataAugmentationKit';
@@ -156,13 +132,7 @@ init(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { localChatModel } from '@kit.DataAugmentationKit';
@@ -229,13 +199,7 @@ chat(info: QuestionInfo, config: Config, callback: AsyncCallback<Answer>): Promi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from "@kit.BasicServicesKit";

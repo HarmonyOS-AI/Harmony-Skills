@@ -135,13 +135,7 @@ PhonePC/2in1TabletTVWearable
 
 通过配置flexBasis/flexGrow/flexShrink/alignSelf属性设置Flex布局。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

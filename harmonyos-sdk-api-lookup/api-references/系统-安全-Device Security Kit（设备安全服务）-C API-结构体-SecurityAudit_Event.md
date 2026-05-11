@@ -34,13 +34,7 @@ PC/2in1
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char* SecurityAudit_Event::content
@@ -54,13 +48,7 @@ PC/2in1
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int64_t SecurityAudit_Event::eventId
@@ -74,13 +62,7 @@ PC/2in1
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char* SecurityAudit_Event::metadata

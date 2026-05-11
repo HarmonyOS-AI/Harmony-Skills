@@ -814,13 +814,7 @@ enableHapticFeedback(isEnabled: boolean)
 
 开启触控反馈时，需要在工程的[module.json5](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/module-configuration-file)中配置requestPermissions字段以开启振动权限，配置如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. "requestPermissions": [
@@ -1495,13 +1489,7 @@ Search组件的控制器继承自[TextContentControllerBase](https://developer.h
 
 ### 导入对象
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. controller: SearchController = new SearchController();
@@ -1610,13 +1598,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 8开始，该示例通过[controller](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#searchcontroller)实现了光标位置的设置与获取的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1667,13 +1649,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[searchButton](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#searchbutton)（从API version 8开始）、[searchIcon](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#searchicon10)（从API version 10开始）、[cancelButton](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#cancelbutton10)（从API version 10开始）属性展示了设置搜索和删除图标的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1724,13 +1700,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 22开始[customKeyboard](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#customkeyboard10)属性新增了入参类型[ComponentContent](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-arkui-componentcontent#componentcontent-1)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1801,13 +1771,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[enterKeyType](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#enterkeytype12)（从API version 12开始）属性实现了动态切换输入法回车键的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1843,13 +1807,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 12开始，该示例通过[lineHeight](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#lineheight12)、[letterSpacing](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#letterspacing12)、[decoration](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#decoration12)属性展示了不同样式的文本效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1899,13 +1857,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[fontFeature](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#fontfeature12)（从API version 12开始）属性实现了文本在不同文字特性下的展示效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1936,13 +1888,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[customKeyboard](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#customkeyboard10)（从API version 10开始）属性配置[KeyboardOptions](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-basic-components-richeditor#keyboardoptions12)（从API version 12开始）接口实现了自定义键盘避让的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2018,13 +1964,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 12开始，该示例通过[minFontSize](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#minfontsize12)、[maxFontSize](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#maxfontsize12)属性展示了文本自适应字号的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2056,13 +1996,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 12开始，该示例通过[onWillInsert](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#onwillinsert12)、[onDidInsert](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#ondidinsert12)、[onWillDelete](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#onwilldelete12)、[onDidDelete](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#ondiddelete12)接口实现了插入和删除的效果。从API version 15开始，通过[onWillChange](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#onwillchange15)接口展示了文本内容将要发生变化时的具体信息。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2180,13 +2114,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 12开始，该示例通过[editMenuOptions](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#editmenuoptions12)接口实现了文本设置自定义菜单扩展项的文本内容、图标以及回调的功能，同时，可以在[onPrepareMenu](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-text-common#属性-1)（从API version 20开始）回调中，进行菜单数据的设置。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2277,13 +2205,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 10开始，该示例通过[searchIcon](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#searchicon10)、[cancelButton](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#cancelbutton10)属性展示了自定义右侧symbol类型清除按钮样式的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2325,13 +2247,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 9开始，该示例通过[copyOption](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#copyoption9)属性展示如何设置文本是否可复制。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2390,13 +2306,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[textAlign](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#textalign9)（从API version 9开始）、[caretStyle](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#caretstyle10)（从API version 10开始）、[selectedBackgroundColor](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#selectedbackgroundcolor12)（从API version 12开始）属性展示如何设置文本的水平对齐、光标样式和选中背景色。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2428,13 +2338,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[defaultFocus](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-focus#defaultfocus9)（从API version 9开始）、[enableKeyboardOnFocus](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#enablekeyboardonfocus10)（从API version 10开始）属性展示如何设置默认获焦并拉起软键盘。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2471,13 +2375,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[selectionMenuHidden](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#selectionmenuhidden10)（从API version 10开始）属性展示如何关闭系统文本选择菜单。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2507,13 +2405,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 12开始，该示例通过[inputFilter](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#inputfilter12)属性展示如何对输入的文本进行内容的过滤，以限制输入内容。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2548,13 +2440,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[setTextSelection](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#settextselection12)（从API version 12开始）方法展示如何设置选中指定区域的文本内容以及菜单的显隐策略。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2597,13 +2483,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 10开始，该示例通过[onContentScroll](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#oncontentscroll10)事件展示如何设置文本滚动事件的回调。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2638,13 +2518,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 18开始，该示例通过[minFontScale](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#minfontscale18)、[maxFontScale](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#maxfontscale18)设置字体显示最小与最大范围。调整系统字体大小后，文本字体大小不会超过[minFontScale](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#minfontscale18)、[maxFontScale](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#maxfontscale18)设置的范围。如下示例展示了Search组件在不同的字体大小限制条件下，调整系统字体后的放大缩小效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 开启应用缩放跟随系统
@@ -2659,13 +2533,7 @@ PhonePC/2in1TabletTVWearable
 10. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // AppScope/app.json5，修改如下代码。
@@ -2682,13 +2550,7 @@ PhonePC/2in1TabletTVWearable
 12. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2734,13 +2596,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，该示例通过[strokeWidth](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#strokewidth20)和[strokeColor](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#strokecolor20)属性设置文本的描边宽度及颜色。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2790,13 +2646,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，该示例通过[enableAutoSpacing](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#enableautospacing20)属性设置中西文自动间距。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2825,13 +2675,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 22开始，该示例通过[setStyledPlaceholder](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-text-style#setstyledplaceholder22)接口设置placeholder富文本样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2901,13 +2745,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 22开始，该示例通过[IMEClient](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-text-common#imeclient20对象说明)的setExtraConfig设置输入法扩展信息。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2934,13 +2772,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 23开始，该示例通过[dividerColor](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#dividercolor23)接口设置输入框分割线颜色。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2985,13 +2817,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 23开始，支持compressLeadingPunctuation接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3022,13 +2848,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 23开始，新增[includeFontPadding](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#includefontpadding23)和[fallbackLineSpacing](/consumer/cn/doc/harmonyos-references/ts-basic-components-search#fallbacklinespacing23)接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3097,13 +2917,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 23开始，新增selectedDragPreviewStyle接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -3132,13 +2946,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 23开始，新增[deleteBackward](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-text-style#deletebackward23)接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -3166,13 +2974,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 23开始，新增textDirection接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3218,13 +3020,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 23开始，新增scrollToVisible接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

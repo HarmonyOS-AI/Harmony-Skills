@@ -10,13 +10,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PrintExtensionAbility } from '@kit.BasicServicesKit';
@@ -46,13 +40,7 @@ onCreate(want: Want): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PrintExtensionAbility } from '@kit.BasicServicesKit';
@@ -78,13 +66,7 @@ onStartDiscoverPrinter(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PrintExtensionAbility } from '@kit.BasicServicesKit';
@@ -109,13 +91,7 @@ onStopDiscoverPrinter(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PrintExtensionAbility } from '@kit.BasicServicesKit';
@@ -148,13 +124,7 @@ onConnectPrinter(printerId: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PrintExtensionAbility } from '@kit.BasicServicesKit';
@@ -187,13 +157,7 @@ onDisconnectPrinter(printerId: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PrintExtensionAbility } from '@kit.BasicServicesKit';
@@ -226,13 +190,7 @@ onStartPrintJob(jobInfo: print.PrintJob): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print, PrintExtensionAbility } from '@kit.BasicServicesKit';
@@ -265,13 +223,7 @@ onCancelPrintJob(jobInfo: print.PrintJob): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print, PrintExtensionAbility } from '@kit.BasicServicesKit';
@@ -312,13 +264,7 @@ onRequestPrinterCapability(printerId: number): print.PrinterCapability
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print, PrintExtensionAbility } from '@kit.BasicServicesKit';
@@ -349,13 +295,7 @@ onDestroy(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PrintExtensionAbility } from '@kit.BasicServicesKit';

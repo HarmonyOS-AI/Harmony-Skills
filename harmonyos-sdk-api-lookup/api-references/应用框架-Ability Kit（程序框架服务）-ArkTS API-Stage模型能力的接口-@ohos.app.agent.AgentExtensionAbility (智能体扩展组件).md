@@ -12,13 +12,7 @@ AgentExtensionAbility继承自[ExtensionAbility](https://developer.huawei.com/co
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AgentExtensionAbility } from '@kit.AbilityKit';
@@ -85,13 +79,7 @@ onCreate(want: Want): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AgentExtensionAbility, Want } from '@kit.AbilityKit';
@@ -130,13 +118,7 @@ onConnect(want: Want, proxy: AgentHostProxy): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AgentExtensionAbility, Want, common} from '@kit.AbilityKit';
@@ -174,13 +156,7 @@ onDisconnect(want: Want, proxy: AgentHostProxy): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AgentExtensionAbility, Want, common } from '@kit.AbilityKit';
@@ -218,13 +194,7 @@ onData(proxy: AgentHostProxy, data: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AgentExtensionAbility, common} from '@kit.AbilityKit';
@@ -262,13 +232,7 @@ onAuth(proxy: AgentHostProxy, handshakeData: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AgentExtensionAbility, common} from '@kit.AbilityKit';
@@ -297,13 +261,7 @@ onDestroy(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AgentExtensionAbility } from '@kit.AbilityKit';

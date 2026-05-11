@@ -1,2 +1,0 @@
-* **[weatherService（天气数据服务）](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/weather-service-weatherservice)**
-* **[ArkTS API错误码](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/weather-service-error-code)**

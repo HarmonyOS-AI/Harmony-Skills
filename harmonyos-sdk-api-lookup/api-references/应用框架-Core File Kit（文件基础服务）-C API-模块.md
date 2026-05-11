@@ -1,5 +1,0 @@
-* **[Environment](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-environment)**
-* **[FileIO](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-fileio)**
-* **[fileShare](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-fileshare)**
-* **[fileUri](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-fileuri)**
-* **[CloudDisk](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-clouddisk)**

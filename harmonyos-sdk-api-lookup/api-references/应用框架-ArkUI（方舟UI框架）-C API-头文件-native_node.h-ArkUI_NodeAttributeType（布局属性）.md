@@ -1,10 +1,4 @@
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum ArkUI_NodeAttributeType
@@ -22,13 +16,7 @@
 
 ## NODE\_WIDTH
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_WIDTH = 0
@@ -58,13 +46,7 @@
 
 ## NODE\_HEIGHT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_HEIGHT = 1
@@ -94,13 +76,7 @@
 
 ## NODE\_PADDING
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_PADDING = 4
@@ -146,13 +122,7 @@
 
 ## NODE\_MARGIN
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_MARGIN = 7
@@ -198,13 +168,7 @@
 
 ## NODE\_ALIGNMENT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_ALIGNMENT = 15
@@ -234,13 +198,7 @@
 
 ## NODE\_BORDER\_WIDTH
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_BORDER_WIDTH = 17
@@ -286,13 +244,7 @@
 
 ## NODE\_BORDER\_RADIUS
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_BORDER_RADIUS = 18
@@ -338,13 +290,7 @@
 
 ## NODE\_BORDER\_COLOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_BORDER_COLOR = 19
@@ -390,13 +336,7 @@
 
 ## NODE\_BORDER\_STYLE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_BORDER_STYLE = 20
@@ -442,13 +382,7 @@
 
 ## NODE\_POSITION
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_POSITION = 27
@@ -480,13 +414,7 @@
 
 ## NODE\_DIRECTION
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_DIRECTION = 47
@@ -516,13 +444,7 @@
 
 ## NODE\_CONSTRAINT\_SIZE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_CONSTRAINT_SIZE = 48
@@ -558,13 +480,7 @@
 
 ## NODE\_OFFSET
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_OFFSET = 54
@@ -596,13 +512,7 @@
 
 ## NODE\_MARK\_ANCHOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_MARK_ANCHOR = 55
@@ -634,13 +544,7 @@
 
 ## NODE\_ALIGN\_RULES
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_ALIGN_RULES = 57
@@ -670,13 +574,7 @@
 
 ## NODE\_ALIGN\_SELF
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_ALIGN_SELF = 58
@@ -706,13 +604,7 @@
 
 ## NODE\_FLEX\_GROW
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_FLEX_GROW = 59
@@ -742,13 +634,7 @@
 
 ## NODE\_FLEX\_SHRINK
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_FLEX_SHRINK = 60
@@ -778,13 +664,7 @@
 
 ## NODE\_FLEX\_BASIS
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_FLEX_BASIS = 61
@@ -814,13 +694,7 @@
 
 ## NODE\_ASPECT\_RATIO
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_ASPECT_RATIO = 67
@@ -850,13 +724,7 @@
 
 ## NODE\_LAYOUT\_WEIGHT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_LAYOUT_WEIGHT = 68
@@ -886,13 +754,7 @@ Row/Column/Flex布局下的子组件布局权重参数，支持属性设置、�
 
 ## NODE\_DISPLAY\_PRIORITY
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_DISPLAY_PRIORITY = 69
@@ -924,13 +786,7 @@ Row/Column/Flex（单行）布局下的子组件在布局容器中显示的优�
 
 ## NODE\_OUTLINE\_WIDTH
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_OUTLINE_WIDTH = 70
@@ -966,13 +822,7 @@ Row/Column/Flex（单行）布局下的子组件在布局容器中显示的优�
 
 ## NODE\_WIDTH\_PERCENT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_WIDTH_PERCENT = 71
@@ -1002,13 +852,7 @@ Row/Column/Flex（单行）布局下的子组件在布局容器中显示的优�
 
 ## NODE\_HEIGHT\_PERCENT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_HEIGHT_PERCENT = 72
@@ -1038,13 +882,7 @@ Row/Column/Flex（单行）布局下的子组件在布局容器中显示的优�
 
 ## NODE\_PADDING\_PERCENT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_PADDING_PERCENT = 73
@@ -1081,13 +919,7 @@ Row/Column/Flex（单行）布局下的子组件在布局容器中显示的优�
 
 ## NODE\_MARGIN\_PERCENT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_MARGIN_PERCENT = 74
@@ -1124,13 +956,7 @@ Row/Column/Flex（单行）布局下的子组件在布局容器中显示的优�
 
 ## NODE\_RELATIVE\_LAYOUT\_CHAIN\_MODE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_RELATIVE_LAYOUT_CHAIN_MODE = 76
@@ -1162,13 +988,7 @@ Row/Column/Flex（单行）布局下的子组件在布局容器中显示的优�
 
 ## NODE\_SIZE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_SIZE = 79
@@ -1200,13 +1020,7 @@ Row/Column/Flex（单行）布局下的子组件在布局容器中显示的优�
 
 ## NODE\_LAYOUT\_RECT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_LAYOUT_RECT = 83
@@ -1242,13 +1056,7 @@ Row/Column/Flex（单行）布局下的子组件在布局容器中显示的优�
 
 ## NODE\_BORDER\_WIDTH\_PERCENT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_BORDER_WIDTH_PERCENT = 85
@@ -1285,13 +1093,7 @@ Row/Column/Flex（单行）布局下的子组件在布局容器中显示的优�
 
 ## NODE\_BORDER\_RADIUS\_PERCENT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_BORDER_RADIUS_PERCENT = 86
@@ -1328,13 +1130,7 @@ Row/Column/Flex（单行）布局下的子组件在布局容器中显示的优�
 
 ## NODE\_WIDTH\_LAYOUTPOLICY
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_WIDTH_LAYOUTPOLICY = 105
@@ -1364,13 +1160,7 @@ Row/Column/Flex（单行）布局下的子组件在布局容器中显示的优�
 
 ## NODE\_HEIGHT\_LAYOUTPOLICY
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_HEIGHT_LAYOUTPOLICY = 106
@@ -1400,13 +1190,7 @@ Row/Column/Flex（单行）布局下的子组件在布局容器中显示的优�
 
 ## NODE\_POSITION\_EDGES
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_POSITION_EDGES = 107
@@ -1436,13 +1220,7 @@ Row/Column/Flex（单行）布局下的子组件在布局容器中显示的优�
 
 ## NODE\_CHAIN\_WEIGHT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_CHAIN_WEIGHT = 118
@@ -1474,13 +1252,7 @@ Row/Column/Flex（单行）布局下的子组件在布局容器中显示的优�
 
 ## NODE\_IGNORE\_LAYOUT\_SAFE\_AREA
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_IGNORE_LAYOUT_SAFE_AREA = 119
@@ -1512,13 +1284,7 @@ Row/Column/Flex（单行）布局下的子组件在布局容器中显示的优�
 
 ## NODE\_DASH\_WIDTH
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_DASH_WIDTH = 120
@@ -1554,13 +1320,7 @@ Row/Column/Flex（单行）布局下的子组件在布局容器中显示的优�
 
 ## NODE\_DASH\_GAP
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_DASH_GAP = 121
@@ -1596,13 +1356,7 @@ Row/Column/Flex（单行）布局下的子组件在布局容器中显示的优�
 
 ## NODE\_LAYOUT\_GRAVITY
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_LAYOUT_GRAVITY = 122
@@ -1632,13 +1386,7 @@ Row/Column/Flex（单行）布局下的子组件在布局容器中显示的优�
 
 ## NODE\_BORDER\_RADIUS\_TYPE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_BORDER_RADIUS_TYPE = 123

@@ -20,13 +20,7 @@ UiTest提供模拟UI操作的能力，供开发者在测试场景使用，主要
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Component, Driver, UiWindow, ON, MatchPattern, DisplayRotation, ResizeDirection, WindowMode, PointerMatrix, UiDirection, MouseButton, UIElementInfo, UIEventObserver, UiComponent, UiDriver, BY } from '@kit.TestKit';
@@ -347,13 +341,7 @@ On提供的API能力具有以下几个特点:
 
 On类提供的所有API均为同步接口，建议使用者通过静态构造器ON来链式创建On对象。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -407,13 +395,7 @@ text(txt: string, pattern?: MatchPattern): On
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -462,13 +444,7 @@ id(id: string): On
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -518,13 +494,7 @@ id(id: string, pattern: MatchPattern): On
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -573,13 +543,7 @@ type(tp: string): On
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -629,13 +593,7 @@ type(tp: string, pattern: MatchPattern): On
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -684,13 +642,7 @@ clickable(b?: boolean): On
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -739,13 +691,7 @@ longClickable(b?: boolean): On
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -794,13 +740,7 @@ scrollable(b?: boolean): On
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -849,13 +789,7 @@ enabled(b?: boolean): On
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -904,13 +838,7 @@ focused(b?: boolean): On
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -959,13 +887,7 @@ selected(b?: boolean): On
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -1014,13 +936,7 @@ checked(b?: boolean): On
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -1069,13 +985,7 @@ checkable(b?: boolean): On
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -1124,13 +1034,7 @@ isBefore(on: On): On
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -1180,13 +1084,7 @@ isAfter(on: On): On
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -1236,13 +1134,7 @@ within(on: On): On
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -1292,13 +1184,7 @@ inWindow(bundleName: string): On
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -1348,13 +1234,7 @@ description(val: string, pattern?: MatchPattern): On
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -1404,13 +1284,7 @@ hint(val: string, pattern?: MatchPattern): On
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -1459,13 +1333,7 @@ belongingDisplay(displayId: number): On
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -1519,13 +1387,7 @@ originalText(text: string, pattern?: MatchPattern): On
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -1575,13 +1437,7 @@ click(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -1627,13 +1483,7 @@ doubleClick(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -1679,13 +1529,7 @@ longClick(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -1731,13 +1575,7 @@ getId(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -1787,13 +1625,7 @@ getText(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -1839,13 +1671,7 @@ getType(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -1891,13 +1717,7 @@ getBounds(): Promise<Rect>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -1943,13 +1763,7 @@ getBoundsCenter(): Promise<Point>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -1995,13 +1809,7 @@ isClickable(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -2051,13 +1859,7 @@ isLongClickable(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -2107,13 +1909,7 @@ isChecked(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -2163,13 +1959,7 @@ isCheckable(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -2219,13 +2009,7 @@ isScrollable(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -2275,13 +2059,7 @@ isEnabled(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -2331,13 +2109,7 @@ isFocused(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -2387,13 +2159,7 @@ isSelected(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -2452,13 +2218,7 @@ inputText(text: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -2515,13 +2275,7 @@ inputText(text: string, mode: InputTextMode): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -2567,13 +2321,7 @@ clearText(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -2628,13 +2376,7 @@ scrollSearch(on: On): Promise<Component>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -2691,13 +2433,7 @@ scrollSearch(on: On, vertical?: boolean, offset?: number): Promise<Component>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -2752,13 +2488,7 @@ scrollToTop(speed?: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -2813,13 +2543,7 @@ scrollToBottom(speed?: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -2876,13 +2600,7 @@ dragTo(target: Component): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -2938,13 +2656,7 @@ pinchOut(scale: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -2999,13 +2711,7 @@ pinchIn(scale: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -3051,13 +2757,7 @@ getDescription(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -3103,13 +2803,7 @@ getHint(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -3155,13 +2849,7 @@ getDisplayId(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -3207,13 +2895,7 @@ getOriginalText(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -3266,13 +2948,7 @@ static create(): Driver
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -3324,13 +3000,7 @@ delayMs(duration: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -3383,13 +3053,7 @@ findComponent(on: On): Promise<Component>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -3442,13 +3106,7 @@ findComponents(on: On): Promise<Array<Component>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -3501,13 +3159,7 @@ findWindow(filter: WindowFilter): Promise<UiWindow>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -3561,13 +3213,7 @@ waitForComponent(on: On, time: number): Promise<Component>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -3621,13 +3267,7 @@ assertComponentExist(on: On): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -3671,13 +3311,7 @@ pressBack(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -3730,13 +3364,7 @@ pressBack(displayId: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -3789,13 +3417,7 @@ triggerKey(keyCode: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -3850,13 +3472,7 @@ triggerKey(keyCode: number, displayId: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -3912,13 +3528,7 @@ triggerCombineKeys(key0: number, key1: number, key2?: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -3974,13 +3584,7 @@ triggerCombineKeys(key0: number, key1: number, key2?: number, displayId?: number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -4034,13 +3638,7 @@ click(x: number, y: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -4093,13 +3691,7 @@ clickAt(point: Point): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -4153,13 +3745,7 @@ doubleClick(x: number, y: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -4212,13 +3798,7 @@ doubleClickAt(point: Point): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -4272,13 +3852,7 @@ longClick(x: number, y: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -4332,13 +3906,7 @@ longClickAt(point: Point, duration?: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -4395,13 +3963,7 @@ swipe(startx: number, starty: number, endx: number, endy: number, speed?: number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -4456,13 +4018,7 @@ swipeBetween(from: Point, to: Point, speed?: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -4521,13 +4077,7 @@ drag(startx: number, starty: number, endx: number, endy: number, speed?: number)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -4585,13 +4135,7 @@ dragBetween(from: Point, to: Point, speed?: number, duration?: number): Promise<
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -4644,13 +4188,7 @@ screenCap(savePath: string): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -4704,13 +4242,7 @@ screenCap(savePath: string, displayId: number): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -4765,13 +4297,7 @@ setDisplayRotation(rotation: DisplayRotation): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -4815,13 +4341,7 @@ getDisplayRotation(): Promise<DisplayRotation>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -4874,13 +4394,7 @@ getDisplayRotation(displayId: number): Promise<DisplayRotation>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -4935,13 +4449,7 @@ setDisplayRotationEnabled(enabled: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -4985,13 +4493,7 @@ getDisplaySize(): Promise<Point>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -5044,13 +4546,7 @@ getDisplaySize(displayId: number): Promise<Point>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -5094,13 +4590,7 @@ getDisplayDensity(): Promise<Point>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -5153,13 +4643,7 @@ getDisplayDensity(displayId: number): Promise<Point>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -5203,13 +4687,7 @@ wakeUpDisplay(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -5255,13 +4733,7 @@ pressHome(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -5316,13 +4788,7 @@ pressHome(displayId: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -5376,13 +4842,7 @@ waitForIdle(idleTime: number, timeout: number): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -5438,13 +4898,7 @@ fling(from: Point, to: Point, stepLen: number, speed: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -5498,13 +4952,7 @@ injectMultiPointerAction(pointers: PointerMatrix, speed?: number): Promise<boole
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -5569,13 +5017,7 @@ fling(direction: UiDirection, speed: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -5630,13 +5072,7 @@ fling(direction: UiDirection, speed: number, displayId: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -5690,13 +5126,7 @@ screenCapture(savePath: string, rect?: Rect): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -5757,13 +5187,7 @@ mouseClick(p: Point, btnId: MouseButton, key1?: number, key2?: number): Promise<
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -5820,13 +5244,7 @@ mouseScroll(p: Point, down: boolean, d: number, key1?: number, key2?: number): P
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -5879,13 +5297,7 @@ mouseMoveTo(p: Point): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -5929,13 +5341,7 @@ createUIEventObserver(): UIEventObserver;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -5993,13 +5399,7 @@ mouseScroll(p: Point, down: boolean, d: number, key1?: number, key2?: number, sp
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -6055,13 +5455,7 @@ mouseDoubleClick(p: Point, btnId: MouseButton, key1?: number, key2?: number): Pr
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -6117,13 +5511,7 @@ mouseLongClick(p: Point, btnId: MouseButton, key1?: number, key2?: number): Prom
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -6180,13 +5568,7 @@ mouseLongClick(p: Point, btnId: MouseButton, key1?: number, key2?: number, durat
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -6241,13 +5623,7 @@ mouseMoveWithTrack(from: Point, to: Point, speed?: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -6304,13 +5680,7 @@ mouseDrag(from: Point, to: Point, speed?: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -6368,13 +5738,7 @@ mouseDrag(from: Point, to: Point, speed?: number, duration?: number): Promise<vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -6428,13 +5792,7 @@ inputText(p: Point, text: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -6492,13 +5850,7 @@ inputText(p: Point, text: string, mode: InputTextMode): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -6566,13 +5918,7 @@ touchPadMultiFingerSwipe(fingers: number, direction: UiDirection, options?: Touc
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -6631,13 +5977,7 @@ touchPadTwoFingersScroll(point: Point, direction: UiDirection, d: number, speed?
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -6690,13 +6030,7 @@ penClick(point: Point): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -6750,13 +6084,7 @@ penLongClick(point: Point, pressure?: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -6809,13 +6137,7 @@ penDoubleClick(point: Point): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -6871,13 +6193,7 @@ penSwipe(startPoint: Point, endPoint: Point, speed?: number, pressure?: number):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -6932,13 +6248,7 @@ injectPenPointerAction(pointers: PointerMatrix, speed?: number, pressure?: numbe
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -6999,13 +6309,7 @@ crownRotate(d: number, speed?: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -7069,13 +6373,7 @@ knuckleKnock(pointers: Array<Point>, times: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -7138,13 +6436,7 @@ injectKnucklePointerAction(pointers: PointerMatrix, speed?: number): Promise<voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -7207,13 +6499,7 @@ isComponentPresentWhenLongClick(on: On, point: Point, duration?: number): Promis
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -7270,13 +6556,7 @@ isComponentPresentWhenDrag(on: On, from: Point, to: Point, speed?: number, durat
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -7332,13 +6612,7 @@ isComponentPresentWhenSwipe(on: On, from: Point, to: Point, speed?: number): Pro
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -7397,13 +6671,7 @@ static create(fingers: number, steps: number): PointerMatrix
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -7448,13 +6716,7 @@ setPoint(finger: number, step: number, point: Point): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -7516,13 +6778,7 @@ getBundleName(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -7568,13 +6824,7 @@ getBounds(): Promise<Rect>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -7620,13 +6870,7 @@ getTitle(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -7672,13 +6916,7 @@ getWindowMode(): Promise<WindowMode>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -7724,13 +6962,7 @@ isFocused(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -7778,13 +7010,7 @@ isActived(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -7830,13 +7056,7 @@ focus(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -7895,13 +7115,7 @@ moveTo(x: number, y: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -7961,13 +7175,7 @@ resize(wide: number, height: number, direction: ResizeDirection): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -8016,13 +7224,7 @@ split(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -8071,13 +7273,7 @@ maximize(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -8126,13 +7322,7 @@ minimize(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -8181,13 +7371,7 @@ resume(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -8236,13 +7420,7 @@ close(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -8288,13 +7466,7 @@ isActive(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -8340,13 +7512,7 @@ getDisplayId(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -8398,13 +7564,7 @@ once(type: 'toastShow', callback: Callback<UIElementInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -8455,13 +7615,7 @@ once(type: 'dialogShow', callback: Callback<UIElementInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -8515,13 +7669,7 @@ once(type: 'windowChange', windowChangeType: WindowChangeType, options: WindowCh
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -8581,13 +7729,7 @@ once(type: 'componentEventOccur', componentEventType: ComponentEventType, option
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -8636,13 +7778,7 @@ By类提供的所有API均为同步接口，建议使用者通过静态构造器
 
 从API version 8开始支持，从API version 9开始废弃，建议使用[On9+](/consumer/cn/doc/harmonyos-references/js-apis-uitest#on9)替代。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -8684,13 +7820,7 @@ text(txt: string, pattern?: MatchPattern): By
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -8731,13 +7861,7 @@ key(key: string): By
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -8778,13 +7902,7 @@ id(id: number): By
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -8825,13 +7943,7 @@ type(tp: string): By
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -8872,13 +7984,7 @@ clickable(b?: boolean): By
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -8919,13 +8025,7 @@ scrollable(b?: boolean): By
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -8966,13 +8066,7 @@ enabled(b?: boolean): By
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -9013,13 +8107,7 @@ focused(b?: boolean): By
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -9060,13 +8148,7 @@ selected(b?: boolean): By
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -9107,13 +8189,7 @@ isBefore(by: By): By
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -9155,13 +8231,7 @@ isAfter(by: By): By
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -9207,13 +8277,7 @@ click(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -9250,13 +8314,7 @@ doubleClick(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -9293,13 +8351,7 @@ longClick(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -9336,13 +8388,7 @@ getId(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -9379,13 +8425,7 @@ getKey(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -9422,13 +8462,7 @@ getText(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -9465,13 +8499,7 @@ getType(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -9508,13 +8536,7 @@ isClickable(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -9555,13 +8577,7 @@ isScrollable(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -9602,13 +8618,7 @@ isEnabled(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -9649,13 +8659,7 @@ isFocused(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -9696,13 +8700,7 @@ isSelected(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -9751,13 +8749,7 @@ inputText(text: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -9802,13 +8794,7 @@ scrollSearch(by: By): Promise<UiComponent>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -9857,13 +8843,7 @@ static create(): UiDriver
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -9906,13 +8886,7 @@ UiDriver对象在给定的时间内延时。使用Promise异步回调。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -9956,13 +8930,7 @@ findComponent(by: By): Promise<UiComponent>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -10006,13 +8974,7 @@ findComponents(by: By): Promise<Array<UiComponent>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -10068,13 +9030,7 @@ assertComponentExist(by: By): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -10110,13 +9066,7 @@ UiDriver对象进行点击BACK键的操作。使用Promise异步回调。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -10160,13 +9110,7 @@ UiDriver对象采取如下操作：通过key值找到对应键并点击。使用
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -10212,13 +9156,7 @@ UiDriver对象采取如下操作：在目标坐标点单击。使用Promise异�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -10263,13 +9201,7 @@ UiDriver对象采取如下操作：在目标坐标点双击。使用Promise异�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -10314,13 +9246,7 @@ UiDriver对象采取如下操作：在目标坐标点长按下鼠标左键。使
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -10367,13 +9293,7 @@ UiDriver对象采取如下操作：从给出的起始坐标点滑向给出的目
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets
@@ -10417,13 +9337,7 @@ UiDriver对象采取如下操作：捕获当前屏幕，并保存为PNG格式的
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.test.ets

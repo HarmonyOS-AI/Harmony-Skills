@@ -1,3 +1,0 @@
-* **[设备管理错误码](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/errorcode-device-manager)**
-* **[增强连接错误码](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/errorcode-link-enhance)**
-* **[代理通道管理错误码](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/errorcode-proxychannelmanager)**

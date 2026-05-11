@@ -10,13 +10,7 @@ WebNativeMessagingExtensionContext是Web原生消息扩展的上下文，继承�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { WebNativeMessagingExtensionAbility, ConnectionInfo } from '@kit.ArkWeb';
@@ -90,13 +84,7 @@ startAbility(want: Want, options?: StartOptions): Promise<void>
 
 **示例:**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { WebNativeMessagingExtensionAbility, ConnectionInfo } from '@kit.ArkWeb';
@@ -153,13 +141,7 @@ terminateSelf(): Promise<void>
 
 **示例:**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { WebNativeMessagingExtensionAbility, ConnectionInfo } from '@kit.ArkWeb';
@@ -219,13 +201,7 @@ stopNativeConnection(connectionId: number): Promise<void>
 
 **示例:**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { WebNativeMessagingExtensionAbility, ConnectionInfo } from '@kit.ArkWeb';

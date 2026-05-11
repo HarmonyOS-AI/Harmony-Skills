@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { attributionManager } from '@kit.AppGalleryKit';
@@ -134,13 +128,7 @@ registerSource(adSourceInfo: AdSourceInfo): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -248,13 +236,7 @@ registerTrigger(adTriggerInfo: AdTriggerInfo): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError,deviceInfo } from '@kit.BasicServicesKit';

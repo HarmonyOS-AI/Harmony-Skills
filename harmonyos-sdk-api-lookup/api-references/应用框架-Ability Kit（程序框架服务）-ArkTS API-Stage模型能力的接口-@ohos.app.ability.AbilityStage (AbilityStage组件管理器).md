@@ -14,13 +14,7 @@ AbilityStage拥有[onCreate()](/consumer/cn/doc/harmonyos-references/js-apis-app
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityStage } from '@kit.AbilityKit';
@@ -60,13 +54,7 @@ onCreate(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityStage } from '@kit.AbilityKit';
@@ -114,13 +102,7 @@ onAcceptWant(want: Want): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityStage, Want } from '@kit.AbilityKit';
@@ -172,13 +154,7 @@ onNewProcessRequest(want: Want): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityStage, Want } from '@kit.AbilityKit';
@@ -217,13 +193,7 @@ onConfigurationUpdate(newConfig: Configuration): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityStage, Configuration } from '@kit.AbilityKit';
@@ -263,13 +233,7 @@ onMemoryLevel回调运行在当前进程的主线程中，如果在该回调中�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityStage, AbilityConstant } from '@kit.AbilityKit';
@@ -295,13 +259,7 @@ onDestroy(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityStage } from '@kit.AbilityKit';
@@ -347,13 +305,7 @@ onPrepareTermination(): AbilityConstant.PrepareTermination
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, AbilityStage } from '@kit.AbilityKit';
@@ -400,13 +352,7 @@ onPrepareTerminationAsync(): Promise<AbilityConstant.PrepareTermination>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, AbilityStage } from '@kit.AbilityKit';
@@ -453,13 +399,7 @@ onAcceptWantAsync(want: Want): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityStage } from '@kit.AbilityKit';
@@ -508,13 +448,7 @@ onNewProcessRequestAsync(want: Want): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityStage } from '@kit.AbilityKit';
@@ -543,13 +477,7 @@ onLaunchFromHyperSnap(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityStage } from '@kit.AbilityKit';
@@ -576,13 +504,7 @@ onAboutToCreateAbility(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityStage } from '@kit.AbilityKit';

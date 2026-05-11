@@ -14,13 +14,7 @@ ReactiveComponentContent表示组件内容的实体封装，其对象支持在�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ComponentContent, ReactiveComponentContent } from '@kit.ArkUI';
@@ -104,13 +98,7 @@ ComponentContent的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ComponentContent, NodeContent, typeNode } from "@kit.ArkUI";
@@ -195,13 +183,7 @@ update(args: T): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ComponentContent } from "@kit.ArkUI";
@@ -288,13 +270,7 @@ recycle(): void
 
 **系统能力：** SystemCapability.ArkUI.ArkUI.Full
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeContent, typeNode, ComponentContent } from "@kit.ArkUI";
@@ -488,13 +464,7 @@ dispose(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -576,13 +546,7 @@ updateConfiguration接口用于通知对象更新当前的系统环境变化。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, ComponentContent, UIContext, FrameCallback } from '@kit.ArkUI';
@@ -706,13 +670,7 @@ isDisposed(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -814,13 +772,7 @@ ComponentContent设置inheritFreezeOptions为true，且父组件为自定义组�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ComponentContent, FrameNode, NodeController } from '@kit.ArkUI';
@@ -1047,13 +999,7 @@ ReactiveComponentContent的构造函数。
 
 该示例展示了如何使用ReactiveComponentContent构造函数动态创建包含响应式内容的UI组件，实现了Builder函数的嵌套调用和函数参数的灵活传递。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ReactiveComponentContent, NodeContent, typeNode } from '@kit.ArkUI';
@@ -1159,13 +1105,7 @@ ReactiveComponentContent通过[reuse](/consumer/cn/doc/harmonyos-references/js-a
 
 实现了一个包含多层组件复用的高性能长列表，通过ReactiveComponentContent动态管理Builder内容，在列表滚动时实现组件的自动回收与复用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeContent, typeNode, ReactiveComponentContent } from '@kit.ArkUI';
@@ -1357,13 +1297,7 @@ ReactiveComponentContent对象调用dispose接口后，会与后端实体节点�
 
 该示例展示了如何使用dispose接口正确释放ReactiveComponentContent对象，管理节点生命周期。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {
@@ -1483,13 +1417,7 @@ updateConfiguration(): void
 
 该示例展示了如何使用updateConfiguration接口响应系统环境配置变化，实现ReactiveComponentContent构建的UI节点的动态适配更新。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, ReactiveComponentContent, UIContext, FrameCallback } from '@kit.ArkUI';
@@ -1611,13 +1539,7 @@ flushState(): void
 
 该示例展示了flushState接口在ReactiveComponentContent中的使用场景，通过对比V1和V2装饰器的数据更新机制，演示了不同响应式方案下的状态更新策略。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {
@@ -1757,13 +1679,7 @@ ReactiveComponentContent设置inheritFreezeOptions为true，且父组件为自�
 
 该示例演示了ReactiveComponentContent设置继承状态为true，继承父自定义组件的冻结策略，在不活跃的时候进行冻结，切换为活跃状态解冻，更新缓存的数据。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ReactiveComponentContent, FrameNode, NodeController, Binding, UIUtils } from '@kit.ArkUI';
@@ -1971,13 +1887,7 @@ isDisposed(): boolean
 
 该示例展示了如何使用isDisposed接口检查ReactiveComponentContent对象是否已解除与后端实体节点的引用关系，提供了节点状态安全检测的完整实现方案。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {

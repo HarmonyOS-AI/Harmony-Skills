@@ -13,13 +13,7 @@
 
 PhonePC/2in1TabletTVWearableLite Wearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { router } from '@kit.ArkUI';
@@ -77,13 +71,7 @@ pushUrl(options: RouterOptions): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -163,13 +151,7 @@ pushUrl(options: RouterOptions, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class innerParams {
@@ -255,13 +237,7 @@ pushUrl(options: RouterOptions, mode: RouterMode): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -342,13 +318,7 @@ pushUrl(options: RouterOptions, mode: RouterMode, callback: AsyncCallback<void>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class innerParams {
@@ -432,13 +402,7 @@ replaceUrl(options: RouterOptions): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -507,13 +471,7 @@ replaceUrl(options: RouterOptions, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class RouterParams {
@@ -588,13 +546,7 @@ replaceUrl(options: RouterOptions, mode: RouterMode): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -664,13 +616,7 @@ replaceUrl(options: RouterOptions, mode: RouterMode, callback: AsyncCallback<voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class RouterParams {
@@ -745,13 +691,7 @@ pushNamedRoute(options: NamedRouterOptions): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -833,13 +773,7 @@ pushNamedRoute(options: NamedRouterOptions, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class innerParams {
@@ -925,13 +859,7 @@ pushNamedRoute(options: NamedRouterOptions, mode: RouterMode): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1012,13 +940,7 @@ pushNamedRoute(options: NamedRouterOptions, mode: RouterMode, callback: AsyncCal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class innerParams {
@@ -1102,13 +1024,7 @@ replaceNamedRoute(options: NamedRouterOptions): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1177,13 +1093,7 @@ replaceNamedRoute(options: NamedRouterOptions, callback: AsyncCallback<void>): v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class RouterParams {
@@ -1258,13 +1168,7 @@ replaceNamedRoute(options: NamedRouterOptions, mode: RouterMode): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1334,13 +1238,7 @@ replaceNamedRoute(options: NamedRouterOptions, mode: RouterMode, callback: Async
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class RouterParams {
@@ -1390,13 +1288,7 @@ back(options?: RouterOptions ): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.getUIContext().getRouter().back({ url: 'pages/detail' });
@@ -1430,25 +1322,13 @@ back(index: number, params?: Object): void;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.getUIContext().getRouter().back(1);
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.getUIContext().getRouter().back(1, { info: '来自Home页' }); //携带参数返回
@@ -1473,13 +1353,7 @@ clear(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.getUIContext().getRouter().clear();
@@ -1512,13 +1386,7 @@ getLength(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let size = this.getUIContext().getRouter().getLength();
@@ -1552,13 +1420,7 @@ getState(): RouterState
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let page = this.getUIContext().getRouter().getState();
@@ -1602,13 +1464,7 @@ getStateByIndex(index: number): RouterState | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let options: router.RouterState | undefined = router.getStateByIndex(1);
@@ -1655,13 +1511,7 @@ getStateByUrl(url: string): Array<RouterState>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let options: Array<router.RouterState> = router.getStateByUrl('pages/index');
@@ -1728,13 +1578,7 @@ showAlertBeforeBackPage(options: EnableAlertOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1783,13 +1627,7 @@ hideAlertBeforeBackPage(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.getUIContext().getRouter().hideAlertBeforeBackPage();
@@ -1824,13 +1662,7 @@ getParams只获取当前页面的参数，并不会清除页面关联的参数�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.getUIContext().getRouter().getParams();
@@ -1895,13 +1727,7 @@ PhonePC/2in1TabletTVWearableLite Wearable
 
 以下代码仅适用于javascript文件，不适用于ArkTS文件
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 在当前页面中
@@ -1917,13 +1743,7 @@ PhonePC/2in1TabletTVWearableLite Wearable
 11. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 在detail页面中
@@ -1940,13 +1760,7 @@ PhonePC/2in1TabletTVWearableLite Wearable
 
 直接使用router可能导致[UI上下文不明确](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/arkts-global-interface#ui上下文不明确)的问题，建议使用getUIContext获取[UIContext](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-uicontext)实例，并使用[getRouter](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-uicontext#getrouter)获取绑定实例的router。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 通过router.pushUrl跳转至目标页携带params参数
@@ -2012,13 +1826,7 @@ PhonePC/2in1TabletTVWearableLite Wearable
 61. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 在second页面中接收传递过来的参数
@@ -2097,13 +1905,7 @@ push(options: RouterOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class innerParams {
@@ -2154,13 +1956,7 @@ replace(options: RouterOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class RouterParams {
@@ -2201,13 +1997,7 @@ enableAlertBeforeBackPage(options: EnableAlertOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. router.enableAlertBeforeBackPage({
@@ -2231,13 +2021,7 @@ disableAlertBeforeBackPage(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. router.disableAlertBeforeBackPage();

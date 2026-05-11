@@ -10,13 +10,7 @@ GesturePath表示手势路径信息。
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { GesturePath } from '@kit.AccessibilityKit';
@@ -63,13 +57,7 @@ constructor(durationTime: number);
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { GesturePath } from '@kit.AccessibilityKit';

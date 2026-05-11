@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webview } from '@kit.ArkWeb';
@@ -52,13 +46,7 @@ Web组件销毁后会解绑WebViewController，之后调用WebviewController的�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -116,13 +104,7 @@ Web组件销毁后会解绑WebViewController，之后调用WebviewController的�
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -166,13 +148,7 @@ static initializeWebEngine(): void
 
 本示例以EntryAbility为例，描述了在Ability创建阶段完成Web组件动态库加载的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -219,13 +195,7 @@ static setHttpDns(secureDnsMode:SecureDnsMode, secureDnsConfig:string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -280,13 +250,7 @@ static setWebDebuggingAccess(webDebuggingAccess: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -348,13 +312,7 @@ loadUrl(url: string | Resource, headers?: Array<WebHeader>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -383,13 +341,7 @@ loadUrl(url: string | Resource, headers?: Array<WebHeader>): void
 24. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -422,13 +374,7 @@ loadUrl(url: string | Resource, headers?: Array<WebHeader>): void
 
 1.$rawfile方式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -461,13 +407,7 @@ loadUrl(url: string | Resource, headers?: Array<WebHeader>): void
 
 使用 resource://rawfile/ 协议前缀可以避免常规 $rawfile 方式在处理带有“#”路由链接时的局限性。当URL中包含“#”号时，“#”后面的内容会被视为锚点（fragment）。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -498,13 +438,7 @@ loadUrl(url: string | Resource, headers?: Array<WebHeader>): void
 
 在“src\main\resources\rawfile”文件夹下创建index.html：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -539,13 +473,7 @@ loadUrl(url: string | Resource, headers?: Array<WebHeader>): void
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -607,13 +535,7 @@ data数据必须使用base64编码或将内容中的任何#字符编码为%23。
 
 baseUrl与historyUrl同时为空。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -646,13 +568,7 @@ baseUrl与historyUrl同时为空。
 28. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -687,13 +603,7 @@ baseUrl与historyUrl同时为空。
 
 指定baseUrl。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -729,13 +639,7 @@ baseUrl与historyUrl同时为空。
 
 加载本地资源。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -767,13 +671,7 @@ baseUrl与historyUrl同时为空。
 
 加载沙箱图片。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -841,13 +739,7 @@ accessForward(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -898,13 +790,7 @@ forward(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -970,13 +856,7 @@ accessBackward(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1027,13 +907,7 @@ backward(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1085,13 +959,7 @@ onActive(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1143,13 +1011,7 @@ onInactive(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1199,13 +1061,7 @@ refresh(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1263,13 +1119,7 @@ refresh(ignoreCache: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1336,13 +1186,7 @@ accessStep(step: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1394,13 +1238,7 @@ clearHistory(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1475,13 +1313,7 @@ registerJavaScriptProxy提供了应用与Web组件加载的网页之间强大的
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1588,13 +1420,7 @@ registerJavaScriptProxy提供了应用与Web组件加载的网页之间强大的
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -1673,13 +1499,7 @@ runJavaScript(script: string, callback : AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webview } from '@kit.ArkWeb';
@@ -1724,13 +1544,7 @@ runJavaScript(script: string, callback : AsyncCallback<string>): void
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -1799,13 +1613,7 @@ runJavaScript(script: string): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1844,13 +1652,7 @@ runJavaScript(script: string): Promise<string>
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -1907,13 +1709,7 @@ runJavaScriptExt(script: string | ArrayBuffer, callback : AsyncCallback<JsMessag
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webview } from '@kit.ArkWeb';
@@ -1998,13 +1794,7 @@ runJavaScriptExt(script: string | ArrayBuffer, callback : AsyncCallback<JsMessag
 80. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 使用ArrayBuffer入参，从文件中获取JavaScript脚本数据。
@@ -2104,13 +1894,7 @@ runJavaScriptExt(script: string | ArrayBuffer, callback : AsyncCallback<JsMessag
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -2170,13 +1954,7 @@ runJavaScriptExt(script: string | ArrayBuffer): Promise<JsMessageExt>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2252,13 +2030,7 @@ runJavaScriptExt(script: string | ArrayBuffer): Promise<JsMessageExt>
 71. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 使用ArrayBuffer入参，从文件中获取JavaScript脚本数据。
@@ -2354,13 +2126,7 @@ runJavaScriptExt(script: string | ArrayBuffer): Promise<JsMessageExt>
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -2409,13 +2175,7 @@ deleteJavaScriptRegister(name: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2476,13 +2236,7 @@ deleteJavaScriptRegister(name: string): void
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -2537,13 +2291,7 @@ zoom(factor: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2604,13 +2352,7 @@ searchAllAsync(searchString: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2647,13 +2389,7 @@ searchAllAsync(searchString: string): void
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -2687,13 +2423,7 @@ clearMatches(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2754,13 +2484,7 @@ searchNext(forward: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2812,13 +2536,7 @@ clearSslCache(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2868,13 +2586,7 @@ clearClientAuthenticationCache(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2976,13 +2688,7 @@ postMessage(name: string, ports: Array<WebMessagePort>, uri: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3058,13 +2764,7 @@ postMessage(name: string, ports: Array<WebMessagePort>, uri: string): void
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!--index.html-->
@@ -3087,13 +2787,7 @@ postMessage(name: string, ports: Array<WebMessagePort>, uri: string): void
 18. </html>
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.js
@@ -3158,13 +2852,7 @@ requestFocus(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3215,13 +2903,7 @@ zoomIn(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3272,13 +2954,7 @@ zoomOut(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3336,13 +3012,7 @@ getWebId(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3403,13 +3073,7 @@ getUserAgent(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3440,13 +3104,7 @@ getUserAgent(): string
 
 支持开发者基于默认的User-Agent去定制User-Agent。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3509,13 +3167,7 @@ getTitle(): string
 
 **示例:**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3574,13 +3226,7 @@ getPageHeight(): number
 
 **示例:**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3643,13 +3289,7 @@ storeWebArchive(baseName: string, autoName: boolean, callback: AsyncCallback<str
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3726,13 +3366,7 @@ storeWebArchive(baseName: string, autoName: boolean): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3798,13 +3432,7 @@ getUrl(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3855,13 +3483,7 @@ stop(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3922,13 +3544,7 @@ backOrForward(step: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3990,13 +3606,7 @@ scrollTo(x:number, y:number, duration?:number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4034,13 +3644,7 @@ scrollTo(x:number, y:number, duration?:number): void
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!--index.html-->
@@ -4101,13 +3705,7 @@ scrollBy(deltaX:number, deltaY:number,duration?:number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4145,13 +3743,7 @@ scrollBy(deltaX:number, deltaY:number,duration?:number): void
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!--index.html-->
@@ -4222,13 +3814,7 @@ scrollByWithResult(deltaX: number, deltaY: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4259,13 +3845,7 @@ scrollByWithResult(deltaX: number, deltaY: number): boolean
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!--index.html-->
@@ -4321,13 +3901,7 @@ slideScroll(vx:number, vy:number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4357,13 +3931,7 @@ slideScroll(vx:number, vy:number): void
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!--index.html-->
@@ -4419,13 +3987,7 @@ getOriginalUrl(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4484,13 +4046,7 @@ getFavicon(): image.PixelMap
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4551,13 +4107,7 @@ setNetworkAvailable(enable: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4587,13 +4137,7 @@ setNetworkAvailable(enable: boolean): void
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -4648,13 +4192,7 @@ hasImage(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4719,13 +4257,7 @@ hasImage(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4792,13 +4324,7 @@ removeCache(clearRom: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4860,13 +4386,7 @@ static removeAllCache(clearRom: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4925,13 +4445,7 @@ pageUp(top: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4959,13 +4473,7 @@ pageUp(top: boolean): void
 23. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -5031,13 +4539,7 @@ pageDown(bottom: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -5067,13 +4569,7 @@ pageDown(bottom: boolean): void
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -5142,13 +4638,7 @@ getBackForwardEntries(): BackForwardList
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -5208,13 +4698,7 @@ serializeWebState(): Uint8Array
 
 1.对文件的操作需要导入文件管理模块，详情请参考[文件管理](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-file-fs)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -5255,13 +4739,7 @@ serializeWebState(): Uint8Array
 
 获取应用缓存文件路径。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -5310,13 +4788,7 @@ restoreWebState(state: Uint8Array): void
 
 1.对文件的操作需要导入文件管理模块，详情请参考[文件管理](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-file-fs)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -5366,13 +4838,7 @@ restoreWebState(state: Uint8Array): void
 
 获取应用缓存文件路径。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -5417,13 +4883,7 @@ static customizeSchemes(schemes: Array<WebCustomScheme>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -5493,13 +4953,7 @@ static customizeSchemes(schemes: Array<WebCustomScheme>, lazyInitWebEngine: bool
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -5561,13 +5015,7 @@ getCertificate(): Promise<Array<cert.X509Cert>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -5737,13 +5185,7 @@ getCertificate(callback: AsyncCallback<Array<cert.X509Cert>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -5913,13 +5355,7 @@ setAudioMuted(mute: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -5985,13 +5421,7 @@ prefetchPage(url: string, additionalHeaders?: Array<WebHeader>, prefetchOptions?
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -6062,13 +5492,7 @@ prefetchPage(url: string, additionalHeaders?: Array<WebHeader>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -6131,13 +5555,7 @@ static prefetchResource(request: RequestInfo, additionalHeaders?: Array<WebHeade
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -6186,13 +5604,7 @@ static clearPrefetchedResource(cacheKeyList: Array<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -6262,13 +5674,7 @@ static prepareForPageLoad(url: string, preconnectable: boolean, numSockets: numb
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -6328,13 +5734,7 @@ setCustomUserAgent(userAgent: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -6394,13 +5794,7 @@ setDownloadDelegate(delegate: WebDownloadDelegate): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -6460,13 +5854,7 @@ startDownload(url: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -6535,13 +5923,7 @@ getCustomUserAgent(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -6595,13 +5977,7 @@ static setAppCustomUserAgent(userAgent: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -6657,13 +6033,7 @@ static setUserAgentForHosts(userAgent: string, hosts: Array<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -6730,13 +6100,7 @@ static setConnectionTimeout(timeout: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -6801,13 +6165,7 @@ static warmupServiceWorker(url: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -6862,13 +6220,7 @@ enableSafeBrowsing(enable: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -6917,13 +6269,7 @@ isSafeBrowsingEnabled(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -6981,13 +6327,7 @@ enableIntelligentTrackingPrevention(enable: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -7049,13 +6389,7 @@ isIntelligentTrackingPreventionEnabled(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -7117,13 +6451,7 @@ static addIntelligentTrackingPreventionBypassingList(hostList: Array<string>): v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -7185,13 +6513,7 @@ static removeIntelligentTrackingPreventionBypassingList(hostList: Array<string>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -7244,13 +6566,7 @@ static clearIntelligentTrackingPreventionBypassingList(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -7297,13 +6613,7 @@ static getDefaultUserAgent(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -7360,13 +6670,7 @@ enableAdsBlock(enable: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -7429,13 +6733,7 @@ isAdsBlockEnabled() : boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -7500,13 +6798,7 @@ isAdsBlockEnabledForCurPage() : boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -7565,13 +6857,7 @@ static setRenderProcessMode(mode: RenderProcessMode): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -7619,13 +6905,7 @@ static getRenderProcessMode(): RenderProcessMode
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -7681,13 +6961,7 @@ terminateRenderProcess(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -7744,13 +7018,7 @@ postUrl(url: string, postData: ArrayBuffer): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -7835,13 +7103,7 @@ createWebPrintDocumentAdapter(jobName: string): print.PrintDocumentAdapter
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -7900,13 +7162,7 @@ isIncognitoMode(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -7965,13 +7221,7 @@ getSecurityLevel(): SecurityLevel
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webview } from '@kit.ArkWeb';
@@ -8027,13 +7277,7 @@ setScrollable(enable: boolean, type?: ScrollType): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -8091,13 +7335,7 @@ getScrollable(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -8157,13 +7395,7 @@ setPrintBackground(enable: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webview } from '@kit.ArkWeb';
@@ -8220,13 +7452,7 @@ getPrintBackground(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webview } from '@kit.ArkWeb';
@@ -8284,13 +7510,7 @@ getLastJavascriptProxyCallingFrameUrl(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -8385,13 +7605,7 @@ getLastJavascriptProxyCallingFrameUrl(): string
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -8445,13 +7659,7 @@ static pauseAllTimers(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webview } from '@kit.ArkWeb';
@@ -8477,13 +7685,7 @@ static pauseAllTimers(): void
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!DOCTYPE html>
@@ -8534,13 +7736,7 @@ static resumeAllTimers(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webview } from '@kit.ArkWeb';
@@ -8570,13 +7766,7 @@ static resumeAllTimers(): void
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!DOCTYPE html>
@@ -8627,13 +7817,7 @@ stopAllMedia(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -8683,13 +7867,7 @@ pauseAllMedia(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -8739,13 +7917,7 @@ resumeAllMedia(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -8795,13 +7967,7 @@ closeAllMediaPresentations(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -8859,13 +8025,7 @@ getMediaPlaybackState(): MediaPlaybackState
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -8925,13 +8085,7 @@ setWebSchemeHandler(scheme: string, handler: WebSchemeHandler): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -8982,13 +8136,7 @@ clearWebSchemeHandler(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -9047,13 +8195,7 @@ setServiceWorkerWebSchemeHandler(scheme: string, handler: WebSchemeHandler): voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -9094,13 +8236,7 @@ clearServiceWorkerWebSchemeHandler(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -9145,13 +8281,7 @@ startCamera(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -9230,13 +8360,7 @@ startCamera(): void
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -9365,13 +8489,7 @@ precompileJavaScript(url: string, script: string | Uint8Array, cacheOptions: Cac
 
 1. 首先，在EntryAbility中将[UIContext](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-uicontext)存到[localStorage](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/arkts-localstorage)中。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. // EntryAbility.ets
@@ -9396,13 +8514,7 @@ precompileJavaScript(url: string, script: string | Uint8Array, cacheOptions: Cac
    ```
 2. 编写动态组件所需基础代码。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. // DynamicComponent.ets
@@ -9455,13 +8567,7 @@ precompileJavaScript(url: string, script: string | Uint8Array, cacheOptions: Cac
    ```
 3. 编写用于生成字节码缓存的组件，本例中的本地Javascript资源内容通过文件读取接口读取rawfile目录下的本地文件。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. // PrecompileWebview.ets
@@ -9508,13 +8614,7 @@ precompileJavaScript(url: string, script: string | Uint8Array, cacheOptions: Cac
    JavaScript资源的获取方式也可通过[网络请求](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-http)的方式获取，但此方法获取到的HTTP响应头非标准HTTP响应头格式，需额外将响应头转换成标准HTTP响应头格式后使用。如通过网络请求获取到的响应头是e-tag，则需要将其转换成E-Tag后使用。
 4. 编写业务用组件代码。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. // BusinessWebview.ets
@@ -9531,13 +8631,7 @@ precompileJavaScript(url: string, script: string | Uint8Array, cacheOptions: Cac
    ```
 5. 编写资源配置信息。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. // PrecompileConfig.ets
@@ -9564,13 +8658,7 @@ precompileJavaScript(url: string, script: string | Uint8Array, cacheOptions: Cac
    ```
 6. 在页面中使用。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. // Index.ets
@@ -9637,13 +8725,7 @@ onCreateNativeMediaPlayer(callback: CreateNativeMediaPlayerCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -9863,13 +8945,7 @@ static enableWholeWebPageDrawing(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -9926,13 +9002,7 @@ webPageSnapshot(info: SnapshotInfo, callback: AsyncCallback<SnapshotResult>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -10014,13 +9084,7 @@ injectOfflineResources(resourceMaps: Array<[OfflineResourceMap](https://develope
 
 1. 首先，在EntryAbility中将[UIContext](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-uicontext)存到[localStorage](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/arkts-localstorage)中。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. // EntryAbility.ets
@@ -10045,13 +9109,7 @@ injectOfflineResources(resourceMaps: Array<[OfflineResourceMap](https://develope
    ```
 2. 编写动态组件所需基础代码。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. // DynamicComponent.ets
@@ -10104,13 +9162,7 @@ injectOfflineResources(resourceMaps: Array<[OfflineResourceMap](https://develope
    ```
 3. 编写用于注入资源的组件代码，本例中的本地资源内容通过文件读取接口读取rawfile目录下的本地文件。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. // InjectWebview.ets
@@ -10164,13 +9216,7 @@ injectOfflineResources(resourceMaps: Array<[OfflineResourceMap](https://develope
    ```
 4. 编写业务用组件代码。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. // BusinessWebview.ets
@@ -10187,13 +9233,7 @@ injectOfflineResources(resourceMaps: Array<[OfflineResourceMap](https://develope
    ```
 5. 编写资源配置信息。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. // Resource.ets
@@ -10235,13 +9275,7 @@ injectOfflineResources(resourceMaps: Array<[OfflineResourceMap](https://develope
    ```
 6. 在页面中使用。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. // Index.ets
@@ -10285,13 +9319,7 @@ injectOfflineResources(resourceMaps: Array<[OfflineResourceMap](https://develope
    ```
 7. 加载的HTML网页示例。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. <!DOCTYPE html>
@@ -10369,13 +9397,7 @@ static clearHostIP(hostName: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -10436,13 +9458,7 @@ getSurfaceId(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -10522,13 +9538,7 @@ setUrlTrustList(urlTrustList: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -10648,13 +9658,7 @@ setPathAllowingUniversalAccess放开目录的跨域访问限制是一个高风�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -10692,13 +9696,7 @@ setPathAllowingUniversalAccess放开目录的跨域访问限制是一个高风�
 
 加载的html文件，位于应用资源目录resource/resfile/index.html。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -10747,13 +9745,7 @@ setPathAllowingUniversalAccess放开目录的跨域访问限制是一个高风�
 
 html中使用file协议通过XMLHttpRequest跨域访问本地js文件，js文件位于resource/resfile/js/script.js。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const body = document.body;
@@ -10784,13 +9776,7 @@ static enableBackForwardCache(features: BackForwardCacheSupportedFeatures): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -10843,13 +9829,7 @@ setBackForwardCacheOptions(options: BackForwardCacheOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ts
@@ -10914,13 +9894,7 @@ trimMemoryByPressureLevel(level: PressureLevel): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -10983,13 +9957,7 @@ createPdf(configuration: PdfConfiguration, callback: AsyncCallback<PdfData>): vo
 
 **示例**:
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileIo } from '@kit.CoreFileKit';
@@ -11082,13 +10050,7 @@ createPdf(configuration: PdfConfiguration): Promise<PdfData>
 
 **示例**:
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileIo } from '@kit.CoreFileKit';
@@ -11161,13 +10123,7 @@ getScrollOffset(): ScrollOffset
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -11224,13 +10180,7 @@ getScrollOffset(): ScrollOffset
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -11285,13 +10235,7 @@ getPageOffset(): ScrollOffset
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -11319,13 +10263,7 @@ getPageOffset(): ScrollOffset
 23. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -11390,13 +10328,7 @@ getLastHitTest(): HitTestValue
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -11448,13 +10380,7 @@ getAttachState(): ControllerAttachState
 
 点击Button可以获取当前WebViewController的绑定状态并输出日志。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -11532,13 +10458,7 @@ off(type: 'controllerAttachStateChange', callback?: Callback<ControllerAttachSta
 
 on可以注册多个回调，当绑定状态改变后会获取当前的绑定状态并触发这些回调。off可以取消注册某个回调，也可以取消注册所有回调。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -11621,13 +10541,7 @@ waitForAttached(timeout: number):Promise<ControllerAttachState>
 
 在初始化阶段设置WebViewController等待绑定完成，超时时间为1000ms。若绑定完成或者超时则会触发回调。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -11702,13 +10616,7 @@ static setWebDebuggingAccess(webDebuggingAccess: boolean, port: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -11766,13 +10674,7 @@ getProgress(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webview } from '@kit.ArkWeb';
@@ -11828,13 +10730,7 @@ getHitTest(): WebHitTestType
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -11897,13 +10793,7 @@ getHitTestValue(): HitTestValue
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -11970,13 +10860,7 @@ avoidVisibleViewportBottom(avoidHeight: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -12045,13 +10929,7 @@ setErrorPageEnabled(enable: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -12104,13 +10982,7 @@ getErrorPageEnabled(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -12155,13 +11027,7 @@ static enablePrivateNetworkAccess(enable: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webview } from '@kit.ArkWeb';
@@ -12203,13 +11069,7 @@ static isPrivateNetworkAccessEnabled(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webview } from '@kit.ArkWeb';
@@ -12289,13 +11149,7 @@ getBlanklessInfoWithKey(key: string): BlanklessInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webview } from '@kit.ArkWeb';
@@ -12378,13 +11232,7 @@ setBlanklessLoadingWithKey(key: string, is\_start: boolean): WebBlanklessErrorCo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webview } from '@kit.ArkWeb';
@@ -12469,13 +11317,7 @@ setBlanklessLoadingWithParams(key: string, param: BlanklessLoadingParam): WebBla
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webview } from '@kit.ArkWeb';
@@ -12553,13 +11395,7 @@ static clearBlanklessLoadingCache(keys?: Array<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -12626,13 +11462,7 @@ static setBlanklessLoadingCacheCapacity(capacity: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -12679,13 +11509,7 @@ setWebDestroyMode(mode: WebDestroyMode): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -12729,13 +11553,7 @@ static setScrollbarMode(scrollbarMode: ScrollbarMode): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -12759,13 +11577,7 @@ static setScrollbarMode(scrollbarMode: ScrollbarMode): void
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!--index.html-->
@@ -12821,13 +11633,7 @@ static setActiveWebEngineVersion(engineVersion: ArkWebEngineVersion): void
 
 本示例以EntryAbility为例，实现了在Ability创建阶段设置ArkWeb内核版本的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -12890,13 +11696,7 @@ static isActiveWebEngineEvergreen(): boolean
 
 本示例以EntryAbility为例，实现了在Ability创建阶段判断应用是否正在使用常青内核的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -12936,13 +11736,7 @@ static setAutoPreconnect(enabled: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -12980,13 +11774,7 @@ static isAutoPreconnectEnabled(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webview } from '@kit.ArkWeb';
@@ -13031,13 +11819,7 @@ static getSiteIsolationMode(): SiteIsolationMode
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -13099,13 +11881,7 @@ setSiteIsolationMode(mode: SiteIsolationMode): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -13155,13 +11931,7 @@ static setSocketIdleTimeout(timeout: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -13206,13 +11976,7 @@ setSoftKeyboardBehaviorMode(mode: WebSoftKeyboardBehaviorMode): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // index.ets
@@ -13257,13 +12021,7 @@ resumeMicrophone(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -13345,13 +12103,7 @@ resumeMicrophone(): void
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->
@@ -13459,13 +12211,7 @@ User-Agent Client Hints（UA-CH）是一种替代传统User-Agent字符串的隐
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -13679,13 +12425,7 @@ setUrlTrustList(urlTrustList: string, allowOpaqueOrigin: boolean, supportWildcar
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

@@ -32,13 +32,7 @@ getTopOrder(): LevelOrder
 
 该示例通过调用getTopOrder接口，展示了获取最顶层显示弹窗顺序的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ComponentContent, PromptAction, LevelOrder, promptAction, UIContext } from '@kit.ArkUI';
@@ -122,13 +116,7 @@ getBottomOrder(): LevelOrder
 
 该示例通过调用getBottomOrder接口，展示了获取最底层显示弹窗顺序的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ComponentContent, PromptAction, LevelOrder, promptAction, UIContext } from '@kit.ArkUI';
@@ -231,13 +219,7 @@ openToast(options: promptAction.ShowToastOptions): Promise<number>
 
 该示例通过调用openToast和closeToast接口，展示了弹出以及关闭Toast的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PromptAction } from '@kit.ArkUI';
@@ -352,13 +334,7 @@ showToast(options: promptAction.ShowToastOptions): void
 
 该示例通过调用showToast接口，创建并显示即时反馈。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PromptAction } from '@kit.ArkUI';
@@ -425,13 +401,7 @@ showDialog(options: promptAction.ShowDialogOptions, callback: AsyncCallback<prom
 
 该示例通过调用showDialog接口，展示了弹出对话框以及返回对话框响应结果的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PromptAction } from '@kit.ArkUI';
@@ -521,13 +491,7 @@ showDialog(options: promptAction.ShowDialogOptions): Promise<promptAction.ShowDi
 
 该示例通过调用showDialog接口，展示了弹出对话框以及通过Promise获取对话框响应结果的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PromptAction } from '@kit.ArkUI';
@@ -601,13 +565,7 @@ showActionMenu(options: promptAction.ActionMenuOptions, callback: AsyncCallback<
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PromptAction, promptAction } from '@kit.ArkUI';
@@ -696,13 +654,7 @@ showActionMenu(options: promptAction.ActionMenuOptions): Promise<promptAction.Ac
 
 该示例通过调用showActionMenu接口，展示了弹出操作菜单以及通过Promise获取操作菜单响应结果的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PromptAction } from '@kit.ArkUI';
@@ -785,13 +737,7 @@ openCustomDialog<T extends Object>(dialogContent: ComponentContent<T>, options?:
 
 该示例通过监听[系统环境信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-app-ability-configuration)（系统语言、深浅色等）的变化，调用[ComponentContent<T>](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-arkui-componentcontent) 的[update](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-arkui-buildernode#update)和[updateConfiguration](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-arkui-buildernode#updateconfiguration12)实现自定义弹窗的数据更新及节点的全量刷新。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ComponentContent } from '@kit.ArkUI';
@@ -928,13 +874,7 @@ openCustomDialog(options: promptAction.CustomDialogOptions): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1057,13 +997,7 @@ openCustomDialogWithController<T extends Object>(dialogContent: ComponentContent
 
 该示例通过调用openCustomDialog接口，展示了支持传入弹窗控制器与自定义弹窗绑定的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1172,13 +1106,7 @@ updateCustomDialog<T extends Object>(dialogContent: ComponentContent<T>, options
 
 该示例通过调用updateCustomDialog接口，动态调整已弹出自定义弹窗的位置。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1286,13 +1214,7 @@ closeCustomDialog<T extends Object>(dialogContent: ComponentContent<T>): Promise
 
 该示例通过调用closeCustomDialog接口，关闭已弹出的dialogContent对应的自定义弹窗。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1388,13 +1310,7 @@ closeCustomDialog(dialogId: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PromptAction } from '@kit.ArkUI';
@@ -1497,13 +1413,7 @@ presentCustomDialog(builder: CustomBuilder | CustomBuilderWithId, controller?: p
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1635,13 +1545,7 @@ openPopup<T extends Object>(content: ComponentContent<T>, target: TargetInfo, op
 
 该示例通过调用openPopup、updatePopup和closePopup接口，展示了弹出、更新以及关闭Popup的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ComponentContent, FrameNode } from '@kit.ArkUI';
@@ -1874,13 +1778,7 @@ openMenu<T extends Object>(content: ComponentContent<T>, target: TargetInfo, opt
 
 该示例通过调用openMenu接口，展示了弹出Menu的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ComponentContent, FrameNode } from '@kit.ArkUI';
@@ -1982,13 +1880,7 @@ updateMenu<T extends Object>(content: ComponentContent<T>, options: MenuOptions,
 
 该示例通过调用updateMenu接口，展示了更新Menu箭头样式的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ComponentContent, FrameNode } from '@kit.ArkUI';
@@ -2088,13 +1980,7 @@ closeMenu<T extends Object>(content: ComponentContent<T>): Promise<void>
 
 该示例通过调用closeMenu接口，展示了关闭Menu的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ComponentContent, FrameNode } from '@kit.ArkUI';
@@ -2186,13 +2072,7 @@ showActionMenu(options: promptAction.ActionMenuOptions, callback: [promptAction.
 
 该示例通过调用showActionMenu接口，展示了弹出操作菜单以及返回菜单响应结果的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PromptAction } from '@kit.ArkUI';

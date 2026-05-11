@@ -28,13 +28,7 @@ setMenuOptions(options: TextMenuOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -112,13 +106,7 @@ static disableSystemServiceMenuItems(disable: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextMenuController } from '@kit.ArkUI';
@@ -201,13 +189,7 @@ static disableMenuItems(items: Array<TextMenuItemId>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TextMenuController } from '@kit.ArkUI';

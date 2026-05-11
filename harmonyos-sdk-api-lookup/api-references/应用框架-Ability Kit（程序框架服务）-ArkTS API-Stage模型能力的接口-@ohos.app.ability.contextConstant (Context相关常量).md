@@ -10,13 +10,7 @@ ContextConstant提供Context相关的枚举，包含文件加密分区等级、U
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { contextConstant } from '@kit.AbilityKit';
@@ -62,13 +56,7 @@ ProcessMode作为[StartOptions](https://developer.huawei.com/consumer/cn/doc/har
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, Want, StartOptions, contextConstant } from '@kit.AbilityKit';
@@ -151,13 +139,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, contextConstant, UIAbility, Want } from '@kit.AbilityKit';

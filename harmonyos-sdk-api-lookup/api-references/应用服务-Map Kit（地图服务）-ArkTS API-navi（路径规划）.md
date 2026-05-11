@@ -6,13 +6,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { navi } from '@kit.MapKit';
@@ -84,13 +78,7 @@ getDrivingRoutes(params: DrivingRouteParams): Promise<RouteResult>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: navi.DrivingRouteParams = {
@@ -180,13 +168,7 @@ getDrivingRoutes(context: common.Context, params: DrivingRouteParams): Promise<R
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: navi.DrivingRouteParams = {
@@ -274,13 +256,7 @@ getWalkingRoutes(params: RouteParams): Promise<RouteResult>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: navi.RouteParams = {
@@ -364,13 +340,7 @@ getWalkingRoutes(context: common.Context, params: RouteParams): Promise<RouteRes
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: navi.DrivingRouteParams = {
@@ -458,13 +428,7 @@ getCyclingRoutes(params: RouteParams): Promise<RouteResult>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: navi.RouteParams = {
@@ -548,13 +512,7 @@ getCyclingRoutes(context: common.Context, params: RouteParams): Promise<RouteRes
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: navi.RouteParams = {
@@ -636,13 +594,7 @@ getTransitRoutes(context: common.Context, params: TransitRouteParams): Promise<T
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: navi.TransitRouteParams = {
@@ -722,13 +674,7 @@ getDrivingMatrix(params: DrivingMatrixParams): Promise<MatrixResult>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: navi.DrivingMatrixParams = {
@@ -822,13 +768,7 @@ getDrivingMatrix(context: common.Context, params: DrivingMatrixParams): Promise<
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: navi.DrivingMatrixParams = {
@@ -921,13 +861,7 @@ getWalkingMatrix(params: MatrixParams): Promise<MatrixResult>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: navi.MatrixParams = {
@@ -1020,13 +954,7 @@ getWalkingMatrix(context: common.Context, params: MatrixParams): Promise<MatrixR
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: navi.MatrixParams = {
@@ -1118,13 +1046,7 @@ getCyclingMatrix(params: MatrixParams): Promise<MatrixResult>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: navi.MatrixParams = {
@@ -1217,13 +1139,7 @@ getCyclingMatrix(context: common.Context, params: MatrixParams): Promise<MatrixR
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: navi.MatrixParams = {
@@ -1312,13 +1228,7 @@ snapToRoads(params: SnapToRoadsParams): Promise<SnapToRoadsResult>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: navi.SnapToRoadsParams = {
@@ -1397,13 +1307,7 @@ snapToRoads(context: common.Context, params: SnapToRoadsParams): Promise<SnapToR
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: navi.SnapToRoadsParams = {

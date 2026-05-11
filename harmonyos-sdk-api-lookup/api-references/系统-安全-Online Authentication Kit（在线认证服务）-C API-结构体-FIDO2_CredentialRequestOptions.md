@@ -21,13 +21,7 @@
 
 ### mediation
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FIDO2_CredentialMediationRequirement FIDO2_CredentialRequestOptions::mediation
@@ -39,13 +33,7 @@
 
 ### publicKey
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FIDO2_PublicKeyCredentialRequestOptions FIDO2_CredentialRequestOptions::publicKey

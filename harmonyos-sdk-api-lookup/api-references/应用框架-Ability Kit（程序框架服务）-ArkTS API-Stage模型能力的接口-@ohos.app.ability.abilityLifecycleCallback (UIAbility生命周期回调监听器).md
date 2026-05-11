@@ -20,13 +20,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityLifecycleCallback } from '@kit.AbilityKit';
@@ -581,13 +575,7 @@ onAbilitySaveState?(ability: UIAbility): void
 3. 监听到对应UIAbility创建时加载资源，监听到对应UIAbility销毁时释放资源。
 4. 在UIAbility创建、销毁及前后台状态切换时，记录事件并向外发送通知。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 以MyStage.ets文件为例，使用AbilityLifecycleCallback监听UIAbility生命周期
@@ -731,13 +719,7 @@ onAbilitySaveState?(ability: UIAbility): void
 139. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 以EntryAbility.ets为例，展示应用入口UIAbility

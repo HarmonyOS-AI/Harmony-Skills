@@ -12,13 +12,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ColorMetrics, LengthMetrics, ProgressButtonV2,  ProgressButtonV2Color } from '@kit.ArkUI';
@@ -154,13 +148,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例实现了一个简单的带加载进度的文本下载按钮。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LengthMetrics, ProgressButtonV2 } from '@kit.ArkUI';

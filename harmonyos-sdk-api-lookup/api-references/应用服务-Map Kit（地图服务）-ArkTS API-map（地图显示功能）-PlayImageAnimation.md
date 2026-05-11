@@ -2,13 +2,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { map } from '@kit.MapKit';
@@ -33,13 +27,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let images: Array<ResourceStr | image.PixelMap> = [
@@ -97,13 +85,7 @@ addImages(images: Array<ResourceStr | image.PixelMap>): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let images: Array<ResourceStr | image.PixelMap> = [

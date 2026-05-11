@@ -68,13 +68,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示通过foregroundColor设置前景色。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -98,13 +92,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[ColoringStrategy](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-appendix-enums#coloringstrategy10).INVERT将前景色设置为背景色反色。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -130,13 +118,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示组件同时设置前景色和背景色与只设置背景色的效果对比。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

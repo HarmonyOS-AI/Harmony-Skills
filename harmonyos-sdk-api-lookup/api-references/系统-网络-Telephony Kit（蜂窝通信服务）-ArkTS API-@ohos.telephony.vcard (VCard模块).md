@@ -8,13 +8,7 @@ VCard是电子名片的文件格式标准，它可包含的信息有：姓名、
 
 PhoneTabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { vcard } from '@kit.TelephonyKit';
@@ -59,13 +53,7 @@ importVCard(context: Context, filePath: string, accountId: number, callback: Asy
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { window } from '@kit.ArkUI';
@@ -130,13 +118,7 @@ importVCard(context: Context, filePath: string, accountId?: number): Promise<voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { window } from '@kit.ArkUI';
@@ -195,13 +177,7 @@ importVCard(context: Context, filePath: string, callback: AsyncCallback<void>): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { window } from '@kit.ArkUI';
@@ -258,13 +234,7 @@ exportVCard(context: Context, predicates: dataSharePredicates.DataSharePredicate
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { window } from '@kit.ArkUI';
@@ -334,13 +304,7 @@ exportVCard(context: Context, predicates: dataSharePredicates.DataSharePredicate
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { window } from '@kit.ArkUI';
@@ -404,13 +368,7 @@ exportVCard(context: Context, predicates: dataSharePredicates.DataSharePredicate
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { window } from '@kit.ArkUI';

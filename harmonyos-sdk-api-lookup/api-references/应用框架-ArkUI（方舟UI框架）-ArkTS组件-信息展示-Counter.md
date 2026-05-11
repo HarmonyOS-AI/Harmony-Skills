@@ -124,13 +124,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例展示了Counter组件的基本使用方法。点击+、-按钮可以修改value值。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

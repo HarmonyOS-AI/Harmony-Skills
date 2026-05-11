@@ -21,13 +21,7 @@
 
 ### transportNum
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint32_t FIDO2_AuthenticatorTransportArray::transportNum
@@ -39,13 +33,7 @@
 
 ### transports
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FIDO2_AuthenticatorTransport* FIDO2_AuthenticatorTransportArray::transports

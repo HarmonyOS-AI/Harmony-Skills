@@ -62,13 +62,7 @@ loadNativeModule接口仅支持在UI主线程中加载native模块。
 
 **示例1**：HAP加载系统库模块
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let hilog: ESObject = loadNativeModule("@ohos.hilog");
@@ -79,13 +73,7 @@ loadNativeModule接口仅支持在UI主线程中加载native模块。
 
 libentry.so的index.d.ts文件内容如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. //index.d.ts
@@ -94,13 +82,7 @@ libentry.so的index.d.ts文件内容如下：
 
 1.在加载本地so库时，配置模块级oh-package.json5文件的dependencies项。配置说明见[模块级oh-package.json5](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-oh-package-json5#zh-cn_topic_0000001792256137_oh-packagejson5-字段说明)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. {
@@ -112,13 +94,7 @@ libentry.so的index.d.ts文件内容如下：
 
 2.在模块级build-profile.json5中进行配置。配置说明见[模块级build-profile.json5文件](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hvigor-build-profile)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. {
@@ -136,13 +112,7 @@ libentry.so的index.d.ts文件内容如下：
 
 3.使用loadNativeModule加载libentry.so，调用add函数。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let module: ESObject = loadNativeModule("libentry.so");

@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { JSON } from '@kit.ArkTS';
@@ -130,13 +124,7 @@ parse(text: string, reviver?: Transformer, options?: ParseOptions): Object | nul
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { JSON } from '@kit.ArkTS';
@@ -215,13 +203,7 @@ stringify(value: Object, replacer?: (number | string)[] | null, space?: string |
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { JSON } from '@kit.ArkTS';
@@ -305,13 +287,7 @@ stringify(value: Object, replacer?: Transformer, space?: string | number): strin
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { JSON } from '@kit.ArkTS';
@@ -385,13 +361,7 @@ has(obj: object, property: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { JSON } from '@kit.ArkTS';
@@ -436,13 +406,7 @@ remove(obj: object, property: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { JSON } from '@kit.ArkTS';

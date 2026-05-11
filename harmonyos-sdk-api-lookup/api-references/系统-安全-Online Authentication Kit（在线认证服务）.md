@@ -1,2 +1,0 @@
-* **[ArkTS API](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/onlineauthentication_arkts)**
-* **[C API](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/online-authentication-c)**

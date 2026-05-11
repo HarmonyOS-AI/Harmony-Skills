@@ -825,13 +825,7 @@ PhonePC/2in1TabletTVWearable
 
 WaterFlowDataSource实现了LazyForEach数据源接口[IDataSource](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-rendering-control-lazyforeach#idatasource)，用于通过LazyForEach给WaterFlow提供子组件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // WaterFlowDataSource.ets
@@ -984,13 +978,7 @@ WaterFlowDataSource实现了LazyForEach数据源接口[IDataSource](https://deve
 148. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -1137,13 +1125,7 @@ WaterFlowDataSource实现了LazyForEach数据源接口[IDataSource](https://deve
 
 WaterFlowDataSource说明及完整代码参考[示例1使用基本瀑布流](/consumer/cn/doc/harmonyos-references/ts-container-waterflow#示例1使用基本瀑布流)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -1219,13 +1201,7 @@ WaterFlowDataSource说明及完整代码参考[示例1使用基本瀑布流](/co
 
 WaterFlowDataSource说明及完整代码参考[示例1使用基本瀑布流](/consumer/cn/doc/harmonyos-references/ts-container-waterflow#示例1使用基本瀑布流)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -1482,13 +1458,7 @@ WaterFlowDataSource说明及完整代码参考[示例1使用基本瀑布流](/co
 
 WaterFlowDataSource说明及完整代码参考[示例1使用基本瀑布流](/consumer/cn/doc/harmonyos-references/ts-container-waterflow#示例1使用基本瀑布流)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -1690,13 +1660,7 @@ WaterFlowDataSource说明及完整代码参考[示例1使用基本瀑布流](/co
 
 WaterFlowDataSource说明及完整代码参考[示例1使用基本瀑布流](/consumer/cn/doc/harmonyos-references/ts-container-waterflow#示例1使用基本瀑布流)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -1771,13 +1735,7 @@ WaterFlowDataSource说明及完整代码参考[示例1使用基本瀑布流](/co
 
 WaterFlowDataSource说明及完整代码参考[示例1使用基本瀑布流](/consumer/cn/doc/harmonyos-references/ts-container-waterflow#示例1使用基本瀑布流)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -1852,13 +1810,7 @@ WaterFlowDataSource说明及完整代码参考[示例1使用基本瀑布流](/co
 
 WaterFlowDataSource说明及完整代码参考[示例1使用基本瀑布流](/consumer/cn/doc/harmonyos-references/ts-container-waterflow#示例1使用基本瀑布流)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -1971,13 +1923,7 @@ WaterFlowDataSource说明及完整代码参考[示例1使用基本瀑布流](/co
 
 WaterFlowDataSource说明及完整代码参考[示例1使用基本瀑布流](/consumer/cn/doc/harmonyos-references/ts-container-waterflow#示例1使用基本瀑布流)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -2068,13 +2014,7 @@ WaterFlowDataSource说明及完整代码参考[示例1使用基本瀑布流](/co
 
 从API version 22开始，该示例展示了WaterFlow组件支持基于断点配置列数效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -2158,13 +2098,7 @@ WaterFlow宽度属于lg及更大的断点区间时显示5列。
 
 WaterFlowDataSource说明及完整代码参考[示例1使用基本瀑布流](/consumer/cn/doc/harmonyos-references/ts-container-waterflow#示例1使用基本瀑布流)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -2271,13 +2205,7 @@ WaterFlowDataSource说明及完整代码参考[示例1使用基本瀑布流](/co
 
 从API version 19开始，新增UIWaterFlowEvent接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, typeNode } from '@kit.ArkUI';

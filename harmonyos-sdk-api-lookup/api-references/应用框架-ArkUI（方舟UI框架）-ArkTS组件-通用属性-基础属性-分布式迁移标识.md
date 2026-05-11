@@ -51,13 +51,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过restoreId设置了List组件的分布式迁移标识。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

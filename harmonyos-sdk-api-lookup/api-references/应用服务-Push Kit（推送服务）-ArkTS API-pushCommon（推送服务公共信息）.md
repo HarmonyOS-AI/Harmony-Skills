@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pushCommon } from '@kit.PushKit';
@@ -66,13 +60,7 @@ PhonePC/2in1TabletTVWearable
 
 ### data取值样例
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. {
@@ -95,13 +83,7 @@ PhonePC/2in1TabletTVWearable
 
 ### 取值样例
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. {
@@ -114,13 +96,7 @@ PhonePC/2in1TabletTVWearable
 
 ### 样例
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. {

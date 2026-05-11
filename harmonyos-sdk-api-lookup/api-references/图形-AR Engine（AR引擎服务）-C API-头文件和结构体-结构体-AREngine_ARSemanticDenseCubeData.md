@@ -38,13 +38,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t AREngine_ARSemanticDenseCubeData::id
@@ -58,13 +52,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t AREngine_ARSemanticDenseCubeData::vertexSize
@@ -78,13 +66,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. float* AREngine_ARSemanticDenseCubeData::vertexData
@@ -98,13 +80,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. float AREngine_ARSemanticDenseCubeData::confidence
@@ -118,13 +94,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AREngine_ARSemanticPlaneLabel AREngine_ARSemanticDenseCubeData::label

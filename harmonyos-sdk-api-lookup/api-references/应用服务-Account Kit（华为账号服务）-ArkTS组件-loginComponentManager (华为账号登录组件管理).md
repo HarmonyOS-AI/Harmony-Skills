@@ -6,13 +6,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { loginComponentManager } from '@kit.AccountKit';
@@ -574,13 +568,7 @@ onClickCloseButton(callback: AsyncCallback<void>): LoginPanelController
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LoginPanel, loginComponentManager } from '@kit.AccountKit';
@@ -1583,13 +1571,7 @@ loadingStyle(value: LoadingStyle): ButtonStyle
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { loginComponentManager, LoginWithHuaweiIDButton } from '@kit.AccountKit';
@@ -1961,13 +1943,7 @@ continueLogin(callback: AsyncCallback<void>): LoginWithHuaweiIDButtonController
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -2570,13 +2546,7 @@ continueLogin(callback: AsyncCallback<void>): LoginWithHuaweiIDButtonController
 598. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { webview } from '@kit.ArkWeb';

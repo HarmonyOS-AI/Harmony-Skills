@@ -12,13 +12,7 @@ PhoneWearableLite Wearable
 
 开发HCE卡模拟相关应用时，需要在应用的属性配置文件中，声明与NFC相关的属性值，比如，在module.json5文件中，声明下面属性值：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 适用于除轻量级智能穿戴产品之外其他设备
@@ -58,13 +52,7 @@ PhoneWearableLite Wearable
 35. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 轻量级智能穿戴设备
@@ -137,26 +125,14 @@ PhoneWearableLite Wearable
 
 PhoneWearableLite Wearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 适用于除轻量级智能穿戴产品之外其他设备
 2. import { cardEmulation } from '@kit.ConnectivityKit';
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 轻量级智能穿戴设备
@@ -232,13 +208,7 @@ isSupported(feature: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 适用于除轻量级智能穿戴产品之外其他设备
@@ -250,13 +220,7 @@ isSupported(feature: number): boolean
 7. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 适用于轻量级智能穿戴设备
@@ -303,13 +267,7 @@ hasHceCapability(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 适用于除轻量级智能穿戴产品之外其他设备
@@ -321,13 +279,7 @@ hasHceCapability(): boolean
 7. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 适用于轻量级智能穿戴设备
@@ -384,13 +336,7 @@ isDefaultService(elementName: ElementName, type: CardType): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 适用于除轻量级智能穿戴产品之外其他设备
@@ -407,13 +353,7 @@ isDefaultService(elementName: ElementName, type: CardType): boolean
 12. let isDefaultService: boolean = cardEmulation.isDefaultService(elementName, cardEmulation.CardType.PAYMENT);
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 适用于轻量级智能穿戴设备
@@ -597,13 +537,7 @@ on(type: 'hceCmd', callback: AsyncCallback<number[]>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 适用于除轻量级智能穿戴产品之外其他设备
@@ -640,13 +574,7 @@ on(type: 'hceCmd', callback: AsyncCallback<number[]>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 适用于轻量级智能穿戴设备
@@ -724,13 +652,7 @@ off(type: 'hceCmd', callback?: AsyncCallback<number[]>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 适用于除轻量级智能穿戴产品之外其他设备
@@ -835,13 +757,7 @@ transmit(response: number[]): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 适用于除轻量级智能穿戴产品之外其他设备
@@ -860,13 +776,7 @@ transmit(response: number[]): Promise<void>
 14. });
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 适用于轻量级智能穿戴设备
@@ -921,13 +831,7 @@ transmit(response: number[], callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 适用于除轻量级智能穿戴产品之外其他设备
@@ -953,13 +857,7 @@ transmit(response: number[], callback: AsyncCallback<void>): void
 21. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 适用于轻量级智能穿戴设备

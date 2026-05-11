@@ -41,13 +41,7 @@ executeDrag(custom: CustomBuilder | DragItemInfo, dragInfo: dragController.DragI
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dragController } from '@kit.ArkUI';
@@ -151,13 +145,7 @@ executeDrag(custom: CustomBuilder | DragItemInfo, dragInfo: dragController.DragI
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dragController } from '@kit.ArkUI';
@@ -294,13 +282,7 @@ createDragAction(customArray: Array<CustomBuilder | DragItemInfo>, dragInfo: dra
 
 1.在EntryAbility.ets中获取UI上下文并保存至LocalStorage中。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -363,13 +345,7 @@ createDragAction(customArray: Array<CustomBuilder | DragItemInfo>, dragInfo: dra
 
 2.通过this.getUIContext().getSharedLocalStorage()获取上下文，进而获取DragController对象实施后续操作。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dragController, componentSnapshot, UIContext, DragController } from '@kit.ArkUI';
@@ -502,13 +478,7 @@ setDragEventStrictReportingEnabled(enable: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -586,13 +556,7 @@ notifyDragStartRequest(requestStatus: dragController.DragStartRequestStatus): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -692,13 +656,7 @@ enableDropDisallowedBadge(enabled: boolean): void
 
 1. 在EntryAbility.ets中调用enableDropDisallowedBadge接口，设置enabled参数为true。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. import { UIAbility } from '@kit.AbilityKit';
@@ -724,13 +682,7 @@ enableDropDisallowedBadge(enabled: boolean): void
    ```
 2. 在Index.ets中拖拽图标icon至下方空白区域，显示拖拽禁止角标。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. @Entry

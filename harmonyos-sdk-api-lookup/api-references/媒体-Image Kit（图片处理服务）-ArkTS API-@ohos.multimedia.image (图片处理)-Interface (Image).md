@@ -15,13 +15,7 @@ Image的属性仅支持在创建时初始化，后续无法再修改，且其属
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from '@kit.ImageKit';
@@ -64,13 +58,7 @@ getComponent(componentType: ComponentType, callback: AsyncCallback<Component>): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -114,13 +102,7 @@ getComponent(componentType: ComponentType): Promise<Component>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -160,13 +142,7 @@ release(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -208,13 +184,7 @@ release(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -254,13 +224,7 @@ ImageBufferData中的byteBuffer是对内部缓存的浅拷贝，当Image的生�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function GetBufferData(img: image.Image) {
@@ -314,13 +278,7 @@ getMetadata(key: HdrMetadataKey): HdrMetadataValue | null
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function GetMetadata(img : image.Image) {

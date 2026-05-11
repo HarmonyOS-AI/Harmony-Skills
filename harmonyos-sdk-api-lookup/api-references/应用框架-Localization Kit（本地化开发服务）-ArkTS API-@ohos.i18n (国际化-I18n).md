@@ -13,13 +13,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -82,13 +76,7 @@ static getDisplayCountry(country: string, locale: string, sentenceCase?: boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -145,13 +133,7 @@ static getDisplayLanguage(language: string, locale: string, sentenceCase?: boole
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -188,13 +170,7 @@ static getSystemLanguages(): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -248,13 +224,7 @@ static getSystemCountries(language: string): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -315,13 +285,7 @@ static isSuggested(language: string, region?: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -360,13 +324,7 @@ static getSystemLanguage(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -396,13 +354,7 @@ static getSystemRegion(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -434,13 +386,7 @@ static getSystemLocale(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -470,13 +416,7 @@ static getSystemLocaleInstance(): Intl.Locale
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -508,13 +448,7 @@ static is24HourClock(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -544,13 +478,7 @@ static getPreferredLanguageList(): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -580,13 +508,7 @@ static getFirstPreferredLanguage(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -627,13 +549,7 @@ static setAppPreferredLanguage(language: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -669,13 +585,7 @@ static getAppPreferredLanguage(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -705,13 +615,7 @@ static getUsingLocalDigit(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -760,13 +664,7 @@ static getSimplifiedLanguage(language?: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -805,13 +703,7 @@ static getTemperatureType(): TemperatureType
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -863,13 +755,7 @@ static getTemperatureName(type: TemperatureType): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -906,13 +792,7 @@ static getFirstDayOfWeek(): WeekDay
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -990,13 +870,7 @@ isRTL(locale: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -1036,13 +910,7 @@ getCalendar(locale: string, type? : string): Calendar
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -1093,13 +961,7 @@ constructor(locale?: string)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1153,13 +1015,7 @@ findEntityInfo(text: string): Array<EntityInfoItem>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1229,13 +1085,7 @@ setTime(date: Date): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -1267,13 +1117,7 @@ setTime(time: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -1309,13 +1153,7 @@ set(year: number, month: number, date:number, hour?: number, minute?: number, se
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -1346,13 +1184,7 @@ setTimeZone(timezone: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -1383,13 +1215,7 @@ getTimeZone(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -1421,13 +1247,7 @@ getFirstDayOfWeek(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -1458,13 +1278,7 @@ setFirstDayOfWeek(value: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -1496,13 +1310,7 @@ getMinimalDaysInFirstWeek(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -1533,13 +1341,7 @@ setMinimalDaysInFirstWeek(value: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -1606,13 +1408,7 @@ get(field: string): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -1652,13 +1448,7 @@ getDisplayName(locale: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -1697,13 +1487,7 @@ isWeekend(date?: Date): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -1749,13 +1533,7 @@ add(field: string, amount: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1794,13 +1572,7 @@ getTimeInMillis(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -1850,13 +1622,7 @@ compareDays(date: Date): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1906,13 +1672,7 @@ constructor(country: string, options?: PhoneNumberFormatOptions)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -1951,13 +1711,7 @@ isValidNumber(phoneNumber: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -2000,13 +1754,7 @@ format(phoneNumber: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -2061,13 +1809,7 @@ getLocationName(phoneNumber: string, locale: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -2151,13 +1893,7 @@ getInstance(locale?: string): IndexUtil
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -2197,13 +1933,7 @@ getIndexList(): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -2236,13 +1966,7 @@ addLocale(locale: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -2281,13 +2005,7 @@ getIndex(text: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -2326,13 +2044,7 @@ getLineInstance(locale: string): BreakIterator
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -2372,13 +2084,7 @@ setLineBreakText(text: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -2409,13 +2115,7 @@ getLineBreakText(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -2447,13 +2147,7 @@ current(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -2485,13 +2179,7 @@ first(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -2523,13 +2211,7 @@ last(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -2569,13 +2251,7 @@ next(index?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -2609,13 +2285,7 @@ previous(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -2657,13 +2327,7 @@ following(offset: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -2705,13 +2369,7 @@ isBoundary(offset: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -2752,13 +2410,7 @@ getTimeZone(zoneID?: string): TimeZone
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -2798,13 +2450,7 @@ getID(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -2844,13 +2490,7 @@ getDisplayName(locale?: string, isDST?: boolean): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -2881,13 +2521,7 @@ getRawOffset(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -2926,13 +2560,7 @@ getOffset(date?: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -2963,13 +2591,7 @@ static getAvailableIDs(): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -3000,13 +2622,7 @@ static getAvailableZoneCityIDs(): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -3046,13 +2662,7 @@ static getCityDisplayName(cityID: string, locale: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -3090,13 +2700,7 @@ static getTimezoneFromCity(cityID: string): TimeZone
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -3150,13 +2754,7 @@ static getTimezonesByLocation(longitude: number, latitude: number): Array<TimeZo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3192,13 +2790,7 @@ getZoneRules(): ZoneRules
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -3263,13 +2855,7 @@ nextTransition(date?: number): ZoneOffsetTransition
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -3315,13 +2901,7 @@ getMilliseconds(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -3356,13 +2936,7 @@ getOffsetAfter(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -3397,13 +2971,7 @@ getOffsetBefore(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -3448,13 +3016,7 @@ static getAvailableIDs(): string[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -3494,13 +3056,7 @@ static getInstance(id: string): Transliterator
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -3538,13 +3094,7 @@ transform(text: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -3606,13 +3156,7 @@ static isDigit(ch: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -3650,13 +3194,7 @@ static isSpaceChar(ch: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -3694,13 +3232,7 @@ static isWhitespace(ch: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -3738,13 +3270,7 @@ static isRTL(ch: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -3782,13 +3308,7 @@ static isIdeograph(ch: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -3826,13 +3346,7 @@ static isLetter(ch: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -3870,13 +3384,7 @@ static isLowerCase(ch: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -3914,13 +3422,7 @@ static isUpperCase(ch: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -3996,13 +3498,7 @@ static getType(ch: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -4054,13 +3550,7 @@ static unitConvert(fromUnit: UnitInfo, toUnit: UnitInfo, value: number, locale: 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -4101,13 +3591,7 @@ static getDateOrder(locale: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -4157,13 +3641,7 @@ static getTimePeriodName(hour:number, locale?: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4219,13 +3697,7 @@ static getBestMatchLocale(locale: string, localeList: string[]): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4283,13 +3755,7 @@ static getThreeLetterLanguage(locale: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4346,13 +3812,7 @@ static getThreeLetterRegion(locale: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4410,13 +3870,7 @@ static getUnicodeWrappedFilePath(path: string, delimiter?: string, locale?: Intl
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4480,13 +3934,7 @@ static getUnicodeWrappedFilePath(path: string, delimiter?: string, locale?: intl
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4554,13 +4002,7 @@ static getInstance(mode: NormalizerMode): Normalizer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4614,13 +4056,7 @@ normalize(text: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4697,13 +4133,7 @@ constructor(icsPath: String)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4758,13 +4188,7 @@ isHoliday(date?: Date): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4822,13 +4246,7 @@ getHolidayInfoItemArray(year?: number): Array<[HolidayInfoItem](/consumer/cn/doc
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4922,13 +4340,7 @@ getSimpleDateTimeFormatByPattern(pattern: string, locale?: Intl.Locale): SimpleD
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4986,13 +4398,7 @@ getSimpleDateTimeFormatByPattern(pattern: string, locale?: intl.Locale): SimpleD
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5048,13 +4454,7 @@ getSimpleDateTimeFormatBySkeleton(skeleton: string, locale?: Intl.Locale): Simpl
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5112,13 +4512,7 @@ getSimpleDateTimeFormatBySkeleton(skeleton: string, locale?: intl.Locale): Simpl
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5173,13 +4567,7 @@ format(date: Date): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5237,13 +4625,7 @@ constructor(dateTimeFormat: Intl.DateTimeFormat | SimpleDateTimeFormat, options?
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5310,13 +4692,7 @@ format(date: Date): StyledString
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5409,13 +4785,7 @@ getSimpleNumberFormatBySkeleton(skeleton: string, locale?: Intl.Locale): SimpleN
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5473,13 +4843,7 @@ getSimpleNumberFormatBySkeleton(skeleton: string, locale?: intl.Locale): SimpleN
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5534,13 +4898,7 @@ format(value: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5591,13 +4949,7 @@ constructor(numberFormat: intl.NumberFormat | SimpleNumberFormat, options?: Styl
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5656,13 +5008,7 @@ constructor(numberFormat: Intl.NumberFormat | SimpleNumberFormat, options?: Styl
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5728,13 +5074,7 @@ format(value: number): StyledString
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5830,13 +5170,7 @@ constructor(numberFormat: Intl.NumberFormat, options?: AdvancedMeasureFormatOpti
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -5879,13 +5213,7 @@ format(num: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -5987,13 +5315,7 @@ getDisplayCountry(country: string, locale: string, sentenceCase?: boolean): stri
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -6034,13 +5356,7 @@ getDisplayLanguage(language: string, locale: string, sentenceCase?: boolean): st
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -6071,13 +5387,7 @@ getSystemLanguage(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -6107,13 +5417,7 @@ getSystemRegion(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -6143,13 +5447,7 @@ getSystemLocale(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -6179,13 +5477,7 @@ is24HourClock(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -6225,13 +5517,7 @@ set24HourClock(option: boolean): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -6273,13 +5559,7 @@ addPreferredLanguage(language: string, index?: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -6322,13 +5602,7 @@ removePreferredLanguage(index: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -6360,13 +5634,7 @@ getPreferredLanguageList(): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';
@@ -6396,13 +5664,7 @@ getFirstPreferredLanguage(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { i18n } from '@kit.LocalizationKit';

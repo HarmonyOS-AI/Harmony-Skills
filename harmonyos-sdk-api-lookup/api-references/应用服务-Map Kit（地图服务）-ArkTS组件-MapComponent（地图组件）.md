@@ -6,13 +6,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { MapComponent } from '@kit.MapKit';
@@ -46,13 +40,7 @@ MapComponent提供map组件，通过回调获取MapComponentController对象。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { map, mapCommon, MapComponent } from '@kit.MapKit';

@@ -29,13 +29,7 @@ PhonePC/2in1TabletTVWearable
 
 例如在以下示例针对key的计算中，1758783600000大于INT32\_MAX，此时会通过TaggedDouble存储；1758783600小于INT32\_MIN，此时会通过TaggedInt存储。由于以上存储方式的差异，当对其进行hash算法即会计算出不同的hash值，从而导致映射结果不同，产生与预期不一致的现象。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let mp = new LightWeightMap<number, number>();
@@ -49,13 +43,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LightWeightMap } from '@kit.ArkTS';
@@ -103,13 +91,7 @@ LightWeightMap的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let lightWeightMap = new LightWeightMap<string, number>();
@@ -147,13 +129,7 @@ isEmpty(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const lightWeightMap = new LightWeightMap<string, number>();
@@ -202,13 +178,7 @@ hasAll(map: LightWeightMap<K, V>): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let lightWeightMap = new LightWeightMap<string, number>();
@@ -260,13 +230,7 @@ hasKey(key: K): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let lightWeightMap = new LightWeightMap<string, number>();
@@ -315,13 +279,7 @@ hasValue(value: V): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let lightWeightMap = new LightWeightMap<string, number>();
@@ -363,13 +321,7 @@ increaseCapacityTo(minimumCapacity: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let lightWeightMap = new LightWeightMap<string, number>();
@@ -416,13 +368,7 @@ get(key: K): V
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let lightWeightMap = new LightWeightMap<string, number>();
@@ -472,13 +418,7 @@ getIndexOfKey(key: K): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let lightWeightMap = new LightWeightMap<string, number>();
@@ -528,13 +468,7 @@ getIndexOfValue(value: V): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let lightWeightMap = new LightWeightMap<string, number>();
@@ -586,13 +520,7 @@ getKeyAt(index: number): K
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let lightWeightMap = new LightWeightMap<string, number>();
@@ -635,13 +563,7 @@ setAll(map: LightWeightMap<K, V>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let lightWeightMap = new LightWeightMap<string, number>();
@@ -694,13 +616,7 @@ set(key: K, value: V): Object
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let lightWeightMap = new LightWeightMap<string, number>();
@@ -748,13 +664,7 @@ remove(key: K): V
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let lightWeightMap = new LightWeightMap<string, number>();
@@ -804,13 +714,7 @@ removeAt(index: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let lightWeightMap = new LightWeightMap<string, number>();
@@ -863,13 +767,7 @@ setValueAt(index: number, newValue: V): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let lightWeightMap = new LightWeightMap<string, number>();
@@ -921,13 +819,7 @@ getValueAt(index: number): V
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let lightWeightMap = new LightWeightMap<string, number>();
@@ -961,13 +853,7 @@ clear(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let lightWeightMap = new LightWeightMap<string, number>();
@@ -1010,13 +896,7 @@ keys(): IterableIterator<K>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let lightWeightMap = new LightWeightMap<string, number>();
@@ -1062,13 +942,7 @@ values(): IterableIterator<V>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let lightWeightMap = new LightWeightMap<string, number>();
@@ -1126,13 +1000,7 @@ callbackFn的参数说明：
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let lightWeightMap = new LightWeightMap<string, number>();
@@ -1145,13 +1013,7 @@ callbackFn的参数说明：
 8. // value:357 key:gull
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 不建议在forEach中使用set、setValueAt、remove、removeAt方法，会导致死循环等不可预知的风险，可使用for循环来进行插入和删除。
@@ -1196,13 +1058,7 @@ entries(): IterableIterator<[K, V]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let lightWeightMap = new LightWeightMap<string, number>();
@@ -1217,13 +1073,7 @@ entries(): IterableIterator<[K, V]>
 10. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 不建议在entries中使用set、setValueAt、remove、removeAt方法，会导致死循环等不可预知的风险，可使用for循环来进行插入和删除。
@@ -1268,13 +1118,7 @@ toString(): String
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let lightWeightMap = new LightWeightMap<string, number>();
@@ -1316,13 +1160,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let lightWeightMap = new LightWeightMap<string, number>();
@@ -1353,13 +1191,7 @@ PhonePC/2in1TabletTVWearable
 26. // value: 123
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 不建议在Symbol.iterator中使用set、setValueAt、remove、removeAt方法，会导致死循环等不可预知的风险，可使用for循环来进行插入和删除。

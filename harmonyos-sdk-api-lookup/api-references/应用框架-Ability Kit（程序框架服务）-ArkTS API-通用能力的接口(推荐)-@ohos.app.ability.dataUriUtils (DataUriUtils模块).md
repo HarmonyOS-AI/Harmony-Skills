@@ -8,13 +8,7 @@ DataUriUtils模块提供用于处理uri对象的能力，包括获取、绑定�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataUriUtils } from '@kit.AbilityKit';
@@ -58,13 +52,7 @@ getId(uri: string): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataUriUtils } from '@kit.AbilityKit';
@@ -116,13 +104,7 @@ attachId(uri: string, id: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataUriUtils } from '@kit.AbilityKit';
@@ -178,13 +160,7 @@ deleteId(uri: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataUriUtils } from '@kit.AbilityKit';
@@ -237,13 +213,7 @@ updateId(uri: string, id: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataUriUtils } from '@kit.AbilityKit';

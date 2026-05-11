@@ -1,5 +1,0 @@
-* **[模块描述](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-arkts-utils)**
-* **[Functions](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-arkts-utils-f)**
-* **[ArkTSUtils.locks](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-arkts-utils-locks)**
-* **[ArkTSUtils.ASON](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-arkts-utils-ason)**
-* **[SendableLruCache<K, V>](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-arkts-utils-sendablelrucache)**

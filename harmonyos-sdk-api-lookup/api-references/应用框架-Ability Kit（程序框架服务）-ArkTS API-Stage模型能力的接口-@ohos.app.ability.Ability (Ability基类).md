@@ -10,13 +10,7 @@ Ability类是应用生命周期调度的基本单元，是[UIAbility](https://de
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Ability } from '@kit.AbilityKit';
@@ -60,13 +54,7 @@ onConfigurationUpdate(newConfig: Configuration): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Ability是顶层基类，不支持开发者直接继承。故以派生类UIAbility举例说明。
@@ -105,13 +93,7 @@ onMemoryLevel回调运行在当前进程的主线程中，如果在该回调中�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Ability是顶层基类，不支持开发者直接继承。故以派生类UIAbility举例说明。

@@ -116,13 +116,7 @@ onBackPress?(): void | boolean
 | --- | --- |
 | void | boolean | 返回按钮动作。返回true表示页面自己处理返回逻辑，不进行页面路由；返回false表示使用默认的路由返回逻辑，不设置返回值按照false处理。 |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -182,13 +176,7 @@ onNewParam?(param: ESObject): void
 | --- | --- | --- | --- |
 | param | ESObject | 是 | 路由跳转时传递到目标页面的数据。 |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // pages/Index.ets
@@ -239,13 +227,7 @@ onNewParam?(param: ESObject): void
 46. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // pages/PageOne.ets
@@ -314,13 +296,7 @@ aboutToReuse?(params: Record<string, Object | undefined | null>): void
 | --- | --- | --- | --- |
 | params | Record<string, Object | undefined | null> | 是 | 自定义组件的构造参数。 |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -390,13 +366,7 @@ aboutToReuse?(): void
 
 **系统能力：** SystemCapability.ArkUI.ArkUI.Full
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -439,13 +409,7 @@ aboutToRecycle?(): void
 
 **系统能力：** SystemCapability.ArkUI.ArkUI.Full
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -547,13 +511,7 @@ type Theme = Theme
 
 V1：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -628,13 +586,7 @@ V1：
 
 V2：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { CustomTheme, CustomColors, Theme, ThemeControl } from '@kit.ArkUI';
@@ -743,13 +695,7 @@ onFormRecycle回调函数在卡片回收时执行，卡片提供方可以返回�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -822,13 +768,7 @@ onFormRecover回调函数在卡片恢复时执行，卡片提供方可以拿到�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry

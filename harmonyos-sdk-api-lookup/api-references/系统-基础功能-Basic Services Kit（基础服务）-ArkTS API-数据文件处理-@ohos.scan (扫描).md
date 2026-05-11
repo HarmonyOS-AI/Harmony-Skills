@@ -10,13 +10,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { scan } from '@kit.BasicServicesKit';
@@ -285,13 +279,7 @@ init(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { scan } from '@kit.BasicServicesKit';
@@ -334,13 +322,7 @@ exit(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { scan } from '@kit.BasicServicesKit';
@@ -383,13 +365,7 @@ startScannerDiscovery(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { scan } from '@kit.BasicServicesKit';
@@ -440,13 +416,7 @@ openScanner(scannerId: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { scan } from '@kit.BasicServicesKit';
@@ -498,13 +468,7 @@ closeScanner(scannerId: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { scan } from '@kit.BasicServicesKit';
@@ -556,13 +520,7 @@ getScannerParameter(scannerId: string): Promise<ScannerParameter[]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { scan } from '@kit.BasicServicesKit';
@@ -616,13 +574,7 @@ setScannerParameter(scannerId: string, optionIndex: number, value: ScannerOption
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { scan } from '@kit.BasicServicesKit';
@@ -680,13 +632,7 @@ setScanAutoOption(scannerId: string, optionIndex: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { scan } from '@kit.BasicServicesKit';
@@ -740,13 +686,7 @@ getScannerCurrentSetting(scannerId: string, optionIndex: number): Promise<Scanne
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { scan } from '@kit.BasicServicesKit';
@@ -800,13 +740,7 @@ startScan(scannerId: string, batchMode: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { scan } from '@kit.BasicServicesKit';
@@ -859,13 +793,7 @@ cancelScan(scannerId: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { scan } from '@kit.BasicServicesKit';
@@ -917,13 +845,7 @@ getPictureScanProgress(scannerId: string): Promise<PictureScanProgress>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { scan } from '@kit.BasicServicesKit';
@@ -968,13 +890,7 @@ on(type: 'scanDeviceFound', callback: Callback<ScannerDevice>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { scan } from '@kit.BasicServicesKit';
@@ -1015,13 +931,7 @@ off(type: 'scanDeviceFound', callback?: Callback<ScannerDevice>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { scan } from '@kit.BasicServicesKit';
@@ -1065,13 +975,7 @@ on(type: 'scanDeviceSync', callback: Callback<ScannerSyncDevice>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { scan } from '@kit.BasicServicesKit';
@@ -1112,13 +1016,7 @@ off(type: 'scanDeviceSync', callback?: Callback<ScannerSyncDevice>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { scan } from '@kit.BasicServicesKit';

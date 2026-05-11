@@ -37,13 +37,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkFormat XEG_SpatialUpscaleCreateInfo::format
@@ -57,13 +51,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkRect2D XEG_SpatialUpscaleCreateInfo::inputRegion
@@ -77,13 +65,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkExtent2D XEG_SpatialUpscaleCreateInfo::inputSize
@@ -97,13 +79,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkRect2D XEG_SpatialUpscaleCreateInfo::outputRegion
@@ -117,13 +93,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkExtent2D XEG_SpatialUpscaleCreateInfo::outputSize
@@ -137,13 +107,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. float XEG_SpatialUpscaleCreateInfo::sharpness

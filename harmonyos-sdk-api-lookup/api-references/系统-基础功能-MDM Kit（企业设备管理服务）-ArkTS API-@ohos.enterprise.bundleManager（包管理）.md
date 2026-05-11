@@ -12,13 +12,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bundleManager } from '@kit.MDMKit';
@@ -65,13 +59,7 @@ addAllowedInstallBundlesSync(admin: Want, appIds: Array<string>, accountId?: num
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bundleManager } from '@kit.MDMKit';
@@ -134,13 +122,7 @@ removeAllowedInstallBundlesSync(admin: Want, appIds: Array<string>, accountId?: 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bundleManager } from '@kit.MDMKit';
@@ -208,13 +190,7 @@ getAllowedInstallBundlesSync(admin: Want, accountId?: number): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bundleManager } from '@kit.MDMKit';
@@ -275,13 +251,7 @@ addDisallowedInstallBundlesSync(admin: Want, appIds: Array<string>, accountId?: 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bundleManager } from '@kit.MDMKit';
@@ -344,13 +314,7 @@ removeDisallowedInstallBundlesSync(admin: Want, appIds: Array<string>, accountId
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bundleManager } from '@kit.MDMKit';
@@ -418,13 +382,7 @@ getDisallowedInstallBundlesSync(admin: Want, accountId?: number): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bundleManager } from '@kit.MDMKit';
@@ -486,13 +444,7 @@ addDisallowedUninstallBundlesSync(admin: Want, appIds: Array<string>, accountId?
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bundleManager } from '@kit.MDMKit';
@@ -556,13 +508,7 @@ removeDisallowedUninstallBundlesSync(admin: Want, appIds: Array<string>, account
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bundleManager } from '@kit.MDMKit';
@@ -631,13 +577,7 @@ getDisallowedUninstallBundlesSync(admin: Want, accountId?: number): Array<string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bundleManager } from '@kit.MDMKit';
@@ -710,13 +650,7 @@ uninstall(admin: Want, bundleName: string, userId?: number, isKeepData?: boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bundleManager } from '@kit.MDMKit';
@@ -791,13 +725,7 @@ install(admin: Want, hapFilePaths: Array<string>, installParam?: InstallParam): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bundleManager } from '@kit.MDMKit';
@@ -820,13 +748,7 @@ install(admin: Want, hapFilePaths: Array<string>, installParam?: InstallParam): 
 18. });
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bundleManager } from '@kit.MDMKit';
@@ -902,13 +824,7 @@ getInstalledBundleList(admin: Want, accountId: number): Promise<Array<BundleInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -975,13 +891,7 @@ getInstalledBundleList(admin: Want, accountId: number, bundleInfoGetFlag: number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -1046,13 +956,7 @@ addInstallationAllowedAppDistributionTypes(admin: Want, appDistributionTypes: Ar
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -1114,13 +1018,7 @@ removeInstallationAllowedAppDistributionTypes(admin: Want, appDistributionTypes:
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -1184,13 +1082,7 @@ getInstallationAllowedAppDistributionTypes(admin: Want): Array<AppDistributionTy
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -1260,13 +1152,7 @@ installMarketApps(admin: Want, bundleNames: Array<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';

@@ -125,13 +125,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例点击List下方空白区域后拖动，可使List滑动。点击Button按钮时，Button会响应onClick事件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -208,13 +202,7 @@ PhonePC/2in1TabletTVWearable
 
 点击List下方空白区域后拖动，可以滑动List。点击Button按钮时，Button不会响应onClick事件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -291,13 +279,7 @@ PhonePC/2in1TabletTVWearable
 
 点击List下方空白区域后拖动，List不会滑动。点击Button按钮时，Button会响应onClick事件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

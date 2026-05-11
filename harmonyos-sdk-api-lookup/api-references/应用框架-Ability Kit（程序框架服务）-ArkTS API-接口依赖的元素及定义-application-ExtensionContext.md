@@ -11,13 +11,7 @@ ExtensionContext模块提供访问特定[ExtensionAbility](https://developer.hua
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -49,13 +43,7 @@ ExtensionContext主要用于查询所属ExtensionAbility的信息、Module的配
 
 在扩展的[FormExtensionAbility](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-app-form-formextensionability)中获取上下文，查询该扩展的FormExtensionAbility所属HAP包等信息。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FormExtensionAbility, formBindingData } from '@kit.FormKit';

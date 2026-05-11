@@ -2,13 +2,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { map } from '@kit.MapKit';
@@ -58,13 +52,7 @@ constructor(shareInterpolator: boolean)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let animation1: map.AlphaAnimation = new map.AlphaAnimation(0.2, 1);
@@ -104,13 +92,7 @@ addAnimation(animation: Animation): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let animation1: map.AlphaAnimation = new map.AlphaAnimation(0.2, 1);
@@ -140,13 +122,7 @@ clearAnimation(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let animation1: map.AlphaAnimation = new map.AlphaAnimation(0.2, 1);

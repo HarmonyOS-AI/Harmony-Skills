@@ -222,13 +222,7 @@ PhonePC/2in1TabletTVWearable
 
 本示例展示设置Column组件的布局属性，如间距、对齐方式等属性后的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // resources/base/element/string.json
@@ -242,13 +236,7 @@ PhonePC/2in1TabletTVWearable
 9. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -315,13 +303,7 @@ PhonePC/2in1TabletTVWearable
 
 本示例展示设置Column组件的reverse属性后的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry

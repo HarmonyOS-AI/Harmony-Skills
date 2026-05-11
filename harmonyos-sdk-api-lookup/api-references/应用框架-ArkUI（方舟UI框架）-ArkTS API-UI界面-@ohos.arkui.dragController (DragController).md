@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dragController } from '@kit.ArkUI';
@@ -66,13 +60,7 @@ executeDrag(custom: CustomBuilder | DragItemInfo, dragInfo: DragInfo,callback:As
 
 推荐通过使用[UIContext](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-uicontext)中的[getDragController](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-uicontext#getdragcontroller11)方法获取当前UI上下文关联的DragController对象。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dragController } from '@kit.ArkUI';
@@ -204,13 +192,7 @@ executeDrag(custom: CustomBuilder | DragItemInfo, dragInfo: DragInfo): Promise<D
 
 推荐通过使用[UIContext](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-uicontext)中的[getDragController](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-uicontext#getdragcontroller11)方法获取当前UI上下文关联的DragController对象。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dragController } from '@kit.ArkUI';
@@ -392,13 +374,7 @@ createDragAction(customArray: Array<CustomBuilder | DragItemInfo>, dragInfo: Dra
 
 推荐通过使用[UIContext](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-uicontext)中的[getDragController](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-uicontext#getdragcontroller11)方法获取当前UI上下文关联的DragController对象。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dragController } from '@kit.ArkUI';
@@ -550,13 +526,7 @@ startDrag(): Promise<void>
 
 推荐通过使用[UIContext](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-uicontext)中的[getDragController](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-uicontext#getdragcontroller11)方法获取当前UI上下文关联的DragController对象。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dragController } from '@kit.ArkUI';
@@ -625,13 +595,7 @@ startDrag(): Promise<void>
 
 从API version 20开始，在[DragInfo](/consumer/cn/doc/harmonyos-references/js-apis-arkui-dragcontroller#draginfo)中配置dataLoadParams，设置拖起方延迟提供数据。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { unifiedDataChannel, uniformTypeDescriptor, uniformDataStruct } from '@kit.ArkData';
@@ -832,13 +796,7 @@ on(type: 'statusChange', callback: Callback<[DragAndDropInfo](/consumer/cn/doc/h
 
 推荐通过使用[UIContext](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-uicontext)中的[getDragController](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-uicontext#getdragcontroller11)方法获取当前UI上下文关联的DragController对象。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dragController } from '@kit.ArkUI';
@@ -935,13 +893,7 @@ off(type: 'statusChange', callback?: Callback<[DragAndDropInfo](/consumer/cn/doc
 
 推荐通过使用[UIContext](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-uicontext)中的[getDragController](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-uicontext#getdragcontroller11)方法获取当前UI上下文关联的DragController对象。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dragController } from '@kit.ArkUI';
@@ -1169,13 +1121,7 @@ animate(options: AnimationOptions, handler: () => void): void
 
 1. 在EntryAbility.ets中获取UI上下文并保存至LocalStorage中。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -1221,13 +1167,7 @@ animate(options: AnimationOptions, handler: () => void): void
    ```
 2. 在Index.ets中通过this.getUIContext().getSharedLocalStorage()获取UI上下文，进而获取DragController对象实施后续操作。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. import { unifiedDataChannel } from '@kit.ArkData';

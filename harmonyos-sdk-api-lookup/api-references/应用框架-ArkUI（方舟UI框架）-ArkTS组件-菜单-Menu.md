@@ -229,13 +229,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置MenuItem中的builder参数实现多级菜单。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -308,13 +302,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置symbolStartIcon、symbolEndIcon实现symbol类型图标的菜单。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -390,13 +378,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置subMenuExpandSymbol实现对Menu子菜单展开符号配置颜色。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SymbolGlyphModifier } from '@kit.ArkUI';
@@ -462,13 +444,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过设置menuItemGroupDivider属性实现分割线样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LengthMetrics } from '@kit.ArkUI'

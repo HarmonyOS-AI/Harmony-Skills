@@ -18,13 +18,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hyperSnapManager } from '@kit.AbilityKit';
@@ -67,13 +61,7 @@ setHyperSnapEnabled(enableFlag: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hyperSnapManager } from '@kit.AbilityKit';
@@ -116,13 +104,7 @@ requestRebuildHyperSnap(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hyperSnapManager } from '@kit.AbilityKit';

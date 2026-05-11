@@ -52,13 +52,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define EVENT_USER_LOGIN "hiappevent.user_login"
@@ -74,13 +68,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define EVENT_USER_LOGOUT "hiappevent.user_logout"
@@ -96,13 +84,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define EVENT_DISTRIBUTED_SERVICE_START "hiappevent.distributed_service_start"
@@ -118,13 +100,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define EVENT_APP_CRASH "APP_CRASH"
@@ -140,13 +116,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define EVENT_APP_FREEZE "APP_FREEZE"
@@ -162,13 +132,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define EVENT_APP_LAUNCH "APP_LAUNCH"
@@ -184,13 +148,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define EVENT_SCROLL_JANK "SCROLL_JANK"
@@ -206,13 +164,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define EVENT_CPU_USAGE_HIGH "CPU_USAGE_HIGH"
@@ -228,13 +180,7 @@ CPU高负载事件。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define EVENT_BATTERY_USAGE "BATTERY_USAGE"
@@ -250,13 +196,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define EVENT_RESOURCE_OVERLIMIT "RESOURCE_OVERLIMIT"
@@ -272,13 +212,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define EVENT_ADDRESS_SANITIZER "ADDRESS_SANITIZER"
@@ -294,13 +228,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define EVENT_MAIN_THREAD_JANK "MAIN_THREAD_JANK"
@@ -316,13 +244,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define EVENT_APP_HICOLLIE "APP_HICOLLIE"
@@ -338,13 +260,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define EVENT_APP_KILLED "APP_KILLED"
@@ -360,13 +276,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define EVENT_AUDIO_JANK_FRAME "AUDIO_JANK_FRAME"
@@ -382,13 +292,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define DOMAIN_OS "OS"
@@ -404,13 +308,7 @@ OS作用域。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #define EVENT_MAIN_THREAD_JANK_V2 "MAIN_THREAD_JANK_V2"

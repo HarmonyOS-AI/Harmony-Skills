@@ -12,13 +12,7 @@ StatusBarViewExtensionAbility为状态栏扩展Ability，继承自[UIExtensionAb
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { StatusBarViewExtensionAbility } from '@kit.DeskTopExtensionKit';
@@ -26,13 +20,7 @@ PC/2in1
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { StatusBarViewExtensionAbility } from '@kit.DeskTopExtensionKit';

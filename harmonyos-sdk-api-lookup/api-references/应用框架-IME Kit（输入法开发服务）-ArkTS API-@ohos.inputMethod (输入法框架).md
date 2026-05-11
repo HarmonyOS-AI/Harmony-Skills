@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { inputMethod } from '@kit.IMEKit';
@@ -104,13 +98,7 @@ getController(): InputMethodController
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let inputMethodController: inputMethod.InputMethodController = inputMethod.getController();
@@ -146,13 +134,7 @@ getDefaultInputMethod(): InputMethodProperty
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let defaultIme: inputMethod.InputMethodProperty = inputMethod.getDefaultInputMethod();
@@ -188,13 +170,7 @@ getSystemInputMethodConfigAbility(): ElementName
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bundleManager } from '@kit.AbilityKit';
@@ -232,13 +208,7 @@ getSetting(): InputMethodSetting
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let inputMethodSetting: inputMethod.InputMethodSetting = inputMethod.getSetting();
@@ -282,13 +252,7 @@ switchInputMethod(target: InputMethodProperty, callback: AsyncCallback<boolean>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -356,13 +320,7 @@ switchInputMethod(target: InputMethodProperty): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -403,13 +361,7 @@ getCurrentInputMethod(): InputMethodProperty
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let currentIme: inputMethod.InputMethodProperty = inputMethod.getCurrentInputMethod();
@@ -454,13 +406,7 @@ switchCurrentInputMethodSubtype(target: InputMethodSubtype, callback: AsyncCallb
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -540,13 +486,7 @@ switchCurrentInputMethodSubtype(target: InputMethodSubtype): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -598,13 +538,7 @@ getCurrentInputMethodSubtype(): InputMethodSubtype
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { InputMethodSubtype } from '@kit.IMEKit';
@@ -651,13 +585,7 @@ switchCurrentInputMethodAndSubtype(inputMethodProperty: InputMethodProperty, inp
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { InputMethodSubtype } from '@kit.IMEKit';
@@ -728,13 +656,7 @@ switchCurrentInputMethodAndSubtype(inputMethodProperty: InputMethodProperty, inp
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { InputMethodSubtype } from '@kit.IMEKit';
@@ -781,13 +703,7 @@ getInputMethodController(): InputMethodController
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let inputMethodController: inputMethod.InputMethodController = inputMethod.getInputMethodController();
@@ -817,13 +733,7 @@ getInputMethodSetting(): InputMethodSetting
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let inputMethodSetting: inputMethod.InputMethodSetting = inputMethod.getInputMethodSetting();
@@ -849,13 +759,7 @@ setSimpleKeyboardEnabled(enable: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let enable: boolean = false;
@@ -882,13 +786,7 @@ onAttachmentDidFail(callback: Callback<AttachFailureReason>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Callback } from '@kit.BasicServicesKit';
@@ -923,13 +821,7 @@ offAttachmentDidFail(callback?: Callback<AttachFailureReason>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Callback } from '@kit.BasicServicesKit';
@@ -1234,13 +1126,7 @@ msgId为必选参数，msgParam为可选参数。存在收到仅有msgId自定�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let inputMethodController: inputMethod.InputMethodController = inputMethod.getController();
@@ -1274,13 +1160,7 @@ onTerminated(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let inputMethodController: inputMethod.InputMethodController = inputMethod.getController();
@@ -1394,13 +1274,7 @@ attach(showKeyboard: boolean, textConfig: TextConfig, callback: AsyncCallback<vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1466,13 +1340,7 @@ attach(showKeyboard: boolean, textConfig: TextConfig): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1537,13 +1405,7 @@ attach(showKeyboard: boolean, textConfig: TextConfig, requestKeyboardReason: Req
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1609,13 +1471,7 @@ attachWithUIContext(uiContext: UIContext, textConfig: TextConfig, attachOptions?
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1671,13 +1527,7 @@ discardTypingText(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1725,13 +1575,7 @@ showTextInput(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1781,13 +1625,7 @@ showTextInput(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1843,13 +1681,7 @@ showTextInput(requestKeyboardReason: RequestKeyboardReason): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1901,13 +1733,7 @@ hideTextInput(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1959,13 +1785,7 @@ hideTextInput(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2008,13 +1828,7 @@ detach(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2059,13 +1873,7 @@ detach(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2115,13 +1923,7 @@ setCallingWindow(windowId: number, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2181,13 +1983,7 @@ setCallingWindow(windowId: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2234,13 +2030,7 @@ updateCursor(cursorInfo: CursorInfo, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2301,13 +2091,7 @@ updateCursor(cursorInfo: CursorInfo): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2361,13 +2145,7 @@ changeSelection(text: string, start: number, end: number, callback: AsyncCallbac
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2424,13 +2202,7 @@ changeSelection(text: string, start: number, end: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2476,13 +2248,7 @@ updateAttribute(attribute: InputAttribute, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2538,13 +2304,7 @@ updateAttribute(attribute: InputAttribute): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2592,13 +2352,7 @@ stopInputSession(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2651,13 +2405,7 @@ stopInputSession(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2711,13 +2459,7 @@ showSoftKeyboard(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2769,13 +2511,7 @@ showSoftKeyboard(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2825,13 +2561,7 @@ hideSoftKeyboard(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2883,13 +2613,7 @@ hideSoftKeyboard(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2951,13 +2675,7 @@ msgId最大限制256B，msgParam最大限制128KB。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3007,13 +2725,7 @@ recvMessage(msgHandler?: MessageHandler): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3058,13 +2770,7 @@ stopInput(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3108,13 +2814,7 @@ stopInput(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3162,13 +2862,7 @@ on(type: 'insertText', callback: (text: string) => void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function callback1(text: string): void {
@@ -3210,13 +2904,7 @@ off(type: 'insertText', callback?: (text: string) => void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Callback } from '@kit.BasicServicesKit';
@@ -3262,13 +2950,7 @@ on(type: 'deleteLeft', callback: (length: number) => void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. inputMethod.getController().on('deleteLeft', (length: number) => {
@@ -3297,13 +2979,7 @@ off(type: 'deleteLeft', callback?: (length: number) => void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Callback } from '@kit.BasicServicesKit';
@@ -3349,13 +3025,7 @@ on(type: 'deleteRight', callback: (length: number) => void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. inputMethod.getController().on('deleteRight', (length: number) => {
@@ -3384,13 +3054,7 @@ off(type: 'deleteRight', callback?: (length: number) => void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Callback } from '@kit.BasicServicesKit';
@@ -3435,13 +3099,7 @@ on(type: 'sendKeyboardStatus', callback: (keyboardStatus: KeyboardStatus) => voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. inputMethod.getController().on('sendKeyboardStatus', (keyboardStatus: inputMethod.KeyboardStatus) => {
@@ -3470,13 +3128,7 @@ off(type: 'sendKeyboardStatus', callback?: (keyboardStatus: KeyboardStatus) => v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Callback } from '@kit.BasicServicesKit';
@@ -3522,13 +3174,7 @@ on(type: 'sendFunctionKey', callback: (functionKey: FunctionKey) => void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. inputMethod.getController().on('sendFunctionKey', (functionKey: inputMethod.FunctionKey) => {
@@ -3557,13 +3203,7 @@ off(type: 'sendFunctionKey', callback?: (functionKey: FunctionKey) => void): voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Callback } from '@kit.BasicServicesKit';
@@ -3609,13 +3249,7 @@ on(type: 'moveCursor', callback: (direction: Direction) => void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. inputMethod.getController().on('moveCursor', (direction: inputMethod.Direction) => {
@@ -3644,13 +3278,7 @@ off(type: 'moveCursor', callback?: (direction: Direction) => void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Callback } from '@kit.BasicServicesKit';
@@ -3696,13 +3324,7 @@ on(type: 'handleExtendAction', callback: (action: ExtendAction) => void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. inputMethod.getController().on('handleExtendAction', (action: inputMethod.ExtendAction) => {
@@ -3731,13 +3353,7 @@ off(type: 'handleExtendAction', callback?: (action: ExtendAction) => void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Callback } from '@kit.BasicServicesKit';
@@ -3782,13 +3398,7 @@ on(type: 'selectByRange', callback: Callback<Range>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. inputMethod.getController().on('selectByRange', (range: inputMethod.Range) => {
@@ -3817,13 +3427,7 @@ off(type: 'selectByRange', callback?: Callback<Range>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Callback } from '@kit.BasicServicesKit';
@@ -3868,13 +3472,7 @@ on(type: 'selectByMovement', callback: Callback<Movement>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. inputMethod.getController().on('selectByMovement', (movement: inputMethod.Movement) => {
@@ -3903,13 +3501,7 @@ off(type: 'selectByMovement', callback?: Callback<Movement>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Callback } from '@kit.BasicServicesKit';
@@ -3955,13 +3547,7 @@ on(type: 'getLeftTextOfCursor', callback: (length: number) => string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. inputMethod.getController().on('getLeftTextOfCursor', (length: number) => {
@@ -3992,13 +3578,7 @@ off(type: 'getLeftTextOfCursor', callback?: (length: number) => string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let getLeftTextOfCursorCallback: (length: number) => string = (length: number): string => {
@@ -4044,13 +3624,7 @@ on(type: 'getRightTextOfCursor', callback: (length: number) => string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. inputMethod.getController().on('getRightTextOfCursor', (length: number) => {
@@ -4081,13 +3655,7 @@ off(type: 'getRightTextOfCursor', callback?: (length: number) => string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let getRightTextOfCursorCallback: (length: number) => string = (length: number): string => {
@@ -4133,13 +3701,7 @@ on(type: 'getTextIndexAtCursor', callback: () => number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. inputMethod.getController().on('getTextIndexAtCursor', () => {
@@ -4170,13 +3732,7 @@ off(type: 'getTextIndexAtCursor', callback?: () => number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let getTextIndexAtCursorCallback: () => number = (): number => {
@@ -4225,13 +3781,7 @@ on(type: 'setPreviewText', callback: SetPreviewTextCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let setPreviewTextCallback1: inputMethod.SetPreviewTextCallback = (text: string, range: inputMethod.Range): void => {
@@ -4276,13 +3826,7 @@ off(type: 'setPreviewText', callback?: SetPreviewTextCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let setPreviewTextCallback1: inputMethod.SetPreviewTextCallback = (text: string, range: inputMethod.Range): void => {
@@ -4341,13 +3885,7 @@ on(type: 'finishTextPreview', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Callback } from '@kit.BasicServicesKit';
@@ -4393,13 +3931,7 @@ off(type: 'finishTextPreview', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Callback } from '@kit.BasicServicesKit';
@@ -4451,13 +3983,7 @@ on(type: 'imeChange', callback: (inputMethodProperty: InputMethodProperty, input
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { InputMethodSubtype } from '@kit.IMEKit';
@@ -4490,13 +4016,7 @@ off(type: 'imeChange', callback?: (inputMethodProperty: InputMethodProperty, inp
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. inputMethod.getSetting().off('imeChange');
@@ -4535,13 +4055,7 @@ listInputMethodSubtype(inputMethodProperty: InputMethodProperty, callback: Async
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { InputMethodSubtype } from '@kit.IMEKit';
@@ -4605,13 +4119,7 @@ listInputMethodSubtype(inputMethodProperty: InputMethodProperty): Promise<Array<
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { InputMethodSubtype } from '@kit.IMEKit';
@@ -4663,13 +4171,7 @@ listCurrentInputMethodSubtype(callback: AsyncCallback<Array<InputMethodSubtype>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { InputMethodSubtype } from '@kit.IMEKit';
@@ -4716,13 +4218,7 @@ listCurrentInputMethodSubtype(): Promise<Array<InputMethodSubtype>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { InputMethodSubtype } from '@kit.IMEKit';
@@ -4776,13 +4272,7 @@ getInputMethods(enable: boolean, callback: AsyncCallback<Array<InputMethodProper
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4842,13 +4332,7 @@ getInputMethods(enable: boolean): Promise<Array<InputMethodProperty>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4906,13 +4390,7 @@ getInputMethodsSync(enable: boolean): Array<InputMethodProperty>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let imeProperty: Array<inputMethod.InputMethodProperty> = inputMethod.getSetting().getInputMethodsSync(true);
@@ -4949,13 +4427,7 @@ getAllInputMethods(callback: AsyncCallback<Array<InputMethodProperty>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5000,13 +4472,7 @@ getAllInputMethods(): Promise<Array<InputMethodProperty>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5049,13 +4515,7 @@ getAllInputMethodsSync(): Array<InputMethodProperty>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let imeProperty: Array<inputMethod.InputMethodProperty> = inputMethod.getSetting().getAllInputMethodsSync();
@@ -5095,13 +4555,7 @@ showOptionalInputMethods(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5153,13 +4607,7 @@ showOptionalInputMethods(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5199,13 +4647,7 @@ listInputMethod(callback: AsyncCallback<Array<InputMethodProperty>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5243,13 +4685,7 @@ listInputMethod(): Promise<Array<InputMethodProperty>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5285,13 +4721,7 @@ displayOptionalInputMethod(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5329,13 +4759,7 @@ displayOptionalInputMethod(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5378,13 +4802,7 @@ getInputMethodState(): Promise<EnabledState>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

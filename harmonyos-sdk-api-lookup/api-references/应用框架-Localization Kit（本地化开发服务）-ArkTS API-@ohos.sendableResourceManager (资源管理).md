@@ -10,13 +10,7 @@ Resource对象通过转换为SendableResource对象后，可以被[Sendable类](
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableResourceManager } from '@kit.LocalizationKit';
@@ -62,13 +56,7 @@ resourceToSendableResource(resource: Resource): SendableResource
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/string.json
@@ -82,13 +70,7 @@ resourceToSendableResource(resource: Resource): SendableResource
 9. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableResourceManager } from '@kit.LocalizationKit';
@@ -143,13 +125,7 @@ sendableResourceToResource(resource: SendableResource): Resource
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/string.json
@@ -163,13 +139,7 @@ sendableResourceToResource(resource: SendableResource): Resource
 9. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableResourceManager } from '@kit.LocalizationKit';

@@ -43,13 +43,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过reuseId标识自定义组件的复用组。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

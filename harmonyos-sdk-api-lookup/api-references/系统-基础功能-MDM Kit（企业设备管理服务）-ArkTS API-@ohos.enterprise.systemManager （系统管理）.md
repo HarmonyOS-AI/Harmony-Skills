@@ -12,13 +12,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { systemManager } from '@kit.MDMKit';
@@ -64,13 +58,7 @@ setNTPServer(admin: Want, server: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { systemManager } from '@kit.MDMKit';
@@ -136,13 +124,7 @@ getNTPServer(admin: Want): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { systemManager } from '@kit.MDMKit';
@@ -201,13 +183,7 @@ setOtaUpdatePolicy(admin: Want, policy: OtaUpdatePolicy): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { systemManager } from '@kit.MDMKit';
@@ -336,13 +312,7 @@ getOtaUpdatePolicy(admin: Want): OtaUpdatePolicy
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { systemManager } from '@kit.MDMKit';
@@ -412,13 +382,7 @@ notifyUpdatePackages(admin: Want, packageInfo: UpdatePackageInfo): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { systemManager } from '@kit.MDMKit';
@@ -529,13 +493,7 @@ getUpdateResult(admin: Want, version: string): Promise<UpdateResult>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { systemManager } from '@kit.MDMKit';
@@ -598,13 +556,7 @@ getUpdateAuthData(admin: Want): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { systemManager } from '@kit.MDMKit';
@@ -667,13 +619,7 @@ addDisallowedNearLinkProtocols(admin: Want, protocols: Array<NearLinkProtocol>, 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { systemManager } from '@kit.MDMKit';
@@ -744,13 +690,7 @@ removeDisallowedNearLinkProtocols(admin: Want, protocols: Array<NearLinkProtocol
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { systemManager } from '@kit.MDMKit';
@@ -824,13 +764,7 @@ getDisallowedNearLinkProtocols(admin: Want, accountId: number): Array<NearLinkPr
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { systemManager } from '@kit.MDMKit';
@@ -895,13 +829,7 @@ setInstallLocalEnterpriseAppEnabled(admin: Want, isEnable: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { systemManager } from '@kit.MDMKit';
@@ -969,13 +897,7 @@ getInstallLocalEnterpriseAppEnabled(admin: Want | null): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { systemManager } from '@kit.MDMKit';
@@ -1036,13 +958,7 @@ setAutoUnlockAfterReboot(admin: Want, isAllowed: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -1109,13 +1025,7 @@ getAutoUnlockAfterReboot(admin: Want): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -1176,13 +1086,7 @@ addKeyEventPolicies(admin: Want, keyPolicies: Array<KeyEventPolicy>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -1254,13 +1158,7 @@ removeKeyEventPolicies(admin: Want, keyCodes: Array<KeyCode>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -1331,13 +1229,7 @@ getKeyEventPolicies(admin: Want): Array<KeyEventPolicy>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -1413,13 +1305,7 @@ startCollectLog(admin: Want): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -1483,13 +1369,7 @@ finishLogCollected(admin: Want): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Want } from '@kit.AbilityKit';
@@ -1564,13 +1444,7 @@ setInstallLocalEnterpriseAppEnabledForAccount(admin: Want, isEnable: boolean, ac
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { systemManager } from '@kit.MDMKit';
@@ -1641,13 +1515,7 @@ getInstallLocalEnterpriseAppEnabledForAccount(admin: Want | null, accountId: num
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { systemManager } from '@kit.MDMKit';

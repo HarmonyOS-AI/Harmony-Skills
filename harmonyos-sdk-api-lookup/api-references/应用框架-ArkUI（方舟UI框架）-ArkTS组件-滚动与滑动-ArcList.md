@@ -16,13 +16,7 @@ PhonePC/2in1TabletTVWearable
 
 API version 21及之前版本：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ArcList, ArcListAttribute } from '@kit.ArkUI';
@@ -30,13 +24,7 @@ API version 21及之前版本：
 
 API version 22及之后版本：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ArcList } from '@kit.ArkUI';
@@ -530,13 +518,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例增加了ArcList支持标题栏设置的效果，子项自动缩放显示。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

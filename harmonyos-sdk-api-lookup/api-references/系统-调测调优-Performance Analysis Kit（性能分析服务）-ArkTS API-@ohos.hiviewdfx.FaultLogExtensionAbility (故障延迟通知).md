@@ -16,13 +16,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FaultLogExtensionAbility } from '@kit.PerformanceAnalysisKit';
@@ -64,13 +58,7 @@ FaultLogExtensionAbility生命周期回调。当系统服务完成连接时调�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. export default class MyFaultLogExtension extends FaultLogExtensionAbility {
@@ -92,13 +80,7 @@ FaultLogExtensionAbility生命周期回调。当系统服务完成断开连接�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. export default class MyFaultLogExtension extends FaultLogExtensionAbility {
@@ -120,13 +102,7 @@ FaultLogExtensionAbility回调。系统服务通知FaultLogExtensionAbility可�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hiAppEvent } from '@kit.PerformanceAnalysisKit';

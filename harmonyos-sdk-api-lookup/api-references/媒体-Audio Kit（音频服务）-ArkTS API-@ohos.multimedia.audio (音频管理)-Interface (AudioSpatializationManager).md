@@ -11,13 +11,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { audio } from '@kit.AudioKit';
@@ -43,13 +37,7 @@ isSpatializationEnabledForCurrentDevice(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { audio } from '@kit.AudioKit';
@@ -89,13 +77,7 @@ on(type: 'spatializationEnabledChangeForCurrentDevice', callback: Callback<boole
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { audio } from '@kit.AudioKit';
@@ -136,13 +118,7 @@ off(type: 'spatializationEnabledChangeForCurrentDevice', callback?: Callback<boo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { audio } from '@kit.AudioKit';

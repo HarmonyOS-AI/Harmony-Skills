@@ -14,13 +14,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ArkTSUtils } from '@kit.ArkTS'
@@ -60,13 +54,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 示例一：
@@ -124,13 +112,7 @@ constructor()
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let lock = new ArkTSUtils.locks.AsyncLock();
@@ -166,13 +148,7 @@ static request(name: string): AsyncLock
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let lockName = 'isAvailableLock';
@@ -220,13 +196,7 @@ static query(name: string): AsyncLockState
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 查询已存在的锁信息
@@ -269,13 +239,7 @@ static queryAll(): AsyncLockState[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 查询已存在的锁信息
@@ -327,13 +291,7 @@ lockAsync<T>(callback: AsyncLockCallback<T>): Promise<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let lock = new ArkTSUtils.locks.AsyncLock();
@@ -384,13 +342,7 @@ lockAsync<T>(callback: AsyncLockCallback<T>, mode: AsyncLockMode): Promise<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let lock = new ArkTSUtils.locks.AsyncLock();
@@ -443,13 +395,7 @@ lockAsync<T, U>(callback: AsyncLockCallback<T>, mode: AsyncLockMode, options: As
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let lock = new ArkTSUtils.locks.AsyncLock();
@@ -483,13 +429,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let lock = new ArkTSUtils.locks.AsyncLock();
@@ -546,13 +486,7 @@ constructor()
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let s: ArkTSUtils.locks.AbortSignal<string> = { aborted: false, reason: 'Aborted' };
@@ -661,13 +595,7 @@ constructor()
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let conditionVariable = new ArkTSUtils.locks.ConditionVariable();
@@ -703,13 +631,7 @@ static request(name: string): ConditionVariable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let conditionVariable = ArkTSUtils.locks.ConditionVariable.request("conditionName");
@@ -737,13 +659,7 @@ wait(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const conditionVariable: ArkTSUtils.locks.ConditionVariable = new ArkTSUtils.locks.ConditionVariable();
@@ -782,13 +698,7 @@ waitFor(timeout : number) : Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const conditionVariable: ArkTSUtils.locks.ConditionVariable = new ArkTSUtils.locks.ConditionVariable();
@@ -811,13 +721,7 @@ notifyAll() : void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const conditionVariable: ArkTSUtils.locks.ConditionVariable = new ArkTSUtils.locks.ConditionVariable();
@@ -842,13 +746,7 @@ notifyOne() : void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const conditionVariable: ArkTSUtils.locks.ConditionVariable = new ArkTSUtils.locks.ConditionVariable();

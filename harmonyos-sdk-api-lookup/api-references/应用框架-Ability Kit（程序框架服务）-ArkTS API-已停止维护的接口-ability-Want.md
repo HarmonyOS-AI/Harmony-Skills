@@ -8,13 +8,7 @@ Want是对象间信息传递的载体, 可以用于应用组件间的信息传�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import Want from '@ohos.app.ability.Want';
@@ -44,13 +38,7 @@ PhonePC/2in1TabletTVWearable
 
 * 基础用法(在UIAbility对象中调用，其中示例中的context为UIAbility的上下文对象)
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. import AbilityConstant from '@ohos.app.ability.AbilityConstant';
@@ -75,13 +63,7 @@ PhonePC/2in1TabletTVWearable
   ```
 * 传递FD(文件描述符)数据(在UIAbility对象中调用，其中示例中的context为UIAbility的上下文对象)
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. import fileIo from '@ohos.file.fs';

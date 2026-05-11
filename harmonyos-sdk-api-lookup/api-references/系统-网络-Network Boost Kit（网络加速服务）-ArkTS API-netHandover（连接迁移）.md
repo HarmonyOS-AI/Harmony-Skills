@@ -6,13 +6,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { netHandover } from '@kit.NetworkBoostKit';
@@ -55,13 +49,7 @@ on(type: 'handoverChange', callback: Callback<HandoverInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -118,13 +106,7 @@ off(type: 'handoverChange', callback?: Callback<HandoverInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -172,13 +154,7 @@ setHandoverMode(mode: HandoverMode): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -228,13 +204,7 @@ getMultiPathQuotaStats(): MultiPathQuota
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -296,13 +266,7 @@ requestMultiPath(callback: Callback<MultiPathRequestResult>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -346,13 +310,7 @@ releaseMultiPath(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -401,13 +359,7 @@ on(type: 'multiPathStateChange', callback: Callback<MultiPathStateInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -459,13 +411,7 @@ off(type: 'multiPathStateChange', callback?: Callback<MultiPathStateInfo>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -514,13 +460,7 @@ on(type: 'multiPathRecommendation', callback: Callback<MultiPathRecommendationIn
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -572,13 +512,7 @@ off(type: 'multiPathRecommendation', callback?: Callback<MultiPathRecommendation
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

@@ -8,13 +8,7 @@
 
 示例
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ERROR: 10705000 Syntax Error
@@ -46,13 +40,7 @@
 
 示例
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ERROR: 10706001 Found unsupported change in file, failed to generate patch abc!

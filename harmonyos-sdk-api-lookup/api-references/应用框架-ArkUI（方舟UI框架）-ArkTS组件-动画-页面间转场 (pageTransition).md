@@ -48,13 +48,7 @@ onEnter(event: PageTransitionCallback): PageTransitionEnterInterface
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. pageTransition() {
@@ -108,13 +102,7 @@ onExit(event: PageTransitionCallback): PageTransitionExitInterface
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. pageTransition() {
@@ -345,13 +333,7 @@ PhonePC/2in1TabletTVWearable
 
 自定义方式1：通过不同的退入场类型配置不同的退场，入场动画。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -394,13 +376,7 @@ PhonePC/2in1TabletTVWearable
 38. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Page1.ets
@@ -447,13 +423,7 @@ PhonePC/2in1TabletTVWearable
 
 自定义方式2：配置了当前页面的入场动画为从左侧滑入，退场为平移加透明度变化。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -483,13 +453,7 @@ PhonePC/2in1TabletTVWearable
 25. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Page1.ets
@@ -525,13 +489,7 @@ PhonePC/2in1TabletTVWearable
 
 自定义方式1：配置提供的不同退入场平移效果，将系统语言排版模式改为RTL。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -574,13 +532,7 @@ PhonePC/2in1TabletTVWearable
 38. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Page1.ets
@@ -625,13 +577,7 @@ PhonePC/2in1TabletTVWearable
 
 自定义方式2：使用系统默认的退入场效果，将系统语言排版模式改为RTL。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -661,13 +607,7 @@ PhonePC/2in1TabletTVWearable
 25. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Page1.ets

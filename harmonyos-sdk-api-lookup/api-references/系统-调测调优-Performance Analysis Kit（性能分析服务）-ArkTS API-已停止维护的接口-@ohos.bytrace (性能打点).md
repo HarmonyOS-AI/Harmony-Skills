@@ -9,13 +9,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { bytrace } from '@kit.PerformanceAnalysisKit';
@@ -47,13 +41,7 @@ startTrace(name: string, taskId: number, expectedTime?: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bytrace.startTrace("myTestFunc", 1);
@@ -85,25 +73,13 @@ finishTrace的name和taskId必须与流程开始的startTrace对应参数值一�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bytrace.finishTrace("myTestFunc", 1);
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 跟踪并行执行的同名任务
@@ -116,13 +92,7 @@ finishTrace的name和taskId必须与流程开始的startTrace对应参数值一�
 8. bytrace.finishTrace("myTestFunc", 2);
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 跟踪串行执行的同名任务
@@ -156,13 +126,7 @@ traceByValue(name: string, count: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let traceCount = 3;

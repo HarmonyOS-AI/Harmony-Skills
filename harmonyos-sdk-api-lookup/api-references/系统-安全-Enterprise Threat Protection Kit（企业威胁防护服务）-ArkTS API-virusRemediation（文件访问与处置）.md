@@ -6,13 +6,7 @@
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { virusRemediation } from '@kit.EnterpriseThreatProtectionKit';
@@ -94,13 +88,7 @@ onReceive(paths: string[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let onReceive: (paths: string[]) => void = (files: Array<string>) => {
@@ -126,13 +114,7 @@ onComplete(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let onComplete: () => void = () => {
@@ -165,13 +147,7 @@ onError(code: number, message: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let onError: (code: number, message: string) => void = (code: number, message: string) => {
@@ -215,13 +191,7 @@ onQuery(files: IsolatedFileInfo[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let onQuery: (files: virusRemediation.IsolatedFileInfo[]) => void = (files: virusRemediation.IsolatedFileInfo[]) => {
@@ -247,13 +217,7 @@ onComplete(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let onComplete: () => void = () => {
@@ -286,13 +250,7 @@ onError(code: number, message: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let onError: (code: number, message: string) => void = (code: number, message: string) => {
@@ -342,13 +300,7 @@ scanBundleFiles(type: ScanTargetType, callback: ScanCallback, bundleName?: strin
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 启动文件扫描任务，通过指定回调函数处理扫描过程中接收到的文件路径、扫描完成和错误信息
@@ -429,13 +381,7 @@ openFile(path: string): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function openFilePromise() {
@@ -487,13 +433,7 @@ queryIsolatedFiles(callback: QueryCallback, batchNum?: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function startQueryTask() {
@@ -573,13 +513,7 @@ isolateThreatFile(path: string): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function isolateFilePromise() {
@@ -642,13 +576,7 @@ restoreIsolatedFile(id: string): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function restoreFilePromise() {
@@ -710,13 +638,7 @@ removeIsolatedFile(id: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function removeIsolatedFilePromise() {

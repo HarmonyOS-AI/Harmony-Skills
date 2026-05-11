@@ -9,13 +9,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avSession } from '@kit.AVSessionKit';
@@ -51,13 +45,7 @@ getAVPlaybackState(callback: AsyncCallback<AVPlaybackState>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.getAVPlaybackState((state: avSession.AVPlaybackState) => {
@@ -97,13 +85,7 @@ getAVPlaybackState(): Promise<AVPlaybackState>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.getAVPlaybackState().then((state: avSession.AVPlaybackState) => {
@@ -143,13 +125,7 @@ getSupportedDecoders(): Promise<Array<DecoderType>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.getSupportedDecoders().then((decoderTypes: avSession.DecoderType[]) => {
@@ -200,13 +176,7 @@ getRecommendedResolutionLevel(decoderType: DecoderType): Promise<ResolutionLevel
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let decoderType = avSession.DecoderType.OH_AVCODEC_MIMETYPE_VIDEO_AVC;
@@ -247,13 +217,7 @@ getSupportedHdrCapabilities(): Promise<Array<hdrCapability.HDRFormat>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import type hdrCapability from './@ohos.graphics.hdrCapability';
@@ -298,13 +262,7 @@ getSupportedPlaySpeeds(): Promise<Array<number>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.getSupportedPlaySpeeds().then((nums: number[]) => {
@@ -358,13 +316,7 @@ sendControlCommand(command: AVCastControlCommand): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let avCommand: avSession.AVCastControlCommand = {command:'play'};
@@ -407,13 +359,7 @@ sendControlCommand(command: AVCastControlCommand, callback: AsyncCallback<void>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let avCommand: avSession.AVCastControlCommand = {command:'play'};
@@ -462,13 +408,7 @@ sendCustomData(data: Record<string, Object>): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.sendCustomData({customData : "This is custom data"});
@@ -507,13 +447,7 @@ prepare(item: AVQueueItem, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 设置播放参数，开始播放。
@@ -581,13 +515,7 @@ prepare(item: AVQueueItem): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 设置播放参数，开始播放。
@@ -650,13 +578,7 @@ start(item: AVQueueItem, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 设置播放参数，开始播放。
@@ -729,13 +651,7 @@ start(item: AVQueueItem): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 设置播放参数，开始播放。
@@ -791,13 +707,7 @@ getCurrentItem(callback: AsyncCallback<AVQueueItem>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.getCurrentItem((value: avSession.AVQueueItem) => {
@@ -837,13 +747,7 @@ getCurrentItem(): Promise<AVQueueItem>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.getCurrentItem().then((value: avSession.AVQueueItem) => {
@@ -881,13 +785,7 @@ getValidCommands(callback: AsyncCallback<Array<AVCastControlCommandType>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.getValidCommands((state: avSession.AVCastControlCommandType[]) => {
@@ -925,13 +823,7 @@ getValidCommands(): Promise<Array<AVCastControlCommandType>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.getValidCommands().then((state: avSession.AVCastControlCommandType[]) => {
@@ -981,13 +873,7 @@ processMediaKeyResponse(assetId: string, response: Uint8Array): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let keyRequestCallback: avSession.KeyRequestCallback = async(assetId: string, requestData: Uint8Array) => {
@@ -1030,13 +916,7 @@ release(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.release(() => {
@@ -1076,13 +956,7 @@ release(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.release().then(() => {
@@ -1127,13 +1001,7 @@ on(type: 'playbackStateChange', filter: Array<keyof AVPlaybackState> | 'all', ca
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.on('playbackStateChange', 'all', (playbackState: avSession.AVPlaybackState) => {
@@ -1180,13 +1048,7 @@ off(type: 'playbackStateChange', callback?: (state: AVPlaybackState) => void): v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.off('playbackStateChange');
@@ -1228,13 +1090,7 @@ on(type: 'mediaItemChange', callback: Callback<AVQueueItem>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.on('mediaItemChange', (item: avSession.AVQueueItem) => {
@@ -1275,13 +1131,7 @@ off(type: 'mediaItemChange'): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.off('mediaItemChange');
@@ -1323,13 +1173,7 @@ on(type: 'playNext', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.on('playNext', () => {
@@ -1370,13 +1214,7 @@ off(type: 'playNext'): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.off('playNext');
@@ -1418,13 +1256,7 @@ on(type: 'playPrevious', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.on('playPrevious', () => {
@@ -1465,13 +1297,7 @@ off(type: 'playPrevious'): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.off('playPrevious');
@@ -1511,13 +1337,7 @@ on(type: 'requestPlay', callback: Callback<AVQueueItem>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.on('requestPlay', (item: avSession.AVQueueItem) => {
@@ -1557,13 +1377,7 @@ off(type: 'requestPlay', callback?: Callback<AVQueueItem>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.off('requestPlay');
@@ -1603,13 +1417,7 @@ on(type: 'endOfStream', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.on('endOfStream', () => {
@@ -1649,13 +1457,7 @@ off(type: 'endOfStream', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.off('endOfStream');
@@ -1697,13 +1499,7 @@ on(type: 'seekDone', callback: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.on('seekDone', (pos: number) => {
@@ -1744,13 +1540,7 @@ off(type: 'seekDone'): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.off('seekDone');
@@ -1791,13 +1581,7 @@ on(type: 'validCommandChange', callback: Callback<Array<AVCastControlCommandType
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.on('validCommandChange', (validCommands: avSession.AVCastControlCommandType[]) => {
@@ -1839,13 +1623,7 @@ off(type: 'validCommandChange', callback?: Callback<Array<AVCastControlCommandTy
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.off('validCommandChange');
@@ -1885,13 +1663,7 @@ on(type: 'videoSizeChange', callback: (width: number, height: number) => void): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.on('videoSizeChange', (width: number, height: number) => {
@@ -1930,13 +1702,7 @@ off(type: 'videoSizeChange'): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.off('videoSizeChange');
@@ -1984,13 +1750,7 @@ on(type: 'error', callback: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2039,13 +1799,7 @@ off(type: 'error'): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.off('error')
@@ -2087,13 +1841,7 @@ on(type: 'keyRequest', callback: KeyRequestCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let keyRequestCallback: avSession.KeyRequestCallback = async(assetId: string, requestData: Uint8Array) => {
@@ -2136,13 +1884,7 @@ off(type: 'keyRequest', callback?: KeyRequestCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.off('keyRequest');
@@ -2197,13 +1939,7 @@ on(type: 'castControlGenericError', callback: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.on('castControlGenericError', (error: BusinessError) => {
@@ -2244,13 +1980,7 @@ off(type: 'castControlGenericError', callback?: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.off('castControlGenericError');
@@ -2308,13 +2038,7 @@ on(type: 'castControlIoError', callback: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.on('castControlIoError', (error: BusinessError) => {
@@ -2355,13 +2079,7 @@ off(type: 'castControlIoError', callback?: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.off('castControlIoError');
@@ -2407,13 +2125,7 @@ on(type: 'castControlParsingError', callback: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.on('castControlParsingError', (error: BusinessError) => {
@@ -2454,13 +2166,7 @@ off(type: 'castControlParsingError', callback?: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.off('castControlParsingError');
@@ -2507,13 +2213,7 @@ on(type: 'castControlDecodingError', callback: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.on('castControlDecodingError', (error: BusinessError) => {
@@ -2554,13 +2254,7 @@ off(type: 'castControlDecodingError', callback?: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.off('castControlDecodingError');
@@ -2604,13 +2298,7 @@ on(type: 'castControlAudioRendererError', callback: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.on('castControlAudioRendererError', (error: BusinessError) => {
@@ -2651,13 +2339,7 @@ off(type: 'castControlAudioRendererError', callback?: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.off('castControlAudioRendererError');
@@ -2708,13 +2390,7 @@ on(type: 'castControlDrmError', callback: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.on('castControlDrmError', (error: BusinessError) => {
@@ -2755,13 +2431,7 @@ off(type: 'castControlDrmError', callback?: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.off('castControlDrmError');
@@ -2800,13 +2470,7 @@ on(type: 'customDataChange', callback: Callback<Record<string, Object>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.on('customDataChange', (callback) => {
@@ -2847,13 +2511,7 @@ off(type: 'customDataChange', callback?: Callback<Record<string, Object>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avCastController.off('customDataChange');

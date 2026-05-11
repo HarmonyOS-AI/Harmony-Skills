@@ -8,13 +8,7 @@ InterstitialDialogAction弹框在元服务中用于在保持当前的上下文�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { InterstitialDialogAction, IconStyle, TitlePosition, BottomOffset } from '@kit.ArkUI';
@@ -174,13 +168,7 @@ PhonePC/2in1TabletTVWearable
 
 为可选属性设置相应值，用两种不同参数类型分别为主标题、副标题设置颜色值，关闭按钮设置为暗色调，主副标题相对位置设置为主标题在副标题上方，底部距离类型设置为不存在菜单栏情况下的距离。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // ../entryability/EntryAbility
@@ -258,13 +246,7 @@ PhonePC/2in1TabletTVWearable
 73. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -313,13 +295,7 @@ PhonePC/2in1TabletTVWearable
 
 为可选属性设置相应值，用两种不同参数类型分别为主标题，副标题设置颜色值，关闭按钮设置为亮色调，主副标题相对位置设置为主标题在副标题下方，底部距离类型设置为存在菜单栏情况下的距离。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // ../entryability/EntryAbility
@@ -400,13 +376,7 @@ PhonePC/2in1TabletTVWearable
 76. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets

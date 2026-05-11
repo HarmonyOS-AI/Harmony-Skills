@@ -59,13 +59,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过ArcScrollBar与[Scroll](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-container-scroll)组件联动，设置了弧形外置滚动条。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ArcScrollBar } from '@kit.ArkUI';

@@ -11,13 +11,7 @@ OIS继承自[OISQuery](https://developer.huawei.com/consumer/cn/doc/harmonyos-re
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { camera } from '@kit.CameraKit';
@@ -58,13 +52,7 @@ setOISMode(mode: OISMode): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -115,13 +103,7 @@ setOISModeCustom(pitch: number, yaw: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

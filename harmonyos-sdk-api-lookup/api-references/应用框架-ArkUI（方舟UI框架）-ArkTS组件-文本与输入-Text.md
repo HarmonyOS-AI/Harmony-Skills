@@ -456,13 +456,7 @@ enableDataDetector(enable: boolean)
 
 所识别实体的样式如下，即字体颜色改为蓝色、并添加蓝色下划线。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. color: '#ff007dff'
@@ -510,13 +504,7 @@ enableHapticFeedback(isEnabled: boolean)
 
 开启触控反馈时，需要在工程的[module.json5配置文件](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/module-configuration-file)中配置requestPermissions字段开启振动权限，配置如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. "requestPermissions": [
@@ -1851,13 +1839,7 @@ Text组件的控制器。
 
 ### 导入对象
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. controller: TextController = new TextController()
@@ -2045,13 +2027,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[textAlign](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#textalign)、[lineHeight](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#lineheight)、[baselineOffset](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#baselineoffset)、[halfLeading](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#halfleading12)（从API version 12开始）属性展示了文本布局的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2136,13 +2112,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[decoration](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#decoration)、[letterSpacing](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#letterspacing)、[textCase](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#textcase)、[fontFamily](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#fontfamily)、[textShadow](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#textshadow10)（从API version 10开始）、fontStyle、[textIndent](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#textindent10)（从API version 10开始）、[fontWeight](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#fontweight12)（从API version 12开始，支持设置字重无极调节配置项）属性展示了不同样式的文本效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2270,13 +2240,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 24开始，[EllipsisMode](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-appendix-enums#ellipsismode11)新增了MULTILINE\_START和MULTILINE\_CENTER枚举。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2382,13 +2346,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[wordBreak](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#wordbreak11)（从API version 11开始）、[lineBreakStrategy](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#linebreakstrategy12)（从API version 12开始）、[clip](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-sharp-clipping#clip12)属性展示了文本在不同断行、折行规则下的效果以及文本超长时是否截断。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2475,13 +2433,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[selection](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#selection11)（从API version 11开始）、[onCopy](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#oncopy11)（从API version 11开始）、[draggable](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#draggable9)（从API version 9开始）、[caretColor](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#caretcolor14)（从API version 14开始）、[selectedBackgroundColor](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#selectedbackgroundcolor14)（从API version 14开始）接口展示了文本选中、触发复制回调、设置文本选中可拖拽以及修改手柄和选中颜色的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2530,13 +2482,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[heightAdaptivePolicy](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#heightadaptivepolicy10)（从API version 10开始）属性展示文本自适应效果以及通过[minFontScale](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#minfontscale12)（从API version 12开始）、[maxFontScale](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#maxfontscale12)（从API version 12开始）展示设置字体缩放倍数限制范围。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2583,13 +2529,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 11开始，该示例通过[enableDataDetector](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#enabledatadetector11)、[dataDetectorConfig](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#datadetectorconfig11)接口实现了文本识别的功能。当[enableDataDetector](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#enabledatadetector11)设为true且不设置[dataDetectorConfig](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#datadetectorconfig11)时，系统会识别所有实体类型，并将识别实体的字体颜色改为蓝色、添加蓝色下划线。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2660,13 +2600,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 11开始，该示例通过[bindSelectionMenu](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#bindselectionmenu11)、[onTextSelectionChange](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#ontextselectionchange11)、[closeSelectionMenu](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#closeselectionmenu11)接口实现了文本绑定自定义菜单的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2790,13 +2724,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 12开始，该示例通过[fontFeature](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#fontfeature12)、[lineSpacing](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#linespacing12)接口展示了设置文本特性与行间距的效果，同时，配置[LineSpacingOptions](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-text-common#linespacingoptions20对象说明)中的onlyBetweenLines（从API version 20开始）属性，可以设置文本的行间距，是否仅在行与行之间生效。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2857,13 +2785,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 12开始，该示例通过[getLayoutManager](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#getlayoutmanager12)接口调用文本的布局管理对象获取文本信息，同时，[LayoutManager](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-text-common#layoutmanager12)中的[getRectsForRange](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-text-common#getrectsforrange14)（从API version 14开始）接口可以获取指定矩形宽度和高度下，文本中任意区间范围内字符或占位符的绘制区域信息。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2952,13 +2874,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 12开始，该示例通过[textSelectable](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#textselectable12)属性实现了设置TextSelectMode.SELECTABLE\_FOCUSABLE时能够触发键盘框选文本功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2989,13 +2905,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 12开始，该示例通过[editMenuOptions](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#editmenuoptions12)接口实现了文本设置自定义菜单扩展项的文本内容、图标以及回调的功能，同时，可以在[onPrepareMenu](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-text-common#属性-1)（从API version 20开始）回调中，进行菜单数据的设置。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3086,13 +2996,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 12开始，该示例通过[privacySensitive](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#privacysensitive12)属性展示了文本如何配置隐私隐藏的效果，实际显示需要卡片框架支持。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3117,13 +3021,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，该示例通过[enableAutoSpacing](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#enableautospacing20)属性设置中西文自动间距。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3152,13 +3050,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，该示例通过[shaderStyle](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#shaderstyle20)接口实现了对Text组件显示为渐变色和纯色的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -3228,13 +3120,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，该示例通过[optimizeTrailingSpace](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#optimizetrailingspace20)属性展示了文本如何配置除去行尾空格的效果，一般需要与对齐功能搭配使用，实际显示需要字体引擎支持。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3267,13 +3153,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，该示例通过[textVerticalAlign](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#textverticalalign20)属性展示了文本如何设置文本垂直对齐效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3306,13 +3186,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，该示例通过[contentTransition](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#contenttransition20)属性展示了数字翻牌效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3348,13 +3222,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 21开始，该示例通过[textContentAlign](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#textcontentalign21)属性展示了当文本内容区高度大于组件高度时文本内容区的垂直对齐。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -3382,13 +3250,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 22开始，该示例通过[lineHeightMultiple](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#lineheightmultiple22)属性展示了使用倍数模式设置行高，同时通过[minLineHeight](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#minlineheight22)和[maxLineHeight](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#maxlineheight22)来设置最小和最大行高值。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LengthUnit } from '@kit.ArkUI';
@@ -3434,13 +3296,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 22开始，该示例使用[minLines](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#minlines22)属性设置文本显示的最小行数。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -3474,13 +3330,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 23开始，该示例使用[TextController](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#textcontroller11)中的[setTextSelection](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#settextselection23)设置文本选择区域并高亮显示。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -3516,13 +3366,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 23开始，支持compressLeadingPunctuation接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3555,13 +3399,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 23开始，新增[includeFontPadding](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#includefontpadding23)和[fallbackLineSpacing](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#fallbacklinespacing23)接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3627,13 +3465,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 23开始，新增selectedDragPreviewStyle接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -3662,13 +3494,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 23开始，新增textDirection接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3710,13 +3536,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 24开始，支持[getCharacterPositionAtCoordinate](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-text-common#getcharacterpositionatcoordinate24)，[getGlyphRangeForCharacterRange](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-text-common#getglyphrangeforcharacterrange24)，[getCharacterRangeForGlyphRange](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-text-common#getcharacterrangeforglyphrange24)接口。该示例通过[getLayoutManager](/consumer/cn/doc/harmonyos-references/ts-basic-components-text#getlayoutmanager12)接口调用文本的布局管理对象获取文本信息，通过[LayoutManager](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-text-common#layoutmanager12)中的[getCharacterPositionAtCoordinate](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-text-common#getcharacterpositionatcoordinate24)获取坐标字符的位置信息，通过[getGlyphRangeForCharacterRange](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-text-common#getglyphrangeforcharacterrange24)根据字符索引范围获取字形索引范围和实际的字符索引范围，通过[getCharacterRangeForGlyphRange](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-text-common#getcharacterrangeforglyphrange24)根据字形索引范围获取字符索引范围和实际的字形索引范围。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

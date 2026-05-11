@@ -6,13 +6,7 @@ CallerInfoQueryExtensionContext为CallerInfoQueryExtensionAbility的上下文环
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {CallerInfoQueryExtensionContext} from '@kit.CallServiceKit';

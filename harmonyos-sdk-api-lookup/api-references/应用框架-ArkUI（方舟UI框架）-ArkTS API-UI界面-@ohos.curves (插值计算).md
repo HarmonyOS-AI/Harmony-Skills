@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { curves } from '@kit.ArkUI';
@@ -78,13 +72,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { curves } from '@kit.ArkUI';
@@ -122,13 +110,7 @@ stepsCurve(count: number, end: boolean): ICurve
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { curves } from '@kit.ArkUI';
@@ -168,13 +150,7 @@ cubicBezierCurve(x1: number, y1: number, x2: number, y2: number): ICurve
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { curves } from '@kit.ArkUI';
@@ -214,13 +190,7 @@ springCurve(velocity: number, mass: number, stiffness: number, damping: number):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { curves } from '@kit.ArkUI';
@@ -259,13 +229,7 @@ springMotion(response?: number, dampingFraction?: number, overlapDuration?: numb
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { curves } from '@kit.ArkUI'
@@ -307,13 +271,7 @@ responsiveSpringMotion(response?: number, dampingFraction?: number, overlapDurat
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { curves } from '@kit.ArkUI'
@@ -353,13 +311,7 @@ interpolatingSpring(velocity: number, mass: number, stiffness: number, damping: 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { curves } from '@kit.ArkUI'
@@ -396,13 +348,7 @@ customCurve(interpolate: (fraction: number) => number): ICurve
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { curves } from '@kit.ArkUI'
@@ -448,13 +394,7 @@ interpolate(fraction: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { curves } from '@kit.ArkUI'
@@ -593,13 +533,7 @@ spring(velocity: number, mass: number, stiffness: number, damping: number): stri
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

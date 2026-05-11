@@ -30,13 +30,7 @@ on(type: 'navDestinationUpdate', callback: Callback<observer.NavDestinationInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -140,13 +134,7 @@ on(type: 'navDestinationUpdate', options: { navigationId: ResourceStr }, callbac
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -254,13 +242,7 @@ on(type: 'navDestinationUpdateByUniqueId', navigationUniqueId: number, callback:
 
 通过[Navigation](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-basic-components-navigation)的uniqueId，可以触发[NavDestination](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-basic-components-navdestination)组件的状态变化。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -376,13 +358,7 @@ on(type: 'scrollEvent', callback: Callback<observer.ScrollEventInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -557,13 +533,7 @@ on(type: 'routerPageUpdate', callback: Callback<observer.RouterPageInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // PageOne.ets
@@ -579,13 +549,7 @@ on(type: 'routerPageUpdate', callback: Callback<observer.RouterPageInfo>): void
 11. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -668,13 +632,7 @@ on(type: 'densityUpdate', callback: Callback<observer.DensityInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -766,13 +724,7 @@ on(type: 'willDraw', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -853,13 +805,7 @@ on(type: 'didLayout', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -940,13 +886,7 @@ on(type: 'navDestinationSwitch', callback: Callback<observer.NavDestinationSwitc
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -1057,13 +997,7 @@ on(type: 'navDestinationSwitch', observerOptions: observer.NavDestinationSwitchO
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -1175,13 +1109,7 @@ on(type: 'willClick', callback: GestureEventListenerCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -1467,13 +1395,7 @@ on(type: 'tabContentUpdate', callback: Callback<observer.TabContentInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -1580,13 +1502,7 @@ on(type: 'tabContentUpdate', options: observer.ObserverOptions, callback: Callba
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -1693,13 +1609,7 @@ on(type: 'tabChange', callback: Callback<observer.TabContentInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -1829,13 +1739,7 @@ on(type: 'tabChange', config: observer.ObserverOptions, callback: Callback<obser
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -1962,13 +1866,7 @@ on(type: 'textChange', callback: Callback<observer.TextChangeEventInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIObserver } from '@kit.ArkUI';
@@ -2156,13 +2054,7 @@ on(type: 'beforePanStart', callback: PanListenerCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -2488,13 +2380,7 @@ on(type: 'nodeRenderState', nodeIdentity: NodeIdentity, callback: NodeRenderStat
 
 该示例展示了如何对目标组件添加监听和取消监听。当向左滑动，被监听组件从屏幕消失，会收到RENDER\_OUT的通知，然后向右滑动，被监听组件重新出现在屏幕上，会收到RENDER\_IN通知。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -2660,13 +2546,7 @@ addGlobalGestureListener(type: GestureListenerType, option: GestureObserverConfi
 
 该示例使用全局手势监听器实时追踪Tap、Pan和LongPress三个独立区域的触发状态，记录各手势的触发次数和最后操作信息，并在组件生命周期内自动管理监听器的注册与注销。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -2895,13 +2775,7 @@ on(type: 'windowSizeLayoutBreakpointChange', callback: Callback<observer.WindowS
 
 该示例展示添加和取消监听窗口尺寸布局断点变化的方法。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uiObserver, window } from '@kit.ArkUI';
@@ -2999,13 +2873,7 @@ onSwiperContentUpdate(callback: Callback<SwiperContentInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -3104,13 +2972,7 @@ onSwiperContentUpdate(config: observer.ObserverOptions, callback: Callback<Swipe
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -3210,13 +3072,7 @@ onRouterPageSizeChange(callback: Callback<observer.RouterPageInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uiObserver } from '@kit.ArkUI';
@@ -3297,13 +3153,7 @@ onNavDestinationSizeChange(callback: Callback<observer.NavDestinationInfo>): voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uiObserver } from '@kit.ArkUI';
@@ -3418,13 +3268,7 @@ onNavDestinationSizeChangeByUniqueId(navigationUniqueId: number, callback: Callb
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uiObserver } from '@kit.ArkUI';

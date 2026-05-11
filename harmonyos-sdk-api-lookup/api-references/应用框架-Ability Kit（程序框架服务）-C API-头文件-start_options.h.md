@@ -77,13 +77,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_StartOptions* OH_AbilityRuntime_CreateStartOptions(void)
@@ -105,13 +99,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/start_options.h>
@@ -133,13 +121,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_DestroyStartOptions(AbilityRuntime_StartOptions **startOptions)
@@ -169,13 +151,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/start_options.h>
@@ -197,13 +173,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_SetStartOptionsWindowMode(AbilityRuntime_StartOptions *startOptions,AbilityRuntime_WindowMode windowMode)
@@ -234,13 +204,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/start_options.h>
@@ -267,13 +231,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_GetStartOptionsWindowMode(AbilityRuntime_StartOptions *startOptions,AbilityRuntime_WindowMode &windowMode)
@@ -304,13 +262,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/start_options.h>
@@ -337,13 +289,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_SetStartOptionsDisplayId(AbilityRuntime_StartOptions *startOptions,int32_t displayId)
@@ -374,13 +320,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/start_options.h>
@@ -406,13 +346,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_GetStartOptionsDisplayId(AbilityRuntime_StartOptions *startOptions,int32_t &displayId)
@@ -443,13 +377,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/start_options.h>
@@ -476,13 +404,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_SetStartOptionsWithAnimation(AbilityRuntime_StartOptions *startOptions,bool withAnimation)
@@ -513,13 +435,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/start_options.h>
@@ -545,13 +461,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_GetStartOptionsWithAnimation(AbilityRuntime_StartOptions *startOptions,bool &withAnimation)
@@ -582,13 +492,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/start_options.h>
@@ -615,13 +519,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_SetStartOptionsWindowLeft(AbilityRuntime_StartOptions *startOptions,int32_t windowLeft)
@@ -652,13 +550,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/start_options.h>
@@ -684,13 +576,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_GetStartOptionsWindowLeft(AbilityRuntime_StartOptions *startOptions,int32_t &windowLeft)
@@ -721,13 +607,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/start_options.h>
@@ -754,13 +634,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_SetStartOptionsWindowTop(AbilityRuntime_StartOptions *startOptions,int32_t windowTop)
@@ -791,13 +665,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/start_options.h>
@@ -823,13 +691,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_GetStartOptionsWindowTop(AbilityRuntime_StartOptions *startOptions,int32_t &windowTop)
@@ -860,13 +722,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/start_options.h>
@@ -893,13 +749,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_SetStartOptionsWindowHeight(AbilityRuntime_StartOptions *startOptions,int32_t windowHeight)
@@ -930,13 +780,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/start_options.h>
@@ -962,13 +806,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_GetStartOptionsWindowHeight(AbilityRuntime_StartOptions *startOptions,int32_t &windowHeight)
@@ -999,13 +837,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/start_options.h>
@@ -1032,13 +864,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_SetStartOptionsWindowWidth(AbilityRuntime_StartOptions *startOptions,int32_t windowWidth)
@@ -1069,13 +895,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/start_options.h>
@@ -1101,13 +921,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_GetStartOptionsWindowWidth(AbilityRuntime_StartOptions *startOptions,int32_t &windowWidth)
@@ -1138,13 +952,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/start_options.h>
@@ -1171,13 +979,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_SetStartOptionsStartVisibility(AbilityRuntime_StartOptions *startOptions,AbilityRuntime_StartVisibility startVisibility)
@@ -1208,13 +1010,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/start_options.h>
@@ -1241,13 +1037,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_GetStartOptionsStartVisibility(AbilityRuntime_StartOptions *startOptions,AbilityRuntime_StartVisibility &startVisibility)
@@ -1278,13 +1068,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/start_options.h>
@@ -1311,13 +1095,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_SetStartOptionsStartWindowIcon(AbilityRuntime_StartOptions *startOptions,OH_PixelmapNative *startWindowIcon)
@@ -1348,13 +1126,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/start_options.h>
@@ -1417,13 +1189,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_GetStartOptionsStartWindowIcon(AbilityRuntime_StartOptions *startOptions,OH_PixelmapNative **startWindowIcon)
@@ -1454,13 +1220,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/start_options.h>
@@ -1491,13 +1251,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_SetStartOptionsStartWindowBackgroundColor(AbilityRuntime_StartOptions *startOptions, const char *startWindowBackgroundColor)
@@ -1528,13 +1282,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/start_options.h>
@@ -1561,13 +1309,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_GetStartOptionsStartWindowBackgroundColor(AbilityRuntime_StartOptions *startOptions, char **startWindowBackgroundColor, size_t &size)
@@ -1599,13 +1341,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <cstdlib>
@@ -1643,13 +1379,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_SetStartOptionsSupportedWindowModes(AbilityRuntime_StartOptions *startOptions, AbilityRuntime_SupportedWindowMode *supportedWindowModes,size_t size)
@@ -1681,13 +1411,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/start_options.h>
@@ -1721,13 +1445,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_GetStartOptionsSupportedWindowModes(AbilityRuntime_StartOptions *startOptions, AbilityRuntime_SupportedWindowMode **supportedWindowModes,size_t &size)
@@ -1759,13 +1477,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <cstdlib>
@@ -1802,13 +1514,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_SetStartOptionsMinWindowWidth(AbilityRuntime_StartOptions *startOptions, int32_t minWindowWidth)
@@ -1839,13 +1545,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/start_options.h>
@@ -1872,13 +1572,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_GetStartOptionsMinWindowWidth(AbilityRuntime_StartOptions *startOptions, int32_t &minWindowWidth)
@@ -1909,13 +1603,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/start_options.h>
@@ -1943,13 +1631,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_SetStartOptionsMaxWindowWidth(AbilityRuntime_StartOptions *startOptions, int32_t maxWindowWidth)
@@ -1980,13 +1662,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/start_options.h>
@@ -2013,13 +1689,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_GetStartOptionsMaxWindowWidth(AbilityRuntime_StartOptions *startOptions, int32_t &maxWindowWidth)
@@ -2050,13 +1720,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/start_options.h>
@@ -2084,13 +1748,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_SetStartOptionsMinWindowHeight(AbilityRuntime_StartOptions *startOptions, int32_t minWindowHeight)
@@ -2121,13 +1779,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/start_options.h>
@@ -2154,13 +1806,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_GetStartOptionsMinWindowHeight(AbilityRuntime_StartOptions *startOptions, int32_t &minWindowHeight)
@@ -2191,13 +1837,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/start_options.h>
@@ -2225,13 +1865,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_SetStartOptionsMaxWindowHeight(AbilityRuntime_StartOptions *startOptions, int32_t maxWindowHeight)
@@ -2262,13 +1896,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/start_options.h>
@@ -2295,13 +1923,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_GetStartOptionsMaxWindowHeight(AbilityRuntime_StartOptions *startOptions, int32_t &maxWindowHeight)
@@ -2332,13 +1954,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/start_options.h>

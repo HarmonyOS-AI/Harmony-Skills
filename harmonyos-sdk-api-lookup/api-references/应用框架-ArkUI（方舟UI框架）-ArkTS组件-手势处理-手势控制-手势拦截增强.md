@@ -210,13 +210,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过shouldBuiltInRecognizerParallelWith和onGestureRecognizerJudgeBegin实现了嵌套滚动的功能。内部组件优先响应滑动手势，当内部组件滑动至顶部或底部时，外部组件能够接替滑动。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -387,13 +381,7 @@ PhonePC/2in1TabletTVWearable
 
 开发者自行定义变量来记录内层Tabs的索引值，通过该索引值判断当滑动达到内层Tabs的边界处时，触发回调返回屏蔽使外层Tabs产生滑动手势。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -485,13 +473,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置onGestureRecognizerJudgeBegin判定手势，获取相应属性参数。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -577,13 +559,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置onGestureRecognizerJudgeBegin判定手势，在父容器手势触发成功时，调用cancelTouch()强制取消子组件上的Touch事件，实现父子组件手势控制的精准切换。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -784,13 +760,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，该示例通过配置[onTouchTestDone](/consumer/cn/doc/harmonyos-references/ts-gesture-blocking-enhancement#ontouchtestdone20)指定手势识别器不参与后续手势处理，触发回调时，调用[preventBegin](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-gesture-common#preventbegin20)阻止手势识别器参与后续处理。点击Tap2和Tap1的重合区域，不调用preventBegin时，触发Tap2对应的手势；调用preventBegin阻止Tap2时，触发Tap1对应的手势。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

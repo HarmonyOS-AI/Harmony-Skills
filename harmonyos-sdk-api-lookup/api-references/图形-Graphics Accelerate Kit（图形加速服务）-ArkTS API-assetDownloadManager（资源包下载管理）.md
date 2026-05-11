@@ -6,13 +6,7 @@
 
 PhoneTablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { assetDownloadManager } from '@kit.GraphicsAccelerateKit';
@@ -208,13 +202,7 @@ on(type: 'progress', callback: Callback<DownloadProgressInfo[]>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { assetDownloadManager } from '@kit.GraphicsAccelerateKit';
@@ -264,13 +252,7 @@ off(type: 'progress', callback?: Callback<DownloadProgressInfo[]>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { assetDownloadManager } from '@kit.GraphicsAccelerateKit';
@@ -320,13 +302,7 @@ on(type: 'pause', callback: Callback<AssetDownloadTask>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { assetDownloadManager } from '@kit.GraphicsAccelerateKit';
@@ -376,13 +352,7 @@ off(type: 'pause', callback?: Callback<AssetDownloadTask>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { assetDownloadManager } from '@kit.GraphicsAccelerateKit';
@@ -432,13 +402,7 @@ on(type: 'complete', callback: Callback<DownloadCompletedInfo>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { assetDownloadManager } from '@kit.GraphicsAccelerateKit';
@@ -488,13 +452,7 @@ off(type: 'complete', callback?: Callback<DownloadCompletedInfo>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { assetDownloadManager } from '@kit.GraphicsAccelerateKit';
@@ -544,13 +502,7 @@ on(type: 'fail', callback: Callback<DownloadFailedInfo>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { assetDownloadManager } from '@kit.GraphicsAccelerateKit';
@@ -600,13 +552,7 @@ off(type: 'fail', callback?: Callback<DownloadFailedInfo>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { assetDownloadManager } from '@kit.GraphicsAccelerateKit';
@@ -656,13 +602,7 @@ fetchManifestUrl(): Promise<string>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { assetDownloadManager } from '@kit.GraphicsAccelerateKit';
@@ -729,13 +669,7 @@ addAssetDownloadTask(context: common.BaseContext, downloadConfig: AssetDownloadC
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { assetDownloadManager } from '@kit.GraphicsAccelerateKit';
@@ -810,13 +744,7 @@ pauseAssetDownloadTask(taskId: string): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { assetDownloadManager } from '@kit.GraphicsAccelerateKit';
@@ -901,13 +829,7 @@ resumeAssetDownloadTask(taskId: string): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { assetDownloadManager } from '@kit.GraphicsAccelerateKit';
@@ -995,13 +917,7 @@ removeAssetDownloadTask(taskId: string): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { assetDownloadManager } from '@kit.GraphicsAccelerateKit';
@@ -1071,13 +987,7 @@ fetchAllAssetDownloadTasks(): Promise<AssetDownloadTask[]>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { assetDownloadManager } from '@kit.GraphicsAccelerateKit';
@@ -1152,13 +1062,7 @@ pauseAllAssetDownloadTasks(): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { assetDownloadManager } from '@kit.GraphicsAccelerateKit';
@@ -1232,13 +1136,7 @@ resumeAllAssetDownloadTasks(): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { assetDownloadManager } from '@kit.GraphicsAccelerateKit';
@@ -1316,13 +1214,7 @@ removeAllAssetDownloadTasks(): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { assetDownloadManager } from '@kit.GraphicsAccelerateKit';
@@ -1402,13 +1294,7 @@ fetchGroupAssetDownloadTasks(groupId: string): Promise<AssetDownloadTask[]>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { assetDownloadManager } from '@kit.GraphicsAccelerateKit';
@@ -1494,13 +1380,7 @@ pauseGroupAssetDownloadTasks(groupId: string): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { assetDownloadManager } from '@kit.GraphicsAccelerateKit';
@@ -1585,13 +1465,7 @@ resumeGroupAssetDownloadTasks(groupId: string): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { assetDownloadManager } from '@kit.GraphicsAccelerateKit';
@@ -1680,13 +1554,7 @@ removeGroupAssetDownloadTasks(groupId: string): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { assetDownloadManager } from '@kit.GraphicsAccelerateKit';
@@ -1790,13 +1658,7 @@ limitDownloadTaskSpeed(taskIds: string[], speedLimit: NetSpeedLevel): Promise<vo
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { assetDownloadManager } from '@kit.GraphicsAccelerateKit';
@@ -1930,13 +1792,7 @@ reportDownloadProgress(progressInfo: AppDownloadProgress): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { assetDownloadManager } from '@kit.GraphicsAccelerateKit';

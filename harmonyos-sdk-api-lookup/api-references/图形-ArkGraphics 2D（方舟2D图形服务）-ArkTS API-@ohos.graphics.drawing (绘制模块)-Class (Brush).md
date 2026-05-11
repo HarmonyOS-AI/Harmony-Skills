@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -34,13 +28,7 @@ constructor()
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -78,13 +66,7 @@ constructor(brush: Brush)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common2D, drawing } from '@kit.ArkGraphics2D';
@@ -125,13 +107,7 @@ setColor(color: common2D.Color) : void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common2D, drawing } from '@kit.ArkGraphics2D';
@@ -174,13 +150,7 @@ setColor(alpha: number, red: number, green: number, blue: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -219,13 +189,7 @@ setColor(color: number) : void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -255,13 +219,7 @@ setColor4f(color4f: common2D.Color4f, colorSpace: colorSpaceManager.ColorSpaceMa
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common2D, drawing, colorSpaceManager } from "@kit.ArkGraphics2D";
@@ -292,13 +250,7 @@ getColor(): common2D.Color
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common2D, drawing } from '@kit.ArkGraphics2D';
@@ -329,13 +281,7 @@ getColor4f(): common2D.Color4f
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common2D, drawing, colorSpaceManager } from "@kit.ArkGraphics2D";
@@ -367,13 +313,7 @@ getHexColor(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common2D, drawing } from '@kit.ArkGraphics2D';
@@ -415,13 +355,7 @@ setAntiAlias(aa: boolean) : void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -450,13 +384,7 @@ isAntiAlias(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -495,13 +423,7 @@ setAlpha(alpha: number) : void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -530,13 +452,7 @@ getAlpha(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -575,13 +491,7 @@ setColorFilter(filter: ColorFilter | null) : void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -621,13 +531,7 @@ setMaskFilter(filter: MaskFilter | null): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -673,13 +577,7 @@ setShaderEffect(shaderEffect: ShaderEffect | null): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -719,13 +617,7 @@ setShadowLayer(shadowLayer: ShadowLayer | null): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -799,13 +691,7 @@ setBlendMode(mode: BlendMode) : void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -844,13 +730,7 @@ setImageFilter(filter: ImageFilter | null): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {drawing} from '@kit.ArkGraphics2D';
@@ -881,13 +761,7 @@ getColorFilter(): ColorFilter
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {drawing} from '@kit.ArkGraphics2D';
@@ -910,13 +784,7 @@ reset(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';

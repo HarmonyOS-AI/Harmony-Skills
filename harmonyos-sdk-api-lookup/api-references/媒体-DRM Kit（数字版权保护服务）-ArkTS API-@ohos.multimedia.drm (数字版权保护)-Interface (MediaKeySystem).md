@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -55,13 +49,7 @@ setConfigurationString(configName: string, value: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -118,13 +106,7 @@ getConfigurationString(configName: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -174,13 +156,7 @@ setConfigurationByteArray(configName: string, value: Uint8Array): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -240,13 +216,7 @@ getConfigurationByteArray(configName: string): Uint8Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -294,13 +264,7 @@ getStatistics(): StatisticKeyValue[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -348,13 +312,7 @@ getMaxContentProtectionLevel(): ContentProtectionLevel
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -402,13 +360,7 @@ generateKeySystemRequest(): Promise<ProvisionRequest>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -465,13 +417,7 @@ processKeySystemResponse(response: Uint8Array): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -520,13 +466,7 @@ getCertificateStatus():CertificateStatus
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -575,13 +515,7 @@ on(type: 'keySystemRequired', callback: (eventInfo: EventInfo) => void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -626,13 +560,7 @@ off(type: 'keySystemRequired', callback?: (eventInfo: EventInfo) => void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -683,13 +611,7 @@ createMediaKeySession(level: ContentProtectionLevel): MediaKeySession
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -738,13 +660,7 @@ createMediaKeySession(): MediaKeySession
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -792,13 +708,7 @@ getOfflineMediaKeyIds(): Uint8Array[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -855,13 +765,7 @@ getOfflineMediaKeyStatus(mediaKeyId: Uint8Array): OfflineMediaKeyStatus
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -912,13 +816,7 @@ clearOfflineMediaKeys(mediaKeyId: Uint8Array): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -960,13 +858,7 @@ destroy(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';

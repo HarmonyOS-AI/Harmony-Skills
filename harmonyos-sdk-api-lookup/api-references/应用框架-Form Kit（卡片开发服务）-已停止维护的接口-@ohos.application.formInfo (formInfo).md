@@ -10,13 +10,7 @@ formInfo模块提供了卡片信息和状态等相关类型和枚举。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { formInfo } from '@kit.FormKit';

@@ -23,13 +23,7 @@
 
 ### authenticatorData
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Uint8Buff FIDO2_AuthenticatorResponse::authenticatorData
@@ -41,13 +35,7 @@
 
 ### clientDataJson
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Uint8Buff FIDO2_AuthenticatorResponse::clientDataJson
@@ -59,13 +47,7 @@
 
 ### signature
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Uint8Buff FIDO2_AuthenticatorResponse::signature
@@ -77,13 +59,7 @@
 
 ### userHandle
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Uint8Buff FIDO2_AuthenticatorResponse::userHandle

@@ -60,13 +60,7 @@ PhonePC/2in1TabletTVWearable
 
 在[Column](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-container-column)组件上设置自定义属性，并在其对应的[FrameNode](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-arkui-framenode#framenode-1)上获取所设置的自定义属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

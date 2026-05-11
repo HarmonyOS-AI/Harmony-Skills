@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { HalfScreenLaunchComponent } from '@kit.ArkUI';
@@ -63,13 +57,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例展示如何嵌入式拉起手机充值服务。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { HalfScreenLaunchComponent } from '@kit.ArkUI';

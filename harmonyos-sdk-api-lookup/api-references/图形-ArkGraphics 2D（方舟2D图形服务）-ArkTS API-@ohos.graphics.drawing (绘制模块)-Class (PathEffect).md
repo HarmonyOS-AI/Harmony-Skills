@@ -11,13 +11,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -62,13 +56,7 @@ static createDashPathEffect(intervals: Array<number>, phase: number): PathEffect
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -124,13 +112,7 @@ static createPathDashEffect(path: Path, advance: number, phase: number, style: P
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -197,13 +179,7 @@ static createSumPathEffect(firstPathEffect: PathEffect, secondPathEffect: PathEf
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -258,13 +234,7 @@ static createCornerPathEffect(radius: number): PathEffect
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -308,13 +278,7 @@ static createDiscretePathEffect(segLength: number, dev: number, seedAssist?: num
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';
@@ -357,13 +321,7 @@ static createComposePathEffect(outer: PathEffect, inner: PathEffect): PathEffect
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { RenderNode } from '@kit.ArkUI';

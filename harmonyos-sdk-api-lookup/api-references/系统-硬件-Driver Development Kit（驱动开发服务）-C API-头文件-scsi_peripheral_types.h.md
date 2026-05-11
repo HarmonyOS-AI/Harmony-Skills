@@ -59,13 +59,7 @@ PC/2in1
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum ScsiPeripheral_DdkErrCode
@@ -96,13 +90,7 @@ SCSI Peripheral DDK错误码。
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum ScsiPeripheral_Status
@@ -131,13 +119,7 @@ PC/2in1
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. SCSIPERIPHERAL_MIN_DESCRIPTOR_FORMAT_SENSE 8
@@ -153,13 +135,7 @@ PC/2in1
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. SCSIPERIPHERAL_MIN_FIXED_FORMAT_SENSE 18
@@ -175,13 +151,7 @@ PC/2in1
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. SCSIPERIPHERAL_MAX_CMD_DESC_BLOCK_LEN 16
@@ -197,13 +167,7 @@ PC/2in1
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. SCSIPERIPHERAL_MAX_SENSE_DATA_LEN 252
@@ -219,13 +183,7 @@ PC/2in1
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. SCSIPERIPHERAL_VENDOR_ID_LEN 8
@@ -241,13 +199,7 @@ PC/2in1
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. SCSIPERIPHERAL_PRODUCT_ID_LEN 16
@@ -263,13 +215,7 @@ PC/2in1
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. SCSIPERIPHERAL_PRODUCT_REV_LEN 4

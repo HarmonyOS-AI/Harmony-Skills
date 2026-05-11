@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { lang } from '@kit.ArkTS';
@@ -38,13 +32,7 @@ ISendable主要用在开发者自定义Sendable数据结构的场景中，ArkTS�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 构造一个用户自定义的Sendable数据结构

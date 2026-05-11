@@ -9,13 +9,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import prompt from '@system.prompt';
@@ -41,13 +35,7 @@ showToast(options: ShowToastOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import prompt from '@system.prompt';
@@ -82,13 +70,7 @@ showDialog(options: ShowDialogOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import prompt from '@system.prompt';
@@ -135,13 +117,7 @@ showActionMenu(options: ShowActionMenuOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import prompt from '@system.prompt';

@@ -12,13 +12,7 @@
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine, arViewController } from '@kit.AREngine';
@@ -110,13 +104,7 @@ init(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arViewController } from '@kit.AREngine';
@@ -156,13 +144,7 @@ pause(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arViewController } from '@kit.AREngine';
@@ -209,13 +191,7 @@ destroy(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arViewController } from '@kit.AREngine';
@@ -255,13 +231,7 @@ resume(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arViewController } from '@kit.AREngine';
@@ -306,13 +276,7 @@ set scene(scene: Scene)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Scene } from '@kit.ArkGraphics3D';
@@ -362,13 +326,7 @@ get scene(): Scene
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Scene } from '@kit.ArkGraphics3D';
@@ -404,13 +362,7 @@ get session(): arEngine.ARSession | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arViewController } from '@kit.AREngine';
@@ -455,13 +407,7 @@ set config(conf: arEngine.ARConfig)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine, arViewController } from '@kit.AREngine';
@@ -520,13 +466,7 @@ loadAsset(resourcePath: ResourceStr, landmark: LandmarkType): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine, arViewController } from '@kit.AREngine';
@@ -581,13 +521,7 @@ removeAsset(landmark: LandmarkType):Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine, arViewController } from '@kit.AREngine';
@@ -632,13 +566,7 @@ clearResource():Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arViewController } from '@kit.AREngine';
@@ -693,13 +621,7 @@ setBlendShapeWeight(node: Node, type: arEngine.ARBlendShapeType, weight: number)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine, arViewController } from '@kit.AREngine';
@@ -755,13 +677,7 @@ getBlendShapeWeight(node: Node, type: arEngine.ARBlendShapeType): number | null
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine, arViewController } from '@kit.AREngine';
@@ -807,13 +723,7 @@ transformPose(position: Vec3, rotation: Quaternion): arEngine.ARPose | null
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arViewController } from '@kit.AREngine';
@@ -866,13 +776,7 @@ set callback(callback: ARViewCallback)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine, arViewController } from '@kit.AREngine';
@@ -958,13 +862,7 @@ abstract onAnchorAdd(ctx: ARViewContext, node: Node, anchor: arEngine.ARAnchor):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine, arViewController } from '@kit.AREngine';
@@ -1004,13 +902,7 @@ abstract onAnchorUpdate(ctx: ARViewContext, node: Node, anchor: arEngine.ARAncho
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine, arViewController } from '@kit.AREngine';
@@ -1049,13 +941,7 @@ AR场景每帧刷新前会自动触发该回调，开发者可以基于此回调
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine, arViewController } from '@kit.AREngine';
@@ -1119,13 +1005,7 @@ isARTypeSupported(type: arEngine.ARFeatureType): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { arEngine, arViewController } from '@kit.AREngine';

@@ -32,13 +32,7 @@ addComponentContent(content: ComponentContent, index?: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ComponentContent, OverlayManager } from '@kit.ArkUI';
@@ -161,13 +155,7 @@ addComponentContentWithOrder(content: ComponentContent, levelOrder?: LevelOrder)
 
 该示例通过调用addComponentContentWithOrder接口，实现了按照指定显示顺序创建浮层节点的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ComponentContent, PromptAction, LevelOrder, UIContext, OverlayManager } from '@kit.ArkUI';

@@ -504,13 +504,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[clipShape](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-sharp-clipping#clipshape12)、[clip](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-sharp-clipping#clip12)、[maskShape](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-sharp-clipping#maskshape12)实现图片的裁剪和遮罩。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -560,13 +554,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[mask](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-sharp-clipping#mask12)实现图片的遮罩。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry

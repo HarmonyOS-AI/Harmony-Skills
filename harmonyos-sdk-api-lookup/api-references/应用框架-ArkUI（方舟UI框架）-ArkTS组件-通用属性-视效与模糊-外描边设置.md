@@ -334,13 +334,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示如何通过[outline](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-outline#outline)来实现组件外描边。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -389,13 +383,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例将[outline](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-outline#outline)属性中的color属性值设置为[LocalizedEdgeColors](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-types#localizededgecolors12)类型。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

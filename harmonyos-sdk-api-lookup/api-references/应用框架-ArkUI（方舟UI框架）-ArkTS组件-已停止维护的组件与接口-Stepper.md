@@ -176,13 +176,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示如何使用步骤导航器组件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -288,13 +282,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示如何使用[Swiper](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-container-swiper)组件实现Stepper组件的功能，示例效果图同示例1。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Styles

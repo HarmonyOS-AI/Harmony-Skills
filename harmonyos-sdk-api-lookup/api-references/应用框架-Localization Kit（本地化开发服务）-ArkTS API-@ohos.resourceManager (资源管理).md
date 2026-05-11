@@ -10,13 +10,7 @@ Configuration配置包括语言、区域、横竖屏、Mcc（移动国家码）�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { resourceManager } from '@kit.LocalizationKit';
@@ -32,13 +26,7 @@ FA模型仍需要先导入模块，再调用[getResourceManager](/consumer/cn/do
 
 Stage模型下Context的引用方法请参考[Stage模型的Context详细介绍](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/application-context-stage)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -74,13 +62,7 @@ getResourceManager(callback: AsyncCallback<ResourceManager>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import resourceManager from '@ohos.resourceManager';
@@ -130,13 +112,7 @@ getResourceManager(bundleName: string, callback: AsyncCallback<ResourceManager>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import resourceManager from '@ohos.resourceManager';
@@ -187,13 +163,7 @@ getResourceManager(): Promise<ResourceManager>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import resourceManager from '@ohos.resourceManager';
@@ -246,13 +216,7 @@ getResourceManager(bundleName: string): Promise<ResourceManager>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import resourceManager from '@ohos.resourceManager';
@@ -310,13 +274,7 @@ getSysResourceManager(): ResourceManager
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { resourceManager } from '@kit.LocalizationKit';
@@ -540,13 +498,7 @@ getStringSync(resId: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/string.json
@@ -560,13 +512,7 @@ getStringSync(resId: number): string
 9. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -633,13 +579,7 @@ getStringSync(resId: number, ...args: Array<string | number>): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/string.json
@@ -653,13 +593,7 @@ getStringSync(resId: number, ...args: Array<string | number>): string
 9. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -724,13 +658,7 @@ getStringByNameSync(resName: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/string.json
@@ -744,13 +672,7 @@ getStringByNameSync(resName: string): string
 9. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -817,13 +739,7 @@ getStringByNameSync(resName: string, ...args: Array<string | number>): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/string.json
@@ -837,13 +753,7 @@ getStringByNameSync(resName: string, ...args: Array<string | number>): string
 9. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -901,13 +811,7 @@ getStringValue(resId: number, callback: \_AsyncCallback<string>): void
 
 **示例Stage：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/string.json
@@ -921,13 +825,7 @@ getStringValue(resId: number, callback: \_AsyncCallback<string>): void
 9. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -991,13 +889,7 @@ getStringValue(resId: number): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/string.json
@@ -1011,13 +903,7 @@ getStringValue(resId: number): Promise<string>
 9. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -1072,13 +958,7 @@ getStringByName(resName: string, callback: \_AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/string.json
@@ -1092,13 +972,7 @@ getStringByName(resName: string, callback: \_AsyncCallback<string>): void
 9. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -1162,13 +1036,7 @@ getStringByName(resName: string): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/string.json
@@ -1182,13 +1050,7 @@ getStringByName(resName: string): Promise<string>
 9. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -1250,13 +1112,7 @@ getStringArrayValueSync(resId: number): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/strarray.json
@@ -1274,13 +1130,7 @@ getStringArrayValueSync(resId: number): Array<string>
 13. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -1345,13 +1195,7 @@ getStringArrayByNameSync(resName: string): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/strarray.json
@@ -1369,13 +1213,7 @@ getStringArrayByNameSync(resName: string): Array<string>
 13. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -1433,13 +1271,7 @@ getStringArrayValue(resId: number, callback: \_AsyncCallback<Array<string>>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/strarray.json
@@ -1457,13 +1289,7 @@ getStringArrayValue(resId: number, callback: \_AsyncCallback<Array<string>>): vo
 13. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -1528,13 +1354,7 @@ getStringArrayValue(resId: number): Promise<Array<string>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/strarray.json
@@ -1552,13 +1372,7 @@ getStringArrayValue(resId: number): Promise<Array<string>>
 13. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -1615,13 +1429,7 @@ getStringArrayByName(resName: string, callback: \_AsyncCallback<Array<string>>):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/strarray.json
@@ -1639,13 +1447,7 @@ getStringArrayByName(resName: string, callback: \_AsyncCallback<Array<string>>):
 13. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -1710,13 +1512,7 @@ getStringArrayByName(resName: string): Promise<Array<string>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/strarray.json
@@ -1734,13 +1530,7 @@ getStringArrayByName(resName: string): Promise<Array<string>>
 13. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -1811,13 +1601,7 @@ getIntPluralStringValueSync(resId: number, num: number, ...args: Array<string | 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/plural.json
@@ -1840,13 +1624,7 @@ getIntPluralStringValueSync(resId: number, num: number, ...args: Array<string | 
 18. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -1920,13 +1698,7 @@ getIntPluralStringByNameSync(resName: string, num: number, ...args: Array<string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/plural.json
@@ -1949,13 +1721,7 @@ getIntPluralStringByNameSync(resName: string, num: number, ...args: Array<string
 18. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -2029,13 +1795,7 @@ getDoublePluralStringValueSync(resId: number, num: number, ...args: Array<string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/plural.json
@@ -2058,13 +1818,7 @@ getDoublePluralStringValueSync(resId: number, num: number, ...args: Array<string
 18. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -2138,13 +1892,7 @@ getDoublePluralStringByNameSync(resName: string, num: number, ...args: Array<str
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/plural.json
@@ -2167,13 +1915,7 @@ getDoublePluralStringByNameSync(resName: string, num: number, ...args: Array<str
 18. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -2240,13 +1982,7 @@ getMediaContentSync(resId: number, density?: number): Uint8Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -2318,13 +2054,7 @@ getMediaByNameSync(resName: string, density?: number): Uint8Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -2388,13 +2118,7 @@ getMediaContent(resId: number, callback: \_AsyncCallback<Uint8Array>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -2457,13 +2181,7 @@ getMediaContent(resId: number, density: number, callback: \_AsyncCallback<Uint8A
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -2531,13 +2249,7 @@ getMediaContent(resId: number): Promise<Uint8Array>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -2604,13 +2316,7 @@ getMediaContent(resId: number, density: number): Promise<Uint8Array>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -2669,13 +2375,7 @@ getMediaByName(resName: string, callback: \_AsyncCallback<Uint8Array>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -2737,13 +2437,7 @@ getMediaByName(resName: string, density: number, callback: \_AsyncCallback<Uint8
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -2811,13 +2505,7 @@ getMediaByName(resName: string): Promise<Uint8Array>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -2884,13 +2572,7 @@ getMediaByName(resName: string, density: number): Promise<Uint8Array>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -2957,13 +2639,7 @@ getMediaContentBase64Sync(resId: number, density?: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -3035,13 +2711,7 @@ getMediaBase64ByNameSync(resName: string, density?: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -3105,13 +2775,7 @@ getMediaContentBase64(resId: number, callback: \_AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -3173,13 +2837,7 @@ getMediaContentBase64(resId: number, density: number, callback: \_AsyncCallback<
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -3247,13 +2905,7 @@ getMediaContentBase64(resId: number): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -3320,13 +2972,7 @@ getMediaContentBase64(resId: number, density: number): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -3385,13 +3031,7 @@ getMediaBase64ByName(resName: string, callback: \_AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -3457,13 +3097,7 @@ getMediaBase64ByName(resName: string, density: number, callback: \_AsyncCallback
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -3531,13 +3165,7 @@ getMediaBase64ByName(resName: string): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -3604,13 +3232,7 @@ getMediaBase64ByName(resName: string, density: number): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -3678,13 +3300,7 @@ getDrawableDescriptor(resId: number, density?: number, type?: number): DrawableD
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -3765,13 +3381,7 @@ getDrawableDescriptorByName(resName: string, density?: number, type?: number): D
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -3851,13 +3461,7 @@ getBoolean(resId: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/boolean.json
@@ -3871,13 +3475,7 @@ getBoolean(resId: number): boolean
 9. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -3942,13 +3540,7 @@ getBooleanByName(resName: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/boolean.json
@@ -3962,13 +3554,7 @@ getBooleanByName(resName: string): boolean
 9. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -4033,13 +3619,7 @@ getNumber(resId: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/integer.json
@@ -4053,13 +3633,7 @@ getNumber(resId: number): number
 9. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/float.json
@@ -4073,13 +3647,7 @@ getNumber(resId: number): number
 9. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -4158,13 +3726,7 @@ getNumberByName(resName: string): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/integer.json
@@ -4178,13 +3740,7 @@ getNumberByName(resName: string): number
 9. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/float.json
@@ -4198,13 +3754,7 @@ getNumberByName(resName: string): number
 9. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -4283,13 +3833,7 @@ getColorSync(resId: number) : number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/color.json
@@ -4303,13 +3847,7 @@ getColorSync(resId: number) : number
 9. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -4374,13 +3912,7 @@ getColorByNameSync(resName: string) : number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/color.json
@@ -4394,13 +3926,7 @@ getColorByNameSync(resName: string) : number
 9. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -4458,13 +3984,7 @@ getColor(resId: number, callback: \_AsyncCallback<number>): void
 
 **示例Stage：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/color.json
@@ -4478,13 +3998,7 @@ getColor(resId: number, callback: \_AsyncCallback<number>): void
 9. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -4548,13 +4062,7 @@ getColor(resId: number): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/color.json
@@ -4568,13 +4076,7 @@ getColor(resId: number): Promise<number>
 9. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -4631,13 +4133,7 @@ getColorByName(resName: string, callback: \_AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/color.json
@@ -4651,13 +4147,7 @@ getColorByName(resName: string, callback: \_AsyncCallback<number>): void
 9. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -4721,13 +4211,7 @@ getColorByName(resName: string): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/color.json
@@ -4741,13 +4225,7 @@ getColorByName(resName: string): Promise<number>
 9. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -4809,13 +4287,7 @@ getRawFileContentSync(path: string): Uint8Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -4869,13 +4341,7 @@ getRawFileContent(path: string, callback: \_AsyncCallback<Uint8Array>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -4942,13 +4408,7 @@ getRawFileContent(path: string): Promise<Uint8Array>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -5017,13 +4477,7 @@ getRawFileListSync(path: string): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -5084,13 +4538,7 @@ getRawFileList(path: string, callback: \_AsyncCallback<Array<string>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -5157,13 +4605,7 @@ getRawFileList(path: string): Promise<Array<string>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -5230,13 +4672,7 @@ getRawFdSync(path: string): RawFileDescriptor
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -5294,13 +4730,7 @@ getRawFd(path: string, callback: \_AsyncCallback<RawFileDescriptor>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -5374,13 +4804,7 @@ getRawFd(path: string): Promise<RawFileDescriptor>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -5440,13 +4864,7 @@ closeRawFdSync(path: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -5504,13 +4922,7 @@ closeRawFd(path: string, callback: \_AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -5579,13 +4991,7 @@ closeRawFd(path: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -5630,13 +5036,7 @@ getConfigurationSync(): Configuration
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -5676,13 +5076,7 @@ getConfiguration(callback: \_AsyncCallback<Configuration>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -5729,13 +5123,7 @@ getConfiguration(): Promise<Configuration>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -5780,13 +5168,7 @@ getDeviceCapabilitySync(): DeviceCapability
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -5826,13 +5208,7 @@ getDeviceCapability(callback: \_AsyncCallback<DeviceCapability>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -5879,13 +5255,7 @@ getDeviceCapability(): Promise<DeviceCapability>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -5945,13 +5315,7 @@ rawfile和resfile目录不支持资源覆盖。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -6009,13 +5373,7 @@ rawfile和resfile目录不支持资源覆盖。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -6076,13 +5434,7 @@ getLocales(includeSystem?: boolean): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -6161,13 +5513,7 @@ getSymbol(resId: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -6232,13 +5578,7 @@ getSymbolByName(resName: string): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -6301,13 +5641,7 @@ isRawDir(path: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -6378,13 +5712,7 @@ getOverrideResourceManager(configuration?: Configuration): ResourceManager
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -6429,13 +5757,7 @@ getOverrideConfiguration(): Configuration
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -6490,13 +5812,7 @@ updateOverrideConfiguration(configuration: Configuration): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -6537,13 +5853,7 @@ release()
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -6578,13 +5888,7 @@ getString(resId: number, callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. resourceManager.getResourceManager((error, mgr) => {
@@ -6630,13 +5934,7 @@ getString(resId: number): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6699,13 +5997,7 @@ getStringSync(resource: Resource): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/string.json
@@ -6719,13 +6011,7 @@ getStringSync(resource: Resource): string
 9. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { resourceManager } from '@kit.LocalizationKit';
@@ -6798,13 +6084,7 @@ getStringSync(resource: Resource, ...args: Array<string | number>): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/string.json
@@ -6818,13 +6098,7 @@ getStringSync(resource: Resource, ...args: Array<string | number>): string
 9. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { resourceManager } from '@kit.LocalizationKit';
@@ -6888,13 +6162,7 @@ getStringValue(resource: Resource, callback: \_AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/string.json
@@ -6908,13 +6176,7 @@ getStringValue(resource: Resource, callback: \_AsyncCallback<string>): void
 9. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { resourceManager } from '@kit.LocalizationKit';
@@ -6984,13 +6246,7 @@ getStringValue(resource: Resource): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { resourceManager } from '@kit.LocalizationKit';
@@ -7036,13 +6292,7 @@ getStringArray(resId: number, callback: AsyncCallback<Array<string>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. resourceManager.getResourceManager((error, mgr) => {
@@ -7088,13 +6338,7 @@ getStringArray(resId: number): Promise<Array<string>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -7157,13 +6401,7 @@ getStringArrayValueSync(resource: Resource): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/strarray.json
@@ -7181,13 +6419,7 @@ getStringArrayValueSync(resource: Resource): Array<string>
 13. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { resourceManager } from '@kit.LocalizationKit';
@@ -7251,13 +6483,7 @@ getStringArrayValue(resource: Resource, callback: \_AsyncCallback<Array<string>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/strarray.json
@@ -7275,13 +6501,7 @@ getStringArrayValue(resource: Resource, callback: \_AsyncCallback<Array<string>>
 13. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { resourceManager } from '@kit.LocalizationKit';
@@ -7351,13 +6571,7 @@ getStringArrayValue(resource: Resource): Promise<Array<string>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/strarray.json
@@ -7375,13 +6589,7 @@ getStringArrayValue(resource: Resource): Promise<Array<string>>
 13. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { resourceManager } from '@kit.LocalizationKit';
@@ -7427,13 +6635,7 @@ getMedia(resId: number, callback: AsyncCallback<Uint8Array>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. resourceManager.getResourceManager((error, mgr) => {
@@ -7479,13 +6681,7 @@ getMedia(resId: number): Promise<Uint8Array>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -7548,13 +6744,7 @@ getMediaContentSync(resource: Resource, density?: number): Uint8Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { resourceManager } from '@kit.LocalizationKit';
@@ -7623,13 +6813,7 @@ getMediaContent(resource: Resource, callback: \_AsyncCallback<Uint8Array>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { resourceManager } from '@kit.LocalizationKit';
@@ -7697,13 +6881,7 @@ getMediaContent(resource: Resource, density: number, callback: \_AsyncCallback<U
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { resourceManager } from '@kit.LocalizationKit';
@@ -7777,13 +6955,7 @@ getMediaContent(resource: Resource): Promise<Uint8Array>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { resourceManager } from '@kit.LocalizationKit';
@@ -7856,13 +7028,7 @@ getMediaContent(resource: Resource, density: number): Promise<Uint8Array>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { resourceManager } from '@kit.LocalizationKit';
@@ -7911,13 +7077,7 @@ getMediaBase64(resId: number, callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. resourceManager.getResourceManager((error, mgr) => {
@@ -7963,13 +7123,7 @@ getMediaBase64(resId: number): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -8032,13 +7186,7 @@ getMediaContentBase64Sync(resource: Resource, density?: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { resourceManager } from '@kit.LocalizationKit';
@@ -8107,13 +7255,7 @@ getMediaContentBase64(resource: Resource, callback: \_AsyncCallback<string>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { resourceManager } from '@kit.LocalizationKit';
@@ -8181,13 +7323,7 @@ getMediaContentBase64(resource: Resource, density: number, callback: \_AsyncCall
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { resourceManager } from '@kit.LocalizationKit';
@@ -8261,13 +7397,7 @@ getMediaContentBase64(resource: Resource): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { resourceManager } from '@kit.LocalizationKit';
@@ -8340,13 +7470,7 @@ getMediaContentBase64(resource: Resource, density: number): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { resourceManager } from '@kit.LocalizationKit';
@@ -8420,13 +7544,7 @@ getDrawableDescriptor(resource: Resource, density?: number, type?: number): Draw
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { resourceManager } from '@kit.LocalizationKit';
@@ -8513,13 +7631,7 @@ getIntPluralStringValueSync(resource: Resource, num: number, ...args: Array<stri
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/plural.json
@@ -8542,13 +7654,7 @@ getIntPluralStringValueSync(resource: Resource, num: number, ...args: Array<stri
 18. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { resourceManager } from '@kit.LocalizationKit';
@@ -8625,13 +7731,7 @@ getDoublePluralStringValueSync(resource: Resource, num: number, ...args: Array<s
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/plural.json
@@ -8654,13 +7754,7 @@ getDoublePluralStringValueSync(resource: Resource, num: number, ...args: Array<s
 18. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { resourceManager } from '@kit.LocalizationKit';
@@ -8735,13 +7829,7 @@ getPluralStringValueSync(resId: number, num: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/plural.json
@@ -8764,13 +7852,7 @@ getPluralStringValueSync(resId: number, num: number): string
 18. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -8840,13 +7922,7 @@ getPluralStringValueSync(resource: Resource, num: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/plural.json
@@ -8869,13 +7945,7 @@ getPluralStringValueSync(resource: Resource, num: number): string
 18. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { resourceManager } from '@kit.LocalizationKit';
@@ -8949,13 +8019,7 @@ getPluralStringByNameSync(resName: string, num: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/plural.json
@@ -8978,13 +8042,7 @@ getPluralStringByNameSync(resName: string, num: number): string
 18. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -9045,13 +8103,7 @@ getPluralStringValue(resId: number, num: number, callback: \_AsyncCallback<strin
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/plural.json
@@ -9074,13 +8126,7 @@ getPluralStringValue(resId: number, num: number, callback: \_AsyncCallback<strin
 18. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -9148,13 +8194,7 @@ getPluralStringValue(resId: number, num: number): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/plural.json
@@ -9177,13 +8217,7 @@ getPluralStringValue(resId: number, num: number): Promise<string>
 18. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -9245,13 +8279,7 @@ getPluralStringValue(resource: Resource, num: number, callback: \_AsyncCallback<
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/plural.json
@@ -9274,13 +8302,7 @@ getPluralStringValue(resource: Resource, num: number, callback: \_AsyncCallback<
 18. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { resourceManager } from '@kit.LocalizationKit';
@@ -9356,13 +8378,7 @@ getPluralStringValue(resource: Resource, num: number): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/plural.json
@@ -9385,13 +8401,7 @@ getPluralStringValue(resource: Resource, num: number): Promise<string>
 18. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { resourceManager } from '@kit.LocalizationKit';
@@ -9457,13 +8467,7 @@ getPluralStringByName(resName: string, num: number, callback: \_AsyncCallback<st
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/plural.json
@@ -9486,13 +8490,7 @@ getPluralStringByName(resName: string, num: number, callback: \_AsyncCallback<st
 18. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -9559,13 +8557,7 @@ getPluralStringByName(resName: string, num: number): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/plural.json
@@ -9588,13 +8580,7 @@ getPluralStringByName(resName: string, num: number): Promise<string>
 18. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -9646,13 +8632,7 @@ getPluralString(resId: number, num: number): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -9694,13 +8674,7 @@ getPluralString(resId: number, num: number, callback: AsyncCallback<string>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { resourceManager } from '@kit.LocalizationKit';
@@ -9765,13 +8739,7 @@ getBoolean(resource: Resource): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/boolean.json
@@ -9785,13 +8753,7 @@ getBoolean(resource: Resource): boolean
 9. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { resourceManager } from '@kit.LocalizationKit';
@@ -9862,13 +8824,7 @@ getNumber(resource: Resource): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/integer.json
@@ -9882,13 +8838,7 @@ getNumber(resource: Resource): number
 9. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { resourceManager } from '@kit.LocalizationKit';
@@ -9960,13 +8910,7 @@ getColorSync(resource: Resource): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/color.json
@@ -9980,13 +8924,7 @@ getColorSync(resource: Resource): number
 9. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { resourceManager } from '@kit.LocalizationKit';
@@ -10050,13 +8988,7 @@ getColor(resource: Resource, callback: \_AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/color.json
@@ -10070,13 +9002,7 @@ getColor(resource: Resource, callback: \_AsyncCallback<number>): void
 9. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { resourceManager } from '@kit.LocalizationKit';
@@ -10146,13 +9072,7 @@ getColor(resource: Resource): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 资源文件路径: src/main/resources/base/element/color.json
@@ -10166,13 +9086,7 @@ getColor(resource: Resource): Promise<number>
 9. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { resourceManager } from '@kit.LocalizationKit';
@@ -10242,13 +9156,7 @@ getSymbol(resource: Resource): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { resourceManager } from '@kit.LocalizationKit';
@@ -10295,13 +9203,7 @@ getRawFile(path: string, callback: AsyncCallback<Uint8Array>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { resourceManager } from '@kit.LocalizationKit';
@@ -10349,13 +9251,7 @@ getRawFile(path: string): Promise<Uint8Array>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -10394,13 +9290,7 @@ getRawFileDescriptor(path: string, callback: AsyncCallback<RawFileDescriptor>): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { resourceManager } from '@kit.LocalizationKit';
@@ -10450,13 +9340,7 @@ getRawFileDescriptor(path: string): Promise<RawFileDescriptor>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -10497,13 +9381,7 @@ closeRawFileDescriptor(path: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { resourceManager } from '@kit.LocalizationKit';
@@ -10549,13 +9427,7 @@ closeRawFileDescriptor(path: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { resourceManager } from '@kit.LocalizationKit';
@@ -10605,13 +9477,7 @@ getSystemResourceManager(): ResourceManager
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { resourceManager } from '@kit.LocalizationKit';
@@ -10668,13 +9534,7 @@ PhonePC/2in1TabletTVWearable
 
 * 示例代码中用到的'app.string.test'文件内容如下：
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. // 资源文件路径: src/main/resources/base/element/string.json
@@ -10688,13 +9548,7 @@ PhonePC/2in1TabletTVWearable
   9. }
   ```
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. // 资源文件路径: src/main/resources/base/element/string.json
@@ -10709,13 +9563,7 @@ PhonePC/2in1TabletTVWearable
   ```
 * 示例代码中用到的'app.strarray.test'文件内容如下：
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. // 资源文件路径: src/main/resources/base/element/strarray.json
@@ -10734,13 +9582,7 @@ PhonePC/2in1TabletTVWearable
   ```
 * 示例代码中用到的'app.plural.test'文件内容如下：
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. // 资源文件路径: src/main/resources/base/element/plural.json
@@ -10764,13 +9606,7 @@ PhonePC/2in1TabletTVWearable
   ```
 * 示例代码中用到的'app.plural.format\_test'文件内容如下：
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. // 资源文件路径: src/main/resources/base/element/plural.json
@@ -10794,13 +9630,7 @@ PhonePC/2in1TabletTVWearable
   ```
 * 示例代码中用到的'app.boolean.boolean\_test'文件内容如下：
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. // 资源文件路径: src/main/resources/base/element/boolean.json
@@ -10815,13 +9645,7 @@ PhonePC/2in1TabletTVWearable
   ```
 * 示例代码中用到的"integer\_test"和"float\_test"文件内容如下：
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. // 资源文件路径: src/main/resources/base/element/integer.json
@@ -10835,13 +9659,7 @@ PhonePC/2in1TabletTVWearable
   9. }
   ```
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. // 资源文件路径: src/main/resources/base/element/float.json
@@ -10856,13 +9674,7 @@ PhonePC/2in1TabletTVWearable
   ```
 * 示例代码中用到的'app.color.test'文件内容如下：
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. // 资源文件路径: src/main/resources/base/element/color.json

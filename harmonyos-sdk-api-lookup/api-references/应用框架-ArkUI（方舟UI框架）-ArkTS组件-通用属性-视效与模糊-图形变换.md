@@ -411,13 +411,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[rotate](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-transformation#rotate)、[translate](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-transformation#translate)、[scale](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-transformation#scale)、[transform](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-transformation#transform)为组件添加旋转、平移、缩放、变换矩阵效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -473,13 +467,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[perspective](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-transformation#rotateoptions对象说明)为组件添加视距效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -525,13 +513,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过设置[rotate](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-transformation#rotate)和[transform](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-transformation#transform)为不同的参数实现相同的旋转效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { matrix4 } from '@kit.ArkUI';
@@ -607,13 +589,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，该示例通过设置[transform3D](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-transformation#transform3d20)实现图形变换效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { matrix4 } from '@kit.ArkUI';
@@ -652,13 +628,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，该示例通过设置rotate的[RotateAngleOptions](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-transformation#rotateangleoptions20对象说明)参数实现旋转效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

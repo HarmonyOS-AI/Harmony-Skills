@@ -1114,13 +1114,7 @@ PhonePC/2in1TabletTVWearable
 
 以下示例主要演示NavDestination绑定可滚动容器组件来实现滚动内容时触发标题栏和工具栏显示隐藏的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SymbolGlyphModifier } from '@kit.ArkUI';
@@ -1268,13 +1262,7 @@ PhonePC/2in1TabletTVWearable
 
 以下示例主要演示NavDestination设置自定义转场动画属性[customTransition](/consumer/cn/doc/harmonyos-references/ts-basic-components-navdestination#customtransition15)的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -1418,13 +1406,7 @@ PhonePC/2in1TabletTVWearable
 
 以下示例主要演示NavDestination设置系统转场动画[systemTransition](/consumer/cn/doc/harmonyos-references/ts-basic-components-navdestination#systemtransition14)为Fade、Explode、SlideBottom与SlideRight时的转场效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -1682,13 +1664,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 19开始，新增了preferredOrientation属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { window } from '@kit.ArkUI';
@@ -1779,13 +1755,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 17开始，NavDestination新增[onActive](/consumer/cn/doc/harmonyos-references/ts-basic-components-navdestination#onactive17)、[onInactive](/consumer/cn/doc/harmonyos-references/ts-basic-components-navdestination#oninactive17)属性。该示例演示onActive与onInactive生命周期的各种触发场景。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { promptAction, ComponentContent, OverlayManager } from '@kit.ArkUI';

@@ -34,13 +34,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint32_t NetworkBoost_WeakSignalPrediction::duration
@@ -54,13 +48,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bool NetworkBoost_WeakSignalPrediction::isLastPredictionValid
@@ -74,13 +62,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint32_t NetworkBoost_WeakSignalPrediction::startTime

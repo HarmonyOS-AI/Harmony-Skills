@@ -10,13 +10,7 @@ UIExtensionContext是[UIExtensionAbility](https://developer.huawei.com/consumer/
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -89,13 +83,7 @@ startAbility(want: Want, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // UIExtensionAbility不支持三方应用直接继承，故以派生类ShareExtensionAbility举例说明。
@@ -192,13 +180,7 @@ startAbility(want: Want, options: StartOptions, callback: AsyncCallback<void>): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // UIExtensionAbility不支持三方应用直接继承，故以派生类ShareExtensionAbility举例说明。
@@ -307,13 +289,7 @@ startAbility(want: Want, options?: StartOptions): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // UIExtensionAbility不支持三方应用直接继承，故以派生类ShareExtensionAbility举例说明。
@@ -417,13 +393,7 @@ startAbilityForResult(want: Want, callback: AsyncCallback<AbilityResult>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // UIExtensionAbility不支持三方应用直接继承，故以派生类ShareExtensionAbility举例说明。
@@ -523,13 +493,7 @@ startAbilityForResult(want: Want, options: StartOptions, callback: AsyncCallback
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // UIExtensionAbility不支持三方应用直接继承，故以派生类ShareExtensionAbility举例说明。
@@ -642,13 +606,7 @@ startAbilityForResult(want: Want, options?: StartOptions): Promise<AbilityResult
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // UIExtensionAbility不支持三方应用直接继承，故以派生类ShareExtensionAbility举例说明。
@@ -744,13 +702,7 @@ ServiceExtensionAbility是一类特殊的[ExtensionAbility](https://developer.hu
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // UIExtensionAbility不支持三方应用直接继承，故以派生类ShareExtensionAbility举例说明。
@@ -833,13 +785,7 @@ ServiceExtensionAbility是一类特殊的[ExtensionAbility](https://developer.hu
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // UIExtensionAbility不支持三方应用直接继承，故以派生类ShareExtensionAbility举例说明。
@@ -908,13 +854,7 @@ ServiceExtensionAbility是一类特殊的[ExtensionAbility](https://developer.hu
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // UIExtensionAbility不支持三方应用直接继承，故以派生类ShareExtensionAbility举例说明。
@@ -980,13 +920,7 @@ terminateSelf(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // UIExtensionAbility不支持三方应用直接继承，故以派生类ShareExtensionAbility举例说明。
@@ -1035,13 +969,7 @@ terminateSelf(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // UIExtensionAbility不支持三方应用直接继承，故以派生类ShareExtensionAbility举例说明。
@@ -1101,13 +1029,7 @@ terminateSelfWithResult(parameter: AbilityResult, callback: AsyncCallback<void>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // UIExtensionAbility不支持三方应用直接继承，故以派生类ShareExtensionAbility举例说明。
@@ -1183,13 +1105,7 @@ terminateSelfWithResult(parameter: AbilityResult): Promise<void>
 | --- | --- |
 | 401 | Parameter error. Possible causes: 1.Mandatory parameters are left unspecified. 2.Incorrect parameter types. |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // UIExtensionAbility不支持三方应用直接继承，故以派生类ShareExtensionAbility举例说明。
@@ -1260,13 +1176,7 @@ reportDrawnCompleted(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // UIExtensionAbility不支持三方应用直接继承，故以派生类ShareExtensionAbility举例说明。
@@ -1360,13 +1270,7 @@ openAtomicService(appId: string, options?: AtomicServiceOptions): Promise<Abilit
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // UIExtensionAbility不支持三方应用直接继承，故以派生类ShareExtensionAbility举例说明。
@@ -1471,13 +1375,7 @@ openLink(link: string, options?: OpenLinkOptions, callback?: AsyncCallback<Abili
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // UIExtensionAbility不支持三方应用直接继承，故以派生类ShareExtensionAbility举例说明。
@@ -1598,13 +1496,7 @@ startUIServiceExtensionAbility(want: Want): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common, Want } from '@kit.AbilityKit';
@@ -1698,13 +1590,7 @@ connectUIServiceExtensionAbility(want: Want, callback: UIServiceExtensionConnect
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common, Want } from '@kit.AbilityKit';
@@ -1788,13 +1674,7 @@ disconnectUIServiceExtensionAbility(proxy: UIServiceProxy): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -1858,13 +1738,7 @@ setColorMode(colorMode: ConfigurationConstant.ColorMode): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // UIExtensionAbility不支持三方应用直接继承，故以派生类ShareExtensionAbility举例说明。

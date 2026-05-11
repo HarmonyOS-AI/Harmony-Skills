@@ -21,13 +21,7 @@
 
 ### capability
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FIDO2_Capability* FIDO2_CapabilityArray::capability
@@ -39,13 +33,7 @@
 
 ### number
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint32_t FIDO2_CapabilityArray::number

@@ -13,13 +13,7 @@
 
 WearableLite Wearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import brightness, { BrightnessModeResponse, BrightnessResponse } from '@system.brightness';
@@ -45,13 +39,7 @@ getValue(options?: GetBrightnessOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. brightness.getValue({
@@ -84,13 +72,7 @@ setValue(options?: SetBrightnessOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. brightness.setValue({
@@ -124,13 +106,7 @@ getMode(options?: GetBrightnessModeOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. brightness.getMode({
@@ -163,13 +139,7 @@ setMode(options?: SetBrightnessModeOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. brightness.setMode({
@@ -209,13 +179,7 @@ setKeepScreenOn(options?: SetKeepScreenOnOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. brightness.setKeepScreenOn({

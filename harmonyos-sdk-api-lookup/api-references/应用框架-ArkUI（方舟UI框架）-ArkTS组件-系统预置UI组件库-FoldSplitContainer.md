@@ -9,13 +9,7 @@ FoldSplitContainer分栏布局，实现折叠屏二分栏、三分栏在展开�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FoldSplitContainer } from '@kit.ArkUI';
@@ -195,13 +189,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例实现了折叠屏二分栏在展开态、悬停态以及折叠态的区域控制。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FoldSplitContainer } from '@kit.ArkUI';
@@ -258,13 +246,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例实现了折叠屏三分栏在展开态、悬停态以及折叠态的区域控制。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FoldSplitContainer } from '@kit.ArkUI';
@@ -335,13 +317,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[ExpandedRegionLayoutOptions](/consumer/cn/doc/harmonyos-references/ohos-arkui-advanced-foldsplitcontainer#expandedregionlayoutoptions)、[HoverModeRegionLayoutOptions](/consumer/cn/doc/harmonyos-references/ohos-arkui-advanced-foldsplitcontainer#hovermoderegionlayoutoptions)和[FoldedRegionLayoutOptions](/consumer/cn/doc/harmonyos-references/ohos-arkui-advanced-foldsplitcontainer#foldedregionlayoutoptions)分别配置折叠屏的展开态、悬停态和折叠态布局信息。示例代码中MajorRegion、MinorRegion和ExtraRegion分别对应组件划分出来的主要区域、次要区域和扩展区域。这些区域使用封装的区域组件Region实现，其中RadioOptions为封装的切换单选框组件，SwitchOption为封装的切换开关组件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {

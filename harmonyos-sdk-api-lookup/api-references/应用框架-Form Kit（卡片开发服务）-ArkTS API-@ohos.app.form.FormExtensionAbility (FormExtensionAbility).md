@@ -18,13 +18,7 @@ FormExtensionAbility创建后10秒内无操作将会被清理。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FormExtensionAbility } from '@kit.FormKit';
@@ -86,13 +80,7 @@ onAddForm(want: Want): formBindingData.FormBindingData
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { formBindingData, FormExtensionAbility } from '@kit.FormKit';
@@ -136,13 +124,7 @@ onCastToNormalForm(formId: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FormExtensionAbility } from '@kit.FormKit';
@@ -180,13 +162,7 @@ onUpdateForm(formId: string, wantParams?: Record<string, Object>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { formBindingData, FormExtensionAbility, formProvider } from '@kit.FormKit';
@@ -232,13 +208,7 @@ onChangeFormVisibility(newStatus: Record<string, number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { formBindingData, FormExtensionAbility, formProvider } from '@kit.FormKit';
@@ -299,13 +269,7 @@ onFormEvent(formId: string, message: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FormExtensionAbility } from '@kit.FormKit';
@@ -341,13 +305,7 @@ onRemoveForm(formId: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FormExtensionAbility } from '@kit.FormKit';
@@ -383,13 +341,7 @@ onConfigurationUpdate(newConfig: Configuration): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FormExtensionAbility } from '@kit.FormKit';
@@ -436,13 +388,7 @@ onAcquireFormState?(want: Want): formInfo.FormState
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FormExtensionAbility, formInfo } from '@kit.FormKit';
@@ -472,13 +418,7 @@ onStop?(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FormExtensionAbility } from '@kit.FormKit';
@@ -515,13 +455,7 @@ onFormLocationChanged(formId: string, newFormLocation: formInfo.FormLocation): v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { formBindingData, FormExtensionAbility, formInfo } from '@kit.FormKit';
@@ -566,13 +500,7 @@ onSizeChanged(formId: string, newDimension: formInfo.FormDimension, newRect: for
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FormExtensionAbility, formInfo } from '@kit.FormKit';

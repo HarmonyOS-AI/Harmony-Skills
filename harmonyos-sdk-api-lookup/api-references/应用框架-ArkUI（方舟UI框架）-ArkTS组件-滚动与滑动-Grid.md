@@ -1212,13 +1212,7 @@ PhonePC/2in1TabletTVWearable
 
 可以使用[GridLayoutOptions](/consumer/cn/doc/harmonyos-references/ts-container-grid#gridlayoutoptions10对象说明)中的onGetRectByIndex指定GridItem的位置和大小。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1306,13 +1300,7 @@ PhonePC/2in1TabletTVWearable
 
 GridDataSource实现了LazyForEach数据源接口[IDataSource](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-rendering-control-lazyforeach#idatasource)，用于通过LazyForEach给Grid提供子组件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // GridDataSource.ets
@@ -1369,13 +1357,7 @@ GridDataSource实现了LazyForEach数据源接口[IDataSource](https://developer
 52. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1471,13 +1453,7 @@ GridDataSource实现了LazyForEach数据源接口[IDataSource](https://developer
 
 GridDataSource说明及完整代码参考[示例2可滚动grid和滚动事件](/consumer/cn/doc/harmonyos-references/ts-container-grid#示例2可滚动grid和滚动事件)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1572,13 +1548,7 @@ GridDataSource说明及完整代码参考[示例2可滚动grid和滚动事件](/
 
 GridDataSource说明及完整代码参考[示例2可滚动grid和滚动事件](/consumer/cn/doc/harmonyos-references/ts-container-grid#示例2可滚动grid和滚动事件)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { GridDataSource } from './GridDataSource';
@@ -1769,13 +1739,7 @@ GridDataSource说明及完整代码参考[示例2可滚动grid和滚动事件](/
 
 GridDataSource说明及完整代码参考[示例2可滚动grid和滚动事件](/consumer/cn/doc/harmonyos-references/ts-container-grid#示例2可滚动grid和滚动事件)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { GridDataSource } from './GridDataSource';
@@ -1873,13 +1837,7 @@ GridDataSource说明及完整代码参考[示例2可滚动grid和滚动事件](/
 
 GridDataSource说明及完整代码参考[示例2可滚动grid和滚动事件](/consumer/cn/doc/harmonyos-references/ts-container-grid#示例2可滚动grid和滚动事件)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { GridDataSource } from './GridDataSource';
@@ -1934,13 +1892,7 @@ GridDataSource说明及完整代码参考[示例2可滚动grid和滚动事件](/
 
 GridDataSource说明及完整代码参考[示例2可滚动grid和滚动事件](/consumer/cn/doc/harmonyos-references/ts-container-grid#示例2可滚动grid和滚动事件)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2026,13 +1978,7 @@ GridDataSource说明及完整代码参考[示例2可滚动grid和滚动事件](/
 
 属性[columnsTemplate](/consumer/cn/doc/harmonyos-references/ts-container-grid#columnstemplate)中auto-fill、auto-fit和auto-stretch的使用示例。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -2108,13 +2054,7 @@ GridDataSource说明及完整代码参考[示例2可滚动grid和滚动事件](/
 
 GridDataSource说明及完整代码参考[示例2可滚动grid和滚动事件](/consumer/cn/doc/harmonyos-references/ts-container-grid#示例2可滚动grid和滚动事件)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { GridDataSource } from './GridDataSource';
@@ -2183,13 +2123,7 @@ GridDataSource说明及完整代码参考[示例2可滚动grid和滚动事件](/
 
 GridDataSource说明及完整代码参考[示例2可滚动grid和滚动事件](/consumer/cn/doc/harmonyos-references/ts-container-grid#示例2可滚动grid和滚动事件)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2247,13 +2181,7 @@ GridDataSource说明及完整代码参考[示例2可滚动grid和滚动事件](/
 
 GridDataSource说明及完整代码参考[示例2可滚动grid和滚动事件](/consumer/cn/doc/harmonyos-references/ts-container-grid#示例2可滚动grid和滚动事件)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2308,13 +2236,7 @@ GridDataSource说明及完整代码参考[示例2可滚动grid和滚动事件](/
 
 从API version 20开始，该示例通过[focusWrapMode](/consumer/cn/doc/harmonyos-references/ts-container-grid#focuswrapmode20)接口，实现了Grid组件方向键走焦换行效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2404,13 +2326,7 @@ GridDataSource说明及完整代码参考[示例2可滚动grid和滚动事件](/
 
 从API version 19开始，新增UIGridEvent接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NodeController, FrameNode, typeNode } from '@kit.ArkUI';
@@ -2506,13 +2422,7 @@ GridDataSource说明及完整代码参考[示例2可滚动grid和滚动事件](/
 
 GridDataSource说明及完整代码参考[示例2可滚动grid和滚动事件](/consumer/cn/doc/harmonyos-references/ts-container-grid#示例2可滚动grid和滚动事件)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { GridDataSource } from './GridDataSource';
@@ -2576,13 +2486,7 @@ GridDataSource说明及完整代码参考[示例2可滚动grid和滚动事件](/
 
 GridDataSource说明及完整代码参考[示例2可滚动grid和滚动事件](/consumer/cn/doc/harmonyos-references/ts-container-grid#示例2可滚动grid和滚动事件)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2885,13 +2789,7 @@ GridDataSource说明及完整代码参考[示例2可滚动grid和滚动事件](/
 
 该示例通过[gesture](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-gesture-settings#gesture)接口，实现了GridItem组件自定义拖拽效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { curves } from '@kit.ArkUI';
@@ -3166,13 +3064,7 @@ GridDataSource说明及完整代码参考[示例2可滚动grid和滚动事件](/
 
 GridDataSource说明及完整代码参考[示例2可滚动grid和滚动事件](/consumer/cn/doc/harmonyos-references/ts-container-grid#示例2可滚动grid和滚动事件)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3244,13 +3136,7 @@ GridDataSource说明及完整代码参考[示例2可滚动grid和滚动事件](/
 
 从API version 22开始，该示例展示了Grid组件支持基于断点配置列数效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -3316,13 +3202,7 @@ Grid宽度属于lg及更大的断点区间时显示5列。
 
 GridDataSource说明及完整代码参考[示例2（可滚动Grid和滚动事件）](/consumer/cn/doc/harmonyos-references/ts-container-grid#示例2可滚动grid和滚动事件)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { GridDataSource } from './GridDataSource';
@@ -3412,13 +3292,7 @@ GridDataSource说明及完整代码参考[示例2（可滚动Grid和滚动事件
 
 GridDataSource说明及完整代码参考[示例2（可滚动Grid和滚动事件）](/consumer/cn/doc/harmonyos-references/ts-container-grid#示例2可滚动grid和滚动事件)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

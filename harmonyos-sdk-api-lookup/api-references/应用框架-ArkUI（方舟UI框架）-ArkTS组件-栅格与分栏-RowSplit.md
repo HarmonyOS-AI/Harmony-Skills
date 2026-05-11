@@ -72,13 +72,7 @@ PhonePC/2in1TabletTVWearable
 
 RowSplit的基本用法。设置可拖动的、横向布局的子组件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

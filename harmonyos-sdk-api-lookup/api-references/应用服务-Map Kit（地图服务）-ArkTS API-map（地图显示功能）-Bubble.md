@@ -2,13 +2,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { map, mapCommon } from '@kit.MapKit';
@@ -31,13 +25,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let bubbleOptions: mapCommon.BubbleParams = {
@@ -96,13 +84,7 @@ setIcons(icons: Array<string | image.PixelMap | Resource>): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 图标需存放在resources/rawfile目录下
@@ -141,13 +123,7 @@ setPositions(positions: Array<Array<mapCommon.LatLng>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let positions: Array<Array<mapCommon.LatLng>> = [[

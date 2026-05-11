@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudSync } from '@kit.CoreFileKit';
@@ -158,13 +152,7 @@ constructor()
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let fileSync = new cloudSync.FileSync()
@@ -202,13 +190,7 @@ on(event: 'progress', callback: Callback<SyncProgress>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let fileSync = new cloudSync.FileSync();
@@ -251,13 +233,7 @@ off(event: 'progress', callback?: Callback<SyncProgress>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let fileSync = new cloudSync.FileSync();
@@ -305,13 +281,7 @@ start(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -365,13 +335,7 @@ start(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -420,13 +384,7 @@ stop(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -473,13 +431,7 @@ stop(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -526,13 +478,7 @@ getLastSyncTime(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -578,13 +524,7 @@ getLastSyncTime(callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -631,13 +571,7 @@ constructor()
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let fileCache = new cloudSync.CloudFileCache();
@@ -675,13 +609,7 @@ on(event: 'progress', callback: Callback<DownloadProgress>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -731,13 +659,7 @@ on(event: 'batchDownload', callback: Callback<MultiDownloadProgress>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -792,13 +714,7 @@ off(event: 'progress', callback?: Callback<DownloadProgress>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -850,13 +766,7 @@ off(event: 'batchDownload', callback?: Callback<MultiDownloadProgress>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -917,13 +827,7 @@ start(uri: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -984,13 +888,7 @@ start(uri: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1054,13 +952,7 @@ startBatch(uris: Array<string>, fileType?: DownloadFileType): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1127,13 +1019,7 @@ stop(uri: string, needClean?: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1186,13 +1072,7 @@ stop(uri: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1254,13 +1134,7 @@ stopBatch(downloadId: number, needClean?: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1321,13 +1195,7 @@ cleanFileCache(uri: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1450,13 +1318,7 @@ getFailedFiles(): Array<FailedFileInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1518,13 +1380,7 @@ getSuccessfulFiles(): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1590,13 +1446,7 @@ registerChange(uri: string, recursion: boolean, callback: Callback<ChangeData>):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileUri } from '@kit.CoreFileKit';
@@ -1649,13 +1499,7 @@ unregisterChange(uri: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileUri } from '@kit.CoreFileKit';
@@ -1734,13 +1578,7 @@ PhonePC/2in1TabletTVWearable
 
 配置文件cloudkit\_config.json样例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. {
@@ -1800,13 +1638,7 @@ constructor()
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let fileVersion = new cloudSync.FileVersion();
@@ -1862,13 +1694,7 @@ getHistoryVersionList(uri: string, versionNumLimit: number): Promise<Array<Histo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileUri } from '@kit.CoreFileKit';
@@ -1936,13 +1762,7 @@ downloadHistoryVersion(uri: string, versionId: string, callback: Callback<[Versi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileUri } from '@kit.CoreFileKit';
@@ -2019,13 +1839,7 @@ replaceFileWithHistoryVersion(originalUri: string, versionUri: string): Promise<
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileUri } from '@kit.CoreFileKit';
@@ -2107,13 +1921,7 @@ isFileConflict(uri: string): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileUri } from '@kit.CoreFileKit';
@@ -2175,13 +1983,7 @@ clearFileConflict(uri: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileUri } from '@kit.CoreFileKit';
@@ -2252,13 +2054,7 @@ getCoreFileSyncState(uri: string): FileState
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

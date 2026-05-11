@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { call } from '@kit.TelephonyKit';
@@ -49,13 +43,7 @@ dial(phoneNumber: string, callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -93,13 +81,7 @@ dial(phoneNumber: string, options: DialOptions, callback: AsyncCallback<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -147,13 +129,7 @@ dial(phoneNumber: string, options?: DialOptions): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -205,13 +181,7 @@ makeCall(phoneNumber: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -269,13 +239,7 @@ makeCall(phoneNumber: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -331,13 +295,7 @@ makeCall(phoneNumber: string, options?: MakeCallOptions): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { call } from '@kit.TelephonyKit';
@@ -401,13 +359,7 @@ makeCall(context: Context, phoneNumber: string): Promise<void>
 
 在本文档的示例中，通过this.context来获取UIAbilityContext，其中this代表继承自UIAbility的UIAbility实例。如需要在页面中使用UIAbilityContext提供的能力，请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -441,13 +393,7 @@ hasCall(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -481,13 +427,7 @@ hasCall(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -519,13 +459,7 @@ hasCallSync(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let hasCall: boolean = call.hasCallSync();
@@ -552,13 +486,7 @@ getCallState(callback: AsyncCallback<CallState>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -592,13 +520,7 @@ getCallState(): Promise<CallState>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -630,13 +552,7 @@ getCallStateSync(): CallState
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callState: call.CallState = call.getCallStateSync();
@@ -661,13 +577,7 @@ hasVoiceCapability(): boolean
 | --- | --- |
 | boolean | 返回true表示设备具备语音通话能力，返回false表示设备不具备语音通话能力。 |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let result: boolean = call.hasVoiceCapability();
@@ -709,13 +619,7 @@ isEmergencyPhoneNumber(phoneNumber: string, callback: AsyncCallback<boolean>): v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -765,13 +669,7 @@ isEmergencyPhoneNumber(phoneNumber: string, options: EmergencyNumberOptions, cal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -829,13 +727,7 @@ isEmergencyPhoneNumber(phoneNumber: string, options?: EmergencyNumberOptions): P
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -885,13 +777,7 @@ formatPhoneNumber(phoneNumber: string, callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -943,13 +829,7 @@ formatPhoneNumber(phoneNumber: string, options: NumberFormatOptions, callback: A
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1011,13 +891,7 @@ formatPhoneNumber(phoneNumber: string, options?: NumberFormatOptions): Promise<s
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1070,13 +944,7 @@ formatPhoneNumberToE164(phoneNumber: string, countryCode: string, callback: Asyn
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1137,13 +1005,7 @@ formatPhoneNumberToE164(phoneNumber: string, countryCode: string): Promise<strin
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1194,13 +1056,7 @@ answerCall(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1253,13 +1109,7 @@ hangUpCall(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1312,13 +1162,7 @@ rejectCall(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

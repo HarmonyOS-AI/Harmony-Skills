@@ -104,13 +104,7 @@ enableHapticFeedback(enable: Optional<boolean>)
 
 开启触控反馈时，需要在工程的src/main/module.json5文件的"module"内配置requestPermissions字段开启振动权限，配置如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. "requestPermissions": [
@@ -285,13 +279,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 22开始，该示例通过点击按钮的方式实现切换UIPickerComponent容器的循环滚动和开启/关闭触控反馈功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -356,13 +344,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 22开始，该示例基于状态选择，实现了UIPickerComponent容器的onChange和onScrollStop事件回调。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -410,13 +392,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 22开始，该示例实现了设置UIPickerComponent容器的选中项索引值。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -469,13 +445,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 22开始，该示例实现了设置UIPickerComponent容器的选中项指示器。具体包括：在使用背景指示器时，设置背景颜色、背景圆角；在使用分割线指示器时，设置分割线颜色、分割线宽度、起始侧边距、结束侧边距。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -776,13 +746,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 22开始，该示例使用UIPickerComponent容器嵌套文本子组件的方式实现月份选择器。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -836,13 +800,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 22开始，该示例使用多列UIPickerComponent容器组合实现地区选择器。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -962,13 +920,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 22开始，该示例使用UIPickerComponent容器实现不同选项类型的选择器，包含文本选择器、图片选择器、图文组合选择器。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1076,13 +1028,7 @@ PhonePC/2in1TabletTVWearable
 
 * 中文（默认）：在resource目录下创建base目录，在base目录下创建element目录，在element目录添加string.json文件（若文件已存在，请在文件中追加以下"name"-"value"键值对，请勿直接覆盖原文件）。文件内容如下：
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. {
@@ -1104,13 +1050,7 @@ PhonePC/2in1TabletTVWearable
   ```
 * 英文：在resource目录下创建en目录，在en目录下创建element目录，在element目录添加string.json文件（若文件已存在，请在文件中追加以下"name"-"value"键值对，请勿直接覆盖原文件）。文件内容如下：
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. {
@@ -1132,13 +1072,7 @@ PhonePC/2in1TabletTVWearable
   ```
 * 阿拉伯语：在resource目录下创建ar目录，在ar目录下创建element目录，在element目录下添加string.json文件（若文件已存在，请在文件中追加以下"name"-"value"键值对，请勿直接覆盖原文件）。文件内容如下：
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. {
@@ -1162,13 +1096,7 @@ PhonePC/2in1TabletTVWearable
 
 示例代码如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

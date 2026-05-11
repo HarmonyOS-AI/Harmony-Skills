@@ -25,13 +25,7 @@
 
 ### authenticatorAttachment
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FIDO2_AuthenticatorAttachment FIDO2_PublicKeyAttestationCredential::authenticatorAttachment
@@ -43,13 +37,7 @@
 
 ### clientExtensionResults
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AuthenticationExtensionsClientOutputs FIDO2_PublicKeyAttestationCredential::clientExtensionResults
@@ -61,13 +49,7 @@
 
 ### id
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char* FIDO2_PublicKeyAttestationCredential::id
@@ -79,13 +61,7 @@
 
 ### rawId
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Uint8Buff FIDO2_PublicKeyAttestationCredential::rawId
@@ -97,13 +73,7 @@
 
 ### response
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FIDO2_AuthenticatorAttestationResponse FIDO2_PublicKeyAttestationCredential::response
@@ -115,13 +85,7 @@
 
 ### type
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char* FIDO2_PublicKeyAttestationCredential::type

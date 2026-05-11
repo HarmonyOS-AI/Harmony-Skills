@@ -24,13 +24,7 @@ The specified bundle name is not found.
 1. 检查bundleName拼写是否正确。
 2. 可以使用[查询应用信息命令（dump）](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/bm-tool#查询应用信息命令dump)查看应用是否安装。查看输出的打印信息，应用未安装时，该命令执行会报错。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. # 需要将com.xxx.demo替换为实际查询的bundleName
@@ -59,13 +53,7 @@ The specified module name is not found.
 1. 检查moduleName拼写是否正确。
 2. 可以使用[查询应用信息命令（dump）](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/bm-tool#查询应用信息命令dump)查看对应的模块是否安装。查看输出的打印信息中hapModuleNames字段对应的列表是否存在该moduleName，不存在则说明应用未安装该模块。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. # 需要将com.xxx.demo替换为实际查询的bundleName
@@ -96,13 +84,7 @@ The specified ability name is not found.
 2. 可以使用[查询应用信息命令（dump）](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/bm-tool#查询应用信息命令dump)查看对应的应用是否存在这个abilityName。查看输出的打印信息中hapModuleInfos字段对应的abilityInfos下是否包含name等于该abilityName，不包含则说明该abilityName不存在。
 3. 可以使用[查询应用信息命令（dump）](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/bm-tool#查询应用信息命令dump)查看输出的打印信息中hapModuleNames字段对应的列表是否存在对应的moduleName，不存在则说明应用未安装该模块，对应模块下的ability也不存在。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. # 需要将com.xxx.demo替换为实际查询的bundleName
@@ -151,13 +133,7 @@ The specified uid is invalid.
 
 检查系统中是否存在对应的应用uid值。可以使用[查询应用信息命令（dump）](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/bm-tool#查询应用信息命令dump)查看已安装应用的uid。执行命令行后会输出对应已安装应用的uid，如果输出多个uid，选择大于0的。如果该命令无打印值输出，表示应用未安装。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. # 需要将com.xxx.demo替换为实际查询的bundleName
@@ -391,13 +367,7 @@ Bundle manager service exception.
 1. 重启手机后再次尝试请求接口。
 2. 重复上述步骤3到5次后依旧请求失败，请查询设备的/data/log/faultlog/faultlogger/目录下是否存在包含foundation字样的crash文件。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. hdc shell
@@ -406,13 +376,7 @@ Bundle manager service exception.
    ```
 3. 导出crash文件和日志文件提[在线工单](https://developer.huawei.com/consumer/cn/support/feedback/#/)获取帮助。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. hdc file recv /data/log/faultlog/faultlogger/

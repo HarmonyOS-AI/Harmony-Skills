@@ -14,13 +14,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import data_rdb from '@ohos.data.rdb';
@@ -51,13 +45,7 @@ getRdbStore(context: Context, config: StoreConfig, version: number, callback: As
 
 FA模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -77,13 +65,7 @@ FA模型示例：
 
 Stage模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import UIAbility from '@ohos.app.ability.UIAbility';
@@ -136,13 +118,7 @@ getRdbStore(context: Context, config: StoreConfig, version: number): Promise<Rdb
 
 FA模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -158,13 +134,7 @@ FA模型示例：
 
 Stage模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import UIAbility from '@ohos.app.ability.UIAbility';
@@ -211,13 +181,7 @@ deleteRdbStore(context: Context, name: string, callback: AsyncCallback<void>): v
 
 FA模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -233,13 +197,7 @@ FA模型示例：
 
 Stage模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import UIAbility from '@ohos.app.ability.UIAbility';
@@ -292,13 +250,7 @@ deleteRdbStore(context: Context, name: string): Promise<void>
 
 FA模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -313,13 +265,7 @@ FA模型示例：
 
 Stage模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import UIAbility from '@ohos.app.ability.UIAbility';
@@ -446,13 +392,7 @@ constructor(name: string)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new data_rdb.RdbPredicates("EMPLOYEE")
@@ -490,13 +430,7 @@ inDevices(devices: Array<string>): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import deviceManager from '@ohos.distributedHardware.deviceManager';
@@ -544,13 +478,7 @@ inAllDevices(): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new data_rdb.RdbPredicates("EMPLOYEE")
@@ -586,13 +514,7 @@ equalTo(field: string, value: ValueType): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new data_rdb.RdbPredicates("EMPLOYEE")
@@ -628,13 +550,7 @@ notEqualTo(field: string, value: ValueType): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new data_rdb.RdbPredicates("EMPLOYEE")
@@ -661,13 +577,7 @@ beginWrap(): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new data_rdb.RdbPredicates("EMPLOYEE")
@@ -699,13 +609,7 @@ endWrap(): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new data_rdb.RdbPredicates("EMPLOYEE")
@@ -737,13 +641,7 @@ or(): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new data_rdb.RdbPredicates("EMPLOYEE")
@@ -772,13 +670,7 @@ and(): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new data_rdb.RdbPredicates("EMPLOYEE")
@@ -816,13 +708,7 @@ contains(field: string, value: string): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new data_rdb.RdbPredicates("EMPLOYEE")
@@ -858,13 +744,7 @@ beginsWith(field: string, value: string): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new data_rdb.RdbPredicates("EMPLOYEE")
@@ -900,13 +780,7 @@ endsWith(field: string, value: string): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new data_rdb.RdbPredicates("EMPLOYEE")
@@ -941,13 +815,7 @@ isNull(field: string): RdbPredicates
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new data_rdb.RdbPredicates("EMPLOYEE")
@@ -992,13 +860,7 @@ isNotNull(field: string): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new data_rdb.RdbPredicates("EMPLOYEE")
@@ -1034,13 +896,7 @@ like(field: string, value: string): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new data_rdb.RdbPredicates("EMPLOYEE")
@@ -1076,13 +932,7 @@ glob(field: string, value: string): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new data_rdb.RdbPredicates("EMPLOYEE")
@@ -1119,13 +969,7 @@ between(field: string, low: ValueType, high: ValueType): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new data_rdb.RdbPredicates("EMPLOYEE")
@@ -1162,13 +1006,7 @@ notBetween(field: string, low: ValueType, high: ValueType): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new data_rdb.RdbPredicates("EMPLOYEE")
@@ -1204,13 +1042,7 @@ greaterThan(field: string, value: ValueType): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new data_rdb.RdbPredicates("EMPLOYEE")
@@ -1246,13 +1078,7 @@ lessThan(field: string, value: ValueType): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new data_rdb.RdbPredicates("EMPLOYEE")
@@ -1288,13 +1114,7 @@ greaterThanOrEqualTo(field: string, value: ValueType): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new data_rdb.RdbPredicates("EMPLOYEE")
@@ -1330,13 +1150,7 @@ lessThanOrEqualTo(field: string, value: ValueType): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new data_rdb.RdbPredicates("EMPLOYEE")
@@ -1371,13 +1185,7 @@ orderByAsc(field: string): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new data_rdb.RdbPredicates("EMPLOYEE")
@@ -1412,13 +1220,7 @@ orderByDesc(field: string): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new data_rdb.RdbPredicates("EMPLOYEE")
@@ -1445,13 +1247,7 @@ distinct(): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new data_rdb.RdbPredicates("EMPLOYEE")
@@ -1486,13 +1282,7 @@ limitAs(value: number): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new data_rdb.RdbPredicates("EMPLOYEE")
@@ -1527,13 +1317,7 @@ offsetAs(rowOffset: number): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new data_rdb.RdbPredicates("EMPLOYEE")
@@ -1568,13 +1352,7 @@ groupBy(fields: Array<string>): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new data_rdb.RdbPredicates("EMPLOYEE")
@@ -1609,13 +1387,7 @@ indexedBy(field: string): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new data_rdb.RdbPredicates("EMPLOYEE")
@@ -1651,13 +1423,7 @@ in(field: string, value: Array<ValueType>): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new data_rdb.RdbPredicates("EMPLOYEE")
@@ -1693,13 +1459,7 @@ notIn(field: string, value: Array<ValueType>): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new data_rdb.RdbPredicates("EMPLOYEE")
@@ -1736,13 +1496,7 @@ insert(table: string, values: ValuesBucket, callback: AsyncCallback<number>):voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ValuesBucket } from '@ohos.data.ValuesBucket';
@@ -1800,13 +1554,7 @@ insert(table: string, values: ValuesBucket):Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ValuesBucket } from '@ohos.data.ValuesBucket';
@@ -1856,13 +1604,7 @@ batchInsert(table: string, values: Array<ValuesBucket>, callback: AsyncCallback<
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ValuesBucket } from '@ohos.data.ValuesBucket';
@@ -1941,13 +1683,7 @@ batchInsert(table: string, values: Array<ValuesBucket>):Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ValuesBucket } from '@ohos.data.ValuesBucket';
@@ -2018,13 +1754,7 @@ update(values: ValuesBucket, predicates: RdbPredicates, callback: AsyncCallback<
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ValuesBucket } from '@ohos.data.ValuesBucket';
@@ -2084,13 +1814,7 @@ update(values: ValuesBucket, predicates: RdbPredicates):Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ValuesBucket } from '@ohos.data.ValuesBucket';
@@ -2141,13 +1865,7 @@ delete(predicates: RdbPredicates, callback: AsyncCallback<number>):void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new data_rdb.RdbPredicates("EMPLOYEE")
@@ -2189,13 +1907,7 @@ delete(predicates: RdbPredicates):Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new data_rdb.RdbPredicates("EMPLOYEE")
@@ -2230,13 +1942,7 @@ query(predicates: RdbPredicates, columns: Array<string>, callback: AsyncCallback
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new data_rdb.RdbPredicates("EMPLOYEE")
@@ -2280,13 +1986,7 @@ query(predicates: RdbPredicates, columns?: Array<string>):Promise<ResultSet>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new data_rdb.RdbPredicates("EMPLOYEE")
@@ -2322,13 +2022,7 @@ querySql(sql: string, bindArgs: Array<ValueType>, callback: AsyncCallback<Result
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. rdbStore.querySql("SELECT * FROM EMPLOYEE CROSS JOIN BOOK WHERE BOOK.NAME = ?", ['sanguo'], (err: BusinessError, resultSet: void) => {
@@ -2370,13 +2064,7 @@ querySql(sql: string, bindArgs?: Array<ValueType>):Promise<ResultSet>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let promise: void = rdbStore.querySql("SELECT * FROM EMPLOYEE CROSS JOIN BOOK WHERE BOOK.NAME = 'sanguo'")
@@ -2410,13 +2098,7 @@ executeSql(sql: string, bindArgs: Array<ValueType>, callback: AsyncCallback<void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const SQL_DELETE_TABLE = "DELETE FROM test WHERE name = ?"
@@ -2458,13 +2140,7 @@ executeSql(sql: string, bindArgs?: Array<ValueType>):Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const SQL_DELETE_TABLE = "DELETE FROM test WHERE name = 'zhangsan'"
@@ -2488,13 +2164,7 @@ beginTransaction():void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -2535,13 +2205,7 @@ commit():void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ValuesBucket } from '@ohos.data.ValuesBucket';
@@ -2582,13 +2246,7 @@ rollBack():void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ValuesBucket } from '@ohos.data.ValuesBucket';
@@ -2645,13 +2303,7 @@ setDistributedTables(tables: Array<string>, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. rdbStore.setDistributedTables(["EMPLOYEE"], (err: BusinessError) => {
@@ -2693,13 +2345,7 @@ setDistributedTables(tables: Array<string>): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let promise: void = rdbStore.setDistributedTables(["EMPLOYEE"])
@@ -2738,13 +2384,7 @@ obtainDistributedTableName(device: string, table: string, callback: AsyncCallbac
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import deviceManager from '@ohos.distributedHardware.deviceManager';
@@ -2805,13 +2445,7 @@ obtainDistributedTableName(device: string, table: string): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import deviceManager from '@ohos.distributedHardware.deviceManager';
@@ -2860,13 +2494,7 @@ sync(mode: SyncMode, predicates: RdbPredicates, callback: AsyncCallback<Array<[s
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import deviceManager from '@ohos.distributedHardware.deviceManager';
@@ -2930,13 +2558,7 @@ sync(mode: SyncMode, predicates: RdbPredicates): Promise<Array<[string, number]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import deviceManager from '@ohos.distributedHardware.deviceManager';
@@ -2990,13 +2612,7 @@ on(event: 'dataChange', type: SubscribeType, observer: Callback<Array<string>>):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let devices: Array<string>;
@@ -3034,13 +2650,7 @@ off(event:'dataChange', type: SubscribeType, observer: Callback<Array<string>>):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let devices: Array<string>;

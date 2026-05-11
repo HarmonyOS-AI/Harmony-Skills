@@ -35,13 +35,7 @@ PC/2in1
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bool SecurityAudit_Filter::isInclude
@@ -55,13 +49,7 @@ TRUE: 符合条件的事件被返回给客户端。 FALSE: 符合条件的事件
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. SecurityAudit_FilterType SecurityAudit_Filter::type
@@ -75,13 +63,7 @@ PC/2in1
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const char** SecurityAudit_Filter::value
@@ -95,13 +77,7 @@ PC/2in1
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint64_t SecurityAudit_Filter::valueCount

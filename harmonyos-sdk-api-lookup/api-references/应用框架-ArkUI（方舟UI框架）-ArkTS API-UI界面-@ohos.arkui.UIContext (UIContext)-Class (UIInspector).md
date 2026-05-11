@@ -36,13 +36,7 @@ createComponentObserver(id: string): inspector.ComponentObserver
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { inspector, UIInspector } from '@kit.ArkUI'
@@ -119,13 +113,7 @@ createComponentObserver(id: string | number): inspector.ComponentObserver
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { inspector, UIInspector } from '@kit.ArkUI';

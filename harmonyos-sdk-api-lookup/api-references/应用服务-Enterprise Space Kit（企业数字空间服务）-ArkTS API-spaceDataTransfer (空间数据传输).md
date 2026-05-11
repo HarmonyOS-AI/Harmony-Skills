@@ -8,13 +8,7 @@
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileTransfer } from '@kit.EnterpriseSpaceKit';
@@ -86,13 +80,7 @@ setAuditInfo(transactionNum: string, info: AuditInfo): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileTransfer } from '@kit.EnterpriseSpaceKit';
@@ -158,13 +146,7 @@ getAuditInfo(transactionNum: string): AuditInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileTransfer } from '@kit.EnterpriseSpaceKit';
@@ -289,13 +271,7 @@ policyPush(policyContext: string): void
 
 policyContext内容可参考如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. {
@@ -372,13 +348,7 @@ policyContext内容可参考如下：
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileTransfer } from '@kit.EnterpriseSpaceKit';

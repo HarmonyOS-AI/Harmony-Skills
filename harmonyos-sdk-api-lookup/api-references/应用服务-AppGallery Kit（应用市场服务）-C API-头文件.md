@@ -1,1 +1,0 @@
-* **[module\_install.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/store-c-module_install)**

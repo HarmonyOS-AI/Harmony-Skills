@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { productViewManager } from '@kit.AppGalleryKit';
@@ -151,13 +145,7 @@ PhonePC/2in1TabletTV
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common, Want } from '@kit.AbilityKit';
@@ -281,13 +269,7 @@ loadProduct(context: common.UIAbilityContext, want: Want, callback?: ProductView
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common, Want } from '@kit.AbilityKit';
@@ -373,13 +355,7 @@ loadService(context: common.UIAbilityContext, want: Want, callback?: ServiceView
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common, Want } from '@kit.AbilityKit';
@@ -482,13 +458,7 @@ checkPinShortcutPermitted(context: common.UIAbilityContext, shortcutId: string, 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common, Want } from '@kit.AbilityKit';
@@ -593,13 +563,7 @@ checkPinShortcutPermitted(context: common.UIAbilityContext, shortcutId: string, 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common, Want } from '@kit.AbilityKit';
@@ -702,13 +666,7 @@ requestNewPinShortcut(context: common.UIAbilityContext, tid: string): Promise<vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -784,13 +742,7 @@ getPinShortcutInfos(): Promise<PinShortcutInfo[]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -877,13 +829,7 @@ removePinShortcut(context: common.UIAbilityContext, shortcutId: string): Promise
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';

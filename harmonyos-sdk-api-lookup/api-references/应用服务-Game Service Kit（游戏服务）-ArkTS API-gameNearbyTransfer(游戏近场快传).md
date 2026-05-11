@@ -6,13 +6,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { gameNearbyTransfer } from '@kit.GameServiceKit';
@@ -439,13 +433,7 @@ on(type: 'connectNotify', callback: Callback<ConnectNotification>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -500,13 +488,7 @@ off(type: 'connectNotify', callback?: Callback<ConnectNotification>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -561,13 +543,7 @@ on(type: 'discovery', callback: Callback<DiscoveryResult>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -624,13 +600,7 @@ off(type: 'discovery', callback?: Callback<DiscoveryResult>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -687,13 +657,7 @@ on(type: 'receivePackageInfo', callback: Callback<PackageInfo>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -747,13 +711,7 @@ off(type: 'receivePackageInfo', callback?: Callback<PackageInfo>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -808,13 +766,7 @@ on(type: 'transferNotify', callback: Callback<TransferNotification>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -869,13 +821,7 @@ off(type: 'transferNotify', callback?: Callback<TransferNotification>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -930,13 +876,7 @@ on(type: 'error', callback: Callback<ReturnResult>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -988,13 +928,7 @@ off(type: 'error', callback?: Callback<ReturnResult>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -1049,13 +983,7 @@ onRemoteInstallationInfoNotify(callback: Callback<RemoteInstallationInfo>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -1109,13 +1037,7 @@ offRemoteInstallationInfoNotify(callback?: Callback<RemoteInstallationInfo>): vo
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -1177,13 +1099,7 @@ create(createParameters: CreateParameters): Promise<CreateResult>
 
 **资源包传输示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -1222,13 +1138,7 @@ create(createParameters: CreateParameters): Promise<CreateResult>
 
 **安装包传输示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -1298,13 +1208,7 @@ publishNearbyGame(): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -1358,13 +1262,7 @@ discoveryNearbyGame(): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -1429,13 +1327,7 @@ bindNearbyGame(bindParameters: BindParameters): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -1495,13 +1387,7 @@ autoBindNearbyGame(): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -1566,13 +1452,7 @@ acceptCollaboration(acceptParameters: Record<string, object>): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { gameNearbyTransfer } from '@kit.GameServiceKit';
@@ -1641,13 +1521,7 @@ sendPackageInfo(packageInfo: PackageInfo): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -1722,13 +1596,7 @@ replyPackageInfoResult(packageInfoResult: PackageInfoResult): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -1796,13 +1664,7 @@ transferPackageData(packageData: PackageData): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -1850,13 +1712,7 @@ destroy(): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';

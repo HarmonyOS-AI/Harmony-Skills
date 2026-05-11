@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ChildProcessArgs } from '@kit.AbilityKit';
@@ -39,13 +33,7 @@ PhonePC/2in1TabletTVWearable
 
 示例中的context的获取方式请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 主进程中:
@@ -81,13 +69,7 @@ PhonePC/2in1TabletTVWearable
 31. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 子进程中:

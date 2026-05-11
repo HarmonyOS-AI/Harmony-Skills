@@ -8,13 +8,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { harmonyShare } from '@kit.ShareKit';
@@ -488,13 +482,7 @@ on(event: 'knockShare', callback: Callback<SharableTarget>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uniformTypeDescriptor as utd } from '@kit.ArkData';
@@ -547,13 +535,7 @@ off(event: 'knockShare', callback?: Callback<SharableTarget>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 取消设备轻贴'knockShare'监听事件
@@ -586,13 +568,7 @@ on(event: 'knockShare', capability: SendCapabilityRegistry, callback: Callback<S
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uniformTypeDescriptor as utd } from '@kit.ArkData';
@@ -639,13 +615,7 @@ off(event: 'knockShare', capability: SendCapabilityRegistry, callback?: Callback
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let capabilityRegistry: harmonyShare.SendCapabilityRegistry = {
@@ -680,13 +650,7 @@ on(event: 'gesturesShare', callback: Callback<SharableTarget>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uniformTypeDescriptor as utd } from '@kit.ArkData';
@@ -729,13 +693,7 @@ off(event: 'gesturesShare', callback?: Callback<SharableTarget>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 取消隔空传送'gesturesShare'监听事件
@@ -768,13 +726,7 @@ on(event: 'gesturesShare', capability: SendCapabilityRegistry, callback: Callbac
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uniformTypeDescriptor as utd } from '@kit.ArkData';
@@ -821,13 +773,7 @@ off(event: 'gesturesShare', capability: SendCapabilityRegistry, callback?: Callb
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let capabilityRegistry: harmonyShare.SendCapabilityRegistry = {
@@ -865,13 +811,7 @@ on(event: 'dataReceive', capability: RecvCapabilityRegistry, callback: Callback<
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uniformTypeDescriptor as utd } from '@kit.ArkData';
@@ -931,13 +871,7 @@ off(event: 'dataReceive', capability: RecvCapabilityRegistry, callback?: Callbac
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let capabilityRegistry: harmonyShare.RecvCapabilityRegistry = {

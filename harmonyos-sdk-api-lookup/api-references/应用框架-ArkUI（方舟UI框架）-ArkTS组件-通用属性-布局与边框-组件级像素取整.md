@@ -86,13 +86,7 @@ PhonePC/2in1TabletTVWearable
 
 当父组件出现1px的缝隙时，应利用pixelRound来指导布局调整。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry

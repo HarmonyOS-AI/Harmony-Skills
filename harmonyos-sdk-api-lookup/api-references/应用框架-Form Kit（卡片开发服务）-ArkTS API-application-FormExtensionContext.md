@@ -14,13 +14,7 @@ PhonePC/2in1TabletTVWearable
 
 FormExtensionContext主要用于查询所属FormExtensionAbility的信息、Module的配置信息以及HAP包的信息，开发者可根据自身业务需求使用对应的信息。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FormExtensionAbility, formBindingData } from '@kit.FormKit';

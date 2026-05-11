@@ -6,13 +6,7 @@ InsightIntentUIExtensionAbility用于小艺对话过程中的意图调用时的�
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { InsightIntentUIExtensionAbility } from '@kit.IntentsKit';
@@ -30,13 +24,7 @@ PhonePC/2in1Tablet
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { InsightIntentUIExtensionAbility } from '@kit.IntentsKit';

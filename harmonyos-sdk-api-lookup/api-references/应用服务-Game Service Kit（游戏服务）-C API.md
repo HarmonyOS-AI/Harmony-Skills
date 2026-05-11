@@ -1,3 +1,0 @@
-* **[模块](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/gameservice-module)**
-* **[头文件和结构体](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/gameservice-total)**
-* **[C API错误码](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/gameservice-c-error-code)**

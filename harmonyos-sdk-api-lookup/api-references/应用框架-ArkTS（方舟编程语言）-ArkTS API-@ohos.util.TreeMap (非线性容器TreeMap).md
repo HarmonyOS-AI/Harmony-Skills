@@ -21,13 +21,7 @@ TreeMap和[HashMap](https://developer.huawei.com/consumer/cn/doc/harmonyos-refer
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TreeMap } from '@kit.ArkTS';
@@ -93,26 +87,14 @@ comparator的参数说明：
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 默认构造
 2. let treeMap = new TreeMap<number, number>();
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. //使用comparator firstValue < secondValue，表示期望结果为升序排序。反之firstValue > secondValue，表示为降序排序。
@@ -133,13 +115,7 @@ comparator的参数说明：
 16. // key: aa value: 3
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 当插入自定义类型时，则必须要提供比较函数。
@@ -193,13 +169,7 @@ isEmpty(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let treeMap = new TreeMap<number, number>();
@@ -247,13 +217,7 @@ hasKey(key: K): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let treeMap = new TreeMap<string, number>();
@@ -302,13 +266,7 @@ hasValue(value: V): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let treeMap = new TreeMap<string, number>();
@@ -357,13 +315,7 @@ get(key: K): V
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let treeMap = new TreeMap<string, number>();
@@ -405,13 +357,7 @@ getFirstKey(): K
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let treeMap = new TreeMap<string, number>();
@@ -453,13 +399,7 @@ getLastKey(): K
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let treeMap = new TreeMap<string, number>();
@@ -502,13 +442,7 @@ setAll(map: TreeMap<K, V>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let treeMap = new TreeMap<string, number>();
@@ -568,13 +502,7 @@ set(key: K, value: V): Object
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let treeMap = new TreeMap<string, number>();
@@ -622,13 +550,7 @@ remove(key: K): V
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let treeMap = new TreeMap<string, number>();
@@ -678,13 +600,7 @@ getLowerKey(key: K): K
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let treeMap = new TreeMap<number, string>();
@@ -736,13 +652,7 @@ getHigherKey(key: K): K
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let treeMap = new TreeMap<number, string>();
@@ -795,13 +705,7 @@ replace(key: K, newValue: V): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let treeMap = new TreeMap<string, number>();
@@ -834,13 +738,7 @@ clear(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let treeMap = new TreeMap<string, number>();
@@ -883,13 +781,7 @@ keys(): IterableIterator<K>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let treeMap = new TreeMap<string, number>();
@@ -936,13 +828,7 @@ values(): IterableIterator<V>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let treeMap = new TreeMap<string, number>();
@@ -1000,13 +886,7 @@ callbackFn的参数说明：
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let treeMap = new TreeMap<string, number>();
@@ -1020,13 +900,7 @@ callbackFn的参数说明：
 9. // value: 123 key: sparrow
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 不建议在forEach中使用set、remove方法，会导致死循环等不可预知的风险，可使用for循环来进行插入和删除。
@@ -1071,13 +945,7 @@ entries(): IterableIterator<[K, V]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let treeMap = new TreeMap<string, number>();
@@ -1094,13 +962,7 @@ entries(): IterableIterator<[K, V]>
 12. // TreeMap: squirrel,123
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 不建议在entries中使用set、remove方法，会导致死循环等不可预知的风险，可使用for循环来进行插入和删除。
@@ -1145,13 +1007,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let treeMap = new TreeMap<string, number>();
@@ -1181,13 +1037,7 @@ PhonePC/2in1TabletTVWearable
 25. // value: 123
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 不建议在Symbol.iterator中使用set、remove方法，会导致死循环等不可预知的风险，可使用for循环来进行插入和删除。

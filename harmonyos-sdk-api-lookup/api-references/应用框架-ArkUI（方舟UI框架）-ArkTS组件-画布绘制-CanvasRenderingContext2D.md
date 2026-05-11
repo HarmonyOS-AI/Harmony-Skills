@@ -61,13 +61,7 @@ constructor(settings?: RenderingContextSettings, unit?: LengthMetricsUnit)
 
 以下示例展示了配置CanvasRenderingContext2D对象的单位模式，默认单位模式为LengthMetricsUnit.DEFAULT，对应默认单位vp，配置后无法动态更改。详细说明见[LengthMetricsUnit](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-arkui-graphics#lengthmetricsunit12)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -134,13 +128,7 @@ PhonePC/2in1TabletTVWearable
 | --- | --- | --- | --- |
 | string |number10+ |[CanvasGradient](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-components-canvas-canvasgradient) | [CanvasPattern](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-components-canvas-canvaspattern) | 否 | 否 | - 类型为string时，表示设置填充区域的颜色，颜色格式参考[ResourceColor](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-types#resourcecolor)中string类型说明。  - 类型为number时，表示设置填充区域的颜色，不支持设置全透明色，颜色格式参考[ResourceColor](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-types#resourcecolor)中number类型说明。  - 类型为CanvasGradient时，表示渐变对象，使用[createLinearGradient](/consumer/cn/doc/harmonyos-references/ts-canvasrenderingcontext2d#createlineargradient)方法创建。  - 类型为CanvasPattern时，使用[createPattern](/consumer/cn/doc/harmonyos-references/ts-canvasrenderingcontext2d#createpattern)方法创建。  默认值：'#000000'（黑色）  异常值设置无效，保持设置前效果。 |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -187,13 +175,7 @@ PhonePC/2in1TabletTVWearable
 | --- | --- | --- | --- |
 | number | 否 | 否 | 默认值：1（px）  默认单位：vp  lineWidth取值不支持0和负数，0、负数和NaN按默认值处理，Infinity会导致lineWidth属性异常，不进行绘制。 |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -240,13 +222,7 @@ PhonePC/2in1TabletTVWearable
 | --- | --- | --- | --- |
 | string |number10+ |[CanvasGradient](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-components-canvas-canvasgradient) | [CanvasPattern](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-components-canvas-canvaspattern) | 否 | 否 | - 类型为string时，表示设置线条使用的颜色，颜色格式参考[ResourceColor](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-types#resourcecolor)中string类型说明。  - 类型为number时，表示设置线条使用的颜色，不支持设置全透明色，颜色格式参考[ResourceColor](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-types#resourcecolor)中number类型说明。  - 类型为CanvasGradient时，表示渐变对象，使用[createLinearGradient](/consumer/cn/doc/harmonyos-references/ts-canvasrenderingcontext2d#createlineargradient)方法创建。  - 类型为CanvasPattern时，使用[createPattern](/consumer/cn/doc/harmonyos-references/ts-canvasrenderingcontext2d#createpattern)方法创建。  默认值：'#000000'（黑色）  异常值设置无效，保持设置前效果。 |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -294,13 +270,7 @@ PhonePC/2in1TabletTVWearable
 | --- | --- | --- | --- |
 | [CanvasLineCap](/consumer/cn/doc/harmonyos-references/ts-canvasrenderingcontext2d#canvaslinecap类型说明) | 否 | 否 | 默认值：'butt' |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -351,13 +321,7 @@ PhonePC/2in1TabletTVWearable
 | --- | --- | --- | --- |
 | [CanvasLineJoin](/consumer/cn/doc/harmonyos-references/ts-canvasrenderingcontext2d#canvaslinejoin类型说明) | 否 | 否 | 可选值为：  - 'round'：在线段相连处绘制一个扇形，扇形的圆角半径是线段的宽度。  - 'bevel'：在线段相连处使用三角形为底填充， 每个部分矩形拐角独立。  - 'miter'：在相连部分的外边缘处进行延伸，使其相交于一点，形成一个菱形区域，该属性可以通过设置miterLimit属性展现效果。  默认值：'miter' |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -409,13 +373,7 @@ PhonePC/2in1TabletTVWearable
 | --- | --- | --- | --- |
 | number | 否 | 否 | 默认值：10px  单位：px  miterLimit取值不支持0和负数，0、负数和NaN按默认值处理，Infinity会导致miterLimit属性异常。 |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -475,13 +433,7 @@ PhonePC/2in1TabletTVWearable
 | --- | --- | --- | --- |
 | string | 否 | 否 | 默认值：'normal normal 14px sans-serif'  **卡片能力：** 从API version 9开始，该接口支持在ArkTS卡片中使用。  **元服务API：** 从API version 11开始，该接口支持在元服务中使用。 |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -540,13 +492,7 @@ PhonePC/2in1TabletTVWearable
 | --- | --- | --- | --- |
 | [CanvasTextAlign](/consumer/cn/doc/harmonyos-references/ts-canvasrenderingcontext2d#canvastextalign类型说明) | 否 | 否 | ltr布局模式下'start'和'left'一致，rtl布局模式下'start'和'right'一致。  默认值：'left' |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -606,13 +552,7 @@ PhonePC/2in1TabletTVWearable
 | --- | --- | --- | --- |
 | [CanvasTextBaseline](/consumer/cn/doc/harmonyos-references/ts-canvasrenderingcontext2d#canvastextbaseline类型说明) | 否 | 否 | 默认值：'alphabetic' |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -672,13 +612,7 @@ PhonePC/2in1TabletTVWearable
 | --- | --- | --- | --- |
 | number | 否 | 否 | 范围为[0.0, 1.0]，0.0为完全透明，1.0为完全不透明。若给定值小于0.0，则取值0.0；若给定值大于1.0，则取值1.0.  API version 18之前，设置NaN或Infinity时，在该方法后执行的绘制方法无法绘制。API version 18及以后，设置NaN或Infinity时当前接口不生效，其他传入有效参数的绘制方法正常绘制。  默认值：1.0 |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -728,13 +662,7 @@ PhonePC/2in1TabletTVWearable
 | --- | --- | --- | --- |
 | number | 否 | 否 | API version 18之前，设置NaN或Infinity时，设置了虚线样式的线条绘制出来是实线。API version 18及以后，设置NaN或Infinity时当前接口不生效，设置了虚线样式的线条绘制出来是虚线。  默认值：0.0  默认单位：vp  异常值NaN和Infinity按默认值处理。 |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -825,13 +753,7 @@ PhonePC/2in1TabletTVWearable
 | copy | 显示新绘制内容而忽略现有绘制内容。 |
 | xor | 使用异或操作对新绘制内容与现有绘制内容进行融合。 |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -997,13 +919,7 @@ PhonePC/2in1TabletTVWearable
 | --- | --- | --- | --- |
 | number | 否 | 否 | 值越大越模糊，精度为float，取值范围≥0。  默认值：0.0  单位：px  shadowBlur取值不支持负数，负数、NaN和Infinity按默认值处理。 |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1052,13 +968,7 @@ PhonePC/2in1TabletTVWearable
 | --- | --- | --- | --- |
 | string | 否 | 否 | 颜色格式参考[ResourceColor](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-types#resourcecolor)中string类型说明。  默认值：透明黑色 |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1107,13 +1017,7 @@ PhonePC/2in1TabletTVWearable
 | --- | --- | --- | --- |
 | number | 否 | 否 | 默认值：0.0  默认单位：vp  异常值NaN和Infinity按默认值处理。 |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1163,13 +1067,7 @@ PhonePC/2in1TabletTVWearable
 | --- | --- | --- | --- |
 | number | 否 | 否 | 默认值：0.0  默认单位：vp  异常值NaN和Infinity按默认值处理。 |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1223,13 +1121,7 @@ PhonePC/2in1TabletTVWearable
 
 此示例的资源不在src > main > resource目录下，从DevEco Studio 6.0.0 Beta2版本开始，新建工程或模块时，默认创建的模块不会对非resources目录下的资源进行打包，需使能相关开关：模块的build-profile.json5中buildOption > resOptions > copyCodeResource > enable设置为true，详见resOptions中[copyCodeResource](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hvigor-build-profile#table1476161719356)相关介绍。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1278,13 +1170,7 @@ PhonePC/2in1TabletTVWearable
 | --- | --- | --- | --- |
 | number | 是 | 否 | 默认单位：vp |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1331,13 +1217,7 @@ PhonePC/2in1TabletTVWearable
 | --- | --- | --- | --- |
 | number | 是 | 否 | 默认单位：vp |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1382,13 +1262,7 @@ PhonePC/2in1TabletTVWearable
 | --- | --- | --- | --- |
 | [FrameNode](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-arkui-framenode) | 是 | 否 | 默认值：null |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FrameNode } from '@kit.ArkUI'
@@ -1454,13 +1328,7 @@ imageSmoothingEnabled为true时，用于设置图像平滑度，此属性为只�
 
 此示例的资源不在src > main > resource目录下，从DevEco Studio 6.0.0 Beta2版本开始，新建工程或模块时，默认创建的模块不会对非resources目录下的资源进行打包，需使能相关开关：模块的build-profile.json5中buildOption > resOptions > copyCodeResource > enable设置为true，详见resOptions中[copyCodeResource](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hvigor-build-profile#table1476161719356)相关介绍。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1511,13 +1379,7 @@ PhonePC/2in1TabletTVWearable
 | --- | --- | --- | --- |
 | [CanvasDirection](/consumer/cn/doc/harmonyos-references/ts-canvasrenderingcontext2d#canvasdirection类型说明) | 否 | 否 | 默认值："inherit" |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1573,13 +1435,7 @@ PhonePC/2in1TabletTVWearable
 
 此示例的资源不在src > main > resource目录下，从DevEco Studio 6.0.0 Beta2版本开始，新建工程或模块时，默认创建的模块不会对非resources目录下的资源进行打包，需使能相关开关：模块的build-profile.json5中buildOption > resOptions > copyCodeResource > enable设置为true，详见resOptions中[copyCodeResource](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hvigor-build-profile#table1476161719356)相关介绍。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1658,13 +1514,7 @@ PhonePC/2in1TabletTVWearable
 | --- | --- | --- | --- |
 | string | [LengthMetrics](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-arkui-graphics#lengthmetrics12) | 否 | 否 | 当使用LengthMetrics时：  字间距按照指定的单位设置；  不支持FP、PERCENT和LPX（按无效值处理）；  支持负数和小数，设为小数时字间距不四舍五入。  当使用string时：  不支持设置百分比（按无效值处理）；  支持负数和小数，设为小数时字间距不四舍五入；  若letterSpacing的赋值未指定单位（例如：letterSpacing='10'），且未指定LengthMetricsUnit时，默认单位设置为vp；  指定LengthMetricsUnit为px时，默认单位设置为px；  当letterSpacing的赋值指定单位时（例如：letterSpacing='10vp'），字间距按照指定的单位设置。  默认值：0（输入无效值时，字间距设为默认值）  注：推荐使用LengthMetrics，性能更好。 |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1718,13 +1568,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1807,13 +1651,7 @@ fillRect(x: number, y: number, w: number, h: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1868,13 +1706,7 @@ strokeRect(x: number, y: number, w: number, h: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1929,13 +1761,7 @@ clearRect(x: number, y: number, w: number, h: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1992,13 +1818,7 @@ fillText(text: string, x: number, y: number, maxWidth?: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2054,13 +1874,7 @@ strokeText(text: string, x: number, y: number, maxWidth?: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2121,13 +1935,7 @@ measureText(text: string): TextMetrics
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2173,13 +1981,7 @@ stroke(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2236,13 +2038,7 @@ stroke(path: Path2D): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2292,13 +2088,7 @@ beginPath(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2365,13 +2155,7 @@ API version 18及以后，若未执行moveTo接口或moveTo接口传入无效参
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2427,13 +2211,7 @@ lineTo(x: number, y: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2480,13 +2258,7 @@ closePath(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2556,13 +2328,7 @@ createPattern(image: ImageBitmap, repetition: string | null): CanvasPattern | nu
 
 此示例的资源不在src > main > resource目录下，从DevEco Studio 6.0.0 Beta2版本开始，新建工程或模块时，默认创建的模块不会对非resources目录下的资源进行打包，需使能相关开关：模块的build-profile.json5中buildOption > resOptions > copyCodeResource > enable设置为true，详见resOptions中[copyCodeResource](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hvigor-build-profile#table1476161719356)相关介绍。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2625,13 +2391,7 @@ bezierCurveTo(cp1x: number, cp1y: number, cp2x: number, cp2y: number, x: number,
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2711,13 +2471,7 @@ quadraticCurveTo(cpx: number, cpy: number, x: number, y: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2797,13 +2551,7 @@ arc(x: number, y: number, radius: number, startAngle: number, endAngle: number, 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2861,13 +2609,7 @@ arcTo(x1: number, y1: number, x2: number, y2: number, radius: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2958,13 +2700,7 @@ ellipse(x: number, y: number, radiusX: number, radiusY: number, rotation: number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3024,13 +2760,7 @@ rect(x: number, y: number, w: number, h: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3106,13 +2836,7 @@ roundRect(x: number, y: number, w: number, h: number, radii?: number | Array<num
 5. 创建一个(10vp, 230vp)为起点，宽高为100vp，左上矩形角圆弧半径为10vp，右上矩形角圆弧半径为20vp，右下矩形角圆弧半径为30vp，左下矩形角圆弧半径为40vp的圆角矩形并描边；
 6. 创建一个(220vp, 330vp)为起点，宽高为-100vp，左上矩形角圆弧半径为10vp，右上矩形角圆弧半径为20vp，右下矩形角圆弧半径为30vp，左下矩形角圆弧半径为40vp的圆角矩形并描边。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3187,13 +2911,7 @@ fill(fillRule?: CanvasFillRule): void
 
 **示例:**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3247,13 +2965,7 @@ fill(path: Path2D, fillRule?: CanvasFillRule): void
 
 **示例:**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3315,13 +3027,7 @@ clip(fillRule?: CanvasFillRule): void
 
 **示例:**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3378,13 +3084,7 @@ clip(path: Path2D, fillRule?: CanvasFillRule): void
 
 **示例:**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3434,13 +3134,7 @@ reset(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3483,13 +3177,7 @@ saveLayer(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3554,13 +3242,7 @@ resetTransform(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3617,13 +3299,7 @@ rotate(angle: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3677,13 +3353,7 @@ scale(x: number, y: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3752,13 +3422,7 @@ transform方法对应一个变换矩阵，想对一个图形进行变化的时�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3831,13 +3495,7 @@ setTransform方法使用的参数和transform()方法相同，但setTransform()�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3896,13 +3554,7 @@ setTransform(transform?: Matrix2D): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3969,13 +3621,7 @@ getTransform(): Matrix2D
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4044,13 +3690,7 @@ translate(x: number, y: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4110,13 +3750,7 @@ drawImage(image: ImageBitmap | PixelMap, dx: number, dy: number): void
 
 此示例的资源不在src > main > resource目录下，从DevEco Studio 6.0.0 Beta2版本开始，新建工程或模块时，默认创建的模块不会对非resources目录下的资源进行打包，需使能相关开关：模块的build-profile.json5中buildOption > resOptions > copyCodeResource > enable设置为true，详见resOptions中[copyCodeResource](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hvigor-build-profile#table1476161719356)相关介绍。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4178,13 +3812,7 @@ drawImage(image: ImageBitmap | PixelMap, dx: number, dy: number, dw: number, dh:
 
 此示例的资源不在src > main > resource目录下，从DevEco Studio 6.0.0 Beta2版本开始，新建工程或模块时，默认创建的模块不会对非resources目录下的资源进行打包，需使能相关开关：模块的build-profile.json5中buildOption > resOptions > copyCodeResource > enable设置为true，详见resOptions中[copyCodeResource](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hvigor-build-profile#table1476161719356)相关介绍。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4250,13 +3878,7 @@ drawImage(image: ImageBitmap | PixelMap, sx: number, sy: number, sw: number, sh:
 
 此示例的资源不在src > main > resource目录下，从DevEco Studio 6.0.0 Beta2版本开始，新建工程或模块时，默认创建的模块不会对非resources目录下的资源进行打包，需使能相关开关：模块的build-profile.json5中buildOption > resOptions > copyCodeResource > enable设置为true，详见resOptions中[copyCodeResource](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hvigor-build-profile#table1476161719356)相关介绍。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4385,13 +4007,7 @@ getPixelMap(sx: number, sy: number, sw: number, sh: number): PixelMap
 * DevEco Studio的预览器不支持显示使用setPixelMap绘制的内容。
 * 此示例的资源不在src > main > resource目录下，从DevEco Studio 6.0.0 Beta2版本开始，新建工程或模块时，默认创建的模块不会对非resources目录下的资源进行打包，需使能相关开关：模块的build-profile.json5中buildOption > resOptions > copyCodeResource > enable设置为true，详见resOptions中[copyCodeResource](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hvigor-build-profile#table1476161719356)相关介绍。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4482,13 +4098,7 @@ getImageData(sx: number, sy: number, sw: number, sh: number): ImageData
 
 此示例的资源不在src > main > resource目录下，从DevEco Studio 6.0.0 Beta2版本开始，新建工程或模块时，默认创建的模块不会对非resources目录下的资源进行打包，需使能相关开关：模块的build-profile.json5中buildOption > resOptions > copyCodeResource > enable设置为true，详见resOptions中[copyCodeResource](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hvigor-build-profile#table1476161719356)相关介绍。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4546,13 +4156,7 @@ putImageData(imageData: ImageData, dx: number | string, dy: number | string): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4618,13 +4222,7 @@ putImageData(imageData: ImageData, dx: number | string, dy: number | string, dir
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4684,13 +4282,7 @@ setLineDash(segments: number[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4744,13 +4336,7 @@ getLineDash(): number[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4812,13 +4398,7 @@ transferFromImageBitmap(bitmap: ImageBitmap): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4889,13 +4469,7 @@ toDataURL(type?: string, quality?: any): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -4951,13 +4525,7 @@ restore(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -5005,13 +4573,7 @@ save(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -5078,13 +4640,7 @@ createLinearGradient(x0: number, y0: number, x1: number, y1: number): CanvasGrad
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -5154,13 +4710,7 @@ createRadialGradient(x0: number, y0: number, r0: number, x1: number, y1: number,
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -5225,13 +4775,7 @@ createConicGradient(startAngle: number, x: number, y: number): CanvasGradient
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -5374,13 +4918,7 @@ off(type: 'onDetach', callback?: () => void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5547,13 +5085,7 @@ stopImageAnalyzer(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -5669,13 +5201,7 @@ static getContext2DFromDrawingContext(drawingContext: DrawingRenderingContext, o
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -5768,13 +5294,7 @@ type CanvasFillRule = "evenodd" | "nonzero"
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

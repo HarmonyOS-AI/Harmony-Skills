@@ -1,10 +1,4 @@
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum ArkUI_NodeAttributeType
@@ -22,13 +16,7 @@
 
 ## NODE\_DATE\_PICKER\_LUNAR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_DATE_PICKER_LUNAR = MAX_NODE_SCOPE_NUM * ARKUI_NODE_DATE_PICKER = 13000
@@ -58,13 +46,7 @@
 
 ## NODE\_DATE\_PICKER\_START
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_DATE_PICKER_START = 13001
@@ -94,13 +76,7 @@
 
 ## NODE\_DATE\_PICKER\_END
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_DATE_PICKER_END = 13002
@@ -130,13 +106,7 @@
 
 ## NODE\_DATE\_PICKER\_SELECTED
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_DATE_PICKER_SELECTED = 13003
@@ -166,13 +136,7 @@
 
 ## NODE\_DATE\_PICKER\_DISAPPEAR\_TEXT\_STYLE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_DATE_PICKER_DISAPPEAR_TEXT_STYLE = 13004
@@ -202,13 +166,7 @@
 
 ## NODE\_DATE\_PICKER\_TEXT\_STYLE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_DATE_PICKER_TEXT_STYLE = 13005
@@ -238,13 +196,7 @@
 
 ## NODE\_DATE\_PICKER\_SELECTED\_TEXT\_STYLE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_DATE_PICKER_SELECTED_TEXT_STYLE = 13006
@@ -274,13 +226,7 @@
 
 ## NODE\_DATE\_PICKER\_MODE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_DATE_PICKER_MODE = 13007
@@ -310,13 +256,7 @@
 
 ## NODE\_DATE\_PICKER\_ENABLE\_HAPTIC\_FEEDBACK
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_DATE_PICKER_ENABLE_HAPTIC_FEEDBACK = 13008
@@ -346,13 +286,7 @@
 
 ## NODE\_DATE\_PICKER\_CAN\_LOOP
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_DATE_PICKER_CAN_LOOP = 13009
@@ -382,13 +316,7 @@ Picker组件可循环滚动属性，支持属性设置，属性重置和属性�
 
 ## NODE\_TIME\_PICKER\_SELECTED
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TIME_PICKER_SELECTED = MAX_NODE_SCOPE_NUM * ARKUI_NODE_TIME_PICKER = 14000
@@ -418,13 +346,7 @@ Picker组件可循环滚动属性，支持属性设置，属性重置和属性�
 
 ## NODE\_TIME\_PICKER\_USE\_MILITARY\_TIME
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TIME_PICKER_USE_MILITARY_TIME = 14001
@@ -454,13 +376,7 @@ Picker组件可循环滚动属性，支持属性设置，属性重置和属性�
 
 ## NODE\_TIME\_PICKER\_DISAPPEAR\_TEXT\_STYLE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TIME_PICKER_DISAPPEAR_TEXT_STYLE = 14002
@@ -490,13 +406,7 @@ Picker组件可循环滚动属性，支持属性设置，属性重置和属性�
 
 ## NODE\_TIME\_PICKER\_TEXT\_STYLE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TIME_PICKER_TEXT_STYLE = 14003
@@ -526,13 +436,7 @@ Picker组件可循环滚动属性，支持属性设置，属性重置和属性�
 
 ## NODE\_TIME\_PICKER\_SELECTED\_TEXT\_STYLE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TIME_PICKER_SELECTED_TEXT_STYLE = 14004
@@ -562,13 +466,7 @@ Picker组件可循环滚动属性，支持属性设置，属性重置和属性�
 
 ## NODE\_TIME\_PICKER\_START
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TIME_PICKER_START = 14005
@@ -598,13 +496,7 @@ Picker组件可循环滚动属性，支持属性设置，属性重置和属性�
 
 ## NODE\_TIME\_PICKER\_END
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TIME_PICKER_END = 14006
@@ -634,13 +526,7 @@ Picker组件可循环滚动属性，支持属性设置，属性重置和属性�
 
 ## NODE\_TIME\_PICKER\_ENABLE\_CASCADE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TIME_PICKER_ENABLE_CASCADE = 14007
@@ -670,13 +556,7 @@ Picker组件可循环滚动属性，支持属性设置，属性重置和属性�
 
 ## NODE\_TEXT\_PICKER\_OPTION\_RANGE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_PICKER_OPTION_RANGE = MAX_NODE_SCOPE_NUM * ARKUI_NODE_TEXT_PICKER = 15000
@@ -709,13 +589,7 @@ Picker组件可循环滚动属性，支持属性设置，属性重置和属性�
 
 ## NODE\_TEXT\_PICKER\_OPTION\_SELECTED
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_PICKER_OPTION_SELECTED = 15001
@@ -745,13 +619,7 @@ Picker组件可循环滚动属性，支持属性设置，属性重置和属性�
 
 ## NODE\_TEXT\_PICKER\_OPTION\_VALUE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_PICKER_OPTION_VALUE = 15002
@@ -781,13 +649,7 @@ Picker组件可循环滚动属性，支持属性设置，属性重置和属性�
 
 ## NODE\_TEXT\_PICKER\_DISAPPEAR\_TEXT\_STYLE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_PICKER_DISAPPEAR_TEXT_STYLE = 15003
@@ -817,13 +679,7 @@ Picker组件可循环滚动属性，支持属性设置，属性重置和属性�
 
 ## NODE\_TEXT\_PICKER\_TEXT\_STYLE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_PICKER_TEXT_STYLE = 15004
@@ -853,13 +709,7 @@ Picker组件可循环滚动属性，支持属性设置，属性重置和属性�
 
 ## NODE\_TEXT\_PICKER\_SELECTED\_TEXT\_STYLE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_PICKER_SELECTED_TEXT_STYLE = 15005
@@ -889,13 +739,7 @@ Picker组件可循环滚动属性，支持属性设置，属性重置和属性�
 
 ## NODE\_TEXT\_PICKER\_SELECTED\_INDEX
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_PICKER_SELECTED_INDEX = 15006
@@ -917,13 +761,7 @@ Picker组件可循环滚动属性，支持属性设置，属性重置和属性�
 
 ## NODE\_TEXT\_PICKER\_CAN\_LOOP
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_PICKER_CAN_LOOP = 15007
@@ -953,13 +791,7 @@ Picker组件可循环滚动属性，支持属性设置，属性重置和属性�
 
 ## NODE\_TEXT\_PICKER\_DEFAULT\_PICKER\_ITEM\_HEIGHT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_PICKER_DEFAULT_PICKER_ITEM_HEIGHT = 15008
@@ -989,13 +821,7 @@ Picker各选择项的高度属性，支持属性设置，属性重置和属性�
 
 ## NODE\_TEXT\_PICKER\_COLUMN\_WIDTHS
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_PICKER_COLUMN_WIDTHS = 15009
@@ -1031,13 +857,7 @@ Picker各选择项的高度属性，支持属性设置，属性重置和属性�
 
 ## NODE\_TEXT\_PICKER\_ENABLE\_HAPTIC\_FEEDBACK
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_PICKER_ENABLE_HAPTIC_FEEDBACK = 15010
@@ -1067,13 +887,7 @@ Picker各选择项的高度属性，支持属性设置，属性重置和属性�
 
 ## NODE\_TEXT\_PICKER\_SELECTED\_BACKGROUND\_STYLE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TEXT_PICKER_SELECTED_BACKGROUND_STYLE = 15011
@@ -1112,13 +926,7 @@ Picker各选择项的高度属性，支持属性设置，属性重置和属性�
 
 ## NODE\_PICKER\_OPTION\_SELECTED\_INDEX
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_PICKER_OPTION_SELECTED_INDEX = MAX_NODE_SCOPE_NUM * ARKUI_NODE_PICKER
@@ -1148,13 +956,7 @@ Picker各选择项的高度属性，支持属性设置，属性重置和属性�
 
 ## NODE\_PICKER\_ENABLE\_HAPTIC\_FEEDBACK
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_PICKER_ENABLE_HAPTIC_FEEDBACK = 1018001
@@ -1184,13 +986,7 @@ Picker各选择项的高度属性，支持属性设置，属性重置和属性�
 
 ## NODE\_PICKER\_CAN\_LOOP
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_PICKER_CAN_LOOP = 1018002
@@ -1220,13 +1016,7 @@ Picker各选择项的高度属性，支持属性设置，属性重置和属性�
 
 ## NODE\_PICKER\_SELECTION\_INDICATOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_PICKER_SELECTION_INDICATOR = 1018003
@@ -1256,13 +1046,7 @@ Picker各选择项的高度属性，支持属性设置，属性重置和属性�
 
 ## NODE\_CALENDAR\_PICKER\_HINT\_RADIUS
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_CALENDAR_PICKER_HINT_RADIUS = MAX_NODE_SCOPE_NUM * ARKUI_NODE_CALENDAR_PICKER = 16000
@@ -1292,13 +1076,7 @@ Picker各选择项的高度属性，支持属性设置，属性重置和属性�
 
 ## NODE\_CALENDAR\_PICKER\_SELECTED\_DATE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_CALENDAR_PICKER_SELECTED_DATE = 16001
@@ -1332,13 +1110,7 @@ Picker各选择项的高度属性，支持属性设置，属性重置和属性�
 
 ## NODE\_CALENDAR\_PICKER\_EDGE\_ALIGNMENT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_CALENDAR_PICKER_EDGE_ALIGNMENT = 16002
@@ -1372,13 +1144,7 @@ Picker各选择项的高度属性，支持属性设置，属性重置和属性�
 
 ## NODE\_CALENDAR\_PICKER\_TEXT\_STYLE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_CALENDAR_PICKER_TEXT_STYLE = 16003
@@ -1412,13 +1178,7 @@ Picker各选择项的高度属性，支持属性设置，属性重置和属性�
 
 ## NODE\_CALENDAR\_PICKER\_START
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_CALENDAR_PICKER_START = 16004
@@ -1448,13 +1208,7 @@ Picker各选择项的高度属性，支持属性设置，属性重置和属性�
 
 ## NODE\_CALENDAR\_PICKER\_END
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_CALENDAR_PICKER_END = 16005
@@ -1484,13 +1238,7 @@ Picker各选择项的高度属性，支持属性设置，属性重置和属性�
 
 ## NODE\_CALENDAR\_PICKER\_DISABLED\_DATE\_RANGE
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_CALENDAR_PICKER_DISABLED_DATE_RANGE = 16006
@@ -1520,13 +1268,7 @@ Picker各选择项的高度属性，支持属性设置，属性重置和属性�
 
 ## NODE\_CALENDAR\_PICKER\_MARK\_TODAY
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_CALENDAR_PICKER_MARK_TODAY = 16007

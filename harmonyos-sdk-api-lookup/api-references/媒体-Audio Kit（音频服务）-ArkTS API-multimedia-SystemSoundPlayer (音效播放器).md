@@ -10,13 +10,7 @@ SystemSoundPlayer需要和[@ohos.multimedia.systemSoundManager](https://develope
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { systemSoundManager } from '@kit.AudioKit';
@@ -70,13 +64,7 @@ load(soundType: systemSoundManager.SystemSoundType): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -130,13 +118,7 @@ play(soundType: systemSoundManager.SystemSoundType): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -189,13 +171,7 @@ unload(soundType: systemSoundManager.SystemSoundType): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -239,13 +215,7 @@ release(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

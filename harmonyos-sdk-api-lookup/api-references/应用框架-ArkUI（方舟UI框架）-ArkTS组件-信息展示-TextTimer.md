@@ -275,13 +275,7 @@ TextTimer组件的控制器，用于控制文本计时器。一个TextTimer组�
 
 ### 导入对象
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. textTimerController: TextTimerController = new TextTimerController();
@@ -374,13 +368,7 @@ PhonePC/2in1TabletTVWearable
 
 用户可以通过点击"start"、"pause"、"reset"按钮，开启、暂停、重置计时器。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -421,13 +409,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[textShadow](/consumer/cn/doc/harmonyos-references/ts-basic-components-texttimer#textshadow11)属性设置计时器的文本阴影样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -475,13 +457,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例实现了两个简易秒表，使用浅灰色背景。计时器开始后，会实时显示时间变化。倒计时器开始后，背景会变成黑色，正计时器开始后，背景会变成灰色。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -562,13 +538,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例展示了TextTimer计时器如何在创建完成之后立即开始计时。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -606,13 +576,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[fontColor](/consumer/cn/doc/harmonyos-references/ts-basic-components-texttimer#fontcolor)、[fontSize](/consumer/cn/doc/harmonyos-references/ts-basic-components-texttimer#fontsize)、[fontStyle](/consumer/cn/doc/harmonyos-references/ts-basic-components-texttimer#fontstyle)、[fontWeight](/consumer/cn/doc/harmonyos-references/ts-basic-components-texttimer#fontweight)、[fontFamily](/consumer/cn/doc/harmonyos-references/ts-basic-components-texttimer#fontfamily)属性展示了不同样式的文本效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

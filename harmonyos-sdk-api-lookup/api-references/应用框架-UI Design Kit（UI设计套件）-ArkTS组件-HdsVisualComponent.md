@@ -13,13 +13,7 @@ PhonePC/2in1TabletTV
 
 6.0.1(21)及之前版本：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { HdsVisualComponent, HdsVisualComponentAttribute, HdsSceneController, HdsSceneType, hdsEffect } from '@kit.UIDesignKit';
@@ -27,13 +21,7 @@ PhonePC/2in1TabletTV
 
 6.0.2(22)及之后版本：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { HdsVisualComponent, HdsSceneController, HdsSceneType, hdsEffect } from '@kit.UIDesignKit';
@@ -294,13 +282,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 从6.0.2(22)版本开始，无需手动导入HdsVisualComponentAttribute。具体请参考HdsVisualComponent的导入模块说明。

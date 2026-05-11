@@ -8,13 +8,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print } from '@kit.BasicServicesKit';
@@ -60,13 +54,7 @@ on(type: 'block', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print } from '@kit.BasicServicesKit';
@@ -118,13 +106,7 @@ on(type: 'succeed', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print } from '@kit.BasicServicesKit';
@@ -176,13 +158,7 @@ on(type: 'fail', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print } from '@kit.BasicServicesKit';
@@ -234,13 +210,7 @@ on(type: 'cancel', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print } from '@kit.BasicServicesKit';
@@ -292,13 +262,7 @@ off(type: 'block', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print } from '@kit.BasicServicesKit';
@@ -350,13 +314,7 @@ off(type: 'succeed', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print } from '@kit.BasicServicesKit';
@@ -408,13 +366,7 @@ off(type: 'fail', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print } from '@kit.BasicServicesKit';
@@ -466,13 +418,7 @@ off(type: 'cancel', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print } from '@kit.BasicServicesKit';
@@ -533,13 +479,7 @@ onStartLayoutWrite(jobId: string, oldAttrs: PrintAttributes, newAttrs: PrintAttr
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print } from '@kit.BasicServicesKit';
@@ -599,13 +539,7 @@ onJobStateChanged(jobId: string, state: PrintDocumentAdapterState): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print } from '@kit.BasicServicesKit';
@@ -666,13 +600,7 @@ print(files: Array<string>, callback: AsyncCallback<PrintTask>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print } from '@kit.BasicServicesKit';
@@ -734,13 +662,7 @@ print(files: Array<string>): Promise<PrintTask>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print } from '@kit.BasicServicesKit';
@@ -794,13 +716,7 @@ print(files: Array<string>, context: Context, callback: AsyncCallback<PrintTask>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print } from '@kit.BasicServicesKit';
@@ -879,13 +795,7 @@ print(files: Array<string>, context: Context): Promise<PrintTask>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print } from '@kit.BasicServicesKit';
@@ -964,13 +874,7 @@ print(jobName: string, printAdapter: PrintDocumentAdapter, printAttributes: Prin
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print } from '@kit.BasicServicesKit';
@@ -1349,13 +1253,7 @@ addPrinterToDiscovery(printerInformation: PrinterInformation): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print } from '@kit.BasicServicesKit';
@@ -1418,13 +1316,7 @@ updatePrinterInDiscovery(printerInformation: PrinterInformation): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print } from '@kit.BasicServicesKit';
@@ -1505,13 +1397,7 @@ removePrinterFromDiscovery(printerId: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print } from '@kit.BasicServicesKit';
@@ -1566,13 +1452,7 @@ getPrinterInformationById(printerId: string): Promise<PrinterInformation>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print } from '@kit.BasicServicesKit';
@@ -1776,13 +1656,7 @@ getAddedPrinters(): Promise<Array<string>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print } from '@kit.BasicServicesKit';
@@ -1849,13 +1723,7 @@ on(type: 'printerChange', callback: PrinterChangeCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print } from '@kit.BasicServicesKit';
@@ -1902,13 +1770,7 @@ off(type: 'printerChange', callback?: PrinterChangeCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print } from '@kit.BasicServicesKit';
@@ -1955,13 +1817,7 @@ startDiscoverPrinter(extensionList: Array<string>, callback: AsyncCallback<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print } from '@kit.BasicServicesKit';
@@ -2020,13 +1876,7 @@ startDiscoverPrinter(extensionList: Array<string>): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print } from '@kit.BasicServicesKit';
@@ -2075,13 +1925,7 @@ stopDiscoverPrinter(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print } from '@kit.BasicServicesKit';
@@ -2128,13 +1972,7 @@ stopDiscoverPrinter(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print } from '@kit.BasicServicesKit';
@@ -2180,13 +2018,7 @@ connectPrinter(printerId: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print } from '@kit.BasicServicesKit';
@@ -2242,13 +2074,7 @@ connectPrinter(printerId: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print } from '@kit.BasicServicesKit';
@@ -2304,13 +2130,7 @@ startPrint(job: PrintJobData): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print } from '@kit.BasicServicesKit';
@@ -2594,13 +2414,7 @@ updatePrintJobState(jobId: string, state: PrintJobState, subState: PrintJobSubSt
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print } from '@kit.BasicServicesKit';
@@ -2661,13 +2475,7 @@ updatePrintJobState(jobId: string, state: PrintJobState, subState: PrintJobSubSt
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print } from '@kit.BasicServicesKit';
@@ -2724,13 +2532,7 @@ updatePrinterInformation(printerInformation: PrinterInformation): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print } from '@kit.BasicServicesKit';
@@ -2856,13 +2658,7 @@ addPrinter(printerName: string, uri: string, ppdName?: string, options?: string)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print } from '@kit.BasicServicesKit';
@@ -2950,13 +2746,7 @@ registerWatermarkCallback(callback: WatermarkCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print } from '@kit.BasicServicesKit';
@@ -3008,13 +2798,7 @@ unregisterWatermarkCallback(callback?: WatermarkCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print } from '@kit.BasicServicesKit';
@@ -3070,13 +2854,7 @@ notifyWatermarkComplete(jobId: string, result: WatermarkHandleResult): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { print } from '@kit.BasicServicesKit';

@@ -8,13 +8,7 @@ insightIntent是Intents Kit的子模块，提供意图开放能力，包括共�
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { insightIntent } from '@kit.IntentsKit';
@@ -123,13 +117,7 @@ shareIntent(context: common.BaseContext, intents: InsightIntent[], callback: Asy
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { insightIntent } from '@kit.IntentsKit';
@@ -249,13 +237,7 @@ shareIntent(context: common.BaseContext, intents: InsightIntent[]): Promise<void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { insightIntent } from '@kit.IntentsKit';
@@ -359,13 +341,7 @@ deleteIntent(context: common.BaseContext, intentName: string, identifiers: strin
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { insightIntent } from '@kit.IntentsKit';
@@ -439,13 +415,7 @@ deleteIntent(context: common.BaseContext, intentName: string, callback: AsyncCal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { insightIntent } from '@kit.IntentsKit';
@@ -527,13 +497,7 @@ deleteIntent(context: common.BaseContext, intentName: string, identifiers?: stri
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { insightIntent } from '@kit.IntentsKit';
@@ -602,13 +566,7 @@ deleteEntity(context: common.BaseContext, entityName: string, entityIds: string[
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { insightIntent } from '@kit.IntentsKit';
@@ -690,13 +648,7 @@ deleteEntity(context: common.BaseContext, entityName: string, entityIds: string[
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { insightIntent } from '@kit.IntentsKit';
@@ -773,13 +725,7 @@ getSid(context: common.BaseContext, renew: boolean): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { insightIntent } from '@kit.IntentsKit';

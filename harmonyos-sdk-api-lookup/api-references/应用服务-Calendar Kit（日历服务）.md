@@ -1,2 +1,0 @@
-* **[ArkTS API](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/calendar-arkts)**
-* **[错误码](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/calendar-arkts-errorcode)**

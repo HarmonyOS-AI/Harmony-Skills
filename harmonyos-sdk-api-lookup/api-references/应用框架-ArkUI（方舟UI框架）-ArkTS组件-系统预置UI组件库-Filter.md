@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Filter } from '@kit.ArkUI';
@@ -118,13 +112,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例设置FilterType属性为MULTI\_LINE\_FILTER，实现多行可折叠类型筛选器。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Filter, FilterParams, FilterResult, FilterType } from '@kit.ArkUI';

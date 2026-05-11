@@ -9,13 +9,7 @@ CompletionHandlerForAtomicService作为[AtomicServiceOptions](https://developer.
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { CompletionHandlerForAtomicService } from '@kit.AbilityKit';
@@ -97,13 +91,7 @@ onAtomicServiceRequestFailure(appId: string, failureCode: FailureCode, failureMe
 
 ### CompletionHandlerForAtomicService示例
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, AtomicServiceOptions, common, UIAbility, Want, CompletionHandlerForAtomicService, FailureCode } from '@kit.AbilityKit';

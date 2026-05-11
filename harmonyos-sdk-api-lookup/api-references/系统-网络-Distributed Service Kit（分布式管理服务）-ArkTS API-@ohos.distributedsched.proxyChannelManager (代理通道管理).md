@@ -15,13 +15,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { proxyChannelManager } from '@kit.DistributedServiceKit';
@@ -84,13 +78,7 @@ openProxyChannel(channelInfo: ChannelInfo): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { proxyChannelManager } from '@kit.DistributedServiceKit';
@@ -168,13 +156,7 @@ closeProxyChannel(channelId: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { proxyChannelManager } from '@kit.DistributedServiceKit';
@@ -252,13 +234,7 @@ sendData(channelId:number, data:ArrayBuffer):Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { proxyChannelManager } from '@kit.DistributedServiceKit';
@@ -331,13 +307,7 @@ on(type: 'receiveData', channelId: number, callback: Callback<DataInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { proxyChannelManager } from '@kit.DistributedServiceKit';
@@ -406,13 +376,7 @@ off(type: 'receiveData', channelId: number, callback?: Callback<DataInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { proxyChannelManager } from '@kit.DistributedServiceKit';
@@ -479,13 +443,7 @@ on(type: 'channelStateChange', channelId: number, callback: Callback<ChannelStat
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { proxyChannelManager } from '@kit.DistributedServiceKit';
@@ -554,13 +512,7 @@ off(type: 'channelStateChange', channelId: number, callback?: Callback<ChannelSt
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { proxyChannelManager } from '@kit.DistributedServiceKit';

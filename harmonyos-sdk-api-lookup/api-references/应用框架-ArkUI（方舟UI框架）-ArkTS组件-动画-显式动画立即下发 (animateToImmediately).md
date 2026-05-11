@@ -41,13 +41,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示通过[animateToImmediately](/consumer/cn/doc/harmonyos-references/ts-explicit-animatetoimmediately#animatetoimmediately)接口来实现显式动画立即下发。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

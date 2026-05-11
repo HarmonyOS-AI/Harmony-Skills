@@ -163,13 +163,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例对组件设置[onVisibleAreaChange](/consumer/cn/doc/harmonyos-references/ts-universal-component-visible-area-change-event#onvisibleareachange)事件，当组件完全显示或者完全消失时触发回调。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -273,13 +267,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 17开始，该示例对组件设置[onVisibleAreaApproximateChange](/consumer/cn/doc/harmonyos-references/ts-universal-component-visible-area-change-event#onvisibleareaapproximatechange17)事件，当组件完全显示或者完全消失时触发回调。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -386,13 +374,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 22开始，该示例展示onVisibleAreaChange事件设置measureFromViewport参数效果对比，主要差异体现在回调返回值组件可见比例（currentRatio）的不同，设置measureFromViewport为true时，返回的组件可见比例（currentRatio）更符合实际效果。该示例在不同设备上currentRatio会有微小差异。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry

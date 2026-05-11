@@ -8,13 +8,7 @@ ConfigurationConstant模块提供配置信息枚举值定义的能力。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import ConfigurationConstant from '@ohos.application.ConfigurationConstant';

@@ -8,13 +8,7 @@ hilog日志系统，使应用/服务可以按照指定级别、标识和格式�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -52,13 +46,7 @@ isLoggable(domain: number, tag: string, level: LogLevel) : boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. hilog.isLoggable(0x0001, "testTag", hilog.LogLevel.INFO);
@@ -113,13 +101,7 @@ DEBUG级别的日志在正式发布版本中默认不被打印，只有在调试
 
 输出一条DEBUG信息，格式字符串为"%{public}s World %{private}d"。其中变参%{public}s为明文显示的字符串；%{private}d为隐私的整型数。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. hilog.debug(0x0001, "testTag", "%{public}s World %{private}d", "hello", 3);
@@ -127,13 +109,7 @@ DEBUG级别的日志在正式发布版本中默认不被打印，只有在调试
 
 字符串"hello"填入%{public}s，整型数3填入%{private}d，输出日志：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. 08-05 12:21:47.579  2695-2703  A00001/com.example.hilogDemo/testTag  com.example.hilogDemo  D     hello World <private>
@@ -166,13 +142,7 @@ info(domain: number, tag: string, format: string, ...args: any[]) : void
 
 输出一条INFO信息，格式字符串为"%{public}s World %{private}d"。其中变参%{public}s为明文显示的字符串；%{private}d为隐私的整型数。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. hilog.info(0x0001, "testTag", "%{public}s World %{private}d", "hello", 3);
@@ -180,13 +150,7 @@ info(domain: number, tag: string, format: string, ...args: any[]) : void
 
 字符串"hello"填入%{public}s，整型数3填入%{private}d，输出日志：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. 08-05 12:21:47.579  2695-2703  A00001/com.example.hilogDemo/testTag  com.example.hilogDemo  I     hello World <private>
@@ -219,13 +183,7 @@ warn(domain: number, tag: string, format: string, ...args: any[]) : void
 
 输出一条WARN信息，格式字符串为"%{public}s World %{private}d"。其中变参%{public}s为明文显示的字符串；%{private}d为隐私的整型数。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. hilog.warn(0x0001, "testTag", "%{public}s World %{private}d", "hello", 3);
@@ -233,13 +191,7 @@ warn(domain: number, tag: string, format: string, ...args: any[]) : void
 
 字符串"hello"填入%{public}s，整型数3填入%{private}d，输出日志：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. 08-05 12:21:47.579  2695-2703  A00001/com.example.hilogDemo/testTag  com.example.hilogDemo  W     hello World <private>
@@ -272,13 +224,7 @@ error(domain: number, tag: string, format: string, ...args: any[]) : void
 
 输出一条ERROR信息，格式字符串为"%{public}s World %{private}d"。其中变参%{public}s为明文显示的字符串；%{private}d为隐私的整型数。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. hilog.error(0x0001, "testTag", "%{public}s World %{private}d", "hello", 3);
@@ -286,13 +232,7 @@ error(domain: number, tag: string, format: string, ...args: any[]) : void
 
 字符串"hello"填入%{public}s，整型数3填入%{private}d，输出日志：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. 08-05 12:21:47.579  2695-2703  A00001/com.example.hilogDemo/testTag  com.example.hilogDemo  E     hello World <private>
@@ -325,13 +265,7 @@ fatal(domain: number, tag: string, format: string, ...args: any[]) : void
 
 输出一条FATAL信息，格式字符串为"%{public}s World %{private}d"。其中变参%{public}s为明文显示的字符串；%{private}d为隐私的整型数。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. hilog.fatal(0x0001, "testTag", "%{public}s World %{private}d", "hello", 3);
@@ -339,13 +273,7 @@ fatal(domain: number, tag: string, format: string, ...args: any[]) : void
 
 字符串"hello"填入%{public}s，整型数3填入%{private}d，输出日志：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. 08-05 12:21:47.579  2695-2703  A00001/com.example.hilogDemo/testTag  com.example.hilogDemo  F     hello World <private>
@@ -381,13 +309,7 @@ debug版本应用下，此函数不生效。
 
 以全局日志级别为INFO下，打印5条不同级别的hilog日志，在打印过程中调用两次setMinLogLevel接口为例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. hilog.info(0x0001, "testTag", 'this is an info level log, id: %{public}d', 1);
@@ -407,13 +329,7 @@ debug版本应用下，此函数不生效。
 
 最终打印结果如下所示：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. 08-07 23:50:01.532   13694-13694   A00001/com.example.hilogDemo/testTag  com.example.hilogDemo  I     this is an info level log, id: 1
@@ -470,13 +386,7 @@ PhonePC/2in1TabletTVWearable
 
 以全局日志级别为INFO下，打印5条不同级别的hilog日志，在打印过程中调用两次setLogLevel接口为例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. hilog.info(0x0001, "testTag", 'this is an info level log, id: %{public}d', 1);
@@ -496,13 +406,7 @@ PhonePC/2in1TabletTVWearable
 
 最终打印结果如下所示：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. 08-07 23:50:01.532   13694-13694   A00001/com.example.hilogDemo/testTag  com.example.hilogDemo  I     this is an info level log, id: 1
@@ -537,13 +441,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let testObj: Record<string, string | number> = {
@@ -563,13 +461,7 @@ PhonePC/2in1TabletTVWearable
 
 **打印结果：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. 08-09 13:26:29.094  2266-2266  A00001/com.example.hilogDemo/jsHilogTest  com.example.hilogDemo  I  print object: {"name":"Jack","age":22}

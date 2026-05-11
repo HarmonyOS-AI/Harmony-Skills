@@ -96,13 +96,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef void (*OH_Retrieval_Callback)(void *context, OH_Retrieval_Record *record, int errCode)
@@ -128,13 +122,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct OH_Retrieval_Condition OH_Retrieval_Condition
@@ -150,13 +138,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct OH_Retrieval_Config OH_Retrieval_Config
@@ -172,13 +154,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct OH_Retrieval_DbConfig OH_Retrieval_DbConfig
@@ -194,13 +170,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct OH_Retrieval_Query OH_Retrieval_Query
@@ -216,13 +186,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct OH_Retrieval_Record OH_Retrieval_Record
@@ -238,13 +202,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct OH_Retrieval_RecordItem OH_Retrieval_RecordItem
@@ -260,13 +218,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct OH_Retrieval_Retriever OH_Retrieval_Retriever
@@ -282,13 +234,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct OH_Retrieval_SubCondition OH_Retrieval_SubCondition
@@ -304,13 +250,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct OH_Retrieval_SubCondition OH_Retrieval_VectorCondition
@@ -326,13 +266,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef enum Retrieval_Channel_Type Retrieval_Channel_Type
@@ -352,13 +286,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum Retrieval_Channel_Type
@@ -384,13 +312,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_Retrieval_AddConfig(OH_Retrieval_Config *config, Retrieval_Channel_Type channelType, OH_Retrieval_DbConfig *dbConfig)
@@ -431,13 +353,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_Retrieval_AddSubCondition(OH_Retrieval_Condition *condition, OH_Retrieval_SubCondition *subCondition)
@@ -478,13 +394,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_Retrieval_Condition *OH_Retrieval_CreateCondition()
@@ -508,13 +418,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_Retrieval_Config *OH_Retrieval_CreateConfig()
@@ -538,13 +442,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_Retrieval_DbConfig *OH_Retrieval_CreateDbConfig()
@@ -568,13 +466,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_Retrieval_Query *OH_Retrieval_CreateQuery()
@@ -598,13 +490,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_Retrieval_CreateRetriever(const OH_Retrieval_Config *config, OH_Retrieval_Retriever **retriever)
@@ -644,13 +530,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OH_Retrieval_VectorCondition *OH_Retrieval_CreateVectorCondition()
@@ -674,13 +554,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_Retrieval_DestroyCondition(OH_Retrieval_Condition *condition)
@@ -719,13 +593,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_Retrieval_DestroyConfig(OH_Retrieval_Config *config)
@@ -764,13 +632,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_Retrieval_DestroyDbConfig(OH_Retrieval_DbConfig *dbConfig)
@@ -809,13 +671,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_Retrieval_DestroyQuery(OH_Retrieval_Query *query)
@@ -854,13 +710,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_Retrieval_DestroyRecord(OH_Retrieval_Record *record)
@@ -899,13 +749,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_Retrieval_DestroyRetriever(OH_Retrieval_Retriever *retriever)
@@ -944,13 +788,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_Retrieval_DestroySubCondition(OH_Retrieval_SubCondition *condition)
@@ -989,13 +827,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_Retrieval_DestroyVectorCondition(OH_Retrieval_VectorCondition *condition)
@@ -1034,13 +866,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_Retrieval_GetItemSize(const OH_Retrieval_RecordItem *items, const char *fieldName, size_t *size)
@@ -1082,13 +908,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_Retrieval_GetItemText(const OH_Retrieval_RecordItem *items, const char *fieldName, char *value, size_t size)
@@ -1131,13 +951,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_Retrieval_GetRecordItem(const OH_Retrieval_Record *record, uint32_t index, const OH_Retrieval_RecordItem **item)
@@ -1179,13 +993,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_Retrieval_GetRecordLength(const OH_Retrieval_Record *record, uint32_t *length)
@@ -1225,13 +1033,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_Retrieval_Retrieve(const OH_Retrieval_Retriever *retriever, const OH_Retrieval_Query *query, const OH_Retrieval_Condition *condition, void *context, const OH_Retrieval_Callback *callback)
@@ -1276,13 +1078,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_Retrieval_SetDbConfig(OH_Retrieval_DbConfig *dbConfig, OH_Rdb_ConfigV2 *rdbConfig)
@@ -1322,13 +1118,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_Retrieval_SetOriginalQuestion(OH_Retrieval_Query *query, const char *question)
@@ -1369,13 +1159,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_Retrieval_SetSimilarityThreshold(OH_Retrieval_VectorCondition *condition, double threshold)
@@ -1415,13 +1199,7 @@ PhonePC/2in1Tablet
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int OH_Retrieval_SetVectorRecallLimit(OH_Retrieval_VectorCondition *condition, uint32_t limit)

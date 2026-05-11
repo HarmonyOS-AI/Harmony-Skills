@@ -12,13 +12,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { startupManager }  from '@kit.AbilityKit';
@@ -74,13 +68,7 @@ run(startupTasks: Array<string>, config?: StartupConfig): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want, startupManager } from '@kit.AbilityKit';
@@ -153,13 +141,7 @@ run(startupTasks: Array<string>, context: common.AbilityStageContext, config: St
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityStage, startupManager, StartupListener, StartupConfig } from '@kit.AbilityKit';
@@ -213,13 +195,7 @@ removeAllStartupTaskResults(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want, startupManager } from '@kit.AbilityKit';
@@ -294,13 +270,7 @@ getStartupTaskResult(startupTask: string): Object
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want, startupManager } from '@kit.AbilityKit';
@@ -375,13 +345,7 @@ isStartupTaskInitialized(startupTask: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want, startupManager } from '@kit.AbilityKit';
@@ -462,13 +426,7 @@ removeStartupTaskResult(startupTask: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want, startupManager } from '@kit.AbilityKit';

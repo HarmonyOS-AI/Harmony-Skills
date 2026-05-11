@@ -37,13 +37,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HiAI_SingleOpTensor* HiAI_SingleOpExecutorConvolutionParam::bias
@@ -57,13 +51,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HiAI_SingleOpTensor* HiAI_SingleOpExecutorConvolutionParam::filter
@@ -77,13 +65,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HiAI_SingleOpTensorDesc* HiAI_SingleOpExecutorConvolutionParam::input
@@ -97,13 +79,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HiAI_SingleOpDescriptor* HiAI_SingleOpExecutorConvolutionParam::opDesc
@@ -117,13 +93,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HiAI_SingleOpOptions* HiAI_SingleOpExecutorConvolutionParam::options
@@ -137,13 +107,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. HiAI_SingleOpTensorDesc* HiAI_SingleOpExecutorConvolutionParam::output

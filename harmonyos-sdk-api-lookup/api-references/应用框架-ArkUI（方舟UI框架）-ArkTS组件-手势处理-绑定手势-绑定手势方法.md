@@ -152,13 +152,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置priorityGesture和parallelGesture分别实现了父组件优先识别手势和父子组件同时触发手势。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -220,13 +214,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置fingerInfos实时监测参与滑动手势的有效触点数量。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

@@ -174,13 +174,7 @@ drawOverlay(drawContext: DrawContext): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // test.ets
@@ -281,13 +275,7 @@ PhonePC/2in1TabletTVWearable
 
 通过DrawModifier对[Text](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-basic-components-text)组件进行自定义绘制。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -487,13 +475,7 @@ PhonePC/2in1TabletTVWearable
 
 通过DrawModifier对[Column](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-container-column)容器的前景进行自定义绘制。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

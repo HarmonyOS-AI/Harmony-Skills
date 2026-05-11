@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ChildProcessOptions } from '@kit.AbilityKit';
@@ -39,13 +33,7 @@ PhonePC/2in1TabletTVWearable
 
 子进程部分：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 在entry模块的src/main/ets/process下创建DemoProcess.ets子进程类:
@@ -63,13 +51,7 @@ PhonePC/2in1TabletTVWearable
 
 主进程部分：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 使用childProcessManager.startArkChildProcess方法启动子进程:

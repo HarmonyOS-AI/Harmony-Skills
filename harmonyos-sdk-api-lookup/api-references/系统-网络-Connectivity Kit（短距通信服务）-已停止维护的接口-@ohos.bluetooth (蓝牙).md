@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import bluetooth from '@ohos.bluetooth';
@@ -48,13 +42,7 @@ enableBluetooth(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let enable : boolean = bluetooth.enableBluetooth();
@@ -86,13 +74,7 @@ disableBluetooth(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let disable : boolean = bluetooth.disableBluetooth();
@@ -124,13 +106,7 @@ getLocalName(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let localName : string = bluetooth.getLocalName();
@@ -162,13 +138,7 @@ getState(): BluetoothState
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let state : bluetooth.BluetoothState = bluetooth.getState();
@@ -200,13 +170,7 @@ getBtConnectionState(): ProfileConnectionState
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let connectionState : bluetooth.ProfileConnectionState = bluetooth.getBtConnectionState();
@@ -246,13 +210,7 @@ setLocalName(name: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let ret : boolean = bluetooth.setLocalName('device_name');
@@ -292,13 +250,7 @@ pairDevice(deviceId: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 实际的地址可由扫描流程获取
@@ -339,13 +291,7 @@ getProfileConnState(profileId: ProfileId): ProfileConnectionState
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let result : bluetooth.ProfileConnectionState = bluetooth.getProfileConnState(bluetooth.ProfileId.PROFILE_A2DP_SOURCE);
@@ -385,13 +331,7 @@ getRemoteDeviceName(deviceId: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let remoteDeviceName : string = bluetooth.getRemoteDeviceName("XX:XX:XX:XX:XX:XX");
@@ -431,13 +371,7 @@ getRemoteDeviceClass(deviceId: string): DeviceClass
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let remoteDeviceClass : bluetooth.DeviceClass = bluetooth.getRemoteDeviceClass("XX:XX:XX:XX:XX:XX");
@@ -469,13 +403,7 @@ getPairedDevices(): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let devices : Array<string> = bluetooth.getPairedDevices();
@@ -516,13 +444,7 @@ setBluetoothScanMode(mode: ScanMode, duration: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 设置为可连接可发现才可被远端设备扫描到，可以连接。
@@ -556,13 +478,7 @@ getBluetoothScanMode(): ScanMode
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let scanMode : bluetooth.ScanMode = bluetooth.getBluetoothScanMode();
@@ -594,13 +510,7 @@ startBluetoothDiscovery(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let deviceId : Array<string>;
@@ -637,13 +547,7 @@ stopBluetoothDiscovery(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let result : boolean = bluetooth.stopBluetoothDiscovery();
@@ -684,13 +588,7 @@ setDevicePairingConfirmation(device: string, accept: boolean): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 订阅“pinRequired”配对请求事件，收到远端配对请求后设置配对确认
@@ -732,13 +630,7 @@ on(type: 'bluetoothDeviceFind', callback: Callback<Array<string>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function onReceiveEvent(data : Array<string>) { // data为蓝牙设备地址集合
@@ -778,13 +670,7 @@ off(type: 'bluetoothDeviceFind', callback?: Callback<Array<string>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function onReceiveEvent(data : Array<string>) {
@@ -825,13 +711,7 @@ on(type: 'pinRequired', callback: Callback<PinRequiredParam>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function onReceiveEvent(data : bluetooth.PinRequiredParam) { // data为配对请求参数
@@ -871,13 +751,7 @@ off(type: 'pinRequired', callback?: Callback<PinRequiredParam>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function onReceiveEvent(data : bluetooth.PinRequiredParam) {
@@ -918,13 +792,7 @@ on(type: 'bondStateChange', callback: Callback<BondStateParam>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function onReceiveEvent(data : bluetooth.BondStateParam) { // data为回调函数入参，表示配对的状态
@@ -964,13 +832,7 @@ off(type: 'bondStateChange', callback?: Callback<BondStateParam>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function onReceiveEvent(data : bluetooth.BondStateParam) {
@@ -1011,13 +873,7 @@ on(type: 'stateChange', callback: Callback<BluetoothState>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function onReceiveEvent(data : bluetooth.BluetoothState) {
@@ -1057,13 +913,7 @@ off(type: 'stateChange', callback?: Callback<BluetoothState>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function onReceiveEvent(data : bluetooth.BluetoothState) {
@@ -1101,13 +951,7 @@ sppListen(name: string, option: SppOption, callback: AsyncCallback<number>): voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1149,13 +993,7 @@ sppAccept(serverSocket: number, callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1207,13 +1045,7 @@ sppConnect(device: string, option: SppOption, callback: AsyncCallback<number>): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1254,13 +1086,7 @@ sppCloseServerSocket(socket: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1299,13 +1125,7 @@ sppCloseClientSocket(socket: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1354,13 +1174,7 @@ sppWrite(clientSocket: number, data: ArrayBuffer): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1414,13 +1228,7 @@ on(type: 'sppRead', clientSocket: number, callback: Callback<ArrayBuffer>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1469,13 +1277,7 @@ off(type: 'sppRead', clientSocket: number, callback?: Callback<ArrayBuffer>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1523,13 +1325,7 @@ getProfile(profileId: ProfileId): A2dpSourceProfile | HandsFreeAudioGatewayProfi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let a2dpSrc : bluetooth.A2dpSourceProfile = bluetooth.getProfile(bluetooth.ProfileId.PROFILE_A2DP_SOURCE) as bluetooth.A2dpSourceProfile;
@@ -1563,13 +1359,7 @@ createGattServer(): GattServer
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let gattServer : bluetooth.GattServer = bluetooth.BLE.createGattServer();
@@ -1607,13 +1397,7 @@ createGattClientDevice(deviceId: string): GattClientDevice
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let device : bluetooth.GattClientDevice = bluetooth.BLE.createGattClientDevice('XX:XX:XX:XX:XX:XX');
@@ -1645,13 +1429,7 @@ getConnectedBLEDevices(): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let result : Array<string> = bluetooth.BLE.getConnectedBLEDevices();
@@ -1688,13 +1466,7 @@ startBLEScan(filters: Array<ScanFilter>, options?: ScanOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function onReceiveEvent(data : Array<bluetooth.ScanResult>) {
@@ -1739,13 +1511,7 @@ stopBLEScan(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. bluetooth.BLE.stopBLEScan();
@@ -1782,13 +1548,7 @@ on(type: 'BLEDeviceFind', callback: Callback<Array<ScanResult>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function onReceiveEvent(data : Array<bluetooth.ScanResult>) {
@@ -1828,13 +1588,7 @@ off(type: 'BLEDeviceFind', callback?: Callback<Array<ScanResult>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function onReceiveEvent(data : Array<bluetooth.ScanResult>) {
@@ -1876,13 +1630,7 @@ getConnectionDevices(): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let a2dpSrc : bluetooth.A2dpSourceProfile = bluetooth.getProfile(bluetooth.ProfileId.PROFILE_A2DP_SOURCE) as bluetooth.A2dpSourceProfile;
@@ -1923,13 +1671,7 @@ getDeviceState(device: string): ProfileConnectionState
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let a2dpSrc : bluetooth.A2dpSourceProfile = bluetooth.getProfile(bluetooth.ProfileId.PROFILE_A2DP_SOURCE) as bluetooth.A2dpSourceProfile;
@@ -1976,13 +1718,7 @@ connect(device: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let a2dpSrc : bluetooth.A2dpSourceProfile = bluetooth.getProfile(bluetooth.ProfileId.PROFILE_A2DP_SOURCE) as bluetooth.A2dpSourceProfile;
@@ -2023,13 +1759,7 @@ disconnect(device: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let a2dpSrc : bluetooth.A2dpSourceProfile = bluetooth.getProfile(bluetooth.ProfileId.PROFILE_A2DP_SOURCE) as bluetooth.A2dpSourceProfile;
@@ -2065,13 +1795,7 @@ on(type: 'connectionStateChange', callback: Callback<[StateChangeParam](/consume
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function onReceiveEvent(data : bluetooth.StateChangeParam) {
@@ -2110,13 +1834,7 @@ off(type: 'connectionStateChange', callback?: Callback<[StateChangeParam](/consu
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function onReceiveEvent(data : bluetooth.StateChangeParam) {
@@ -2159,13 +1877,7 @@ getPlayingState(device: string): PlayingState
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let a2dpSrc : bluetooth.A2dpSourceProfile = bluetooth.getProfile(bluetooth.ProfileId.PROFILE_A2DP_SOURCE) as bluetooth.A2dpSourceProfile;
@@ -2212,13 +1924,7 @@ connect(device: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let hfpAg : bluetooth.HandsFreeAudioGatewayProfile= bluetooth.getProfile(bluetooth.ProfileId
@@ -2260,13 +1966,7 @@ disconnect(device: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let hfpAg : bluetooth.HandsFreeAudioGatewayProfile = bluetooth.getProfile(bluetooth.ProfileId
@@ -2303,13 +2003,7 @@ on(type: 'connectionStateChange', callback: Callback<[StateChangeParam](/consume
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function onReceiveEvent(data : bluetooth.StateChangeParam) {
@@ -2349,13 +2043,7 @@ off(type: 'connectionStateChange', callback?: Callback<[StateChangeParam](/consu
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function onReceiveEvent(data : bluetooth.StateChangeParam) {
@@ -2405,13 +2093,7 @@ startAdvertising(setting: AdvertiseSetting, advData: AdvertiseData, advResponse?
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let manufactureValueBuffer = new Uint8Array(4);
@@ -2480,13 +2162,7 @@ stopAdvertising(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let server : bluetooth.GattServer = bluetooth.BLE.createGattServer();
@@ -2527,13 +2203,7 @@ server端添加服务。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 创建descriptors
@@ -2603,13 +2273,7 @@ removeService(serviceUuid: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let server : bluetooth.GattServer = bluetooth.BLE.createGattServer();
@@ -2634,13 +2298,7 @@ close(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let server : bluetooth.GattServer = bluetooth.BLE.createGattServer();
@@ -2682,13 +2340,7 @@ server端特征值发生变化时，主动通知已连接的client设备。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 创建descriptors
@@ -2743,13 +2395,7 @@ server端回复client端的读写请求。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. /* send response */
@@ -2804,13 +2450,7 @@ server端订阅特征值读请求事件。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let arrayBufferCCC = new ArrayBuffer(8);
@@ -2868,13 +2508,7 @@ server端取消订阅特征值读请求事件。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let gattServer : bluetooth.GattServer = bluetooth.BLE.createGattServer();
@@ -2912,13 +2546,7 @@ server端订阅特征值写请求事件。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let arrayBufferCCC = new ArrayBuffer(8);
@@ -2979,13 +2607,7 @@ server端取消订阅特征值写请求事件。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let gattServer : bluetooth.GattServer = bluetooth.BLE.createGattServer();
@@ -3023,13 +2645,7 @@ server端订阅描述符读请求事件。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let arrayBufferDesc = new ArrayBuffer(8);
@@ -3087,13 +2703,7 @@ server端取消订阅描述符读请求事件。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let gattServer : bluetooth.GattServer = bluetooth.BLE.createGattServer();
@@ -3131,13 +2741,7 @@ server端订阅描述符写请求事件。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let arrayBufferDesc = new ArrayBuffer(8);
@@ -3197,13 +2801,7 @@ server端取消订阅描述符写请求事件。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let gattServer : bluetooth.GattServer = bluetooth.BLE.createGattServer();
@@ -3241,13 +2839,7 @@ server端订阅BLE连接状态变化事件。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function Connected(BLEConnectChangedState : bluetooth.BLEConnectChangedState) {
@@ -3290,13 +2882,7 @@ server端取消订阅BLE连接状态变化事件。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let gattServer : bluetooth.GattServer = bluetooth.BLE.createGattServer();
@@ -3335,13 +2921,7 @@ client端发起连接远端蓝牙低功耗设备。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let device : bluetooth.GattClientDevice = bluetooth.BLE.createGattClientDevice('XX:XX:XX:XX:XX:XX');
@@ -3374,13 +2954,7 @@ client端断开与远端蓝牙低功耗设备的连接。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let device : bluetooth.GattClientDevice = bluetooth.BLE.createGattClientDevice('XX:XX:XX:XX:XX:XX');
@@ -3413,13 +2987,7 @@ close(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let device : bluetooth.GattClientDevice = bluetooth.BLE.createGattClientDevice('XX:XX:XX:XX:XX:XX');
@@ -3456,13 +3024,7 @@ client端获取蓝牙低功耗设备的所有服务，即服务发现 。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3509,13 +3071,7 @@ client端获取蓝牙低功耗设备的所有服务，即服务发现。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Promise 模式
@@ -3557,13 +3113,7 @@ client端读取蓝牙低功耗设备特定服务的特征值。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3629,13 +3179,7 @@ client端读取蓝牙低功耗设备特定服务的特征值。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let device : bluetooth.GattClientDevice = bluetooth.BLE.createGattClientDevice('XX:XX:XX:XX:XX:XX');
@@ -3689,13 +3233,7 @@ client端读取蓝牙低功耗设备特定的特征包含的描述符。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3751,13 +3289,7 @@ client端读取蓝牙低功耗设备特定的特征包含的描述符。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let device : bluetooth.GattClientDevice = bluetooth.BLE.createGattClientDevice('XX:XX:XX:XX:XX:XX');
@@ -3804,13 +3336,7 @@ client端向低功耗蓝牙设备写入特定的特征值。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let device : bluetooth.GattClientDevice = bluetooth.BLE.createGattClientDevice('XX:XX:XX:XX:XX:XX');
@@ -3871,13 +3397,7 @@ client端向低功耗蓝牙设备特定的描述符写入二进制数据。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let device : bluetooth.GattClientDevice = bluetooth.BLE.createGattClientDevice('XX:XX:XX:XX:XX:XX');
@@ -3929,13 +3449,7 @@ client协商远端蓝牙低功耗设备的最大传输单元（Maximum Transmiss
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let device : bluetooth.GattClientDevice = bluetooth.BLE.createGattClientDevice('XX:XX:XX:XX:XX:XX');
@@ -3977,13 +3491,7 @@ setNotifyCharacteristicChanged(characteristic: BLECharacteristic, enable: boolea
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 创建descriptors
@@ -4033,13 +3541,7 @@ on(type: 'BLECharacteristicChange', callback: Callback<BLECharacteristic>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function CharacteristicChange(CharacteristicChangeReq : bluetooth.BLECharacteristic) {
@@ -4082,13 +3584,7 @@ off(type: 'BLECharacteristicChange', callback?: Callback<BLECharacteristic>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let device : bluetooth.GattClientDevice = bluetooth.BLE.createGattClientDevice('XX:XX:XX:XX:XX:XX');
@@ -4126,13 +3622,7 @@ client端订阅蓝牙低功耗设备的连接状态变化事件。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function ConnectStateChanged(state : bluetooth.BLEConnectChangedState) {
@@ -4174,13 +3664,7 @@ off(type: 'BLEConnectionStateChange', callback?: Callback<BLEConnectChangedState
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let device : bluetooth.GattClientDevice = bluetooth.BLE.createGattClientDevice('XX:XX:XX:XX:XX:XX');
@@ -4217,13 +3701,7 @@ client获取远端蓝牙低功耗设备名。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -4261,13 +3739,7 @@ client获取远端蓝牙低功耗设备名。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // promise
@@ -4307,13 +3779,7 @@ client获取远端蓝牙低功耗设备的信号强度 (Received Signal Strength
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@ohos.base';
@@ -4352,13 +3818,7 @@ client获取远端蓝牙低功耗设备的信号强度 (Received Signal Strength
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // promise

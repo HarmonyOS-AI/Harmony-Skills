@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { CollaborationDevicePicker } from '@kit.ServiceCollaborationKit'
@@ -51,13 +45,7 @@ struct的默认构造函数，开发者无法直接调用此方法。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { devicePicker, CollaborationDevicePicker } from '@kit.ServiceCollaborationKit'

@@ -6,13 +6,7 @@ LiveViewLockScreenExtensionAbility的上下文环境，继承自[ExtensionContex
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LiveViewLockScreenExtensionContext } from '@kit.LiveViewKit';

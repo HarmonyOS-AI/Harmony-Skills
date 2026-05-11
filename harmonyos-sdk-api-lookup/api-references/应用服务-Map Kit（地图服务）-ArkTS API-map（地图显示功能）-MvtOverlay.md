@@ -2,13 +2,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { map, mapCommon } from '@kit.MapKit';
@@ -30,13 +24,7 @@ PhonePC/2in1Tablet
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: mapCommon.MvtOverlayParams = {
@@ -92,13 +80,7 @@ addLayers(layers: mapCommon.MvtLayer[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let renderLayers: Array<mapCommon.MvtLayer> = []
@@ -151,13 +133,7 @@ removeLayers(layerIds: string[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let layerIds = ['111'];
@@ -191,13 +167,7 @@ changeLayers(addedLayers: mapCommon.MvtLayer[], removedLayerIds: string[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let renderLayers: Array<mapCommon.MvtLayer> = [];
@@ -251,13 +221,7 @@ setBlur(blurIntensity: number | Record<number, number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. mvtOverlay.setBlur(8);
@@ -289,13 +253,7 @@ getBlur(): number | Record<number, number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let blur: number | Record<number, number> = mvtOverlay.getBlur()

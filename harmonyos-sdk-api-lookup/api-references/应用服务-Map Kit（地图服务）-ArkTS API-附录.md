@@ -1,3 +1,0 @@
-* **[POI类型值](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/map-poi)**
-* **[城市码及区划代码表](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/map-citycode)**
-* **[路径规划支持的国家/地区](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/map-navisupported)**

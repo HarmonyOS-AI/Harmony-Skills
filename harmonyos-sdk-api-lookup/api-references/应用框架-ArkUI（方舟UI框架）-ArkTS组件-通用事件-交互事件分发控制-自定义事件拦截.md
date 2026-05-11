@@ -42,13 +42,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过onTouchIntercept修改组件的HitTestMode属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

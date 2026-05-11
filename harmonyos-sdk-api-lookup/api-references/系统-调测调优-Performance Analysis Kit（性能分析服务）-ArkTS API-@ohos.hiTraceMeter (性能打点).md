@@ -18,13 +18,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hiTraceMeter } from '@kit.PerformanceAnalysisKit';
@@ -59,13 +53,7 @@ startTrace(name: string, taskId: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. hiTraceMeter.startTrace("myTestFunc", 1);
@@ -98,13 +86,7 @@ finishTrace的name和taskId必须与流程开始的[startTrace()](/consumer/cn/d
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 跟踪并行执行的同名任务
@@ -117,13 +99,7 @@ finishTrace的name和taskId必须与流程开始的[startTrace()](/consumer/cn/d
 8. hiTraceMeter.finishTrace("myTestFunc", 2);
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 跟踪串行执行的同名任务
@@ -161,13 +137,7 @@ traceByValue(name: string, count: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let traceCount = 3;
@@ -229,13 +199,7 @@ startAsyncTrace(level: HiTraceOutputLevel, name: string, taskId: number, customC
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 不需要customCategory参数时，可传入空字符串
@@ -274,26 +238,14 @@ finishAsyncTrace的level、name和taskId必须与流程开始的[startAsyncTrace
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const COMMERCIAL = hiTraceMeter.HiTraceOutputLevel.COMMERCIAL;
 2. hiTraceMeter.finishAsyncTrace(COMMERCIAL, "myTestFunc", 1);
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const COMMERCIAL = hiTraceMeter.HiTraceOutputLevel.COMMERCIAL;
@@ -311,13 +263,7 @@ finishAsyncTrace的level、name和taskId必须与流程开始的[startAsyncTrace
 13. hiTraceMeter.finishAsyncTrace(COMMERCIAL, "myTestFunc", 2);
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const COMMERCIAL = hiTraceMeter.HiTraceOutputLevel.COMMERCIAL;
@@ -359,13 +305,7 @@ startSyncTrace(level: HiTraceOutputLevel, name: string, customArgs?: string): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const COMMERCIAL = hiTraceMeter.HiTraceOutputLevel.COMMERCIAL;
@@ -401,26 +341,14 @@ finishSyncTrace的level必须与流程开始的[startSyncTrace()](/consumer/cn/d
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const COMMERCIAL = hiTraceMeter.HiTraceOutputLevel.COMMERCIAL;
 2. hiTraceMeter.finishSyncTrace(COMMERCIAL);
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const COMMERCIAL = hiTraceMeter.HiTraceOutputLevel.COMMERCIAL;
@@ -462,13 +390,7 @@ traceByValue(level: HiTraceOutputLevel, name: string, count: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const COMMERCIAL = hiTraceMeter.HiTraceOutputLevel.COMMERCIAL;
@@ -501,13 +423,7 @@ isTraceEnabled(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. if (hiTraceMeter.isTraceEnabled()) {
@@ -577,13 +493,7 @@ registerTraceListener(callback: TraceEventListener): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 注册的回调函数定义
@@ -632,13 +542,7 @@ unregisterTraceListener(index: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 注销应用trace捕获开关通知回调，index为hiTraceMeter.registerTraceListener返回的回调索引

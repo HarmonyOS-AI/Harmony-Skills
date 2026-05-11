@@ -1,2 +1,0 @@
-* **[arEngine（AR增强现实能力）](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arengine-api-arengine)**
-* **[arViewController（AR场景管理能力）](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arengine-api-arviewcontroller)**

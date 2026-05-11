@@ -141,13 +141,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例定义了Divider的样式，如方向、颜色及宽度。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -225,13 +219,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例定义了Divider的lineCap样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

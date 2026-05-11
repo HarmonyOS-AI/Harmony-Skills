@@ -8,13 +8,7 @@
 
   移动设备的视口默认值大小为980px，默认值可以确保大部分网页在移动设备下可以正常浏览。如果RichText组件宽度低于这个值，content内部的HTML则可能会产生一个可以滑动的页面被RichText组件包裹。如果想替换默认值，可以在content中添加以下标签：
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. <meta name="viewport" content="width=device-width">
@@ -122,13 +116,7 @@ PhonePC/2in1TabletTVWearable
 
 示例效果请以真机运行为准，当前DevEco Studio预览器不支持。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -190,13 +178,7 @@ PhonePC/2in1TabletTVWearable
 
 通过$rawfile方式加载。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -217,13 +199,7 @@ PhonePC/2in1TabletTVWearable
 
 使用 resource://rawfile/ 协议前缀可以避免常规 $rawfile 方式在处理带有"#"路由链接时的局限性。当URL中包含"#"号时，"#"后面的内容会被视为锚点（fragment）。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -244,13 +220,7 @@ PhonePC/2in1TabletTVWearable
 
 加载的html文件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- index.html -->

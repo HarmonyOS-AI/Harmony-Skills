@@ -6,13 +6,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cdsm } from '@kit.NearLinkKit';
@@ -64,13 +58,7 @@ createCdsmClient(address: string): CdsmClient
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cdsm } from '@kit.NearLinkKit';
@@ -134,13 +122,7 @@ getCdsmInfo(): CdsmInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cdsm } from '@kit.NearLinkKit';
@@ -191,13 +173,7 @@ onCdsmInfoChange(callback: Callback<CdsmInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cdsm } from '@kit.NearLinkKit';
@@ -252,13 +228,7 @@ offCdsmInfoChange(callback?: Callback<CdsmInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cdsm } from '@kit.NearLinkKit';

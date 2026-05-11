@@ -99,13 +99,7 @@ getInspectorByKey(id: string): string
 
 **示例:**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -150,13 +144,7 @@ getInspectorTree(): Object
 
 **示例:**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -211,13 +199,7 @@ sendEventByKey(id: string, action: number, params: string): boolean
 
 **示例:**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -325,13 +307,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要展示如何通过组件标识接口，获取特定id组件的属性，以及如何向该id的组件触发事件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

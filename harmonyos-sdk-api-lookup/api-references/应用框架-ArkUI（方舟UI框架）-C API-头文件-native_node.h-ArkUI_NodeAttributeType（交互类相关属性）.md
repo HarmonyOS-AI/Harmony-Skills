@@ -1,10 +1,4 @@
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum ArkUI_NodeAttributeType
@@ -22,13 +16,7 @@
 
 ## NODE\_HIT\_TEST\_BEHAVIOR
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_HIT_TEST_BEHAVIOR = 26
@@ -58,13 +46,7 @@
 
 ## NODE\_DEFAULT\_FOCUS
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_DEFAULT_FOCUS = 40
@@ -94,13 +76,7 @@
 
 ## NODE\_RESPONSE\_REGION
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_RESPONSE_REGION = 41
@@ -142,13 +118,7 @@
 
 ## NODE\_OVERLAY
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_OVERLAY = 42
@@ -188,13 +158,7 @@
 
 ## NODE\_FOCUS\_STATUS
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_FOCUS_STATUS = 66
@@ -228,13 +192,7 @@
 
 ## NODE\_FOCUS\_ON\_TOUCH
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_FOCUS_ON_TOUCH = 84
@@ -264,13 +222,7 @@
 
 ## NODE\_EXPAND\_SAFE\_AREA
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_EXPAND_SAFE_AREA = 92
@@ -302,13 +254,7 @@
 
 ## NODE\_VISIBLE\_AREA\_CHANGE\_RATIO
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_VISIBLE_AREA_CHANGE_RATIO = 93
@@ -340,13 +286,7 @@
 
 ## NODE\_FOCUS\_BOX
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_FOCUS_BOX = 96
@@ -370,13 +310,7 @@
 
 ## NODE\_TAB\_STOP
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_TAB_STOP = 98
@@ -406,13 +340,7 @@
 
 ## NODE\_NEXT\_FOCUS
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_NEXT_FOCUS = 101
@@ -435,13 +363,7 @@
 
 ## NODE\_VISIBLE\_AREA\_APPROXIMATE\_CHANGE\_RATIO
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_VISIBLE_AREA_APPROXIMATE_CHANGE_RATIO = 102
@@ -475,13 +397,7 @@
 
 ## NODE\_ENABLE\_CLICK\_SOUND\_EFFECT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_ENABLE_CLICK_SOUND_EFFECT = 110
@@ -511,13 +427,7 @@
 
 ## NODE\_HOVER\_EFFECT
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_HOVER_EFFECT = 112
@@ -547,13 +457,7 @@
 
 ## NODE\_FOCUS\_SCOPE\_ID
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_FOCUS_SCOPE_ID = 113
@@ -587,13 +491,7 @@
 
 ## NODE\_FOCUS\_SCOPE\_PRIORITY
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_FOCUS_SCOPE_PRIORITY = 114
@@ -625,13 +523,7 @@
 
 ## NODE\_ON\_CLICK\_EVENT\_DISTANCE\_THRESHOLD
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_ON_CLICK_EVENT_DISTANCE_THRESHOLD = 115
@@ -661,13 +553,7 @@
 
 ## NODE\_RESPONSE\_REGION\_LIST
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_RESPONSE_REGION_LIST = 116
@@ -711,13 +597,7 @@
 
 ## NODE\_MONOPOLIZE\_EVENTS
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. NODE_MONOPOLIZE_EVENTS = 117

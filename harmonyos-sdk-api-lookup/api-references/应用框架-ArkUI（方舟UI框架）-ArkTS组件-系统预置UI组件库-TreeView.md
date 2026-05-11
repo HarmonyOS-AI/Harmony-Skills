@@ -12,13 +12,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TreeView } from "@kit.ArkUI";
@@ -364,13 +358,7 @@ PhonePC/2in1TabletTVWearable
 
 通过树视图组件的控制器对树的节点进行新增、删除、重命名，展示新增不同参数节点的实现效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TreeController, TreeListener, TreeListenerManager, TreeListenType, NodeParam, TreeView, CallbackParam } from '@kit.ArkUI';
@@ -489,13 +477,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 18开始，该示例通过设置NodeParam的属性symbolIconStyle、symbolEditIconStyle、symbolSelectedIconStyle，展示了自定义Symbol类型图标。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { TreeController, TreeListener, TreeListenerManager, TreeListenType, NodeParam, TreeView, CallbackParam,

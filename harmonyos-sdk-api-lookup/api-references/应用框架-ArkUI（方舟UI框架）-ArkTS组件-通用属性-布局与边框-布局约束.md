@@ -78,13 +78,7 @@ PhonePC/2in1TabletTVWearable
 
 通过aspectRatio设置不同的宽高比。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -151,13 +145,7 @@ PhonePC/2in1TabletTVWearable
 
 使用displayPriority为子组件设置显示优先级。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class ContainerInfo {

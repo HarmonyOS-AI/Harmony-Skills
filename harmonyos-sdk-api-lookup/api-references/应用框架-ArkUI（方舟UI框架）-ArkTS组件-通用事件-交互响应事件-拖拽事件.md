@@ -1104,13 +1104,7 @@ PhonePC/2in1TabletTVWearable
 
 示例1展示了部分组件（如Image和Text等）拖拽和可落入区域的设置。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1316,13 +1310,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 18开始，示例2展示了通过自定义接口[executeDropAnimation](/consumer/cn/doc/harmonyos-references/ts-universal-events-drag-drop#executedropanimation18)，实现落位动效。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { unifiedDataChannel, uniformTypeDescriptor } from '@kit.ArkData';
@@ -1409,13 +1397,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 15开始，示例3展示了通过[startDataLoading](/consumer/cn/doc/harmonyos-references/ts-universal-events-drag-drop#startdataloading15)实现拖拽异步获取数据。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { unifiedDataChannel, uniformTypeDescriptor } from '@kit.ArkData';
@@ -1545,13 +1527,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，示例4展示了通过onDragXXX（不支持onDragEnd）接口获取到拖拽事件，并调用拖拽事件里的[getDisplayId](/consumer/cn/doc/harmonyos-references/ts-universal-events-drag-drop#getdisplayid20)接口获取屏幕ID。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { unifiedDataChannel, uniformTypeDescriptor } from '@kit.ArkData';
@@ -1733,13 +1709,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，示例5展示了通过onDragXXX接口获取到拖拽事件，调用拖拽事件里的[getDragSource](/consumer/cn/doc/harmonyos-references/ts-universal-events-drag-drop#getdragsource20)接口获取包名，调用isRemote接口获取是否是跨设备。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -1824,13 +1794,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，示例6展示了通过[onDragSpringLoading](/consumer/cn/doc/harmonyos-references/ts-universal-events-drag-drop#ondragspringloading20)接口注册回调，并调用[SpringLoadingContext](/consumer/cn/doc/harmonyos-references/ts-universal-events-drag-drop#springloadingcontext20)接口获取上下文（当前状态、通知序列）。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1917,13 +1881,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，示例7展示了在[onDragStart](/consumer/cn/doc/harmonyos-references/ts-universal-events-drag-drop#ondragstart)中调用[setDataLoadParams](/consumer/cn/doc/harmonyos-references/ts-universal-events-drag-drop#setdataloadparams20)延迟提供数据接口，并在[onDrop](/consumer/cn/doc/harmonyos-references/ts-universal-events-drag-drop#ondrop)中调用[startDataLoading](/consumer/cn/doc/harmonyos-references/ts-universal-events-drag-drop#startdataloading15)异步获取数据接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { unifiedDataChannel, uniformDataStruct, uniformTypeDescriptor } from '@kit.ArkData';

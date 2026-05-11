@@ -10,13 +10,7 @@ LiveFormExtensionContext是[LiveFormExtensionAbility](https://developer.huawei.c
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -83,13 +77,7 @@ startAbilityByLiveForm(want: Want): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // MyLiveFormExtensionAbility.ets
@@ -106,13 +94,7 @@ startAbilityByLiveForm(want: Want): Promise<void>
 12. };
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // pages/MyLiveFormPage.ets

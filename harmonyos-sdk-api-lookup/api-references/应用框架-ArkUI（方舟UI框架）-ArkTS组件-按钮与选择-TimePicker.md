@@ -385,13 +385,7 @@ enableHapticFeedback(enable: boolean)
 
 开启触控反馈时，需要在工程的src/main/module.json5文件的"module"内配置requestPermissions字段开启振动权限，配置如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. "requestPermissions": [
@@ -427,13 +421,7 @@ enableHapticFeedback(enable: Optional<boolean>)
 
 开启触控反馈时，需要在工程的src/main/module.json5文件的"module"内配置requestPermissions字段开启振动权限，配置如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. "requestPermissions": [
@@ -639,13 +627,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置[disappearTextStyle](/consumer/cn/doc/harmonyos-references/ts-basic-components-timepicker#disappeartextstyle10)、[textStyle](/consumer/cn/doc/harmonyos-references/ts-basic-components-timepicker#textstyle10)和[selectedTextStyle](/consumer/cn/doc/harmonyos-references/ts-basic-components-timepicker#selectedtextstyle10)实现文本选择器中的文本样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -677,13 +659,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置useMilitaryTime实现12小时制、24小时制的切换。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -725,13 +701,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例使用format和dateTimeOptions设置TimePicker时间格式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -764,13 +734,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置[loop](/consumer/cn/doc/harmonyos-references/ts-basic-components-timepicker#loop11)设置TimePicker是否循环滚动。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -813,13 +777,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例设置TimePicker的起始时间。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -853,13 +811,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例设置TimePicker的结束时间。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -895,13 +847,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 18开始，新增enableCascade接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

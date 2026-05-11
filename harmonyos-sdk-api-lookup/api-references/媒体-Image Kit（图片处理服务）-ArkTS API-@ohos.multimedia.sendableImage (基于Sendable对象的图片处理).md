@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -51,13 +45,7 @@ createPixelMap(colors: ArrayBuffer, options: image.InitializationOptions): Promi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -123,13 +111,7 @@ createPixelMapFromParcel(sequence: rpc.MessageSequence): PixelMap
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -232,13 +214,7 @@ createPixelMapFromSurface(surfaceId: string, region: image.Region): Promise<Pixe
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -296,13 +272,7 @@ createPixelMapSync(colors: ArrayBuffer, options: image.InitializationOptions): P
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -358,13 +328,7 @@ convertFromPixelMap(pixelmap: image.PixelMap): PixelMap
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -420,13 +384,7 @@ convertToPixelMap(pixelmap: PixelMap): image.PixelMap
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -514,13 +472,7 @@ readPixelsToBuffer(dst: ArrayBuffer): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -571,13 +523,7 @@ readPixelsToBufferSync(dst: ArrayBuffer): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -621,13 +567,7 @@ readPixels(area: image.PositionArea): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -684,13 +624,7 @@ readPixelsSync(area: image.PositionArea): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -739,13 +673,7 @@ writePixels(area: image.PositionArea): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -806,13 +734,7 @@ writePixelsSync(area: image.PositionArea): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -865,13 +787,7 @@ writeBufferToPixels(src: ArrayBuffer): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -926,13 +842,7 @@ writeBufferToPixelsSync(src: ArrayBuffer): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -972,13 +882,7 @@ getImageInfo(): Promise<image.ImageInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -1030,13 +934,7 @@ getImageInfoSync(): image.ImageInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from '@kit.ImageKit';
@@ -1071,13 +969,7 @@ getBytesNumberPerRow(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -1109,13 +1001,7 @@ getPixelBytesNumber(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -1147,13 +1033,7 @@ getDensity():number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -1193,13 +1073,7 @@ opacity(rate: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -1250,13 +1124,7 @@ opacitySync(rate: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -1293,13 +1161,7 @@ createAlphaPixelmap(): Promise<PixelMap>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -1351,13 +1213,7 @@ createAlphaPixelmapSync(): PixelMap
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -1399,13 +1255,7 @@ scale(x: number, y: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -1459,13 +1309,7 @@ scaleSync(x: number, y: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -1512,13 +1356,7 @@ translate后的图片尺寸改变为：width+X，height+Y，建议translate后�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -1573,13 +1411,7 @@ translate后的图片尺寸改变为：width+X，height+Y，建议translate后�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -1628,13 +1460,7 @@ rotate(angle: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -1690,13 +1516,7 @@ rotateSync(angle: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -1740,13 +1560,7 @@ flip(horizontal: boolean, vertical: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -1800,13 +1614,7 @@ flipSync(horizontal: boolean, vertical: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -1850,13 +1658,7 @@ crop(region: image.Region): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -1909,13 +1711,7 @@ cropSync(region: image.Region): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -1961,13 +1757,7 @@ getColorSpace(): colorSpaceManager.ColorSpaceManager
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -2010,13 +1800,7 @@ setColorSpace(colorSpace: colorSpaceManager.ColorSpaceManager): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -2072,13 +1856,7 @@ applyColorSpace(targetColorSpace: colorSpaceManager.ColorSpaceManager): Promise<
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -2127,13 +1905,7 @@ marshalling(sequence: rpc.MessageSequence): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -2234,13 +2006,7 @@ unmarshalling(sequence: rpc.MessageSequence): Promise<PixelMap>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -2325,13 +2091,7 @@ release():Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2423,13 +2183,7 @@ createImageSource(uri: string): ImageSource
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -2472,13 +2226,7 @@ createImageSource(fd: number): ImageSource
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -2525,13 +2273,7 @@ createImageSource(buf: ArrayBuffer): ImageSource
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -2584,13 +2326,7 @@ createImageReceiver(size: image.Size, format: image.ImageFormat, capacity: numbe
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -2647,13 +2383,7 @@ createPixelMap(options?: image.DecodingOptions): Promise<PixelMap>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -2694,13 +2424,7 @@ release(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -2768,13 +2492,7 @@ getComponent(componentType: image.ComponentType): Promise<image.Component>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -2822,13 +2540,7 @@ release(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -2892,13 +2604,7 @@ getReceivingSurfaceId(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -2943,13 +2649,7 @@ readLatestImage(): Promise<Image>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -2994,13 +2694,7 @@ readNextImage(): Promise<Image>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -3042,13 +2736,7 @@ on(type: 'imageArrival', callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';
@@ -3090,13 +2778,7 @@ release(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableImage } from '@kit.ImageKit';

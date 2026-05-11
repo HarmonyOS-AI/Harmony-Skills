@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AtomicServiceNavigation } from '@kit.ArkUI';
@@ -32,13 +26,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AtomicServiceNavigation({
@@ -246,13 +234,7 @@ PhonePC/2in1TabletTVWearable
 
 AtomicServiceNavigation的基础样式，并展示渐变色背景。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AtomicServiceNavigation, MixMode, GradientAlpha, BackgroundTheme } from '@kit.ArkUI';
@@ -391,13 +373,7 @@ AtomicServiceNavigation的基础样式，并展示渐变色背景。
 
 设备宽屏场景（宽度大于600vp）下设置抽屉模式，用户在标题栏插入自定义布局。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AtomicServiceNavigation, TitleBarType } from '@kit.ArkUI';
@@ -542,13 +518,7 @@ AtomicServiceNavigation的基础样式，并展示渐变色背景。
 
 设置边栏：背景色与内容样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AtomicServiceNavigation, TitleBarType } from '@kit.ArkUI';

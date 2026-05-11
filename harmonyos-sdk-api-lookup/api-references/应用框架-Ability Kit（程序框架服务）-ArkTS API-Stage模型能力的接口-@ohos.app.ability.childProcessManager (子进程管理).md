@@ -23,13 +23,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { childProcessManager } from '@kit.AbilityKit';
@@ -100,13 +94,7 @@ startChildProcess(srcEntry: string, startMode: StartMode): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 在entry模块的src/main/ets/process下创建DemoProcess.ets子进程类:
@@ -120,13 +108,7 @@ startChildProcess(srcEntry: string, startMode: StartMode): Promise<number>
 9. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 使用childProcessManager.startChildProcess方法启动子进程:
@@ -191,13 +173,7 @@ startChildProcess(srcEntry: string, startMode: StartMode, callback: AsyncCallbac
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 在entry模块的src/main/ets/process下创建DemoProcess.ets子进程类:
@@ -211,13 +187,7 @@ startChildProcess(srcEntry: string, startMode: StartMode, callback: AsyncCallbac
 9. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 使用childProcessManager.startChildProcess方法启动子进程:
@@ -292,13 +262,7 @@ startArkChildProcess(srcEntry: string, args: ChildProcessArgs, options?: ChildPr
 
 子进程部分：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 在module1模块的src/main/ets/process下创建DemoProcess.ets子进程类:
@@ -317,13 +281,7 @@ startArkChildProcess(srcEntry: string, args: ChildProcessArgs, options?: ChildPr
 
 主进程部分，示例中的context的获取方式请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 使用childProcessManager.startArkChildProcess方法启动子进程:
@@ -428,13 +386,7 @@ startNativeChildProcess(entryPoint: string, args: ChildProcessArgs, options?: Ch
 
 子进程部分，详见[Native子进程开发指导（C/C++）- 创建支持参数传递的Native子进程](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/capi-nativechildprocess-development-guideline#创建支持参数传递的native子进程)：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/native_child_process.h>
@@ -464,13 +416,7 @@ startNativeChildProcess(entryPoint: string, args: ChildProcessArgs, options?: Ch
 
 主进程部分，示例中的context的获取方式请参见[获取UIAbility的上下文信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/uiability-usage#获取uiability的上下文信息)：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 主进程：

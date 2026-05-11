@@ -2,13 +2,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { map, mapCommon } from '@kit.MapKit';
@@ -59,13 +53,7 @@ newLatLngBounds(bounds: mapCommon.LatLngBounds, padding?: number): CameraUpdate
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let bounds: mapCommon.LatLngBounds = {
@@ -128,13 +116,7 @@ newLatLngBounds(bounds: mapCommon.LatLngBounds, width: number, height: number, p
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let bounds: mapCommon.LatLngBounds = {
@@ -196,13 +178,7 @@ newLatLngBounds(bounds: mapCommon.LatLngBounds, padding: mapCommon.Padding): Cam
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let bounds: mapCommon.LatLngBounds = {

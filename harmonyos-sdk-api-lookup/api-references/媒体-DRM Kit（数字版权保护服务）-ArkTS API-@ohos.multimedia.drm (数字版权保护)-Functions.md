@@ -6,13 +6,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -61,13 +55,7 @@ createMediaKeySystem(name: string): MediaKeySystem
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -122,13 +110,7 @@ isMediaKeySystemSupported(name: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -186,13 +168,7 @@ isMediaKeySystemSupported(name: string, mimeType: string): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -251,13 +227,7 @@ isMediaKeySystemSupported(name: string, mimeType: string, level: ContentProtecti
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -314,13 +284,7 @@ getMediaKeySystemUuid(name: string): string;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -367,13 +331,7 @@ getMediaKeySystems(): MediaKeySystemDescription[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';

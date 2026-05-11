@@ -59,13 +59,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_Context_GetCacheDir(
@@ -99,13 +93,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/context.h>
@@ -128,13 +116,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_Context_GetTempDir(
@@ -168,13 +150,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/context.h>
@@ -197,13 +173,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_Context_GetFilesDir(
@@ -237,13 +207,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/context.h>
@@ -266,13 +230,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_Context_GetDatabaseDir(
@@ -306,13 +264,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/context.h>
@@ -335,13 +287,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_Context_GetPreferencesDir(
@@ -375,13 +321,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/context.h>
@@ -404,13 +344,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_Context_GetBundleCodeDir(
@@ -444,13 +378,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/context.h>
@@ -473,13 +401,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_Context_GetDistributedFilesDir(
@@ -513,13 +435,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/context.h>
@@ -542,13 +458,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_Context_GetResourceDir(
@@ -582,13 +492,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/context.h>
@@ -611,13 +515,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_Context_GetCloudFileDir(
@@ -651,13 +549,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/context.h>
@@ -680,13 +572,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_Context_GetAreaMode(
@@ -718,13 +604,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/context.h>
@@ -746,13 +626,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_Context_SetAreaMode(
@@ -784,13 +658,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/context.h>
@@ -812,13 +680,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_Context_GetLogFileDir(
@@ -852,13 +714,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/context.h>
@@ -881,13 +737,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AbilityRuntime_ErrorCode OH_AbilityRuntime_Context_GetProcessName(
@@ -921,13 +771,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <AbilityKit/ability_runtime/context.h>

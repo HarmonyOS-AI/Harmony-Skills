@@ -8,13 +8,7 @@
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connectedTag } from '@kit.ConnectivityKit';
@@ -142,13 +136,7 @@ readNdefTag(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connectedTag } from '@kit.ConnectivityKit';
@@ -195,13 +183,7 @@ read(): Promise<number[]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connectedTag } from '@kit.ConnectivityKit';
@@ -240,13 +222,7 @@ readNdefTag(callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connectedTag } from '@kit.ConnectivityKit';
@@ -294,13 +270,7 @@ read(callback: AsyncCallback<number[]>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connectedTag } from '@kit.ConnectivityKit';
@@ -348,13 +318,7 @@ writeNdefTag(data: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connectedTag } from '@kit.ConnectivityKit';
@@ -411,13 +375,7 @@ write(data: number[]): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connectedTag } from '@kit.ConnectivityKit';
@@ -458,13 +416,7 @@ writeNdefTag(data: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connectedTag } from '@kit.ConnectivityKit';
@@ -515,13 +467,7 @@ write(data: number[], callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connectedTag } from '@kit.ConnectivityKit';
@@ -580,13 +526,7 @@ off(type: "notify", callback?: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connectedTag } from '@kit.ConnectivityKit';

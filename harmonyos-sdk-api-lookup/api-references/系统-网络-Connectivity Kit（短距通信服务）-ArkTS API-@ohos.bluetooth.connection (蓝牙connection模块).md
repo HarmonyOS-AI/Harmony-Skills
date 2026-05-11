@@ -8,13 +8,7 @@ connection模块提供了蓝牙设备的配对、连接及状态查询等能力�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { connection } from '@kit.ConnectivityKit';
@@ -159,13 +153,7 @@ pairDevice(deviceId: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -229,13 +217,7 @@ pairDevice(deviceId: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -299,13 +281,7 @@ pairDevice(deviceId: BluetoothAddress): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -375,13 +351,7 @@ getRemoteDeviceName(deviceId: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -442,13 +412,7 @@ getRemoteDeviceName(deviceId: string, alias?: boolean): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -504,13 +468,7 @@ getRemoteDeviceClass(deviceId: string): DeviceClass
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -564,13 +522,7 @@ getRemoteDeviceTransport(deviceId: string): BluetoothTransport
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -622,13 +574,7 @@ getRemoteProfileUuids(deviceId: string, callback: AsyncCallback<Array<ProfileUui
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -689,13 +635,7 @@ getRemoteProfileUuids(deviceId: string): Promise<Array<ProfileUuids>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -745,13 +685,7 @@ getLocalName(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -800,13 +734,7 @@ getPairedDevices(): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -866,13 +794,7 @@ getPairState(deviceId: string): BondState
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -930,13 +852,7 @@ getProfileConnectionState(profileId?: ProfileId): ProfileConnectionState
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -988,13 +904,7 @@ setDevicePairingConfirmation(deviceId: string, accept: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1049,13 +959,7 @@ setDevicePinCode(deviceId: string, code: string, callback: AsyncCallback<void>):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1115,13 +1019,7 @@ setDevicePinCode(deviceId: string, code: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1179,13 +1077,7 @@ setLocalName(name: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1234,13 +1126,7 @@ setBluetoothScanMode(mode: ScanMode, duration: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1288,13 +1174,7 @@ getBluetoothScanMode(): ScanMode
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1340,13 +1220,7 @@ startBluetoothDiscovery(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1395,13 +1269,7 @@ stopBluetoothDiscovery(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1448,13 +1316,7 @@ isBluetoothDiscovering(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1515,13 +1377,7 @@ setRemoteDeviceName(deviceId: string, name: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1583,13 +1439,7 @@ getRemoteDeviceBatteryInfo(deviceId: string): Promise<BatteryInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1637,13 +1487,7 @@ on(type: 'batteryChange', callback: Callback<BatteryInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1691,13 +1535,7 @@ off(type: 'batteryChange', callback?: Callback<BatteryInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1754,13 +1592,7 @@ on(type: 'bluetoothDeviceFind', callback: Callback<Array<string>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1811,13 +1643,7 @@ off(type: 'bluetoothDeviceFind', callback?: Callback<Array<string>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1868,13 +1694,7 @@ on(type: 'bondStateChange', callback: Callback<BondStateParam>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1924,13 +1744,7 @@ off(type: 'bondStateChange', callback?: Callback<BondStateParam>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1981,13 +1795,7 @@ on(type: 'pinRequired', callback: Callback<PinRequiredParam>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2037,13 +1845,7 @@ off(type: 'pinRequired', callback?: Callback<PinRequiredParam>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2097,13 +1899,7 @@ on(type: 'discoveryResult', callback: Callback<Array<DiscoveryResult>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2152,13 +1948,7 @@ off(type: 'discoveryResult', callback?: Callback<Array<DiscoveryResult>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2207,13 +1997,7 @@ onScanModeChange(callback: Callback<ScanMode>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function ScanModeChangeEvent(scanMode: connection.ScanMode) {
@@ -2260,13 +2044,7 @@ offScanModeChange(callback?: Callback<ScanMode>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function ScanModeChangeEvent(scanMode: connection.ScanMode) {
@@ -2323,13 +2101,7 @@ getLastConnectionTime(deviceId: string): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2385,13 +2157,7 @@ connectAllowedProfiles(deviceId: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2457,13 +2223,7 @@ connectAllowedProfiles(deviceId: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2528,13 +2288,7 @@ getVirtualAddressByHash(algorithmType: HashAlgorithmType, hashValue: string): st
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 若查询的真实地址为11:22:33:44:55:AA,

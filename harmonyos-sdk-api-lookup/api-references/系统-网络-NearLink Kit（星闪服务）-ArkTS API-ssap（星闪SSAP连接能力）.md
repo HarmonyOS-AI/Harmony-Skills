@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ssap } from '@kit.NearLinkKit';
@@ -84,13 +78,7 @@ createClient(address: string): Client
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ssap } from '@kit.NearLinkKit';
@@ -143,13 +131,7 @@ createServer(): Server
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ssap } from '@kit.NearLinkKit';
@@ -215,13 +197,7 @@ connect(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ssap } from '@kit.NearLinkKit';
@@ -276,13 +252,7 @@ disconnect(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ssap } from '@kit.NearLinkKit';
@@ -332,13 +302,7 @@ close(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ssap } from '@kit.NearLinkKit';
@@ -391,13 +355,7 @@ getServices(): Promise<Array<Service>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ssap } from '@kit.NearLinkKit';
@@ -467,13 +425,7 @@ readProperty(property: Property): Promise<Property>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ssap } from '@kit.NearLinkKit';
@@ -553,13 +505,7 @@ writeProperty(property: Property, writeType: PropertyWriteType): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ssap } from '@kit.NearLinkKit';
@@ -640,13 +586,7 @@ setPropertyNotification(property: Property, enable: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ssap } from '@kit.NearLinkKit';
@@ -726,13 +666,7 @@ requestMtuSize(mtu: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ssap } from '@kit.NearLinkKit';
@@ -793,13 +727,7 @@ on(type: 'propertyChange', callback: Callback<Property>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ssap } from '@kit.NearLinkKit';
@@ -855,13 +783,7 @@ off(type: 'propertyChange', callback?: Callback<Property>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ssap } from '@kit.NearLinkKit';
@@ -917,13 +839,7 @@ on(type: 'connectionStateChange', callback: Callback<ConnectionChangeState>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ssap } from '@kit.NearLinkKit';
@@ -979,13 +895,7 @@ off(type: 'connectionStateChange', callback?: Callback<ConnectionChangeState>): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ssap } from '@kit.NearLinkKit';
@@ -1041,13 +951,7 @@ on(type: 'mtuChange', callback: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ssap } from '@kit.NearLinkKit';
@@ -1103,13 +1007,7 @@ off(type: 'mtuChange', callback?: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ssap } from '@kit.NearLinkKit';
@@ -1180,13 +1078,7 @@ addService(service: Service): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ssap } from '@kit.NearLinkKit';
@@ -1278,13 +1170,7 @@ removeService(serviceUuid: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ssap } from '@kit.NearLinkKit';
@@ -1330,13 +1216,7 @@ close(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ssap } from '@kit.NearLinkKit';
@@ -1398,13 +1278,7 @@ notifyPropertyChanged(address: string, property: Property): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ssap } from '@kit.NearLinkKit';
@@ -1484,13 +1358,7 @@ sendResponse(response: ServerResponse): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ssap } from '@kit.NearLinkKit';
@@ -1553,13 +1421,7 @@ on(type: 'connectionStateChange', callback: Callback<ConnectionChangeState>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ssap } from '@kit.NearLinkKit';
@@ -1614,13 +1476,7 @@ off(type: 'connectionStateChange', callback?: Callback<ConnectionChangeState>): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ssap } from '@kit.NearLinkKit';
@@ -1675,13 +1531,7 @@ on(type: 'propertyRead', callback: Callback<PropertyReadRequest>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ssap } from '@kit.NearLinkKit';
@@ -1736,13 +1586,7 @@ off(type: 'propertyRead', callback?: Callback<PropertyReadRequest>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ssap } from '@kit.NearLinkKit';
@@ -1797,13 +1641,7 @@ on(type: 'propertyWrite', callback: Callback<PropertyWriteRequest>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ssap } from '@kit.NearLinkKit';
@@ -1858,13 +1696,7 @@ off(type: 'propertyWrite', callback?: Callback<PropertyWriteRequest>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ssap } from '@kit.NearLinkKit';
@@ -1919,13 +1751,7 @@ on(type: 'mtuChange', callback: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ssap } from '@kit.NearLinkKit';
@@ -1980,13 +1806,7 @@ off(type: 'mtuChange', callback?: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ssap } from '@kit.NearLinkKit';

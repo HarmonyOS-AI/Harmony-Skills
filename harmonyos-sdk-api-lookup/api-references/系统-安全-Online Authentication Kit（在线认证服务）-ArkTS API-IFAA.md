@@ -8,13 +8,7 @@ IFAA提供移动端免密身份认证能力，实现接入IIFAA（互联网可�
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ifaa } from '@kit.OnlineAuthenticationKit';
@@ -54,13 +48,7 @@ getVersionSync(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let res: number = ifaa.getVersionSync();
@@ -113,13 +101,7 @@ getAnonymousIdSync(userToken: Uint8Array): Uint8Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 开发者需要按照IIFAA的TLV格式构造入参，并转换为Uint8Array参数；此处arg需要开发者替换为真实入参。
@@ -174,13 +156,7 @@ getAnonymousId(userToken: Uint8Array): Promise<Uint8Array>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -234,13 +210,7 @@ getAnonymousId(userToken: Uint8Array, callback: AsyncCallback<Uint8Array>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -303,13 +273,7 @@ queryStatusSync(userToken: Uint8Array): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 开发者需要按照IIFAA的TLV格式构造入参，并转换为Uint8Array参数；此处arg需要开发者替换为真实入参。
@@ -367,13 +331,7 @@ queryStatus(userToken: Uint8Array): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -427,13 +385,7 @@ queryStatus(userToken: Uint8Array, callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -496,13 +448,7 @@ register(registerData: Uint8Array): Promise<Uint8Array>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -556,13 +502,7 @@ register(registerData: Uint8Array, callback: AsyncCallback<Uint8Array>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -615,13 +555,7 @@ preAuthSync(): Uint8Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let preAuthResult: Uint8Array = ifaa.preAuthSync();
@@ -665,13 +599,7 @@ preAuth(): Promise<Uint8Array>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -722,13 +650,7 @@ preAuth(callback: AsyncCallback<Uint8Array>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -790,13 +712,7 @@ authSync(authToken: Uint8Array, authData: Uint8Array): Uint8Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 开发者调用@ohos.userIAM.userAuth的getUserAuthInstance获取token；token需要开发者替换为真实入参。
@@ -854,13 +770,7 @@ auth(authToken: Uint8Array, authData: Uint8Array): Promise<Uint8Array>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -917,13 +827,7 @@ auth(authToken: Uint8Array, authData: Uint8Array, callback: AsyncCallback<Uint8A
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -980,13 +884,7 @@ deregisterSync(deregisterData: Uint8Array): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 开发者需要按照IIFAA的TLV格式构造入参，并转换为Uint8Array参数；arg需要开发者替换为真实入参。
@@ -1039,13 +937,7 @@ deregister(deregisterData: Uint8Array): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1098,13 +990,7 @@ deregister(deregisterData: Uint8Array, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1157,13 +1043,7 @@ getProtocolVersionSync(): Uint8Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let res: Uint8Array = ifaa.getProtocolVersionSync();
@@ -1205,13 +1085,7 @@ getProtocolVersion(): Promise<Uint8Array>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1262,13 +1136,7 @@ getProtocolVersion(callback: AsyncCallback<Uint8Array>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1320,13 +1188,7 @@ getSupportedCertTypesSync(): Uint8Array
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let result: Uint8Array = ifaa.getSupportedCertTypesSync();
@@ -1370,13 +1232,7 @@ getSupportedCertTypes(): Promise<Uint8Array>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1427,13 +1283,7 @@ getSupportedCertTypes(callback: AsyncCallback<Uint8Array>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

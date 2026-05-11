@@ -8,13 +8,7 @@
 
 PhoneTabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { observer } from '@kit.TelephonyKit';
@@ -218,13 +212,7 @@ on(type: 'networkStateChange', callback: Callback<NetworkState>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. observer.on('networkStateChange', (data: observer.NetworkState) => {
@@ -271,13 +259,7 @@ on(type: 'networkStateChange', options: ObserverOptions, callback: Callback<Netw
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let options: observer.ObserverOptions = {
@@ -327,13 +309,7 @@ off(type: 'networkStateChange', callback?: Callback<NetworkState>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback: (data: observer.NetworkState) => void = (data: observer.NetworkState) => {
@@ -380,13 +356,7 @@ on(type: 'signalInfoChange', callback: Callback<Array<SignalInformation>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { radio } from '@kit.TelephonyKit';
@@ -432,13 +402,7 @@ on(type: 'signalInfoChange', options: ObserverOptions, callback: Callback<Array<
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { radio } from '@kit.TelephonyKit';
@@ -490,13 +454,7 @@ off(type: 'signalInfoChange', callback?: Callback<Array<SignalInformation>>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { radio } from '@kit.TelephonyKit';
@@ -545,13 +503,7 @@ on(type: 'callStateChange', callback: Callback<CallStateInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. observer.on('callStateChange', (data: observer.CallStateInfo) => {
@@ -595,13 +547,7 @@ on(type: 'callStateChange', options: ObserverOptions, callback: Callback<CallSta
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let options: observer.ObserverOptions = {
@@ -651,13 +597,7 @@ off(type: 'callStateChange', callback?: Callback<CallStateInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback: (data: observer.CallStateInfo) => void = (data: observer.CallStateInfo) => {
@@ -704,13 +644,7 @@ on(type: 'callStateChangeEx', callback: Callback<TelCallState>, options?: Observ
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { call } from '@kit.TelephonyKit';
@@ -764,13 +698,7 @@ off(type: 'callStateChangeEx', callback?: Callback<TelCallState>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { call } from '@kit.TelephonyKit';
@@ -818,13 +746,7 @@ on(type: 'cellularDataConnectionStateChange', callback: Callback<DataConnectionS
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. observer.on('cellularDataConnectionStateChange', (data: observer.DataConnectionStateInfo) => {
@@ -868,13 +790,7 @@ on(type: 'cellularDataConnectionStateChange', options: ObserverOptions, callback
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let options: observer.ObserverOptions = {
@@ -924,13 +840,7 @@ off(type: 'cellularDataConnectionStateChange', callback?: Callback<DataConnectio
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback: (data: observer.DataConnectionStateInfo) => void = (data: observer.DataConnectionStateInfo) => {
@@ -977,13 +887,7 @@ on(type: 'cellularDataFlowChange', callback: Callback<DataFlowType>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { data } from '@kit.TelephonyKit';
@@ -1029,13 +933,7 @@ on(type: 'cellularDataFlowChange', options: ObserverOptions, callback: Callback<
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { data } from '@kit.TelephonyKit';
@@ -1087,13 +985,7 @@ off(type: 'cellularDataFlowChange', callback?: Callback<DataFlowType>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { data } from '@kit.TelephonyKit';
@@ -1146,13 +1038,7 @@ on(type: 'simStateChange', callback: Callback<SimStateData>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. observer.on('simStateChange', (data: observer.SimStateData) => {
@@ -1196,13 +1082,7 @@ on(type: 'simStateChange', options: ObserverOptions, callback: Callback<SimState
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let options: observer.ObserverOptions = {
@@ -1252,13 +1132,7 @@ off(type: 'simStateChange', callback?: Callback<SimStateData>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback: (data: observer.SimStateData) => void = (data: observer.SimStateData) => {
@@ -1305,13 +1179,7 @@ on(type: 'iccAccountInfoChange', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. observer.on('iccAccountInfoChange', () => {
@@ -1358,13 +1226,7 @@ off(type: 'iccAccountInfoChange', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let callback: () => void = () => {
@@ -1413,13 +1275,7 @@ SIM卡激活状态变化的监听，使用callback方式作为异步方法。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1468,13 +1324,7 @@ offGetSimActiveState(callback?: Callback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1523,13 +1373,7 @@ onCCallStateChange(callback: Callback<CCallStateInfo>, options?: ObserverOptions
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { call, observer } from '@kit.TelephonyKit';
@@ -1581,13 +1425,7 @@ offCCallStateChange(callback?: Callback<CCallStateInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { call, observer } from '@kit.TelephonyKit';

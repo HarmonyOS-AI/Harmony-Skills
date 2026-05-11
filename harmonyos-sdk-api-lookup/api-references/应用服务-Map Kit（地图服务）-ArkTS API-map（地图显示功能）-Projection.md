@@ -2,13 +2,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { map, mapCommon } from '@kit.MapKit';
@@ -30,13 +24,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let projection: map.Projection = this.mapController?.getProjection();
@@ -76,13 +64,7 @@ fromScreenLocation(point: mapCommon.MapPoint): mapCommon.LatLng
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let point: mapCommon.MapPoint = {
@@ -126,13 +108,7 @@ toScreenLocation(position: mapCommon.LatLng): mapCommon.MapPoint
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let position: mapCommon.MapPoint = projection.toScreenLocation({
@@ -167,13 +143,7 @@ getVisibleRegion(): mapCommon.VisibleRegion
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let visibleRegion: mapCommon.VisibleRegion = projection.getVisibleRegion();
@@ -214,13 +184,7 @@ getMapBounds(center: mapCommon.LatLng, zoom: number): mapCommon.LatLngBounds
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let position: mapCommon.LatLng = {

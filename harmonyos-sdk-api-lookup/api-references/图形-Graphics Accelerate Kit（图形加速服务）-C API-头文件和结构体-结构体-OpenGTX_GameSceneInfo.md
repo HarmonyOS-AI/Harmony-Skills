@@ -37,13 +37,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. char* OpenGTX_GameSceneInfo::description
@@ -57,13 +51,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t OpenGTX_GameSceneInfo::maxFPS
@@ -77,13 +65,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t OpenGTX_GameSceneInfo::minFPS
@@ -97,13 +79,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. int32_t OpenGTX_GameSceneInfo::recommendFPS
@@ -117,13 +93,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OpenGTX_ResolutionValue OpenGTX_GameSceneInfo::resolutionCurValue
@@ -137,13 +107,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OpenGTX_SceneID OpenGTX_GameSceneInfo::sceneID

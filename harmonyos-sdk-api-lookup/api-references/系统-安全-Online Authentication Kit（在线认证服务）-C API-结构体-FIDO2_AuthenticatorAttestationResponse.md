@@ -25,13 +25,7 @@
 
 ### attestationObject
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Uint8Buff FIDO2_AuthenticatorAttestationResponse::attestationObject
@@ -43,13 +37,7 @@
 
 ### authenticatorData
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Uint8Buff FIDO2_AuthenticatorAttestationResponse::authenticatorData
@@ -61,13 +49,7 @@
 
 ### clientDataJson
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Uint8Buff FIDO2_AuthenticatorAttestationResponse::clientDataJson
@@ -79,13 +61,7 @@
 
 ### publicKey
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. Uint8Buff FIDO2_AuthenticatorAttestationResponse::publicKey
@@ -97,13 +73,7 @@ publicKey凭证请求的选项，字节流。
 
 ### publicKeyAlgorithm
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FIDO2_Algorithm FIDO2_AuthenticatorAttestationResponse::publicKeyAlgorithm
@@ -115,13 +85,7 @@ publicKey凭证请求的选项，字节流。
 
 ### transports
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FIDO2_AuthenticatorTransportArray FIDO2_AuthenticatorAttestationResponse::transports

@@ -9,13 +9,7 @@ BackupExtensionAbility模块提供备份恢复服务相关扩展能力，为应�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BackupExtensionAbility, BundleVersion } from '@kit.CoreFileKit';
@@ -66,13 +60,7 @@ Extension生命周期回调，在执行备份数据时回调，由开发者提�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class BackupExt extends BackupExtensionAbility {
@@ -118,13 +106,7 @@ onBackupEx返回值不能为空字符串，若onBackupEx返回值为空字符串
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BackupExtensionAbility, BundleVersion } from '@kit.CoreFileKit';
@@ -162,13 +144,7 @@ onBackupEx返回值不能为空字符串，若onBackupEx返回值为空字符串
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BackupExtensionAbility, BundleVersion } from '@kit.CoreFileKit';
@@ -221,13 +197,7 @@ Extension生命周期回调，在执行恢复数据时回调，由开发者提�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BackupExtensionAbility, BundleVersion } from '@kit.CoreFileKit';
@@ -278,13 +248,7 @@ onRestoreEx的返回值为Json格式，使用方法见示例代码。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BackupExtensionAbility, BundleVersion } from '@kit.CoreFileKit';
@@ -322,13 +286,7 @@ onRestoreEx的返回值为Json格式，使用方法见示例代码。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BackupExtensionAbility, BundleVersion } from '@kit.CoreFileKit';
@@ -388,13 +346,7 @@ onProcess(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BackupExtensionAbility } from '@kit.CoreFileKit';
@@ -500,13 +452,7 @@ onRelease具有超时机制，应用若在5秒内未完成onRelease操作，将�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 以清理文件为例

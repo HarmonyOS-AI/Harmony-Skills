@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { convertxml } from '@kit.ArkTS';
@@ -72,13 +66,7 @@ fastConvertToJSObject(xml: string, options?: ConvertOptions) : Object
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -161,13 +149,7 @@ largeConvertToJSObject(xml: string, options?: ConvertOptions): Object
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -255,13 +237,7 @@ convertToJSObject(xml: string, options?: ConvertOptions) : Object
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. try {
@@ -329,13 +305,7 @@ convert(xml: string, options?: ConvertOptions) : Object
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let xml =

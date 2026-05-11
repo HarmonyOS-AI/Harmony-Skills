@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SwipeRefresher } from '@kit.ArkUI';
@@ -63,13 +57,7 @@ PhonePC/2in1TabletTVWearable
 
 展示设置属性content为空字符串及不为空、isLoading为true和false的不同加载效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SwipeRefresher } from '@kit.ArkUI';

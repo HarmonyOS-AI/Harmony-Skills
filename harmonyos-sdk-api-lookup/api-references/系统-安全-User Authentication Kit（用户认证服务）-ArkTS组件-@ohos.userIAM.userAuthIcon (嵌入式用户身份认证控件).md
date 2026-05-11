@@ -12,13 +12,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { userAuth, UserAuthIcon } from '@kit.UserAuthenticationKit';
@@ -40,13 +34,7 @@ PhonePC/2in1TabletWearable
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. UserAuthIcon({
@@ -88,13 +76,7 @@ PhonePC/2in1TabletWearable
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cryptoFramework } from '@kit.CryptoArchitectureKit';

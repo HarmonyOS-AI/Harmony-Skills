@@ -12,13 +12,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 如果开发者需要使用Node-API相关功能，首先请添加头文件：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. #include <napi/native_api.h>
@@ -26,13 +20,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 其次在CMakeLists.txt中添加以下动态链接库：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. libace_napi.z.so
@@ -719,13 +707,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_qos\_t
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef enum {
@@ -742,13 +724,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_event\_mode
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef enum {
@@ -763,13 +739,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_queue\_async\_work\_with\_qos
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_queue_async_work_with_qos(napi_env env,
@@ -793,13 +763,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_run\_script\_path
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_run_script_path(napi_env env,
@@ -823,13 +787,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_load\_module
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_load_module(napi_env env,
@@ -853,13 +811,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_create\_object\_with\_properties
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_create_object_with_properties(napi_env env,
@@ -887,13 +839,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_create\_object\_with\_named\_properties
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_create_object_with_named_properties(napi_env env,
@@ -921,13 +867,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_coerce\_to\_native\_binding\_object
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_coerce_to_native_binding_object(napi_env env,
@@ -957,13 +897,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_create\_ark\_runtime
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_create_ark_runtime(napi_env *env)
@@ -983,13 +917,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_destroy\_ark\_runtime
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_destroy_ark_runtime(napi_env *env)
@@ -1009,13 +937,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_run\_event\_loop
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_run_event_loop(napi_env env, napi_event_mode mode)
@@ -1036,13 +958,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_stop\_event\_loop
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_stop_event_loop(napi_env env)
@@ -1062,13 +978,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_load\_module\_with\_info
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_load_module_with_info(napi_env env,
@@ -1094,13 +1004,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_serialize
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_serialize(napi_env env,
@@ -1128,13 +1032,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_deserialize
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_deserialize(napi_env env, void* buffer, napi_value* object)
@@ -1156,13 +1054,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_delete\_serialization\_data
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_delete_serialization_data(napi_env env, void* buffer)
@@ -1183,13 +1075,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_call\_threadsafe\_function\_with\_priority
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_call_threadsafe_function_with_priority(napi_threadsafe_function func,
@@ -1215,13 +1101,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_is\_sendable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_is_sendable(napi_env env, napi_value value, bool* result)
@@ -1243,13 +1123,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_define\_sendable\_class
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_define_sendable_class(napi_env env,
@@ -1285,13 +1159,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_create\_sendable\_object\_with\_properties
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_create_sendable_object_with_properties(napi_env env,
@@ -1317,13 +1185,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_create\_sendable\_array
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_create_sendable_array(napi_env env, napi_value* result)
@@ -1344,13 +1206,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_create\_sendable\_array\_with\_length
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_create_sendable_array_with_length(napi_env env, size_t length, napi_value* result)
@@ -1372,13 +1228,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_create\_sendable\_arraybuffer
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_create_sendable_arraybuffer(napi_env env, size_t byte_length, void** data, napi_value* result)
@@ -1401,13 +1251,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_create\_sendable\_typedarray
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_create_sendable_typedarray(napi_env env,
@@ -1437,13 +1281,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_wrap\_sendable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_wrap_sendable(napi_env env,
@@ -1471,13 +1309,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_wrap\_sendable\_with\_size
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_wrap_sendable_with_size(napi_env env,
@@ -1507,13 +1339,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_unwrap\_sendable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_unwrap_sendable(napi_env env, napi_value js_object, void** result)
@@ -1535,13 +1361,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_remove\_wrap\_sendable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_remove_wrap_sendable(napi_env env, napi_value js_object, void** result)
@@ -1563,13 +1383,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_wrap\_enhance
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_wrap_enhance(napi_env env,
@@ -1606,13 +1420,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_create\_ark\_context
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_create_ark_context(napi_env env, napi_env* newEnv);
@@ -1642,13 +1450,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_switch\_ark\_context
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_switch_ark_context(napi_env env)
@@ -1671,13 +1473,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_destroy\_ark\_context
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_destroy_ark_context(napi_env env)
@@ -1701,13 +1497,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_open\_critical\_scope
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_open_critical_scope(napi_env env, napi_critical_scope* scope);
@@ -1731,13 +1521,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_close\_critical\_scope
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_close_critical_scope(napi_env env, napi_critical_scope scope);
@@ -1761,13 +1545,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_get\_buffer\_string\_utf16\_in\_critical\_scope
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_get_buffer_string_utf16_in_critical_scope(napi_env env,
@@ -1795,13 +1573,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_create\_strong\_reference
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_create_strong_reference(napi_env env, napi_value value, napi_strong_ref* result);
@@ -1823,13 +1595,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_delete\_strong\_reference
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_delete_strong_reference(napi_env env, napi_value value, napi_strong_ref ref);
@@ -1853,13 +1619,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_get\_strong\_reference\_value
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_get_strong_reference_value(napi_env env, napi_strong_ref ref, napi_value* result)
@@ -1883,13 +1643,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_finalize回调函数说明
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef void (*napi_finalize)(napi_env env,
@@ -1913,13 +1667,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_finalize\_callback回调函数说明
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef void (*napi_finalize_callback)(void* finalize_data,
@@ -1941,13 +1689,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_create\_external\_string\_utf16
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_create_external_string_utf16(napi_env env,
@@ -1982,13 +1724,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_create\_external\_string\_ascii
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_create_external_string_ascii(napi_env env,
@@ -2024,13 +1760,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_create\_strong\_sendable\_reference
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_create_strong_sendable_reference(napi_env env,
@@ -2059,13 +1789,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_delete\_strong\_sendable\_reference
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_delete_strong_sendable_reference(napi_env env, napi_sendable_ref ref);
@@ -2089,13 +1813,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_get\_strong\_sendable\_reference\_value
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_get_strong_sendable_reference_value(napi_env env,
@@ -2122,13 +1840,7 @@ HarmonyOS的Node-API组件对Node-API的接口进行了重新实现，底层对�
 
 ### napi\_throw\_business\_error
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. napi_status napi_throw_business_error(napi_env env,

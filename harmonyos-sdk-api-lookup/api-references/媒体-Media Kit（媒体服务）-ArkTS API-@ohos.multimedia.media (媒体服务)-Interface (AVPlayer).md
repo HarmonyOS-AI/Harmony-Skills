@@ -15,13 +15,7 @@ Audio/Video播放demo可参考：[音频播放开发指导](https://developer.hu
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { media } from '@kit.MediaKit';
@@ -75,13 +69,7 @@ on(type: 'stateChange', callback: OnAVPlayerStateChangeHandle): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -147,13 +135,7 @@ off(type: 'stateChange', callback?: OnAVPlayerStateChangeHandle): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -218,13 +200,7 @@ on(type: 'error', callback: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -261,13 +237,7 @@ off(type: 'error', callback?: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -321,13 +291,7 @@ setMediaSource(src:MediaSource, strategy?: PlaybackStrategy): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -387,13 +351,7 @@ setPlaybackStrategy(strategy: PlaybackStrategy): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -457,13 +415,7 @@ setPlaybackRange(startTimeMs: number, endTimeMs: number, mode?: SeekMode) : Prom
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -511,13 +463,7 @@ prepare(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -570,13 +516,7 @@ prepare(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -636,13 +576,7 @@ setMediaMuted(mediaType: MediaType, muted: boolean ): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -691,13 +625,7 @@ play(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -747,13 +675,7 @@ play(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -801,13 +723,7 @@ pause(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -857,13 +773,7 @@ pause(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -911,13 +821,7 @@ stop(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -967,13 +871,7 @@ stop(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1021,13 +919,7 @@ reset(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1077,13 +969,7 @@ reset(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1131,13 +1017,7 @@ release(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1187,13 +1067,7 @@ release(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1241,13 +1115,7 @@ getTrackDescription(callback: AsyncCallback<Array<MediaDescription>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1297,13 +1165,7 @@ getTrackDescription(): Promise<Array<MediaDescription>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1351,13 +1213,7 @@ getSelectedTracks(): Promise<Array<number>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1393,13 +1249,7 @@ getPlaybackInfo(): Promise<PlaybackInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1456,13 +1306,7 @@ getPlaybackPosition(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1514,13 +1358,7 @@ getCurrentPresentationTimestamp() : number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1580,13 +1418,7 @@ selectTrack(index: number, mode?: SwitchMode): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1653,13 +1485,7 @@ deselectTrack(index: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1720,13 +1546,7 @@ setDecryptionConfig(mediaKeySession: drm.MediaKeySession, secureVideoPath: boole
 
 关于drm模块的示例具体可见[@ohos.multimedia.drm](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-drm)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -1767,13 +1587,7 @@ getMediaKeySystemInfos(): Array<drm.MediaKeySystemInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -1817,13 +1631,7 @@ seek(timeMs: number, mode?:SeekMode): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function  test(){
@@ -1834,13 +1642,7 @@ seek(timeMs: number, mode?:SeekMode): void
 6. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function  test(){
@@ -1877,13 +1679,7 @@ isSeekContinuousSupported() : boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function  test(){
@@ -1916,13 +1712,7 @@ on(type: 'seekDone', callback: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function  test(){
@@ -1957,13 +1747,7 @@ off(type: 'seekDone', callback?: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function  test(){
@@ -1999,13 +1783,7 @@ setSpeed(speed: PlaybackSpeed): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function  test(){
@@ -2038,13 +1816,7 @@ on(type: 'speedDone', callback: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function  test(){
@@ -2079,13 +1851,7 @@ off(type: 'speedDone', callback?: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function  test(){
@@ -2132,13 +1898,7 @@ setPlaybackRate(rate: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -2168,13 +1928,7 @@ getPlaybackRate(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -2208,13 +1962,7 @@ on(type: 'playbackRateDone', callback: OnPlaybackRateDone): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -2249,13 +1997,7 @@ off(type: 'playbackRateDone', callback?: OnPlaybackRateDone): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -2287,13 +2029,7 @@ setBitrate(bitrate: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function  test(){
@@ -2327,13 +2063,7 @@ on(type: 'bitrateDone', callback: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function  test(){
@@ -2368,13 +2098,7 @@ off(type: 'bitrateDone', callback?: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function  test(){
@@ -2407,13 +2131,7 @@ on(type: 'availableBitrates', callback: Callback<Array<number>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function  test(){
@@ -2448,13 +2166,7 @@ off(type: 'availableBitrates', callback?: Callback<Array<number>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -2487,13 +2199,7 @@ on(type: 'mediaKeySystemInfoUpdate', callback: Callback<Array<drm.MediaKeySystem
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drm } from '@kit.DrmKit';
@@ -2533,13 +2239,7 @@ off(type: 'mediaKeySystemInfoUpdate', callback?: Callback<Array<drm.MediaKeySyst
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -2585,13 +2285,7 @@ setLoudnessGain(loudnessGain: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { audio } from '@kit.AudioKit';
@@ -2630,13 +2324,7 @@ setVolume(volume: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -2669,13 +2357,7 @@ on(type: 'volumeChange', callback: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -2710,13 +2392,7 @@ off(type: 'volumeChange', callback?: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -2749,13 +2425,7 @@ on(type: 'endOfStream', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -2790,13 +2460,7 @@ off(type: 'endOfStream', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -2835,13 +2499,7 @@ on(type: 'timeUpdate', callback: Callback<number>): void
 
 **示例1：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -2855,13 +2513,7 @@ on(type: 'timeUpdate', callback: Callback<number>): void
 
 **示例2：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test() {
@@ -2921,13 +2573,7 @@ off(type: 'timeUpdate', callback?: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -2964,13 +2610,7 @@ on(type: 'durationUpdate', callback: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -3005,13 +2645,7 @@ off(type: 'durationUpdate', callback?: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -3044,13 +2678,7 @@ on(type: 'bufferingUpdate', callback: OnBufferingUpdateHandler): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -3085,13 +2713,7 @@ off(type: 'bufferingUpdate', callback?: OnBufferingUpdateHandler): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -3124,13 +2746,7 @@ on(type: 'startRenderFrame', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -3165,13 +2781,7 @@ off(type: 'startRenderFrame', callback?: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -3204,13 +2814,7 @@ on(type: 'videoSizeChange', callback: OnVideoSizeChangeHandler): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -3245,13 +2849,7 @@ off(type: 'videoSizeChange', callback?: OnVideoSizeChangeHandler): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -3284,13 +2882,7 @@ on(type: 'audioInterrupt', callback: Callback<audio.InterruptEvent>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { audio } from '@kit.AudioKit';
@@ -3327,13 +2919,7 @@ off(type: 'audioInterrupt', callback?: Callback<audio.InterruptEvent>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -3378,13 +2964,7 @@ on(type: 'audioOutputDeviceChangeWithInfo', callback: Callback<audio.AudioStream
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { audio } from '@kit.AudioKit';
@@ -3431,13 +3011,7 @@ off(type: 'audioOutputDeviceChangeWithInfo', callback?: Callback<audio.AudioStre
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -3490,13 +3064,7 @@ addSubtitleFromFd(fd: number, offset?: number, length?: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit'
@@ -3549,13 +3117,7 @@ addSubtitleFromUrl(url: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -3588,13 +3150,7 @@ on(type: 'subtitleUpdate', callback: Callback<SubtitleInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -3636,13 +3192,7 @@ off(type: 'subtitleUpdate', callback?: Callback<SubtitleInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -3675,13 +3225,7 @@ on(type: 'trackChange', callback: OnTrackChangeHandler): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -3716,13 +3260,7 @@ off(type: 'trackChange', callback?: OnTrackChangeHandler): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -3755,13 +3293,7 @@ on(type: 'trackInfoUpdate', callback: Callback<Array<MediaDescription>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -3804,13 +3336,7 @@ off(type: 'trackInfoUpdate', callback?: Callback<Array<MediaDescription>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -3841,13 +3367,7 @@ on(type: 'amplitudeUpdate', callback: Callback<Array<number>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -3880,13 +3400,7 @@ off(type: 'amplitudeUpdate', callback?: Callback<Array<number>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -3920,13 +3434,7 @@ on(type: 'seiMessageReceived', payloadTypes: Array<number>, callback: OnSeiMessa
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -3976,13 +3484,7 @@ off(type: 'seiMessageReceived', payloadTypes?: Array<number>, callback?: OnSeiMe
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -4039,13 +3541,7 @@ setSuperResolution(enabled: boolean) : Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -4109,13 +3605,7 @@ setVideoWindowSize(width: number, height: number) : Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -4155,13 +3645,7 @@ on(type:'superResolutionChanged', callback: OnSuperResolutionChanged): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -4196,13 +3680,7 @@ off(type:'superResolutionChanged', callback?: OnSuperResolutionChanged): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -4232,13 +3710,7 @@ getPlaybackStatisticMetrics(): Promise<PlaybackMetrics>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4283,13 +3755,7 @@ onMetricsEvent(callback: Callback<Array<AVMetricsEvent>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){
@@ -4326,13 +3792,7 @@ offMetricsEvent(callback?: Callback<Array<AVMetricsEvent>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. async function test(){

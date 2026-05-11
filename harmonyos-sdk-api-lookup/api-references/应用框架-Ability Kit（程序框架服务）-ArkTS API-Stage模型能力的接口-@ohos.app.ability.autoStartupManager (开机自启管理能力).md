@@ -10,13 +10,7 @@ autoStartupManager模块提供获取自身应用的开机自启状态。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { autoStartupManager } from '@kit.AbilityKit';
@@ -55,13 +49,7 @@ getAutoStartupStatusForSelf(): Promise<boolean>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { autoStartupManager, UIAbility } from '@kit.AbilityKit';

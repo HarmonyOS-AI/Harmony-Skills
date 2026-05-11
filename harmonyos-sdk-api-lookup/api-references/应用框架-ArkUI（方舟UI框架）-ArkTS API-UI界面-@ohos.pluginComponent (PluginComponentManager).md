@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pluginComponentManager } from '@kit.ArkUI';
@@ -161,13 +155,7 @@ type OnPushEventCallback = (source: Want, template: PluginComponentTemplate, dat
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pluginComponentManager, PluginComponentTemplate } from '@kit.ArkUI';
@@ -214,13 +202,7 @@ type OnRequestEventCallback = (source: Want, name: string, data: KVObject) => Re
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pluginComponentManager } from '@kit.ArkUI';
@@ -262,13 +244,7 @@ push(param: PushParameters , callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pluginComponentManager } from '@kit.ArkUI';
@@ -318,13 +294,7 @@ request(param: RequestParameters, callback: AsyncCallback<RequestCallbackParamet
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pluginComponentManager } from '@kit.ArkUI';
@@ -374,13 +344,7 @@ on(eventType: string, callback: OnPushEventCallback | OnRequestEventCallback): v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pluginComponentManager, PluginComponentTemplate } from '@kit.ArkUI';
@@ -413,13 +377,7 @@ external.json文件由开发者创建。external.json中以键值对形式存放
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. {

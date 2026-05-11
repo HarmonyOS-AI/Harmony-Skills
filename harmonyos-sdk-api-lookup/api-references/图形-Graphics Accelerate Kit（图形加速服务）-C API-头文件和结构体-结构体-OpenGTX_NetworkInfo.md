@@ -33,13 +33,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. OpenGTX_NetworkLatency OpenGTX_NetworkInfo::networkLatency
@@ -53,13 +47,7 @@ PhoneTabletTV
 
 PhoneTabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. char* OpenGTX_NetworkInfo::networkServerIP

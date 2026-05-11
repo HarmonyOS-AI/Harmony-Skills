@@ -434,13 +434,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[ProgressOptions](/consumer/cn/doc/harmonyos-references/ts-basic-components-progress#progressoptions对象说明)的入参type，实现了设置进度条类型的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -506,13 +500,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[style](/consumer/cn/doc/harmonyos-references/ts-basic-components-progress#style8)接口的strokeWidth和shadow属性，实现了环形进度条视觉属性设置功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -544,13 +532,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[style](/consumer/cn/doc/harmonyos-references/ts-basic-components-progress#style8)接口的status和enableScanEffect属性，实现了环形进度条动效的开关功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -579,13 +561,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[style](/consumer/cn/doc/harmonyos-references/ts-basic-components-progress#style8)接口的borderColor、borderWidth、content、font、fontColor、enableScanEffect、showDefaultPercentage属性，实现胶囊形进度条的视觉属性设置。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -617,13 +593,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[style](/consumer/cn/doc/harmonyos-references/ts-basic-components-progress#style8)接口的enableSmoothEffect属性，实现了进度平滑动效开关的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -667,13 +637,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[contentModifier](/consumer/cn/doc/harmonyos-references/ts-basic-components-progress#contentmodifier12)接口，实现了自定义进度条的功能，自定义实现星形，其中总进度为3，且当前值可通过按钮进行增减，达到的进度使用自定义颜色填充。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -756,13 +720,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[privacySensitive](/consumer/cn/doc/harmonyos-references/ts-basic-components-progress#privacysensitive12)属性，实现了隐私隐藏效果。效果展示需要卡片框架支持。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -803,13 +761,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 18开始，新增borderRadius属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LengthMetrics } from '@kit.ArkUI';
@@ -846,13 +798,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 23开始，该示例通过[color](/consumer/cn/doc/harmonyos-references/ts-basic-components-progress#color)属性中的LinearGradient，实现线性进度条和胶囊进度条渐变色的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

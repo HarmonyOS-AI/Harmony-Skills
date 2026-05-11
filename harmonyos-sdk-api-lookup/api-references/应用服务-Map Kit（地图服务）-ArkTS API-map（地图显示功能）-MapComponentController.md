@@ -2,13 +2,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { map, mapCommon } from '@kit.MapKit';
@@ -30,13 +24,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { MapComponent, mapCommon, map } from '@kit.MapKit';
@@ -128,13 +116,7 @@ animateCamera(update: CameraUpdate, duration?: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let target: mapCommon.LatLng = {
@@ -196,13 +178,7 @@ animateCameraStatus(update: CameraUpdate, duration?: number): Promise<AnimateRes
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let target: mapCommon.LatLng = {
@@ -255,13 +231,7 @@ animateCameraWithMarker(update: CameraUpdate, marker: Marker, duration: number):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let target: mapCommon.LatLng = {
@@ -337,13 +307,7 @@ animateCameraWithMarkers(update: CameraUpdate, markers: Array<Marker>, duration:
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let target: mapCommon.LatLng = {
@@ -404,13 +368,7 @@ stopAnimation(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.stopAnimation();
@@ -434,13 +392,7 @@ clear(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.clear();
@@ -472,13 +424,7 @@ moveCamera(update: CameraUpdate): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let target: mapCommon.LatLng = {
@@ -521,13 +467,7 @@ getCameraPosition(): mapCommon.CameraPosition
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let cameraPosition: mapCommon.CameraPosition = this.mapController.getCameraPosition();
@@ -559,13 +499,7 @@ setLatLngBounds(bounds: mapCommon.LatLngBounds): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let bounds:mapCommon.LatLngBounds = {
@@ -607,13 +541,7 @@ setPointToCenter(point: mapCommon.MapPoint): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let point: mapCommon.MapPoint = {
@@ -649,13 +577,7 @@ setMaxZoom(maxZoom: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.setMaxZoom(10);
@@ -687,13 +609,7 @@ setMinZoom(minZoom: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.setMinZoom(3);
@@ -725,13 +641,7 @@ getMaxZoom(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let maxZoom: number = this.mapController.getMaxZoom();
@@ -763,13 +673,7 @@ getMinZoom(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let minZoom: number = this.mapController.getMinZoom();
@@ -801,13 +705,7 @@ setTrafficEnabled(enabled: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.setTrafficEnabled(true);
@@ -839,13 +737,7 @@ isTrafficEnabled(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let isTrafficEnabled: boolean = this.mapController.isTrafficEnabled();
@@ -877,13 +769,7 @@ setBuildingEnabled(enabled: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.setBuildingEnabled(true);
@@ -915,13 +801,7 @@ isBuildingEnabled(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let isBuildingEnabled: boolean = this.mapController.isBuildingEnabled();
@@ -953,13 +833,7 @@ setMyLocationEnabled(myLocationEnabled: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.setMyLocationEnabled(true);
@@ -991,13 +865,7 @@ Map Kit默认使用系统的连续定位能力显示用户位置，如果您希�
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 需要引入@kit.LocationKit模块
@@ -1041,13 +909,7 @@ setMyLocationStyle(style: mapCommon.MyLocationStyle): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let style: mapCommon.MyLocationStyle = {
@@ -1086,13 +948,7 @@ isMyLocationEnabled(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let isMyLocationEnabled: boolean = this.mapController.isMyLocationEnabled();
@@ -1131,13 +987,7 @@ setZoomGesturesEnabled(enabled: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.setZoomGesturesEnabled(true);
@@ -1169,13 +1019,7 @@ isZoomGesturesEnabled(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let isZoomGesturesEnabled: boolean = this.mapController.isZoomGesturesEnabled();
@@ -1210,13 +1054,7 @@ setScrollGesturesEnabled(enabled: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.setScrollGesturesEnabled(true);
@@ -1248,13 +1086,7 @@ isScrollGesturesEnabled(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let isScrollGesturesEnabled: boolean = this.mapController.isScrollGesturesEnabled();
@@ -1289,13 +1121,7 @@ setRotateGesturesEnabled(enabled: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.setRotateGesturesEnabled(true);
@@ -1327,13 +1153,7 @@ isRotateGesturesEnabled(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let isRotateGesturesEnabled: boolean = this.mapController.isRotateGesturesEnabled();
@@ -1368,13 +1188,7 @@ setTiltGesturesEnabled(enabled: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.setTiltGesturesEnabled(true);
@@ -1406,13 +1220,7 @@ isTiltGesturesEnabled(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let isTiltGesturesEnabled: boolean = this.mapController.isTiltGesturesEnabled();
@@ -1447,13 +1255,7 @@ setZoomControlsEnabled(enabled: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.setZoomControlsEnabled(true);
@@ -1485,13 +1287,7 @@ isZoomControlsEnabled(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let isZoomControlsEnabled: boolean = this.mapController.isZoomControlsEnabled();
@@ -1523,13 +1319,7 @@ setMyLocationControlsEnabled(enabled: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.setMyLocationControlsEnabled(true);
@@ -1561,13 +1351,7 @@ isMyLocationControlsEnabled(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let isMyLocationControlsEnabled: boolean = this.mapController.isMyLocationControlsEnabled();
@@ -1599,13 +1383,7 @@ setScaleControlsEnabled(enabled: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.setScaleControlsEnabled(true);
@@ -1637,13 +1415,7 @@ isScaleControlsEnabled(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let isScaleControlsEnabled: boolean = this.mapController.isScaleControlsEnabled();
@@ -1675,13 +1447,7 @@ setCompassControlsEnabled(enabled: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.setCompassControlsEnabled(true);
@@ -1713,13 +1479,7 @@ isCompassControlsEnabled(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let isCompassControlsEnabled: boolean = this.mapController.isCompassControlsEnabled();
@@ -1754,13 +1514,7 @@ setGestureScaleByMapCenter(enabled: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.setGestureScaleByMapCenter(true);
@@ -1792,13 +1546,7 @@ isGestureScaleByMapCenter(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let isGestureScaleByMapCenter: boolean = this.mapController.isGestureScaleByMapCenter();
@@ -1830,13 +1578,7 @@ setLogoAlignment(alignment: mapCommon.LogoAlignment): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.setLogoAlignment(mapCommon.LogoAlignment.BOTTOM_START);
@@ -1876,13 +1618,7 @@ setLogoPadding(padding: mapCommon.Padding): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let padding: mapCommon.Padding = {
@@ -1918,13 +1654,7 @@ getScalePerPixel(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let scalePerPixel: number = this.mapController.getScalePerPixel();
@@ -1976,13 +1706,7 @@ addMarker(options: mapCommon.MarkerOptions): Promise<Marker>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Marker初始化参数
@@ -2052,13 +1776,7 @@ addCircle(options: mapCommon.MapCircleOptions): Promise<MapCircle>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Circle初始化参数
@@ -2132,13 +1850,7 @@ addPolyline(options: mapCommon.MapPolylineOptions): Promise<MapPolyline>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 初始化参数
@@ -2211,13 +1923,7 @@ addPolygon(options: mapCommon.MapPolygonOptions): Promise<MapPolygon>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 初始化参数
@@ -2294,13 +2000,7 @@ addPointAnnotation(params: mapCommon.PointAnnotationParams): Promise<PointAnnota
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pointAnnotationOptions: mapCommon.PointAnnotationParams = {
@@ -2397,13 +2097,7 @@ addBubble(params: mapCommon.BubbleParams): Promise<Bubble>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let bubbleOptions: mapCommon.BubbleParams = {
@@ -2458,13 +2152,7 @@ setPadding(padding?: mapCommon.Padding): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 初始化参数，左边距0，底边距50
@@ -2501,13 +2189,7 @@ getProjection(): Projection
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let projection: map.Projection = this.mapController.getProjection();
@@ -2558,13 +2240,7 @@ setCustomMapStyle(customMapStyleOptions: mapCommon.CustomMapStyleOptions): Promi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // styleId需要替换为您自己的样式ID，样式ID可在Petal Maps Studio平台上创建
@@ -2600,13 +2276,7 @@ getDayNightMode(): mapCommon.DayNightMode
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let mode = this.mapController.getDayNightMode();
@@ -2638,13 +2308,7 @@ setDayNightMode(mode: mapCommon.DayNightMode): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.setDayNightMode(mapCommon.DayNightMode.AUTO);
@@ -2676,13 +2340,7 @@ getMapType(): mapCommon.MapType
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let mapType = this.mapController.getMapType();
@@ -2714,13 +2372,7 @@ setMapType(mapType: mapCommon.MapType): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.setMapType(mapCommon.MapType.TERRAIN);
@@ -2752,13 +2404,7 @@ setScalePosition(point: mapCommon.MapPoint): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let point: mapCommon.MapPoint = {
@@ -2796,13 +2442,7 @@ getScaleLevel(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let level = this.mapController.getScaleLevel();
@@ -2834,13 +2474,7 @@ setCompassPosition(point: mapCommon.MapPoint): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let point: mapCommon.MapPoint = {
@@ -2876,13 +2510,7 @@ setAllGesturesEnabled(enabled: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.setAllGesturesEnabled(true);
@@ -2914,13 +2542,7 @@ getScaleControlsHeight(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let height = this.mapController.getScaleControlsHeight();
@@ -2952,13 +2574,7 @@ getScaleControlsWidth(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let width = this.mapController.getScaleControlsWidth();
@@ -2990,13 +2606,7 @@ setAlwaysShowScaleEnabled(enabled: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.setAlwaysShowScaleEnabled(true);
@@ -3028,13 +2638,7 @@ isAlwaysShowScaleEnabled(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let scaleEnabled: boolean = this.mapController.isAlwaysShowScaleEnabled();
@@ -3085,13 +2689,7 @@ addClusterOverlay(params: mapCommon.ClusterOverlayParams): Promise<ClusterOverla
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let clusterItem1: mapCommon.ClusterItem = {
@@ -3159,13 +2757,7 @@ addImageOverlay(params: mapCommon.ImageOverlayParams): Promise<ImageOverlay>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let imageOverlayParams: mapCommon.ImageOverlayParams = {
@@ -3212,13 +2804,7 @@ snapshot(): Promise<image.PixelMap>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { image } from '@kit.ImageKit';
@@ -3271,13 +2857,7 @@ addBuildingOverlay(params: mapCommon.BuildingOverlayParams): Promise<BuildingOve
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let points: Array<mapCommon.LatLng> = [
@@ -3491,13 +3071,7 @@ addTraceOverlay(params: mapCommon.TraceOverlayParams, markers?: Array<Marker>): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // marker1的参数
@@ -3686,13 +3260,7 @@ addArc(params: mapCommon.MapArcParams): MapArc
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 设置弧线参数
@@ -3739,13 +3307,7 @@ show(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 页面每次显示时触发一次，包括路由过程、应用进入前台等场景，仅@Entry装饰的自定义组件生效
@@ -3775,13 +3337,7 @@ hide(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 页面每次隐藏时触发一次，包括路由过程、应用进入后台等场景，仅@Entry装饰的自定义组件生效。
@@ -3819,13 +3375,7 @@ getEventManager(): MapEventManager
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let mapEventManager: map.MapEventManager = this.mapController.getEventManager();
@@ -3867,13 +3417,7 @@ setDisplayOrder(types: Array<mapCommon.MapElementType>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let mapElementTypeArr: Array<mapCommon.MapElementType> = [
@@ -3920,13 +3464,7 @@ setLogoScale(logoScale: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.setLogoScale(0.9);
@@ -3958,13 +3496,7 @@ getLogoScale(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let logoScale: number = this.mapController.getLogoScale();
@@ -3996,13 +3528,7 @@ isSphereEnabled(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let result: boolean = this.mapController.isSphereEnabled();
@@ -4034,13 +3560,7 @@ setSphereEnabled(enabled: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.setSphereEnabled(true);
@@ -4073,13 +3593,7 @@ setSphereEnabled(enabled: boolean, animateDuration: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.setSphereEnabled(true, 1000);
@@ -4113,13 +3627,7 @@ setSphereEnabled(enabled: boolean, animateDuration: number, cityLight: boolean):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.setSphereEnabled(true, 1000, true);
@@ -4170,13 +3678,7 @@ addHeatmap(params: mapCommon.HeatmapParams): Promise<Heatmap>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: mapCommon.WeightedLatLng[] = [];
@@ -4244,13 +3746,7 @@ addMvtOverlay(params: mapCommon.MvtOverlayParams): MvtOverlay
 | --- | --- |
 | 1022100001 | The operation object does not exist. |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: mapCommon.MvtOverlayParams = {
@@ -4306,13 +3802,7 @@ setFramePerSecond(fps: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController?.setFramePerSecond(60);
@@ -4362,13 +3852,7 @@ addFlowFieldOverlay(params: mapCommon.FlowFieldOverlayParams): Promise<FlowField
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: mapCommon.FlowFieldOverlayParams = {
@@ -4422,13 +3906,7 @@ addMassPointOverlay(params: mapCommon.MassPointOverlayParams): Promise<MassPoint
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let items: mapCommon.MassPointItem[] = [];
@@ -4479,13 +3957,7 @@ setLanguage(language: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController?.setLanguage('ja');
@@ -4517,13 +3989,7 @@ getLanguage(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let language = this.mapController?.getLanguage();
@@ -4555,13 +4021,7 @@ changeMyLocationLayerOrder(isBelow: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController?.changeMyLocationLayerOrder(true);
@@ -4611,13 +4071,7 @@ addTileOverlay(params: mapCommon.TileOverlayParams | mapCommon.TileOverlayOption
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: mapCommon.TileOverlayOptions = {
@@ -4667,13 +4121,7 @@ on(type: 'cameraChange', callback: Callback<mapCommon.LatLng>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.on("cameraChange", (position) => {
@@ -4710,13 +4158,7 @@ off(type: 'cameraChange', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.off("cameraChange", (position) => {
@@ -4753,13 +4195,7 @@ on(type: 'cameraIdle', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.on("cameraIdle", () => {
@@ -4796,13 +4232,7 @@ off(type: 'cameraIdle', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.off("cameraIdle", () => {
@@ -4839,13 +4269,7 @@ on(type: 'cameraMoveCancel', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.on("cameraMoveCancel", () => {
@@ -4882,13 +4306,7 @@ off(type: 'cameraMoveCancel', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.off("cameraMoveCancel", () => {
@@ -4925,13 +4343,7 @@ on(type: 'cameraMove', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.on("cameraMove", () => {
@@ -4968,13 +4380,7 @@ off(type: 'cameraMove', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.off("cameraMove", () => {
@@ -5011,13 +4417,7 @@ on(type: 'cameraMoveStart', callback: Callback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.on("cameraMoveStart", (reason) => {
@@ -5054,13 +4454,7 @@ off(type: 'cameraMoveStart', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.off("cameraMoveStart", () => {
@@ -5097,13 +4491,7 @@ on(type: 'mapClick', callback: Callback<mapCommon.LatLng>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.on("mapClick", (position) => {
@@ -5140,13 +4528,7 @@ off(type: 'mapClick', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.off("mapClick", () => {
@@ -5183,13 +4565,7 @@ on(type: 'mapLoad', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.on("mapLoad", () => {
@@ -5226,13 +4602,7 @@ off(type: 'mapLoad', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.off("mapLoad", () => {
@@ -5269,13 +4639,7 @@ on(type: 'mapLongClick', callback: Callback<mapCommon.LatLng>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.on("mapLongClick", () => {
@@ -5312,13 +4676,7 @@ off(type: 'mapLongClick', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.off("mapLongClick", () => {
@@ -5355,13 +4713,7 @@ on(type: 'myLocationButtonClick', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.on("myLocationButtonClick", () => {
@@ -5398,13 +4750,7 @@ off(type: 'myLocationButtonClick', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.off("myLocationButtonClick", () => {
@@ -5441,13 +4787,7 @@ on(type: 'myLocationClick', callback: Callback<mapCommon.LatLng>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.on("myLocationClick", (position) => {
@@ -5484,13 +4824,7 @@ off(type: 'myLocationClick', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.off("myLocationClick", () => {
@@ -5527,13 +4861,7 @@ on(type: 'poiClick', callback: Callback<mapCommon.Poi>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.on("poiClick", (poi) => {
@@ -5570,13 +4898,7 @@ off(type: 'poiClick', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.off("poiClick", () => {
@@ -5613,13 +4935,7 @@ on(type: 'markerClick', callback: Callback<Marker>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.on("markerClick", (marker) => {
@@ -5656,13 +4972,7 @@ off(type: 'markerClick', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.off("markerClick", () => {
@@ -5699,13 +5009,7 @@ on(type: 'markerDragStart', callback: Callback<Marker>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.on("markerDragStart", (marker) => {
@@ -5742,13 +5046,7 @@ off(type: 'markerDragStart', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.off("markerDragStart", () => {
@@ -5785,13 +5083,7 @@ on(type: 'markerDrag', callback: Callback<Marker>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.on("markerDrag", (marker) => {
@@ -5828,13 +5120,7 @@ off(type: 'markerDrag', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.off("markerDrag", () => {
@@ -5871,13 +5157,7 @@ on(type: 'markerDragEnd', callback: Callback<Marker>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.on("markerDragEnd", (marker) => {
@@ -5914,13 +5194,7 @@ off(type: 'markerDragEnd', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.off("markerDragEnd", () => {
@@ -5957,13 +5231,7 @@ on(type: 'circleClick', callback: Callback<MapCircle>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.on("circleClick", (position) => {
@@ -6000,13 +5268,7 @@ off(type: 'circleClick', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.off("circleClick", () => {
@@ -6043,13 +5305,7 @@ on(type: 'polylineClick', callback: Callback<MapPolyline>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.on("polylineClick", (polyline) => {
@@ -6086,13 +5342,7 @@ off(type: 'polylineClick', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.off("polylineClick", () => {
@@ -6129,13 +5379,7 @@ on(type: 'polygonClick', callback: Callback<MapPolygon>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.on("polygonClick", (polygon) => {
@@ -6172,13 +5416,7 @@ off(type: 'polygonClick', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.off("polygonClick", () => {
@@ -6215,13 +5453,7 @@ on(type: 'infoWindowClick', callback: Callback<Marker>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.on("infoWindowClick", (infoWindow) => {
@@ -6258,13 +5490,7 @@ off(type: 'infoWindowClick', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.off("infoWindowClick", () => {
@@ -6301,13 +5527,7 @@ on(type: 'infoWindowClose', callback: Callback<Marker>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.on("infoWindowClose", (infoWindowClose) => {
@@ -6344,13 +5564,7 @@ off(type: 'infoWindowClose', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.off("infoWindowClose", () => {
@@ -6387,13 +5601,7 @@ on(type: 'pointAnnotationClick', callback: Callback<PointAnnotation>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.on("pointAnnotationClick", (pointAnnotation) => {
@@ -6430,13 +5638,7 @@ off(type: 'pointAnnotationClick', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.off("pointAnnotationClick", () => {
@@ -6473,13 +5675,7 @@ on(type: 'bubbleClick', callback: Callback<Bubble>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.on("bubbleClick", (bubble) => {
@@ -6516,13 +5712,7 @@ off(type: 'bubbleClick', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.off("bubbleClick", () => {
@@ -6559,13 +5749,7 @@ on(type: 'imageOverlayClick', callback: Callback<ImageOverlay>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 监听覆盖物点击事件的回调
@@ -6604,13 +5788,7 @@ off(type: 'imageOverlayClick', callback?: Callback<ImageOverlay>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let imageOverlayCallback: Callback<map.ImageOverlay> = (imageOverlay:map.ImageOverlay) => {
@@ -6648,13 +5826,7 @@ on(type: 'error', callback: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.on("error", (error) => {
@@ -6691,13 +5863,7 @@ off(type: 'error', callback: Callback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController.off("error", () => {
@@ -6743,13 +5909,7 @@ setIndoorMapEnabled(enabled: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 打开室内图
@@ -6794,13 +5954,7 @@ isIndoorMapEnabled(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let isIndoorMapEnabled = this.mapController.isIndoorMapEnabled();
@@ -6845,13 +5999,7 @@ switchIndoorMapFloor(buildingId: string, floorName: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController?.switchIndoorMapFloor('822588304363886720', '3F');
@@ -6895,13 +6043,7 @@ setFloorControlsPosition(point: mapCommon.MapPoint): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController?.setFloorControlsPosition({
@@ -6936,13 +6078,7 @@ isApproveNumberEnabled(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let isApproveNumberEnabled = this.mapController?.isApproveNumberEnabled();
@@ -6974,13 +6110,7 @@ setApproveNumberEnabled(enabled: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. this.mapController?.setApproveNumberEnabled(true);

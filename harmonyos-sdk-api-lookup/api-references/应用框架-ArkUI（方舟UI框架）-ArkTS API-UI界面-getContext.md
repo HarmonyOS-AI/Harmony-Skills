@@ -65,13 +65,7 @@ type Context = Context
 
 在UIAbility中通过windowStage.loadContent加载具体页面。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ets
@@ -116,13 +110,7 @@ type Context = Context
 
 在具体的Index.ets中可以通过getContext接口获取Context上下文，本示例返回的Context类型为UIAbilityContext。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. //pages/Index.ets

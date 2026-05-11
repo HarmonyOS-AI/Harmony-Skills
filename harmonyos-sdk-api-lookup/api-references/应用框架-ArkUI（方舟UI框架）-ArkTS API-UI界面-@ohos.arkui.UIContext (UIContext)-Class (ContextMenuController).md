@@ -22,13 +22,7 @@ close(): void
 
 通过定时器触发，调用ContextMenuController的close方法关闭菜单。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ContextMenuController } from '@kit.ArkUI';

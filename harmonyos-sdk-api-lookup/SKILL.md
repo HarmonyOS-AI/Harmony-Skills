@@ -53,11 +53,19 @@ api-references/
 3. `Enums.md` / `Types.md` / `Interfaces (其他).md`
 4. 错误码、指南、概览页面
 
-### 第三步：读取目标 Markdown
+### 第三步：检查大小并读取目标 Markdown
 
-读取候选文档后，读取目标 Markdown。
+读取候选文档前，先检查文件大小和行数，避免把超大 Markdown 一次性读入上下文：
 
-如果单个 Markdown 很大，先在候选文件内搜索 API / 类型名，再读取邻近上下文。
+```powershell
+Get-Item "harmonyos-sdk-api-lookup/api-references/目标文件.md" | Select-Object Length,FullName
+(Get-Content "harmonyos-sdk-api-lookup/api-references/目标文件.md" | Measure-Object -Line).Lines
+```
+
+按以下规则读取：
+
+1. **小文件**：小于 3000 行，可以整文件读取。
+2. **大文件**：达到 3000 行以上，禁止整文件读取；必须先搜索 API 名、类型名、标题或关键词。用搜索结果定位后读取邻近上下文，多次少量读取。
 
 ## 常用领域定位提示
 

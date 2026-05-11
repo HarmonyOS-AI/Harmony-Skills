@@ -234,13 +234,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 10开始，该示例通过[verticalAlign](/consumer/cn/doc/harmonyos-references/ts-basic-components-imagespan#verticalalign)、[objectFit](/consumer/cn/doc/harmonyos-references/ts-basic-components-imagespan#objectfit)属性展示了ImageSpan组件的对齐方式以及缩放效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -294,13 +288,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 11开始，该示例通过[textBackgroundStyle](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-basic-components-span#textbackgroundstyle11)属性展示了文本设置背景样式的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -331,13 +319,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 12开始，该示例通过[onComplete](/consumer/cn/doc/harmonyos-references/ts-basic-components-imagespan#oncomplete12)、[onError](/consumer/cn/doc/harmonyos-references/ts-basic-components-imagespan#onerror12)为图片添加加载成功和加载异常的事件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -368,13 +350,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 14开始，该示例通过[colorFilter](/consumer/cn/doc/harmonyos-references/ts-basic-components-imagespan#colorfilter14)属性展示了给ImageSpan图像设置颜色滤镜的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -423,13 +399,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 12开始，该示例[alt](/consumer/cn/doc/harmonyos-references/ts-basic-components-imagespan#alt12)属性展示了ImageSpan设置加载网络图片时占位图的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -498,13 +468,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 22开始，该示例通过设置[supportSvg2](/consumer/cn/doc/harmonyos-references/ts-basic-components-imagespan#supportsvg222)属性，使[SVG标签解析能力增强功能](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-image-svg2-capabilities#svg易用性提升)的SVG易用性提升能力生效。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';

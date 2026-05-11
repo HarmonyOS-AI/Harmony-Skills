@@ -6,13 +6,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { HdsSideBar } from '@kit.UIDesignKit';
@@ -77,13 +71,7 @@ PhonePC/2in1TabletTV
 
 HdsSideBar提供侧边栏可以显示和隐藏的侧边栏容器，可以自定义侧边栏区和内容区。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { HdsSideBar } from '@kit.UIDesignKit';

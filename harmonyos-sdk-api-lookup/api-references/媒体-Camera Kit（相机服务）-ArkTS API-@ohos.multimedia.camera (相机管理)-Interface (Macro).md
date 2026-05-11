@@ -11,13 +11,7 @@ Macro继承自[MacroQuery](https://developer.huawei.com/consumer/cn/doc/harmonyo
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { camera } from '@kit.CameraKit';
@@ -60,13 +54,7 @@ enableMacro(enabled: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function enableMacro(photoSession: camera.PhotoSession): void {

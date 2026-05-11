@@ -14,13 +14,7 @@ API24支持发生CPP\_CRASH时应用恢复。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { appRecovery } from '@kit.AbilityKit';
@@ -104,13 +98,7 @@ enableAppRecovery(restart?: [RestartFlag](/consumer/cn/doc/harmonyos-references/
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { appRecovery, AbilityStage } from '@kit.AbilityKit';
@@ -152,13 +140,7 @@ API10时将启动由[setRestartWant](/consumer/cn/doc/harmonyos-references/js-ap
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { appRecovery, errorManager } from '@kit.AbilityKit';
@@ -202,13 +184,7 @@ saveAppState(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { appRecovery, errorManager } from '@kit.AbilityKit';
@@ -260,13 +236,7 @@ saveAppState(context?: UIAbilityContext): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { appRecovery, errorManager } from '@kit.AbilityKit';
@@ -310,13 +280,7 @@ setRestartWant(want: Want): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { appRecovery, Want } from '@kit.AbilityKit';

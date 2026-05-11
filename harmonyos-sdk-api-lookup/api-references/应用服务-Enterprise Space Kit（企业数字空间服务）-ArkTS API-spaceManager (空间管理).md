@@ -6,13 +6,7 @@
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { spaceManager } from '@kit.EnterpriseSpaceKit';
@@ -335,13 +329,7 @@ createWorkspace(localName: string, workspaceType: WorkspaceType, params?: Create
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { spaceManager } from '@kit.EnterpriseSpaceKit';
@@ -414,13 +402,7 @@ enableWorkspace(enable: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { spaceManager } from '@kit.EnterpriseSpaceKit';
@@ -480,13 +462,7 @@ queryWorkspace(queryFlag: QueryType): Promise<WorkspaceInfo[]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { spaceManager } from '@kit.EnterpriseSpaceKit';
@@ -548,13 +524,7 @@ removeWorkspace(workspaceId: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { spaceManager } from '@kit.EnterpriseSpaceKit';
@@ -617,13 +587,7 @@ setWorkspaceInfo(workspaceId: number, domainInfo: WorkspaceDomainInfo): Promise<
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { spaceManager } from '@kit.EnterpriseSpaceKit';
@@ -695,13 +659,7 @@ setWorkspaceProfilePhoto(workspaceId: number, photo: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { spaceManager } from '@kit.EnterpriseSpaceKit';
@@ -765,13 +723,7 @@ subscribeEvent(eventId: EventType[], callback: AsyncCallback<EventData>): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { spaceManager } from '@kit.EnterpriseSpaceKit';
@@ -831,13 +783,7 @@ unsubscribeEvent(subscribeId: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { spaceManager } from '@kit.EnterpriseSpaceKit';
@@ -899,13 +845,7 @@ setRestrictedAccessBackgroundUserdata(userData: UserDataEnum, enable: boolean): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { spaceManager } from '@kit.EnterpriseSpaceKit';
@@ -967,13 +907,7 @@ getRestrictedAccessBackgroundUserdataStatus(userData: UserDataEnum): Promise<boo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { spaceManager } from '@kit.EnterpriseSpaceKit';
@@ -1034,13 +968,7 @@ getRestrictedAccessBackgroundUserdataProcessList(userData: UserDataEnum): Promis
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { spaceManager } from '@kit.EnterpriseSpaceKit';
@@ -1103,13 +1031,7 @@ addRestrictedAccessBackgroundUserdataProcessList(userData: UserDataEnum, process
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { spaceManager } from '@kit.EnterpriseSpaceKit';
@@ -1173,13 +1095,7 @@ deleteRestrictedAccessBackgroundUserdataProcessList(userData: UserDataEnum, proc
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { spaceManager } from '@kit.EnterpriseSpaceKit';
@@ -1242,13 +1158,7 @@ setWorkspacePolicy(key: string, value: number, workspaceId?: number): Promise<vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { spaceManager } from '@kit.EnterpriseSpaceKit';
@@ -1312,13 +1222,7 @@ getWorkspacePolicy(key: string, workspaceId?: number): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { spaceManager } from '@kit.EnterpriseSpaceKit';
@@ -1381,13 +1285,7 @@ setLockdownExemptionApps(appIds: string[], workspaceId?: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { spaceManager } from '@kit.EnterpriseSpaceKit';
@@ -1452,13 +1350,7 @@ getLockdownExemptionApps(workspaceId?: number): Promise<string[]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { spaceManager } from '@kit.EnterpriseSpaceKit';
@@ -1523,13 +1415,7 @@ authenticate(enterpriseAuthInfo: WorkspaceDomainInfo, credential: Uint8Array): P
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { spaceManager } from '@kit.EnterpriseSpaceKit';
@@ -1597,13 +1483,7 @@ getAccessToken(businessParams: Record<string, string>): Promise<Uint8Array>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { spaceManager } from '@kit.EnterpriseSpaceKit';
@@ -1669,13 +1549,7 @@ setWorkspaceStatusBarIcon(statusBarIcon: StatusBarIcon, workspaceId?: number): P
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { spaceManager } from '@kit.EnterpriseSpaceKit';
@@ -1760,13 +1634,7 @@ setWorkspaceLocalName(localName: string, workspaceId?: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { spaceManager } from '@kit.EnterpriseSpaceKit';

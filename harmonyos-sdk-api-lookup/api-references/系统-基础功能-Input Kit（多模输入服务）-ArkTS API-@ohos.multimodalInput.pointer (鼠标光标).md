@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pointer } from '@kit.InputKit';
@@ -52,13 +46,7 @@ setPointerVisible(visible: boolean, callback: AsyncCallback<void>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pointer } from '@kit.InputKit';
@@ -127,13 +115,7 @@ setPointerVisible(visible: boolean): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pointer } from '@kit.InputKit';
@@ -191,13 +173,7 @@ setPointerVisibleSync(visible: boolean): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pointer } from '@kit.InputKit';
@@ -251,13 +227,7 @@ isPointerVisible(callback: AsyncCallback<boolean>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pointer } from '@kit.InputKit';
@@ -307,13 +277,7 @@ isPointerVisible(): Promise<boolean>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pointer } from '@kit.InputKit';
@@ -361,13 +325,7 @@ isPointerVisibleSync(): boolean
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pointer } from '@kit.InputKit';
@@ -422,13 +380,7 @@ getPointerStyle(windowId: number, callback: AsyncCallback<PointerStyle>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pointer } from '@kit.InputKit';
@@ -504,13 +456,7 @@ getPointerStyle(windowId: number): Promise<PointerStyle>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pointer } from '@kit.InputKit';
@@ -588,13 +534,7 @@ getPointerStyleSync(windowId: number): PointerStyle
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pointer } from '@kit.InputKit';
@@ -651,13 +591,7 @@ setPointerStyle(windowId: number, pointerStyle: PointerStyle, callback: AsyncCal
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pointer } from '@kit.InputKit';
@@ -734,13 +668,7 @@ setPointerStyle(windowId: number, pointerStyle: PointerStyle): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pointer } from '@kit.InputKit';
@@ -811,13 +739,7 @@ setPointerStyleSync(windowId: number, pointerStyle: PointerStyle): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pointer } from '@kit.InputKit';
@@ -994,13 +916,7 @@ setCustomCursor(windowId: number, pixelMap: image.PixelMap, focusX?: number, foc
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pointer } from '@kit.InputKit';
@@ -1115,13 +1031,7 @@ setCustomCursor(windowId: number, cursor: CustomCursor, config: CursorConfig): P
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pointer } from '@kit.InputKit';
@@ -1197,13 +1107,7 @@ setCustomCursorSync(windowId: number, pixelMap: image.PixelMap, focusX?: number,
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { pointer } from '@kit.InputKit';

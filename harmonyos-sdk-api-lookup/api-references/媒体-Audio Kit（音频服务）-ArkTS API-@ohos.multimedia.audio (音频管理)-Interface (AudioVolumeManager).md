@@ -11,13 +11,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { audio } from '@kit.AudioKit';
@@ -44,13 +38,7 @@ getVolumeGroupManager(groupId: number, callback: AsyncCallback<AudioVolumeGroupM
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -96,13 +84,7 @@ getVolumeGroupManager(groupId: number): Promise<AudioVolumeGroupManager>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { audio } from '@kit.AudioKit';
@@ -160,13 +142,7 @@ getVolumeGroupManagerSync(groupId: number): AudioVolumeGroupManager
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -202,13 +178,7 @@ getAppVolumePercentage(): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { audio } from '@kit.AudioKit';
@@ -259,13 +229,7 @@ setAppVolumePercentage(volume: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { audio } from '@kit.AudioKit';
@@ -311,13 +275,7 @@ on(type: 'volumeChange', callback: Callback<VolumeEvent>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioVolumeManager.on('volumeChange', (volumeEvent: audio.VolumeEvent) => {
@@ -363,13 +321,7 @@ off(type: 'volumeChange', callback?: Callback<VolumeEvent>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 取消该事件的所有监听。
@@ -418,13 +370,7 @@ on(type: 'appVolumeChange', callback: Callback<VolumeEvent>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioVolumeManager.on('appVolumeChange', (volumeEvent: audio.VolumeEvent) => {
@@ -465,13 +411,7 @@ off(type: 'appVolumeChange', callback?: Callback<VolumeEvent>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 取消该事件的所有监听。
@@ -529,13 +469,7 @@ getVolumeByStream(streamUsage: StreamUsage): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 获取指定音频流的音量值。
@@ -591,13 +525,7 @@ getMinVolumeByStream(streamUsage: StreamUsage): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 获取指定音频流的最小音量。
@@ -653,13 +581,7 @@ getMaxVolumeByStream(streamUsage: StreamUsage): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 获取指定音频流的最大音量。
@@ -713,13 +635,7 @@ isSystemMutedForStream(streamUsage: StreamUsage): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 检查指定音频流是否静音。
@@ -775,13 +691,7 @@ getVolumeInUnitOfDbByStream(streamUsage: StreamUsage, volumeLevel: number, devic
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 获取系统通过音频流、音量等级和设备类型计算出的音量dB值。
@@ -830,13 +740,7 @@ on(type: 'streamVolumeChange', streamUsage: StreamUsage, callback: Callback<Stre
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioVolumeManager.on('streamVolumeChange', audio.StreamUsage.STREAM_USAGE_MUSIC, (streamVolumeEvent: audio.StreamVolumeEvent) => {
@@ -867,13 +771,7 @@ off(type: 'streamVolumeChange', callback?: Callback<StreamVolumeEvent>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 取消该事件的所有监听。

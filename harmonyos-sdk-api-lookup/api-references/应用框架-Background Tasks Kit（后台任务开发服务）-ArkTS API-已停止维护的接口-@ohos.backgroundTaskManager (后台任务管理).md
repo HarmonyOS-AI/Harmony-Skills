@@ -15,13 +15,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import backgroundTaskManager from '@ohos.backgroundTaskManager';
@@ -62,13 +56,7 @@ requestSuspendDelay(reason: string, callback: Callback<void>): DelaySuspendInfo
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import backgroundTaskManager from '@ohos.backgroundTaskManager';
@@ -112,13 +100,7 @@ getRemainingDelayTime(requestId: number, callback: AsyncCallback<number>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import backgroundTaskManager from '@ohos.backgroundTaskManager';
@@ -166,13 +148,7 @@ getRemainingDelayTime(requestId: number): Promise<number>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import backgroundTaskManager from '@ohos.backgroundTaskManager';
@@ -210,13 +186,7 @@ cancelSuspendDelay(requestId: number): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let delayInfo = backgroundTaskManager.requestSuspendDelay("test", () => {});
@@ -254,13 +224,7 @@ startBackgroundRunning(context: Context, bgMode: BackgroundMode, wantAgent: Want
 
 FA模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import backgroundTaskManager from '@ohos.backgroundTaskManager';
@@ -296,13 +260,7 @@ FA模型示例：
 
 Stage模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import UIAbility from '@ohos.app.ability.UIAbility';
@@ -380,13 +338,7 @@ startBackgroundRunning(context: Context, bgMode: BackgroundMode, wantAgent: Want
 
 FA模型示例（需使用js代码开发）：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import backgroundTaskManager from '@ohos.backgroundTaskManager';
@@ -418,13 +370,7 @@ FA模型示例（需使用js代码开发）：
 
 Stage模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import UIAbility from '@ohos.app.ability.UIAbility';
@@ -489,13 +435,7 @@ stopBackgroundRunning(context: Context, callback: AsyncCallback<void>): void
 
 FA模型示例（需使用js代码开发）：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import backgroundTaskManager from '@ohos.backgroundTaskManager';
@@ -515,13 +455,7 @@ FA模型示例（需使用js代码开发）：
 
 Stage模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import UIAbility from '@ohos.app.ability.UIAbility';
@@ -579,13 +513,7 @@ stopBackgroundRunning(context: Context): Promise<void>
 
 FA模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import backgroundTaskManager from '@ohos.backgroundTaskManager';
@@ -602,13 +530,7 @@ FA模型示例：
 
 Stage模型示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import UIAbility from '@ohos.app.ability.UIAbility';

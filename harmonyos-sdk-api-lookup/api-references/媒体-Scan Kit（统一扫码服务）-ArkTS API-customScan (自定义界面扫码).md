@@ -8,13 +8,7 @@
 
 PhoneTabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { customScan } from '@kit.ScanKit';
@@ -45,13 +39,7 @@ PhoneTabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -131,13 +119,7 @@ PhoneTabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -219,13 +201,7 @@ PhoneTabletWearable
 1. scanCodeRects返回的是在横向预览流中检测到的码图位置信息。若需在竖屏场景下进行后续处理（以设备竖屏、充电口朝下为基准），须将这些坐标转换至纵向坐标系。数组中每个元素包含left、top、right、bottom四个字段，其转换逻辑如下。以scanCodeRects第一个元素（scanCodeRects[0]）为例，具体实现参见下方示例代码。
 2. 对应的二维码区域位置可以使用固定定位position({x: left, y: top})，宽度width: right - left，高度height: bottom - top，画出二维码实际区域范围。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // start接口frameCallback回调返回frameResult数据
@@ -299,13 +275,7 @@ init(options?: scanBarcode.ScanOptions): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { scanBarcode, scanCore, customScan } from '@kit.ScanKit';
@@ -378,13 +348,7 @@ start(viewControl: ViewControl): Promise<Array<scanBarcode.ScanResult>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -492,13 +456,7 @@ start(viewControl: ViewControl, callback: AsyncCallback<Array<scanBarcode.ScanRe
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -611,13 +569,7 @@ getFlashLightStatus(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { customScan } from '@kit.ScanKit';
@@ -675,13 +627,7 @@ openFlashLight(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { customScan } from '@kit.ScanKit';
@@ -739,13 +685,7 @@ closeFlashLight(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { customScan } from '@kit.ScanKit';
@@ -812,13 +752,7 @@ setZoom(zoomValue: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { customScan } from '@kit.ScanKit';
@@ -871,13 +805,7 @@ getZoom(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -931,13 +859,7 @@ setFocusPoint(point: scanBarcode.Point): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { customScan } from '@kit.ScanKit';
@@ -981,13 +903,7 @@ resetFocus(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { customScan } from '@kit.ScanKit';
@@ -1040,13 +956,7 @@ on(type: 'lightingFlash', callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1109,13 +1019,7 @@ off(type: 'lightingFlash', callback?: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1171,13 +1075,7 @@ rescan(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -1286,13 +1184,7 @@ setAutoZoomEnabled(enabled: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { customScan } from '@kit.ScanKit';
@@ -1344,13 +1236,7 @@ stop(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -1408,13 +1294,7 @@ stop(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -1474,13 +1354,7 @@ release(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -1538,13 +1412,7 @@ release(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';

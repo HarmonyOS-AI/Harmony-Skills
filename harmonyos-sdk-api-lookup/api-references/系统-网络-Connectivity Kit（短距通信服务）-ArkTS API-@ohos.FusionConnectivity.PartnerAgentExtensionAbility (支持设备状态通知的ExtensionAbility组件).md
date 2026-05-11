@@ -9,13 +9,7 @@ PartnerAgentExtensionAbility是外设互通扩展能力的基础类，提供设�
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { PartnerAgentExtensionAbility, partnerAgent } from '@kit.ConnectivityKit';
@@ -99,13 +93,7 @@ onDestroyWithReason(reason: PartnerAgentExtensionAbilityDestroyReason): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. export default class PartnerAgentExtAbility extends PartnerAgentExtensionAbility {
@@ -137,13 +125,7 @@ onDeviceDiscovered(deviceAddress: PartnerDeviceAddress): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. export default class PartnerAgentExtAbility extends PartnerAgentExtensionAbility {

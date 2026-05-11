@@ -33,13 +33,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { sendableContextManager } from '@kit.AbilityKit';
@@ -103,13 +97,7 @@ convertFromContext(context: common.Context): SendableContext
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want, sendableContextManager } from '@kit.AbilityKit';
@@ -188,13 +176,7 @@ convertToContext(sendableContext: SendableContext): common.Context
 
 主线程传递Context：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want, common, sendableContextManager } from '@kit.AbilityKit';
@@ -235,13 +217,7 @@ convertToContext(sendableContext: SendableContext): common.Context
 
 Worker线程接收Context：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ErrorEvent, MessageEvents, ThreadWorkerGlobalScope, worker } from '@kit.ArkTS';
@@ -328,13 +304,7 @@ convertToApplicationContext(sendableContext: SendableContext): common.Applicatio
 
 主线程传递Context：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want, common, sendableContextManager } from '@kit.AbilityKit';
@@ -377,13 +347,7 @@ convertToApplicationContext(sendableContext: SendableContext): common.Applicatio
 
 Worker线程接收Context：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ErrorEvent, MessageEvents, ThreadWorkerGlobalScope, worker } from '@kit.ArkTS';
@@ -470,13 +434,7 @@ convertToAbilityStageContext(sendableContext: SendableContext): common.AbilitySt
 
 主线程传递Context：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, sendableContextManager } from '@kit.AbilityKit';
@@ -517,13 +475,7 @@ convertToAbilityStageContext(sendableContext: SendableContext): common.AbilitySt
 
 Worker线程接收Context：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ErrorEvent, MessageEvents, ThreadWorkerGlobalScope, worker } from '@kit.ArkTS';
@@ -610,13 +562,7 @@ convertToUIAbilityContext(sendableContext: SendableContext): common.UIAbilityCon
 
 主线程传递Context：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want, common, sendableContextManager } from '@kit.AbilityKit';
@@ -657,13 +603,7 @@ convertToUIAbilityContext(sendableContext: SendableContext): common.UIAbilityCon
 
 Worker线程接收Context：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ErrorEvent, MessageEvents, ThreadWorkerGlobalScope, worker } from '@kit.ArkTS';
@@ -737,13 +677,7 @@ setEventHubMultithreadingEnabled(context: common.Context, enabled: boolean): voi
 
 主线程启用[Context](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-inner-application-context)中[EventHub](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-inner-application-eventhub)的跨线程通信能力，并将Context转换为[SendableContext](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-inner-application-sendablecontext)后发送到[Worker](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-worker)线程。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common, sendableContextManager } from '@kit.AbilityKit';
@@ -802,13 +736,7 @@ setEventHubMultithreadingEnabled(context: common.Context, enabled: boolean): voi
 
 [Worker](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-worker)线程接收到[SendableContext](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-inner-application-sendablecontext)后，将其转换为[Context](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-inner-application-context)。然后，在Worker线程内，启用Context中[EventHub](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-inner-application-eventhub)的跨线程通信能力，并通过该功能向主线程发送消息。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ErrorEvent, MessageEvents, ThreadWorkerGlobalScope, worker } from '@kit.ArkTS';

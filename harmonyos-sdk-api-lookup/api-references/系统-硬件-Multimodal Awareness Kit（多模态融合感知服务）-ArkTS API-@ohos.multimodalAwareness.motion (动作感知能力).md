@@ -8,13 +8,7 @@
 
 Phone
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { motion } from '@kit.MultimodalAwarenessKit';
@@ -93,13 +87,7 @@ on(type: 'operatingHandChanged', callback: Callback<OperatingHandStatus>): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -154,13 +142,7 @@ off(type: 'operatingHandChanged', callback?: Callback<OperatingHandStatus>): voi
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -208,13 +190,7 @@ getRecentOperatingHandStatus(): OperatingHandStatus
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -264,13 +240,7 @@ on(type: 'holdingHandChanged', callback: Callback<HoldingHandStatus>): void
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -324,13 +294,7 @@ off(type: 'holdingHandChanged', callback?: Callback<HoldingHandStatus>): void
 
 **示例**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { uiExtension } from '@kit.ArkUI';
@@ -80,13 +74,7 @@ getWindowAvoidArea(type: window.AvoidAreaType): window.AvoidArea
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // ExtensionProvider.ets
@@ -136,13 +124,7 @@ on(type: 'avoidAreaChange', callback: Callback<AvoidAreaInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // ExtensionProvider.ets
@@ -193,13 +175,7 @@ off(type: 'avoidAreaChange', callback?: Callback<AvoidAreaInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // ExtensionProvider.ets
@@ -247,13 +223,7 @@ on(type: 'windowSizeChange', callback: Callback<window.Size>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // ExtensionProvider.ets
@@ -304,13 +274,7 @@ off(type: 'windowSizeChange', callback?: Callback<window.Size>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // ExtensionProvider.ets
@@ -362,13 +326,7 @@ on(type: 'rectChange', reasons: number, callback: Callback<RectChangeOptions>): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // ExtensionProvider.ets
@@ -422,13 +380,7 @@ off(type: 'rectChange', callback?: Callback<RectChangeOptions>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // ExtensionProvider.ets
@@ -491,13 +443,7 @@ createSubWindowWithOptions(name: string, subWindowOptions: window.SubWindowOptio
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // ExtensionProvider.ets
@@ -590,13 +536,7 @@ createSubWindowWithOptions(name: string, subWindowConfig: window.SubWindowOption
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // ExtensionProvider.ets
@@ -685,13 +625,7 @@ occupyEvents(eventFlags: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // ExtensionProvider.ets
@@ -816,13 +750,7 @@ PhonePC/2in1TabletTVWearable
 
 * 示例应用中的EntryAbility(UIAbility)加载首页文件：pages/Index.ets，其中内容如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // pages/Index.ets -- UIAbility启动时加载此页面
@@ -860,13 +788,7 @@ PhonePC/2in1TabletTVWearable
 
 * EmbeddedComponent拉起的EmbeddedUIExtensionAbility在ets/extensionAbility/ExampleEmbeddedAbility文件中实现，内容如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { EmbeddedUIExtensionAbility, UIExtensionContentSession, Want } from '@kit.AbilityKit';
@@ -903,13 +825,7 @@ PhonePC/2in1TabletTVWearable
 
 * EmbeddedUIExtensionAbility的入口页面文件pages/extension.ets内容如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIExtensionContentSession } from '@kit.AbilityKit';
@@ -999,13 +915,7 @@ PhonePC/2in1TabletTVWearable
 
 * 最后，示例应用的module.json5中的"extensionAbilities"中需要增加一项，具体内容如下：
 
-  收起
-
-  自动换行
-
-  深色代码主题
-
-  复制
+  
 
   ```
   1. {

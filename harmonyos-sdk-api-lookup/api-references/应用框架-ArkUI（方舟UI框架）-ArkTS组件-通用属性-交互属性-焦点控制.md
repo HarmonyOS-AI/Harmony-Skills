@@ -463,13 +463,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置[defaultFocus](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-focus#defaultfocus9)可以使绑定的组件成为[层级页面](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/arkts-common-events-focus-event#基础概念)创建后首次获焦的焦点，配置[groupDefaultFocus](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-focus#groupdefaultfocus9)可以使绑定的组件成为tabIndex容器创建后首次获焦的焦点，配置[focusOnTouch](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-focus#focusontouch9)可以使绑定的组件点击后立即获焦。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // focusTest.ets
@@ -628,13 +622,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置[focusControl.requestFocus](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-focus#requestfocus9)使指定组件获取焦点。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // requestFocus.ets
@@ -725,13 +713,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置[focusBox](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-focus#focusbox12)修改组件的焦点框样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ColorMetrics, LengthMetrics } from '@kit.ArkUI';
@@ -765,13 +747,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置[focusScopePriority](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-focus#focusscopepriority12)，可以使绑定的组件在所属容器首次获焦时成为焦点，配置[focusScopeId](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-focus#focusscopeid12)，可以使绑定的容器组件成为焦点组。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // focusTest.ets
@@ -928,13 +904,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置[tabStop](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-focus#tabstop14)实现使用tab走焦停留在组件上。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ColorMetrics, LengthMetrics } from '@kit.ArkUI';
@@ -1028,13 +998,7 @@ PhonePC/2in1TabletTVWearable
 
 如果不配置[nextFocus](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-focus#nextfocus18)，默认的点击tab的走焦顺序为：M->A->B->C；配置了[nextFocus](/consumer/cn/doc/harmonyos-references/ts-universal-attributes-focus#nextfocus18)以后，走焦顺序变更为：M->D->F->B。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class MyButtonModifier implements AttributeModifier<ButtonAttribute> {

@@ -2528,13 +2528,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示Navigation页面的布局包括标题栏[title](/consumer/cn/doc/harmonyos-references/ts-basic-components-navigation#title)，菜单栏[menus](/consumer/cn/doc/harmonyos-references/ts-basic-components-navigation#menus)，内容区和工具栏[toolbarConfiguration](/consumer/cn/doc/harmonyos-references/ts-basic-components-navigation#toolbarconfiguration10)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2644,13 +2638,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示[NavPathStack](/consumer/cn/doc/harmonyos-references/ts-basic-components-navigation#navpathstack10)中方法的使用及路由拦截。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -2734,13 +2722,7 @@ PhonePC/2in1TabletTVWearable
 79. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // PageOne.ets
@@ -2842,13 +2824,7 @@ PhonePC/2in1TabletTVWearable
 97. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // PageTwo.ets
@@ -2907,13 +2883,7 @@ PhonePC/2in1TabletTVWearable
 
 在src/main目录下的[module.json5配置文件](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/module-configuration-file)中的module字段里配置"routerMap": "$profile:router\_map"，并在src/main/resources/base/profile目录下新增router\_map.json。router\_map.json示例如下。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. {
@@ -2941,13 +2911,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示设置每个[NavDestination](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-basic-components-navdestination)子页面的自定义转场动画及可交互转场动画。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -3048,13 +3012,7 @@ PhonePC/2in1TabletTVWearable
 96. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // PageOne.ets
@@ -3167,13 +3125,7 @@ PhonePC/2in1TabletTVWearable
 108. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // PageTwo.ets
@@ -3281,13 +3233,7 @@ PhonePC/2in1TabletTVWearable
 103. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // src/main/pages/CustomNavigationUtils.ets
@@ -3431,13 +3377,7 @@ PhonePC/2in1TabletTVWearable
 
 在src/main目录下的[module.json5配置文件](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/module-configuration-file)中的module字段里配置"routerMap": "$profile:router\_map"，并在src/main/resources/base/profile目录下新增router\_map.json。router\_map.json示例如下。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. {
@@ -3465,13 +3405,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示Navigation通过[NavPathStack](/consumer/cn/doc/harmonyos-references/ts-basic-components-navigation#navpathstack10)提供的接口来实现将设置的参数传给上一级页面。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -3496,13 +3430,7 @@ PhonePC/2in1TabletTVWearable
 20. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // PageOne.ets
@@ -3662,13 +3590,7 @@ PhonePC/2in1TabletTVWearable
 155. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // PageTwo.ets
@@ -3754,13 +3676,7 @@ PhonePC/2in1TabletTVWearable
 
 在src/main目录下的[module.json5配置文件](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/module-configuration-file)中的module字段里配置"routerMap": "$profile:router\_map"，并在src/main/resources/base/profile目录下新增router\_map.json。router\_map.json示例如下。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. {
@@ -3788,13 +3704,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示设置Navigation主页的标题栏、工具栏和[NavDestination](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-basic-components-navdestination)页面的标题栏的背景颜色和背景模糊效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index
@@ -3932,13 +3842,7 @@ PhonePC/2in1TabletTVWearable
 133. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // PageOne.ets
@@ -4041,13 +3945,7 @@ PhonePC/2in1TabletTVWearable
 98. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Utils.ets
@@ -4087,13 +3985,7 @@ PhonePC/2in1TabletTVWearable
 
 在src/main目录下的[module.json5配置文件](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/module-configuration-file)中的module字段里配置"routerMap": "$profile:router\_map"，并在src/main/resources/base/profile目录下新增router\_map.json。router\_map.json示例如下。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. {
@@ -4116,13 +4008,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示在嵌套Navigation场景下，如何获取父[NavPathStack](/consumer/cn/doc/harmonyos-references/ts-basic-components-navigation#navpathstack10)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -4161,13 +4047,7 @@ PhonePC/2in1TabletTVWearable
 34. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // PageOne.ets
@@ -4182,13 +4062,7 @@ PhonePC/2in1TabletTVWearable
 
 在src/main目录下的[module.json5配置文件](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/module-configuration-file)中的module字段里配置"routerMap": "$profile:router\_map"，并在src/main/resources/base/profile目录下新增router\_map.json。router\_map.json示例如下。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. {
@@ -4214,13 +4088,7 @@ PhonePC/2in1TabletTVWearable
 1. [NavPathStack](/consumer/cn/doc/harmonyos-references/ts-basic-components-navigation#navpathstack10)无需声明为状态变量，也可以实现路由栈操作功能。
 2. [NavDestination](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-basic-components-navdestination)通过[onReady](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-basic-components-navdestination#onready11)事件能够拿到对应的[NavPathInfo](/consumer/cn/doc/harmonyos-references/ts-basic-components-navigation#navpathinfo10)和所属的[NavPathStack](/consumer/cn/doc/harmonyos-references/ts-basic-components-navigation#navpathstack10)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class PageParam {
@@ -4310,13 +4178,7 @@ PhonePC/2in1TabletTVWearable
 
 在src/main目录下的[module.json5配置文件](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/module-configuration-file)中的module字段里配置"routerMap": "$profile:router\_map"，并在src/main/resources/base/profile目录下新增router\_map.json。router\_map.json示例如下。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. {
@@ -4339,13 +4201,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例演示[NavDestination](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-basic-components-navdestination)的[onAppear](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-events-show-hide#onappear)，[onDisAppear](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-events-show-hide#ondisappear)，[onShown](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-basic-components-navdestination#onshown10)，[onHidden](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-basic-components-navdestination#onhidden10)，[onWillAppear](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-basic-components-navdestination#onwillappear12)，[onWillDisappear](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-basic-components-navdestination#onwilldisappear12)，[onWillShow](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-basic-components-navdestination#onwillshow12)，[onWillHide](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-basic-components-navdestination#onwillhide12)接口的生命周期时序。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Builder
@@ -4447,13 +4303,7 @@ PhonePC/2in1TabletTVWearable
 
 在src/main目录下的[module.json5配置文件](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/module-configuration-file)中的module字段里配置"routerMap": "$profile:router\_map"，并在src/main/resources/base/profile目录下新增router\_map.json。router\_map.json示例如下。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. {
@@ -4476,13 +4326,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例演示Navigation标题栏STACK布局效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -4556,13 +4400,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示如何定义[NavPathStack](/consumer/cn/doc/harmonyos-references/ts-basic-components-navigation#navpathstack10)的派生类和派生类在Navigation中的基本用法。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -4591,13 +4429,7 @@ PhonePC/2in1TabletTVWearable
 24. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // PageOne.ets
@@ -4651,13 +4483,7 @@ PhonePC/2in1TabletTVWearable
 49. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Utils.ets
@@ -4709,13 +4535,7 @@ PhonePC/2in1TabletTVWearable
 
 在src/main目录下的[module.json5配置文件](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/module-configuration-file)中的module字段里配置"routerMap": "$profile:router\_map"，并在src/main/resources/base/profile目录下新增router\_map.json。router\_map.json示例如下。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. {
@@ -4738,13 +4558,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示Navigation和[NavDestination](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-basic-components-navdestination)如何使用Symbol组件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -4820,13 +4634,7 @@ PhonePC/2in1TabletTVWearable
 71. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // PageOne.ets
@@ -4884,13 +4692,7 @@ PhonePC/2in1TabletTVWearable
 
 在src/main目录下的[module.json5配置文件](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/module-configuration-file)中的module字段里配置"routerMap": "$profile:router\_map"，并在src/main/resources/base/profile目录下新增router\_map.json。router\_map.json示例如下。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. {
@@ -4913,13 +4715,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要演示Navigation和[NavDestination](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-basic-components-navdestination)如何设置自定义标题栏边距，如何通过TextModifier修改主副标题文本样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -5007,13 +4803,7 @@ PhonePC/2in1TabletTVWearable
 83. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // PageOne.ets
@@ -5105,13 +4895,7 @@ PhonePC/2in1TabletTVWearable
 87. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Utils.ets
@@ -5165,13 +4949,7 @@ PhonePC/2in1TabletTVWearable
 
 在src/main目录下的[module.json5配置文件](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/module-configuration-file)中的module字段里配置"routerMap": "$profile:router\_map"，并在src/main/resources/base/profile目录下新增router\_map.json。router\_map.json示例如下。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. {
@@ -5194,13 +4972,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例主要实现Navigation简单的自定义转场动画。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -5372,13 +5144,7 @@ PhonePC/2in1TabletTVWearable
 167. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // src/main/pages/CustomTransitionUtils.ts 工具类，用来管理所有页面的自定义动画参数注册和获取等
@@ -5432,13 +5198,7 @@ PhonePC/2in1TabletTVWearable
 
 在src/main目录下的[module.json5配置文件](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/module-configuration-file)中的module字段里配置"routerMap": "$profile:router\_map"，并在src/main/resources/base/profile目录下新增router\_map.json。router\_map.json示例如下。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. {
@@ -5470,13 +5230,7 @@ PhonePC/2in1TabletTVWearable
 
 此示例在运行前需要在工程配置文件[module.json5](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/module-configuration-file)中的abilities字段里配置"orientation": "auto\_rotation"。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ComponentContent } from '@kit.ArkUI';
@@ -5614,13 +5368,7 @@ PhonePC/2in1TabletTVWearable
 
 在工程配置文件[module.json5](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/module-configuration-file)中的abilities字段里配置"orientation": "landscape"（该工程配置仅方便演示在横屏模式下的Navigation工具栏自适应能力，实际配置可自行设置为"auto\_rotation"）。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SymbolGlyphModifier } from '@kit.ArkUI';
@@ -5691,13 +5439,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，新增创建Navigation组件的方式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Component
@@ -5755,13 +5497,7 @@ PhonePC/2in1TabletTVWearable
 
 在src/main目录下的[module.json5配置文件](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/module-configuration-file)中的module字段里配置"routerMap": "$profile:router\_map"，并在src/main/resources/base/profile目录下新增router\_map.json。router\_map.json示例如下。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. {
@@ -5794,13 +5530,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 22开始，在setInterception的参数类型[NavigationInterception](/consumer/cn/doc/harmonyos-references/ts-basic-components-navigation#navigationinterception12)中新增了interception接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -5886,13 +5616,7 @@ PhonePC/2in1TabletTVWearable
 81. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // PageOne.ets
@@ -5997,13 +5721,7 @@ PhonePC/2in1TabletTVWearable
 100. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // PageTwo.ets
@@ -6059,13 +5777,7 @@ PhonePC/2in1TabletTVWearable
 
 在src/main目录下的工程配置文件[module.json5](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/module-configuration-file)中的module字段里配置"routerMap": "$profile:router\_map"。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // src/main/resources/base/profile/router_map.json
@@ -6096,13 +5808,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 14开始，新增recoverable接口。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -6180,13 +5886,7 @@ PhonePC/2in1TabletTVWearable
 73. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // PageOne.ets
@@ -6248,13 +5948,7 @@ PhonePC/2in1TabletTVWearable
 
 在src/main目录下[module.json5配置文件](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/module-configuration-file)中的module字段里配置"routerMap": "$profile:router\_map"，并在src/main/resources/base/profile目录下新增router\_map.json文件。示例如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. {

@@ -1,10 +1,4 @@
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef struct {...} ArkWeb_ComponentAPI
@@ -57,13 +51,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void (*onControllerAttached)(const char* webTag, ArkWeb_OnComponentCallback callback, void* userData)
@@ -87,13 +75,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void (*onPageBegin)(const char* webTag, ArkWeb_OnComponentCallback callback, void* userData)
@@ -117,13 +99,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void (*onPageEnd)(const char* webTag, ArkWeb_OnComponentCallback callback, void* userData)
@@ -147,13 +123,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. void (*onDestroy)(const char* webTag, ArkWeb_OnComponentCallback callback, void* userData)

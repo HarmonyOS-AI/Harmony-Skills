@@ -6,13 +6,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudDatabase } from '@kit.CloudFoundationKit';
@@ -52,13 +46,7 @@ zone(zone: string): DatabaseZone
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudDatabase } from '@kit.CloudFoundationKit';
@@ -132,13 +120,7 @@ query<T extends DatabaseObject>(condition: DatabaseQuery<T>): Promise<T[]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 在代码工程中创建BookInfo.ets文件
@@ -165,13 +147,7 @@ query<T extends DatabaseObject>(condition: DatabaseQuery<T>): Promise<T[]>
 22. export { BookInfo };
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudDatabase } from '@kit.CloudFoundationKit';
@@ -234,13 +210,7 @@ query<T extends DatabaseObject>(condition: DatabaseQuery<T>, callback: AsyncCall
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudDatabase } from '@kit.CloudFoundationKit';
@@ -315,13 +285,7 @@ calculateQuery<T extends DatabaseObject>(condition: DatabaseQuery<T>, fieldName:
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudDatabase } from '@kit.CloudFoundationKit';
@@ -387,13 +351,7 @@ calculateQuery<T extends DatabaseObject>(condition: DatabaseQuery<T>, fieldName:
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudDatabase } from '@kit.CloudFoundationKit';
@@ -467,13 +425,7 @@ upsert<T extends DatabaseObject>(objectList: T[] | T): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudDatabase } from '@kit.CloudFoundationKit';
@@ -541,13 +493,7 @@ upsert<T extends DatabaseObject>(objectList: T[] | T, callback: AsyncCallback<nu
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudDatabase } from '@kit.CloudFoundationKit';
@@ -624,13 +570,7 @@ delete<T extends DatabaseObject>(objectList: T[] | T): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudDatabase } from '@kit.CloudFoundationKit';
@@ -695,13 +635,7 @@ delete<T extends DatabaseObject>(objectList: T[] | T, callback: AsyncCallback<nu
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudDatabase } from '@kit.CloudFoundationKit';
@@ -767,13 +701,7 @@ naturalbase\_ClassName(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudDatabase } from '@kit.CloudFoundationKit';
@@ -913,13 +841,7 @@ equalTo(fieldName: string, value: FieldType): DatabaseQuery<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudDatabase } from '@kit.CloudFoundationKit';
@@ -972,13 +894,7 @@ notEqualTo(fieldName: string, value: FieldType): DatabaseQuery<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudDatabase } from '@kit.CloudFoundationKit';
@@ -1031,13 +947,7 @@ beginsWith(fieldName: string, value: FieldType): DatabaseQuery<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudDatabase } from '@kit.CloudFoundationKit';
@@ -1090,13 +1000,7 @@ endsWith(fieldName: string, value: FieldType): DatabaseQuery<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudDatabase } from '@kit.CloudFoundationKit';
@@ -1149,13 +1053,7 @@ contains(fieldName: string, value: FieldType): DatabaseQuery<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudDatabase } from '@kit.CloudFoundationKit';
@@ -1208,13 +1106,7 @@ greaterThan(fieldName: string, value: FieldType): DatabaseQuery<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudDatabase } from '@kit.CloudFoundationKit';
@@ -1267,13 +1159,7 @@ greaterThanOrEqualTo(fieldName: string, value: FieldType): DatabaseQuery<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudDatabase } from '@kit.CloudFoundationKit';
@@ -1326,13 +1212,7 @@ lessThan(fieldName: string, value: FieldType): DatabaseQuery<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudDatabase } from '@kit.CloudFoundationKit';
@@ -1385,13 +1265,7 @@ lessThanOrEqualTo(fieldName: string, value: FieldType): DatabaseQuery<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudDatabase } from '@kit.CloudFoundationKit';
@@ -1444,13 +1318,7 @@ in(fieldName: string, values: FieldType[]): DatabaseQuery<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudDatabase } from '@kit.CloudFoundationKit';
@@ -1502,13 +1370,7 @@ isNull(fieldName: string): DatabaseQuery<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudDatabase } from '@kit.CloudFoundationKit';
@@ -1560,13 +1422,7 @@ isNotNull(fieldName: string): DatabaseQuery<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudDatabase } from '@kit.CloudFoundationKit';
@@ -1618,13 +1474,7 @@ orderByAsc(fieldName: string): DatabaseQuery<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudDatabase } from '@kit.CloudFoundationKit';
@@ -1676,13 +1526,7 @@ orderByDesc(fieldName: string): DatabaseQuery<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudDatabase } from '@kit.CloudFoundationKit';
@@ -1730,13 +1574,7 @@ orderByRandom(): DatabaseQuery<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudDatabase } from '@kit.CloudFoundationKit';
@@ -1789,13 +1627,7 @@ limit(count: number, offset?: number): DatabaseQuery<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudDatabase } from '@kit.CloudFoundationKit';
@@ -1848,13 +1680,7 @@ beginGroup(): DatabaseQuery<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudDatabase } from '@kit.CloudFoundationKit';
@@ -1906,13 +1732,7 @@ endGroup(): DatabaseQuery<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudDatabase } from '@kit.CloudFoundationKit';
@@ -1968,13 +1788,7 @@ or(): DatabaseQuery<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudDatabase } from '@kit.CloudFoundationKit';
@@ -2030,13 +1844,7 @@ and(): DatabaseQuery<T>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudDatabase } from '@kit.CloudFoundationKit';

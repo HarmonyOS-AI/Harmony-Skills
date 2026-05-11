@@ -10,13 +10,7 @@ FenceExtensionAbility为开发者提供的地理围栏相关的能力，继承�
 
 PhoneTablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FenceExtensionAbility } from '@kit.LocationKit';
@@ -61,13 +55,7 @@ onFenceStatusChange(transition: geoLocationManager.GeofenceTransition, additions
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FenceExtensionAbility, geoLocationManager } from '@kit.LocationKit';
@@ -126,13 +114,7 @@ onDestroy(): void;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { FenceExtensionAbility } from '@kit.LocationKit';

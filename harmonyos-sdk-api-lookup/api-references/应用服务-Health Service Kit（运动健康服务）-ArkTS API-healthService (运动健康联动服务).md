@@ -6,13 +6,7 @@
 
 PhoneTabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthService } from '@kit.HealthServiceKit';
@@ -333,13 +327,7 @@ config(workoutConfig: WorkoutConfig): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthService, healthStore } from '@kit.HealthServiceKit';
@@ -400,13 +388,7 @@ start(): Promise<StartResult>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthService } from '@kit.HealthServiceKit';
@@ -460,13 +442,7 @@ pause(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthService } from '@kit.HealthServiceKit';
@@ -520,13 +496,7 @@ resume(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthService } from '@kit.HealthServiceKit';
@@ -580,13 +550,7 @@ stop(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthService } from '@kit.HealthServiceKit';
@@ -648,13 +612,7 @@ onData(dataType: healthStore.DataType, listener: Callback<SampleReal[]>): Promis
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthService, healthStore } from '@kit.HealthServiceKit';
@@ -721,13 +679,7 @@ onData(dataType: undefined, listener: Callback<SampleReal[]>): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthService } from '@kit.HealthServiceKit';
@@ -791,13 +743,7 @@ offData(dataType: healthStore.DataType, listener: Callback<SampleReal[]>): Promi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthService, healthStore } from '@kit.HealthServiceKit';
@@ -861,13 +807,7 @@ offData(dataType: undefined, listener: Callback<SampleReal[]>): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthService } from '@kit.HealthServiceKit';
@@ -931,13 +871,7 @@ onEvent(event: "\*", listener: Callback<SampleEvent>): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthService } from '@kit.HealthServiceKit';
@@ -1001,13 +935,7 @@ offEvent(event: "\*", listener: Callback<SampleEvent>): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthService } from '@kit.HealthServiceKit';
@@ -1064,13 +992,7 @@ readActivityReport(): Promise<ActivityReport>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthService } from '@kit.HealthServiceKit';
@@ -1135,13 +1057,7 @@ sendData(sampleReal: SampleReal[]): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthService } from '@kit.HealthServiceKit';
@@ -1202,13 +1118,7 @@ sendData(sampleReal: SampleReal[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import healthService from '@hms.health.service'
@@ -1274,13 +1184,7 @@ sendEvent(event: SampleEvent): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthService } from '@kit.HealthServiceKit';
@@ -1337,13 +1241,7 @@ getCurrentSportInfo(): Promise<SportInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { healthService } from '@kit.HealthServiceKit';

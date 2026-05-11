@@ -265,13 +265,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过calendarPicker实现了日历选择器组件，提供下拉日历弹窗。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -306,13 +300,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 18开始，[CalendarOptions](/consumer/cn/doc/harmonyos-references/ts-basic-components-calendarpicker#calendaroptions对象说明)中新增了start、end属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -347,13 +335,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 19开始，新增了[markToday](/consumer/cn/doc/harmonyos-references/ts-basic-components-calendarpicker#marktoday19)接口，[CalendarOptions](/consumer/cn/doc/harmonyos-references/ts-basic-components-calendarpicker#calendaroptions对象说明)中新增了disabledDateRange属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

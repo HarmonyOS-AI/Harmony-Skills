@@ -10,13 +10,7 @@ request模块给应用提供上传下载文件、后台代理传输的基础功�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { request } from '@kit.BasicServicesKit';
@@ -120,13 +114,7 @@ uploadFile(context: BaseContext, config: UploadConfig): Promise<UploadTask>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -193,13 +181,7 @@ uploadFile(context: BaseContext, config: UploadConfig, callback: AsyncCallback<U
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -274,13 +256,7 @@ upload(config: UploadConfig): Promise<UploadTask>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let uploadTask: request.UploadTask;
@@ -337,13 +313,7 @@ upload(config: UploadConfig, callback: AsyncCallback<UploadTask>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let uploadTask: request.UploadTask;
@@ -413,13 +383,7 @@ on(type: 'progress', callback: (uploadedSize: number, totalSize: number) => void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let upProgressCallback = (uploadedSize: number, totalSize: number) => {
@@ -467,13 +431,7 @@ on(type: 'headerReceive', callback: (header: object) => void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let headerCallback = (headers: object) => {
@@ -513,13 +471,7 @@ on(type: 'complete' | 'fail', callback: Callback<Array<TaskState>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let upCompleteCallback = (taskStates: Array<request.TaskState>) => {
@@ -577,13 +529,7 @@ off(type: 'progress', callback?: (uploadedSize: number, totalSize: number) => vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let upProgressCallback1 = (uploadedSize: number, totalSize: number) => {
@@ -639,13 +585,7 @@ off(type: 'headerReceive', callback?: (header: object) => void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let headerCallback1 = (header: object) => {
@@ -693,13 +633,7 @@ off(type: 'complete' | 'fail', callback?: Callback<Array<TaskState>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let upCompleteCallback1 = (taskStates: Array<request.TaskState>) => {
@@ -777,13 +711,7 @@ delete(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uploadTask.delete().then((result: boolean) => {
@@ -829,13 +757,7 @@ delete(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uploadTask.delete((err: BusinessError, result: boolean) => {
@@ -883,13 +805,7 @@ remove(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uploadTask.remove().then((result: boolean) => {
@@ -935,13 +851,7 @@ remove(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uploadTask.remove((err: BusinessError, result: boolean) => {
@@ -1093,13 +1003,7 @@ downloadFile(context: BaseContext, config: DownloadConfig): Promise<DownloadTask
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1161,13 +1065,7 @@ downloadFile(context: BaseContext, config: DownloadConfig, callback: AsyncCallba
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1237,13 +1135,7 @@ download(config: DownloadConfig): Promise<DownloadTask>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let downloadTask: request.DownloadTask;
@@ -1294,13 +1186,7 @@ download(config: DownloadConfig, callback: AsyncCallback<DownloadTask>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let downloadTask: request.DownloadTask;
@@ -1365,13 +1251,7 @@ on(type: 'progress', callback: (receivedSize: number, totalSize: number) => void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1435,13 +1315,7 @@ off(type: 'progress', callback?: (receivedSize: number, totalSize: number) => vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1504,13 +1378,7 @@ on(type: 'complete'|'pause'|'remove', callback: () => void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1575,13 +1443,7 @@ off(type: 'complete'|'pause'|'remove', callback?: () => void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1678,13 +1540,7 @@ on(type: 'fail', callback: (err: number) => void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1747,13 +1603,7 @@ off(type: 'fail', callback?: (err: number) => void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1821,13 +1671,7 @@ delete(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1887,13 +1731,7 @@ delete(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1956,13 +1794,7 @@ getTaskInfo(): Promise<DownloadInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2023,13 +1855,7 @@ getTaskInfo(callback: AsyncCallback<DownloadInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2092,13 +1918,7 @@ getTaskMimeType(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2159,13 +1979,7 @@ getTaskMimeType(callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2228,13 +2042,7 @@ suspend(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2295,13 +2103,7 @@ suspend(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2364,13 +2166,7 @@ restore(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2431,13 +2227,7 @@ restore(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -2500,13 +2290,7 @@ remove(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. downloadTask.remove().then((result) => {
@@ -2552,13 +2336,7 @@ remove(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. downloadTask.remove((err, result)=>{
@@ -2606,13 +2384,7 @@ query(): Promise<DownloadInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. downloadTask.query().then((downloadInfo) => {
@@ -2658,13 +2430,7 @@ query(callback: AsyncCallback<DownloadInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. downloadTask.query((err: BusinessError, downloadInfo: request.DownloadInfo)=>{
@@ -2712,13 +2478,7 @@ queryMimeType(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. downloadTask.queryMimeType().then((data: string) => {
@@ -2764,13 +2524,7 @@ queryMimeType(callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. downloadTask.queryMimeType((err: BusinessError, data: string)=>{
@@ -2818,13 +2572,7 @@ pause(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. downloadTask.pause().then(() => {
@@ -2870,13 +2618,7 @@ pause(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. downloadTask.pause((err: BusinessError) => {
@@ -2924,13 +2666,7 @@ resume(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. downloadTask.resume().then(() => {
@@ -2976,13 +2712,7 @@ resume(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. downloadTask.resume((err: BusinessError) => {
@@ -3367,13 +3097,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3559,13 +3283,7 @@ on(event: 'progress', callback: (progress: [Progress](/consumer/cn/doc/harmonyos
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3659,13 +3377,7 @@ on(event: 'completed', callback: (progress: [Progress](/consumer/cn/doc/harmonyo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3759,13 +3471,7 @@ on(event: 'failed', callback: (progress: [Progress](/consumer/cn/doc/harmonyos-r
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3857,13 +3563,7 @@ on(event: 'pause', callback: (progress: [Progress](/consumer/cn/doc/harmonyos-re
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -3960,13 +3660,7 @@ on(event: 'resume', callback: (progress: [Progress](/consumer/cn/doc/harmonyos-r
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4068,13 +3762,7 @@ on(event: 'remove', callback: (progress: [Progress](/consumer/cn/doc/harmonyos-r
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4165,13 +3853,7 @@ on(event: 'response', callback: Callback<HttpResponse>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4255,13 +3937,7 @@ on(event: 'faultOccur', callback: Callback<Faults>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4345,13 +4021,7 @@ on(event: 'wait', callback: Callback<WaitingReason>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4445,13 +4115,7 @@ off(event: 'progress', callback?: (progress: [Progress](/consumer/cn/doc/harmony
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4553,13 +4217,7 @@ off(event: 'completed', callback?: (progress: [Progress](/consumer/cn/doc/harmon
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4661,13 +4319,7 @@ off(event: 'failed', callback?: (progress: [Progress](/consumer/cn/doc/harmonyos
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4767,13 +4419,7 @@ off(event: 'pause', callback?: (progress: [Progress](/consumer/cn/doc/harmonyos-
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4873,13 +4519,7 @@ off(event: 'resume', callback?: (progress: [Progress](/consumer/cn/doc/harmonyos
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -4979,13 +4619,7 @@ off(event: 'remove', callback?: (progress: [Progress](/consumer/cn/doc/harmonyos
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5079,13 +4713,7 @@ off(event: 'response', callback?: Callback<HttpResponse>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5177,13 +4805,7 @@ off(event: 'faultOccur', callback?: Callback<Faults>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5275,13 +4897,7 @@ off(event: 'wait', callback?: Callback<WaitingReason>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5383,13 +4999,7 @@ start(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5478,13 +5088,7 @@ start(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5557,13 +5161,7 @@ pause(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5643,13 +5241,7 @@ pause(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5730,13 +5322,7 @@ resume(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5824,13 +5410,7 @@ resume(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -5915,13 +5495,7 @@ stop(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6003,13 +5577,7 @@ stop(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6095,13 +5663,7 @@ setMaxSpeed(speed: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6171,13 +5733,7 @@ create(context: BaseContext, config: Config, callback: AsyncCallback<Task>): voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6278,13 +5834,7 @@ create(context: BaseContext, config: Config): Promise<Task>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6373,13 +5923,7 @@ getTask(context: BaseContext, id: string, token?: string): Promise<Task>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6429,13 +5973,7 @@ remove(id: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6491,13 +6029,7 @@ remove(id: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6542,13 +6074,7 @@ show(id: string, callback: AsyncCallback<TaskInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6602,13 +6128,7 @@ show(id: string): Promise<TaskInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6654,13 +6174,7 @@ touch(id: string, token: string, callback: AsyncCallback<TaskInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6715,13 +6229,7 @@ touch(id: string, token: string): Promise<TaskInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6764,13 +6272,7 @@ search(callback: AsyncCallback<Array<string>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6816,13 +6318,7 @@ search(filter: Filter, callback: AsyncCallback<Array<string>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6879,13 +6375,7 @@ search(filter?: Filter): Promise<Array<string>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -6940,13 +6430,7 @@ createGroup(config: GroupConfig): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -7009,13 +6493,7 @@ attachGroup(gid: string, tids: string[]): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -7073,13 +6551,7 @@ deleteGroup(gid: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

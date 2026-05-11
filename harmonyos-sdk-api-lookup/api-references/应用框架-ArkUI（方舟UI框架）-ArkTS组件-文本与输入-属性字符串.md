@@ -1658,13 +1658,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 12开始，该示例通过[insertString](/consumer/cn/doc/harmonyos-references/ts-universal-styled-string#insertstring)、[removeStyles](/consumer/cn/doc/harmonyos-references/ts-universal-styled-string#removestyles)、[replaceStyle](/consumer/cn/doc/harmonyos-references/ts-universal-styled-string#replacestyle)、[getStyles](/consumer/cn/doc/harmonyos-references/ts-universal-styled-string#getstyles)接口实现属性字符串的插入、删除、替换、查看。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1844,13 +1838,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 12开始，该示例通过[StyleOptions](/consumer/cn/doc/harmonyos-references/ts-universal-styled-string#styleoptions对象说明)中的styledKey、styledValue接口实现属性字符串绑定事件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1942,13 +1930,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 12开始，该示例通过[getStyles](/consumer/cn/doc/harmonyos-references/ts-universal-styled-string#getstyles)、[setStyle](/consumer/cn/doc/harmonyos-references/ts-universal-styled-string#setstyle)接口实现属性字符串查询和设置样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2140,13 +2122,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 12开始，该示例通过[ImageAttachment](/consumer/cn/doc/harmonyos-references/ts-universal-styled-string#imageattachmentinterface对象说明)接口实现属性字符串设置图片。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2283,13 +2259,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 12开始，该示例通过[LineHeightStyle](/consumer/cn/doc/harmonyos-references/ts-universal-styled-string#lineheightstyle)、[ParagraphStyle](/consumer/cn/doc/harmonyos-references/ts-universal-styled-string#paragraphstyle)接口实现属性字符串设置文本行高和段落样式。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LengthMetrics } from '@kit.ArkUI';
@@ -2451,13 +2421,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 12开始，该示例通过[CustomSpan](/consumer/cn/doc/harmonyos-references/ts-universal-styled-string#customspan)接口和[measureTextSize](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arkts-apis-uicontext-measureutils#measuretextsize12)实现属性字符串设置自定义绘制Span。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2613,13 +2577,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 12开始，该示例通过[UserDataSpan](/consumer/cn/doc/harmonyos-references/ts-universal-styled-string#userdataspan)接口实现属性字符串支持存储自定义扩展信息的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2672,13 +2630,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 14开始，该示例通过[UrlStyle](/consumer/cn/doc/harmonyos-references/ts-universal-styled-string#urlstyle14)接口，实现了对属性字符串中超链接设置的支持。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2714,13 +2666,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 15开始，该示例通过给[ImageAttachment](/consumer/cn/doc/harmonyos-references/ts-universal-styled-string#imageattachmentinterface对象说明)设置colorFilter实现了给图像设置颜色滤镜效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2793,13 +2739,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 12开始，该示例通过[subStyledString](/consumer/cn/doc/harmonyos-references/ts-universal-styled-string#substyledstring)、[removeString](/consumer/cn/doc/harmonyos-references/ts-universal-styled-string#removestring)、[removeStyle](/consumer/cn/doc/harmonyos-references/ts-universal-styled-string#removestyle)、[clearStyles](/consumer/cn/doc/harmonyos-references/ts-universal-styled-string#clearstyles)、[replaceStyledString](/consumer/cn/doc/harmonyos-references/ts-universal-styled-string#replacestyledstring)、[insertStyledString](/consumer/cn/doc/harmonyos-references/ts-universal-styled-string#insertstyledstring)接口实现属性字符串的插入、删除、替换。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2878,13 +2818,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，该示例通过[TextStyle](/consumer/cn/doc/harmonyos-references/ts-universal-styled-string#textstyle)设置strokeWidth和strokeColor接口实现属性字符串的文本描边。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2960,13 +2894,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过[fromHtml](/consumer/cn/doc/harmonyos-references/ts-universal-styled-string#fromhtml)（从API version 12开始）、[toHtml](/consumer/cn/doc/harmonyos-references/ts-universal-styled-string#tohtml14)（从API version 14开始）接口，将HTML中strong、b20+、em20+、i20+、u20+、del20+、s20+、a20+、sub20+、sup20+标签及其style属性中的background-color转换为属性字符串并转回HTML。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3036,13 +2964,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 20开始，该示例通过[DecorationStyle](/consumer/cn/doc/harmonyos-references/ts-universal-styled-string#decorationstyle)中设置enableMultiType、thicknessScale接口，实现多装饰线显示与加粗装饰线的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3117,13 +3039,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 21开始，该示例通过[ImageAttachmentInterface](/consumer/cn/doc/harmonyos-references/ts-universal-styled-string#imageattachmentinterface对象说明)实现属性字符串设置图片，并且获取该图片以vp为单位的尺寸。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3224,13 +3140,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 22开始，该示例通过[LeadingMarginSpan](/consumer/cn/doc/harmonyos-references/ts-universal-styled-string#leadingmarginspan22)设置段落缩进，并且自定义缩进图案。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -3351,13 +3261,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 22开始，该示例通过给[ResourceImageAttachmentOptions](/consumer/cn/doc/harmonyos-references/ts-universal-styled-string#resourceimageattachmentoptions15)设置supportSvg2属性，使[SVG标签解析能力增强功能](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-image-svg2-capabilities#svg易用性提升)的SVG易用性提升能力生效。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D';
@@ -3429,13 +3333,7 @@ PhonePC/2in1TabletTVWearable
 
 从API version 24开始，TextStyleInterface新增fontConfigs属性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

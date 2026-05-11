@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { camera } from '@kit.CameraKit';
@@ -53,13 +47,7 @@ capture(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -108,13 +96,7 @@ capture(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -163,13 +145,7 @@ capture(setting: PhotoCaptureSetting, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -238,13 +214,7 @@ capture(setting: PhotoCaptureSetting): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -296,13 +266,7 @@ on(type: 'photoAvailable', callback: AsyncCallback<Photo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -345,13 +309,7 @@ off(type: 'photoAvailable', callback?: AsyncCallback<Photo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -399,13 +357,7 @@ onCapturePhotoAvailable(callback: Callback<CapturePhoto>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { camera } from '@kit.CameraKit';
@@ -444,13 +396,7 @@ offCapturePhotoAvailable(callback?: Callback<CapturePhoto>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { camera } from '@kit.CameraKit';
@@ -492,13 +438,7 @@ on(type: 'captureStartWithInfo', callback: AsyncCallback<CaptureStartInfo>): voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -539,13 +479,7 @@ off(type: 'captureStartWithInfo', callback?: AsyncCallback<CaptureStartInfo>): v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -587,13 +521,7 @@ isMovingPhotoSupported(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -647,13 +575,7 @@ enableMovingPhoto(enabled: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -696,13 +618,7 @@ on(type: 'photoAssetAvailable', callback: AsyncCallback<photoAccessHelper.PhotoA
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -745,13 +661,7 @@ off(type: 'photoAssetAvailable', callback?: AsyncCallback<photoAccessHelper.Phot
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function offPhotoOutputPhotoAssetAvailable(photoOutput: camera.PhotoOutput): void {
@@ -781,13 +691,7 @@ isMirrorSupported(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function isMirrorSupported(photoOutput: camera.PhotoOutput): boolean {
@@ -832,13 +736,7 @@ enableMirror(enabled: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -886,13 +784,7 @@ getSupportedMovingPhotoVideoCodecTypes(): Array<VideoCodecType>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function getSupportedMovingPhotoVideoCodecType(photoOutput: camera.PhotoOutput): Array<camera.VideoCodecType> {
@@ -933,13 +825,7 @@ setMovingPhotoVideoCodecType(codecType: VideoCodecType): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function setMovingPhotoVideoCodecTypes(photoOutput: camera.PhotoOutput, videoCodecType: camera.VideoCodecType): void {
@@ -970,13 +856,7 @@ on(type: 'frameShutter', callback: AsyncCallback<FrameShutterInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1018,13 +898,7 @@ off(type: 'frameShutter', callback?: AsyncCallback<FrameShutterInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function unregisterPhotoOutputFrameShutter(photoOutput: camera.PhotoOutput): void {
@@ -1059,13 +933,7 @@ on(type: 'captureEnd', callback: AsyncCallback<CaptureEndInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1107,13 +975,7 @@ off(type: 'captureEnd', callback?: AsyncCallback<CaptureEndInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function unregisterPhotoOutputCaptureEnd(photoOutput: camera.PhotoOutput): void {
@@ -1148,13 +1010,7 @@ on(type: 'frameShutterEnd', callback: AsyncCallback<FrameShutterEndInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1195,13 +1051,7 @@ off(type: 'frameShutterEnd', callback?: AsyncCallback<FrameShutterEndInfo>): voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function unregisterPhotoOutputFrameShutterEnd(photoOutput: camera.PhotoOutput): void {
@@ -1236,13 +1086,7 @@ on(type: 'captureReady', callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1283,13 +1127,7 @@ off(type: 'captureReady', callback?: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function unregisterPhotoOutputCaptureReady(photoOutput: camera.PhotoOutput): void {
@@ -1324,13 +1162,7 @@ on(type: 'estimatedCaptureDuration', callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1371,13 +1203,7 @@ off(type: 'estimatedCaptureDuration', callback?: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function unregisterPhotoOutputEstimatedCaptureDuration(photoOutput: camera.PhotoOutput): void {
@@ -1412,13 +1238,7 @@ on(type: 'error', callback: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1455,13 +1275,7 @@ off(type: 'error', callback?: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function unregisterPhotoOutputError(photoOutput: camera.PhotoOutput): void {
@@ -1501,13 +1315,7 @@ getActiveProfile(): Profile
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1570,13 +1378,7 @@ getPhotoRotation(deviceDegree?: number): ImageRotation
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1635,13 +1437,7 @@ on(type: 'captureStart', callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1686,13 +1482,7 @@ off(type: 'captureStart', callback?: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function unregisterPhotoOutputCaptureStart(photoOutput: camera.PhotoOutput): void {
@@ -1740,13 +1530,7 @@ isPhotoQualityPrioritizationSupported(qualityPrioritization: PhotoQualityPriorit
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1801,13 +1585,7 @@ setPhotoQualityPrioritization(qualityPrioritization: PhotoQualityPrioritization)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';

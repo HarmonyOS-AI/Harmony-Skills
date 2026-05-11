@@ -6,13 +6,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { petalMaps } from '@kit.MapKit';
@@ -64,13 +58,7 @@ openMapHomePage(context: common.Context): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. await petalMaps.openMapHomePage(this.getUIContext().getHostContext());
@@ -123,13 +111,7 @@ openMapPoiDetail(context: common.Context, poiDetailParams: PoiDetailParams): Pro
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: petalMaps.PoiDetailParams = {
@@ -188,13 +170,7 @@ openMapTextSearch(context: common.Context, textSearchParams: TextSearchParams): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: petalMaps.TextSearchParams = {
@@ -250,13 +226,7 @@ openMapRoutePlan(context: common.Context, routePlanParams: RoutePlanParams): Pro
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: petalMaps.RoutePlanParams = {
@@ -315,13 +285,7 @@ openMapNavi(context: common.Context, naviParams: NaviParams): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: petalMaps.NaviParams = {
@@ -379,13 +343,7 @@ openMapTaxi(context: common.Context, taxiParams: TaxiParams): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: petalMaps.TaxiParams = {
@@ -443,13 +401,7 @@ openMapOfflineDataManagement(context: common.Context, offlineDataParams: Offline
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: petalMaps.OfflineDataParams = {
@@ -485,13 +437,7 @@ POI详情的参数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: petalMaps.PoiDetailParams = {
@@ -528,13 +474,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: petalMaps.TextSearchParams = {
@@ -571,13 +511,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: petalMaps.RoutePlanParams = {
@@ -617,13 +551,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: petalMaps.NaviParams = {
@@ -657,13 +585,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: petalMaps.OfflineDataParams = {
@@ -722,13 +644,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let params: petalMaps.TaxiParams = {

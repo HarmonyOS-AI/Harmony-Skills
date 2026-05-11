@@ -12,13 +12,7 @@ UIAbilityContext是[UIAbility](https://developer.huawei.com/consumer/cn/doc/harm
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -106,13 +100,7 @@ startAbility(want: Want, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, Want } from '@kit.AbilityKit';
@@ -211,13 +199,7 @@ startAbility(want: Want, options: StartOptions, callback: AsyncCallback<void>): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, Want, StartOptions } from '@kit.AbilityKit';
@@ -329,13 +311,7 @@ startAbility(want: Want, options?: StartOptions): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, Want, StartOptions } from '@kit.AbilityKit';
@@ -440,13 +416,7 @@ UIAbility被启动后，有如下情况：
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, Want, common } from '@kit.AbilityKit';
@@ -548,13 +518,7 @@ UIAbility被启动后，有如下情况：
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, Want, common, StartOptions } from '@kit.AbilityKit';
@@ -668,13 +632,7 @@ UIAbility被启动后，有如下情况：
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, Want, common, StartOptions } from '@kit.AbilityKit';
@@ -751,13 +709,7 @@ terminateSelf(callback: AsyncCallback<void>): void
 
 1. 使用terminateSelf接口停止UIAbility示例代码如下，默认情况下应用会在最近任务列表中保留快照。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. import { UIAbility } from '@kit.AbilityKit';
@@ -786,13 +738,7 @@ terminateSelf(callback: AsyncCallback<void>): void
    ```
 2. （可选）如果需要在停止UIAbility时，清理任务中心的相关任务（即不保留最近任务列表中的快照），需要在[module.json5](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/module-configuration-file)配置文件中将removeMissionAfterTerminate字段取值配置为true。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. {
@@ -848,13 +794,7 @@ terminateSelf(): Promise<void>
 
 1. 使用terminateSelf接口停止UIAbility示例代码如下，默认情况下应用会在最近任务列表中保留快照。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. import { UIAbility } from '@kit.AbilityKit';
@@ -883,13 +823,7 @@ terminateSelf(): Promise<void>
    ```
 2. （可选）如果需要在停止UIAbility时，清理任务中心的相关任务（即不保留最近任务列表中的快照），需要在[module.json5](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/module-configuration-file)配置文件中将removeMissionAfterTerminate字段取值配置为true。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. {
@@ -947,13 +881,7 @@ terminateSelfWithResult(parameter: AbilityResult, callback: AsyncCallback<void>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, Want, common } from '@kit.AbilityKit';
@@ -1041,13 +969,7 @@ terminateSelfWithResult(parameter: AbilityResult): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, Want, common } from '@kit.AbilityKit';
@@ -1142,13 +1064,7 @@ connectServiceExtensionAbility(want: Want, options: ConnectOptions): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, Want, common } from '@kit.AbilityKit';
@@ -1229,13 +1145,7 @@ disconnectServiceExtensionAbility(connection: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -1301,13 +1211,7 @@ disconnectServiceExtensionAbility(connection: number, callback: AsyncCallback<vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -1416,13 +1320,7 @@ startAbilityByCall(want: Want): Promise<Caller>
 
 下面代码展示的是，调用方启动目标方到后台，获取Caller成功后发消息到目标方，然后释放Caller对象。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Caller, UIAbility, Want } from '@kit.AbilityKit';
@@ -1470,13 +1368,7 @@ startAbilityByCall(want: Want): Promise<Caller>
 
 下面代码展示，目标方启动后注册监听，销毁时取消监听。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -1523,13 +1415,7 @@ startAbilityByCall(want: Want): Promise<Caller>
 
 下面代码展示，调用方启动目标方到前台场景。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Caller, UIAbility, Want } from '@kit.AbilityKit';
@@ -1596,13 +1482,7 @@ setMissionLabel(label: string, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, AbilityConstant, Want } from '@kit.AbilityKit';
@@ -1659,13 +1539,7 @@ setMissionLabel(label: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, AbilityConstant, Want } from '@kit.AbilityKit';
@@ -1719,13 +1593,7 @@ setMissionContinueState(state: AbilityConstant.ContinueState, callback: AsyncCal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, AbilityConstant } from '@kit.AbilityKit';
@@ -1782,13 +1650,7 @@ setMissionContinueState(state: AbilityConstant.ContinueState): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, AbilityConstant } from '@kit.AbilityKit';
@@ -1839,13 +1701,7 @@ restoreWindowStage(localStorage: LocalStorage): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -1890,13 +1746,7 @@ isTerminating(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -1960,13 +1810,7 @@ requestDialogService(want: Want, result: AsyncCallback<dialogRequest.RequestResu
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, Want, dialogRequest } from '@kit.AbilityKit';
@@ -2058,13 +1902,7 @@ requestDialogService(want: Want): Promise<dialogRequest.RequestResult>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, Want, dialogRequest } from '@kit.AbilityKit';
@@ -2130,13 +1968,7 @@ reportDrawnCompleted(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -2208,13 +2040,7 @@ startAbilityByType(type: string, wantParam: Record<string, Object>, abilityStart
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, common } from '@kit.AbilityKit';
@@ -2287,13 +2113,7 @@ startAbilityByType(type: string, wantParam: Record<string, Object>, abilityStart
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, common } from '@kit.AbilityKit';
@@ -2358,13 +2178,7 @@ showAbility(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -2399,13 +2213,7 @@ showAbility(): Promise<void>
 30. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ts
@@ -2481,13 +2289,7 @@ hideAbility(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // Index.ets
@@ -2522,13 +2324,7 @@ hideAbility(): Promise<void>
 30. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // EntryAbility.ts
@@ -2611,13 +2407,7 @@ moveAbilityToBackground(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -2711,13 +2501,7 @@ openAtomicService(appId: string, options?: AtomicServiceOptions): Promise<Abilit
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, common, AtomicServiceOptions } from '@kit.AbilityKit';
@@ -2822,13 +2606,7 @@ openLink(link: string, options?: OpenLinkOptions, callback?: AsyncCallback<Abili
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common, OpenLinkOptions } from '@kit.AbilityKit';
@@ -2927,13 +2705,7 @@ backToCallerAbilityWithResult(abilityResult: AbilityResult, requestCode: string)
 
 调用方通过startAbilityForResult接口拉起目标方, 目标方再调用backToCallerAbilityWithResult接口返回到调用方。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 调用方
@@ -2992,13 +2764,7 @@ backToCallerAbilityWithResult(abilityResult: AbilityResult, requestCode: string)
 54. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 目标方
@@ -3083,13 +2849,7 @@ setRestoreEnabled(enabled: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, AbilityConstant, Want } from '@kit.AbilityKit';
@@ -3168,13 +2928,7 @@ startUIServiceExtensionAbility(want: Want): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common, Want } from '@kit.AbilityKit';
@@ -3270,13 +3024,7 @@ connectUIServiceExtensionAbility(want: Want, callback: UIServiceExtensionConnect
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common, Want } from '@kit.AbilityKit';
@@ -3388,13 +3136,7 @@ disconnectUIServiceExtensionAbility(proxy: UIServiceProxy): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -3500,13 +3242,7 @@ setAbilityInstanceInfo(label: string, icon: image.PixelMap): Promise<void>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -3596,13 +3332,7 @@ revokeDelegator(): Promise<void>
    * 当UIAbility是通过[startAbilityByCall](/consumer/cn/doc/harmonyos-references/js-apis-inner-application-uiabilitycontext#startabilitybycall)启动时，系统会忽略在[module.json5](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/module-configuration-file)配置文件标签中配置的abilitySrcEntryDelegator和abilityStageSrcEntryDelegator。
    * abilityStageSrcEntryDelegator指定的ModuleName不能与当前ModuleName相同。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. {
@@ -3616,13 +3346,7 @@ revokeDelegator(): Promise<void>
    ```
 2. 取消DelegatorAbility。
 
-   收起
-
-   自动换行
-
-   深色代码主题
-
-   复制
+   
 
    ```
    1. import { UIAbility } from '@kit.AbilityKit';
@@ -3678,13 +3402,7 @@ setColorMode(colorMode: ConfigurationConstant.ColorMode): void
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, ConfigurationConstant } from '@kit.AbilityKit';
@@ -3761,13 +3479,7 @@ startAppServiceExtensionAbility(want: Want): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, Want } from '@kit.AbilityKit';
@@ -3853,13 +3565,7 @@ stopAppServiceExtensionAbility(want: Want): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, Want } from '@kit.AbilityKit';
@@ -3947,13 +3653,7 @@ connectAppServiceExtensionAbility(want: Want, callback: ConnectOptions): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, Want, common } from '@kit.AbilityKit';
@@ -4038,13 +3738,7 @@ disconnectAppServiceExtensionAbility(connection: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -4121,13 +3815,7 @@ setOnNewWantSkipScenarios(scenarios: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, contextConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -4218,13 +3906,7 @@ startSelfUIAbilityInCurrentProcess(want: Want, specifiedFlag: string, options?: 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, StartOptions, Want } from '@kit.AbilityKit';
@@ -4313,13 +3995,7 @@ restartApp(want: Want): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -4405,13 +4081,7 @@ setMissionWindowIcon和[setAbilityInstanceInfo](https://developer.huawei.com/con
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';

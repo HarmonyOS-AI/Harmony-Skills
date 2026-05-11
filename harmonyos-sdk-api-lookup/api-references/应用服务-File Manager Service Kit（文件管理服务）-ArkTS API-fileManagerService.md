@@ -6,13 +6,7 @@ fileManagerService模块提供删除文件到回收站、获取文件图标及�
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileManagerService } from '@kit.FileManagerServiceKit';
@@ -66,13 +60,7 @@ deleteToTrash(uri: string): Promise<string>
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileManagerService } from '@kit.FileManagerServiceKit';
@@ -137,13 +125,7 @@ getFileIconSync(fileType: string): string | Resource
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileManagerService } from '@kit.FileManagerServiceKit';
@@ -228,13 +210,7 @@ getFileIcon(fileType: string): Promise<string | Resource>
 
 **示例代码：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileManagerService } from '@kit.FileManagerServiceKit';
@@ -319,13 +295,7 @@ parseShortcut(linkUri: string): Promise<string>
 
 **示例代码**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import fileManagerService from '@hms.filemanagement.fileManagerService';

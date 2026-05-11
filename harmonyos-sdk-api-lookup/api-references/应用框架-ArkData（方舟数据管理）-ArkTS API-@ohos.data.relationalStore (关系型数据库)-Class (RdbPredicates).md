@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { relationalStore } from '@kit.ArkData';
@@ -50,13 +44,7 @@ constructor(name: string)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new relationalStore.RdbPredicates("EMPLOYEE");
@@ -106,13 +94,7 @@ inDevices(devices: Array<string>): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { distributedDeviceManager } from '@kit.DistributedServiceKit';
@@ -157,13 +139,7 @@ inAllDevices(): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new relationalStore.RdbPredicates("EMPLOYEE");
@@ -209,13 +185,7 @@ equalTo(field: string, value: ValueType): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 匹配数据表的"NAME"列中值为"Lisa"的字段
@@ -262,13 +232,7 @@ notEqualTo(field: string, value: ValueType): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 匹配数据表的"NAME"列中值不为"Lisa"的字段
@@ -296,13 +260,7 @@ beginWrap(): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new relationalStore.RdbPredicates("EMPLOYEE");
@@ -334,13 +292,7 @@ endWrap(): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new relationalStore.RdbPredicates("EMPLOYEE");
@@ -372,13 +324,7 @@ or(): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 匹配数据表的"NAME"列中值为"Lisa"或"Rose"的字段
@@ -408,13 +354,7 @@ and(): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 匹配数据表的"NAME"列中值为"Lisa"且"SALARY"列中值为"200.5"的字段
@@ -463,13 +403,7 @@ contains(field: string, value: string): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 匹配数据表的"NAME"列中包含"os"的字段，如"Rose"
@@ -516,13 +450,7 @@ beginsWith(field: string, value: string): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 匹配数据表的"NAME"列中以"Li"开头的字段，如"Lisa"
@@ -569,13 +497,7 @@ endsWith(field: string, value: string): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 匹配数据表的"NAME"列中以"se"结尾的字段，如"Rose"
@@ -621,13 +543,7 @@ isNull(field: string): RdbPredicates
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new relationalStore.RdbPredicates("EMPLOYEE");
@@ -672,13 +588,7 @@ isNotNull(field: string): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new relationalStore.RdbPredicates("EMPLOYEE");
@@ -724,13 +634,7 @@ like(field: string, value: string): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 查询NAME列中包含"os"子串的数据，例如会匹配"Rose"。
@@ -777,13 +681,7 @@ glob(field: string, value: string): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 匹配数据表的"NAME"列中类型为string且值为"?h*g"的字段
@@ -831,13 +729,7 @@ between(field: string, low: ValueType, high: ValueType): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 匹配数据表的"AGE"列中大于等于10且小于等于50的值
@@ -885,13 +777,7 @@ notBetween(field: string, low: ValueType, high: ValueType): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 匹配数据表的"AGE"列中小于10或大于50的值
@@ -938,13 +824,7 @@ greaterThan(field: string, value: ValueType): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 匹配数据表的"AGE"列中大于18的值
@@ -991,13 +871,7 @@ lessThan(field: string, value: ValueType): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 匹配数据表的"AGE"列中小于20的值
@@ -1044,13 +918,7 @@ greaterThanOrEqualTo(field: string, value: ValueType): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 匹配数据表的"AGE"列中大于等于18的值
@@ -1097,13 +965,7 @@ lessThanOrEqualTo(field: string, value: ValueType): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 匹配数据表的"AGE"列中小于等于20的值
@@ -1149,13 +1011,7 @@ orderByAsc(field: string): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new relationalStore.RdbPredicates("EMPLOYEE");
@@ -1200,13 +1056,7 @@ orderByDesc(field: string): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new relationalStore.RdbPredicates("EMPLOYEE");
@@ -1233,13 +1083,7 @@ distinct(): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new relationalStore.RdbPredicates("EMPLOYEE");
@@ -1284,13 +1128,7 @@ limitAs(value: number): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new relationalStore.RdbPredicates("EMPLOYEE");
@@ -1335,13 +1173,7 @@ offsetAs(rowOffset: number): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new relationalStore.RdbPredicates("EMPLOYEE");
@@ -1386,13 +1218,7 @@ groupBy(fields: Array<string>): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new relationalStore.RdbPredicates("EMPLOYEE");
@@ -1437,13 +1263,7 @@ indexedBy(field: string): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let predicates = new relationalStore.RdbPredicates("EMPLOYEE");
@@ -1493,13 +1313,7 @@ value集合不能为空。如果传入空集，此条件将失效，导致操作
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 匹配数据表的"AGE"列中在[18，20]中的值
@@ -1546,13 +1360,7 @@ notIn(field: string, value: Array<ValueType>): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 匹配数据表的"NAME"列中不在["Lisa", "Rose"]中的值
@@ -1599,13 +1407,7 @@ notContains(field: string, value: string): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 匹配数据表的"NAME"列中不包含"os"的字段，如列表中的"Lisa"
@@ -1652,13 +1454,7 @@ notLike(field: string, value: string): RdbPredicates
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 查询NAME列中不包含"os"子串的数据，例如不会匹配"Rose"。
@@ -1705,13 +1501,7 @@ having(conditions:string, args?: Array<ValueType>): RdbPredicates
 
 **示例1：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 传递完整的条件
@@ -1722,13 +1512,7 @@ having(conditions:string, args?: Array<ValueType>): RdbPredicates
 
 **示例2：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 条件中使用占位符替代，args参数传入替换占位符的值

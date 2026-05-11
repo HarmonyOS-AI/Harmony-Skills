@@ -6,13 +6,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudCommon } from '@kit.CloudFoundationKit';
@@ -58,13 +52,7 @@ init(options?: CloudOptions): void
 
 云函数业务免鉴权，开发云函数无需获取用户凭据。开发云存储或云数据库业务则需要获取用户凭据。获取用户凭据有两种方式，以下代码仅以通过AGC认证服务SDK获取为例，更多信息可参考[AuthProvider](/consumer/cn/doc/harmonyos-references/cloudfoundation-cloudcommon#authprovider)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { cloudCommon } from '@kit.CloudFoundationKit';
@@ -180,13 +168,7 @@ getAccessToken(isForceRefresh: boolean): Promise<string>
 
   1. 在应用级（一般为entry目录下）“oh-package.json5”文件里面添加认证服务SDK依赖。
 
-     收起
-
-     自动换行
-
-     深色代码主题
-
-     复制
+     
 
      ```
      1. "dependencies": {
@@ -196,13 +178,7 @@ getAccessToken(isForceRefresh: boolean): Promise<string>
   2. 使用手机、邮箱或华为账号进行[登录认证](https://developer.huawei.com/consumer/cn/doc/app/agc-help-auth-login-phone-0000002271416141)。
   3. 认证成功后获取AuthProvider。
 
-     收起
-
-     自动换行
-
-     深色代码主题
-
-     复制
+     
 
      ```
      1. import { cloudCommon } from '@kit.CloudFoundationKit';
@@ -222,13 +198,7 @@ getAccessToken(isForceRefresh: boolean): Promise<string>
 
   1. 使用华为账号服务的[获取用户级凭证](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/account-api-obtain-user-token)接口获取refresh\_token，然后基于refresh\_token换取access\_token自定义AuthProvider。可参考如下示例代码换取：
 
-     收起
-
-     自动换行
-
-     深色代码主题
-
-     复制
+     
 
      ```
      1. import { cloudCommon } from '@kit.CloudFoundationKit';
@@ -268,13 +238,7 @@ getAccessToken(isForceRefresh: boolean): Promise<string>
      ```
   2. 使用自定义的AuthProvider完成初始化。
 
-     收起
-
-     自动换行
-
-     深色代码主题
-
-     复制
+     
 
      ```
      1. import { cloudCommon } from '@kit.CloudFoundationKit';

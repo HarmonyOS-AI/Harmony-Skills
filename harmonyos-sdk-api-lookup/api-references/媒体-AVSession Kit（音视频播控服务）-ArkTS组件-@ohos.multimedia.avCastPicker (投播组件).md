@@ -9,13 +9,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AVCastPicker } from '@kit.AVSessionKit';
@@ -31,13 +25,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. AVCastPicker({
@@ -87,13 +75,7 @@ PhonePC/2in1TabletTV
 
 体验完整功能请具体参考[播放类开发指南](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/distributed-playback-guide)和[通话类开发指南](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/using-switch-call-devices)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AVCastPickerState, AVCastPicker } from '@kit.AVSessionKit';

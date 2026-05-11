@@ -29,13 +29,7 @@ static debug(message: string, ...arguments: any[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const number = 5;
@@ -72,13 +66,7 @@ static log(message: string, ...arguments: any[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const number = 5;
@@ -115,13 +103,7 @@ static info(message: string, ...arguments: any[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const number = 5;
@@ -158,13 +140,7 @@ static warn(message: string, ...arguments: any[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const str = "name should be string";
@@ -201,13 +177,7 @@ static error(message: string, ...arguments: any[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const str = "value is not defined";
@@ -252,13 +222,7 @@ static assert(value?: Object, ...arguments: Object[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. console.assert(true, 'does nothing');  // 表达式结果值为true, 无打印。
@@ -303,13 +267,7 @@ static count(label?: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. console.count()
@@ -358,13 +316,7 @@ static countReset(label?: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. console.count('abc');
@@ -396,13 +348,7 @@ static dir(dir?: Object): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. class bar {
@@ -445,13 +391,7 @@ static dirxml(...arguments: Object[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const number = 5;
@@ -487,13 +427,7 @@ static group(...arguments: Object[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. console.info("outer");
@@ -529,13 +463,7 @@ static groupCollapsed(...arguments: Object[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. console.groupCollapsed("outer");
@@ -563,13 +491,7 @@ static groupEnd(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. console.info("outer");
@@ -604,13 +526,7 @@ static table(tableData?: Object): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. console.table([1, 2, 3]);
@@ -665,13 +581,7 @@ static time(label?: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. console.time('abc');
@@ -709,13 +619,7 @@ static timeEnd(label?: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. console.time('abc');
@@ -756,13 +660,7 @@ static timeLog(label?: string, ...arguments: Object[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. console.time('timer1');
@@ -794,13 +692,7 @@ static trace(...arguments: Object[]): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. console.trace();
@@ -825,13 +717,7 @@ static traceHybridStack(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. console.traceHybridStack();

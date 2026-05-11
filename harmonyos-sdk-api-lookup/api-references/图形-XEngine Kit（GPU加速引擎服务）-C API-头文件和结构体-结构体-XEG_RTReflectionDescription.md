@@ -40,13 +40,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkAccelerationStructureKHR XEG_RTReflectionDescription::accelerationStructure
@@ -60,13 +54,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkImageView XEG_RTReflectionDescription::inputRayDirectionImage
@@ -80,13 +68,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkImageView XEG_RTReflectionDescription::inputRayOriginImage
@@ -100,13 +82,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. VkImageView XEG_RTReflectionDescription::outputReflectionInfoImage
@@ -116,13 +92,7 @@ PhonePC/2in1TabletTV
 
 输出的反射光线求交结果，格式必须为R32G32B32A32\_UINT。求交结果会将光线追踪最近的命中信息打包成128bit，解析方式如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint raymiss = outputReflectionInfoImage.x & 1;
@@ -138,13 +108,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const void* XEG_RTReflectionDescription::pNext
@@ -158,13 +122,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. float XEG_RTReflectionDescription::rayMax
@@ -178,13 +136,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. float XEG_RTReflectionDescription::rayMin
@@ -198,13 +150,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint32_t XEG_RTReflectionDescription::reflectionCullMask
@@ -218,13 +164,7 @@ PhonePC/2in1TabletTV
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. XEG_StructureType XEG_RTReflectionDescription::sType

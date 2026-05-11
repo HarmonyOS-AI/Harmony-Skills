@@ -21,13 +21,7 @@
 
 ### attestationFormats
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. char** FIDO2_AttestationFormatsArray::attestationFormats
@@ -39,13 +33,7 @@
 
 ### attestationFormatsNum
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. uint32_t FIDO2_AttestationFormatsArray::attestationFormatsNum

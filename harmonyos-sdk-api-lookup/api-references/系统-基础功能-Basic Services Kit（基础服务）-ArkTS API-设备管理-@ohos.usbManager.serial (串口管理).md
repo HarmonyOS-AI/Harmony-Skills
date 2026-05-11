@@ -8,13 +8,7 @@
 
 PC/2in1
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { serialManager } from '@kit.BasicServicesKit';
@@ -44,13 +38,7 @@ getPortList(): Readonly<SerialPort>[]
 
 以下示例代码只是调用getPortList接口的必要流程，需要放入具体的方法中执行。实际调用时，设备开发者需要遵循设备相关协议进行调用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { JSON } from '@kit.ArkTS';
@@ -113,13 +101,7 @@ hasSerialRight(portId: number): boolean
 
 以下示例代码只是调用hasSerialRight接口的必要流程，需要放入具体的方法中执行。实际调用时，设备开发者需要遵循设备相关协议进行调用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { JSON } from '@kit.ArkTS';
@@ -189,13 +171,7 @@ requestSerialRight(portId: number): Promise<boolean>
 
 以下示例代码只是调用requestSerialRight接口的必要流程，需要放入具体的方法中执行。实际调用时，设备开发者需要遵循设备相关协议进行调用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { JSON } from '@kit.ArkTS';
@@ -264,13 +240,7 @@ open(portId: number): void
 
 以下示例代码只是调用open接口的必要流程，需要放入具体的方法中执行。实际调用时，设备开发者需要遵循设备相关协议进行调用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { JSON } from '@kit.ArkTS';
@@ -354,13 +324,7 @@ getAttribute(portId: number): Readonly<SerialAttribute>
 
 以下示例代码只是调用getAttribute接口的必要流程，需要放入具体的方法中执行。实际调用时，设备开发者需要遵循设备相关协议进行调用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { JSON } from '@kit.ArkTS';
@@ -450,13 +414,7 @@ setAttribute(portId: number, attribute: SerialAttribute): void
 
 以下示例代码只是调用setAttribute接口的必要流程，需要放入具体的方法中执行。实际调用时，设备开发者需要遵循设备相关协议进行调用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { JSON } from '@kit.ArkTS';
@@ -559,13 +517,7 @@ read(portId: number, buffer: Uint8Array, timeout?: number): Promise<number>
 
 以下示例代码只是调用read接口的必要流程，需要放入具体的方法中执行。实际调用时，设备开发者需要遵循设备相关协议进行调用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { JSON } from '@kit.ArkTS';
@@ -661,13 +613,7 @@ readSync(portId: number, buffer: Uint8Array, timeout?: number): number
 
 以下示例代码只是调用readSync接口的必要流程，需要放入具体的方法中执行。实际调用时，设备开发者需要遵循设备相关协议进行调用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { JSON } from '@kit.ArkTS';
@@ -764,13 +710,7 @@ write(portId: number, buffer: Uint8Array, timeout?: number): Promise<number>
 
 以下示例代码只是调用write接口的必要流程，需要放入具体的方法中执行。实际调用时，设备开发者需要遵循设备相关协议进行调用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { JSON } from '@kit.ArkTS';
@@ -867,13 +807,7 @@ writeSync(portId: number, buffer: Uint8Array, timeout?: number): number
 
 以下示例代码只是调用writeSync接口的必要流程，需要放入具体的方法中执行。实际调用时，设备开发者需要遵循设备相关协议进行调用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { JSON } from '@kit.ArkTS';
@@ -959,13 +893,7 @@ close(portId: number): void
 
 以下示例代码只是调用close接口的必要流程，需要放入具体的方法中执行。实际调用时，设备开发者需要遵循设备相关协议进行调用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { JSON } from '@kit.ArkTS';
@@ -1051,13 +979,7 @@ cancelSerialRight(portId: number): void
 
 以下示例代码只是调用cancelSerialRight接口的必要流程，需要放入具体的方法中执行。实际调用时，设备开发者需要遵循设备相关协议进行调用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { JSON } from '@kit.ArkTS';

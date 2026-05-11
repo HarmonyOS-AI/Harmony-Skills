@@ -13,13 +13,7 @@ VideoSession继承自[Session](https://developer.huawei.com/consumer/cn/doc/harm
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { camera } from '@kit.CameraKit';
@@ -66,13 +60,7 @@ canPreconfig(preconfigType: PreconfigType, preconfigRatio?: PreconfigRatio): boo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -122,13 +110,7 @@ preconfig(preconfigType: PreconfigType, preconfigRatio?: PreconfigRatio): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -172,13 +154,7 @@ on(type: 'error', callback: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -215,13 +191,7 @@ off(type: 'error', callback?: ErrorCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function unregisterSessionError(videoSession: camera.VideoSession): void {
@@ -256,13 +226,7 @@ on(type: 'focusStateChange', callback: AsyncCallback<FocusState>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -303,13 +267,7 @@ off(type: 'focusStateChange', callback?: AsyncCallback<FocusState>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function unregisterFocusStateChange(videoSession: camera.VideoSession): void {
@@ -344,13 +302,7 @@ on(type: 'smoothZoomInfoAvailable', callback: AsyncCallback<SmoothZoomInfo>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -391,13 +343,7 @@ off(type: 'smoothZoomInfoAvailable', callback?: AsyncCallback<SmoothZoomInfo>): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function unregisterSmoothZoomInfo(videoSession: camera.VideoSession): void {
@@ -432,13 +378,7 @@ on(type: 'autoDeviceSwitchStatusChange', callback: AsyncCallback<AutoDeviceSwitc
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -479,13 +419,7 @@ off(type: 'autoDeviceSwitchStatusChange', callback?: AsyncCallback<AutoDeviceSwi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function unregisterSmoothZoomInfo(videoSession: camera.VideoSession): void {
@@ -531,13 +465,7 @@ setQualityPrioritization(quality : QualityPrioritization) : void;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -580,13 +508,7 @@ on(type: 'systemPressureLevelChange', callback: AsyncCallback<SystemPressureLeve
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -627,13 +549,7 @@ off(type: 'systemPressureLevelChange', callback?: AsyncCallback<SystemPressureLe
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function unregisterSystemPressureLevelChangeCallback(videoSession: camera.VideoSession): void {
@@ -668,13 +584,7 @@ on(type: 'controlCenterEffectStatusChange', callback: AsyncCallback<ControlCente
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -715,13 +625,7 @@ off(type: 'controlCenterEffectStatusChange', callback?: AsyncCallback<ControlCen
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function unregisterControlCenterEffectStatusChange(videoSession: camera.VideoSession): void {
@@ -752,13 +656,7 @@ on(type: 'macroStatusChanged', callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -799,13 +697,7 @@ off(type: 'macroStatusChanged', callback?: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function unregisterMacroStatusChanged(videoSession: camera.VideoSession): void {
@@ -837,13 +729,7 @@ onIsoInfoChange(callback: Callback<IsoInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function callback(isoInfo: camera.IsoInfo): void {
@@ -879,13 +765,7 @@ offIsoInfoChange(callback?: Callback<IsoInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function callback(isoInfo: camera.IsoInfo): void {

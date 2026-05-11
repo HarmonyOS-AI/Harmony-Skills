@@ -10,13 +10,7 @@ HUKS所管理的密钥可以由应用导入或者由应用调用HUKS接口生成
 
 PhonePC/2in1TabletTVWearableLite Wearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit';
@@ -148,13 +142,7 @@ generateKeyItem(keyAlias: string, options: HuksOptions, callback: AsyncCallback<
 
 ArkTS示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit';
@@ -197,13 +185,7 @@ JS示例：
 
 JS示例代码仅供轻量级智能穿戴使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <stack class="container">
@@ -212,13 +194,7 @@ JS示例代码仅供轻量级智能穿戴使用。
 4. </stack>
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. .container {
@@ -250,13 +226,7 @@ JS示例代码仅供轻量级智能穿戴使用。
 27. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import huks from '@ohos.security.huks';
@@ -358,13 +328,7 @@ generateKeyItem(keyAlias: string, options: HuksOptions) : Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. /* 以生成ECC256密钥为例 */
@@ -441,13 +405,7 @@ deleteKeyItem(keyAlias: string, options: HuksOptions, callback: AsyncCallback<vo
 
 ArkTS示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit';
@@ -472,13 +430,7 @@ JS示例：
 
 JS示例代码仅供轻量级智能穿戴使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <stack class="container">
@@ -487,13 +439,7 @@ JS示例代码仅供轻量级智能穿戴使用。
 4. </stack>
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. .container {
@@ -525,13 +471,7 @@ JS示例代码仅供轻量级智能穿戴使用。
 27. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import huks from '@ohos.security.huks';
@@ -613,13 +553,7 @@ deleteKeyItem(keyAlias: string, options: HuksOptions) : Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit';
@@ -684,13 +618,7 @@ API version 9-11系统能力为SystemCapability.Security.Huks.Extension；从API
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit';
@@ -796,13 +724,7 @@ importKeyItem(keyAlias: string, options: HuksOptions) : Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit';
@@ -900,13 +822,7 @@ attestKeyItem(keyAlias: string, options: HuksOptions, callback: AsyncCallback<Hu
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit';
@@ -1054,13 +970,7 @@ attestKeyItem(keyAlias: string, options: HuksOptions) : Promise<HuksReturnResult
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit';
@@ -1198,13 +1108,7 @@ anonAttestKeyItem(keyAlias: string, options: HuksOptions, callback: AsyncCallbac
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit';
@@ -1351,13 +1255,7 @@ anonAttestKeyItem(keyAlias: string, options: HuksOptions) : Promise<HuksReturnRe
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit';
@@ -1495,13 +1393,7 @@ API version 9-11系统能力为SystemCapability.Security.Huks.Extension；从API
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit';
@@ -1724,13 +1616,7 @@ importWrappedKeyItem(keyAlias: string, wrappingKeyAlias: string, options: HuksOp
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit';
@@ -1790,13 +1676,7 @@ API version 9-11系统能力为SystemCapability.Security.Huks.Extension；从API
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit';
@@ -1866,13 +1746,7 @@ exportKeyItem(keyAlias: string, options: HuksOptions) : Promise<HuksReturnResult
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit';
@@ -1934,13 +1808,7 @@ wrapKeyItem(keyAlias: string, params: HuksOptions): Promise<HuksReturnResult>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit';
@@ -2061,13 +1929,7 @@ unwrapKeyItem(keyAlias: string, params: HuksOptions, wrappedKey: Uint8Array): Pr
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit';
@@ -2142,13 +2004,7 @@ API version 9-11系统能力为SystemCapability.Security.Huks.Extension；从API
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit';
@@ -2218,13 +2074,7 @@ getKeyItemProperties(keyAlias: string, options: HuksOptions) : Promise<HuksRetur
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit';
@@ -2285,13 +2135,7 @@ isKeyItemExist(keyAlias: string, options: HuksOptions, callback: AsyncCallback<b
 
 ArkTS示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit';
@@ -2321,13 +2165,7 @@ JS示例：
 
 JS示例代码仅供轻量级智能穿戴使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <stack class="container">
@@ -2336,13 +2174,7 @@ JS示例代码仅供轻量级智能穿戴使用。
 4. </stack>
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. .container {
@@ -2374,13 +2206,7 @@ JS示例代码仅供轻量级智能穿戴使用。
 27. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import huks from '@ohos.security.huks';
@@ -2469,13 +2295,7 @@ isKeyItemExist(keyAlias: string, options: HuksOptions) : Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit';
@@ -2534,13 +2354,7 @@ hasKeyItem(keyAlias: string, options: HuksOptions, callback: AsyncCallback<boole
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit';
@@ -2614,13 +2428,7 @@ hasKeyItem(keyAlias: string, options: HuksOptions) : Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit';
@@ -3117,13 +2925,7 @@ abortSession终止密钥操作。使用callback异步回调。
 
 ArkTS示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit';
@@ -3194,13 +2996,7 @@ JS示例：
 
 JS示例代码仅供轻量级智能穿戴使用。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <stack class="container">
@@ -3210,13 +3006,7 @@ JS示例代码仅供轻量级智能穿戴使用。
 5. </stack>
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. .container {
@@ -3259,13 +3049,7 @@ JS示例代码仅供轻量级智能穿戴使用。
 38. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import huks from '@ohos.security.huks';
@@ -3564,13 +3348,7 @@ abortSession终止密钥操作。使用Promise异步回调。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit';
@@ -3682,13 +3460,7 @@ listAliases(options: HuksOptions): Promise<HuksListAliasesReturnResult>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit'
@@ -4360,13 +4132,7 @@ getSdkVersion(options: HuksOptions) : string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit';
@@ -4404,13 +4170,7 @@ generateKey(keyAlias: string, options: HuksOptions, callback: AsyncCallback<Huks
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit';
@@ -4480,13 +4240,7 @@ generateKey(keyAlias: string, options: HuksOptions) : Promise<HuksResult>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit';
@@ -4544,13 +4298,7 @@ deleteKey(keyAlias: string, options: HuksOptions, callback: AsyncCallback<HuksRe
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit';
@@ -4597,13 +4345,7 @@ deleteKey(keyAlias: string, options: HuksOptions) : Promise<HuksResult>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit';
@@ -4647,13 +4389,7 @@ importKey(keyAlias: string, options: HuksOptions, callback: AsyncCallback<HuksRe
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit';
@@ -4734,13 +4470,7 @@ importKey(keyAlias: string, options: HuksOptions) : Promise<HuksResult>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit';
@@ -4814,13 +4544,7 @@ exportKey(keyAlias: string, options: HuksOptions, callback: AsyncCallback<HuksRe
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit';
@@ -4867,13 +4591,7 @@ exportKey(keyAlias: string, options: HuksOptions) : Promise<HuksResult>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit';
@@ -4912,13 +4630,7 @@ getKeyProperties(keyAlias: string, options: HuksOptions, callback: AsyncCallback
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit';
@@ -4965,13 +4677,7 @@ getKeyProperties(keyAlias: string, options: HuksOptions) : Promise<HuksResult>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit';
@@ -5010,13 +4716,7 @@ isKeyExist(keyAlias: string, options: HuksOptions, callback: AsyncCallback<boole
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit';
@@ -5063,13 +4763,7 @@ isKeyExist(keyAlias: string, options: HuksOptions) : Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit';
@@ -5287,13 +4981,7 @@ abort终止密钥操作。使用callback异步回调。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit';
@@ -5417,13 +5105,7 @@ abort终止密钥操作。使用Promise异步回调。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { huks } from '@kit.UniversalKeystoreKit';

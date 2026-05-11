@@ -10,13 +10,7 @@ EnvironmentCallback模块提供对系统环境变化监听回调的能力。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { EnvironmentCallback } from '@kit.AbilityKit';
@@ -84,13 +78,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, EnvironmentCallback } from '@kit.AbilityKit';

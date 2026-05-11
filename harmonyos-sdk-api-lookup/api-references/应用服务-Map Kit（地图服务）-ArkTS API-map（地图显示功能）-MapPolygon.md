@@ -2,13 +2,7 @@
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { map, mapCommon } from '@kit.MapKit';
@@ -30,13 +24,7 @@ PhonePC/2in1TabletWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let polygonOptions: mapCommon.MapPolygonOptions = {
@@ -77,13 +65,7 @@ getFillColor(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let fillColor: number = mapPolygon.getFillColor();
@@ -119,13 +101,7 @@ getHoles(): Array<Array<mapCommon.LatLng>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let holes: Array<Array<mapCommon.LatLng>> = mapPolygon.getHoles();
@@ -157,13 +133,7 @@ getPoints(): Array<mapCommon.LatLng>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let points: Array<mapCommon.LatLng> = mapPolygon.getPoints();
@@ -195,13 +165,7 @@ getStrokeColor(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let strokeColor: number = mapPolygon.getStrokeColor();
@@ -233,13 +197,7 @@ getJointType(): mapCommon.JointType
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let jointType: mapCommon.JointType = mapPolygon.getJointType();
@@ -271,13 +229,7 @@ getPatterns(): Array<mapCommon.PatternItem>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let patterns: Array<mapCommon.PatternItem> = mapPolygon.getPatterns();
@@ -309,13 +261,7 @@ getStrokeWidth(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let strokeWidth: number = mapPolygon.getStrokeWidth();
@@ -347,13 +293,7 @@ isClickable(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let clickable: boolean = mapPolygon.isClickable();
@@ -385,13 +325,7 @@ isGeodesic(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let geodesic: boolean = mapPolygon.isGeodesic();
@@ -423,13 +357,7 @@ setClickable(clickable: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. mapPolygon.setClickable(true);
@@ -461,13 +389,7 @@ setFillColor(color: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. mapPolygon.setFillColor(0xff000FFF);
@@ -499,13 +421,7 @@ setGeodesic(geodesic: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. mapPolygon.setGeodesic(true);
@@ -541,13 +457,7 @@ setHoles(holes: Array<Array<mapCommon.LatLng>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let holes: Array<Array<mapCommon.LatLng>> = [
@@ -603,13 +513,7 @@ setPoints(points: Array<mapCommon.LatLng>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let points: Array<mapCommon.LatLng> = [
@@ -659,13 +563,7 @@ setStrokeColor(color: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. mapPolygon.setStrokeColor(0xff00DB93);
@@ -697,13 +595,7 @@ setJointType(jointType: mapCommon.JointType): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. mapPolygon.setJointType(mapCommon.JointType.ROUND);
@@ -735,13 +627,7 @@ setPatterns(patterns: Array<mapCommon.PatternItem>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let linePatterns: Array<mapCommon.PatternItem> = [
@@ -787,13 +673,7 @@ setStrokeWidth(width: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. mapPolygon.setStrokeWidth(30);

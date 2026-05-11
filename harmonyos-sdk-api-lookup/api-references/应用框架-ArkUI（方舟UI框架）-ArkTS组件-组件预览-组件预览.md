@@ -60,13 +60,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例分别使用了不传参@Preview和传参的@Preview。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry

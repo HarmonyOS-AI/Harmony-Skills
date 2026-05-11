@@ -10,13 +10,7 @@ ApplicationContext作为应用上下文，继承自[Context](https://developer.h
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -63,13 +57,7 @@ on(type: 'abilityLifecycle', callback: AbilityLifecycleCallback): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, AbilityLifecycleCallback } from '@kit.AbilityKit';
@@ -160,13 +148,7 @@ off(type: 'abilityLifecycle', callbackId: number, callback: AsyncCallback<void>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -234,13 +216,7 @@ off(type: 'abilityLifecycle', callbackId: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -307,13 +283,7 @@ on(type: 'environment', callback: EnvironmentCallback): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, EnvironmentCallback } from '@kit.AbilityKit';
@@ -379,13 +349,7 @@ off(type: 'environment', callbackId: number, callback: AsyncCallback<void>): voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -452,13 +416,7 @@ off(type: 'environment', callbackId: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -511,13 +469,7 @@ on(type: 'applicationStateChange', callback: ApplicationStateChangeCallback): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, ApplicationStateChangeCallback } from '@kit.AbilityKit';
@@ -583,13 +535,7 @@ off(type: 'applicationStateChange', callback?: ApplicationStateChangeCallback): 
 
 假定已使用[ApplicationContext.on('applicationStateChange')](/consumer/cn/doc/harmonyos-references/js-apis-inner-application-applicationcontext#applicationcontextonapplicationstatechange10)方法注册名为applicationStateChangeCallback回调，下面示例展示如何取消对应的事件监听。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, ApplicationStateChangeCallback } from '@kit.AbilityKit';
@@ -644,13 +590,7 @@ onSystemConfigurationUpdated(callback: systemConfiguration.UpdatedCallback): voi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, systemConfiguration, ConfigurationConstant } from '@kit.AbilityKit';
@@ -722,13 +662,7 @@ offSystemConfigurationUpdated(callback?: systemConfiguration.UpdatedCallback): v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, systemConfiguration, ConfigurationConstant } from '@kit.AbilityKit';
@@ -812,13 +746,7 @@ getRunningProcessInformation(): Promise<Array<ProcessInformation>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -870,13 +798,7 @@ getRunningProcessInformation(callback: AsyncCallback<Array<ProcessInformation>>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -932,13 +854,7 @@ killAllProcesses(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -996,13 +912,7 @@ killAllProcesses(clearPageStack: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -1054,13 +964,7 @@ killAllProcesses(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -1114,13 +1018,7 @@ setColorMode(colorMode: ConfigurationConstant.ColorMode): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility, ConfigurationConstant } from '@kit.AbilityKit';
@@ -1178,13 +1076,7 @@ setLanguage(language: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -1243,13 +1135,7 @@ clearUpApplicationData(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -1300,13 +1186,7 @@ clearUpApplicationData(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -1367,13 +1247,7 @@ restartApp(want: Want): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hilog } from '@kit.PerformanceAnalysisKit';
@@ -1450,13 +1324,7 @@ getCurrentAppCloneIndex(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -1508,13 +1376,7 @@ setFont(font: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -1593,13 +1455,7 @@ setSupportedProcessCache(isSupported : boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityStage, Want } from '@kit.AbilityKit';
@@ -1641,13 +1497,7 @@ setFontSizeScale(fontSizeScale: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -1699,13 +1549,7 @@ getCurrentInstanceKey(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityStage } from '@kit.AbilityKit';
@@ -1761,13 +1605,7 @@ getAllRunningInstanceKeys(): Promise<Array<string>>;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityStage } from '@kit.AbilityKit';
@@ -1811,13 +1649,7 @@ getAllWindowStages(): Promise<Array<window.WindowStage>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityStage } from '@kit.AbilityKit';

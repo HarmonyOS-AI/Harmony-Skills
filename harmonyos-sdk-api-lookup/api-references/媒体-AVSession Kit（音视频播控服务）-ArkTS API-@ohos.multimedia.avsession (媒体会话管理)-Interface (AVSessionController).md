@@ -9,13 +9,7 @@ AVSessionController控制器可查看会话ID，并可完成对会话发送命�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avSession } from '@kit.AVSessionKit';
@@ -37,13 +31,7 @@ PhonePC/2in1TabletTVWearable
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avSession } from '@kit.AVSessionKit';
@@ -112,13 +100,7 @@ getAVPlaybackState(callback: AsyncCallback<AVPlaybackState>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.getAVPlaybackState((state: avSession.AVPlaybackState) => {
@@ -160,13 +142,7 @@ getAVPlaybackState(): Promise<AVPlaybackState>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.getAVPlaybackState().then((state: avSession.AVPlaybackState) => {
@@ -208,13 +184,7 @@ getAVMetadata(): Promise<AVMetadata>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.getAVMetadata().then((metadata: avSession.AVMetadata) => {
@@ -254,13 +224,7 @@ getAVMetadata(callback: AsyncCallback<AVMetadata>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.getAVMetadata((metadata: avSession.AVMetadata) => {
@@ -302,13 +266,7 @@ getAVQueueTitle(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.getAVQueueTitle().then((title: string) => {
@@ -348,13 +306,7 @@ getAVQueueTitle(callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.getAVQueueTitle((title: string) => {
@@ -396,13 +348,7 @@ getAVQueueItems(): Promise<Array<AVQueueItem>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.getAVQueueItems().then((items: avSession.AVQueueItem[]) => {
@@ -442,13 +388,7 @@ getAVQueueItems(callback: AsyncCallback<Array<AVQueueItem>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.getAVQueueItems((items: avSession.AVQueueItem[]) => {
@@ -499,13 +439,7 @@ skipToQueueItem(itemId: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let queueItemId = 0;
@@ -548,13 +482,7 @@ skipToQueueItem(itemId: number, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let queueItemId = 0;
@@ -596,13 +524,7 @@ getOutputDevice(): Promise<OutputDeviceInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.getOutputDevice().then((deviceInfo: avSession.OutputDeviceInfo) => {
@@ -641,13 +563,7 @@ getOutputDevice(callback: AsyncCallback<OutputDeviceInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.getOutputDevice((deviceInfo: avSession.OutputDeviceInfo) => {
@@ -700,13 +616,7 @@ sendAVKeyEvent(event: KeyEvent): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Key, KeyEvent } from '@kit.InputKit';
@@ -756,13 +666,7 @@ sendAVKeyEvent(event: KeyEvent, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Key, KeyEvent } from '@kit.InputKit';
@@ -808,13 +712,7 @@ getLaunchAbility(): Promise<WantAgent>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.getLaunchAbility().then((agent: object) => {
@@ -854,13 +752,7 @@ getLaunchAbility(callback: AsyncCallback<WantAgent>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.getLaunchAbility((agent: object) => {
@@ -901,13 +793,7 @@ getRealPlaybackPositionSync(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let time: number = avsessionController.getRealPlaybackPositionSync();
@@ -947,13 +833,7 @@ isActive(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.isActive().then((isActive: boolean) => {
@@ -993,13 +873,7 @@ isActive(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.isActive((isActive: boolean) => {
@@ -1040,13 +914,7 @@ destroy(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.destroy().then(() => {
@@ -1085,13 +953,7 @@ destroy(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.destroy(() => {
@@ -1133,13 +995,7 @@ getValidCommands(): Promise<Array<AVControlCommandType>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.getValidCommands().then((validCommands: avSession.AVControlCommandType[]) => {
@@ -1179,13 +1035,7 @@ getValidCommands(callback: AsyncCallback<Array<AVControlCommandType>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.getValidCommands((validCommands: avSession.AVControlCommandType[]) => {
@@ -1243,13 +1093,7 @@ sendControlCommand(command: AVControlCommand): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let avCommand: avSession.AVControlCommand = {command:'play'};
@@ -1299,13 +1143,7 @@ sendControlCommand(command: AVControlCommand, callback: AsyncCallback<void>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let avCommand: avSession.AVControlCommand = {command:'play'};
@@ -1365,13 +1203,7 @@ sendCommonCommand(command: string, args: {[key: string]: Object}): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avSession } from '@kit.AVSessionKit';
@@ -1435,13 +1267,7 @@ sendCommonCommand(command: string, args: {[key: string]: Object}, callback: Asyn
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avSession } from '@kit.AVSessionKit';
@@ -1505,13 +1331,7 @@ sendCustomData(data: Record<string, Object>): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avSession } from '@kit.AVSessionKit';
@@ -1589,13 +1409,7 @@ getExtras(): Promise<{[key: string]: Object}>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avSession } from '@kit.AVSessionKit';
@@ -1673,13 +1487,7 @@ getExtras(callback: AsyncCallback<{[key: string]: Object}>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avSession } from '@kit.AVSessionKit';
@@ -1741,13 +1549,7 @@ getExtrasWithEvent(extraEvent: string): Promise<ExtraInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let controller: avSession.AVSessionController | ESObject;
@@ -1802,13 +1604,7 @@ isDesktopLyricEnabled(): Promise<boolean>
 | 6600103 | The session controller does not exist. |
 | 6600111 | The desktop lyrics feature is not supported. |
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avSession } from '@kit.AVSessionKit';
@@ -1870,13 +1666,7 @@ onDesktopLyricEnabled(callback: Callback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avSession } from '@kit.AVSessionKit';
@@ -1940,13 +1730,7 @@ offDesktopLyricEnabled(callback?: Callback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avSession } from '@kit.AVSessionKit';
@@ -2019,13 +1803,7 @@ setDesktopLyricVisible(visible: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avSession } from '@kit.AVSessionKit';
@@ -2090,13 +1868,7 @@ isDesktopLyricVisible(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avSession } from '@kit.AVSessionKit';
@@ -2158,13 +1930,7 @@ onDesktopLyricVisibilityChanged(callback: Callback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avSession } from '@kit.AVSessionKit';
@@ -2227,13 +1993,7 @@ offDesktopLyricVisibilityChanged(callback?: Callback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avSession } from '@kit.AVSessionKit';
@@ -2305,13 +2065,7 @@ setDesktopLyricState(state: DesktopLyricState): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avSession } from '@kit.AVSessionKit';
@@ -2379,13 +2133,7 @@ getDesktopLyricState(): Promise<DesktopLyricState>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avSession } from '@kit.AVSessionKit';
@@ -2447,13 +2195,7 @@ onDesktopLyricStateChanged(callback: Callback<DesktopLyricState>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avSession } from '@kit.AVSessionKit';
@@ -2516,13 +2258,7 @@ offDesktopLyricStateChanged(callback?: Callback<DesktopLyricState>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avSession } from '@kit.AVSessionKit';
@@ -2588,13 +2324,7 @@ on(type: 'metadataChange', filter: Array<keyof AVMetadata> | 'all', callback: (d
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.on('metadataChange', 'all', (metadata: avSession.AVMetadata) => {
@@ -2641,13 +2371,7 @@ off(type: 'metadataChange', callback?: (data: AVMetadata) => void)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.off('metadataChange');
@@ -2691,13 +2415,7 @@ on(type: 'playbackStateChange', filter: Array<keyof AVPlaybackState> | 'all', ca
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.on('playbackStateChange', 'all', (playbackState: avSession.AVPlaybackState) => {
@@ -2744,13 +2462,7 @@ off(type: 'playbackStateChange', callback?: (state: AVPlaybackState) => void)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.off('playbackStateChange');
@@ -2794,13 +2506,7 @@ on(type: 'callMetadataChange', filter: Array<keyof CallMetadata> | 'all', callba
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.on('callMetadataChange', 'all', (callmetadata: avSession.CallMetadata) => {
@@ -2847,13 +2553,7 @@ off(type: 'callMetadataChange', callback?: Callback<CallMetadata>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.off('callMetadataChange');
@@ -2897,13 +2597,7 @@ on(type: 'callStateChange', filter: Array<keyof AVCallState> | 'all', callback: 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.on('callStateChange', 'all', (callstate: avSession.AVCallState) => {
@@ -2950,13 +2644,7 @@ off(type: 'callStateChange', callback?: Callback<AVCallState>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.off('callMetadataChange');
@@ -2999,13 +2687,7 @@ on(type: 'sessionDestroy', callback: () => void)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.on('sessionDestroy', () => {
@@ -3048,13 +2730,7 @@ off(type: 'sessionDestroy', callback?: () => void)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.off('sessionDestroy');
@@ -3097,13 +2773,7 @@ on(type: 'activeStateChange', callback: (isActive: boolean) => void)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.on('activeStateChange', (isActive: boolean) => {
@@ -3146,13 +2816,7 @@ off(type: 'activeStateChange', callback?: (isActive: boolean) => void)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.off('activeStateChange');
@@ -3195,13 +2859,7 @@ on(type: 'validCommandChange', callback: (commands: Array<AVControlCommandType>)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.on('validCommandChange', (validCommands: avSession.AVControlCommandType[]) => {
@@ -3245,13 +2903,7 @@ off(type: 'validCommandChange', callback?: (commands: Array<AVControlCommandType
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.off('validCommandChange');
@@ -3294,13 +2946,7 @@ on(type: 'outputDeviceChange', callback: (state: ConnectionState, device: Output
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.on('outputDeviceChange', (state: avSession.ConnectionState, device: avSession.OutputDeviceInfo) => {
@@ -3343,13 +2989,7 @@ off(type: 'outputDeviceChange', callback?: (state: ConnectionState, device: Outp
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.off('outputDeviceChange');
@@ -3392,13 +3032,7 @@ on(type: 'sessionEvent', callback: (sessionEvent: string, args: {[key: string]: 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avSession } from '@kit.AVSessionKit';
@@ -3454,13 +3088,7 @@ off(type: 'sessionEvent', callback?: (sessionEvent: string, args: {[key: string]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.off('sessionEvent');
@@ -3503,13 +3131,7 @@ on(type: 'queueItemsChange', callback: (items: Array<[AVQueueItem](https://devel
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.on('queueItemsChange', (items: avSession.AVQueueItem[]) => {
@@ -3552,13 +3174,7 @@ off(type: 'queueItemsChange', callback?: (items: Array<[AVQueueItem](https://dev
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.off('queueItemsChange');
@@ -3599,13 +3215,7 @@ on(type: 'queueTitleChange', callback: (title: string) => void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.on('queueTitleChange', (title: string) => {
@@ -3648,13 +3258,7 @@ off(type: 'queueTitleChange', callback?: (title: string) => void): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.off('queueTitleChange');
@@ -3695,13 +3299,7 @@ on(type: 'extrasChange', callback: (extras: {[key: string]: Object}) => void): v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avSession } from '@kit.AVSessionKit';
@@ -3757,13 +3355,7 @@ off(type: 'extrasChange', callback?: (extras: {[key: string]: Object}) => void):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.off('extrasChange');
@@ -3803,13 +3395,7 @@ on(type: 'customDataChange', callback: Callback<Record<string, Object>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avSession } from '@kit.AVSessionKit';
@@ -3864,13 +3450,7 @@ off(type: 'customDataChange', callback?: Callback<Record<string, Object>>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.off('customDataChange');
@@ -3910,13 +3490,7 @@ getAVPlaybackStateSync(): AVPlaybackState;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let playbackState: avSession.AVPlaybackState = avsessionController.getAVPlaybackStateSync();
@@ -3956,13 +3530,7 @@ getAVMetadataSync(): AVMetadata
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let metaData: avSession.AVMetadata = avsessionController.getAVMetadataSync();
@@ -4000,13 +3568,7 @@ getAVCallState(): Promise<AVCallState>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.getAVCallState().then((callstate: avSession.AVCallState) => {
@@ -4046,13 +3608,7 @@ getAVCallState(callback: AsyncCallback<AVCallState>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.getAVCallState((callstate: avSession.AVCallState) => {
@@ -4092,13 +3648,7 @@ getCallMetadata(): Promise<CallMetadata>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.getCallMetadata().then((calldata: avSession.CallMetadata) => {
@@ -4138,13 +3688,7 @@ getCallMetadata(callback: AsyncCallback<CallMetadata>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. avsessionController.getCallMetadata((calldata: avSession.CallMetadata) => {
@@ -4186,13 +3730,7 @@ getAVQueueTitleSync(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let currentQueueTitle: string = avsessionController.getAVQueueTitleSync();
@@ -4232,13 +3770,7 @@ getAVQueueItemsSync(): Array<AVQueueItem>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let currentQueueItems: Array<avSession.AVQueueItem> = avsessionController.getAVQueueItemsSync();
@@ -4277,13 +3809,7 @@ getOutputDeviceSync(): OutputDeviceInfo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let currentOutputDevice: avSession.OutputDeviceInfo = avsessionController.getOutputDeviceSync();
@@ -4323,13 +3849,7 @@ isActiveSync(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let isActive: boolean = avsessionController.isActiveSync();
@@ -4369,13 +3889,7 @@ getValidCommandsSync(): Array<AVControlCommandType>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let validCommands: Array<avSession.AVControlCommandType> = avsessionController.getValidCommandsSync();

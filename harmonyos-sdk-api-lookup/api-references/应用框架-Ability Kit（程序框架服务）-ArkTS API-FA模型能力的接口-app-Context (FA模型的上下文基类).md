@@ -10,13 +10,7 @@ Context模块提供了Ability或Application的上下文的基础能力，包括�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -28,13 +22,7 @@ PhonePC/2in1TabletTVWearable
 
 Context对象是在featureAbility中创建实例，并通过featureAbility的[getContext](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-ability-featureability#featureabilitygetcontext)接口返回，因此在使用Context时，必须导入@ohos.ability.featureAbility库。示例如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -67,13 +55,7 @@ getOrCreateLocalDir(callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -110,13 +92,7 @@ getOrCreateLocalDir(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -149,13 +125,7 @@ verifyPermission(permission: string, options: PermissionOptions, callback: Async
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -197,13 +167,7 @@ verifyPermission(permission: string, callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -247,13 +211,7 @@ verifyPermission(permission: string, options?: PermissionOptions): Promise<numbe
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -288,13 +246,7 @@ requestPermissionsFromUser(permissions: Array<string>, requestCode: number, resu
 
 ArkTS示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -319,13 +271,7 @@ ArkTS示例：
 
 JS示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- xxx.hml -->
@@ -336,13 +282,7 @@ JS示例：
 6. </div>
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. /*xxx.css*/
@@ -372,13 +312,7 @@ JS示例：
 25. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.js
@@ -441,13 +375,7 @@ requestPermissionsFromUser(permissions: Array<string>, requestCode: number): Pro
 
 ArkTS示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -467,13 +395,7 @@ ArkTS示例：
 
 JS示例：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. <!-- xxx.hml -->
@@ -484,13 +406,7 @@ JS示例：
 6. </div>
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. /*xxx.css*/
@@ -520,13 +436,7 @@ JS示例：
 25. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.js
@@ -573,13 +483,7 @@ getApplicationInfo(callback: AsyncCallback<ApplicationInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -614,13 +518,7 @@ getApplicationInfo(): Promise<ApplicationInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -651,13 +549,7 @@ getBundleName(callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -692,13 +584,7 @@ getBundleName(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -729,13 +615,7 @@ getDisplayOrientation(callback: AsyncCallback<bundle.DisplayOrientation>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -770,13 +650,7 @@ getDisplayOrientation(): Promise<bundle.DisplayOrientation>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -811,13 +685,7 @@ getExternalCacheDir(callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -856,13 +724,7 @@ getExternalCacheDir(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -894,13 +756,7 @@ setDisplayOrientation(orientation: bundle.DisplayOrientation, callback: AsyncCal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -941,13 +797,7 @@ setDisplayOrientation(orientation: bundle.DisplayOrientation): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -987,13 +837,7 @@ setShowOnLockScreen(show: boolean, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -1039,13 +883,7 @@ setShowOnLockScreen(show: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -1084,13 +922,7 @@ setWakeUpScreen(wakeUp: boolean, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -1136,13 +968,7 @@ setWakeUpScreen(wakeUp: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -1174,13 +1000,7 @@ getProcessInfo(callback: AsyncCallback<ProcessInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -1215,13 +1035,7 @@ getProcessInfo(): Promise<ProcessInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -1254,13 +1068,7 @@ getElementName(callback: AsyncCallback<ElementName>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -1297,13 +1105,7 @@ getElementName(): Promise<ElementName>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -1334,13 +1136,7 @@ getProcessName(callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -1375,13 +1171,7 @@ getProcessName(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -1412,13 +1202,7 @@ getCallingBundle(callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -1453,13 +1237,7 @@ getCallingBundle(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -1490,13 +1268,7 @@ getCacheDir(callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -1531,13 +1303,7 @@ getCacheDir(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -1568,13 +1334,7 @@ getFilesDir(callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -1609,13 +1369,7 @@ getFilesDir(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -1648,13 +1402,7 @@ getOrCreateDistributedDir(callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -1691,13 +1439,7 @@ getOrCreateDistributedDir(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -1728,13 +1470,7 @@ getAppType(callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -1769,13 +1505,7 @@ getAppType(): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -1806,13 +1536,7 @@ getHapModuleInfo(callback: AsyncCallback<HapModuleInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -1847,13 +1571,7 @@ getHapModuleInfo(): Promise<HapModuleInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -1884,13 +1602,7 @@ getAppVersionInfo(callback: AsyncCallback<AppVersionInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -1925,13 +1637,7 @@ getAppVersionInfo(): Promise<AppVersionInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -1962,13 +1668,7 @@ getAbilityInfo(callback: AsyncCallback<AbilityInfo>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -2003,13 +1703,7 @@ getAbilityInfo(): Promise<AbilityInfo>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -2040,13 +1734,7 @@ getApplicationContext(): Context
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -2074,13 +1762,7 @@ isUpdatingConfigurations(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -2115,13 +1797,7 @@ isUpdatingConfigurations(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -2152,13 +1828,7 @@ printDrawnCompleted(callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';
@@ -2189,13 +1859,7 @@ printDrawnCompleted(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import featureAbility from '@ohos.ability.featureAbility';

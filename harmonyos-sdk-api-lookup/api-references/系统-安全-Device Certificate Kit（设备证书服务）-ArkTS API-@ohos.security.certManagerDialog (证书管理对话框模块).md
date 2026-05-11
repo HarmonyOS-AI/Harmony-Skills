@@ -8,13 +8,7 @@
 
 PhonePC/2in1Tablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { certificateManagerDialog } from '@kit.DeviceCertificateKit';
@@ -210,13 +204,7 @@ openCertificateManagerDialog(context: common.Context, pageType: CertificateDialo
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { certificateManagerDialog } from '@kit.DeviceCertificateKit';
@@ -292,13 +280,7 @@ openInstallCertificateDialog(context: common.Context, certType: CertificateType,
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { certificateManagerDialog } from '@kit.DeviceCertificateKit';
@@ -379,13 +361,7 @@ openUninstallCertificateDialog(context: common.Context, certType: CertificateTyp
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { certificateManagerDialog } from '@kit.DeviceCertificateKit';
@@ -460,13 +436,7 @@ openCertificateDetailDialog(context: common.Context, cert: Uint8Array, property:
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { certificateManagerDialog } from '@kit.DeviceCertificateKit';
@@ -539,13 +509,7 @@ openAuthorizeDialog(context: common.Context): Promise<string>
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { certificateManagerDialog } from '@kit.DeviceCertificateKit';
@@ -617,13 +581,7 @@ openAuthorizeDialog(context: common.Context, authorizeRequest: AuthorizeRequest)
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { certificateManagerDialog, certificateManager } from '@kit.DeviceCertificateKit';
@@ -703,13 +661,7 @@ openUkeyAuthDialog(context: common.Context, ukeyAuthRequest: UkeyAuthRequest): P
 
 **示例**：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { certificateManagerDialog } from '@kit.DeviceCertificateKit';

@@ -1358,13 +1358,7 @@ ListScroller继承自[Scroller](https://developer.huawei.com/consumer/cn/doc/har
 
 ### 导入对象
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. listScroller: ListScroller = new ListScroller();
@@ -1731,13 +1725,7 @@ PhonePC/2in1TabletTVWearable
 
 ListDataSource实现了LazyForEach数据源接口[IDataSource](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-rendering-control-lazyforeach#idatasource)，用于通过LazyForEach给List提供子组件。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // ListDataSource.ets
@@ -1809,13 +1797,7 @@ ListDataSource实现了LazyForEach数据源接口[IDataSource](https://developer
 67. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1876,13 +1858,7 @@ ListDataSource实现了LazyForEach数据源接口[IDataSource](https://developer
 
 ListDataSource说明及完整代码参考[示例1添加滚动事件](/consumer/cn/doc/harmonyos-references/ts-container-list#示例1添加滚动事件)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -1940,13 +1916,7 @@ ListDataSource说明及完整代码参考[示例1添加滚动事件](/consumer/c
 
 ListDataSource说明及完整代码参考[示例1添加滚动事件](/consumer/cn/doc/harmonyos-references/ts-container-list#示例1添加滚动事件)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2012,13 +1982,7 @@ ListDataSource说明及完整代码参考[示例1添加滚动事件](/consumer/c
 
 ListDataSource说明及完整代码参考[示例1添加滚动事件](/consumer/cn/doc/harmonyos-references/ts-container-list#示例1添加滚动事件)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2081,13 +2045,7 @@ ListDataSource说明及完整代码参考[示例1添加滚动事件](/consumer/c
 
 ListDataSource说明及完整代码参考[示例1添加滚动事件](/consumer/cn/doc/harmonyos-references/ts-container-list#示例1添加滚动事件)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2162,13 +2120,7 @@ ListDataSource说明及完整代码参考[示例1添加滚动事件](/consumer/c
 
 该示例展示了含有group时，获得List组件的Item索引相关信息。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2331,13 +2283,7 @@ ListDataSource说明及完整代码参考[示例1添加滚动事件](/consumer/c
 
 ListDataSource说明及完整代码参考[示例1添加滚动事件](/consumer/cn/doc/harmonyos-references/ts-container-list#示例1添加滚动事件)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LengthMetrics } from '@kit.ArkUI'
@@ -2378,13 +2324,7 @@ ListDataSource说明及完整代码参考[示例1添加滚动事件](/consumer/c
 
 ListDataSource说明及完整代码参考[示例1添加滚动事件](/consumer/cn/doc/harmonyos-references/ts-container-list#示例1添加滚动事件)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2423,13 +2363,7 @@ ListDataSource说明及完整代码参考[示例1添加滚动事件](/consumer/c
 
 从API version 20开始，该示例通过[focusWrapMode](/consumer/cn/doc/harmonyos-references/ts-container-list#focuswrapmode20)接口，实现了List组件方向键走焦换行效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -2480,13 +2414,7 @@ ListDataSource说明及完整代码参考[示例1添加滚动事件](/consumer/c
 
 ListDataSource说明及完整代码参考[示例1添加滚动事件](/consumer/cn/doc/harmonyos-references/ts-container-list#示例1添加滚动事件)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { ListDataSource } from './ListDataSource';
@@ -2532,13 +2460,7 @@ ListDataSource说明及完整代码参考[示例1添加滚动事件](/consumer/c
 
 从API version 20开始，该示例展示了通过[scrollBarMargin](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-container-scrollable-common#scrollbarmargin20)属性设置滚动条边距并避让[contentStartOffset](/consumer/cn/doc/harmonyos-references/ts-container-list#contentstartoffset11)、[contentEndOffset](/consumer/cn/doc/harmonyos-references/ts-container-list#contentendoffset11)区域的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2584,13 +2506,7 @@ ListDataSource说明及完整代码参考[示例1添加滚动事件](/consumer/c
 
 从API version 12开始，该示例展示了使用ForEach的[onMove](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-drag-sorting#onmove)接口进行拖拽排序的效果，支持拖动到List边缘时触发List的自动滚动。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Entry
@@ -2638,13 +2554,7 @@ ListDataSource说明及完整代码参考[示例1添加滚动事件](/consumer/c
 
 ListDataSource说明及完整代码参考[示例1添加滚动事件](/consumer/cn/doc/harmonyos-references/ts-container-list#示例1添加滚动事件)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2694,13 +2604,7 @@ List宽度属于lg及更大的断点区间时显示5列。
 
 从API version 22 开始，该示例实现了List组件获取内容总大小的功能。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2764,13 +2668,7 @@ List宽度属于lg及更大的断点区间时显示5列。
 
 该示例通过OnItemDragStart等事件实现了ListItem在两个List组件间的拖拽效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets
@@ -2892,13 +2790,7 @@ List宽度属于lg及更大的断点区间时显示5列。
 
 该示例使用[scrollToItemInGroup](/consumer/cn/doc/harmonyos-references/ts-container-list#scrolltoitemingroup11)接口，实现了点击[ListItemGroup](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-container-listitemgroup)中的[ListItem](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-container-listitem)时将其居中的效果。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { util } from '@kit.ArkTS';
@@ -3008,13 +2900,7 @@ List宽度属于lg及更大的断点区间时显示5列。
 
 ListDataSource说明及完整代码参考[示例1（添加滚动事件）](/consumer/cn/doc/harmonyos-references/ts-container-list#示例1添加滚动事件)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

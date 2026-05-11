@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { audio } from '@kit.AudioKit';
@@ -42,13 +36,7 @@ getAudioScene(callback: AsyncCallback<AudioScene>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -82,13 +70,7 @@ getAudioScene(): Promise<AudioScene>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -120,13 +102,7 @@ getAudioSceneSync(): AudioScene
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -161,13 +137,7 @@ on(type: 'audioSceneChange', callback: Callback<AudioScene>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioManager.on('audioSceneChange', (audioScene: audio.AudioScene) => {
@@ -196,13 +166,7 @@ off(type: 'audioSceneChange', callback?: Callback<AudioScene>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 取消该事件的所有监听。
@@ -240,13 +204,7 @@ getVolumeManager(): AudioVolumeManager
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { audio } from '@kit.AudioKit';
@@ -274,13 +232,7 @@ getStreamManager(): AudioStreamManager
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { audio } from '@kit.AudioKit';
@@ -308,13 +260,7 @@ getRoutingManager(): AudioRoutingManager
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { audio } from '@kit.AudioKit';
@@ -342,13 +288,7 @@ getSessionManager(): AudioSessionManager
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { audio } from '@kit.AudioKit';
@@ -376,13 +316,7 @@ getSpatializationManager(): AudioSpatializationManager
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { audio } from '@kit.AudioKit';
@@ -419,13 +353,7 @@ setAudioParameter(key: string, value: string, callback: AsyncCallback<void>): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -476,13 +404,7 @@ setAudioParameter(key: string, value: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioManager.setAudioParameter('key_example', 'value_example').then(() => {
@@ -517,13 +439,7 @@ getAudioParameter(key: string, callback: AsyncCallback<string>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -571,13 +487,7 @@ getAudioParameter(key: string): Promise<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioManager.getAudioParameter('key_example').then((value: string) => {
@@ -616,13 +526,7 @@ setVolume(volumeType: AudioVolumeType, volume: number, callback: AsyncCallback<v
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -674,13 +578,7 @@ setVolume(volumeType: AudioVolumeType, volume: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioManager.setVolume(audio.AudioVolumeType.MEDIA, 10).then(() => {
@@ -713,13 +611,7 @@ getVolume(volumeType: AudioVolumeType, callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -765,13 +657,7 @@ getVolume(volumeType: AudioVolumeType): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioManager.getVolume(audio.AudioVolumeType.MEDIA).then((value: number) => {
@@ -804,13 +690,7 @@ getMinVolume(volumeType: AudioVolumeType, callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -856,13 +736,7 @@ getMinVolume(volumeType: AudioVolumeType): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioManager.getMinVolume(audio.AudioVolumeType.MEDIA).then((value: number) => {
@@ -895,13 +769,7 @@ getMaxVolume(volumeType: AudioVolumeType, callback: AsyncCallback<number>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -947,13 +815,7 @@ getMaxVolume(volumeType: AudioVolumeType): Promise<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioManager.getMaxVolume(audio.AudioVolumeType.MEDIA).then((data: number) => {
@@ -989,13 +851,7 @@ mute(volumeType: AudioVolumeType, mute: boolean, callback: AsyncCallback<void>):
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1044,13 +900,7 @@ mute(volumeType: AudioVolumeType, mute: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioManager.mute(audio.AudioVolumeType.MEDIA, true).then(() => {
@@ -1083,13 +933,7 @@ isMute(volumeType: AudioVolumeType, callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1135,13 +979,7 @@ isMute(volumeType: AudioVolumeType): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioManager.isMute(audio.AudioVolumeType.MEDIA).then((value: boolean) => {
@@ -1174,13 +1012,7 @@ isActive(volumeType: AudioVolumeType, callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1226,13 +1058,7 @@ isActive(volumeType: AudioVolumeType): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioManager.isActive(audio.AudioVolumeType.MEDIA).then((value: boolean) => {
@@ -1269,13 +1095,7 @@ setRingerMode(mode: AudioRingMode, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1325,13 +1145,7 @@ setRingerMode(mode: AudioRingMode): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioManager.setRingerMode(audio.AudioRingMode.RINGER_MODE_NORMAL).then(() => {
@@ -1363,13 +1177,7 @@ getRingerMode(callback: AsyncCallback<AudioRingMode>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1407,13 +1215,7 @@ getRingerMode(): Promise<AudioRingMode>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioManager.getRingerMode().then((value: audio.AudioRingMode) => {
@@ -1446,13 +1248,7 @@ getDevices(deviceFlag: DeviceFlag, callback: AsyncCallback<AudioDeviceDescriptor
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1498,13 +1294,7 @@ getDevices(deviceFlag: DeviceFlag): Promise<AudioDeviceDescriptors>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioManager.getDevices(audio.DeviceFlag.OUTPUT_DEVICES_FLAG).then((data: audio.AudioDeviceDescriptors) => {
@@ -1538,13 +1328,7 @@ setDeviceActive(deviceType: ActiveDeviceType, active: boolean, callback: AsyncCa
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1591,13 +1375,7 @@ setDeviceActive(deviceType: ActiveDeviceType, active: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioManager.setDeviceActive(audio.ActiveDeviceType.SPEAKER, true).then(() => {
@@ -1630,13 +1408,7 @@ isDeviceActive(deviceType: ActiveDeviceType, callback: AsyncCallback<boolean>): 
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1682,13 +1454,7 @@ isDeviceActive(deviceType: ActiveDeviceType): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioManager.isDeviceActive(audio.ActiveDeviceType.SPEAKER).then((value: boolean) => {
@@ -1723,13 +1489,7 @@ setMicrophoneMute(mute: boolean, callback: AsyncCallback<void>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1777,13 +1537,7 @@ setMicrophoneMute(mute: boolean): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioManager.setMicrophoneMute(true).then(() => {
@@ -1817,13 +1571,7 @@ isMicrophoneMute(callback: AsyncCallback<boolean>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -1863,13 +1611,7 @@ isMicrophoneMute(): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioManager.isMicrophoneMute().then((value: boolean) => {
@@ -1902,13 +1644,7 @@ on(type: 'deviceChange', callback: Callback<DeviceChangeAction>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. audioManager.on('deviceChange', (deviceChanged: audio.DeviceChangeAction) => {
@@ -1944,13 +1680,7 @@ off(type: 'deviceChange', callback?: Callback<DeviceChangeAction>): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 取消该事件的所有监听。
@@ -1997,13 +1727,7 @@ on(type: 'interrupt', interrupt: AudioInterrupt, callback: Callback<InterruptAct
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { audio } from '@kit.AudioKit';
@@ -2052,13 +1776,7 @@ off(type: 'interrupt', interrupt: AudioInterrupt, callback?: Callback<InterruptA
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { audio } from '@kit.AudioKit';

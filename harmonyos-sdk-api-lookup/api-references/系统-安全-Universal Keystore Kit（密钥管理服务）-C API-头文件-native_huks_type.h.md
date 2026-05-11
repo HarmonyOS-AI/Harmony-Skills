@@ -108,13 +108,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_Huks_KeyPurpose
@@ -144,13 +138,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_Huks_KeyDigest
@@ -179,13 +167,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_Huks_KeyPadding
@@ -214,13 +196,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_Huks_CipherMode
@@ -248,13 +224,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_Huks_KeySize
@@ -298,13 +268,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_Huks_KeyAlg
@@ -342,13 +306,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_Huks_AlgSuite
@@ -360,13 +318,7 @@ PhonePC/2in1TabletTVWearable
 
 OH\_HUKS\_UNWRAP\_SUITE\_X25519\_AES\_256\_GCM\_NOPADDING对应的密钥材料格式：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. | x25519_plain_pubkey_length  (4 Byte) | x25519_plain_pubkey |  agreekey_aad_length (4 Byte) | agreekey_aad
@@ -378,13 +330,7 @@ OH\_HUKS\_UNWRAP\_SUITE\_X25519\_AES\_256\_GCM\_NOPADDING对应的密钥材料�
 
 OH\_HUKS\_UNWRAP\_SUITE\_ECDH\_AES\_256\_GCM\_NOPADDING对应的密钥材料格式：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. |  ECC_plain_pubkey_length    (4 Byte) |  ECC_plain_pubkey   |  agreekey_aad_length (4 Byte) | agreekey_aad
@@ -396,13 +342,7 @@ OH\_HUKS\_UNWRAP\_SUITE\_ECDH\_AES\_256\_GCM\_NOPADDING对应的密钥材料格�
 
 OH\_HUKS\_UNWRAP\_SUITE\_SM2\_SM4\_ECB\_NOPADDING对应的密钥材料格式：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. | kek_SM4_enc_length (4 Byte) | EN_SM4_key | importkey_enc_length (4 Byte) | importkey_enc |
@@ -422,13 +362,7 @@ OH\_HUKS\_UNWRAP\_SUITE\_SM2\_SM4\_ECB\_NOPADDING对应的密钥材料格式：
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_Huks_KeyGenerateType
@@ -452,13 +386,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_Huks_KeyFlag
@@ -483,13 +411,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_Huks_KeyStorageType
@@ -514,13 +436,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_Huks_ImportKeyType
@@ -544,13 +460,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_Huks_RsaPssSaltLenType
@@ -573,13 +483,7 @@ PSS填充模式下盐值长度类型。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_Huks_ErrCode
@@ -629,13 +533,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_Huks_TagType
@@ -666,13 +564,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_Huks_UserAuthType
@@ -697,13 +589,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_Huks_AuthAccessType
@@ -727,13 +613,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_Huks_AuthStorageLevel
@@ -761,13 +641,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_Huks_ChallengeType
@@ -795,13 +669,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_Huks_UserAuthMode
@@ -824,13 +692,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_Huks_ChallengePosition
@@ -855,13 +717,7 @@ challenge类型为用户自定义类型时，生成的challenge有效长度仅�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_Huks_SecureSignType
@@ -883,13 +739,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_Huks_KeyClassType
@@ -912,13 +762,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_Huks_KeyWrapType
@@ -940,13 +784,7 @@ PhonePC/2in1TabletTVWearable
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. enum OH_Huks_Tag

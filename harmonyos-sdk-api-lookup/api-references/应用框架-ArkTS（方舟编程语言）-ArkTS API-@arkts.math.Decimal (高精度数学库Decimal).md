@@ -10,13 +10,7 @@ Decimal用于提供高精度数学运算的能力，支持高精度浮点计算�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Decimal } from '@kit.ArkTS';
@@ -194,13 +188,7 @@ Decimal的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(5);
@@ -229,13 +217,7 @@ abs(): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(-0.5).abs();
@@ -264,13 +246,7 @@ floor(): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(1.8).floor();
@@ -299,13 +275,7 @@ ceil(): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(1.8).ceil();
@@ -334,13 +304,7 @@ trunc(): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(2.5).trunc();
@@ -389,13 +353,7 @@ clamp(min: Value, max: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data1: Decimal = new Decimal(10.1).clamp(0, 10);
@@ -450,13 +408,7 @@ add(n: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(0.5).add(0.5);
@@ -505,13 +457,7 @@ sub(n: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(1).sub(0.5);
@@ -560,13 +506,7 @@ mul(n: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(1).mul(0.5);
@@ -615,13 +555,7 @@ div(n: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(1).div(0.5);
@@ -670,13 +604,7 @@ mod(n: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(2).mod(1);
@@ -707,13 +635,7 @@ sqrt(): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(3).sqrt();
@@ -744,13 +666,7 @@ cbrt(): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(3).cbrt();
@@ -800,13 +716,7 @@ pow(n: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(3).pow(-2);
@@ -847,13 +757,7 @@ exp(): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(2).exp();
@@ -903,13 +807,7 @@ log(n: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(2).log(256);
@@ -950,13 +848,7 @@ ln(): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(1.23e+30).ln();
@@ -985,13 +877,7 @@ cos(): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(-0.25).cos();
@@ -1020,13 +906,7 @@ sin(): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(0.75).sin();
@@ -1055,13 +935,7 @@ tan(): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(0.75).tan();
@@ -1090,13 +964,7 @@ cosh(): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(0.5).cosh();
@@ -1125,13 +993,7 @@ sinh(): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(0.5).sinh();
@@ -1160,13 +1022,7 @@ tanh(): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(0.5).tanh();
@@ -1205,13 +1061,7 @@ acos(): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(0.5).acos();
@@ -1250,13 +1100,7 @@ asin(): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(0.75).asin();
@@ -1295,13 +1139,7 @@ atan(): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(0.75).atan();
@@ -1340,13 +1178,7 @@ acosh(): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(50).acosh();
@@ -1385,13 +1217,7 @@ asinh(): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(50).asinh();
@@ -1430,13 +1256,7 @@ atanh(): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(0.75).atanh();
@@ -1483,13 +1303,7 @@ Decimal的比较方法。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(Infinity);
@@ -1541,13 +1355,7 @@ equals(n: Value): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(0);
@@ -1595,13 +1403,7 @@ greaterThan(n: Value): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(0.1);
@@ -1649,13 +1451,7 @@ greaterThanOrEqualTo(n: Value): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(0.3).sub(0.2);
@@ -1703,13 +1499,7 @@ lessThan(n: Value): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(0.3).sub(0.2);
@@ -1757,13 +1547,7 @@ lessThanOrEqualTo(n: Value): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(0.1);
@@ -1793,13 +1577,7 @@ isFinite(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(1);
@@ -1829,13 +1607,7 @@ isInteger(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(123.456);
@@ -1865,13 +1637,7 @@ isNaN(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(NaN);
@@ -1901,13 +1667,7 @@ isNegative(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(-5);
@@ -1941,13 +1701,7 @@ isPositive(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(5);
@@ -1981,13 +1735,7 @@ isZero(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(0);
@@ -2037,13 +1785,7 @@ dividedToIntegerBy(n: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(5);
@@ -2074,13 +1816,7 @@ negate(): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(1.8);
@@ -2112,13 +1848,7 @@ toBinary(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(256);
@@ -2168,13 +1898,7 @@ toBinary(significantDigits: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(256);
@@ -2223,13 +1947,7 @@ toBinary(significantDigits: number, rounding: Rounding): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(256);
@@ -2261,13 +1979,7 @@ toOctal(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(256);
@@ -2317,13 +2029,7 @@ toOctal(significantDigits: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(256);
@@ -2372,13 +2078,7 @@ toOctal(significantDigits: number, rounding: Rounding): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(256);
@@ -2410,13 +2110,7 @@ toHexadecimal(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(256);
@@ -2466,13 +2160,7 @@ toHexadecimal(significantDigits: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(256);
@@ -2521,13 +2209,7 @@ toHexadecimal(significantDigits: number, rounding: Rounding): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(256);
@@ -2557,13 +2239,7 @@ toDecimalPlaces(): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(12.34567);
@@ -2613,13 +2289,7 @@ toDecimalPlaces(decimalPlaces: number): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(9876.54321);
@@ -2668,13 +2338,7 @@ toDecimalPlaces(decimalPlaces: number, rounding: Rounding): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(9876.54321);
@@ -2705,13 +2369,7 @@ toExponential(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(45.6);
@@ -2761,13 +2419,7 @@ toExponential(decimalPlaces: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(45.6);
@@ -2818,13 +2470,7 @@ toExponential(decimalPlaces: number, rounding: Rounding): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(45.6);
@@ -2854,13 +2500,7 @@ toFixed(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(3.456);
@@ -2910,13 +2550,7 @@ toFixed(decimalPlaces: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(3.456);
@@ -2967,13 +2601,7 @@ toFixed(decimalPlaces: number, rounding: Rounding): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(3.456);
@@ -3003,13 +2631,7 @@ toFraction(): Decimal[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(1.75);
@@ -3057,13 +2679,7 @@ toFraction(maxDenominator: Value): Decimal[]
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pi: Decimal = new Decimal('3.14159265358');
@@ -3115,13 +2731,7 @@ toNearest(n: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(1.39);
@@ -3171,13 +2781,7 @@ toNearest(n: Value, rounding: Rounding): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(9.499);
@@ -3209,13 +2813,7 @@ toPrecision(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(45.6);
@@ -3265,13 +2863,7 @@ toPrecision(significantDigits: number): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(45.6);
@@ -3321,13 +2913,7 @@ toPrecision(significantDigits: number, rounding: Rounding): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(45.6);
@@ -3359,13 +2945,7 @@ toSignificantDigits(): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(987.654321);
@@ -3415,13 +2995,7 @@ toSignificantDigits(significantDigits: number): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(987.654321);
@@ -3470,13 +3044,7 @@ toSignificantDigits(significantDigits: number, rounding: Rounding): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(987.654321);
@@ -3506,13 +3074,7 @@ toNumber(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(456.789);
@@ -3542,13 +3104,7 @@ toString(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(750000);
@@ -3587,13 +3143,7 @@ valueOf(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(-0);
@@ -3623,13 +3173,7 @@ decimalPlaces(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(1.234);
@@ -3659,13 +3203,7 @@ precision(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(1.234);
@@ -3713,13 +3251,7 @@ precision(includeZeros: boolean | number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = new Decimal(987000);
@@ -3768,13 +3300,7 @@ static abs(n: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = Decimal.abs(-0.5);
@@ -3821,13 +3347,7 @@ static floor(n: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = Decimal.floor(1.8);
@@ -3874,13 +3394,7 @@ static ceil(n: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = Decimal.ceil(1.8);
@@ -3927,13 +3441,7 @@ static trunc(n: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = Decimal.trunc(2.5);
@@ -3983,13 +3491,7 @@ static clamp(n: Value, min: Value, max: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = Decimal.clamp(10.1, 0, 10);
@@ -4039,13 +3541,7 @@ static add(x: Value, y: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = Decimal.add(0.5, 0.5);
@@ -4094,13 +3590,7 @@ static sum(...n: Value[]): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = Decimal.sum(0.5, 0.5);
@@ -4150,13 +3640,7 @@ static sub(x: Value, y: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = Decimal.sub(1, 0.5);
@@ -4206,13 +3690,7 @@ static mul(x: Value, y: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = Decimal.mul(1, 0.5);
@@ -4262,13 +3740,7 @@ static div(x: Value, y: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = Decimal.div(1, 0.5);
@@ -4318,13 +3790,7 @@ static mod(x: Value, y: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = Decimal.mod(2, 1);
@@ -4373,13 +3839,7 @@ static sqrt(n: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = Decimal.sqrt(3);
@@ -4428,13 +3888,7 @@ static cbrt(n: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = Decimal.cbrt(3);
@@ -4483,13 +3937,7 @@ static pow(base: Value, exponent: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = Decimal.pow(3, -2);
@@ -4539,13 +3987,7 @@ static exp(n: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = Decimal.exp(2);
@@ -4596,13 +4038,7 @@ static log(n: Value, base: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = Decimal.log(2, 256);
@@ -4652,13 +4088,7 @@ static ln(n: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = Decimal.ln(1.23e+30);
@@ -4708,13 +4138,7 @@ static log2(n: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = Decimal.log2(4);
@@ -4764,13 +4188,7 @@ static log10(n: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = Decimal.log10(10000);
@@ -4819,13 +4237,7 @@ static cos(n: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = Decimal.cos(-0.25);
@@ -4874,13 +4286,7 @@ static sin(n: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = Decimal.sin(0.75);
@@ -4929,13 +4335,7 @@ static tan(n: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = Decimal.tan(0.75);
@@ -4984,13 +4384,7 @@ static cosh(n: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = Decimal.cosh(0.5);
@@ -5039,13 +4433,7 @@ static sinh(n: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = Decimal.sinh(0.5);
@@ -5094,13 +4482,7 @@ static tanh(n: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = Decimal.tanh(0.5);
@@ -5150,13 +4532,7 @@ static acos(n: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = Decimal.acos(0.5);
@@ -5206,13 +4582,7 @@ static asin(n: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = Decimal.asin(0.75);
@@ -5262,13 +4632,7 @@ static atan(n: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = Decimal.atan(0.75);
@@ -5318,13 +4682,7 @@ static acosh(n: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = Decimal.acosh(50);
@@ -5374,13 +4732,7 @@ static asinh(n: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = Decimal.asinh(50);
@@ -5430,13 +4782,7 @@ static atanh(n: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = Decimal.atanh(0.75);
@@ -5487,13 +4833,7 @@ static atan2(y: Value, x: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = Decimal.atan2(2, 3);
@@ -5542,13 +4882,7 @@ static hypot(...n: Value[]): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = Decimal.hypot(2, 3, 4);
@@ -5595,13 +4929,7 @@ static max(...n: Value[]): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = Decimal.max(2, 3, 4);
@@ -5648,13 +4976,7 @@ static min(...n: Value[]): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = Decimal.min(2, 3, 4);
@@ -5693,13 +5015,7 @@ static random(): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = Decimal.random();
@@ -5746,13 +5062,7 @@ static random(significantDigits: number): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data: Decimal = Decimal.random(20);
@@ -5798,13 +5108,7 @@ static sign(n: Value): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data1: number = Decimal.sign(2);
@@ -5872,13 +5176,7 @@ static round(n: Value): Decimal
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let x = 3.3333333333333;
@@ -5920,13 +5218,7 @@ static set(config: DecimalConfig):void
 
 **示例1：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let data : Decimal = new Decimal(1.2345678901234567);
@@ -5983,13 +5275,7 @@ static set(config: DecimalConfig):void
 
 **示例2：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // /entry/src/main/ets/pages/test.ets
@@ -6010,13 +5296,7 @@ static set(config: DecimalConfig):void
 16. }
 ```
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // /entry/src/main/ets/pages/Index.ets

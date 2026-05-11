@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { CollaborationServiceStateDialog, createCollaborationServiceMenuItems, CollaborationServiceFilter} from '@kit.ServiceCollaborationKit';
@@ -48,13 +42,7 @@ createCollaborationServiceMenuItems(businessFilter?: Array<CollaborationServiceF
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Builder
@@ -94,13 +82,7 @@ createCollaborationServiceMenuItems(businessFilter: Array<CollaborationServiceFi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Builder
@@ -143,13 +125,7 @@ createCollaborationServiceMenuItems(businessFilter: Array<CollaborationServiceFi
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Builder
@@ -183,13 +159,7 @@ PhonePC/2in1TabletTV
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Builder
@@ -222,13 +192,7 @@ PhonePC/2in1TabletTV
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. @Builder
@@ -315,13 +279,7 @@ struct的默认构造函数，开发者无法直接调用此方法。
 
 跨设备互通详细介绍可参考[跨设备互通特性简介](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/servicecollaboration-service-overview)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {
@@ -392,13 +350,7 @@ struct的默认构造函数，开发者无法直接调用此方法。
 
 跨设备互通详细介绍可参考[跨设备互通特性简介](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/servicecollaboration-service-overview)。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import {

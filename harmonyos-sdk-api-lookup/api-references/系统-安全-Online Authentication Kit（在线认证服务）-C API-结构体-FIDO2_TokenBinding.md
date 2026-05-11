@@ -21,13 +21,7 @@ Token binding协议，用于客户端与依赖方通信。
 
 ### id
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. char* FIDO2_TokenBinding::id
@@ -39,13 +33,7 @@ Token binding协议，用于客户端与依赖方通信。
 
 ### status
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. FIDO2_TokenBindingStatus FIDO2_TokenBinding::status

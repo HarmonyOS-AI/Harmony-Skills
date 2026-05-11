@@ -162,13 +162,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过配置RotationGesture实现了双指旋转手势的识别。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

@@ -20,13 +20,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { text } from '@kit.ArkGraphics2D'
@@ -60,13 +54,7 @@ setTextHighContrast(action: TextHighContrast): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. text.setTextHighContrast(text.TextHighContrast.TEXT_APP_DISABLE_HIGH_CONTRAST)
@@ -101,13 +89,7 @@ setTextUndefinedGlyphDisplay(noGlyphShow: TextUndefinedGlyphDisplay): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. text.setTextUndefinedGlyphDisplay(text.TextUndefinedGlyphDisplay.USE_TOFU)
@@ -153,13 +135,7 @@ matchFontDescriptors(desc: FontDescriptor): Promise<Array<FontDescriptor>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { text } from '@kit.ArkGraphics2D'
@@ -236,13 +212,7 @@ getSystemFontFullNamesByType(fontType: SystemFontType): Promise<Array<string>>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { text } from '@kit.ArkGraphics2D'
@@ -322,13 +292,7 @@ getFontDescriptorByFullName(fullName: string, fontType: SystemFontType): Promise
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { text } from '@kit.ArkGraphics2D'
@@ -397,13 +361,7 @@ getFontDescriptorsFromPath(path: string | Resource): Promise<Array<FontDescripto
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { text } from '@kit.ArkGraphics2D'
@@ -471,13 +429,7 @@ getFontUnicodeSet(path: string | Resource, index: number): Promise<Array<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { text } from '@kit.ArkGraphics2D'
@@ -537,13 +489,7 @@ getFontCount(path: string | Resource): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { text } from '@kit.ArkGraphics2D'
@@ -595,13 +541,7 @@ getFontPathsByType(fontType: SystemFontType): Array<string>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { text } from '@kit.ArkGraphics2D'
@@ -656,13 +596,7 @@ isFontSupported(fontURL: string | Resource): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { text } from '@kit.ArkGraphics2D'
@@ -1270,13 +1204,7 @@ static getGlobalInstance(): FontCollection
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { text } from '@kit.ArkGraphics2D'
@@ -1323,13 +1251,7 @@ static getLocalInstance(): FontCollection
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { text } from '@kit.ArkGraphics2D'
@@ -1361,13 +1283,7 @@ loadFontSync(name: string, path: string | Resource): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { text } from '@kit.ArkGraphics2D'
@@ -1446,13 +1362,7 @@ loadFont(name: string, path: string | Resource): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { text } from '@kit.ArkGraphics2D'
@@ -1522,13 +1432,7 @@ loadFontSyncWithCheck(name: string, path: string | Resource, index?: number): vo
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { text } from '@kit.ArkGraphics2D'
@@ -1617,13 +1521,7 @@ loadFontWithCheck(name: string, path: string | Resource, index?: number): Promis
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { text } from '@kit.ArkGraphics2D'
@@ -1697,13 +1595,7 @@ unloadFontSync(name: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { text } from '@kit.ArkGraphics2D'
@@ -1775,13 +1667,7 @@ unloadFont(name: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { text } from '@kit.ArkGraphics2D'
@@ -1829,13 +1715,7 @@ clearCaches(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { text } from '@kit.ArkGraphics2D'
@@ -2036,13 +1916,7 @@ layoutSync(width: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. paragraph.layoutSync(100);
@@ -2088,13 +1962,7 @@ layout(width: number): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing, text } from '@kit.ArkGraphics2D'
@@ -2204,13 +2072,7 @@ layoutWithConstraints(size: TextRectSize): TextLayoutResult
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let size: text.TextRectSize = { width: 200, height: 100 };
@@ -2245,13 +2107,7 @@ paint(canvas: drawing.Canvas, x: number, y: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const color: ArrayBuffer = new ArrayBuffer(160000);
@@ -2286,13 +2142,7 @@ paintOnPath(canvas: drawing.Canvas, path: drawing.Path, hOffset: number, vOffset
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const color: ArrayBuffer = new ArrayBuffer(160000);
@@ -2326,13 +2176,7 @@ getMaxWidth(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let maxWidth = paragraph.getMaxWidth();
@@ -2360,13 +2204,7 @@ getHeight(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let height = paragraph.getHeight();
@@ -2394,13 +2232,7 @@ getLongestLine(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let longestLine = paragraph.getLongestLine();
@@ -2428,13 +2260,7 @@ getLongestLineWithIndent(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let longestLineWithIndent = paragraph.getLongestLineWithIndent();
@@ -2462,13 +2288,7 @@ getMinIntrinsicWidth(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let minIntrinsicWidth = paragraph.getMinIntrinsicWidth();
@@ -2496,13 +2316,7 @@ getMaxIntrinsicWidth(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let maxIntrinsicWidth = paragraph.getMaxIntrinsicWidth();
@@ -2530,13 +2344,7 @@ getAlphabeticBaseline(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let alphabeticBaseline = paragraph.getAlphabeticBaseline();
@@ -2564,13 +2372,7 @@ getIdeographicBaseline(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let ideographicBaseline = paragraph.getIdeographicBaseline();
@@ -2608,13 +2410,7 @@ getRectsForRange(range: Range, widthStyle: RectWidthStyle, heightStyle: RectHeig
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let range: text.Range = { start: 0, end: 1};
@@ -2643,13 +2439,7 @@ getRectsForPlaceholders(): Array<TextBox>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let placeholderRects = paragraph.getRectsForPlaceholders();
@@ -2686,13 +2476,7 @@ getGlyphPositionAtCoordinate(x: number, y: number): PositionWithAffinity
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let positionWithAffinity = paragraph.getGlyphPositionAtCoordinate(0, 0);
@@ -2728,13 +2512,7 @@ getWordBoundary(offset: number): Range
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let wordRange = paragraph.getWordBoundary(0);
@@ -2762,13 +2540,7 @@ getLineCount(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let lineCount = paragraph.getLineCount();
@@ -2804,13 +2576,7 @@ getLineHeight(line: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let lineHeight = paragraph.getLineHeight(0);
@@ -2846,13 +2612,7 @@ getLineWidth(line: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let lineWidth = paragraph.getLineWidth(0);
@@ -2880,13 +2640,7 @@ didExceedMaxLines(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let didExceed = paragraph.didExceedMaxLines();
@@ -2914,13 +2668,7 @@ getTextLines(): Array<TextLine>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let lines = paragraph.getTextLines();
@@ -2957,13 +2705,7 @@ getActualTextRange(lineNumber: number, includeSpaces: boolean): Range
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let rang = paragraph.getActualTextRange(0, true);
@@ -2991,13 +2733,7 @@ getLineMetrics(): Array<LineMetrics>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let arrLineMetric =  paragraph.getLineMetrics();
@@ -3033,13 +2769,7 @@ getLineMetrics(lineNumber: number): LineMetrics | undefined
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let lineMetrics =  paragraph.getLineMetrics(0);
@@ -3067,13 +2797,7 @@ updateColor(color: common2D.Color): void;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. paragraph.updateColor({ alpha: 255, red: 255, green: 0, blue: 0 });
@@ -3101,13 +2825,7 @@ updateDecoration(decoration: Decoration): void;
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. paragraph.updateDecoration({
@@ -3161,13 +2879,7 @@ getCharacterRangeForGlyphRange(glyphRange: Range, encoding: drawing.TextEncoding
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing, text } from '@kit.ArkGraphics2D'
@@ -3245,13 +2957,7 @@ getGlyphRangeForCharacterRange(characterRange: Range, encoding: drawing.TextEnco
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing, text } from '@kit.ArkGraphics2D'
@@ -3330,13 +3036,7 @@ getCharacterPositionAtCoordinate(x: number, y: number, encoding: drawing.TextEnc
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing, text } from '@kit.ArkGraphics2D'
@@ -3421,13 +3121,7 @@ getLineBreak(startIndex: number, width: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let startIndex = 0;
@@ -3476,13 +3170,7 @@ createLine(startIndex: number, count: number): TextLine
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let startIndex = 0;
@@ -3652,13 +3340,7 @@ ParagraphBuilder对象的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { text } from '@kit.ArkGraphics2D'
@@ -3716,13 +3398,7 @@ pushStyle(textStyle: TextStyle): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D'
@@ -3772,13 +3448,7 @@ popStyle(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D'
@@ -3837,13 +3507,7 @@ addText(text: string): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D'
@@ -3901,13 +3565,7 @@ addPlaceholder(placeholderSpan: PlaceholderSpan): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D'
@@ -3967,13 +3625,7 @@ build(): Paragraph
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing, text, common2D } from '@kit.ArkGraphics2D'
@@ -4030,13 +3682,7 @@ buildLineTypeset(): LineTypeset
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { text } from '@kit.ArkGraphics2D'
@@ -4087,13 +3733,7 @@ addSymbol(symbolId: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { text } from '@kit.ArkGraphics2D'
@@ -4220,13 +3860,7 @@ getGlyphCount(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let glyphCount = lines[0].getGlyphCount();
@@ -4254,13 +3888,7 @@ getTextRange(): Range
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let textRange = lines[0].getTextRange();
@@ -4288,13 +3916,7 @@ getGlyphRuns(): Array<Run>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let runs = lines[0].getGlyphRuns();
@@ -4324,13 +3946,7 @@ paint(canvas: drawing.Canvas, x: number, y: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D'
@@ -4396,13 +4012,7 @@ createTruncatedLine(width: number, ellipsisMode: EllipsisMode, ellipsis: string)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing, text, common2D } from '@kit.ArkGraphics2D'
@@ -4467,13 +4077,7 @@ getTypographicBounds(): TypographicBounds
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let bounds = lines[0].getTypographicBounds();
@@ -4512,13 +4116,7 @@ getImageBounds(): common2D.Rect
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let imageBounds = lines[0].getImageBounds();
@@ -4546,13 +4144,7 @@ getTrailingSpaceWidth(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let trailingSpaceWidth = lines[0].getTrailingSpaceWidth();
@@ -4588,13 +4180,7 @@ getStringIndexForPosition(point: common2D.Point): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let point : common2D.Point = { x: 15.0, y: 2.0 };
@@ -4631,13 +4217,7 @@ getOffsetForStringIndex(index: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let offset = lines[0].getOffsetForStringIndex(3);
@@ -4665,13 +4245,7 @@ enumerateCaretOffsets(callback: CaretOffsetsCallback): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. function callback(offset: number, index: number, leadingEdge: boolean): boolean {
@@ -4712,13 +4286,7 @@ getAlignmentOffset(alignmentFactor: number, alignmentWidth: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let alignmentOffset = lines[0].getAlignmentOffset(0.5, 500);
@@ -4754,13 +4322,7 @@ getGlyphCount(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let glyphs = runs[0].getGlyphCount();
@@ -4788,13 +4350,7 @@ getGlyphs(): Array<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let glyph = runs[0].getGlyphs();
@@ -4830,13 +4386,7 @@ getGlyphs(range: Range): Array<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { text } from '@kit.ArkGraphics2D'
@@ -4886,13 +4436,7 @@ getPositions(): Array<common2D.Point>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let positions = runs[0].getPositions();
@@ -4928,13 +4472,7 @@ getPositions(range: Range): Array<common2D.Point>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { text } from '@kit.ArkGraphics2D'
@@ -4984,13 +4522,7 @@ getOffsets(): Array<common2D.Point>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let offsets = runs[0].getOffsets();
@@ -5018,13 +4550,7 @@ getFont(): drawing.Font
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let font = runs[0].getFont();
@@ -5054,13 +4580,7 @@ paint(canvas: drawing.Canvas, x: number, y: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { drawing } from '@kit.ArkGraphics2D'
@@ -5116,13 +4636,7 @@ getStringRange(): Range
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let runStringRange = runs[0].getStringRange();
@@ -5160,13 +4674,7 @@ getStringIndices(range?: Range): Array<number>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { text } from '@kit.ArkGraphics2D'
@@ -5226,13 +4734,7 @@ getImageBounds(): common2D.Rect
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let bounds = runs[0].getImageBounds();
@@ -5270,13 +4772,7 @@ getTypographicBounds(): TypographicBounds
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let typographicBounds = runs[0].getTypographicBounds();
@@ -5304,13 +4800,7 @@ getTextDirection(): TextDirection
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let textDirection = runs[0].getTextDirection();
@@ -5346,13 +4836,7 @@ getAdvances(range: Range): Array<common2D.Point>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let advancesRange = runs[0].getAdvances({start:1, end:2}); // 获取渲染块从起始位置1开始, 长度为2范围内的字形宽度

@@ -75,13 +75,7 @@
 
 ### OH\_ContentEmbed\_CreateContentEmbedInfo()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_CreateContentEmbedInfo(ContentEmbed_Info **info)
@@ -113,13 +107,7 @@
 
 ### OH\_ContentEmbed\_DestroyContentEmbedInfo()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_DestroyContentEmbedInfo(ContentEmbed_Info *info)
@@ -149,13 +137,7 @@
 
 ### OH\_ContentEmbed\_GetContentEmbedInfo()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_GetContentEmbedInfo(const char *locale, ContentEmbed_Info *info)
@@ -188,13 +170,7 @@
 
 ### OH\_ContentEmbed\_GetFormatCountFromInfo()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_GetFormatCountFromInfo(const ContentEmbed_Info *info, uint32_t *count)
@@ -225,13 +201,7 @@
 
 ### OH\_ContentEmbed\_GetFormatFromInfo()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_GetFormatFromInfo(const ContentEmbed_Info *info, uint32_t index, ContentEmbed_Format **format)
@@ -263,13 +233,7 @@
 
 ### OH\_ContentEmbed\_CreateContentEmbedFormat()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_CreateContentEmbedFormat(ContentEmbed_Format **format)
@@ -301,13 +265,7 @@
 
 ### OH\_ContentEmbed\_DestroyContentEmbedFormat()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_DestroyContentEmbedFormat(ContentEmbed_Format *format)
@@ -337,13 +295,7 @@
 
 ### OH\_ContentEmbed\_GetContentEmbedFormatByOEidAndLocale()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_GetContentEmbedFormatByOEidAndLocale(const char *oeid, const char *locale, ContentEmbed_Format *format)
@@ -377,13 +329,7 @@
 
 ### OH\_ContentEmbed\_GetOEidFromFormat()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_GetOEidFromFormat(const ContentEmbed_Format *format, char *oeid)
@@ -414,13 +360,7 @@
 
 ### OH\_ContentEmbed\_GetNameAndDescriptionFromFormat()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_GetNameAndDescriptionFromFormat(const ContentEmbed_Format *format, char *name, char *description)
@@ -452,13 +392,7 @@
 
 ### OH\_ContentEmbed\_GetIconFromFormat()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_GetIconFromFormat(const ContentEmbed_Format *format, OH_PixelmapNative **icon)
@@ -489,13 +423,7 @@
 
 ### OH\_ContentEmbed\_GetFileNameExtensionsFromFormat()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. char** OH_ContentEmbed_GetFileNameExtensionsFromFormat(const ContentEmbed_Format *format, unsigned int *count)
@@ -526,13 +454,7 @@
 
 ### OH\_ContentEmbed\_CreateExtensionProxy()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_CreateExtensionProxy(ContentEmbed_Document *document, ContentEmbed_ExtensionProxy **proxy, void *contextPtr)
@@ -566,13 +488,7 @@
 
 ### OH\_ContentEmbed\_DestroyExtensionProxy()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_DestroyExtensionProxy(ContentEmbed_ExtensionProxy *proxy)
@@ -602,13 +518,7 @@
 
 ### OH\_ContentEmbed\_ClientCallbackOnUpdateFunc()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef void (*OH_ContentEmbed_ClientCallbackOnUpdateFunc)(ContentEmbed_ExtensionProxy *proxy)
@@ -632,13 +542,7 @@ OE文档更新时通知客户端的回调函数类型。
 
 ### OH\_ContentEmbed\_ClientCallbackOnErrorFunc()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef void (*OH_ContentEmbed_ClientCallbackOnErrorFunc)(ContentEmbed_ExtensionProxy *proxy, ContentEmbed_ErrorCode error)
@@ -663,13 +567,7 @@ OE文档错误时通知客户端的回调函数类型。
 
 ### OH\_ContentEmbed\_ClientCallbackOnEditingFinishedFunc()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef void (*OH_ContentEmbed_ClientCallbackOnEditingFinishedFunc)(ContentEmbed_ExtensionProxy *proxy, bool dataModified)
@@ -694,13 +592,7 @@ OE文档编辑完成时通知客户端的回调函数类型。
 
 ### OH\_ContentEmbed\_ClientCallbackOnExtensionStoppedFunc()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. typedef void (*OH_ContentEmbed_ClientCallbackOnExtensionStoppedFunc)(ContentEmbed_ExtensionProxy *proxy)
@@ -724,13 +616,7 @@ OE Extension停止时回调函数类型。
 
 ### OH\_ContentEmbed\_Proxy\_RegisterOnUpdateFunc()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Proxy_RegisterOnUpdateFunc(ContentEmbed_ExtensionProxy *proxy, OH_ContentEmbed_ClientCallbackOnUpdateFunc onUpdateFunc)
@@ -761,13 +647,7 @@ OE Extension停止时回调函数类型。
 
 ### OH\_ContentEmbed\_Proxy\_RegisterOnErrorFunc()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Proxy_RegisterOnErrorFunc(ContentEmbed_ExtensionProxy *proxy, OH_ContentEmbed_ClientCallbackOnErrorFunc onErrorFunc)
@@ -798,13 +678,7 @@ OE Extension停止时回调函数类型。
 
 ### OH\_ContentEmbed\_Proxy\_RegisterOnEditingFinishedFunc()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Proxy_RegisterOnEditingFinishedFunc(ContentEmbed_ExtensionProxy *proxy, OH_ContentEmbed_ClientCallbackOnEditingFinishedFunc onEditingFinishedFunc)
@@ -835,13 +709,7 @@ OE Extension停止时回调函数类型。
 
 ### OH\_ContentEmbed\_Proxy\_RegisterOnExtensionStoppedFunc()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Proxy_RegisterOnExtensionStoppedFunc(ContentEmbed_ExtensionProxy *proxy, OH_ContentEmbed_ClientCallbackOnExtensionStoppedFunc onExtensionStoppedFunc)
@@ -872,13 +740,7 @@ OE Extension停止时回调函数类型。
 
 ### OH\_ContentEmbed\_Proxy\_StartWork()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Proxy_StartWork(ContentEmbed_ExtensionProxy *proxy)
@@ -910,13 +772,7 @@ OE Extension停止时回调函数类型。
 
 ### OH\_ContentEmbed\_Proxy\_StopWork()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Proxy_StopWork(ContentEmbed_ExtensionProxy *proxy)
@@ -948,13 +804,7 @@ OE Extension停止时回调函数类型。
 
 ### OH\_ContentEmbed\_Proxy\_GetSnapshot()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Proxy_GetSnapshot(ContentEmbed_ExtensionProxy *proxy, OH_PixelmapNative **snapshot)
@@ -985,13 +835,7 @@ OE Extension停止时回调函数类型。
 
 ### OH\_ContentEmbed\_Proxy\_DoEdit()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Proxy_DoEdit(ContentEmbed_ExtensionProxy *proxy)
@@ -1021,13 +865,7 @@ OE Extension停止时回调函数类型。
 
 ### OH\_ContentEmbed\_Proxy\_GetEditStatus()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Proxy_GetEditStatus(ContentEmbed_ExtensionProxy *proxy, bool *isEditing, bool *isModified)
@@ -1059,13 +897,7 @@ OE Extension停止时回调函数类型。
 
 ### OH\_ContentEmbed\_Proxy\_GetCapability()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Proxy_GetCapability(ContentEmbed_ExtensionProxy *proxy, uint32_t *bitmask)
@@ -1096,13 +928,7 @@ OE Extension停止时回调函数类型。
 
 ### OH\_ContentEmbed\_Proxy\_GetDocument()
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. ContentEmbed_ErrorCode OH_ContentEmbed_Proxy_GetDocument(ContentEmbed_ExtensionProxy *proxy, ContentEmbed_Document **ceDocument)

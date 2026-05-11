@@ -6,13 +6,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hdsEffect } from '@kit.UIDesignKit';
@@ -76,13 +70,7 @@ pointLight(value: PointLightEffect): HdsEffectBuilder
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hdsEffect } from '@kit.UIDesignKit';
@@ -179,13 +167,7 @@ pressShadow(type: PressShadowType): HdsEffectBuilder
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hdsEffect } from '@kit.UIDesignKit';
@@ -268,13 +250,7 @@ shaderEffect(params: ShaderEffectParams): HdsEffectBuilder
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hdsEffect } from '@kit.UIDesignKit';

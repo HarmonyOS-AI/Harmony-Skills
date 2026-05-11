@@ -42,13 +42,7 @@ PhonePC/2in1TabletTVWearable
 
 该示例通过enabled设置按钮可交互性。
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // xxx.ets

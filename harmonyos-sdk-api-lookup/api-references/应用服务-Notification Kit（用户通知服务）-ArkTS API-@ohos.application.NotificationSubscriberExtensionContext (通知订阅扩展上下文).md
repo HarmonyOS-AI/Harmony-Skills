@@ -10,13 +10,7 @@ NotificationSubscriberExtensionContext模块提供通知订阅者扩展能力。
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { NotificationSubscriberExtensionContext } from '@kit.NotificationKit';

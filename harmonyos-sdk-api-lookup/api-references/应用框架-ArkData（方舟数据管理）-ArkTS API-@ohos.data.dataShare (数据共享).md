@@ -9,13 +9,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { dataShare } from '@kit.ArkData';
@@ -51,13 +45,7 @@ createDataProxyHandle(): Promise<DataProxyHandle>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
@@ -249,13 +237,7 @@ on(event: 'dataChange', uris: string[], config: DataProxyConfig, callback: Async
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const urisToWatch: string[] =
@@ -320,13 +302,7 @@ off(event: 'dataChange', uris: string[], config: DataProxyConfig, callback?: Asy
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const urisToUnWatch: string[] =
@@ -389,13 +365,7 @@ publish(data: ProxyData[], config: DataProxyConfig): Promise<DataProxyResult[]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const newConfigData: dataShare.ProxyData[] = [{
@@ -459,13 +429,7 @@ delete(uris: string[], config: DataProxyConfig): Promise<DataProxyResult[]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const urisToDelete: string[] =
@@ -522,13 +486,7 @@ get(uris: string[], config: DataProxyConfig): Promise<DataProxyGetResult[]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. const urisToGet: string[] =

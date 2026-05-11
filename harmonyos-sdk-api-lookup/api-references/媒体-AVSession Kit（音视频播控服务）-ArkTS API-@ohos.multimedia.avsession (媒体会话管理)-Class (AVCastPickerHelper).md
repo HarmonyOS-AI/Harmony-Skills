@@ -10,13 +10,7 @@
 
 PhonePC/2in1TabletTV
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avSession } from '@kit.AVSessionKit';
@@ -55,13 +49,7 @@ constructor(context: Context)
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { avSession } from '@kit.AVSessionKit';
@@ -129,13 +117,7 @@ select(options?: AVCastPickerOptions): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -182,13 +164,7 @@ resetCommunicationDevice(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -238,13 +214,7 @@ on(type: 'pickerStateChange', callback: Callback<AVCastPickerState>) : void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -293,13 +263,7 @@ off(type: 'pickerStateChange', callback?: Callback<AVCastPickerState>) : void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';

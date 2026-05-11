@@ -10,13 +10,7 @@
 
 PhoneTablet
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { guardService } from '@kit.ScreenTimeGuardKit';
@@ -99,13 +93,7 @@ requestUserAuth(context: common.UIAbilityContext): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -179,13 +167,7 @@ requestUserAuth(context: common.UIAbilityContext, appConfig: AppConfig): Promise
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { common } from '@kit.AbilityKit';
@@ -269,13 +251,7 @@ revokeUserAuth(): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { guardService } from '@kit.ScreenTimeGuardKit';
@@ -328,13 +304,7 @@ getUserAuthStatus(): Promise<AuthStatus>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { guardService } from '@kit.ScreenTimeGuardKit';
@@ -438,13 +408,7 @@ addGuardStrategy(guardStrategy: GuardStrategy): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { guardService } from '@kit.ScreenTimeGuardKit';
@@ -606,13 +570,7 @@ updateGuardStrategy(strategyName: string, guardStrategy: GuardStrategy): Promise
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { guardService } from '@kit.ScreenTimeGuardKit';
@@ -682,13 +640,7 @@ queryGuardStrategies(): Promise<GuardStrategy[]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { guardService } from '@kit.ScreenTimeGuardKit';
@@ -752,13 +704,7 @@ removeGuardStrategy(strategyName: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { guardService } from '@kit.ScreenTimeGuardKit';
@@ -823,13 +769,7 @@ startGuardStrategy(strategyName: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { guardService } from '@kit.ScreenTimeGuardKit';
@@ -894,13 +834,7 @@ stopGuardStrategy(strategyName: string): Promise<void>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { guardService } from '@kit.ScreenTimeGuardKit';
@@ -964,13 +898,7 @@ setAppsRestriction(appInfo: AppInfo, restrictionType: RestrictionType): Promise<
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { guardService } from '@kit.ScreenTimeGuardKit';
@@ -1037,13 +965,7 @@ releaseAppsRestriction(appInfo: AppInfo, restrictionType: RestrictionType): Prom
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { guardService } from '@kit.ScreenTimeGuardKit';

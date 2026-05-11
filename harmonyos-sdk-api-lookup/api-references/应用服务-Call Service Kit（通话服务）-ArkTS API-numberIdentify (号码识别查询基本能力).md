@@ -6,13 +6,7 @@ numberIdentify模块提供企业来电相关能力查询，包括查询是否有
 
 PhonePC/2in1TabletWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { numberIdentify } from '@kit.CallServiceKit';
@@ -63,13 +57,7 @@ isSupportEnterpriseNumberIdentify(context: Context): Promise<boolean>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { numberIdentify } from '@kit.CallServiceKit';
@@ -125,13 +113,7 @@ queryNumberIdentifySwitchState(context: Context):SwitchState
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import type {common} from '@kit.AbilityKit'

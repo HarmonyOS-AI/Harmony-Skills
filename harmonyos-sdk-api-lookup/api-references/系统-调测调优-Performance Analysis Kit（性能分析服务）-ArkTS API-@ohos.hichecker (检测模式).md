@@ -8,13 +8,7 @@ HiChecker可以作为应用开发阶段使用的检测工具，用于检测代�
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { hichecker } from '@kit.PerformanceAnalysisKit';
@@ -66,13 +60,7 @@ addCheckRule(rule: bigint): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -116,13 +104,7 @@ removeCheckRule(rule: bigint): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -174,13 +156,7 @@ containsCheckRule(rule: bigint): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -221,13 +197,7 @@ addRule(rule: bigint): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 添加一条规则
@@ -262,13 +232,7 @@ removeRule(rule: bigint): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 删除一条规则
@@ -299,13 +263,7 @@ getRule(): bigint
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 添加一条规则
@@ -347,13 +305,7 @@ contains(rule: bigint): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. // 添加一条规则

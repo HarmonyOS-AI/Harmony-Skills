@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { process } from '@kit.ArkTS';
@@ -78,13 +72,7 @@ isIsolatedProcess(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let result = process.isIsolatedProcess();
@@ -112,13 +100,7 @@ is64Bit(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let result = process.is64Bit();
@@ -146,13 +128,7 @@ getStartRealtime(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let realtime = process.getStartRealtime();
@@ -180,13 +156,7 @@ getPastCpuTime(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let result = process.getPastCpuTime();
@@ -206,13 +176,7 @@ abort(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. process.abort();
@@ -240,13 +204,7 @@ uptime(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let time = process.uptime();
@@ -285,13 +243,7 @@ kill(signal: number, pid: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pres = process.pid;
@@ -324,13 +276,7 @@ exit(code: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. process.exit(0);
@@ -368,13 +314,7 @@ getUidForName(v: string): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pres = process.getUidForName("tool");
@@ -412,13 +352,7 @@ getThreadPriority(v: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let tid = process.tid;
@@ -457,13 +391,7 @@ isAppUid(v: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let result = process.isAppUid(688);
@@ -501,13 +429,7 @@ getSystemConfig(name: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let _SC_ARG_MAX = 0;
@@ -546,13 +468,7 @@ getEnvironmentVar(name: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pres = process.getEnvironmentVar("PATH");
@@ -606,13 +522,7 @@ isAppUid(v: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new process.ProcessManager();
@@ -662,13 +572,7 @@ getUidForName(v: string): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new process.ProcessManager();
@@ -715,13 +619,7 @@ getThreadPriority(v: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new process.ProcessManager();
@@ -769,13 +667,7 @@ getSystemConfig(name: number): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new process.ProcessManager();
@@ -823,13 +715,7 @@ getEnvironmentVar(name: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new process.ProcessManager();
@@ -870,13 +756,7 @@ exit(code: number): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new process.ProcessManager();
@@ -924,13 +804,7 @@ kill(signal: number, pid: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let pro = new process.ProcessManager();

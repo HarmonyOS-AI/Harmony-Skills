@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { LayerMask, NodeType, Container, Node, Geometry, LightType, Light, SpotLight, DirectionalLight,
@@ -55,13 +49,7 @@ getEnabled(index: number): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Scene, Node } from '@kit.ArkGraphics3D';
@@ -104,13 +92,7 @@ setEnabled(index: number, enabled: boolean): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Scene, Node } from '@kit.ArkGraphics3D';
@@ -176,13 +158,7 @@ append(item: T): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Scene, Node } from '@kit.ArkGraphics3D';
@@ -225,13 +201,7 @@ insertAfter(item: T, sibling: T | null): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Scene, Node } from '@kit.ArkGraphics3D';
@@ -273,13 +243,7 @@ remove(item: T): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Scene, Node } from '@kit.ArkGraphics3D';
@@ -329,13 +293,7 @@ get(index: number): T | null
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Scene, Node } from '@kit.ArkGraphics3D';
@@ -367,13 +325,7 @@ clear(): void
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Scene, Node } from '@kit.ArkGraphics3D';
@@ -415,13 +367,7 @@ count(): number
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Container, Scene, Node } from '@kit.ArkGraphics3D';
@@ -496,13 +442,7 @@ getNodeByPath(path: string): Node | null
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Scene, Node } from '@kit.ArkGraphics3D';
@@ -651,13 +591,7 @@ raycast(viewPosition: Vec2, params: RaycastParameters): Promise<RaycastResult[]>
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { SceneNodeParameters, Camera, SceneResourceFactory, Scene, Node, Vec2, Vec3, Quaternion,
@@ -791,13 +725,7 @@ getViewMatrix(): Mat4x4
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Scene, SceneResourceFactory, SceneNodeParameters, Camera, Mat4x4 } from '@kit.ArkGraphics3D';
@@ -840,13 +768,7 @@ getProjectionMatrix(): Mat4x4
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { Scene, SceneResourceFactory, SceneNodeParameters, Camera, Mat4x4 } from '@kit.ArkGraphics3D';

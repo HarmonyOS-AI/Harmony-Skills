@@ -1,2 +1,0 @@
-* **[asset\_api.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-asset-api-h)**
-* **[asset\_type.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-asset-type-h)**

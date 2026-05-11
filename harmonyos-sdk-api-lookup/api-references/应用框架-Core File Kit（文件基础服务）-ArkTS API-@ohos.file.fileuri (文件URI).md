@@ -8,13 +8,7 @@
 
 PhonePC/2in1TabletTVWearable
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { fileUri } from '@kit.CoreFileKit';
@@ -22,13 +16,7 @@ PhonePC/2in1TabletTVWearable
 
 使用该功能模块前，需要先获取其应用沙箱路径，开发示例如下：
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { UIAbility } from '@kit.AbilityKit';
@@ -94,13 +82,7 @@ constructor是FileUri的构造函数。
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let path = pathDir + '/test';
@@ -129,13 +111,7 @@ toString(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let path = pathDir + '/test';
@@ -181,13 +157,7 @@ getFullDirectoryUri(): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -233,13 +203,7 @@ isRemoteUri(): boolean
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. import { BusinessError } from '@kit.BasicServicesKit';
@@ -293,13 +257,7 @@ getUriFromPath(path: string): string
 
 **示例：**
 
-收起
 
-自动换行
-
-深色代码主题
-
-复制
 
 ```
 1. let filePath = pathDir + "/test";
