@@ -1,0 +1,2 @@
+* **[@ohos.advertising.AdComponent (广告展示组件)](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-adcomponent)**
+* **[@ohos.advertising.AutoAdComponent (轮播广告展示组件)](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-autoadcomponent)**

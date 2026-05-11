@@ -1,0 +1,2 @@
+* **[naviTurnMode](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/car-appendix-naviturnmode)**
+* **[trafficLane](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/car-appendix-trafficlane)**

@@ -1,0 +1,11 @@
+* **[deviceinfo.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-deviceinfo-h)**
+* **[ohbattery\_info.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-ohbattery-info-h)**
+* **[oh\_commonevent.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-oh-commonevent-h)**
+* **[oh\_commonevent\_support.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-oh-commonevent-support-h)**
+* **[oh\_pasteboard.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-oh-pasteboard-h)**
+* **[oh\_pasteboard\_err\_code.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-oh-pasteboard-err-code-h)**
+* **[os\_account.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-os-account-h)**
+* **[os\_account\_common.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-os-account-common-h)**
+* **[ohprint.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-ohprint-h)**
+* **[ohscan.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-ohscan-h)**
+* **[time\_service.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-time-service-h)**

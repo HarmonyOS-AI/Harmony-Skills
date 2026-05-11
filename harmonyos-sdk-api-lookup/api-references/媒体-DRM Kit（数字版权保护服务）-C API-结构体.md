@@ -1,0 +1,13 @@
+* **[DRM\_MediaKeyRequestInfo](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-drm-drm-mediakeyrequestinfo)**
+* **[DRM\_MediaKeyRequest](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-drm-drm-mediakeyrequest)**
+* **[DRM\_Statistics](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-drm-drm-statistics)**
+* **[DRM\_OfflineMediakeyIdArray](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-drm-drm-offlinemediakeyidarray)**
+* **[DRM\_KeysInfo](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-drm-drm-keysinfo)**
+* **[DRM\_MediaKeyStatus](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-drm-drm-mediakeystatus)**
+* **[DRM\_PsshInfo](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-drm-drm-psshinfo)**
+* **[DRM\_MediaKeySystemInfo](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-drm-drm-mediakeysysteminfo)**
+* **[DRM\_MediaKeySystemDescription](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-drm-drm-mediakeysystemdescription)**
+* **[MediaKeySystem](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-drm-mediakeysystem)**
+* **[MediaKeySession](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-drm-mediakeysession)**
+* **[MediaKeySession\_Callback](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-drm-mediakeysession-callback)**
+* **[OH\_MediaKeySession\_Callback](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-drm-oh-mediakeysession-callback)**

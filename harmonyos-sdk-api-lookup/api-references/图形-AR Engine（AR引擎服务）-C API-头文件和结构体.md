@@ -1,0 +1,2 @@
+* **[头文件](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arengine-header)**
+* **[结构体](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arengine-struct)**

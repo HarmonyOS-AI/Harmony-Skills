@@ -1,0 +1,5 @@
+* **[@ohos.bluetooth (蓝牙)](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-bluetooth)**
+* **[@ohos.bluetoothManager (蓝牙)](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-bluetoothmanager)**
+* **[@ohos.wifi (WLAN)](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-wifi)**
+* **[@ohos.wifiext (WLAN扩展接口)](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-wifiext)**
+* **[@system.bluetooth (蓝牙)](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-apis-system-bluetooth)**

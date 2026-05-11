@@ -1,0 +1,226 @@
+添加文本样式。
+
+说明
+
+* 该组件从API version 7开始支持。后续版本如有新增内容，则采用上角标单独标记该内容的起始版本。
+* 文本的展示内容需要写在元素标签内，可嵌套子元素标签tspan分段。
+* 文本分段，只支持被父元素标签svg嵌套。
+
+## 权限列表
+
+PhonePC/2in1TabletTVWearable
+
+无
+
+## 子组件
+
+PhonePC/2in1TabletTVWearable
+
+支持[tspan](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-components-svg-tspan)。
+
+支持以下表格中的属性。
+
+展开
+
+| 名称 | 类型 | 默认值 | 必填 | 描述 |
+| --- | --- | --- | --- | --- |
+| id | string | - | 否 | 组件的唯一标识。 |
+| x | <length>|<percentage> | 0 | 否 | 设置组件左上角x轴坐标。 |
+| y | <length>|<percentage> | 0 | 否 | 设置组件左上角y轴坐标。作为textpath子组件时失效。 |
+| dx | <length>|<percentage> | 0 | 否 | 设置文本x轴偏移。 |
+| dy | <length>|<percentage> | 0 | 否 | 设置文本y轴偏移。作为textpath子组件时失效。 |
+| rotate | number | 0 | 否 | 字体以左下角为圆心旋转角度，正数顺时针，负数逆时针。 |
+| font-size | <length> | 30px | 否 | 设置文本的尺寸。 |
+| fill | <color> | black | 否 | 字体填充颜色。 |
+| opacity | number | 1 | 否 | 元素的透明度，取值范围为0到1，1表示为不透明，0表示为完全透明。支持属性动画。 |
+| fill-opacity | number | 1.0 | 否 | 字体填充透明度。 |
+| stroke | <color> | black | 否 | 绘制字体边框并指定颜色。 |
+| stroke-width | number | 1 | 否 | 字体边框宽度。  默认单位：px |
+| stroke-opacity | number | 1.0 | 否 | 字体边框透明度。 |
+
+## 示例
+
+PhonePC/2in1TabletTVWearable
+
+收起
+
+自动换行
+
+深色代码主题
+
+复制
+
+```
+1. <!-- xxx.hml -->
+2. <div class="container">
+3. <svg >
+4. <text x="20" y="500" fill="#D2691E" font-size="20">
+5. zero text.
+6. <tspan>first span.</tspan>
+7. <tspan fill="red" font-size="35">second span.</tspan>
+8. <tspan fill="#D2691E" font-size="40" rotate="10">third span.</tspan>
+9. </text>
+10. <text x="20" y="550" fill="#D2691E" font-size="20">
+11. <tspan dx="-5" fill-opacity="0.2">first span.</tspan>
+12. <tspan dx="5" fill="red" font-size="25" fill-opacity="0.4">second span.</tspan>
+13. <tspan dy="-5" fill="#D2691E" font-size="35" rotate="-10" fill-opacity="0.6">third span.</tspan>
+14. <tspan fill="#blue" font-size="40" rotate="10" fill-opacity="0.8" stroke="#00FF00" stroke-width="1px">forth span.</tspan>
+15. </text>
+16. </svg>
+17. </div>
+```
+
+收起
+
+自动换行
+
+深色代码主题
+
+复制
+
+```
+1. /* xxx.css */
+2. .container {
+3. flex-direction: row;
+4. justify-content: flex-start;
+5. align-items: flex-start;
+6. height: 1000px;
+7. width: 1080px;
+8. }
+```
+
+![](https://contentcenter-vali-drcn.dbankcdn.cn/pvt_2/DeveloperAlliance_scene_100_1/12/v3/--tGo7FGQLy3tMbkYLqnxg/zh-cn_image_0000002568759900.png?HW-CC-KV=V1&HW-CC-Date=20260511T040516Z&HW-CC-Expire=86400&HW-CC-Sign=E9038CC1CF003B8795AB67F389BF55F2EC40BBDC795D585CD6AF7F01E2E84EF6)
+
+属性动画示例
+
+收起
+
+自动换行
+
+深色代码主题
+
+复制
+
+```
+1. <!-- xxx.hml -->
+2. <div class="container">
+3. <svg>
+4. <text y="300" font-size="30" fill="blue">
+5. <tspan>
+6. tspan attribute x|opacity|rotate
+7. <animate attributeName="x" from="-100" to="400" dur="3s" repeatCount="indefinite"></animate>
+8. <animate attributeName="opacity" from="0.01" to="0.99" dur="3s" repeatCount="indefinite"></animate>
+9. <animate attributeName="rotate" from="0" to="360" dur="3s" repeatCount="indefinite"></animate>
+10. </tspan>
+11. </text>
+
+13. <text y="350" font-size="30" fill="blue">
+14. <tspan>
+15. tspan attribute dx
+16. <animate attributeName="dx" from="-100" to="400" dur="3s" repeatCount="indefinite"></animate>
+17. </tspan>
+18. </text>
+19. </svg>
+20. </div>
+```
+
+收起
+
+自动换行
+
+深色代码主题
+
+复制
+
+```
+1. /* xxx.css */
+2. .container {
+3. flex-direction: row;
+4. justify-content: flex-start;
+5. align-items: flex-start;
+6. height: 3000px;
+7. width: 1080px;
+8. }
+```
+
+![](https://contentcenter-vali-drcn.dbankcdn.cn/pvt_2/DeveloperAlliance_scene_100_1/6c/v3/pgI8FNsgRyKhFfy_9ewlXw/zh-cn_image_0000002599359143.gif?HW-CC-KV=V1&HW-CC-Date=20260511T040516Z&HW-CC-Expire=86400&HW-CC-Sign=5EDC8DD6D9BFCA0059EAD88E42E084C270152BAF089C24062E7D6BFBAD06383D)
+
+收起
+
+自动换行
+
+深色代码主题
+
+复制
+
+```
+1. <!-- xxx.hml -->
+2. <div class="container">
+3. <svg>
+4. <text>
+5. <tspan x="0" y="550" font-size="30">
+6. tspan attribute fill|fill-opacity
+7. <animate attributeName="fill" from="blue" to="red" dur="3s" repeatCount="indefinite"></animate>
+8. <animate attributeName="fill-opacity" from="0.01" to="0.99" dur="3s" repeatCount="indefinite"></animate>
+9. </tspan>
+10. </text>
+11. </svg>
+12. </div>
+```
+
+![](https://contentcenter-vali-drcn.dbankcdn.cn/pvt_2/DeveloperAlliance_scene_100_1/de/v3/zTl-fNp2QxGU6ATH3b_E7g/zh-cn_image_0000002568919550.gif?HW-CC-KV=V1&HW-CC-Date=20260511T040516Z&HW-CC-Expire=86400&HW-CC-Sign=F5DA77CDF79BF9304CD56DFF64C0CD6FBD7329D26F9BD02C902D09745AAB63E1)
+
+收起
+
+自动换行
+
+深色代码主题
+
+复制
+
+```
+1. <!-- xxx.hml -->
+2. <div class="container">
+3. <svg>
+4. <text>
+5. <tspan x="20" y="600" fill="red">
+6. tspan attribute font-size
+7. <animate attributeName="font-size" from="10" to="50" dur="3s" repeatCount="indefinite"></animate>
+8. </tspan>
+9. </text>
+10. </svg>
+11. </div>
+```
+
+![](https://contentcenter-vali-drcn.dbankcdn.cn/pvt_2/DeveloperAlliance_scene_100_1/e5/v3/gI_KLg89RHCdcUQwMPfKsw/zh-cn_image_0000002599479093.gif?HW-CC-KV=V1&HW-CC-Date=20260511T040516Z&HW-CC-Expire=86400&HW-CC-Sign=30399B1BAD9D8DF85705E2BA791A883BB137D6BC6DFE58EFC82CD83D42186725)
+
+收起
+
+自动换行
+
+深色代码主题
+
+复制
+
+```
+1. <!-- xxx.hml -->
+2. <div class="container">
+3. <svg>
+4. <text>
+5. <tspan x="20" y="650" font-size="25" fill="blue" stroke="red">
+6. tspan attribute stroke
+7. <animate attributeName="stroke" from="red" to="#00FF00" dur="3s" repeatCount="indefinite"></animate>
+8. </tspan>
+9. </text>
+10. <text>
+11. <tspan x="300" y="650" font-size="25" fill="white" stroke="red">
+12. tspan attribute stroke-width-opacity
+13. <animate attributeName="stroke-width" from="1" to="5" dur="3s" repeatCount="indefinite"></animate>
+14. <animate attributeName="stroke-opacity" from="0.01" to="0.99" dur="3s" repeatCount="indefinite"></animate>
+15. </tspan>
+16. </text>
+17. </svg>
+18. </div>
+```
+
+![](https://contentcenter-vali-drcn.dbankcdn.cn/pvt_2/DeveloperAlliance_scene_100_1/b1/v3/_eQxCIxKTiudtPxzvye1GA/zh-cn_image_0000002568759902.gif?HW-CC-KV=V1&HW-CC-Date=20260511T040516Z&HW-CC-Expire=86400&HW-CC-Sign=271642C1A9EF32AB96802C268790F444FA65F52D0313F72B969890D770015D4D)

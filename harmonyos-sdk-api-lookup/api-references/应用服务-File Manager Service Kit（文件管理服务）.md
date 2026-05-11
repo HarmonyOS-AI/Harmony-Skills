@@ -1,0 +1,2 @@
+* **[ArkTS API](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/filemanagerservice-arkts)**
+* **[图标格式说明](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/filemanagerservice-iconformat)**

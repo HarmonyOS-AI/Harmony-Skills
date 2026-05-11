@@ -1,0 +1,3 @@
+* **[IAP](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/iap-iap)**
+* **[数据类型说明](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/iap-data-model)**
+* **[ArkTS API错误码](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/iap-error-code)**

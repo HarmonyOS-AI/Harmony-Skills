@@ -1,0 +1,2 @@
+* **[ArkTS API](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/core-vision-arkts)**
+* **[ArkTS API错误码](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/core-vision-error-code)**

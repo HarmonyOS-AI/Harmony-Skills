@@ -1,0 +1,2 @@
+* **[rcp](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/remote-communication-rcp)**
+* **[urpc](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/remote-communication-urpcapi)**

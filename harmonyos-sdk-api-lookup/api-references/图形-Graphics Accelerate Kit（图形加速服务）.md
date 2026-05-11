@@ -1,0 +1,2 @@
+* **[ArkTS API](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/graphics-accelerate-arkts)**
+* **[C API](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/graphics_accelerate_c_api)**

@@ -1,0 +1,2 @@
+* **[商家券](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-api-common-promotion-service-merc-coup)**
+* **[查询用户可用平台券](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-api-common-promotion-service-inquiry)**

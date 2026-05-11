@@ -1,0 +1,3 @@
+* **[ArkTS API](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/form-arkts)**
+* **[已停止维护的接口](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/form-arkts-dep)**
+* **[错误码](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/form-arkts-errcode)**

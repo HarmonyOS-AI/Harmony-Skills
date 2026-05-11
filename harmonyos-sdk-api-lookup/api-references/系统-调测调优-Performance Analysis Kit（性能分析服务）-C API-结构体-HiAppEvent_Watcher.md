@@ -1,0 +1,23 @@
+收起
+
+自动换行
+
+深色代码主题
+
+复制
+
+```
+1. typedef struct HiAppEvent_Watcher HiAppEvent_Watcher
+```
+
+## 概述
+
+PhonePC/2in1TabletTVWearable
+
+用于接收app事件的监听器。
+
+**起始版本：** 12
+
+**相关模块：** [HiAppEvent](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-hiappevent)
+
+**所在头文件：** [hiappevent.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-hiappevent-h)

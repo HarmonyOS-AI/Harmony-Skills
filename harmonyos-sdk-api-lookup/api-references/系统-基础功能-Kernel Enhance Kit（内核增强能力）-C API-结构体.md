@@ -1,0 +1,2 @@
+* **[OH\_QoS\_GewuCreateSessionResult](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-qos-oh-qos-gewucreatesessionresult)**
+* **[OH\_QoS\_GewuSubmitRequestResult](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-qos-oh-qos-gewusubmitrequestresult)**

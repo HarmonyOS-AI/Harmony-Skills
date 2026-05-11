@@ -1,0 +1,5 @@
+* **[验证deviceToken](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/devicesecurity-deviceverify-checkdevicetoken)**
+* **[查询设备标记状态](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/devicesecurity-deviceverify-getdevicestatus)**
+* **[更新设备标记状态](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/devicesecurity-deviceverify-updatedevicestatus)**
+* **[删除设备标记状态](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/devicesecurity-deviceverify-deletedevicestatus)**
+* **[REST API错误码](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/devicesecurity-restapi-errcode)**

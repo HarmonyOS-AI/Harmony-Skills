@@ -1,0 +1,23 @@
+收起
+
+自动换行
+
+深色代码主题
+
+复制
+
+```
+1. typedef struct OH_Drawing_FontParser OH_Drawing_FontParser
+```
+
+## 概述
+
+PhonePC/2in1TabletTVWearable
+
+用来解析系统字体文件。
+
+**起始版本：** 12
+
+**相关模块：** [Drawing](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-drawing)
+
+**所在头文件：** [drawing\_text\_declaration.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-drawing-text-declaration-h)

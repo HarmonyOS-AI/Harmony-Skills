@@ -1,0 +1,1 @@
+* **[game\_performance.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/gameservice-game-performance-h)**

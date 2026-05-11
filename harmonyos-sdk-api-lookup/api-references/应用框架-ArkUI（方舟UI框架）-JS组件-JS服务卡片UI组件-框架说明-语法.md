@@ -1,0 +1,2 @@
+* **[HML语法参考](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-service-widget-syntax-hml)**
+* **[CSS语法参考](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-service-widget-syntax-css)**

@@ -1,0 +1,1 @@
+* **[ServiceCollaboration](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/servicecollaboration-capi-module)**

@@ -1,0 +1,10 @@
+* **[通用属性](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-components-common-attributes)**
+* **[通用样式](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-components-common-styles)**
+* **[通用事件](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-components-common-events)**
+* **[通用方法](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-components-common-methods)**
+* **[动画样式](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-components-common-animation)**
+* **[渐变样式](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-components-common-gradient)**
+* **[转场样式](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-components-common-transition)**
+* **[媒体查询](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-components-common-mediaquery)**
+* **[自定义字体样式](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-components-common-customizing-font)**
+* **[原子布局](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-components-common-atomic-layout)**

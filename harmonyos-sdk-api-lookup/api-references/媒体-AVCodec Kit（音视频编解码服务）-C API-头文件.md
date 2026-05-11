@@ -1,0 +1,16 @@
+* **[native\_avcapability.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-native-avcapability-h)**
+* **[native\_avcodec\_audiocodec.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-native-avcodec-audiocodec-h)**
+* **[native\_avcodec\_base.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-native-avcodec-base-h)**
+* **[media\_types.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-media-types-h)**
+* **[native\_audio\_channel\_layout.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-native-audio-channel-layout-h)**
+* **[native\_avbuffer.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-native-avbuffer-h)**
+* **[native\_avbuffer\_info.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-native-avbuffer-info-h)**
+* **[native\_averrors.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-native-averrors-h)**
+* **[native\_avformat.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-native-avformat-h)**
+* **[native\_avmemory.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-native-avmemory-h)**
+* **[native\_avcodec\_videodecoder.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-native-avcodec-videodecoder-h)**
+* **[native\_avcodec\_videoencoder.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-native-avcodec-videoencoder-h)**
+* **[native\_avdemuxer.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-native-avdemuxer-h)**
+* **[native\_avmuxer.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-native-avmuxer-h)**
+* **[native\_avsource.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-native-avsource-h)**
+* **[native\_cencinfo.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-native-cencinfo-h)**

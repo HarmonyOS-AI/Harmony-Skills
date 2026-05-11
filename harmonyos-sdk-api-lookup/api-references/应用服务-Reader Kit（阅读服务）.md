@@ -1,0 +1,3 @@
+* **[ArkTS API](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/reader-arkts)**
+* **[ArkTS组件](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/reader-api-component)**
+* **[ArkTS API错误码](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/reader-error-code)**
