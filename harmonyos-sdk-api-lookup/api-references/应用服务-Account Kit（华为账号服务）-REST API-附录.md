@@ -1,1 +1,0 @@
-* **[一键登录获取华为账号绑定号码和UnionID/OpenID（不推荐）](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/account-api-get-user-info-quicklogin-getid)**

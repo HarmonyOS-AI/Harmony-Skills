@@ -1,2 +1,0 @@
-* **[意图共享](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/intents-rest-api-intent-share)**
-* **[事件撤销](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/intents-rest-api-revoke-event)**

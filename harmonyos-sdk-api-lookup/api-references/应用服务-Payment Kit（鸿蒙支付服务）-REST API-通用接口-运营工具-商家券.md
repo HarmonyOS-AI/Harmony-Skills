@@ -1,2 +1,0 @@
-* **[券批次](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/t-api-common-promotion-service-merc-coup-coupbatch)**
-* **[用户券](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/yment-api-common-promotion-service-merc-coup-ucoup)**

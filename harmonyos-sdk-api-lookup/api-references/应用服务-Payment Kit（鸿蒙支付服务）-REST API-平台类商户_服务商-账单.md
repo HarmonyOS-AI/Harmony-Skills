@@ -1,2 +1,0 @@
-* **[查询对账单](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-partner-agent-query-trade-bill)**
-* **[查询结算账单](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-partner-agent-query-settle-bill)**

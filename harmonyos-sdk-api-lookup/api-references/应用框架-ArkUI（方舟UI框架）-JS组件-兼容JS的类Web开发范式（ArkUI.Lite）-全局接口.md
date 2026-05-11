@@ -1,1 +1,0 @@
-* **[旋转表冠事件监听](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-lite-common-monitorcrownevents)**

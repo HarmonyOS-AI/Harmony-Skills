@@ -1,2 +1,0 @@
-* **[通过mercContractCode查询签约信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-partner-pas-query-contractcode)**
-* **[通过contractId查询签约信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-partner-pas-query-contractid)**
