@@ -1,0 +1,1 @@
+* **[@ohos.userIAM.userAuthIcon (嵌入式用户身份认证控件)](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ohos-useriam-userauthicon)**

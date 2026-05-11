@@ -1,0 +1,11 @@
+* **[OH\_AVMetadataBuilderStruct](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-ohavsession-oh-avmetadatabuilderstruct)**
+* **[OH\_AVMetadataStruct](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-ohavsession-oh-avmetadatastruct)**
+* **[AVSession\_PlaybackPosition](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-ohavsession-avsession-playbackposition)**
+* **[OH\_AVSession](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-ohavsession-oh-avsession)**
+* **[OH\_AVCastController](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-ohavsession-oh-avcastcontroller)**
+* **[OH\_AVSession\_AVPlaybackState](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-ohavsession-oh-avsession-avplaybackstate)**
+* **[OH\_AVSession\_AVQueueItem](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-ohavsession-oh-avsession-avqueueitem)**
+* **[OH\_AVSession\_AVMediaDescription](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-ohavsession-oh-avsession-avmediadescription)**
+* **[OH\_AVSession\_AVMediaDescriptionBuilder](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ohavsession-oh-avsession-avmediadescriptionbuilder)**
+* **[AVSession\_OutputDeviceInfo](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-ohavsession-avsession-outputdeviceinfo)**
+* **[AVSession\_DeviceInfo](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-ohavsession-avsession-deviceinfo)**

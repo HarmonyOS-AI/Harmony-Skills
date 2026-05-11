@@ -1,0 +1,17 @@
+* **[AbilityBase\_Element](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-abilitybase-element)**
+* **[AbilityBase\_Want](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-abilitybase-want)**
+* **[AbilityRuntime\_StartOptions](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-abilityruntime-startoptions)**
+* **[NativeChildProcess\_Fd](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-nativechildprocess-fd)**
+* **[NativeChildProcess\_FdList](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-nativechildprocess-fdlist)**
+* **[NativeChildProcess\_Options](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-nativechildprocess-options)**
+* **[NativeChildProcess\_Args](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-nativechildprocess-args)**
+* **[Ability\_ChildProcessConfigs](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-ability-childprocessconfigs)**
+* **[OH\_NativeBundle\_ApplicationInfo](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-native-bundle-oh-nativebundle-applicationinfo)**
+* **[OH\_NativeBundle\_ElementName](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-native-bundle-oh-nativebundle-elementname)**
+* **[OH\_NativeBundle\_Metadata](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-native-bundle-oh-nativebundle-metadata)**
+* **[OH\_NativeBundle\_ModuleMetadata](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-native-bundle-oh-nativebundle-modulemetadata)**
+* **[OH\_NativeBundle\_AbilityResourceInfo](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/-native-bundle-oh-nativebundle-abilityresourceinfo)**
+* **[AbilityRuntime\_Context](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-abilityruntime-abilityruntime-context)**
+* **[AbilityRuntime\_Context\*](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-abilityruntime-abilityruntime-context8h)**
+* **[AbilityRuntime\_ExtensionInstance](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-abilityruntime-extensioninstance)**
+* **[AbilityRuntime\_ExtensionInstance\*](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-abilityruntime-extensioninstance8h)**

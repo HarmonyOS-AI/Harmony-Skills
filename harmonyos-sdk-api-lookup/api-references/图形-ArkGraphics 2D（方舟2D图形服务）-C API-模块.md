@@ -1,0 +1,9 @@
+* **[OH\_NativeBuffer](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-oh-nativebuffer)**
+* **[NativeColorSpaceManager](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-nativecolorspacemanager)**
+* **[NativeDisplaySoloist](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-nativedisplaysoloist)**
+* **[Drawing](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-drawing)**
+* **[effectKit](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-effectkit)**
+* **[OH\_NativeImage](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-oh-nativeimage)**
+* **[NativeVsync](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-nativevsync)**
+* **[NativeWindow](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-nativewindow)**
+* **[NativeFence](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-nativefence)**

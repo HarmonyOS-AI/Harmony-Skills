@@ -1,0 +1,10 @@
+* **[camera.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-camera-h)**
+* **[camera\_device.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-camera-device-h)**
+* **[camera\_input.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-camera-input-h)**
+* **[camera\_manager.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-camera-manager-h)**
+* **[capture\_session.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-capture-session-h)**
+* **[metadata\_output.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-metadata-output-h)**
+* **[photo\_native.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-photo-native-h)**
+* **[photo\_output.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-photo-output-h)**
+* **[preview\_output.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-preview-output-h)**
+* **[video\_output.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-video-output-h)**

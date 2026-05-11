@@ -1,0 +1,1 @@
+* **[rcp.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/rcp_8h)**

@@ -1,0 +1,2 @@
+* **[服务动态推送接口](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/push-api-service-timeline-send)**
+* **[服务动态参数说明](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/push-api-service-timeline-param)**

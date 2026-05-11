@@ -1,0 +1,3 @@
+* **[avcodec\_audio\_channel\_layout.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-avcodec-audio-channel-layout-h)**
+* **[native\_avcodec\_audiodecoder.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-native-avcodec-audiodecoder-h)**
+* **[native\_avcodec\_audioencoder.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-native-avcodec-audioencoder-h)**

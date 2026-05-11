@@ -1,0 +1,12 @@
+* **[CryptoArchitectureKit](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-cryptoarchitecturekit)**
+* **[CryptoAsymCipherApi](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-cryptoasymcipherapi)**
+* **[CryptoAsymKeyApi](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-cryptoasymkeyapi)**
+* **[CryptoCommonApi](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-cryptocommonapi)**
+* **[CryptoDigestApi](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-cryptodigestapi)**
+* **[CryptoKdfApi](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-cryptokdfapi)**
+* **[CryptoKeyAgreementApi](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-cryptokeyagreementapi)**
+* **[CryptoMacApi](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-cryptomacapi)**
+* **[CryptoRandApi](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-cryptorandapi)**
+* **[CryptoSignatureApi](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-cryptosignatureapi)**
+* **[CryptoSymCipherApi](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-cryptosymcipherapi)**
+* **[CryptoSymKeyApi](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-cryptosymkeyapi)**

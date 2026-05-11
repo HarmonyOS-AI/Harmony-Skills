@@ -1,0 +1,2 @@
+* **[ArkTS 组件](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/servicecollaboration-arkts)**
+* **[C API](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/servicecollaboration-capi)**

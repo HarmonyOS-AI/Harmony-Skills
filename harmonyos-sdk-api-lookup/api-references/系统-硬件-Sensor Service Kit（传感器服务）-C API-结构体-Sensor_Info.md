@@ -1,0 +1,23 @@
+收起
+
+自动换行
+
+深色代码主题
+
+复制
+
+```
+1. typedef struct Sensor_Info Sensor_Info
+```
+
+## 概述
+
+PhonePC/2in1TabletTVWearable
+
+定义传感器信息。
+
+**起始版本：** 11
+
+**相关模块：** [Sensor](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-sensor)
+
+**所在头文件：** [oh\_sensor\_type.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-oh-sensor-type-h)

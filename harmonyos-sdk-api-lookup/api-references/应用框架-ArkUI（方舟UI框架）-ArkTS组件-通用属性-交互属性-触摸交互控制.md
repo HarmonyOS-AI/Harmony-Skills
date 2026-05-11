@@ -1,0 +1,3 @@
+* **[触摸热区设置](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-touch-target)**
+* **[触摸测试控制](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-hit-test-behavior)**
+* **[事件独占控制](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-attributes-monopolize-events)**

@@ -1,0 +1,17 @@
+* **[native\_audiocapturer.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-native-audiocapturer-h)**
+* **[native\_audio\_manager.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-native-audio-manager-h)**
+* **[native\_audio\_routing\_manager.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-native-audio-routing-manager-h)**
+* **[native\_audio\_session\_manager.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-native-audio-session-manager-h)**
+* **[native\_audio\_stream\_manager.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-native-audio-stream-manager-h)**
+* **[native\_audio\_volume\_manager.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-native-audio-volume-manager-h)**
+* **[native\_audiorenderer.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-native-audiorenderer-h)**
+* **[native\_audio\_common.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-native-audio-common-h)**
+* **[native\_audio\_device\_base.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-native-audio-device-base-h)**
+* **[native\_audio\_resource\_manager.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-native-audio-resource-manager-h)**
+* **[native\_audiostream\_base.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-native-audiostream-base-h)**
+* **[native\_audiostreambuilder.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-native-audiostreambuilder-h)**
+* **[native\_audio\_suite\_base.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-native-audio-suite-base-h)**
+* **[native\_audio\_suite\_engine.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-native-audio-suite-engine-h)**
+* **[native\_audio\_session\_base.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-native-audio-session-base-h)**
+* **[native\_midi.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-native-midi-h)**
+* **[native\_midi\_base.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-native-midi-base-h)**

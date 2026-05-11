@@ -1,0 +1,6 @@
+* **[通过OpenID获取UnionID](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/account-api-get-unionid)**
+* **[通过Authorization Code获取GroupUnionID](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/account-api-get-groupunionid-code)**
+* **[通过OpenID或UnionID获取GroupUnionID](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/account-api-get-groupunionid)**
+* **[获取验证ID Token的JWT公钥信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/account-rest-jwt-public-key)**
+* **[验证ID Token有效性](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/account-api-verify-id-token)**
+* **[获取OpenID Connect配置公开信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/account-rest-openid-configuration)**

@@ -1,0 +1,9 @@
+* **[canvas组件](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-components-canvas-canvas)**
+* **[CanvasRenderingContext2D对象](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-components-canvas-canvasrenderingcontext2d)**
+* **[Image对象](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-components-canvas-image)**
+* **[CanvasGradient对象](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-components-canvas-canvasgradient)**
+* **[ImageData对象](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-components-canvas-imagedata)**
+* **[Path2D对象](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-components-canvas-path2d)**
+* **[ImageBitmap对象](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-components-canvas-imagebitmap)**
+* **[OffscreenCanvas对象](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-components-canvas-offscreencanvas)**
+* **[OffscreenCanvasRenderingContext2D对象](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/js-offscreencanvasrenderingcontext2d)**

@@ -1,0 +1,2 @@
+* **[ArkTS API](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/intents-arkts-api)**
+* **[REST API](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/intents-rest-api)**

@@ -1,0 +1,2 @@
+* **[ArkTS API](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/core-speech-arkts)**
+* **[ArkTS API错误码](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/errorcode-corespeech)**

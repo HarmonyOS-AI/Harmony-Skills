@@ -1,0 +1,10 @@
+* **[FileShare\_PolicyErrorResult](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-fileshare-fileshare-policyerrorresult)**
+* **[FileShare\_PolicyInfo](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-fileshare-fileshare-policyinfo)**
+* **[CloudDisk\_ChangeData](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-clouddisk-clouddisk-changedata)**
+* **[CloudDisk\_ChangesResult](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-clouddisk-clouddisk-changesresult)**
+* **[CloudDisk\_DisplayNameInfo](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-clouddisk-clouddisk-displaynameinfo)**
+* **[CloudDisk\_FailedList](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-clouddisk-clouddisk-failedlist)**
+* **[CloudDisk\_FileSyncState](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-clouddisk-clouddisk-filesyncstate)**
+* **[CloudDisk\_PathInfo](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-clouddisk-clouddisk-pathinfo)**
+* **[CloudDisk\_ResultList](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-clouddisk-clouddisk-resultlist)**
+* **[CloudDisk\_SyncFolder](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-clouddisk-clouddisk-syncfolder)**

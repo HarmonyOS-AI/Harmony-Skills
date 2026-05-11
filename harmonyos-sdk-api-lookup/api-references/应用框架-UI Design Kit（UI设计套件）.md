@@ -1,0 +1,2 @@
+* **[ArkTS API](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ui-design-arkts)**
+* **[ArkTS组件](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ui-design-arkts-component)**

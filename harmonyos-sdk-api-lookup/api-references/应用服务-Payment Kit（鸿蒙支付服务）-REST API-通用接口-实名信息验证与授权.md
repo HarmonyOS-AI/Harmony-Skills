@@ -1,0 +1,3 @@
+* **[实名信息预验证](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-api-common-verification-preverify)**
+* **[实名信息验证结果查询](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-api-common-verification-result)**
+* **[实名信息授权结果查询](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-api-common-auth-result)**

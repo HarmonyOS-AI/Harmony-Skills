@@ -1,0 +1,2 @@
+* **[CashierComponent (iap嵌入式收银台组件)](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/iap-cashier-component)**
+* **[cashierComponentManager (iap嵌入式收银台组件管理)](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/iap-cashier-component-manager)**

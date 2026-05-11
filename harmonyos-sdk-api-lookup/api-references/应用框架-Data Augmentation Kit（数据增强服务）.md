@@ -1,0 +1,2 @@
+* **[ArkTS API](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/dataaugmentation-arkts)**
+* **[C API](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/dataaugmentation-capi)**

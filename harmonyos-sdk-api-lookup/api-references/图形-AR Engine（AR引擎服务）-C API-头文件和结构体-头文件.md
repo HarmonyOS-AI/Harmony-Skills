@@ -1,0 +1,1 @@
+* **[ar\_engine\_core.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/arengine-header-file)**

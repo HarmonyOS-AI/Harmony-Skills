@@ -1,0 +1,10 @@
+* **[AVCapability](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-avcapability)**
+* **[AudioCodec](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-audiocodec)**
+* **[CodecBase](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-codecbase)**
+* **[Core](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-core)**
+* **[VideoDecoder](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-videodecoder)**
+* **[VideoEncoder](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-videoencoder)**
+* **[AVDemuxer](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-avdemuxer)**
+* **[AVMuxer](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-avmuxer)**
+* **[AVSource](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-avsource)**
+* **[Multimedia\_Drm](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-multimedia-drm)**

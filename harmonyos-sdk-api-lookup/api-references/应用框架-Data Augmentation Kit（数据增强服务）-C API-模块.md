@@ -1,0 +1,2 @@
+* **[AIP](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/dataaugmentation-capi-aip)**
+* **[Retrieval](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/dataaugmentation-capi-retrieval)**

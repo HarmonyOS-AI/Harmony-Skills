@@ -1,0 +1,3 @@
+* **[walletPass（Pass卡片能力）](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/wallet-walletpass)**
+* **[walletTransitCard（交通卡能力）](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/wallet-wallettransitcard)**
+* **[ArkTS API错误码](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/wallet-error-code)**

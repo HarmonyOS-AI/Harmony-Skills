@@ -1,0 +1,23 @@
+收起
+
+自动换行
+
+深色代码主题
+
+复制
+
+```
+1. typedef struct OH_Drawing_Pen OH_Drawing_Pen
+```
+
+## 概述
+
+PhonePC/2in1TabletTVWearable
+
+定义为画笔，画笔用于描述绘制图形轮廓的样式和颜色。
+
+**起始版本：** 8
+
+**相关模块：** [Drawing](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-drawing)
+
+**所在头文件：** [drawing\_types.h](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/capi-drawing-types-h)

@@ -1,0 +1,3 @@
+* **[HiAISingleOpDescriptor\_ConvolutionParam](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/cannkit-sopdesc-convparam)**
+* **[HiAI\_SingleOpExecutorConvolutionParam](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/cannkit-sopexec-convparam)**
+* **[HiAI\_SingleOpExecutorFusedConvolutionActivationParam](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/cannkit-sopexec-fusedconv-actparam)**

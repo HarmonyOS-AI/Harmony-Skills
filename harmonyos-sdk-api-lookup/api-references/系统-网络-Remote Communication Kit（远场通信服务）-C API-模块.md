@@ -1,0 +1,1 @@
+* **[RemoteCommunication](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/remote-communication-overview)**

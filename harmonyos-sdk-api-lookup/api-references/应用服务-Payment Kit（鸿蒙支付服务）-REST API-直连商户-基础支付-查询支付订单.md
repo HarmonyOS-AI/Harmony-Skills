@@ -1,0 +1,2 @@
+* **[通过sysTransOrderNo查询订单信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-sys-query-order)**
+* **[通过mercOrderNo查询订单信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-merc-query-order)**

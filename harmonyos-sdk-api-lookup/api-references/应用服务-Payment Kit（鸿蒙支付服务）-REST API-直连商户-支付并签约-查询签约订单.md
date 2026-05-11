@@ -1,0 +1,2 @@
+* **[通过mercContractCode查询签约订单信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-pas-withhold-query-contractcode)**
+* **[通过contractId查询签约订单信息](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/payment-pas-withhold-query-contractid)**
