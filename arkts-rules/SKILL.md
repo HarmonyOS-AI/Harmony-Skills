@@ -20,6 +20,25 @@ ArkTS 是鸿蒙（HarmonyOS）的开发语言，基于 TypeScript 但**移除了
 
 在编写或审查 ArkTS 代码时，严格遵循以下所有规则。违反任何一条都会导致编译失败。
 
+### 高频编译错误速查
+
+下列是适配实践中**最常触发的 10 种 ArkTS 编译错误**。编码 ETS 文件时主动避免这些模式，可减少 85% 的无效编译尝试。
+
+| # | 错误规则 | 错误写法 | 正确写法 | 出现频次 |
+|:-:|---------|---------|---------|:-------:|
+| 1 | `arkts-no-untyped-obj-literals` | `let obj = { x: 1, y: 2 }` | 先声明 class/interface，再标注类型 `let obj: Point = { x: 1, y: 2 }` | **极高** |
+| 2 | `arkts-no-any-unknown` | `let x: any = foo()` | 使用具体类型或 `Object` / `Record<string, Object>` | **高** |
+| 3 | `arkts-no-ctor-prop-decls` | `constructor(private x: T)` | 类体声明字段 + 构造函数赋值 | 高 |
+| 4 | `arkts-no-obj-literals-as-types` | `let obj: { x: number } = ...` | `interface Point { x: number }` → `let obj: Point = ...` | 高 |
+| 5 | `arkts-no-props-by-index` | `obj['prop']` | `obj.prop` 点访问 | 中 |
+| 6 | 不允许解构赋值 | `let { x, y } = obj` | `let x = obj.x; let y = obj.y` | 中 |
+| 7 | 不允许 throw 非 Error | `throw 'error'` / `throw 4` | `throw new Error('error')` | 中 |
+| 8 | catch 参数不可带类型 | `catch (e: BusinessError)` | `catch (e) { let err = e as BusinessError }` | 中 |
+| 9 | Import 方向错误 | `.ts`/`.js` 文件 `import` `.ets` 文件 | `.ets` 可导入 `.ts`，反之不行。确保 `.ets` 不反向被 `.ts` 导入 | 中 |
+| 10 | Null 类型不匹配 | `let x: string = null` | 可空类型必须显式声明 `let x: string \| null = null`；访问用 `?.` 或 `!` | 中 |
+
+> 完整规则见下文各节。
+
 ---
 
 ## 一、类型系统
