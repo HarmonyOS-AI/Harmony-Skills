@@ -6,7 +6,6 @@ description: HarmonyOS官方文档快速查找Skill。在skill内部的reference
 # HarmonyOS官方文档快速查找
 
 本skill帮助你在HarmonyOS官方文档markdown文件中高效定位所需内容。文档位于skill内部的`references/`文件夹，包含约2860个markdown文件。核心原则：**避免大量读取，优先使用文件过滤和内容搜索工具**。
-
 ## 为什么需要这个查找策略？
 
 传统方法是逐个读取文件或盲目搜索，这在2860个文件中极其低效。正确的做法是：
@@ -168,6 +167,7 @@ Kit名（服务名）.md                # Kit完整名称文档
 | UI组件 | `Button`, `Text`, `List`, `Grid`, `Swiper`, `Progress` | 组件名、属性、方法 |
 | 路由导航 | `页面路由`, `路由`, `router` | pushUrl、replaceUrl、back |
 | 动画 | `动画`, `属性动画`, `转场` | animateTo、animation |
+| Lottie | `Lottie-` | LottieView、loadAnimation、@ohos/lottie-turbo、@ohos/lottie |
 | 手势交互 | `手势`, `拖拽`, `绑定手势` | gesture、GestureEvent |
 | 布局 | `布局`, `线性布局`, `弹性布局`, `层叠布局`, `Flex`, `Stack` | Row、Column、Flex |
 | 弹窗 | `弹窗`, `弹出框`, `Dialog`, `CustomDialog` | showDialog、CustomDialog |
@@ -215,6 +215,24 @@ Kit名（服务名）.md                # Kit完整名称文档
 | 无障碍 | `无障碍`, `Accessibility` | Accessibility、accessibility |
 | 多语言 | `多语言`, `国际化` | i18n、Localization |
 | 分布式 | `分布式`, `跨设备` | distributed、跨设备 |
+
+### Lottie 动画（社区扩展文档）
+
+文件名均以 **`Lottie-`** 开头，与官方文档区分。来源：[lottie_turbo](https://gitcode.com/CPF-ApplicationTPC/lottie_turbo)、[lottieArkTS](https://gitcode.com/CPF-ApplicationTPC/lottieArkTS)。
+
+| 文件 | 用途 |
+|------|------|
+| `Lottie-库选型与迁移指南.md` | 两库对比、选型、最小迁移（**不确定用哪个库时先读**） |
+| `Lottie-@ohos-lottie-turbo开发指南.md` | `@ohos/lottie-turbo` 声明式 `LottieView` 完整说明 |
+| `Lottie-@ohos-lottie-ArkTS开发指南.md` | `@ohos/lottie` Canvas + `loadAnimation` 完整说明 |
+| `Lottie-@ohos-lottie-turbo-API类型声明.d.ts` | turbo API 类型 |
+| `Lottie-@ohos-lottie-ArkTS-API类型声明.d.ts` | ArkTS 版 API 类型 |
+
+**选型原则**：新项目优先 **lottie-turbo**；已有 Canvas + `loadAnimation` 代码用 **lottieArkTS** 或按迁移指南升级。
+
+**查找示例**：
+- 文件名过滤：`references/Lottie-*.md` 或 `references/Lottie-*turbo*`
+- 官方文档中仅有少量 Lottie 提及（如 Canvas 绘制），**Lottie 专项实现以 `Lottie-` 文档为准**
 
 ## 查找流程示例
 
@@ -272,6 +290,17 @@ Kit名（服务名）.md                # Kit完整名称文档
 2. 精确读取：读取解析后的`references/@State装饰器：组件内状态.md`（可能较长，分段读取）
    - 获取：装饰器规则、变量类型、观察变化、使用示例
 
+### 示例6：集成 Lottie 动画
+
+**用户问题**：鸿蒙项目如何播放 AE 导出的 JSON 动画？
+
+**查找流程**：
+1. 先读：`references/Lottie-库选型与迁移指南.md`（确定 turbo 或 ArkTS）
+2. 文件名过滤：`references/Lottie-*开发指南.md`
+3. 内容搜索：在候选文件中搜索 `rawfile`、`LottieView` 或 `loadAnimation`
+4. 精确读取：turbo 读 `Lottie-@ohos-lottie-turbo开发指南.md`；Canvas 方案读 `Lottie-@ohos-lottie-ArkTS开发指南.md`
+5. API 细节：读取对应的 `Lottie-*-API类型声明.d.ts`
+
 ## 最佳实践和注意事项
 
 ### 最佳实践
@@ -321,12 +350,13 @@ Kit名（服务名）.md                # Kit完整名称文档
 
 ## 与HarmonyOS SDK API Lookup Skill的区别
 
-- **本skill**：查找开发文档、指导、教程、常见问题等（markdown文档，位于skill内部references文件夹）
-- **harmonyos-sdk-api-lookup skill**：查找SDK TypeScript声明文件中的API定义（.d.ts文件，位于SDK目录）
+- **本skill**：查找开发文档、指导、教程、常见问题等（markdown 与部分社区 `.d.ts`，位于 skill 内部 `references/`）
+- **harmonyos-sdk-api-lookup skill**：查找系统 SDK 的 API 参考（`api-references/` 下 4000+ 官方 API markdown）
 - **使用建议**：
-  - 需要开发步骤、示例代码、常见问题解答 → 使用本skill
-  - 需要精确的API签名、类型定义、参数类型 → 使用SDK API lookup skill
-  - 两者可以配合使用：先用本skill找开发指导，再用SDK API lookup查具体API定义
+  - 需要开发步骤、示例代码、常见问题解答 → 使用本 skill
+  - 需要系统 Kit 的 API 签名、权限、系统能力 → 使用 SDK API lookup skill
+  - **Lottie 三方库**：开发指南与 `@ohos/lottie`、`@ohos/lottie-turbo` 类型声明均在**本 skill** 的 `references/Lottie-*` 中，不在 SDK API lookup
+  - 两者可配合：本 skill 查 Lottie 用法，SDK API lookup 查 Canvas 等系统 API
 
 ## 工具使用提示
 

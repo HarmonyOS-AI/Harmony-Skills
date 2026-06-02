@@ -118,3 +118,26 @@ Get-Item "harmonyos-sdk-api-lookup/api-references/目标文件.md" | Select-Obje
 - 代码示例中的所有 API 调用**必须**与文档签名严格一致
 - 同一功能有 Promise 和 callback 两种形式时，优先返回 Promise 形式
 - 标记为废弃的 API 需注明替代方案
+
+### 权限信息提取规则（防幻觉）
+
+**权限信息仅在文档中出现明确的权限标注时才记录**：
+
+1. **有效权限标注格式**（必须包含以下关键词）：
+   - `**需要权限：** ohos.permission.xxx`
+   - `**权限：** ohos.permission.xxx`
+   - `required_permission: ohos.permission.xxx`
+
+2. **以下内容 ≠ 权限要求**（常见误判）：
+   - 文档中提到"悬浮窗"、"自由窗口"、"浮动窗口"等场景描述
+   - 文档中提到"非全屏模式下不生效"、"自由窗口状态下不生效"等限制
+   - 文档中提到窗口类型（如 `TYPE_FLOAT`）或窗口模式
+
+3. **无权限标注时的处理**：
+   - 若文档中没有明确的权限标注，`required_permission` 必须返回 `null`
+   - **不得**根据场景描述猜测权限要求
+   - **不得**将其他 API 的权限关联到当前 API
+
+4. **返回权限信息时必须标注来源**：
+   - 格式：`需要权限: ohos.permission.xxx [来源: {文件名}:{行号}]`
+   - 示例：`需要权限: ohos.permission.INTERNET [来源: @ohos.net.http.md:52]`
