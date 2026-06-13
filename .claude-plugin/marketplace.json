@@ -10,7 +10,6 @@
       "name": "harmony-skills",
       "source": "./",
       "description": "HarmonyOS / ArkTS 开发技能集：ArkTS 编程规则、官方文档查找、SDK API 查找。",
-      "version": "1.0.0",
       "category": "development",
       "tags": ["harmonyos", "arkts", "arkui", "ohos"]
     }
