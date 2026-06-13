@@ -100,7 +100,6 @@ Get-Item "harmonyos-sdk-api-lookup/api-references/目标文件.md" | Select-Obje
 
 **注意事项**:
 - 版本要求、平台限制、权限申请、常见错误码等
-```
 
 ## 功能查询的分析技巧
 

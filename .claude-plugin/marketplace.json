@@ -1,0 +1,18 @@
+{
+  "name": "harmonyos-ai",
+  "description": "HarmonyOS-AI 本地插件市场：HarmonyOS / ArkTS 开发技能。",
+  "owner": {
+    "name": "HarmonyOS-AI",
+    "url": "https://github.com/HarmonyOS-AI"
+  },
+  "plugins": [
+    {
+      "name": "harmony-skills",
+      "source": "./",
+      "description": "HarmonyOS / ArkTS 开发技能集：ArkTS 编程规则、官方文档查找、SDK API 查找。",
+      "version": "1.0.0",
+      "category": "development",
+      "tags": ["harmonyos", "arkts", "arkui", "ohos"]
+    }
+  ]
+}
