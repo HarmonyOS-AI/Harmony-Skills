@@ -1,0 +1,4 @@
+interface:
+  display_name: "HarmonyOS Live Preview"
+  short_description: "Preview ArkUI pages live in a browser with interaction and hot reload"
+  default_prompt: "Use $harmonyos-live-preview to start a browser preview of the current HarmonyOS app."
