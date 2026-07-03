@@ -179,15 +179,24 @@ const commands = {
     const poll = async () => { await sleep(500); return getStatus(); };
     let st = await getStatus();
 
-    // Phase A (only --for-rebuild): the watcher debounces 200ms before flipping build to
-    // "building", so an immediate plain `wait` after an edit would see the *previous* build's
-    // "ok" and report a stale success. Waiting for the transition removes that race; if it
-    // never comes, the edit didn't trigger a build at all — that's its own actionable failure.
+    // Phase A (only --for-rebuild): "has the latest watched change been built?" is answered by
+    // ordering, not wall-clock guessing — a settled build whose start is at or after the newest
+    // watched change (buildStartedAgoMs <= lastChangeAgeMs) contains that change. This holds no
+    // matter how long the caller took between saving and running `wait` (the build may have long
+    // finished) and rejects both stale successes (build predates the edit — including the startup
+    // build) and mid-debounce snapshots. No watched change at all within 8s → the edit never
+    // reached the watcher (file outside the module source dirs, or --no-watch).
     if (opts['for-rebuild']) {
+      const editBuilt = () => (st.build === 'ok' || st.build === 'error')
+        && st.lastChangeAgeMs != null && st.buildStartedAgoMs != null
+        && st.buildStartedAgoMs <= st.lastChangeAgeMs;
       const armed = Date.now() + 8000;
-      while (st.build !== 'building' && Date.now() < armed) st = await poll();
-      if (st.build !== 'building' && st.build !== 'error') {
-        fail('no rebuild detected within 8s — watcher only fires for .ets edits under the module source dirs (and not with --no-watch)', 3);
+      while (!editBuilt()) {
+        if (st.build !== 'building' && st.lastChangeAgeMs == null && Date.now() > armed) {
+          fail('no rebuild detected within 8s — watcher only fires for .ets edits under the module source dirs (and not with --no-watch)', 3);
+        }
+        if (Date.now() > deadline) fail(`timed out after ${opts.timeout ?? 120}s waiting for the edit's rebuild (build=${st.build})`, 2);
+        st = await poll();
       }
     }
     while (st.build === 'building' || st.build === 'idle' || st.build == null) {
@@ -301,6 +310,19 @@ const commands = {
   async back() {
     await postInput({ t: 'back' });
     console.log('back sent');
+  },
+
+  // Escape hatch for the wider engine command vocabulary (Resolution, LoadDocument, FoldStatus, …):
+  // `raw <Command> ['{"json":"args"}']`. Useful for protocol experiments and features the typed
+  // commands don't cover; the engine acks over the same pipe (watch with PREVIEW_ENGINE_LOG=1).
+  async raw() {
+    if (!rest[0]) fail('usage: raw <Command> [json-args]');
+    let args = {};
+    if (rest[1]) {
+      try { args = JSON.parse(rest[1]); } catch { fail('args must be valid JSON'); }
+    }
+    await postInput({ t: 'raw', command: rest[0], args });
+    console.log(`sent ${rest[0]} ${JSON.stringify(args)}`);
   },
 
   async sessions() {

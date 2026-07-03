@@ -74,9 +74,13 @@ export function launchEngine(config, { lws, page, display } = {}, log = console.
   // recompiling or touching the ability's loadContent. Ability mode instead adds -d/-abn/-abp so the
   // engine runs the real UIAbility (its onCreate/onWindowStageCreate lifecycle) and shows whatever it
   // loadContents; -d (debug) makes -abp mandatory, which is why the two travel together.
+  // -cpm true is the engine half of DevEco's @Preview component preview (flips the compiled
+  // getPreviewComponentFlag() gate). Callers opt in via config.componentMode; plain page/ability
+  // preview keeps it false. Findings on the full component-preview flow: how-it-works.md
+  // § 组件预览调查.
   const args = [
     '-refresh', 'region', '-projectID', '700700900', '-ts', trace,
-    '-j', b.jsApp, '-s', base, '-cpm', 'false',
+    '-j', b.jsApp, '-s', base, '-cpm', config.componentMode ? 'true' : 'false',
     '-device', config.device, '-shape', 'rect', '-sd', String(config.density),
     '-ljPath', b.loaderJson, '-sid', sid,
     '-or', resW, resH, '-cr', resW, resH, '-f', config.deviceConfig,
@@ -91,7 +95,13 @@ export function launchEngine(config, { lws, page, display } = {}, log = console.
   // On headless Linux the orchestrator hands us a virtual $DISPLAY (Xvfb) the GLFW context binds to;
   // elsewhere display is null and the engine inherits the parent environment unchanged.
   const env = display ? { ...process.env, DISPLAY: display } : process.env;
-  const child = spawn(config.toolchain.previewerBin, args, { cwd: path.dirname(config.toolchain.previewerBin), stdio: 'ignore', env });
+  // The engine's stdout carries the ArkTS console + engine diagnostics — normally dropped, but
+  // PREVIEW_ENGINE_LOG=1 surfaces it (interleaved with orchestrator logs) to diagnose blank frames.
+  const child = spawn(config.toolchain.previewerBin, args, {
+    cwd: path.dirname(config.toolchain.previewerBin),
+    stdio: process.env.PREVIEW_ENGINE_LOG ? 'inherit' : 'ignore',
+    env,
+  });
   log(`engine up (pid=${child.pid}, lws=${lws}, sid=${sid.slice(0, 8)}…, page=${targetPage}, mode=${config.abilityMode ? 'ability' : 'page'})`);
 
   // Frame the command exactly as DevEco does: JSON + a single NUL terminator. Returns false when

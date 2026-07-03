@@ -17,11 +17,21 @@ export function build(config, log = console.log) {
     // which forks `node hvigor.js` — three processes deep — and killing just the top one leaves the
     // deeper two running as orphans (reparented to pid 1) since SIGKILL doesn't propagate to
     // children. Killing the whole group via `-child.pid` (see finish()) takes all three at once.
+    // `buildRoot=.preview` is the master switch for the whole preview pipeline: hvigor-ohos-plugin
+    // computes `isPreview = extraConfig.buildRoot === '.preview'` in every task, and only then do
+    // the resource/asset steps write the .preview/<product>/intermediates tree that PreviewArkTS
+    // (addOhmurlToHarAbility) reads back. Without it those tasks target the normal build/ tree and
+    // PreviewArkTS crashes with `00308018 … "data" argument must be of type string` — which is a
+    // missing-config symptom, not a toolchain bug.
     const child = spawn(config.toolchain.hvigorw, [
       '--mode', 'module',
       '-p', `module=${moduleName}@${target}`,
       '-p', `product=${product}`,
+      '-p', 'buildRoot=.preview',
       '-p', `previewer.replace.page=${entryPage}`,
+      // Escape hatch for build-injection experiments (extra `-p key=value` pairs, space-separated)
+      // — same spirit as drive.mjs `raw` for the engine pipe.
+      ...(process.env.PREVIEW_HVIGOR_ARGS ? process.env.PREVIEW_HVIGOR_ARGS.split(/\s+/) : []),
       'PreviewBuild', '--no-daemon',
     ], { cwd: dir, stdio: ['ignore', 'pipe', 'pipe'], detached: true });
 

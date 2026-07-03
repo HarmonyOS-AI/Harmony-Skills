@@ -61,17 +61,23 @@ node ${CLAUDE_PLUGIN_ROOT}/skills/harmonyos-live-preview/scripts/preview.mjs \
 
 **换页面 = 重启编排器**：`--page` 是启动参数，没有运行时切页接口。预览另一个 `@Entry` 就带新
 `--page` 重启（Claude Preview 场景：改 `launch.json` 的 `runtimeArgs` 再 preview-start 一次）。
-`--page` 只接受模块 pages 配置（`$profile:main_pages`）里列出的路由；只有 `@Preview` 没有 `@Entry`
-的裸组件不能直接指定——预览承载它的页面，或用 [harness 模式](#mock-the-dependency)。
+`--page` 只接受模块 pages 配置（`$profile:main_pages`）里列出的路由。**只有 `@Preview` 没有
+`@Entry` 的裸组件（DevEco 的"组件预览"）本 skill 不支持**：DevEco 的实现是 IDE 侧代码生成——用
+内置模板生成一个 `@Entry` 包装页（`PreviewContainer`，原文件内容拼接其中）并经 IDE 私有的常驻
+编译 worker 通道以内存文件顶替参与编译，纯 CLI 复刻不了那条通道——机制还原与各复刻尝试的实测
+记录见
+[how-it-works.md § 组件预览调查](references/how-it-works.md#component-preview-investigation)。
+替代方案：预览承载它的页面，或用 [harness 模式](#mock-the-dependency)手写同样的包装页（与 DevEco
+的 PreviewContainer 机制同源；含 `@Preview` 组件的文件在页面模式下照常预览，装饰器本身无副作用）。
 
 ### 优先用宿主应用的内嵌浏览器
 
-如果当前 agent 运行在自带内嵌浏览器/预览工具的宿主里——如 **Claude Code 的 `Claude Preview` 工具**
+如果当前 agent 运行在自带内嵌浏览器/预览工具的宿主里——如 **Claude 的 `Claude Preview` 工具**
 （`preview_start`/`preview_screenshot`/`preview_eval`/…）或 **Codex** 的等价机制——优先用它们，
 而不是裸 shell 起 `preview.mjs` 再让用户自己开浏览器：宿主工具管得住进程生命周期，不留脱管后台进程，
 还自带截图/DOM 访问。
 
-Claude Code 的接法：在工程根目录 `.claude/launch.json` 里加一项（文件不存在就建；已有其他配置就
+Claude 的接法：在工程根目录 `.claude/launch.json` 里加一项（文件不存在就建；已有其他配置就
 追加，别覆盖）：
 
 ```json
@@ -115,11 +121,12 @@ $DRIVE tree --depth 6            # 紧凑组件树大纲：type "文本" rect @�
 ```
 
 为什么是 `wait --for-rebuild` 而不是 sleep 或立刻查状态：watcher 有 200ms 防抖，保存后立刻查
-`/status` 看到的还是**上一轮**构建的 `ok`，会误报成功。`--for-rebuild` 先等状态翻到 `building`
-再等结果；8 秒内没翻则 exit 3——说明这次编辑根本没触发构建。watcher 只监听
-`<module>/src/main/ets` 下的 **`.ets`** 文件：改 `resources/`（string.json、图片）、`module.json5`
-或其他模块的文件都不会触发重建——touch 一个被 watch 的 `.ets`（或重启编排器）让改动进下一轮构建；
-开着 `--no-watch` 时同理。
+`/status` 看到的还是**上一轮**构建的 `ok`，会误报成功。`--for-rebuild` 的契约是"**最新一次被
+监听的文件变更已经构建完成**"——它比较变更时间和构建启动时间（`/status` 的 `lastChangeAgeMs` /
+`buildStartedAgoMs`），所以无论你保存后隔了多久才调用（构建可能早已结束）结论都正确。exit 3 =
+从没有任何被监听的变更——说明这次编辑根本没触发构建：watcher 只监听 `<module>/src/main/ets` 下的
+**`.ets`** 文件，改 `resources/`（string.json、图片）、`module.json5` 或其他模块的文件都不会触发
+重建——touch 一个被 watch 的 `.ets`（或重启编排器）让改动进下一轮构建；开着 `--no-watch` 时同理。
 
 另外两个容易误报成功的点：
 
@@ -141,7 +148,12 @@ $DRIVE swipe 0.5,0.75 0.5,0.25   # 向上滑=列表向下滚；move 事件按真
 $DRIVE tap "请输入内容" && $DRIVE type "hello 123"   # 先 tap 输入框聚焦，再打字
 $DRIVE key Enter                 # Enter / Backspace / Tab / Space
 $DRIVE back                      # 系统返回：弹路由栈 / 关对话框
+$DRIVE raw FoldStatus '{"FoldStatus":"fold"}'   # 逃生舱：向命令管道发任意引擎命令
 ```
+
+引擎的命令词汇表比 viewer 用到的宽得多（`FoldStatus`、`Resolution`、`OrientationChanged`、
+`LoadDocument`、`CrownRotate`……完整表见 how-it-works.md），`raw` 让你不改代码就能实验它们；
+配合 `PREVIEW_ENGINE_LOG=1` 能看到引擎对每条命令的应答。
 
 交互后的验证与编辑后一样：`shot` + `find`/`tree` 断言状态变化（点了"关注"之后 `find "已关注"`）。
 交互能力在热重载之后依然保持——输入通道随引擎重启自动重接。
@@ -157,17 +169,18 @@ $DRIVE back                      # 系统返回：弹路由栈 / 关对话框
 
 ## 页面起不来？按顺序排查
 
-1. **`$DRIVE wait` exit 1（`build:"error"`）**——读打印出的 ArkTS 报错行。若报错为
-   `PreviewArkTS ... Error Code: 00308018` + `addOhmurlToHarAbility` / “data argument must be of
-   type string”：这是 SDK 26.0.0 Beta1 / hvigor 6.26.1 的已知上游 bug，任何工程任何页面都会挂，
-   与你的代码无关——换非 beta 工具链。细节见
-   [how-it-works.md](references/how-it-works.md#known-issue-previewarkts-crash)。
+1. **`$DRIVE wait` exit 1（`build:"error"`）**——读打印出的 ArkTS 报错行，按行号回源码修。
+   （历史注记：若在旧版脚本上看到 `PreviewArkTS ... 00308018` + `addOhmurlToHarAbility` 必崩，
+   根因是构建时少注入 `-p buildRoot=.preview`——不是工具链 bug，本 skill 已修复；考证见
+   [how-it-works.md](references/how-it-works.md#known-issue-previewarkts-crash)。）
 2. **构建 ok 但白屏/空帧**——页面运行时访问了 Previewer 模拟不了的东西。引擎是 UI 沙箱不是完整
    运行时：白名单外的组件（`Web`、`Video`、`XComponent`、`RichEditor`、瀑布流 `Grid`——布局辅助的
    `GridRow`/`GridCol` 反而在白名单里）和接口（除 `http.createHttp` 外的网络、传感器、大多数
    Ability/Context 调用）**构建照样成功**，运行时才白屏或抛异常。对照
    [references/preview-coverage.md](references/preview-coverage.md) 的完整白名单；依赖注入类失败
-   （`@Link`/`@Consume` 根组件、未 mock 的 HSP、真实后端）→ 用下面的 harness 模式。
+   （`@Link`/`@Consume` 根组件、未 mock 的 HSP、真实后端）→ 用下面的 harness 模式。要看引擎侧的
+   真实报错（ArkTS console、`LoadPage` 失败、JS 异常），用 `PREVIEW_ENGINE_LOG=1` 启动
+   `preview.mjs`——引擎 stdout 默认被丢弃，这个开关把它放出来。
 3. **`engineConnected:false` 且不恢复**——引擎进程没起来。无头 Linux 查 Xvfb/Mesa 依赖是否装齐
    （见前置条件）；查工具链根目录是否解析正确（`--clt`）。
 4. **组件树只有 root 没 children**——引擎跑的不是 `PreviewBuild` 产物。正常流程不会发生；见
@@ -239,7 +252,7 @@ drive.mjs 覆盖了下列接口的常见用法；直接访问适合自定义驱�
 | 路由 | 说明 |
 |---|---|
 | `/` | 可交互 viewer 页面（含 `#a11y` 组件树 DOM 叠加层，浏览器自动化可见真实元素） |
-| `/status` | `{engineConnected, hasFrame, resolution, interactive, frameAgeMs, build, buildError, …}`；`build` 状态机：`idle→building→ok\|error` |
+| `/status` | `{engineConnected, hasFrame, resolution, interactive, frameAgeMs, build, buildError, buildAgeMs, buildStartedAgoMs, lastChangeAgeMs}`；`build` 状态机：`idle→building→ok\|error`；最后两个字段是 `wait --for-rebuild` 的排序判据 |
 | `/frame.jpg` | 当前帧 JPEG（无帧时 503） |
 | `/mjpeg` | `multipart/x-mixed-replace` 流 |
 | `/inspector` | ArkUI 组件树 JSON：`{$type, $rect, $debugLine, $attrs（含渲染文本 content/placeholder 与无障碍字段）, $children}`；引擎未就绪 503 |

@@ -2,6 +2,7 @@
 // auto-discovery. Pure assembly: no spawning, no servers — just the resolved object the
 // builder/engine/bridge read. Build-artifact paths and the ability ohmurl are derived here so
 // the layout knowledge lives in one place.
+import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { discoverToolchain, discoverProject } from './discovery.mjs';
@@ -76,10 +77,15 @@ export function resolveConfig(opts = {}) {
 export function buildPaths(config) {
   const { moduleDir, product, target } = config.project;
   const intermediates = path.join(moduleDir, '.preview', product, 'intermediates');
+  // The compiled-app dir is named `loader_out/` by CLI-driven PreviewBuild (hvigor 6.26.x) and
+  // `assets/` by other toolchain flows — probe for whichever this build produced.
+  const jsDir = ['loader_out', 'assets'].find(
+    (d) => fs.existsSync(path.join(intermediates, d, target, 'ets')),
+  ) || 'loader_out';
   return {
     intermediates,
     loaderJson: `${intermediates}/loader/${target}/loader.json`,
-    jsApp: `${intermediates}/assets/${target}/ets`,
+    jsApp: `${intermediates}/${jsDir}/${target}/ets`,
     appResource: `${intermediates}/res/${target}`,
   };
 }

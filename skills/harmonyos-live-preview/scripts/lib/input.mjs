@@ -59,6 +59,10 @@ function keyPressCommands(keyCode, keyString) {
 //   { t:'p', phase:'down'|'move'|'up', x, y }  — x/y are normalized 0..1 over the rendered frame
 //   { t:'key', key, code, keyString? }          — a keystroke for the focused input
 //   { t:'back' }                                — system back
+//   { t:'raw', command, args? }                 — escape hatch: send any pipe command verbatim
+//                                                 (the engine's vocabulary is wider than the viewer
+//                                                 needs — Resolution, LoadDocument, FoldStatus, … —
+//                                                 and this lets tooling drive it without a new route)
 export function eventToCommands(msg, resolution) {
   const [rw, rh] = resolution;
   switch (msg?.t) {
@@ -77,6 +81,11 @@ export function eventToCommands(msg, resolution) {
     }
     case 'back':
       return [{ version: VERSION, command: 'BackClicked', type: 'action', args: {} }];
+    case 'raw': {
+      if (typeof msg.command !== 'string' || !msg.command) return [];
+      const args = msg.args && typeof msg.args === 'object' ? msg.args : {};
+      return [{ version: VERSION, command: msg.command, type: 'action', args }];
+    }
     default:
       return [];
   }

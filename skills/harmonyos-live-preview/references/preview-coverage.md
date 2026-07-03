@@ -60,10 +60,13 @@
 ## `@Preview` 装饰器 / 组件预览
 
 DevEco 可以直接预览一个裸的 `@Component` struct（没有 `@Entry`），只要给它加上 `@Preview` 装饰器——
-每个源文件最多 10 个。**本 skill 不驱动这种模式**：它只通过 `--page` 定位 `@Entry` 路由（原因见
-[how-it-works.md § 与 DevEco 的 PreviewBuild 之间的关系](how-it-works.md#relation-to-devecos-previewbuild)
-——`pageType=component` 确实是一个真实存在的 `PreviewBuild` 注入配置，只是本编排器没有去设置它）。想要
-在页面模式下拿到同样的效果，用 SKILL.md 里的 harness 页面模式即可。
+每个源文件最多 10 个。启动方式（官方文档，更新时间 2026-03-20）：文件里只有 `@Preview` 时点
+Previewer 按钮默认进组件预览；`@Entry` 和 `@Preview` 并存时先页面预览、再点图标切换。
+**本 skill 不支持这种模式**：编译侧包装（`storePreviewComponents` 门控）和引擎侧开关（`-cpm true`）
+都真实存在且已验证生成，但纯 CLI 启动下引擎只出空帧，缺一步 DevEco IDE 前端的初始化——完整调查
+（含勘误：旧版所记 `pageType=component` 在 hvigor 6.26.1 中不成立，`PageType` 只有 `page|card`）见
+[how-it-works.md § 组件预览调查](how-it-works.md#component-preview-investigation)。想在页面模式下
+拿到同样的效果，用 SKILL.md 里的 harness 页面模式；含 `@Preview` 的文件在页面模式下照常预览。
 
 `PreviewParams`（`@Preview({...})` 的参数）控制的是单次预览级别的设备模拟，DevEco 把这些能力暴露给
 用户，本 skill 则把它们固化进了两套 `--device` 档位：
@@ -156,9 +159,11 @@ DevEco 的 `@ohos/hamock` 包（作为 `devDependency` 加入，然后 resync �
   `readonly` 和 `@ObjectLink` 属性没法用这种方式 mock；对于 `@Link`/`@Consume`/`@Prop`/
   `@BuilderParam` 子组件，DevEco 依然建议用 harness 父组件模式，而不是属性级 mock。
 
-（来自 SKILL.md 的补充说明）这是在 hvigor 的 `PreviewArkTS` 步骤里做的编译期源码替换，和 `PreviewBuild`
-所跑的是同一个步骤，不管是 DevEco 触发的，还是本 skill 的 `hvigorw ... PreviewBuild --no-daemon`
-触发的——所以理论上应该同样适用，但本 skill 还没有针对纯 CLI 构建独立确认过这一点。
+这是在 hvigor 的 `PreviewArkTS` 步骤里做的编译期源码替换，其生效门槛 `isPreview` 由注入配置
+`buildRoot=.preview` 驱动——本 skill 的 `builder.mjs` 现在始终传它（见
+[how-it-works.md](how-it-works.md#known-issue-previewarkts-crash)），所以 mock 的编译期替换机制在
+纯 CLI 构建下应当同样生效；不过"配置 mock-config.json5 → 页面真的渲染出 mock 数据"这条端到端路径
+本 skill 尚未实测过，用之前先小范围验证。
 
 ## 多设备 / 动态分辨率（DevEco IDE 特有功能，本 skill 未复现）
 

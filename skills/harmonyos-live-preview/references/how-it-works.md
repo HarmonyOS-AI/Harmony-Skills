@@ -12,7 +12,13 @@ HarmonyOS SDK 自带了一个独立的宿主渲染器 `Previewer`，位于
             (builder.mjs)              (engine.mjs)           (bridge.mjs)
 ```
 
-1. **构建**——`hvigorw --mode module -p module=<m>@<t> -p product=<p> -p previewer.replace.page=<page> PreviewBuild --no-daemon`。
+1. **构建**——`hvigorw --mode module -p module=<m>@<t> -p product=<p> -p buildRoot=.preview -p previewer.replace.page=<page> PreviewBuild --no-daemon`。
+   **`buildRoot=.preview` 是整条预览管线的总开关**：hvigor-ohos-plugin 的每个任务都用
+   `isPreview = extraConfig.get('buildRoot') === '.preview'` 来判定自己是否处于预览构建
+   （`pre-build.js`、`generate-loader-json.js`、`abstract-compile-resource.js` 等处均如此，直接读
+   已安装插件源码可证）。漏传它时资源任务写常规 `build/` 树、mock 配置不生效，而
+   `PreviewArkTS`（`addOhmurlToHarAbility`）却按 `.preview` 路径回读——见下方
+   [已知问题（已修复）](#known-issue-previewarkts-crash)。
    `PreviewBuild` 就是 DevEco 自己的预览守护进程所驱动的那套任务图（`PreviewUpdateAssets` →
    `ReplacePreviewerPage` → `PreviewArkTS` → `buildPreviewerResource`）——它是 hvigor-ohos-plugin 里的
    一个常规任务，无条件注册给每一个 HAP 模块（插件源码里的
@@ -21,9 +27,9 @@ HarmonyOS SDK 自带了一个独立的宿主渲染器 `Previewer`，位于
    源码行映射），而普通的 `assembleHap` 构建会把这些统统去掉——这一点是通过对比两种构建产物的
    `modules.abc`（大小不同、哈希不同）以及分别向引擎请求 `inspector` 树来确认的：`assembleHap` 产物
    得到的是一个只有 `{$type:"root", ...}`、没有子节点的空壳，`PreviewBuild` 产物得到的是完整的树。
-   产物落在 `.preview/<product>/intermediates/{loader,assets,res}/<target>/…`（和旧版
-   `build/.../{loader,loader_out,res}` 的结构一样，只是换到了 `.preview/` 下面，`loader_out/` 换成了
-   `assets/`）。`previewer.replace.page`（在 `ReplacePreviewerPage` 里通过
+   产物落在 `.preview/<product>/intermediates/{loader,<jsDir>,res}/<target>/…`，其中编译输出目录
+   `<jsDir>` 在 CLI 驱动的 PreviewBuild（hvigor 6.26.x，已实测）下叫 `loader_out/`，别的工具链流程
+   下也出现过 `assets/`——`config.mjs` 的 `buildPaths` 会探测两者，存在哪个用哪个。`previewer.replace.page`（在 `ReplacePreviewerPage` 里通过
    `hvigorCore.getExtraConfig()` 读取）指向正在预览的具体 `@Entry` 路由，和 `--page` 是对应的。
 2. **引擎**——启动 `Previewer`，指向那些构建产物。引擎需要三个 Unix-domain socket，这些通常是由 DevEco
    的预览服务器提供的（命令 / 图像 / trace）。本 skill 把这三个都创建出来；图像/trace 这两个 socket
@@ -82,12 +88,13 @@ HarmonyOS SDK 自带了一个独立的宿主渲染器 `Previewer`，位于
 这里说的是**构建**这一步，和上面页面模式/ability 模式的选择是正交的（那个选择关乎*已经构建好*的产物
 怎么被加载进引擎）。hvigor 的 **`PreviewBuild`** 任务链（`PreviewUpdateAssets` →
 `ReplacePreviewerPage` → `PreviewArkTS` → `buildPreviewerResource`），由注入配置
-`previewer.replace.page`、`previewer.replace.srcPath`、`pageType`（`page` 还是 `component`）驱动，会
-把 `main_pages.json` 重写成 `src=[<target>]`，并**重新编译**出一棵独立的 `<module>/.preview/<product>/`
-产物树，带有普通 `assembleHap` 构建所没有的 inspector/debug 元数据（见
-[获取 ArkUI inspector 树](#getting-the-arkui-inspector-tree)）——当 `pageType=component` 时，还能通过
-一个生成的包装器来预览裸 `@Preview` 组件（本 skill 并不驱动这个用法；它只针对 `@Entry` 页面，所以
-`pageType` 始终保持默认值 `page`）。
+`buildRoot=.preview`（isPreview 总开关，见流水线小节）和 `previewer.replace.page` 驱动，会把
+`main_pages.json` 重写成 `src=[<target>]`，并**重新编译**出一棵独立的
+`<module>/.preview/<product>/` 产物树，带有普通 `assembleHap` 构建所没有的 inspector/debug 元数据
+（见[获取 ArkUI inspector 树](#getting-the-arkui-inspector-tree)）。（勘误：本文档旧版称
+`pageType=component` 可用于预览裸 `@Preview` 组件——对着 hvigor 6.26.1 源码核实，`PageType` 枚举
+只有 `page|card`，`card` 对应服务卡片；组件预览根本不经由 `pageType`，其真实机制与不可用原因见
+[组件预览调查](#component-preview-investigation)。）
 
 本 skill 早期的版本以为整条链路都是仅限 IDE 的，于是刻意避开它，改用 `assembleHap` 来构建——页面模式
 下这样构建依然能复现出视觉画面，所以这个假设一直没被质疑过。但它是错的：`PreviewBuild` 和
@@ -118,6 +125,14 @@ SDK Previewer 本身就能交互——它和 DevEco 的 Previewer 面板驱动�
 - **键盘**——`KeyPress`，`args:{ isInputMethod:false, keyCode, keyAction, keyString, pressedCodes }`。
   `keyCode` 是 SDK 自己的值（`oh_key_code.h`：`A..Z`=2017–2042，`0..9`=2000–2009，空格=2050，
   Backspace=2055，Enter=2054）。一次按键会触发**down → press → up**，`keyString` 是要插入的字符。
+
+引擎的完整命令词汇表（从 `Previewer` 二进制的命令分发表提取）比 viewer 用到的宽得多：
+`MousePress/MouseMove/MouseRelease`、`KeyPress`、`BackClicked`、`inspector`/`inspectorDefault`、
+`LoadDocument`、`LoadContent`、`FastPreviewMsg`、`MemoryRefresh`、`ResolutionSwitch`、`Resolution`、
+`DeviceType`、`OrientationChanged`、`FoldStatus`、`AvoidAreaChanged`、`CrownRotate`、`PointEvent`、
+`DropFrame`、`DistributedCommunications` 等。`drive.mjs raw <Command> [json-args]`（走
+`POST /input` 的 `{t:"raw",command,args}`）可以直接实验它们；配合 `PREVIEW_ENGINE_LOG=1`（让
+`engine.mjs` 不再丢弃引擎 stdout）能看到每条命令的 `CommandLineInterface` 处理日志与应答。
 
 有一个不太直观的坑：**`keyAction` 用的是 Previewer 自己的枚举——`DOWN=0, UP=1, PRESS=2`——而不是
 `@ohos.multimodalInput.keyEvent.Action`（`DOWN=1, UP=2`）。** 如果用 `@ohos` 的值，引擎依然会确认
@@ -187,7 +202,7 @@ SDK Previewer 本身就能交互——它和 DevEco 的 Previewer 面板驱动�
 | `scripts/lib/status.mjs` | 内存中的构建状态通道 + ArkTS 报错提取 |
 | `scripts/lib/json5.mjs` | 宽松的 HarmonyOS `*.json5` 读取器（支持注释 + 尾随逗号） |
 | `scripts/lib/registry.mjs` | 存活编排器（PID/端口）的磁盘记录，用于精确清理 |
-| `scripts/drive.mjs` | agent 驱动 CLI：基于桥接层 HTTP 接口封装 `wait`（等构建/引擎/出帧齐备）、`shot`、`tree`/`find`（紧凑组件树/按文本定位）、`tap`/`swipe`/`type`/`key`/`back`；经注册表自动发现运行中的预览 |
+| `scripts/drive.mjs` | agent 驱动 CLI：基于桥接层 HTTP 接口封装 `wait`（等构建/引擎/出帧齐备，`--for-rebuild` 按变更/构建时间排序判定）、`shot`、`tree`/`find`（紧凑组件树/按文本定位）、`tap`/`swipe`/`type`/`key`/`back`、`raw`（任意管道命令）；经注册表自动发现运行中的预览 |
 | `scripts/capture-frame.mjs` | 调试用：直接从运行中的引擎抓一帧 JPEG |
 | `scripts/cleanup.mjs` | `SessionEnd` 钩子的目标脚本：根据注册表终止残留的预览 |
 
@@ -242,12 +257,9 @@ skill 选择在每次重新构建后重启引擎；桥接层会在屏幕上保�
 
 <a id="known-issue-previewarkts-crash"></a>
 
-## 已知问题：部分工具链版本上的 `PreviewArkTS` 崩溃（`addOhmurlToHarAbility`）
+## 已知问题（已修复）：`PreviewArkTS` 崩溃 `00308018`（`addOhmurlToHarAbility`）
 
-在 HarmonyOS SDK 26.0.0 Beta1 / hvigor 6.26.1 上复现（独立的 `command-line-tools` 构建和
-DevEco-Studio.app 内置的那份都一样——两者的 hvigor-ohos-plugin 版本相同，所以换工具链根目录也没用）：
-每一次 `PreviewBuild` 都会在 `PreviewArkTS` 这一步失败，包括一个刚用 `devecocli create` 脚手架出来、
-没有任何 HSP/HAR 依赖、也没有任何 mock 配置的单模块工程，报错如下：
+**症状**（本 skill 旧版在 SDK 26.0.0 / hvigor 6.26.1 上必现，任何工程任何页面）：
 
 ```text
 > hvigor ERROR: Failed :entry:default@PreviewArkTS...
@@ -255,21 +267,87 @@ DevEco-Studio.app 内置的那份都一样——两者的 hvigor-ohos-plugin 版
 The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
 ```
 
-用 `--stacktrace` 追踪下去，定位到
-`PreviewerArkCompile.addOhmurlToHarAbility`（`hvigor/hvigor-ohos-plugin/src/tasks/previewer-ark-compile.js`）
-内部的 `Object.writeFileSync`，它是在 `PreviewUpdateAssets`/`ReplacePreviewerPage`/
-`buildPreviewerResource` 都报告"Finished"之后紧接着被调用的——但此时磁盘上其实根本不存在
-`.preview/<product>/` 这棵树（确认过：即便前面的任务都打印了成功日志，`find <module>/.preview` 依然
-是空的），所以 `addOhmurlToHarAbility` 调用的
-`JsonUtil.getJson5Obj(this.pathInfo.getPreviewIntermediatesResModuleJsonPath())` 什么也读不到，结果是
-`undefined`，随后 `JSON5.stringify(undefined)`（这个调用本身返回的也是 `undefined`，不是字符串）就是
-`writeFileSync` 噎住的地方。这个问题在本 skill 自己的代码之上——`builder.mjs` 只是调用了
-`hvigorw ... PreviewBuild --no-daemon`，在引擎启动这一步之前从来不会去调用
-`addOhmurlToHarAbility` 或读取 `.preview/`——而且在 `DEVECO_SDK_HOME` 未设置的情况下同样能复现（所以
-不是那个环境变量可能引起的多 SDK 安装歧义问题）。它会挡住受影响工具链版本上的*每一次*预览，和 mock、
-HAR/HSP 依赖，或者具体工程都没有关系。
+**根因**（不是上游 bug，是本 skill 漏传了一个注入配置）：hvigor-ohos-plugin 的每个任务都以
+`extraConfig.get('buildRoot') === '.preview'` 判定 `isPreview`（`pre-build.js` 等处，常量
+`BuildDirConst.PREVIEW_BUILD_PATH = ".preview"`）。旧版 `builder.mjs` 不传 `buildRoot`，于是
+资源/资产任务全部按普通构建路径输出（`.preview/<product>/` 树保持为空，尽管任务日志打印
+"Finished"），而 `PreviewerArkCompile.addOhmurlToHarAbility` 无条件按 `.preview` 路径回读
+`module.json`——`JsonUtil.getJson5Obj(...)` 读到 `undefined`，`JSON5.stringify(undefined)` 还是
+`undefined`，`writeFileSync` 随即抛出上面的报错。旧版文档曾把它记为"疑似上游时序 bug、无解"，
+并推断"换非 beta 工具链"——这两条都不对。
 
-目前本 skill 这边还没找到修复办法——看起来像是这个特定 hvigor-ohos-plugin 版本里
-`buildPreviewerResource`/`PreviewUpdateAssets` 时序上的一个真实上游 bug（资源步骤实际上没有写出
-`PreviewArkTS` 接下来期望的东西，却依然打印成功日志）。如果你遇到一模一样的报错，在怀疑是工程或者本
-skill 有问题之前，值得先检查一下有没有更新的、非 beta 的 HarmonyOS SDK 版本。
+**修复**：`builder.mjs` 现在始终传 `-p buildRoot=.preview`。在同一台此前必崩的机器
+（SDK 26.0.0 / hvigor 6.26.1）上，`devecocli create` 全新工程的完整
+构建→渲染→交互→热重载循环已端到端验证通过。如果你在别的 fork/旧版脚本上再见到这个报错，先检查
+hvigorw 调用有没有带 `buildRoot=.preview`。
+
+<a id="component-preview-investigation"></a>
+
+## 组件预览（`@Preview`）调查——DevEco 的真实实现与复刻状态
+
+官方预览分两种（[UI预览文档](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ui-ide-previewer)，
+更新时间 2026-03-20）：**页面预览**靠 `@Entry`（本 skill 驱动的就是它），**组件预览**靠
+`@Preview`（单文件最多 10 个；文件里只有 `@Preview` 时 DevEco 默认进组件预览）。DevEco 的实现
+已通过 IDE 安装包逆向 + 本机真实会话日志/落盘产物完整还原，**核心是 IDE 侧代码生成，不是引擎黑魔法**：
+
+### DevEco IDE 的预览初始化（全部有实证）
+
+1. **写 `<module>/.preview/config/buildConfig.json`**（在 `~/Desktop/Demo` 的真实 DevEco 工程里
+   原样找到）：`isPreview:"true"`、`previewPagePath`（正在预览的 .ets）、`watchMode:"true"`、
+   `port`（IDE ↔ 常驻编译 worker 的通信端口）、`aceModuleBuild`（这套流程下编译输出目录叫
+   `assets/`——正是 CLI 的 `loader_out/` 之外另一种布局的来源）、以及 **`stageRouterConfig:
+   {paths[], contents[]}`**——一组"往这些路径写这些内容"的指令，`PreviewUpdateAssets` 任务照单
+   执行（重写 module.json / main_pages.json）。hvigor 的 `getPreviewCompileConfig` 会把整个
+   buildConfig.json **合并进编译 worker 配置**，所以 IDE 能经此注入任意编译参数。
+2. **写 `<module>/.preview/fakeuiability/FakeUIAbility.ets`**——模板
+   `fileTemplates/internal/FakeUIAbility.ets.ft` 藏在 IDE 的
+   `ohos-preview-plugin-*.jar` 里：一个标准 UIAbility，`onWindowStageCreate` 里
+   `loadContent('${PAGE_URL}')`。构建带 `-p previewMode=true` 时（`isPreviewProcess()` 的判定
+   条件，又一个注入配置），`process-profile` 任务发现该文件存在就把 `FakeUIAbility` 注册进
+   module.json（srcEntry 指回 `../../.preview/fakeuiability/FakeUIAbility.ets`）。
+3. **引擎以 ability 模式跑 FakeUIAbility**——本机 DevEco 6.0 的 `previewer.log` 里每次页面预览
+   的引擎参数都是 `-d -abn "FakeUIAbility" -abp …`（共 10 次会话，无一例外）。所以 DevEco 的
+   "页面预览"实际是让假 ability 去 `loadContent` 目标页；本 skill 的裸页面文档模式（不带
+   `-d/-abn/-abp`）是更简的等效路径，已端到端验证。
+4. **组件预览 = 生成 harness 页**——模板 `PreviewContainer.ets.ft`（同一个 jar）：
+   `@Entry struct PreviewContainer { ${linkCode}/${consumeCode}; build { ${originComponentName}({${linkParam}}) } }`
+   加上 **`${originPage}`（原文件内容整体拼接在底部）**——同文件作用域，所以未导出的裸
+   `@Preview` struct 也能被直接实例化，`@Link`/`@Consume` 由 IDE 生成桩填进占位符。这与
+   SKILL.md 推荐的 harness 模式是同一思想，只是 IDE 自动化了。生成文件在磁盘上无痕
+   （真实工程里找不到落盘的 PreviewContainer.ets），结合 buildConfig 的 `watchMode`+`port`
+   判断：IDE 把生成内容作为**内存中的源文件**经常驻编译 worker 通道顶替目标文件参与编译。
+5. **`-cpm true` 只是配套开关**——预览编译（`isPreview`）会给含 `@Preview` 的文件生成门控
+   `if (getPreviewComponentFlag()) { storePreviewComponents(N, "名字", new 组件(), …); previewComponent(); } else { 正常页面路径 }`
+   （已对编译产物 abc 字符串表验证在场）；`-cpm` 由 `libide_util.dylib` 解析、三个 JS 全局由
+   `libace_compatible.dylib` 注册、`AceContainer::isComponentMode_` 存在。
+
+### 纯 CLI 复刻的已验证/受阻点
+
+- ✅ `-p previewMode=true` 可让 CLI 构建注册 FakeUIAbility 进 module.json（实测，ohmurl 与
+  `abilityOhmurl()` 推导一致：`@normalized:N&&&entry/.preview/fakeuiability/FakeUIAbility&`）。
+- ❌ 但 FakeUIAbility **没被编进 `modules.abc`**（字符串表为证），引擎报
+  `Cannot find module '&entry/.preview/fakeuiability/FakeUIAbility&'`——编译入口收集对
+  `src/main/ets` 之外文件的处理还有一层未明条件（DevEco 流程里编译 worker 配置来自
+  buildConfig.json，可能正是差异所在）。
+- ❌ 把 harness 放 `.preview` 用相对路由（`../../../.preview/harness/…`）：能编译，但运行时
+  ohmurl 规范化不一致（编译侧 `entry/.preview/…` vs 运行时 `entry/src/main/ets/.preview/…`），
+  `Cannot find module`。
+- ❌ `-p previewer.replace.srcPath=<file>`：Stage 模型下无消费者（仅 legacy FA 任务与缓存 key），
+  对编译产物无影响（实测 abc 无变化）。
+- ❌ 单独 `-cpm true`（页面文档模式或缺 FakeUIAbility 的 ability 模式）：空帧零消息；管道命令
+  （`MemoryRefresh`/`LoadDocument`/tap）被接收但应答为空。附带发现：应用未加载时发 `inspector`
+  会让引擎段错误（`GetJSONTree` 栈），bridge 侧应先确认有帧再查询。
+- **可行的复刻路径**（未实现）：把生成的 PreviewContainer 写进 `src/main/ets` 下的临时路由
+  （规避 ohmurl 与编译入口两个问题），预览完删除——即 SKILL.md harness 模式的自动化。IDE 的
+  内存顶替通道依赖其私有 worker 协议，纯 CLI 不可复刻。
+- 实验工具：构建注入用 `PREVIEW_HVIGOR_ARGS`（builder.mjs 透传额外 `-p`），引擎命令用
+  `drive.mjs raw`，引擎日志用 `PREVIEW_ENGINE_LOG=1`。
+
+（勘误历史：本文档旧版曾记 `pageType=component` 为组件预览机制——hvigor 6.26.1 里 `PageType`
+只有 `page|card`，不成立；更早版本还记过"疑似缺 IDE 管道握手"——真实缺口如上，是编译侧的
+文件顶替，不是管道握手。）
+
+### 当前替代方案
+
+SKILL.md 的 harness 页面模式（手动版 PreviewContainer，机制同源）。含 `@Preview` 的文件在页面
+模式下照常编译渲染（门控走 else 分支），装饰器无副作用。

@@ -4,9 +4,15 @@
 
 export function createStatus() {
   let current = { state: 'idle', ts: Date.now() };
+  // Timestamp of the newest watched-file change, independent of the build state machine. Together
+  // with the build's startedAt this lets a client decide "has the latest edit been built yet?"
+  // without guessing from wall-clock windows (see drive.mjs `wait --for-rebuild`).
+  let lastChangeAt = null;
   return {
     get: () => current,
     set: (obj) => { current = { ...obj, ts: Date.now() }; },
+    markChange: () => { lastChangeAt = Date.now(); },
+    lastChangeAt: () => lastChangeAt,
   };
 }
 

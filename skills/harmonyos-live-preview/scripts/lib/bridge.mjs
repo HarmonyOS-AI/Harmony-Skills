@@ -136,6 +136,11 @@ export function createBridge(config, status, hooks = {}, log = (...a) => console
         frameAgeMs: lastFrame ? Date.now() - lastFrameAt : null,
         build: bs?.state ?? null,
         buildError: bs?.error ?? null,
+        buildAgeMs: bs?.ts ? Date.now() - bs.ts : null,
+        // Ordering pair for "has the latest edit been built?": a build whose start is at or after
+        // the newest watched change means the current artifacts include that change.
+        buildStartedAgoMs: bs?.startedAt ? Date.now() - bs.startedAt : null,
+        lastChangeAgeMs: status.lastChangeAt?.() ? Date.now() - status.lastChangeAt() : null,
       }));
     } else if (route === '/input' && req.method === 'POST') {
       // Browser input → engine commands (tap/swipe/key/back) over the command pipe. Coordinates
@@ -155,8 +160,10 @@ export function createBridge(config, status, hooks = {}, log = (...a) => console
       // ArkUI's own component tree (types, layout rects, source-line mapping, full attribute dump —
       // including the accessibility fields ArkUI already tracks per node), straight from the engine's
       // "inspector" command. Only populated when the engine is running a PreviewBuild bundle; see
-      // engine.mjs's getInspectorTree doc comment.
-      if (!getInspectorTree) { res.writeHead(503, { 'Content-Type': 'application/json' }); res.end(JSON.stringify({ error: 'engine not ready' })); return; }
+      // engine.mjs's getInspectorTree doc comment. Gated on a rendered frame: an "inspector" command
+      // sent before the app has loaded segfaults the engine (GetJSONTree on an empty tree — observed
+      // on SDK 26.0.0), so callers get a 503 until the first frame proves the app is up.
+      if (!getInspectorTree || !lastFrame) { res.writeHead(503, { 'Content-Type': 'application/json' }); res.end(JSON.stringify({ error: 'engine not ready' })); return; }
       getInspectorTree().then((tree) => {
         if (!tree) { res.writeHead(503, { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' }); res.end(JSON.stringify({ error: 'no tree available' })); return; }
         res.writeHead(200, { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' });

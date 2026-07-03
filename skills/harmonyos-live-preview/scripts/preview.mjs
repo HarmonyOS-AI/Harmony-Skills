@@ -116,15 +116,18 @@ async function main() {
 
   async function compile() {
     log('building (hvigorw PreviewBuild)…');
-    status.set({ state: 'building' });
+    // startedAt rides along through every state so /status clients can order this build against
+    // the last watched change (drive.mjs `wait --for-rebuild` relies on that ordering).
+    const startedAt = Date.now();
+    status.set({ state: 'building', startedAt });
     const { ok, output } = await build(config, log);
     if (ok) {
       stopEngine(engine);
       engine = launchEngine(config, { lws: config.ports.lws, display: display.display }, log);
       bridge.setEngine({ port: engine.port, sid: engine.sid, device: engine.device, send: engine.send, getInspectorTree: engine.getInspectorTree });
-      status.set({ state: 'ok' });
+      status.set({ state: 'ok', startedAt });
     } else {
-      status.set({ state: 'error', error: extractError(output) });
+      status.set({ state: 'error', error: extractError(output), startedAt });
       log('build failed — preview kept at last good state');
     }
   }
@@ -143,6 +146,7 @@ async function main() {
       if (!fs.existsSync(dir)) { log(`watch dir missing: ${dir}`); continue; }
       fs.watch(dir, { recursive: true }, (_evt, file) => {
         if (!file || !file.endsWith('.ets')) return;
+        status.markChange();
         clearTimeout(debounce);
         debounce = setTimeout(() => { log(`changed: ${file}`); rebuild(); }, 200);
       });
