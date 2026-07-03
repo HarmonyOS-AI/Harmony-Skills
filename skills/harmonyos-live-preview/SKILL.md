@@ -185,6 +185,97 @@ The preview frees itself at the right moments instead of waiting to be told — 
   `$TMPDIR/harmonyos-live-preview/sessions/` (not a broad `pkill`).
 - **Manual.** Ctrl-C (SIGINT/SIGTERM) still works — same single teardown path.
 
+## What can be previewed
+
+The `Previewer` engine is a UI sandbox, not a full HarmonyOS runtime — DevEco documents an explicit
+allowlist of ArkUI components and framework interfaces that actually execute inside it. This skill
+drives the same engine binary DevEco does, so the allowlist applies identically here; running it
+standalone neither widens nor narrows it. Full tables (mirrored from Huawei's docs) are in
+[references/preview-coverage.md](references/preview-coverage.md); the short version:
+
+- **Renders for real:** the common ArkTS layout/basic/drawing/canvas components (`Text`, `List`,
+  `Swiper`, `Navigation`, `Canvas` + 2D context, shape primitives, etc.) and a small set of framework
+  interfaces — `@ohos.animator`, `@ohos.mediaquery`, `@ohos.promptAction` (toast/dialog/actionMenu),
+  `@ohos.router` (page-to-page navigation **inside page mode**, not just ability mode — DevEco's own
+  page-preview docs confirm router-driven page switching works without an ability),
+  `@ohos.data.preferences`, and exactly one network call, `http.createHttp` (proxy env vars honored
+  from API 12+). `@ohos.file.fs` too, but only for Stage HAP/HSP, and DevEco gates it behind an
+  IDE-side "Enable file operation" toggle whose state lives outside anything this skill touches —
+  treat file-API pages as unverified until you've watched one render.
+- **Commonly missing** (not on the allowlist — may render blank, error, or just not simulate real
+  behavior): `Web` (ArkWeb), `Video`, `XComponent`, `RichEditor`, `Grid`/`GridItem` (the grid-*layout*
+  helpers `GridRow`/`GridCol` are allowlisted, the waterfall-style `Grid` component is not),
+  `FormComponent`/`PluginComponent` (cards), and most system capabilities beyond the interfaces above
+  (Bluetooth, most `@ohos.net.*` besides `http.createHttp`, sensors, most Ability/Context calls). None
+  of this is caught at compile time — a build can succeed while the page still renders wrong or throws
+  at runtime.
+- **A bare `@Preview`-only component (no `@Entry`)** — DevEco can preview these directly (component
+  preview, up to 10 per file); this skill only ever drives `@Entry` routes via `--page`, so target the
+  hosting page instead, or use the harness pattern below.
+
+Features DevEco's Previewer has that this skill doesn't expose yet: per-preview `colorMode`/`locale`/
+`orientation`/custom `width`/`height`/`dpi` (baked into the two `--device` profiles instead of settable
+per run), freeform drag-resize, side-by-side multi-device preview, and "极速预览" (attribute-only edits
+applied without a rebuild — every edit here is a full `PreviewBuild`, see
+[Trade-offs](#trade-offs-vs-deveco)).
+
+## When a page won't start: mock the dependency
+
+A page can fail to render — blank frame, or a runtime error only visible in the ArkTS console log —
+because it reaches something the previewer doesn't simulate: a network backend beyond
+`http.createHttp`, an HSP/shared library, state normally injected by a real UIAbility or DI container,
+or a `@Link`/`@Consume`/`@ObjectLink`/`@Prop` value a parent would supply at runtime. DevEco's own
+PreviewChecker lint names these exact patterns as unsupported
+(`no-unallowed-decorator-on-root-component`, `paired-use-of-consume-and-provide`,
+`no-page-import-unmocked-hsp` — see [references/preview-coverage.md](references/preview-coverage.md)
+for all five rules) — they describe facts about the engine, not an IDE-only restriction, so they apply
+here too even though this skill never runs PreviewChecker itself.
+
+The fix is the same in DevEco and here: **don't preview the real entry point — preview a small harness
+`@Entry` page that renders the same UI with mock data standing in for the dependency.**
+
+1. Add a route next to the real one (e.g. `pages/PreviewProfileCard.ets`) and register it in the pages
+   profile — `--page` only accepts routes already listed there (see [Preview modes](#preview-modes)).
+2. Import the *presentational* component — not the page/ability/view-model chain that fetches real
+   data — and feed it literal mock props/state, stubbing any callback that would otherwise hit a real
+   API:
+
+   ```ts
+   // pages/PreviewProfileCard.ets — preview-only, not part of the real navigation graph
+   import { ProfileCard } from '../components/ProfileCard';
+
+   @Entry
+   @Component
+   struct PreviewProfileCard {
+     @State user: UserVO = { name: 'Ada Lovelace', avatar: $r('app.media.startIcon'), followers: 128 };
+
+     build() {
+       Column() {
+         // stub the callback the real page wires to a network call / router push
+         ProfileCard({ user: this.user, onFollow: () => console.info('preview: follow tapped') })
+       }
+       .width('100%').height('100%')
+     }
+   }
+   ```
+
+   This is the same move DevEco recommends for `@Link`/`@Consume`/`@Prop` children: preview a parent
+   with legal, hard-coded defaults instead of the child directly.
+3. Preview it — `--page pages/PreviewProfileCard` — and iterate on the mock data through the same
+   hot-reload loop as any other page.
+4. Remove or gate the harness out of the shipping build once done; it's a real `@Entry` page like any
+   other, so it ships if left registered in the pages profile.
+
+For centralized mocking instead of a harness per page, DevEco ships `@ohos/hamock`: a dev-dependency
+plus a `src/mock/mock-config.json5` file that redirects specific module imports (system module, HSP, or
+local module) to a `.mock.ets` replacement at preview-build time, and a `@MockSetup`-decorated method
+for mocking a UI component's own properties/methods. It's a source-level substitution applied during
+the `PreviewArkTS` compile step — the same hvigor task this skill's `PreviewBuild` runs — so it should
+apply the same way whether that build is invoked by DevEco or by `hvigorw ... PreviewBuild --no-daemon`
+here. That said, this skill hasn't independently verified `mock-config.json5` against a CLI-only build;
+treat it as likely to work and confirm once before relying on it for something load-bearing. Full
+walkthrough: [references/preview-coverage.md](references/preview-coverage.md#official-mock-mechanism-hamock).
+
 ## Interacting with the preview
 
 The browser page forwards input straight to the running engine, so the preview behaves like a real

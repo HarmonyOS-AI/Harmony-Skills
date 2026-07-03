@@ -1,7 +1,7 @@
 {
   "name": "harmony-skills",
   "displayName": "HarmonyOS Skills",
-  "description": "HarmonyOS / ArkTS 开发技能集：ArkTS 编程规则、官方文档查找、SDK API 查找。",
+  "description": "HarmonyOS / ArkTS 开发技能集：ArkTS 编程规则、官方文档查找、SDK API 查找、零 DevEco 实时预览。",
   "author": {
     "name": "HarmonyOS-AI",
     "url": "https://github.com/HarmonyOS-AI"
@@ -14,6 +14,8 @@
     "arkui",
     "ohos",
     "ets",
-    "skills"
+    "skills",
+    "live-preview",
+    "hot-reload"
   ]
 }

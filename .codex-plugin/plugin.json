@@ -1,0 +1,36 @@
+{
+  "name": "harmony-skills",
+  "version": "0.1.0",
+  "description": "HarmonyOS / ArkTS development skill set: ArkTS language rules, official docs lookup, SDK API lookup, and a zero-DevEco live UI preview.",
+  "author": {
+    "name": "HarmonyOS-AI",
+    "url": "https://github.com/HarmonyOS-AI"
+  },
+  "homepage": "https://github.com/HarmonyOS-AI/Harmony-Skills",
+  "repository": "https://github.com/HarmonyOS-AI/Harmony-Skills",
+  "keywords": [
+    "harmonyos",
+    "arkts",
+    "arkui",
+    "ohos",
+    "ets",
+    "skills",
+    "live-preview",
+    "hot-reload"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "HarmonyOS Skills",
+    "shortDescription": "ArkTS rules, HarmonyOS docs/API lookup, and a zero-DevEco live UI preview",
+    "longDescription": "HarmonyOS / ArkTS development skill set: ArkTS language rules for compilable .ets code, fast lookup across ~2860 official HarmonyOS doc pages and 4000+ SDK API references, and a zero-DevEco live preview that renders ArkUI pages in a browser with tap/swipe/type interaction and edit-and-refresh.",
+    "developerName": "HarmonyOS-AI",
+    "category": "Developer Tools",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "defaultPrompt": [
+      "Check this ArkTS code against HarmonyOS language rules.",
+      "Look up a HarmonyOS SDK API and its permissions.",
+      "Preview this ArkUI page live in the browser."
+    ],
+    "brandColor": "#CE0E2D"
+  }
+}
