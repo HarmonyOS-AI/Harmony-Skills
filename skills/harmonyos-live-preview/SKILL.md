@@ -1,248 +1,193 @@
 ---
 name: harmonyos-live-preview
-description: Render a HarmonyOS ArkUI app's UI in a browser, interact with it (tap/swipe/type), and edit-and-refresh, using only the HarmonyOS command-line-tools — no DevEco Studio. Use when a user wants to preview a HarmonyOS/ArkTS/ArkUI app, see a .ets page in the browser, click/scroll/type into a live preview, get a live/hot-reload preview while editing .ets, or capture visual proof of a HarmonyOS UI without DevEco. 在浏览器里实时预览并交互（点击/滑动/输入）鸿蒙 HarmonyOS / ArkUI / ArkTS 应用界面，改 .ets 自动刷新，无需 DevEco Studio。触发词：鸿蒙预览、ArkUI 预览、ArkTS 预览、HarmonyOS 实时预览、可交互预览、.ets 预览、热重载、零 DevEco。
+description: Preview, screenshot, and interact with a HarmonyOS ArkUI app in a browser using only the command-line-tools — no DevEco Studio. Renders any @Entry page, rebuilds on every .ets edit, and ships a driver CLI (wait for rebuild / capture frame / read the live ArkUI component tree / tap / swipe / type). Use it whenever you modify ArkUI or .ets code and need visual proof it renders correctly (screenshot + component-tree assertions), whenever the user asks to preview, see, demo, or screenshot a HarmonyOS page, or to debug a blank or wrong-looking ArkUI page. 无需 DevEco Studio 在浏览器实时预览鸿蒙应用：改 .ets 自动重建，命令行等待构建、截图、读组件树、点击/滑动/输入。改完 ArkUI 代码要看效果、验证、截图，用户想预览鸿蒙页面效果，或排查白屏/样式错乱时都用它。触发词：鸿蒙预览、看下效果、界面截图、HarmonyOS/ArkUI/ArkTS/.ets 预览、可交互预览、热重载、白屏排查。
 ---
 
-# HarmonyOS ArkUI Live Preview (zero DevEco)
+# HarmonyOS ArkUI 实时预览
 
-Render a HarmonyOS ArkUI app in a browser, **interact with it** (tap, drag/swipe, scroll, type,
-system-back), and auto-refresh on every `.ets` edit — driven only by the HarmonyOS
-`command-line-tools` (hvigorw + the SDK's standalone `Previewer` engine). No DevEco Studio, no
-hvigor preview-service, no `projectConfig` reconstruction.
+在浏览器里渲染 HarmonyOS ArkUI 应用，与它交互（点击、滑动、输入、系统返回），每次编辑 `.ets` 自动
+重建刷新——全程只依赖 HarmonyOS 的 `command-line-tools`（hvigorw + SDK 自带的独立 `Previewer`
+引擎），不需要 DevEco Studio。对 agent 来说它同时是一个**验证工具**：截下来的帧可以直接用图像阅读
+能力查看，组件树可以做机器断言（渲染文本、布局矩形、映射回源码行）。
 
 ```
- edit .ets ─▶ hvigorw PreviewBuild ─▶ relaunch SDK Previewer engine ─▶ bridge ─▶ browser
-            (CLI builds the project    (renders the artifacts, streams   (JPEG over /frame.jpg,
-             model itself, with         JPEG over a WebSocket)            component tree over
-             inspector metadata)        ▲ also answers "inspector"        /inspector)
-                                        │ over the same command pipe             ▲ │
-                                        └─ the Unix command pipe ◀── /input ◀────┘ ▼ tap/swipe/
-                                                                                     type/back
+ 编辑 .ets ─▶ hvigorw PreviewBuild ─▶ 重启 SDK Previewer 引擎 ─▶ 桥接层(HTTP) ─▶ 浏览器 / drive.mjs
+             (产物内嵌 inspector       (JPEG 走 WebSocket 推流,     /frame.jpg /inspector
+              元数据)                   命令走 Unix 管道)            /input /status
 ```
 
-`PreviewBuild` is the same hvigor task graph DevEco's own preview daemon drives
-(`PreviewUpdateAssets` → `ReplacePreviewerPage` → `PreviewArkTS` → `buildPreviewerResource`) — it's a
-regular, CLI-invocable task (registered for every HAP module, not IDE-injected), and unlike a plain
-`assembleHap` build its ArkTS compile embeds inspector/debug metadata. That's what lets the engine's
-"inspector" command return a real component tree (types, layout rects, source-line mapping, full
-attribute dump) instead of a bare root — exposed as `GET /inspector` and mirrored into the viewer
-page as an invisible DOM tree (`#a11y`) positioned over the image, so accessibility tools / DOM
-queries can see actual elements instead of a flat screenshot.
+`PreviewBuild` 就是 DevEco 自己的预览守护进程驱动的那套 hvigor 任务图——每个 HAP 模块都注册好的常规
+任务，CLI 可直接调用。与 `assembleHap` 不同，它的编译产物内嵌 inspector 元数据，这是组件树接口能返回
+完整树（而不是空壳根节点）的前提。引擎参数、命令管道协议、结论是如何验证的，见
+[references/how-it-works.md](references/how-it-works.md)。
 
-This is the same control channel DevEco's preview-server uses: the SDK Previewer is interactive on
-its own — it takes pointer/keyboard commands over a Unix-domain command pipe. The skill keeps that
-pipe and forwards browser events to it, so the in-browser preview clicks, scrolls, and types just
-like DevEco's Previewer pane.
+## 前置条件
 
-## Prerequisites
+- **HarmonyOS 工具链**——独立 `command-line-tools` 或完整 DevEco Studio 均可，只需要它的**根目录**。
+  用 `--clt <dir>`（别名 `--sdk`）传入，或设 `$HARMONY_SDK`/`$HARMONY_CLT`；不传则自动探测
+  `~/command-line-tools`、`~/Library/command-line-tools`、`/Applications/DevEco-Studio.app`、
+  `/opt/deveco-studio`、`%ProgramFiles%\Huawei\DevEco Studio`。探测失败就先找到根目录（问用户或搜
+  常见安装位置）再传。两种布局（`bin/hvigorw` 或 `tools/hvigor/bin/hvigorw`）都能解析。
+- **Node.js ≥ 21**（需要全局 `WebSocket`）。无 npm 依赖，纯标准库。
+- **可构建的 HarmonyOS 工程**（根目录有 `build-profile.json5`）。
+- **平台：macOS / Linux。** 引擎经 Unix-domain socket 通信，运行时不支持 Windows。
+- **无头 Linux（ECS/容器/CI）可用，无需 GPU：** 没有 `$DISPLAY` 时编排器自动起 Xvfb + Mesa 软件渲染，
+  但依赖要预装——Debian/Ubuntu：`apt-get install -y xvfb libgl1 libglu1-mesa libgl1-mesa-dri
+  fonts-noto-cjk`；Fedora：`dnf install -y xorg-x11-server-Xvfb mesa-libGL mesa-dri-drivers
+  google-noto-sans-cjk-fonts`。桌面 Linux/macOS 直接复用现有 display。
 
-- The HarmonyOS toolchain installed — either standalone `command-line-tools` **or** a full DevEco
-  Studio. The skill needs exactly **one** input from it: the **toolchain root**. Everything else
-  (`hvigorw`, the SDK `Previewer` engine, the HMS previewer) is derived relative to that root, so no
-  other machine path is baked in.
-- Node.js ≥ 21 (global `WebSocket`). No npm dependencies — pure Node standard library.
-- A buildable HarmonyOS project (a `build-profile.json5` at its root).
-- **Platform:** macOS / Linux. The engine talks to the Previewer over Unix-domain sockets, so the
-  live preview does not run on Windows yet (toolchain *discovery* is Windows-aware, the runtime is not).
-- **Headless Linux / server (ECS, container, CI):** runs with **no GPU and no monitor**. The
-  Previewer creates its GL context through a bundled GLFW that needs an X11 display; on a box with no
-  `$DISPLAY` the orchestrator **auto-starts a virtual one (Xvfb)** and renders purely in software via
-  Mesa llvmpipe. Install that stack once:
-  - Debian/Ubuntu: `apt-get install -y xvfb libgl1 libglu1-mesa libgl1-mesa-dri fonts-noto-cjk`
-  - Fedora/CentOS: `dnf install -y xorg-x11-server-Xvfb mesa-libGL mesa-dri-drivers google-noto-sans-cjk-fonts`
+## 启动预览
 
-  A desktop Linux (or any box with `$DISPLAY` / `$WAYLAND_DISPLAY` already set) is used as-is — no
-  Xvfb is started and the existing display is never torn down. The SDK on a Linux box is the
-  `command-line-tools` Linux build; if it lives at a non-standard path, point `--clt` at it (or set
-  `$HARMONY_SDK`), since auto-detect only probes `~/command-line-tools` and `/opt/deveco-studio`.
-
-### Locating the toolchain root
-
-Pass the root with `--clt <dir>` (alias `--sdk <dir>`), or set `$HARMONY_SDK` / `$HARMONY_CLT`. With
-no override, these conventional locations are probed automatically: `~/command-line-tools`,
-`~/Library/command-line-tools`, and the platform's DevEco bundle (`/Applications/DevEco-Studio.app`
-on macOS, `%ProgramFiles%\Huawei\DevEco Studio` on Windows, `/opt/deveco-studio` on Linux). If
-auto-detection misses, **find the root first** (ask the user, or search common install dirs) and pass
-it in. A root resolves whether it is a standalone `command-line-tools` dir (`bin/hvigorw`) or a
-DevEco bundle (`tools/hvigor/bin/hvigorw`) — both share the same `sdk/…/Previewer` subtree, and a
-`.app` or its `Contents` are both accepted.
-
-## Workflow
-
-Run the single-process orchestrator in a long-lived terminal, pointed at the project root. It
-builds, launches the engine, serves the browser viewer, and watches `.ets` files — all in one
-process.
+单进程编排器：构建、起引擎、起浏览器 viewer、监视 `.ets`，一个进程全包。
 
 ```bash
 node ${CLAUDE_PLUGIN_ROOT}/skills/harmonyos-live-preview/scripts/preview.mjs \
   --project /absolute/path/to/HarmonyOSProject
 ```
 
-This default startup already builds with `PreviewBuild` (see the pipeline above) — the component
-tree is available from the moment it's up, with no extra flag: `GET /inspector` and the viewer's
-`#a11y` DOM overlay both work out of the box on every plain `preview_start`/`node preview.mjs`.
-
-The printed `http://127.0.0.1:8088` is a normal, **interactive** page — see
-[Interacting with the preview](#interacting-with-the-preview) — but how you *open* it depends on
-the host app; see below.
-
-### Opening it — prefer the host app's embedded browser
-
-If the agent is running inside an app that exposes its own embedded browser/preview
-capability — **Claude Code's `Claude Preview` tools** (`preview_start`/`preview_stop`/
-`preview_screenshot`/`preview_eval`/`preview_snapshot`/`preview_inspect`/`preview_network`/…) or
-**Codex**'s equivalent embedded-preview/browser tool — prefer that over spawning `preview.mjs`
-directly with a raw shell command and telling the user to go open a system browser. The host app's
-tool keeps the process lifecycle (start/stop/logs) managed instead of an untracked background
-process, and gives programmatic screenshot/DOM/network access for free — exactly what
-[Verifying it works](#verifying-it-works) and iterating on a UI change need.
-
-Concretely, for Claude Code:
-
-1. Make sure `.claude/launch.json` in the project root has a configuration entry for this preview
-   (create the file if it doesn't exist; if it already has other configurations, add this as one
-   more entry rather than overwriting them):
-   ```json
-   {
-     "version": "0.0.1",
-     "configurations": [
-       {
-         "name": "harmonyos-live-preview",
-         "runtimeExecutable": "node",
-         "runtimeArgs": [
-           "${CLAUDE_PLUGIN_ROOT}/skills/harmonyos-live-preview/scripts/preview.mjs",
-           "--project", "/absolute/path/to/HarmonyOSProject"
-         ],
-         "port": 8088
-       }
-     ]
-   }
-   ```
-   Adjust `--project` — and add `--page`/`--device`/`--ability-mode`/etc. to `runtimeArgs` — to
-   match the project and route actually being previewed.
-2. Call the preview-start tool by `name` (`harmonyos-live-preview`) instead of running the command
-   via Bash. It reuses an already-running server for the same config, so calling it again after an
-   edit (or from a fresh conversation) is cheap and won't spawn a duplicate orchestrator.
-3. Drive and verify it with that same tool family — screenshot, eval, network, snapshot/inspect —
-   instead of `curl`/`ps`; they're the natural fit for "does this look right" and "click that
-   button" while iterating on a change.
-
-Codex (or any other host with an analogous embedded-preview mechanism): apply the same preference
-— check for that mechanism's own config/launch convention and register the preview through it,
-rather than assuming Claude Code's `.claude/launch.json` format applies there too.
-
-Only fall back to raw `node preview.mjs` plus telling the user to open `http://127.0.0.1:8088`
-manually when no such embedded tooling is available (a plain terminal session, or a host app
-without any preview integration).
-
-The previewable module and its settings are auto-discovered from the project's own config files:
-the **entry-type module** (from `build-profile.json5` + each `module.json5`), its UIAbility, its
-package name (`oh-package.json5`), its pages profile, and the first page as the default route.
-Override any of it:
-
-| flag | purpose | default |
+| 参数 | 作用 | 默认值 |
 |---|---|---|
-| `--project <dir>` | HarmonyOS project root | current directory |
-| `--module <name>` | module to preview | the entry-type module |
-| `--page <route>` | **any `@Entry` route** to preview (DevEco-style per-page preview), e.g. `pages/AdaptiveIndex` | first page in the profile |
-| `--device <type>` | device profile — geometry + type: `phone` (1080×2340 portrait) or `tablet` (2048×1280 landscape) | `phone` |
-| `--clt`/`--sdk <dir>` | toolchain root (command-line-tools dir or DevEco bundle) | `$HARMONY_SDK`/`$HARMONY_CLT`, else common install locations |
-| `--port <n>` | browser viewer HTTP port | `8088` |
-| `--lws <n>` | engine image-websocket port | `41200` |
-| `--ability-mode` | launch the real UIAbility instead of rendering `--page` directly (see Preview modes) | off (page mode) |
-| `--no-watch` | build once, static view (no edit-and-refresh) | watch on |
-| `--keep-alive` | keep running after the browser tab closes (for headless / always-on use) | off (auto-release on) |
+| `--project <dir>` | 工程根目录 | 当前目录 |
+| `--module <name>` | 要预览的模块 | entry 类型模块（自动发现） |
+| `--page <route>` | 要预览的 `@Entry` 路由，如 `pages/AdaptiveIndex` | pages 配置里第一个页面 |
+| `--device <type>` | `phone`（1080×2340@480dpi 竖屏 = 360×780vp）或 `tablet`（2048×1280@320dpi 横屏 = 1024×640vp）——断点/响应式调试按 vp 算 | `phone` |
+| `--clt`/`--sdk <dir>` | 工具链根目录 | 见前置条件 |
+| `--port <n>` | viewer HTTP 端口 | `8088` |
+| `--ability-mode` | 跑真正的 UIAbility 而不是直接渲染 `--page`（见下） | 关（页面模式） |
+| `--no-watch` | 只构建一次，不做编辑后自动刷新 | 默认 watch |
+| `--keep-alive` | 浏览器 tab 关闭后不自动释放（无头/常驻用） | 默认自动释放 |
 
-### Preview modes
+模块、UIAbility、包名、pages 配置都从工程配置文件自动发现，以上参数只是覆盖项。
 
-- **Page mode (default)** — renders the `--page` `@Entry` route directly, exactly like DevEco's
-  per-page preview. The engine is launched without `-d/-abn/-abp`, so **no UIAbility runs**; any
-  `@Entry` in the module's pages profile previews without recompiling or touching the ability's
-  `loadContent`. This is why `--page pages/AdaptiveIndex` shows that page even when the app's
-  ability loads `pages/Index`.
-- **Ability mode (`--ability-mode`)** — launches the real UIAbility (its `onCreate` /
-  `onWindowStageCreate` lifecycle) and shows whatever it `loadContent`s. The displayed page is then
-  fixed by the ability, so `--page` has no effect. Use it when you need the ability's startup logic,
-  not an isolated page.
+**换页面 = 重启编排器**：`--page` 是启动参数，没有运行时切页接口。预览另一个 `@Entry` 就带新
+`--page` 重启（Claude Preview 场景：改 `launch.json` 的 `runtimeArgs` 再 preview-start 一次）。
+`--page` 只接受模块 pages 配置（`$profile:main_pages`）里列出的路由；只有 `@Preview` 没有 `@Entry`
+的裸组件不能直接指定——预览承载它的页面，或用 [harness 模式](#mock-the-dependency)。
 
-`--page` accepts only routes listed in the module's pages profile (`$profile:main_pages`). A bare
-`@Preview` component that is not an `@Entry` page cannot be addressed this way — preview the `@Entry`
-page that hosts it.
+### 优先用宿主应用的内嵌浏览器
 
-### Lifecycle / releasing the preview
+如果当前 agent 运行在自带内嵌浏览器/预览工具的宿主里——如 **Claude Code 的 `Claude Preview` 工具**
+（`preview_start`/`preview_screenshot`/`preview_eval`/…）或 **Codex** 的等价机制——优先用它们，
+而不是裸 shell 起 `preview.mjs` 再让用户自己开浏览器：宿主工具管得住进程生命周期，不留脱管后台进程，
+还自带截图/DOM 访问。
 
-The preview frees itself at the right moments instead of waiting to be told — no orphaned
-`Previewer` engines:
+Claude Code 的接法：在工程根目录 `.claude/launch.json` 里加一项（文件不存在就建；已有其他配置就
+追加，别覆盖）：
 
-- **Browser tab closed → auto-release.** The viewer page holds a `/alive` SSE channel open; when you
-  close the tab the orchestrator stops the engine, closes the bridge, and exits (after a ~10s grace
-  that absorbs a page reload). This only arms **after a browser has connected**, so the headless
-  `curl` flow below — which never opens a browser — keeps running. Pass `--keep-alive` to disable
-  auto-release (headless or always-on use).
-- **Session ended → guaranteed cleanup.** A bundled `SessionEnd` hook
-  ([hooks/hooks.json](../../hooks/hooks.json) → `scripts/cleanup.mjs`) terminates any preview still
-  running when the Claude Code session ends, found precisely via a registry file under
-  `$TMPDIR/harmonyos-live-preview/sessions/` (not a broad `pkill`).
-- **Manual.** Ctrl-C (SIGINT/SIGTERM) still works — same single teardown path.
+```json
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "harmonyos-live-preview",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "${CLAUDE_PLUGIN_ROOT}/skills/harmonyos-live-preview/scripts/preview.mjs",
+        "--project", "/absolute/path/to/HarmonyOSProject"
+      ],
+      "port": 8088
+    }
+  ]
+}
+```
 
-## What can be previewed
+然后按 `name` 调 preview-start 工具（它会复用同配置已在跑的服务，重复调用不会起重复的编排器）。
+Codex 或其他宿主：查该宿主自己的启动约定注册预览，不要照搬 `.claude/launch.json` 格式。
+完全没有内嵌工具时（纯终端），直接跑 `preview.mjs`，让用户打开打印出的 `http://127.0.0.1:8088`。
 
-The `Previewer` engine is a UI sandbox, not a full HarmonyOS runtime — DevEco documents an explicit
-allowlist of ArkUI components and framework interfaces that actually execute inside it. This skill
-drives the same engine binary DevEco does, so the allowlist applies identically here; running it
-standalone neither widens nor narrows it. Full tables (mirrored from Huawei's docs) are in
-[references/preview-coverage.md](references/preview-coverage.md); the short version:
+无论哪种方式启动，下面的 `drive.mjs` 验证/交互命令都照常可用——编排器会把自己登记到注册表，
+`drive.mjs` 自动发现它（多实例时传 `--port`）。
 
-- **Renders for real:** the common ArkTS layout/basic/drawing/canvas components (`Text`, `List`,
-  `Swiper`, `Navigation`, `Canvas` + 2D context, shape primitives, etc.) and a small set of framework
-  interfaces — `@ohos.animator`, `@ohos.mediaquery`, `@ohos.promptAction` (toast/dialog/actionMenu),
-  `@ohos.router` (page-to-page navigation **inside page mode**, not just ability mode — DevEco's own
-  page-preview docs confirm router-driven page switching works without an ability),
-  `@ohos.data.preferences`, and exactly one network call, `http.createHttp` (proxy env vars honored
-  from API 12+). `@ohos.file.fs` too, but only for Stage HAP/HSP, and DevEco gates it behind an
-  IDE-side "Enable file operation" toggle whose state lives outside anything this skill touches —
-  treat file-API pages as unverified until you've watched one render.
-- **Commonly missing** (not on the allowlist — may render blank, error, or just not simulate real
-  behavior): `Web` (ArkWeb), `Video`, `XComponent`, `RichEditor`, `Grid`/`GridItem` (the grid-*layout*
-  helpers `GridRow`/`GridCol` are allowlisted, the waterfall-style `Grid` component is not),
-  `FormComponent`/`PluginComponent` (cards), and most system capabilities beyond the interfaces above
-  (Bluetooth, most `@ohos.net.*` besides `http.createHttp`, sensors, most Ability/Context calls). None
-  of this is caught at compile time — a build can succeed while the page still renders wrong or throws
-  at runtime.
-- **A bare `@Preview`-only component (no `@Entry`)** — DevEco can preview these directly (component
-  preview, up to 10 per file); this skill only ever drives `@Entry` routes via `--page`, so target the
-  hosting page instead, or use the harness pattern below.
+## 核心循环：编辑 → 重建 → 验证
 
-Features DevEco's Previewer has that this skill doesn't expose yet: per-preview `colorMode`/`locale`/
-`orientation`/custom `width`/`height`/`dpi` (baked into the two `--device` profiles instead of settable
-per run), freeform drag-resize, side-by-side multi-device preview, and "极速预览" (attribute-only edits
-applied without a rebuild — every edit here is a full `PreviewBuild`, see
-[Trade-offs](#trade-offs-vs-deveco)).
+最常见的用法：你刚改了 `.ets`，要拿到"真的生效了"的证据再向用户汇报。
 
-## When a page won't start: mock the dependency
+```bash
+DRIVE="node ${CLAUDE_PLUGIN_ROOT}/skills/harmonyos-live-preview/scripts/drive.mjs"
 
-A page can fail to render — blank frame, or a runtime error only visible in the ArkTS console log —
-because it reaches something the previewer doesn't simulate: a network backend beyond
-`http.createHttp`, an HSP/shared library, state normally injected by a real UIAbility or DI container,
-or a `@Link`/`@Consume`/`@ObjectLink`/`@Prop` value a parent would supply at runtime. DevEco's own
-PreviewChecker lint names these exact patterns as unsupported
-(`no-unallowed-decorator-on-root-component`, `paired-use-of-consume-and-provide`,
-`no-page-import-unmocked-hsp` — see [references/preview-coverage.md](references/preview-coverage.md)
-for all five rules) — they describe facts about the engine, not an IDE-only restriction, so they apply
-here too even though this skill never runs PreviewChecker itself.
+# 1) 保存文件后，阻塞到 watcher 触发的这一轮重建结束
+$DRIVE wait --for-rebuild        # 构建失败 → 打印 ArkTS 报错行并 exit 1
+# 2) 截一帧，用你的图像阅读能力亲眼看
+$DRIVE shot /tmp/preview.jpg     # 然后 Read /tmp/preview.jpg
+# 3) 机器断言：确认新文案/新组件真的渲染出来了
+$DRIVE find "提交订单"            # 打印匹配节点的 rect/归一化中心/源码行；找不到 exit 1
+$DRIVE tree --depth 6            # 紧凑组件树大纲：type "文本" rect @源码行
+```
 
-The fix is the same in DevEco and here: **don't preview the real entry point — preview a small harness
-`@Entry` page that renders the same UI with mock data standing in for the dependency.**
+为什么是 `wait --for-rebuild` 而不是 sleep 或立刻查状态：watcher 有 200ms 防抖，保存后立刻查
+`/status` 看到的还是**上一轮**构建的 `ok`，会误报成功。`--for-rebuild` 先等状态翻到 `building`
+再等结果；8 秒内没翻则 exit 3——说明这次编辑根本没触发构建。watcher 只监听
+`<module>/src/main/ets` 下的 **`.ets`** 文件：改 `resources/`（string.json、图片）、`module.json5`
+或其他模块的文件都不会触发重建——touch 一个被 watch 的 `.ets`（或重启编排器）让改动进下一轮构建；
+开着 `--no-watch` 时同理。
 
-1. Add a route next to the real one (e.g. `pages/PreviewProfileCard.ets`) and register it in the pages
-   profile — `--page` only accepts routes already listed there (see [Preview modes](#preview-modes)).
-2. Import the *presentational* component — not the page/ability/view-model chain that fetches real
-   data — and feed it literal mock props/state, stubbing any callback that would otherwise hit a real
-   API:
+另外两个容易误报成功的点：
+
+- **构建失败时画面保留上一帧正常内容**——旧帧截图看起来一切正常。先看 `wait` 的退出码，再信截图。
+- 每次重建后引擎整个重启（一次完整 `PreviewBuild`，约 3–7 秒），期间 `engineConnected` 短暂为
+  false——`wait` 会把构建、引擎重连、出帧三个条件都等齐才返回。
+
+`tree`/`find` 输出里的 `@ entry/src/main/ets/pages/Index.ets(20:9)` 来自引擎的 `$debugLine`：
+看到哪个节点渲染得不对，直接映射回源码行去改，不用肉眼在工程里找。
+
+## 与预览交互
+
+浏览器 viewer 页面本身就能点击/滑动/物理键盘输入/系统返回（给用户演示用）。脚本化驱动用 drive.mjs：
+
+```bash
+$DRIVE tap "登录"                 # 按渲染文本找元素点其中心；多个匹配会列出，加 --index 消歧
+$DRIVE tap 0.5,0.3               # 坐标：0..1 归一化；>1 按设备像素算，find 输出可直接粘贴
+$DRIVE swipe 0.5,0.75 0.5,0.25   # 向上滑=列表向下滚；move 事件按真实时间分布，fling 才有速度
+$DRIVE tap "请输入内容" && $DRIVE type "hello 123"   # 先 tap 输入框聚焦，再打字
+$DRIVE key Enter                 # Enter / Backspace / Tab / Space
+$DRIVE back                      # 系统返回：弹路由栈 / 关对话框
+```
+
+交互后的验证与编辑后一样：`shot` + `find`/`tree` 断言状态变化（点了"关注"之后 `find "已关注"`）。
+交互能力在热重载之后依然保持——输入通道随引擎重启自动重接。
+
+**键盘通道没有 IME：只有 `[a-zA-Z0-9 ]` + Enter/Backspace/Tab 能到达引擎，中文和符号打不进去。**
+要验证中文文本的显示，把值写进页面/harness 的 `@State` 或 mock 数据，而不是运行时打字。
+
+自己手搓 `/input` 协议时（不经 drive.mjs）：body 为 `{t:"p",phase:"down|move|up",x,y}`（0..1 归一
+化）、`{t:"key",key,code}`、`{t:"back"}`。注意键盘 keyAction 用 Previewer 自己的枚举
+（DOWN=0/UP=1/PRESS=2），不是 `@ohos.multimodalInput` 的——用错了引擎照样 ack `result:true` 但字
+不上屏；drive.mjs 和 viewer 已内置正确值，协议细节见
+[how-it-works.md](references/how-it-works.md#driving-input-interaction)。
+
+## 页面起不来？按顺序排查
+
+1. **`$DRIVE wait` exit 1（`build:"error"`）**——读打印出的 ArkTS 报错行。若报错为
+   `PreviewArkTS ... Error Code: 00308018` + `addOhmurlToHarAbility` / “data argument must be of
+   type string”：这是 SDK 26.0.0 Beta1 / hvigor 6.26.1 的已知上游 bug，任何工程任何页面都会挂，
+   与你的代码无关——换非 beta 工具链。细节见
+   [how-it-works.md](references/how-it-works.md#known-issue-previewarkts-crash)。
+2. **构建 ok 但白屏/空帧**——页面运行时访问了 Previewer 模拟不了的东西。引擎是 UI 沙箱不是完整
+   运行时：白名单外的组件（`Web`、`Video`、`XComponent`、`RichEditor`、瀑布流 `Grid`——布局辅助的
+   `GridRow`/`GridCol` 反而在白名单里）和接口（除 `http.createHttp` 外的网络、传感器、大多数
+   Ability/Context 调用）**构建照样成功**，运行时才白屏或抛异常。对照
+   [references/preview-coverage.md](references/preview-coverage.md) 的完整白名单；依赖注入类失败
+   （`@Link`/`@Consume` 根组件、未 mock 的 HSP、真实后端）→ 用下面的 harness 模式。
+3. **`engineConnected:false` 且不恢复**——引擎进程没起来。无头 Linux 查 Xvfb/Mesa 依赖是否装齐
+   （见前置条件）；查工具链根目录是否解析正确（`--clt`）。
+4. **组件树只有 root 没 children**——引擎跑的不是 `PreviewBuild` 产物。正常流程不会发生；见
+   [how-it-works.md](references/how-it-works.md#getting-the-arkui-inspector-tree)。
+
+<a id="mock-the-dependency"></a>
+
+## 当页面起不来时：模拟依赖（harness 模式）
+
+页面依赖真实后端、HSP、UIAbility 注入的状态，或父组件运行时提供的 `@Link`/`@Consume`/`@ObjectLink`
+值时，**不要直接预览真实入口页——加一个小的 harness `@Entry` 页，用 mock 数据渲染同一份 UI**（与
+DevEco 对这类组件的官方建议同思路；PreviewChecker 的五条规则见
+[preview-coverage.md](references/preview-coverage.md#previewchecker-rules)）。
+
+1. 在真实路由旁边加 `pages/PreviewProfileCard.ets` 并注册进 pages 配置（`--page` 只认配置里的路由）。
+2. 引入*展示型*组件本身（不是取真实数据的页面/view-model 链路），喂字面量 mock props，回调换桩函数：
 
    ```ts
-   // pages/PreviewProfileCard.ets — preview-only, not part of the real navigation graph
-   import { ProfileCard } from '../components/ProfileCard';
+   // pages/PreviewProfileCard.ets — 仅用于预览，不属于真正的导航图
+   import { ProfileCard, UserVO } from '../components/ProfileCard';
 
    @Entry
    @Component
@@ -251,7 +196,6 @@ The fix is the same in DevEco and here: **don't preview the real entry point —
 
      build() {
        Column() {
-         // stub the callback the real page wires to a network call / router push
          ProfileCard({ user: this.user, onFollow: () => console.info('preview: follow tapped') })
        }
        .width('100%').height('100%')
@@ -259,104 +203,54 @@ The fix is the same in DevEco and here: **don't preview the real entry point —
    }
    ```
 
-   This is the same move DevEco recommends for `@Link`/`@Consume`/`@Prop` children: preview a parent
-   with legal, hard-coded defaults instead of the child directly.
-3. Preview it — `--page pages/PreviewProfileCard` — and iterate on the mock data through the same
-   hot-reload loop as any other page.
-4. Remove or gate the harness out of the shipping build once done; it's a real `@Entry` page like any
-   other, so it ships if left registered in the pages profile.
+   注意 ArkTS 的坑：`{...}` 字面量只能初始化没有自定义构造函数/`readonly` 字段/方法的类型——
+   `interface` 天然可以，带构造函数的 `class` 必须 `new UserVO(...)`，否则构建直接死在
+   `arkts-no-obj-literals-as-types`，什么都渲染不出来。
+3. `--page pages/PreviewProfileCard` 预览，热重载循环里迭代 mock 数据。
+4. 完事删掉 harness 或排除出正式构建——它是普通 `@Entry`，留在 pages 配置里会被打进正式包。
 
-For centralized mocking instead of a harness per page, DevEco ships `@ohos/hamock`: a dev-dependency
-plus a `src/mock/mock-config.json5` file that redirects specific module imports (system module, HSP, or
-local module) to a `.mock.ets` replacement at preview-build time, and a `@MockSetup`-decorated method
-for mocking a UI component's own properties/methods. It's a source-level substitution applied during
-the `PreviewArkTS` compile step — the same hvigor task this skill's `PreviewBuild` runs — so it should
-apply the same way whether that build is invoked by DevEco or by `hvigorw ... PreviewBuild --no-daemon`
-here. That said, this skill hasn't independently verified `mock-config.json5` against a CLI-only build;
-treat it as likely to work and confirm once before relying on it for something load-bearing. Full
-walkthrough: [references/preview-coverage.md](references/preview-coverage.md#official-mock-mechanism-hamock).
+要集中式 mock（模块级替身 `src/mock/mock-config.json5`，或 `@MockSetup` 属性级打桩），两套官方机制
+的用法、各自是否需要 `@ohos/hamock` 依赖、以及在纯 CLI 构建下的适用性论证，见
+[preview-coverage.md](references/preview-coverage.md#official-mock-mechanism-hamock)。
 
-## Interacting with the preview
+## 预览模式（page vs ability）
 
-The browser page forwards input straight to the running engine, so the preview behaves like a real
-(if mocked) device:
+- **页面模式（默认）**——直接渲染 `--page` 指定的 `@Entry` 路由，等价于 DevEco 的单页预览。不运行
+  任何 UIAbility，所以即使 ability 的 `loadContent` 加载的是别的页面，任意已注册 `@Entry` 都能显示。
+  `@ohos.router` 的页面间跳转在此模式下照样可用。
+- **Ability 模式（`--ability-mode`）**——启动真正的 UIAbility（走 `onCreate`/`onWindowStageCreate`
+  生命周期），显示它 `loadContent` 的内容；此时 `--page` 不生效。需要走 ability 启动逻辑时才用。
 
-- **Tap** — click anywhere on the screen. Triggers `onClick`, navigates `Navigation`/router, etc.
-- **Swipe / scroll / drag** — press and drag on the screen. Scrolls `List`/`Scroll`, drags sliders.
-- **Type** — click the `⌨ 键盘` button (or focus the screen) to capture your physical keyboard, then
-  click a `TextInput`/`TextArea` to focus it and type. Letters, digits, and space are forwarded;
-  Backspace/Enter too. The bound state updates live.
-- **System back** — the `← 返回` button sends a back event (pops the route / closes a dialog).
+## 生命周期／释放
 
-Headless or scripted? Drive it with HTTP `POST /input` (coordinates are normalized `0..1` over the
-rendered frame; the bridge scales them to device px):
+不会留孤儿 `Previewer` 进程，不需要用户手动收拾：
 
-```bash
-# tap the center of the screen
-curl -sX POST http://127.0.0.1:8088/input -d '{"t":"p","phase":"down","x":0.5,"y":0.5}'
-curl -sX POST http://127.0.0.1:8088/input -d '{"t":"p","phase":"up","x":0.5,"y":0.5}'
-# swipe up (scroll down): down high, move low, up
-curl -sX POST http://127.0.0.1:8088/input -d '{"t":"p","phase":"down","x":0.5,"y":0.75}'
-curl -sX POST http://127.0.0.1:8088/input -d '{"t":"p","phase":"move","x":0.5,"y":0.25}'
-curl -sX POST http://127.0.0.1:8088/input -d '{"t":"p","phase":"up","x":0.5,"y":0.25}'
-# type a character into the focused input, and go back
-curl -sX POST http://127.0.0.1:8088/input -d '{"t":"key","key":"a","code":"KeyA"}'
-curl -sX POST http://127.0.0.1:8088/input -d '{"t":"back"}'
-```
+- **关浏览器 tab → 自动释放**（viewer 的 SSE 存活通道断开后 ~10 秒宽限）。只在浏览器连接过之后才
+  生效，所以纯 `drive.mjs`/curl 的无头流程不会被误杀；`--keep-alive` 彻底关闭。
+- **会话结束 → 兜底清理**：`SessionEnd` 钩子（[hooks/hooks.json](../../hooks/hooks.json) →
+  `scripts/cleanup.mjs`）按 `$TMPDIR/harmonyos-live-preview/sessions/` 注册表精确终止（不是
+  `pkill`）。
+- **手动**：Ctrl-C。三条路径走同一个幂等 shutdown。
 
-Interaction also survives a hot reload: after each rebuild the engine is relaunched and the input
-channel is rewired automatically. (`/status` reports `"interactive":true` once the channel is live.)
+## HTTP 接口（桥接层）
 
-## Verifying it works
+drive.mjs 覆盖了下列接口的常见用法；直接访问适合自定义驱动或宿主工具（`preview_eval` 等）：
 
-A loaded page is not proof the stream is healthy. Confirm a real frame renders before reporting
-success, using either of:
+| 路由 | 说明 |
+|---|---|
+| `/` | 可交互 viewer 页面（含 `#a11y` 组件树 DOM 叠加层，浏览器自动化可见真实元素） |
+| `/status` | `{engineConnected, hasFrame, resolution, interactive, frameAgeMs, build, buildError, …}`；`build` 状态机：`idle→building→ok\|error` |
+| `/frame.jpg` | 当前帧 JPEG（无帧时 503） |
+| `/mjpeg` | `multipart/x-mixed-replace` 流 |
+| `/inspector` | ArkUI 组件树 JSON：`{$type, $rect, $debugLine, $attrs（含渲染文本 content/placeholder 与无障碍字段）, $children}`；引擎未就绪 503 |
+| `/input` | `POST` 输入事件 → 引擎命令（见上） |
+| `/alive` | viewer 的 SSE 存活通道（驱动自动释放） |
 
-- `GET http://127.0.0.1:<port>/status` → expect `"engineConnected":true` and `"hasFrame":true`.
-  On a compile error it returns `"build":"error"` with `buildError` (the ArkTS error lines), and
-  the last good frame stays on screen.
-- `GET http://127.0.0.1:<port>/frame.jpg` → a JPEG of the current UI. For headless proof without
-  a browser, save it and inspect it.
-- `GET http://127.0.0.1:<port>/inspector` → the component tree as JSON. A populated tree (non-empty
-  `$children`, real `$attrs.content`/`placeholder` text) confirms the engine is running a
-  `PreviewBuild` bundle, not just rendering pixels.
+## 相比 DevEco 的权衡
 
-A standalone debug grab (auto-discovers the running engine via `ps`):
-
-```bash
-node ${CLAUDE_PLUGIN_ROOT}/skills/harmonyos-live-preview/scripts/capture-frame.mjs /tmp/frame.jpg
-```
-
-## Endpoints (bridge)
-
-- `/` — the interactive viewer page (forwards input, polls `/status` + `/frame.jpg`, overlays build
-  state, shows ArkTS errors)
-- `/frame.jpg` — latest JPEG frame
-- `/mjpeg` — `multipart/x-mixed-replace` stream
-- `/inspector` — the ArkUI component tree (`{$type, $rect, $debugLine, $attrs, $children}`,
-  recursive), straight from the engine's own "inspector" command. `503` if the engine hasn't answered
-  yet (first request after a (re)build can take a moment). Same data the viewer's `#a11y` DOM overlay
-  is built from.
-- `/input` — `POST` browser input → engine commands. Body: `{t:"p",phase,x,y}` (pointer, normalized),
-  `{t:"key",key,code}` (keystroke), or `{t:"back"}`. Returns `{sent}`; `503` if no engine yet.
-- `/status` — JSON: `{ engineConnected, hasFrame, port, device, resolution, interactive, frameAgeMs, build, buildError }`
-- `/alive` — SSE liveness channel the viewer holds open; when the last one closes the orchestrator
-  auto-releases (unless `--keep-alive`). Drives the browser-close teardown.
-
-## Trade-offs vs DevEco
-
-- **Interaction: parity.** Tap, swipe/scroll, text input, and system-back all work — the skill uses
-  the same command channel the SDK Previewer exposes.
-- **Reload: slower.** Reload = full `PreviewBuild` (~3–7s; it's the same `PreviewArkTS` compile
-  DevEco's own preview daemon runs, just invoked one-shot via `--no-daemon` instead of through a
-  long-lived hvigor daemon) + engine restart, versus DevEco's sub-second in-place hot-swap. That
-  hot-swap is **not reproducible standalone**: the SDK Previewer reads the compiled bundle at launch
-  and does not re-read it in place — only a relaunch picks up new code (verified:
-  `ReloadRuntimePage`/`LoadDocument` against a live engine do not refresh the bundle). DevEco's fast
-  path depends on keeping its hvigor daemon warm across edits for true incremental recompiles; this
-  skill runs each build cold (`--no-daemon`) for process-lifecycle simplicity, so every reload pays
-  the full compile. Fully standalone is the win; reload latency is the cost. The last good frame
-  stays on screen across the relaunch.
-
-See [references/how-it-works.md](references/how-it-works.md) for the engine internals, the input
-command protocol, and the design of the standalone pipeline.
+- **交互：持平。** 用的是 SDK Previewer 同一条命令通道。
+- **重载：更慢。** 一次重载 = 完整 `PreviewBuild`（约 3–7 秒，冷启动 hvigor `--no-daemon`）+ 引擎
+  重启；DevEco 是热 daemon 增量编译 + 原地热替换（亚秒级）。原地热替换在独立环境不可复现（引擎只在
+  启动时读产物——已验证），分析见 [how-it-works.md](references/how-it-works.md#trade-offs)。
+- **未暴露的 DevEco 能力：** 单次预览级的 `colorMode`/`locale`/自定义分辨率（这里固化为两套
+  `--device` 档位）、多设备并排、"极速预览"、裸 `@Preview` 组件预览（用 harness 模式替代）。

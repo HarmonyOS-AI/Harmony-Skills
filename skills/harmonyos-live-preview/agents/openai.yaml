@@ -1,4 +1,4 @@
 interface:
   display_name: "HarmonyOS Live Preview"
-  short_description: "Preview ArkUI pages live in a browser with interaction and hot reload"
-  default_prompt: "Use $harmonyos-live-preview to start a browser preview of the current HarmonyOS app."
+  short_description: "Preview ArkUI pages in a browser (hot rebuild on .ets edits) and verify them: screenshot frames, assert on the live component tree, tap/swipe/type — no DevEco Studio"
+  default_prompt: "Use $harmonyos-live-preview to preview the current HarmonyOS app and verify UI changes: start the preview, then use scripts/drive.mjs to wait for rebuilds, capture frames, and inspect the component tree."
