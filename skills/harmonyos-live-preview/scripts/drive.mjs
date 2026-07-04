@@ -8,23 +8,37 @@
 //
 // Commands:
 //   status                          print /status JSON
-//   wait [--for-rebuild] [--timeout <s>]
+//   devices                         list configured devices (id, resolution, online state)
+//   wait [--for-rebuild] [--timeout <s>] [--device <id>]
 //                                   block until the preview is healthy (build ok + engine
 //                                   connected + frame rendered). --for-rebuild first waits
 //                                   for the file-watcher build triggered by an edit, and
 //                                   fails fast with the ArkTS error lines on a broken build.
-//   shot [out.jpg]                  save the current frame (default /tmp/harmony-preview.jpg)
-//   tree [--json] [--depth <n>]     component outline: type "text" [x,y wxh] @source-line
-//   find <text> [--type <T>]        locate nodes by rendered text (or component type)
-//   tap <text|x,y> [--index <n>]    tap an element by its text, or coordinates
-//   swipe <x1,y1> <x2,y2> [--steps <n>] [--ms <total>]
-//   type <text>                     type into the focused input (ASCII only — no IME/CJK)
-//   key <Enter|Backspace|Tab|Space> press a single named key
-//   back                            system back (pops route / closes dialog)
+//   shot [out.jpg] [--device <id>] [--all]
+//                                   save the current frame (default /tmp/harmony-preview.jpg).
+//                                   --all captures every configured device to <out>-<id>.jpg —
+//                                   the one-shot way to compare sizes side by side.
+//   tree [--json] [--depth <n>] [--device <id>]
+//                                   component outline: type "text" [x,y wxh] @source-line
+//   find <text> [--type <T>] [--device <id>]
+//                                   locate nodes by rendered text (or component type)
+//   tap <text|x,y> [--index <n>] [--device <id>]
+//                                   tap an element by its text, or coordinates
+//   swipe <x1,y1> <x2,y2> [--steps <n>] [--ms <total>] [--device <id>]
+//   type <text> [--device <id>]     type into the focused input (ASCII only — no IME/CJK)
+//   key <Enter|Backspace|Tab|Space> [--device <id>]
+//                                   press a single named key
+//   back [--device <id>]            system back (pops route / closes dialog)
+//   raw <Command> [json-args] [--device <id>]
 //   sessions                        list running previews from the on-disk registry
 //
-// Coordinates are normalized 0..1 over the frame; values > 1 are taken as device px and
-// divided by the /status resolution, so inspector rects can be pasted in directly.
+// --device <id> targets one configured device (see `devices`) when a preview runs more than one
+// simultaneously (--devices phone,tablet on preview.mjs); omitted, every command falls back to the
+// first configured device — the exact same target a single-device preview always had, so none of the
+// above needs --device at all when only one size is running.
+//
+// Coordinates are normalized 0..1 over the target device's frame; values > 1 are taken as device px
+// and divided by its resolution, so inspector rects can be pasted in directly.
 import fs from 'node:fs';
 import { listSessions } from './lib/registry.mjs';
 
@@ -33,7 +47,7 @@ const opts = {};
 const positional = [];
 for (let i = 0; i < args.length; i++) {
   const a = args[i];
-  if (a === '--for-rebuild' || a === '--json') opts[a.slice(2)] = true;
+  if (a === '--for-rebuild' || a === '--json' || a === '--all') opts[a.slice(2)] = true;
   else if (a.startsWith('--')) opts[a.slice(2)] = args[++i];
   else positional.push(a);
 }
@@ -69,7 +83,7 @@ async function get(path, asBuffer = false) {
 async function postInput(msg) {
   let res;
   try {
-    res = await fetch(`${base}/input`, {
+    res = await fetch(`${base}${deviceRoute('/input')}`, {
       method: 'POST', body: JSON.stringify(msg), signal: AbortSignal.timeout(6000),
     });
   } catch { fail(`no preview responding on :${port}`); }
@@ -80,6 +94,25 @@ async function postInput(msg) {
 }
 
 const getStatus = async () => (await get('/status')).body;
+
+// --- devices -------------------------------------------------------------------------------
+
+// Routes a per-frame request at the device --device names, or the legacy unprefixed route (the
+// default/first configured device) when --device is omitted — same target a single-device preview
+// always had.
+const deviceRoute = (sub) => (opts.device ? `/devices/${encodeURIComponent(opts.device)}${sub}` : sub);
+
+// Resolves --device against the live /status devices[] list; fails fast on an unknown id (before any
+// waiting/polling) rather than silently falling back to the default device. Returns that device's
+// live status entry — same shape as the legacy top-level fields (resolution/engineConnected/hasFrame/
+// interactive/port/engineError).
+function pickDevice(st) {
+  const list = st.devices || [];
+  if (!opts.device) return list[0] ?? st;
+  const d = list.find((x) => x.id === opts.device);
+  if (!d) fail(`unknown --device "${opts.device}" — known: ${list.map((x) => x.id).join(', ') || '(none)'}`);
+  return d;
+}
 
 // --- coordinates -------------------------------------------------------------------------
 
@@ -126,7 +159,7 @@ async function fetchTree() {
   // Right after a rebuild the engine may not answer inspector yet (503 / no tree); a couple of
   // retries beats making every caller re-run the command.
   for (let attempt = 0; ; attempt++) {
-    const { status, body } = await get('/inspector');
+    const { status, body } = await get(deviceRoute('/inspector'));
     if (status === 200 && body) return body;
     if (attempt >= 4) fail('inspector tree unavailable — engine still starting, or not ready; `wait` first');
     await sleep(1500);
@@ -204,17 +237,42 @@ const commands = {
       st = await poll();
     }
     if (st.build === 'error') fail(`build failed:\n${st.buildError ?? '(no error text captured)'}`);
-    while (!(st.engineConnected && st.hasFrame)) {
-      if (Date.now() > deadline) fail(`timed out after ${opts.timeout ?? 120}s (build ok, but engineConnected=${st.engineConnected} hasFrame=${st.hasFrame})`, 2);
+    while (!(pickDevice(st).engineConnected && pickDevice(st).hasFrame)) {
+      const d = pickDevice(st);
+      if (Date.now() > deadline) fail(`timed out after ${opts.timeout ?? 120}s (build ok, but engineConnected=${d.engineConnected} hasFrame=${d.hasFrame})`, 2);
       st = await poll();
     }
     console.log(JSON.stringify(st));
   },
 
+  async devices() {
+    const list = (await getStatus()).devices || [];
+    if (!list.length) { console.log('no devices configured'); return; }
+    for (const d of list) {
+      const state = d.engineConnected && d.hasFrame ? 'online' : d.engineConnected ? 'waiting-for-frame' : 'starting';
+      console.log(`${d.id}  ${d.resolution.join('x')}  port=${d.port}  ${state}${d.engineError ? `  ⚠ ${String(d.engineError).slice(0, 80)}` : ''}`);
+    }
+  },
+
   async shot() {
+    if (opts.all) {
+      const list = (await getStatus()).devices || [];
+      if (!list.length) fail('no devices configured');
+      const outBase = (rest[0] ?? '/tmp/harmony-preview.jpg').replace(/\.jpe?g$/i, '');
+      for (const d of list) {
+        const out = `${outBase}-${d.id}.jpg`;
+        for (let attempt = 0; ; attempt++) {
+          const { status, body } = await get(`/devices/${encodeURIComponent(d.id)}/frame.jpg`, true);
+          if (status === 200) { fs.writeFileSync(out, body); console.log(`${out} (${body.length} bytes)`); break; }
+          if (attempt >= 9) fail(`no frame for device "${d.id}" after 10 tries — check \`status\` (build error? engine down?)`);
+          await sleep(1000);
+        }
+      }
+      return;
+    }
     const out = rest[0] ?? '/tmp/harmony-preview.jpg';
     for (let attempt = 0; ; attempt++) {
-      const { status, body } = await get('/frame.jpg', true);
+      const { status, body } = await get(deviceRoute('/frame.jpg'), true);
       if (status === 200) {
         fs.writeFileSync(out, body);
         console.log(`${out} (${body.length} bytes)`);
@@ -228,7 +286,7 @@ const commands = {
   async tree() {
     const tree = await fetchTree();
     if (opts.json) { console.log(JSON.stringify(tree)); return; }
-    const { resolution } = await getStatus();
+    const { resolution } = pickDevice(await getStatus());
     const maxDepth = opts.depth ? Number(opts.depth) : Infinity;
     for (const { node, depth } of walk(tree)) {
       if (depth > maxDepth) continue;
@@ -239,7 +297,7 @@ const commands = {
   async find() {
     if (!rest[0] && !opts.type) fail('usage: find <text> [--type <ComponentType>]');
     const tree = await fetchTree();
-    const { resolution } = await getStatus();
+    const { resolution } = pickDevice(await getStatus());
     const hits = findNodes(tree, { text: rest[0], type: opts.type });
     if (!hits.length) fail(`no node matching ${rest[0] ? `text ${JSON.stringify(rest[0])}` : ''}${opts.type ? ` type=${opts.type}` : ''}`);
     hits.forEach((n, i) => console.log(`#${i}  ${describe(n, resolution)}`));
@@ -247,7 +305,7 @@ const commands = {
 
   async tap() {
     if (!rest[0]) fail('usage: tap <text|x,y> [--index <n>] [--type <T>]');
-    const { resolution } = await getStatus();
+    const { resolution } = pickDevice(await getStatus());
     let point = parsePoint(rest[0]);
     let label = rest[0];
     if (!point) {
@@ -273,7 +331,7 @@ const commands = {
     const from = parsePoint(rest[0]);
     const to = parsePoint(rest[1]);
     if (!from || !to) fail('usage: swipe <x1,y1> <x2,y2> [--steps <n>] [--ms <total>]');
-    const { resolution } = await getStatus();
+    const { resolution } = pickDevice(await getStatus());
     const [fx, fy] = normalizePoint(from, resolution);
     const [tx, ty] = normalizePoint(to, resolution);
     const steps = Number(opts.steps ?? 8);

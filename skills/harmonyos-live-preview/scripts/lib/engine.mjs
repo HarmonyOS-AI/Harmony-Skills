@@ -31,15 +31,32 @@ export function launchEngine(config, { lws, page, display } = {}, log = console.
   // several messages into one write, so buffer until a trailing NUL and split on it. There's no
   // correlation ID on either side of this protocol, so only one "inspector" request is allowed in
   // flight at a time — good enough since callers (the /inspector bridge route) never overlap.
+  //
+  // The pipe isn't purely request/response: the engine also pushes unsolicited messages on its own
+  // (route changes, ACE runtime errors) using a different envelope — {MessageType, args} instead of
+  // {command, result} — confirmed from the previewer's own source (ide_previewer
+  // mock/rich/VirtualScreenImpl.cpp's PageCallback/LoadContentCallback/FastPreviewCallback, each of
+  // which calls CommandLineInterface::CreatCommandToSendData on its own, not in reply to a request).
+  // The one worth surfacing here is FastPreviewCallback, wired to ACE's onError callback
+  // (JsAppImpl::SetOnError) — it's the engine's own runtime-error channel, arriving as
+  // {"MessageType":"MemoryRefresh","args":{"FastPreviewMsg":"<message>"}} (the MessageType name is the
+  // previewer's own, not chosen by us). It complements PREVIEW_ENGINE_LOG=1 stdout scraping with a
+  // structured signal for "build succeeded but the page errored/blanked at runtime".
   let recvBuf = '';
   let pendingInspector = null; // { resolve, timer } while a request is in flight
+  let lastEngineError = null;
 
   function handleInboundMessage(msg) {
-    if (msg && msg.command === 'inspector' && pendingInspector) {
+    if (!msg) return;
+    if (msg.command === 'inspector' && pendingInspector) {
       const { resolve, timer } = pendingInspector;
       clearTimeout(timer);
       pendingInspector = null;
       try { resolve(JSON.parse(msg.result)); } catch { resolve(null); }
+      return;
+    }
+    if (msg.MessageType === 'MemoryRefresh' && typeof msg.args?.FastPreviewMsg === 'string') {
+      lastEngineError = msg.args.FastPreviewMsg || null;
     }
   }
 
@@ -86,7 +103,7 @@ export function launchEngine(config, { lws, page, display } = {}, log = console.
     '-or', resW, resH, '-cr', resW, resH, '-f', config.deviceConfig,
     '-url', targetPage, '-av', 'ACE_2_0', '-n', p.pkgName, '-arp', b.appResource,
     '-pm', 'Stage', '-pages', p.pagesProfile,
-    '-hsp', config.toolchain.hsp, '-l', 'zh_CN', '-cm', 'light', '-o', config.orientation, '-ilt', 'false',
+    '-hsp', config.toolchain.hsp, '-l', 'zh_CN', '-cm', 'light', '-o', config.orientation, '-ilt', 'true',
     '-lws', String(lws),
   ];
   if (config.abilityMode) {
@@ -125,7 +142,10 @@ export function launchEngine(config, { lws, page, display } = {}, log = console.
     pendingInspector = { resolve, timer };
   });
 
-  return { child, servers, sockPaths, sid, port: lws, device: config.device, send, getInspectorTree };
+  return {
+    child, servers, sockPaths, sid, port: lws, device: config.device, send, getInspectorTree,
+    getLastEngineError: () => lastEngineError,
+  };
 }
 
 export function stopEngine(engine) {

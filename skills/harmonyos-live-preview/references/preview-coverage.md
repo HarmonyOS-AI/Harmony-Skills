@@ -50,7 +50,7 @@
 | `@ohos.router` | `pushUrl`, `replaceUrl`, `back`, `clear`, `getLength`, `getState`, `enableAlertBeforeBackPage`, `disableAlertBeforeBackPage`, `getParams`, `RouterMode`, `RouterOptions`, `RouterState`, `EnableAlertOptions`——页面间跳转在普通的页面预览下就能用，不需要 ability 模式 |
 | `@ohos.net.http` | 仅 `http.createHttp`——唯一支持的网络调用。从 API 12 起，如果请求需要走代理，previewer 会遵循系统的 `http_proxy`/`https_proxy`/`no_proxy` 环境变量。 |
 | `@ohos.data.preferences` | `getPreferences`, `deletePreferences`, `removePreferencesFromCache`, `Preferences`, `ValueType` |
-| `@ohos.file.fs` | `open`, `close`, `fdatasync`, `fsync`, `read`, `write`, `mkdir`, `mkdtemp`, `rename`, `rmdir`, `unlink`, `stat`, `truncate`——仅限 Stage 类型的 HAP/HSP，且仅在 DevEco Studio 6.0.0 Beta5 及以上版本、开启了 IDE 侧的**启用文件操作**开关之后才可用。这个开关存在于本 skill 从不触碰的 IDE/工程状态里——纯 CLI 构建下它是否默认打开，未经验证。 |
+| `@ohos.file.fs` | `open`, `close`, `fdatasync`, `fsync`, `read`, `write`, `mkdir`, `mkdtemp`, `rename`, `rmdir`, `unlink`, `stat`, `truncate`——仅限 Stage 类型的 HAP/HSP，且仅在 DevEco Studio 6.0.0 Beta5 及以上版本、开启了 IDE 侧的**启用文件操作**开关之后才可用。这个开关对应引擎的 `-ilt true` 启动参数（`ide_previewer/util/CommandParser.cpp` 的 `EnableFileOperationValid()`——`-ilt` 直接映射 `options.enableFileOperation`），本 skill 的 `engine.mjs` 现在始终传它；不过"传了这个 flag → `@ohos.file.fs` 调用真的在预览里成功"这条端到端路径本 skill 尚未拿一个真实工程实测过，用之前先小范围验证。 |
 
 除了这两张表之外的一切——大多数系统能力、除 `http.createHttp` 外的大多数 `@ohos.net.*` 模块、硬件
 传感器、大多数 Ability/Context API——都不会被 previewer 模拟。这些都不会在编译期失败；一个页面可以

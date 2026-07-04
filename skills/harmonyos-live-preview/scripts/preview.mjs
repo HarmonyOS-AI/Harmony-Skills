@@ -30,10 +30,15 @@ Options:
                      Any @Entry in the pages profile works (DevEco-style per-page preview).
   --device <type>    Device profile (geometry + type): phone (1080x2340 portrait) or
                      tablet (2048x1280 landscape). Default: phone
+  --devices <list>   Comma-separated device profiles to preview *simultaneously*, side by side —
+                     e.g. --devices phone,tablet. One Previewer engine process per entry (each engine
+                     reads its resolution once at launch, so simultaneous sizes need one process per
+                     size — see references/how-it-works.md). Overrides --device when both are given.
   --clt, --sdk <dir> HarmonyOS command-line-tools or DevEco bundle root (hvigorw + sdk/ derived from it).
                      Default: $HARMONY_SDK / $HARMONY_CLT, else common install locations are probed.
   --port <n>         Browser viewer HTTP port. Default: 8088
-  --lws <n>          Engine image-websocket port. Default: 41200
+  --lws <n>          Base engine image-websocket port. Default: 41200. Each additional --devices entry
+                     takes the next port up (phone=41200, tablet=41201, …).
   --ability-mode     Launch the real UIAbility (its lifecycle + whatever it loadContents) instead of
                      rendering --page directly. The shown page is then fixed by the ability, not --page.
   --no-watch         Build once and serve a static current-UI view (no edit-and-refresh)
@@ -48,7 +53,7 @@ function parseArgv(argv) {
   const flags = new Set(['--no-watch', '--ability-mode', '--keep-alive', '-h', '--help']);
   const keys = {
     '--project': 'project', '--module': 'module', '--page': 'page', '--device': 'device',
-    '--clt': 'clt', '--sdk': 'clt', '--port': 'httpPort', '--lws': 'lwsPort',
+    '--devices': 'devices', '--clt': 'clt', '--sdk': 'clt', '--port': 'httpPort', '--lws': 'lwsPort',
   };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
@@ -78,6 +83,7 @@ async function main() {
   const p = config.project;
   log(`project=${p.dir}`);
   log(`module=${p.moduleName} page=${p.entryPage} pkg=${p.pkgName} ability=${p.abilityName} mode=${config.abilityMode ? 'ability' : 'page'}`);
+  log(`devices=${config.devices.map((d) => `${d.id}(${d.resolution.join('x')}@${d.density}dpi,:${d.lwsPort})`).join(', ')}`);
 
   // Headless Linux has no display for the Previewer's GL context; start a virtual one (Xvfb) and
   // feed its $DISPLAY to every engine launch. No-op on macOS / desktop Linux.
@@ -91,10 +97,15 @@ async function main() {
 
   const status = createStatus();
 
-  let engine = null;
+  // deviceId -> engine handle. One Previewer process per configured device (see config.mjs
+  // devices[]) — every rebuild restarts all of them, since each engine only reads its compiled
+  // artifacts at launch (see references/how-it-works.md § 权衡).
+  let engines = new Map();
   let building = false;
   let pending = false;
   let releasing = false;
+
+  const stopAllEngines = () => { for (const eng of engines.values()) stopEngine(eng); engines = new Map(); };
 
   // Single teardown path, reused by SIGINT/SIGTERM and the bridge's auto-release. Idempotent so the
   // browser-close release and a racing signal can't double-kill.
@@ -104,7 +115,7 @@ async function main() {
     releasing = true;
     if (reason) log(reason);
     deregister();
-    stopEngine(engine);
+    stopAllEngines();
     display.stop();
     bridge.close();
     process.exit(0);
@@ -122,9 +133,16 @@ async function main() {
     status.set({ state: 'building', startedAt });
     const { ok, output } = await build(config, log);
     if (ok) {
-      stopEngine(engine);
-      engine = launchEngine(config, { lws: config.ports.lws, display: display.display }, log);
-      bridge.setEngine({ port: engine.port, sid: engine.sid, device: engine.device, send: engine.send, getInspectorTree: engine.getInspectorTree });
+      stopAllEngines();
+      for (const d of config.devices) {
+        const engine = launchEngine(d, { lws: d.lwsPort, display: display.display }, log);
+        engines.set(d.id, engine);
+        bridge.setEngine(d.id, {
+          port: engine.port, sid: engine.sid, device: engine.device,
+          send: engine.send, getInspectorTree: engine.getInspectorTree,
+          getLastEngineError: engine.getLastEngineError,
+        });
+      }
       status.set({ state: 'ok', startedAt });
     } else {
       status.set({ state: 'error', error: extractError(output), startedAt });

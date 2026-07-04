@@ -59,9 +59,55 @@ HarmonyOS SDK 自带了一个独立的宿主渲染器 `Previewer`，位于
   不需要一份 DevEco 生成的副本
 - `-pm Stage -av ACE_2_0 -device <type>` ——stage 模型、ACE 版本、设备 token
 - `-or/-cr <w> <h> -sd <dpi> -o <orientation>` ——帧缓冲几何尺寸 + 密度 + 方向
+- `-ilt true` ——启用文件操作（`enableFileOperation`）。对应 DevEco IDE 里"启用文件操作"那个开关
+  （`@ohos.file.fs` 生效的前提之一，见 [preview-coverage.md](preview-coverage.md)）；来源见
+  `ide_previewer/util/CommandParser.cpp` 的 `EnableFileOperationValid()`——`-ilt` 直接映射
+  `options.enableFileOperation`，不是猜的。本 skill 早期版本传的是 `false`，现在改成 `true`。
 - *(仅 ability 模式)* `-d -abn <abilityName> -abp <ohmurl>` ——运行真正的 UIAbility；`-abp` 是归一化后
   的 ohmurl，形如 `@normalized:N&&&<pkg>/<abilitySrc-without-.ets>&`。`-d`（debug）会强制要求带上
   `-abp`，所以这三个参数总是一起出现。
+
+<a id="multi-device"></a>
+
+## 同时预览多个尺寸：一个引擎进程 = 一套分辨率
+
+`Previewer` 引擎的分辨率/密度/方向（`-or/-cr/-sd/-o`）和设备配置文件（`-f`）都是**启动参数**，只在
+`InitCommandInfo`/`InitScreenInfo` 里读一次（`ide_previewer/jsapp/rich/JsAppImpl.cpp` 的
+`SetJsAppArgs`/`InitJsApp`）——运行时唯一能改分辨率的命令管道指令是 `ResolutionSwitch`（见下），它改的
+是**这一个**引擎自己的当前分辨率，不会让一个进程同时渲染出两套画面。DevEco 的多设备并排预览也是这个
+限制下的产物：它同时起多个引擎子进程，每个负责一种设备，IDE 前端把它们的画面拼在一起显示，不是单进程
+内部切出多路。
+
+本 skill 的 `--devices phone,tablet` 复刻的就是这个模型，而不是发明新协议：
+
+- **一次构建，多份引擎。** `hvigorw PreviewBuild` 产物和设备无关（`-j/-ljPath/-arp` 这些编译产物路径
+  参数对所有设备完全一样），所以每次重建只跑一次构建，然后对配置的每个尺寸各起一个 `Previewer` 子
+  进程，`-or/-cr/-sd/-o/-device/-f` 各自不同，其余参数共享。`scripts/lib/engine.mjs` 的
+  `launchEngine()` 早就是"传一份设备几何信息进来，起一个引擎"的形状（`freshIds()` 用随机后缀生成
+  socket/管道名），天然支持并发起多个——加多尺寸支持时这个文件本身几乎没改。
+- **`scripts/lib/bridge.mjs`** 把原来单一的一份连接状态（WebSocket/`send`/`lastFrame`/…）改成按
+  设备 id 存一份 `Map`，每个设备各自维护自己的重连 `generation` 计数器，互不影响。HTTP 路由分两层：
+  `/devices/:id/...` 按设备访问，不带前缀的旧路由（`/status`、`/frame.jpg`、`/inspector`、`/input`）
+  继续代表"第一个配置的设备"，纯增量，不改变单设备场景下的任何行为。
+- **`scripts/lib/viewer-page.mjs`** 启动时拉一次 `/devices`，按返回的列表各生成一块面板，各自独立
+  轮询自己的 `/devices/:id/frame.jpg`/`inspector`，互不干扰；构建状态是全局共享的（一次构建服务所有
+  设备），画在页面顶部。
+- **一次重建 = 重启全部引擎。** 和单设备时一样，引擎不会原地重读新产物（见下面"权衡"一节），所以
+  改一个 `.ets` 触发的重建会把配置的每个尺寸都重启一遍，不是只重启改动影响到的那个。
+
+**还没做、以及为什么：**
+
+- **任意自定义分辨率。** `-f` 指向的设备配置文件（`scripts/assets/*SettingConfig*.json`）里的
+  `Resolution`（vp）和 `AvoidArea`（安全区矩形，device px）是和具体分辨率强绑定的静态 JSON，不是
+  运行时能从 w/h/density 推导出来的——真要支持任意尺寸，得先写一个按这两个值生成同样结构 JSON 的
+  函数，且安全区没有通用公式（只能给个近似的状态栏/导航栏高度）。当前只能从 `config.mjs` 的
+  `DEVICE_PROFILES`（`phone`/`tablet`）里选，加新档位是往这个表里加一条，同样的机制，不涉及架构
+  改动。
+- **运行时改分辨率而不重启。** `ResolutionSwitch` 命令（`{originWidth,originHeight,width,height,
+  screenDensity,reason}` → `JsAppImpl::ResolutionChanged` → `ability->SurfaceChanged(...)`/
+  `window->SetViewportConfig(...)`）确认是真实可用的运行时改分辨率通道，但它改的是单个引擎自己的
+  当前尺寸，不能让"同时看两个尺寸"少起一个进程——留给以后给单个面板加"运行时微调尺寸"命令用，和"同时
+  预览多个尺寸"是两件不同的事。
 
 ## 页面模式 vs ability 模式——单个 `@Entry` 是怎么被预览的
 
@@ -185,6 +231,32 @@ SDK Previewer 本身就能交互——它和 DevEco 的 Previewer 面板驱动�
   东西被视觉上重复渲染——但它是真实的 DOM/无障碍树内容，所以浏览器自动化或无障碍工具读取这个页面时，
   看到的是真正的结构化元素，而不是一张扁平截图。
 
+<a id="unsolicited-pushes"></a>
+
+## 命令管道不只是请求/响应：引擎也会主动推送
+
+到这里为止描述的都是"发一条命令、等一条应答"（`inspector` 是其中之一）。但命令管道是双向的，引擎在
+没人问的情况下也会自己往上写消息——这一点从 `ide_previewer` 源码里能直接坐实：
+`mock/rich/VirtualScreenImpl.cpp` 的 `PageCallback`/`LoadContentCallback`/`FastPreviewCallback`
+分别挂在 ACE 的路由回调和 `onError` 回调上，一触发就调用
+`CommandLineInterface::CreatCommandToSendData(...)` 主动发消息，不是在回复谁的请求。这三条消息用的是
+和请求/响应不一样的信封——`{"MessageType":"<name>","args":{...}}`，没有 `command` 字段（`command`
+字段是 `SetCommandResult`/`SendResult` 那条路径专属的，见 `CommandLine::SetResultToManager`）：
+
+| `MessageType` | 触发时机 | `args` |
+|---|---|---|
+| `CurrentJsRouter` | 页面模式下路由变化（`@ohos.router` 跳转/返回） | `{CurrentRouter: "<path>"}` |
+| `AbilityCurrentJsRouter` | ability 模式下 `loadContent` 内容变化 | `{AbilityCurrentRouter: "<path>"}` |
+| `MemoryRefresh` | ACE 的 `onError` 回调触发（`JsAppImpl::SetOnError` 挂的）——名字虽然叫 `MemoryRefresh`，携带的其实是运行时报错/fast-preview 状态，和"内存"无关 | `{FastPreviewMsg: "<message>"}` |
+
+本 skill 目前只解析这三条里最后一条：`engine.mjs` 的 `handleInboundMessage` 按 `MessageType ===
+'MemoryRefresh'` 识别，取出 `args.FastPreviewMsg` 存成 `lastEngineError`，经
+`bridge.mjs` 的 `/status`（顶层 + `devices[]` 数组）暴露为 `engineError` 字段——比之前只能靠
+`PREVIEW_ENGINE_LOG=1` 翻引擎原始 stdout 更结构化，`drive.mjs devices` 也会带出来。`CurrentJsRouter`/
+`AbilityCurrentJsRouter` 目前原样吃进消息解析函数但没有专门处理分支，安全地被忽略（不会被误当成
+`inspector` 的响应，因为判断条件是 `msg.command === 'inspector'`，这两条推送根本没有 `command`
+字段）——如果以后要做"页面自己跳转后自动同步 viewer 当前路由"之类的功能，这是现成的信号源。
+
 ## 模块结构
 
 各个文件按职责拆分，让编排逻辑保持与具体工程无关：
@@ -254,6 +326,37 @@ skill 选择在每次重新构建后重启引擎；桥接层会在屏幕上保�
 进程（而不是每次重建都用一个全新的 `--no-daemon` 进程），就能让 `PreviewArkTS` 做增量重编译，而不是每
 次都从头编译——本 skill 没有尝试这么做，因为这会重新引入 daemon 生命周期管理的复杂度，而这正是本 skill
 一直想避免的。
+
+<a id="memory-refresh-hot-patch"></a>
+
+### 补遗：真正的原地热补丁通道是 `MemoryRefresh`，不是 `ReloadRuntimePage`/`LoadDocument`
+
+上面"独立环境下行不通"的结论测的是 `ReloadRuntimePage`（`ability->ReplacePage(...)`，纯路由切换）和
+`LoadDocument`（`ability->LoadDocument(...)`，切换到已加载产物里的另一个页面/组件）——这两个从
+`ide_previewer` 源码看确实都不重读磁盘产物，结论成立。但命令词表里还有一个没试过的
+`MemoryRefresh`，从源码看它是完全不同的东西：`JsAppImpl::MemoryRefresh` 直接把 `args`
+原样转发给 ACE 引擎的 `ability->OperateComponent(memoryRefreshArgs)` /
+`uiContent->OperateComponent(memoryRefreshArgs)`——真实 payload 能在 `ide_previewer` 自己的 fuzz
+测试夹具里找到（`test/fuzztest/commandparse_fuzzer/RichCommandParseFuzzer.cpp`）：
+
+```json
+{"jsCode":"<base64>","propertyVariable":[],"viewID":"1",
+ "offset":{"line":11,"column":9},"globalVariable":[],
+ "slot":0,"type":"UpdateComponent","parentID":2}
+```
+
+`jsCode` 那段 base64 解出来开头是 `PANDA\0\0...`——ArkTS Panda 字节码 `.abc` 文件的魔数。也就是说
+`MemoryRefresh` 传的是一个编译好的增量 `.abc` 补丁，`viewID`/`parentID` 对应组件树里的节点 id（正是
+`inspector` 命令返回的 `$ID`），`offset` 对应 `$debugLine`——这是**组件级**的原地热补丁通道，是 DevEco
+"极速预览"的真实机制，不是引擎黑魔法。
+
+产出这个补丁 `.abc` 的一侧也在 hvigor 里找到了对应物：`hvigor-ohos-plugin` 有一个和 `PreviewBuild`
+平行的钩子任务链——`HotReloadBuild`（依赖 `HotReloadArkTS`），注册方式和 `PreviewBuild` 一样走
+`TaskNames.Task`/`HOOK_TASK_GROUP`。但它的启用条件（`hvigor-ohos-plugin/src/utils/inject-util.js`
+的 `InjectUtil.isHotReload()`）是 `hotReload===true` **且** hvigor daemon 处于运行状态——本 skill
+目前所有构建都故意 `--no-daemon`（见上面的权衡），二者直接冲突。要吃到这个原地热补丁能力，意味着要把
+构建方式换成常驻 daemon，这是一次需要单独评估的架构决策，不是这条注记能捎带解决的——所以本节的定位是
+"记录下这条路径确实存在、走到哪一步验证过"，不是"已经接入"。
 
 <a id="known-issue-previewarkts-crash"></a>
 

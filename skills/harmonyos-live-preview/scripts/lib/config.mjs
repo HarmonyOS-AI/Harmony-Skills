@@ -33,35 +33,69 @@ const DEVICE_PROFILES = {
   },
 };
 
+// One or more device profiles to preview simultaneously. --devices (plural, comma-separated) is the
+// multi-size entry point; --device (singular, existing) is kept as a one-element shortcut so every
+// pre-existing single-device invocation resolves to exactly the same devices[0] it always got.
+function parseDeviceIds(opts) {
+  const raw = opts.devices ?? opts.device ?? 'phone';
+  const ids = [...new Set((Array.isArray(raw) ? raw : String(raw).split(','))
+    .map((s) => s.trim()).filter(Boolean))];
+  if (!ids.length) throw new Error('at least one --device/--devices value is required');
+  for (const id of ids) {
+    if (!DEVICE_PROFILES[id]) {
+      throw new Error(`unsupported device "${id}"; supported: ${Object.keys(DEVICE_PROFILES).join(', ')}`);
+    }
+  }
+  return ids;
+}
+
 export function resolveConfig(opts = {}) {
   const projectDir = path.resolve(opts.project || process.cwd());
   const toolchain = discoverToolchain(opts.clt);
   const project = discoverProject(projectDir, { module: opts.module, page: opts.page });
 
-  const device = opts.device || 'phone';
-  const profile = DEVICE_PROFILES[device];
-  if (!profile) {
-    throw new Error(
-      `unsupported --device "${device}"; supported: ${Object.keys(DEVICE_PROFILES).join(', ')}`,
-    );
-  }
+  // false (default) = page-preview mode: render the page via -url, like DevEco's per-@Entry preview.
+  // true = ability mode: launch the real UIAbility and show whatever its loadContent loads.
+  const abilityMode = opts.abilityMode === true;
+  // Engine half of DevEco's @Preview component preview (flips the compiled getPreviewComponentFlag()
+  // gate) — plain page/ability preview keeps it off. See how-it-works.md § 组件预览调查.
+  const componentMode = opts.componentMode === true;
+  // Each device gets its own Previewer engine process (one process = one resolution — the engine
+  // reads its geometry once at launch, see engine.mjs), so a second/third simultaneous size means a
+  // second/third -lws port. Base port + index keeps them predictable and collision-free from a single
+  // --lws override.
+  const lwsBase = Number(opts.lwsPort ?? process.env.LWS ?? 41200);
+
+  // Every device entry is a complete, self-contained "engine session config" (project/toolchain/
+  // abilityMode/componentMode + its own geometry) — engine.mjs's launchEngine() takes exactly this
+  // shape already, so passing devices[i] straight through needs no changes there.
+  const devices = parseDeviceIds(opts).map((id, i) => {
+    const profile = DEVICE_PROFILES[id];
+    return Object.freeze({
+      id,
+      device: id,
+      project,
+      toolchain,
+      abilityMode,
+      componentMode,
+      deviceConfig: opts.deviceConfig || process.env.HARMONY_DEVICE_CONFIG || profile.deviceConfig,
+      resolution: profile.resolution,
+      density: profile.density,
+      orientation: profile.orientation,
+      lwsPort: lwsBase + i,
+    });
+  });
 
   return Object.freeze({
     toolchain,
     project,
-    device,
-    deviceConfig: opts.deviceConfig || process.env.HARMONY_DEVICE_CONFIG || profile.deviceConfig,
-    resolution: profile.resolution,
-    density: profile.density,
-    orientation: profile.orientation,
+    devices,
     ports: {
       http: Number(opts.httpPort ?? process.env.PORT ?? 8088),
-      lws: Number(opts.lwsPort ?? process.env.LWS ?? 41200),
     },
     watch: opts.watch !== false,
-    // false (default) = page-preview mode: render the page via -url, like DevEco's per-@Entry preview.
-    // true = ability mode: launch the real UIAbility and show whatever its loadContent loads.
-    abilityMode: opts.abilityMode === true,
+    abilityMode,
+    componentMode,
     // Auto-release the preview once the last browser viewer closes (default on). --keep-alive turns
     // it off for headless / always-on use. Grace tolerates a reload before tearing down.
     autoRelease: opts.keepAlive !== true,
