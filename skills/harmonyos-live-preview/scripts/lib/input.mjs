@@ -55,11 +55,34 @@ function keyPressCommands(keyCode, keyString) {
   }));
 }
 
+// In-place resolution change — the engine's own `ResolutionSwitch`, which DevEco drives when you
+// drag a preview window's edge. Unlike the pointer/key commands this one is a *set* command
+// (ide_previewer cli/CommandLine.cpp implements RunSet only), so an `action` envelope would be
+// silently dropped. originWidth/Height is the device's real resolution and width/height the rendered
+// one; this skill always keeps them equal (the frame IS the device pixels, no extra compression).
+// `reason` is what lets ArkUI tell a rotation apart from a dragged resize.
+function resizeCommand({ width, height, density, reason }) {
+  return {
+    version: VERSION,
+    command: 'ResolutionSwitch',
+    type: 'set',
+    args: {
+      originWidth: width,
+      originHeight: height,
+      width,
+      height,
+      screenDensity: density,
+      reason: reason === 'rotation' || reason === 'undefined' ? reason : 'resize',
+    },
+  };
+}
+
 // Map one viewer message to zero or more engine commands.
 //   { t:'p', phase:'down'|'move'|'up', x, y }  — x/y are normalized 0..1 over the rendered frame
 //   { t:'key', key, code, keyString? }          — a keystroke for the focused input
 //   { t:'back' }                                — system back
-//   { t:'raw', command, args? }                 — escape hatch: send any pipe command verbatim
+//   { t:'resize', width, height, density, reason? } — change this engine's size in place
+//   { t:'raw', command, args?, type? }          — escape hatch: send any pipe command verbatim
 //                                                 (the engine's vocabulary is wider than the viewer
 //                                                 needs — Resolution, LoadDocument, FoldStatus, … —
 //                                                 and this lets tooling drive it without a new route)
@@ -81,10 +104,15 @@ export function eventToCommands(msg, resolution) {
     }
     case 'back':
       return [{ version: VERSION, command: 'BackClicked', type: 'action', args: {} }];
+    case 'resize':
+      return [resizeCommand(msg)];
     case 'raw': {
       if (typeof msg.command !== 'string' || !msg.command) return [];
       const args = msg.args && typeof msg.args === 'object' ? msg.args : {};
-      return [{ version: VERSION, command: msg.command, type: 'action', args }];
+      // Most of the vocabulary is `action`, but a few commands (ResolutionSwitch, FoldStatus, …)
+      // only implement RunSet and are dropped unless the envelope says `set` — hence the override.
+      const type = msg.type === 'set' || msg.type === 'get' ? msg.type : 'action';
+      return [{ version: VERSION, command: msg.command, type, args }];
     }
     default:
       return [];

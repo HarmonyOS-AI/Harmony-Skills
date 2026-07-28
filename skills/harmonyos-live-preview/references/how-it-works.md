@@ -18,7 +18,7 @@ HarmonyOS SDK 自带了一个独立的宿主渲染器 `Previewer`，位于
    （`pre-build.js`、`generate-loader-json.js`、`abstract-compile-resource.js` 等处均如此，直接读
    已安装插件源码可证）。漏传它时资源任务写常规 `build/` 树、mock 配置不生效，而
    `PreviewArkTS`（`addOhmurlToHarAbility`）却按 `.preview` 路径回读——见下方
-   [已知问题（已修复）](#known-issue-previewarkts-crash)。
+   [漏传时 `PreviewArkTS` 崩溃 `00308018`](#known-issue-previewarkts-crash)。
    `PreviewBuild` 就是 DevEco 自己的预览守护进程所驱动的那套任务图（`PreviewUpdateAssets` →
    `ReplacePreviewerPage` → `PreviewArkTS` → `buildPreviewerResource`）——它是 hvigor-ohos-plugin 里的
    一个常规任务，无条件注册给每一个 HAP 模块（插件源码里的
@@ -55,14 +55,20 @@ HarmonyOS SDK 自带了一个独立的宿主渲染器 `Previewer`，位于
 - `-n <pkgName>` ——包名（来自模块的 `oh-package.json5`）
 - `-hsp <sdk/default/hms/previewer>` ——HMS previewer 支持包
 - `-pages <profile>` ——pages 配置文件名（来自 `module.json5` 里的 `"pages": "$profile:<name>"`）
-- `-f <device-profile.json>` ——通用的分辨率/避让区域/语言档位文件，打包在 `scripts/assets/` 里，
-  不需要一份 DevEco 生成的副本
+- `-f <device-profile.json>` ——分辨率/避让区域/语言档位文件。**由 `scripts/lib/device-profile.mjs`
+  按当前尺寸现算现生成**（写进会话私有临时目录，退出时删），不需要一份 DevEco 生成的副本，也不再有
+  静态资产文件。引擎实际只执行文件里的 `setting` 段（`Language` + `AvoidArea`，见
+  `ide_previewer/cli/CommandLineInterface.cpp` 的 `ApplyConfig`——它把每个键当成一条 SET 命令跑），
+  `frontend` 段（vp 分辨率 + `DeviceType`）是给 IDE 读的元数据，这里照样写全以保持同构
 - `-pm Stage -av ACE_2_0 -device <type>` ——stage 模型、ACE 版本、设备 token
-- `-or/-cr <w> <h> -sd <dpi> -o <orientation>` ——帧缓冲几何尺寸 + 密度 + 方向
+- `-or/-cr <w> <h> -sd <dpi> -o <orientation>` ——帧缓冲几何尺寸 + 密度 + 方向。`-or` 是设备真实
+  分辨率、`-cr` 是渲染（压缩）分辨率，本 skill 两者始终相同（帧就是设备像素）。合法区间 1–3840
+  （`util/CommandParser.h` 的 `MIN/MAX_RESOLUTION`），逻辑尺寸 vp = px ÷ (dpi/160)——**ArkUI 的断点
+  判断走 vp，所以自定义尺寸真正要对的是这个换算**
 - `-ilt true` ——启用文件操作（`enableFileOperation`）。对应 DevEco IDE 里"启用文件操作"那个开关
   （`@ohos.file.fs` 生效的前提之一，见 [preview-coverage.md](preview-coverage.md)）；来源见
   `ide_previewer/util/CommandParser.cpp` 的 `EnableFileOperationValid()`——`-ilt` 直接映射
-  `options.enableFileOperation`，不是猜的。本 skill 早期版本传的是 `false`，现在改成 `true`。
+  `options.enableFileOperation`，不是猜的。
 - *(仅 ability 模式)* `-d -abn <abilityName> -abp <ohmurl>` ——运行真正的 UIAbility；`-abp` 是归一化后
   的 ohmurl，形如 `@normalized:N&&&<pkg>/<abilitySrc-without-.ets>&`。`-d`（debug）会强制要求带上
   `-abp`，所以这三个参数总是一起出现。
@@ -73,7 +79,8 @@ HarmonyOS SDK 自带了一个独立的宿主渲染器 `Previewer`，位于
 
 `Previewer` 引擎的分辨率/密度/方向（`-or/-cr/-sd/-o`）和设备配置文件（`-f`）都是**启动参数**，只在
 `InitCommandInfo`/`InitScreenInfo` 里读一次（`ide_previewer/jsapp/rich/JsAppImpl.cpp` 的
-`SetJsAppArgs`/`InitJsApp`）——运行时唯一能改分辨率的命令管道指令是 `ResolutionSwitch`（见下），它改的
+`SetJsAppArgs`/`InitJsApp`）——运行时唯一能改分辨率的命令管道指令是
+[`ResolutionSwitch`](#custom-size)，它改的
 是**这一个**引擎自己的当前分辨率，不会让一个进程同时渲染出两套画面。DevEco 的多设备并排预览也是这个
 限制下的产物：它同时起多个引擎子进程，每个负责一种设备，IDE 前端把它们的画面拼在一起显示，不是单进程
 内部切出多路。
@@ -83,8 +90,8 @@ HarmonyOS SDK 自带了一个独立的宿主渲染器 `Previewer`，位于
 - **一次构建，多份引擎。** `hvigorw PreviewBuild` 产物和设备无关（`-j/-ljPath/-arp` 这些编译产物路径
   参数对所有设备完全一样），所以每次重建只跑一次构建，然后对配置的每个尺寸各起一个 `Previewer` 子
   进程，`-or/-cr/-sd/-o/-device/-f` 各自不同，其余参数共享。`scripts/lib/engine.mjs` 的
-  `launchEngine()` 早就是"传一份设备几何信息进来，起一个引擎"的形状（`freshIds()` 用随机后缀生成
-  socket/管道名），天然支持并发起多个——加多尺寸支持时这个文件本身几乎没改。
+  `launchEngine()` 是"传一份设备几何信息进来，起一个引擎"的形状（`freshIds()` 用随机后缀生成
+  socket/管道名），天然支持并发起多个。
 - **`scripts/lib/bridge.mjs`** 把原来单一的一份连接状态（WebSocket/`send`/`lastFrame`/…）改成按
   设备 id 存一份 `Map`，每个设备各自维护自己的重连 `generation` 计数器，互不影响。HTTP 路由分两层：
   `/devices/:id/...` 按设备访问，不带前缀的旧路由（`/status`、`/frame.jpg`、`/inspector`、`/input`）
@@ -95,19 +102,57 @@ HarmonyOS SDK 自带了一个独立的宿主渲染器 `Previewer`，位于
 - **一次重建 = 重启全部引擎。** 和单设备时一样，引擎不会原地重读新产物（见下面"权衡"一节），所以
   改一个 `.ets` 触发的重建会把配置的每个尺寸都重启一遍，不是只重启改动影响到的那个。
 
-**还没做、以及为什么：**
+<a id="custom-size"></a>
 
-- **任意自定义分辨率。** `-f` 指向的设备配置文件（`scripts/assets/*SettingConfig*.json`）里的
-  `Resolution`（vp）和 `AvoidArea`（安全区矩形，device px）是和具体分辨率强绑定的静态 JSON，不是
-  运行时能从 w/h/density 推导出来的——真要支持任意尺寸，得先写一个按这两个值生成同样结构 JSON 的
-  函数，且安全区没有通用公式（只能给个近似的状态栏/导航栏高度）。当前只能从 `config.mjs` 的
-  `DEVICE_PROFILES`（`phone`/`tablet`）里选，加新档位是往这个表里加一条，同样的机制，不涉及架构
-  改动。
-- **运行时改分辨率而不重启。** `ResolutionSwitch` 命令（`{originWidth,originHeight,width,height,
-  screenDensity,reason}` → `JsAppImpl::ResolutionChanged` → `ability->SurfaceChanged(...)`/
-  `window->SetViewportConfig(...)`）确认是真实可用的运行时改分辨率通道，但它改的是单个引擎自己的
-  当前尺寸，不能让"同时看两个尺寸"少起一个进程——留给以后给单个面板加"运行时微调尺寸"命令用，和"同时
-  预览多个尺寸"是两件不同的事。
+## 任意自定义尺寸：启动时生成档位，运行时 `ResolutionSwitch`
+
+尺寸这件事有两条彼此独立的路径，对应 DevEco 的两种操作（选一个设备档位 / 拖预览窗口边框）：
+
+### 1. 启动时的任意尺寸——`scripts/lib/device-profile.mjs`
+
+原来挡路的是 `-f` 那个设备配置文件：它里面的 `Resolution`（vp）和 `AvoidArea`（安全区矩形，device px）
+和具体分辨率强绑定，以前是两个手写的静态 JSON，所以尺寸只能二选一。现在这个文件**按尺寸现算现生成**，
+静态资产随之删除（`phone`/`tablet` 也走同一条生成路径，生成结果与原来那两个文件逐字段等价，有测试
+钉住）：
+
+- **vp 分辨率**直接由 `px ÷ (dpi/160)` 算出，不可能和 `-or/-cr/-sd` 打架——三者本来就该自洽，现在
+  它们出自同一个档位对象。
+- **安全区没有通用公式，但有物理常量**：状态栏 39vp、导航条 28vp（正是原 phone 档位的 117px/84px
+  @480dpi）。所以档位里记的是 **vp**，落到具体分辨率时按 dpi 换算成 px，并按语义贴边（top/bottom
+  通宽、left/right 通高）。这样把同一个档位放大到 1440×3200 时状态栏不会跟着变粗——按屏幕比例缩放
+  才会犯那个错。没有安全区的档位（tablet 等）四个矩形全零。
+- 引擎按 `type` 分别取矩形（日志里能看到 `UpdateAvoidArea: type:0, top:{0,0,1080,117}, left:{0,0,0,0}
+  …`，type:0 用 top、type:4 用 bottom），所以宽高为零的 left/right 矩形里的 `posX/posY` 没有语义——
+  实测 ACE 侧拿到的 `SafeAreaInsets top_: [0,117] bottom_: [2256,2340]` 与改造前完全一致。
+- 设备类型（`-device`）可以是引擎 `supportedDevices` 里的任意一个（`util/CommandParser.h`），它决定
+  ArkUI 看到的 `deviceType`；只有 `phone`/`tablet` 内置了默认分辨率，其余类型必须显式给尺寸——与其
+  编一个没实测过的默认值，不如要求写清楚。
+
+### 2. 运行时改尺寸——`ResolutionSwitch`
+
+`{originWidth,originHeight,width,height,screenDensity,reason}` → `JsAppImpl::ResolutionChanged` →
+`ability->SurfaceChanged(...)`（page 模式）/ `window->SetViewportConfig(...)`（debug/ability 模式，
+且只在 macOS/Windows 分支里）。几个实测出来、光看源码不会知道的点：
+
+- **必须用 `set` 信封。** 这条命令只实现了 `RunSet`（`cli/CommandLine.cpp`），`CommandLine::Run()` 按
+  `type` 分发，所以 `type:"action"` 会被静默丢弃——引擎连报错都不会给。`input.mjs` 的 `raw` 因此加了
+  `type` 透传，`{t:'resize'}` 则直接生成 `set`。
+- **像素比命令慢约 200ms。** 引擎先改 ACE 的布局几何（inspector 树里的 `$rect` 立刻就是新宽度），
+  帧缓冲要等 `glfwRenderContext->SetWindowSize` 那个 PostTask 跑完才变。实测 210–613ms 收敛。桥接层
+  因此从每帧的 JPEG SOF 头里读出真实像素尺寸（`frameResolution`），`drive.mjs resize` 阻塞到它跟上
+  才返回——否则紧跟着的 `shot` 会截到旧尺寸，看起来就像 resize 没生效。
+- **合法区间比启动参数窄**：50–3000 px / dpi 120–640（`cli/CommandLine.h` 的
+  `minWidth/maxWidth/minDpi/maxDpi`），而启动参数是 1–3840。两个上限不同不是笔误，代码里也就分开记。
+- **`deviceType` 不跟着变。** `SetResolutionParams` 用的是 `commandInfo.deviceType`（启动时定的），
+  只有 `density` 和方向（按宽高关系）会重算。所以运行时能改的是"屏幕多大"，不是"这是什么设备"。
+- **安全区不按新 dpi 重算。** resize 时 `InitAvoidAreas` 从 window 的系统栏属性重新取，厚度是 px 沿用
+  （宽度会跟上新分辨率：`top:{0,0,900,117}`）。要精确的安全区就在启动参数里指定尺寸。
+- **尺寸要活过重建。** 重建会重启引擎，新进程回到启动几何，所以 `bridge.mjs` 记着"启动几何"和"当前
+  几何"两份，`setEngine` 时若两者不同就标记 `pendingResize`，等新引擎的**首帧**（这时命令管道一定
+  连上了）再把 `ResolutionSwitch` 重下一次。
+
+两条路径合起来才等价于 DevEco 的体验，但它们仍是两件事：**运行时 resize 改的永远是单个引擎自己的当前
+尺寸**，"同时看两个尺寸"该起几个进程还是几个。
 
 ## 页面模式 vs ability 模式——单个 `@Entry` 是怎么被预览的
 
@@ -137,19 +182,16 @@ HarmonyOS SDK 自带了一个独立的宿主渲染器 `Previewer`，位于
 `buildRoot=.preview`（isPreview 总开关，见流水线小节）和 `previewer.replace.page` 驱动，会把
 `main_pages.json` 重写成 `src=[<target>]`，并**重新编译**出一棵独立的
 `<module>/.preview/<product>/` 产物树，带有普通 `assembleHap` 构建所没有的 inspector/debug 元数据
-（见[获取 ArkUI inspector 树](#getting-the-arkui-inspector-tree)）。（勘误：本文档旧版称
-`pageType=component` 可用于预览裸 `@Preview` 组件——对着 hvigor 6.26.1 源码核实，`PageType` 枚举
-只有 `page|card`，`card` 对应服务卡片；组件预览根本不经由 `pageType`，其真实机制与不可用原因见
-[组件预览调查](#component-preview-investigation)。）
+（见[获取 ArkUI inspector 树](#getting-the-arkui-inspector-tree)）。注意 `pageType` 与组件预览无关
+——hvigor 6.26.1 里 `PageType` 枚举只有 `page|card`（`card` 对应服务卡片），组件预览的真实机制与
+不可用原因见[组件预览调查](#component-preview-investigation)。
 
-本 skill 早期的版本以为整条链路都是仅限 IDE 的，于是刻意避开它，改用 `assembleHap` 来构建——页面模式
-下这样构建依然能复现出视觉画面，所以这个假设一直没被质疑过。但它是错的：`PreviewBuild` 和
-hvigor-ohos-plugin 里的其他任务一样，是无条件注册给每个 HAP 模块的
-（`TaskInitializer.commonHap`/`initializeCommonTargetTasks`），并不受 DevEco 预览守护进程的门控，
-`hvigorw ... -p previewer.replace.page=<page> PreviewBuild --no-daemon` 完全可以脱离 IDE 独立运行——
-这一点是通过在 DevEco 之外反复运行它，并对比生成的 `.abc` 和 inspector 树响应与 `assembleHap` 产物之间
-的差异确认的。`builder.mjs` 现在改跑 `PreviewBuild` 而不是 `assembleHap`，正是因为这个原因：两种方式
-都能渲染出画面，但只有 `PreviewBuild` 产物能让引擎的 `inspector` 命令返回一棵有内容的树。
+`PreviewBuild` 并不是 IDE 专属能力：它和 hvigor-ohos-plugin 里的其他任务一样，是无条件注册给每个
+HAP 模块的（`TaskInitializer.commonHap`/`initializeCommonTargetTasks`），并不受 DevEco 预览守护进程
+的门控，`hvigorw ... -p previewer.replace.page=<page> PreviewBuild --no-daemon` 完全可以脱离 IDE 独立
+运行——这一点是通过在 DevEco 之外反复运行它，并对比生成的 `.abc` 和 inspector 树响应与 `assembleHap`
+产物之间的差异确认的。`builder.mjs` 跑 `PreviewBuild` 而不是 `assembleHap`，正是因为：两种方式都能
+渲染出画面，但只有 `PreviewBuild` 产物能让引擎的 `inspector` 命令返回一棵有内容的树。
 
 <a id="driving-input-interaction"></a>
 
@@ -176,9 +218,14 @@ SDK Previewer 本身就能交互——它和 DevEco 的 Previewer 面板驱动�
 `MousePress/MouseMove/MouseRelease`、`KeyPress`、`BackClicked`、`inspector`/`inspectorDefault`、
 `LoadDocument`、`LoadContent`、`FastPreviewMsg`、`MemoryRefresh`、`ResolutionSwitch`、`Resolution`、
 `DeviceType`、`OrientationChanged`、`FoldStatus`、`AvoidAreaChanged`、`CrownRotate`、`PointEvent`、
-`DropFrame`、`DistributedCommunications` 等。`drive.mjs raw <Command> [json-args]`（走
-`POST /input` 的 `{t:"raw",command,args}`）可以直接实验它们；配合 `PREVIEW_ENGINE_LOG=1`（让
+`DropFrame`、`DistributedCommunications` 等。`drive.mjs raw <Command> [json-args] [--type set|get|action]`
+（走 `POST /input` 的 `{t:"raw",command,args,type}`）可以直接实验它们；配合 `PREVIEW_ENGINE_LOG=1`（让
 `engine.mjs` 不再丢弃引擎 stdout）能看到每条命令的 `CommandLineInterface` 处理日志与应答。
+
+**信封里的 `type` 必须和命令实现的方法对上**：`CommandLine::Run()` 按 `type` 分发到
+`RunGet`/`RunSet`/`RunAction`，而每条命令只实现其中一两个。指针/按键那些是 `action`，但
+`ResolutionSwitch`、`FoldStatus` 这类只有 `RunSet`——发成 `action` 会被静默丢弃（连报错都没有，
+`IsArgValid()` 对没实现的类型直接返回 true）。这就是 `raw` 需要 `--type` 的原因。
 
 有一个不太直观的坑：**`keyAction` 用的是 Previewer 自己的枚举——`DOWN=0, UP=1, PRESS=2`——而不是
 `@ohos.multimodalInput.keyEvent.Action`（`DOWN=1, UP=2`）。** 如果用 `@ohos` 的值，引擎依然会确认
@@ -266,15 +313,18 @@ SDK Previewer 本身就能交互——它和 DevEco 的 Previewer 面板驱动�
 | `scripts/preview.mjs` | CLI 编排器：解析参数 → 构建 → 引擎 → 桥接层 → 监听 `.ets` |
 | `scripts/lib/discovery.mjs` | 定位工具链；从工程配置文件里读取可预览的模块 |
 | `scripts/lib/config.mjs` | 组装不可变的会话配置；推导构建路径 + ability 的 ohmurl |
+| `scripts/lib/device-profile.mjs` | 设备档位领域：解析 `--devices` 规格（预设 / `[类型:]宽x高[@dpi]`）、几何校验（启动与运行时两套上限）、按尺寸生成 `-f` 设备配置文件并在退出时清理 |
 | `scripts/lib/builder.mjs` | 运行 `hvigorw PreviewBuild`，报告成功/失败 |
+| `scripts/lib/build-lock.mjs` | 跨进程构建锁（`mkdir` 原语，按工程+product 分）：串行化同一工程的并发 `PreviewBuild`，防止多个编排器互相写坏共享的 `.preview/` 中间产物 |
+| `scripts/lib/display.mjs` | 无头 Linux 渲染支持：没有 `$DISPLAY` 时自动起 Xvfb（Mesa 软件渲染）并把引擎指过去；macOS 和已有 display 的 Linux 上是 no-op |
 | `scripts/lib/engine.mjs` | 创建 socket、启动/停止 `Previewer` 引擎、`send()` 输入命令、解析命令管道收到的消息、`getInspectorTree()` |
-| `scripts/lib/input.mjs` | 把浏览器事件翻译成引擎命令（指针 / 按键 / 返回） |
-| `scripts/lib/bridge.mjs` | HTTP + WebSocket 桥接层；`/input` POST、`/inspector` GET；`setEngine()` 把每个新引擎目标及其 `send`/`getInspectorTree` 交给它 |
-| `scripts/lib/viewer-page.mjs` | 静态的浏览器 viewer HTML + `#a11y` inspector 树 DOM 叠加层 |
+| `scripts/lib/input.mjs` | 把浏览器事件翻译成引擎命令（指针 / 按键 / 返回 / 改尺寸） |
+| `scripts/lib/bridge.mjs` | HTTP + WebSocket 桥接层；`/input`、`/resize` POST、`/inspector` GET；跟踪每个设备的当前几何与帧几何，引擎重启后重放 resize；`setEngine()` 把每个新引擎目标及其 `send`/`getInspectorTree` 交给它 |
+| `scripts/lib/viewer-page.mjs` | 静态的浏览器 viewer HTML + `#a11y` inspector 树 DOM 叠加层 + 拖拽改尺寸手柄 |
 | `scripts/lib/status.mjs` | 内存中的构建状态通道 + ArkTS 报错提取 |
 | `scripts/lib/json5.mjs` | 宽松的 HarmonyOS `*.json5` 读取器（支持注释 + 尾随逗号） |
 | `scripts/lib/registry.mjs` | 存活编排器（PID/端口）的磁盘记录，用于精确清理 |
-| `scripts/drive.mjs` | agent 驱动 CLI：基于桥接层 HTTP 接口封装 `wait`（等构建/引擎/出帧齐备，`--for-rebuild` 按变更/构建时间排序判定）、`shot`、`tree`/`find`（紧凑组件树/按文本定位）、`tap`/`swipe`/`type`/`key`/`back`、`raw`（任意管道命令）；经注册表自动发现运行中的预览 |
+| `scripts/drive.mjs` | agent 驱动 CLI：基于桥接层 HTTP 接口封装 `wait`（等构建/引擎/出帧齐备，`--for-rebuild` 按变更/构建时间排序判定）、`shot`、`tree`/`find`（紧凑组件树/按文本定位）、`tap`/`swipe`/`type`/`key`/`back`、`resize`（运行时改尺寸，阻塞到像素跟上）、`raw`（任意管道命令）、`sessions`（列出注册表记录及存活状态）；经注册表自动发现运行中的预览 |
 | `scripts/capture-frame.mjs` | 调试用：直接从运行中的引擎抓一帧 JPEG |
 | `scripts/cleanup.mjs` | `SessionEnd` 钩子的目标脚本：根据注册表终止残留的预览 |
 
@@ -303,6 +353,24 @@ SDK Previewer 本身就能交互——它和 DevEco 的 Previewer 面板驱动�
 
 这两条自动路径是互补的：(2) 会在用户看完的那一刻立刻释放引擎，而 (3) 保证即使浏览器信号从未到达，也不
 会有东西在会话结束后继续泄漏。
+
+### 注册表只是"声明"，探测才是"事实"
+
+注册表记录代表某个编排器**声称**占用了某个端口，而不代表那里真的有服务在跑：进程可能崩溃后留下记录，
+PID 可能被系统回收给了无关进程，编排器本身也可能卡死。所以两类消费者取用的信息不同：
+
+- `cleanup.mjs` 要**发信号杀进程**，用的是 PID，再加一次 `ps` 命令行核对（卡死的进程也必须能被杀掉，
+  这时候它恰恰是不响应 HTTP 的）。
+- `drive.mjs` 要**发请求驱动预览**，用的是 `registry.probe()`：注册表只负责提名候选端口，逐个打
+  `GET /status` 才是最终裁决——响应里的 `service: 'harmonyos-live-preview'` 标记同时排除了"别的服务
+  正好占着这个端口"的情况。连不上的端口会立即返回，所以探测死端口不产生额外耗时。
+
+`drive.mjs sessions` 把两者并排显示：`alive`（端口有响应）、`unresponsive`（进程还在但端口不响应，即
+卡死，该杀）、`dead`（纯粹的过期记录，忽略即可）。端口解析被推迟到第一次真正发请求时才做，所以
+`sessions` 本身不解析端口——注册表存在歧义时，它恰恰是你最需要能跑起来的那条命令。
+
+写入记录走的是"先写临时文件再 `rename`"：同目录 `rename` 是原子操作，读取方要么看到旧记录、要么看到
+新记录，不会读到写了一半的文件；写入过程中崩溃也只会保留上一条完整记录。
 
 <a id="trade-offs"></a>
 
@@ -354,15 +422,15 @@ skill 选择在每次重新构建后重启引擎；桥接层会在屏幕上保�
 平行的钩子任务链——`HotReloadBuild`（依赖 `HotReloadArkTS`），注册方式和 `PreviewBuild` 一样走
 `TaskNames.Task`/`HOOK_TASK_GROUP`。但它的启用条件（`hvigor-ohos-plugin/src/utils/inject-util.js`
 的 `InjectUtil.isHotReload()`）是 `hotReload===true` **且** hvigor daemon 处于运行状态——本 skill
-目前所有构建都故意 `--no-daemon`（见上面的权衡），二者直接冲突。要吃到这个原地热补丁能力，意味着要把
-构建方式换成常驻 daemon，这是一次需要单独评估的架构决策，不是这条注记能捎带解决的——所以本节的定位是
-"记录下这条路径确实存在、走到哪一步验证过"，不是"已经接入"。
+所有构建都故意 `--no-daemon`（见上面的权衡），二者直接冲突。因此这条原地热补丁通道**未接入**：
+接入意味着把构建方式换成常驻 daemon，是一次需要单独评估的架构决策。
 
 <a id="known-issue-previewarkts-crash"></a>
 
-## 已知问题（已修复）：`PreviewArkTS` 崩溃 `00308018`（`addOhmurlToHarAbility`）
+## 漏传 `buildRoot=.preview` 的后果：`PreviewArkTS` 崩溃 `00308018`（`addOhmurlToHarAbility`）
 
-**症状**（本 skill 旧版在 SDK 26.0.0 / hvigor 6.26.1 上必现，任何工程任何页面）：
+`builder.mjs` 始终传 `-p buildRoot=.preview`，正常使用不会遇到这个问题。但如果你自己手跑 hvigorw
+或改造脚本时漏传了它，会必现如下崩溃（SDK 26.0.0 / hvigor 6.26.1 实测，任何工程任何页面）：
 
 ```text
 > hvigor ERROR: Failed :entry:default@PreviewArkTS...
@@ -370,25 +438,20 @@ skill 选择在每次重新构建后重启引擎；桥接层会在屏幕上保�
 The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
 ```
 
-**根因**（不是上游 bug，是本 skill 漏传了一个注入配置）：hvigor-ohos-plugin 的每个任务都以
+**成因**（不是上游 bug）：hvigor-ohos-plugin 的每个任务都以
 `extraConfig.get('buildRoot') === '.preview'` 判定 `isPreview`（`pre-build.js` 等处，常量
-`BuildDirConst.PREVIEW_BUILD_PATH = ".preview"`）。旧版 `builder.mjs` 不传 `buildRoot`，于是
+`BuildDirConst.PREVIEW_BUILD_PATH = ".preview"`）。不传 `buildRoot` 时，
 资源/资产任务全部按普通构建路径输出（`.preview/<product>/` 树保持为空，尽管任务日志打印
 "Finished"），而 `PreviewerArkCompile.addOhmurlToHarAbility` 无条件按 `.preview` 路径回读
 `module.json`——`JsonUtil.getJson5Obj(...)` 读到 `undefined`，`JSON5.stringify(undefined)` 还是
-`undefined`，`writeFileSync` 随即抛出上面的报错。旧版文档曾把它记为"疑似上游时序 bug、无解"，
-并推断"换非 beta 工具链"——这两条都不对。
-
-**修复**：`builder.mjs` 现在始终传 `-p buildRoot=.preview`。在同一台此前必崩的机器
-（SDK 26.0.0 / hvigor 6.26.1）上，`devecocli create` 全新工程的完整
-构建→渲染→交互→热重载循环已端到端验证通过。如果你在别的 fork/旧版脚本上再见到这个报错，先检查
-hvigorw 调用有没有带 `buildRoot=.preview`。
+`undefined`，`writeFileSync` 随即抛出上面的报错。见到这个报错，先检查 hvigorw 调用有没有带
+`buildRoot=.preview`，不要怀疑工具链版本。
 
 <a id="component-preview-investigation"></a>
 
 ## 组件预览（`@Preview`）调查——DevEco 的真实实现与复刻状态
 
-官方预览分两种（[UI预览文档](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ui-ide-previewer)，
+官方预览分两种（[UI预览文档](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ui-ide-previewer.md)，
 更新时间 2026-03-20）：**页面预览**靠 `@Entry`（本 skill 驱动的就是它），**组件预览**靠
 `@Preview`（单文件最多 10 个；文件里只有 `@Preview` 时 DevEco 默认进组件预览）。DevEco 的实现
 已通过 IDE 安装包逆向 + 本机真实会话日志/落盘产物完整还原，**核心是 IDE 侧代码生成，不是引擎黑魔法**：
@@ -424,31 +487,25 @@ hvigorw 调用有没有带 `buildRoot=.preview`。
    （已对编译产物 abc 字符串表验证在场）；`-cpm` 由 `libide_util.dylib` 解析、三个 JS 全局由
    `libace_compatible.dylib` 注册、`AceContainer::isComponentMode_` 存在。
 
-### 纯 CLI 复刻的已验证/受阻点
+### 为什么纯 CLI 复刻不了
 
-- ✅ `-p previewMode=true` 可让 CLI 构建注册 FakeUIAbility 进 module.json（实测，ohmurl 与
-  `abilityOhmurl()` 推导一致：`@normalized:N&&&entry/.preview/fakeuiability/FakeUIAbility&`）。
-- ❌ 但 FakeUIAbility **没被编进 `modules.abc`**（字符串表为证），引擎报
-  `Cannot find module '&entry/.preview/fakeuiability/FakeUIAbility&'`——编译入口收集对
-  `src/main/ets` 之外文件的处理还有一层未明条件（DevEco 流程里编译 worker 配置来自
-  buildConfig.json，可能正是差异所在）。
-- ❌ 把 harness 放 `.preview` 用相对路由（`../../../.preview/harness/…`）：能编译，但运行时
-  ohmurl 规范化不一致（编译侧 `entry/.preview/…` vs 运行时 `entry/src/main/ets/.preview/…`），
-  `Cannot find module`。
-- ❌ `-p previewer.replace.srcPath=<file>`：Stage 模型下无消费者（仅 legacy FA 任务与缓存 key），
+DevEco 组件预览的关键一步，是把生成的 PreviewContainer 作为**内存中的源文件**、经 IDE 私有的常驻
+编译 worker 协议顶替目标文件参与编译——这条通道纯 CLI 不可复刻。可想到的绕行路径也都验证过、走不通：
+
+- `-p previewMode=true` 确实能让 CLI 构建把 FakeUIAbility 注册进 module.json（ohmurl 与
+  `abilityOhmurl()` 推导一致），但它没被编进 `modules.abc`（字符串表为证），引擎报
+  `Cannot find module`——编译入口收集对 `src/main/ets` 之外文件的处理还有一层未明条件。
+- 把 harness 放 `.preview` 用相对路由：能编译，但编译侧与运行时的 ohmurl 规范化不一致
+  （`entry/.preview/…` vs `entry/src/main/ets/.preview/…`），同样 `Cannot find module`。
+- `-p previewer.replace.srcPath=<file>`：Stage 模型下无消费者（仅 legacy FA 任务与缓存 key），
   对编译产物无影响（实测 abc 无变化）。
-- ❌ 单独 `-cpm true`（页面文档模式或缺 FakeUIAbility 的 ability 模式）：空帧零消息；管道命令
-  （`MemoryRefresh`/`LoadDocument`/tap）被接收但应答为空。附带发现：应用未加载时发 `inspector`
+- 单独 `-cpm true`：空帧零消息；管道命令被接收但应答为空。附带发现：应用未加载时发 `inspector`
   会让引擎段错误（`GetJSONTree` 栈），bridge 侧应先确认有帧再查询。
-- **可行的复刻路径**（未实现）：把生成的 PreviewContainer 写进 `src/main/ets` 下的临时路由
-  （规避 ohmurl 与编译入口两个问题），预览完删除——即 SKILL.md harness 模式的自动化。IDE 的
-  内存顶替通道依赖其私有 worker 协议，纯 CLI 不可复刻。
-- 实验工具：构建注入用 `PREVIEW_HVIGOR_ARGS`（builder.mjs 透传额外 `-p`），引擎命令用
-  `drive.mjs raw`，引擎日志用 `PREVIEW_ENGINE_LOG=1`。
 
-（勘误历史：本文档旧版曾记 `pageType=component` 为组件预览机制——hvigor 6.26.1 里 `PageType`
-只有 `page|card`，不成立；更早版本还记过"疑似缺 IDE 管道握手"——真实缺口如上，是编译侧的
-文件顶替，不是管道握手。）
+**可行但未实现的路径**：把生成的 PreviewContainer 写进 `src/main/ets` 下的临时路由（规避 ohmurl
+与编译入口两个问题），预览完删除——即 SKILL.md harness 模式的自动化。继续实验的工具：构建注入用
+`PREVIEW_HVIGOR_ARGS`（builder.mjs 透传额外 `-p`），引擎命令用 `drive.mjs raw`，引擎日志用
+`PREVIEW_ENGINE_LOG=1`。
 
 ### 当前替代方案
 

@@ -29,8 +29,14 @@
 //   key <Enter|Backspace|Tab|Space> [--device <id>]
 //                                   press a single named key
 //   back [--device <id>]            system back (pops route / closes dialog)
-//   raw <Command> [json-args] [--device <id>]
-//   sessions                        list running previews from the on-disk registry
+//   resize <WxH[@dpi]> [--device <id>]
+//                                   change one panel's size in place (no rebuild, no engine
+//                                   restart) — the CLI half of dragging a preview window's edge
+//                                   in DevEco. Survives rebuilds. 50-3000 px, dpi 120-640 (the
+//                                   engine's runtime command tops out lower than --device does).
+//   raw <Command> [json-args] [--type set|get|action] [--device <id>]
+//   sessions                        list registered previews, each probed over HTTP:
+//                                   alive (serving) / unresponsive (process up, port silent) / dead
 //
 // --device <id> targets one configured device (see `devices`) when a preview runs more than one
 // simultaneously (--devices phone,tablet on preview.mjs); omitted, every command falls back to the
@@ -40,7 +46,8 @@
 // Coordinates are normalized 0..1 over the target device's frame; values > 1 are taken as device px
 // and divided by its resolution, so inspector rects can be pasted in directly.
 import fs from 'node:fs';
-import { listSessions } from './lib/registry.mjs';
+import { probeSessions } from './lib/registry.mjs';
+import { checkGeometry, toVp, SIZE_LIMITS } from './lib/device-profile.mjs';
 
 const args = process.argv.slice(2);
 const opts = {};
@@ -56,41 +63,55 @@ const [command, ...rest] = positional;
 const fail = (msg, code = 1) => { console.error(`✗ ${msg}`); process.exit(code); };
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-// One orchestrator per port; when exactly one is alive the port is unambiguous, otherwise
+// One orchestrator per port; when exactly one is serving the port is unambiguous, otherwise
 // require --port so we never drive the wrong preview.
-function resolvePort() {
+//
+// The registry only nominates candidate ports — each one is then probed over HTTP, because that is
+// the same channel every command below uses. A record left behind by a crash, or one whose PID the
+// OS has recycled onto an unrelated process, is therefore never mistaken for a live preview.
+async function resolvePort() {
   if (opts.port) return Number(opts.port);
-  const alive = listSessions().filter((s) => {
-    if (!s.pid) return false;
-    try { process.kill(s.pid, 0); return true; } catch { return false; }
-  });
-  if (alive.length === 1) return alive[0].port;
-  if (alive.length > 1) fail(`multiple previews running (ports ${alive.map((s) => s.port).join(', ')}) — pass --port`);
-  return 8088;
+  const live = (await probeSessions()).filter((s) => s.live);
+  if (live.length === 1) return live[0].port;
+  if (live.length > 1) fail(`multiple previews running (ports ${live.map((s) => s.port).join(', ')}) — pass --port`);
+  return 8088; // nothing live: fall through to the default so the first request reports the friendly error
 }
 
-const port = resolvePort();
-const base = `http://127.0.0.1:${port}`;
+// Resolved on the first request rather than at startup, and memoized. `sessions` is the command you
+// reach for precisely *because* the target is ambiguous, so it must not be killed by the ambiguity
+// it exists to report — and it never calls target(), so it never resolves a port at all.
+let pendingPort = null;
+async function target(path) {
+  pendingPort ??= resolvePort();
+  const port = await pendingPort;
+  return { url: `http://127.0.0.1:${port}${path}`, port };
+}
 
 async function get(path, asBuffer = false) {
+  const { url, port } = await target(path);
   let res;
-  try { res = await fetch(base + path, { signal: AbortSignal.timeout(6000) }); }
+  try { res = await fetch(url, { signal: AbortSignal.timeout(6000) }); }
   catch { fail(`no preview responding on :${port} — is preview.mjs running? (see \`sessions\`)`); }
   if (!res.ok) return { status: res.status, body: null };
   return { status: res.status, body: asBuffer ? Buffer.from(await res.arrayBuffer()) : await res.json() };
 }
 
-async function postInput(msg) {
+async function post(path, payload) {
+  const { url, port } = await target(path);
   let res;
   try {
-    res = await fetch(`${base}${deviceRoute('/input')}`, {
-      method: 'POST', body: JSON.stringify(msg), signal: AbortSignal.timeout(6000),
+    res = await fetch(url, {
+      method: 'POST', body: JSON.stringify(payload), signal: AbortSignal.timeout(6000),
     });
   } catch { fail(`no preview responding on :${port}`); }
-  if (res.status === 503) fail('engine input pipe not connected yet — `wait` first, then retry');
-  const { sent } = await res.json();
-  if (!sent) fail(`engine dropped the event: ${JSON.stringify(msg)}`);
-  return sent;
+  return { status: res.status, body: await res.json().catch(() => null) };
+}
+
+async function postInput(msg) {
+  const { status, body } = await post(deviceRoute('/input'), msg);
+  if (status === 503) fail('engine input pipe not connected yet — `wait` first, then retry');
+  if (!body?.sent) fail(`engine dropped the event: ${JSON.stringify(msg)}`);
+  return body.sent;
 }
 
 const getStatus = async () => (await get('/status')).body;
@@ -106,6 +127,28 @@ const deviceRoute = (sub) => (opts.device ? `/devices/${encodeURIComponent(opts.
 // waiting/polling) rather than silently falling back to the default device. Returns that device's
 // live status entry — same shape as the legacy top-level fields (resolution/engineConnected/hasFrame/
 // interactive/port/engineError).
+// "1080x2340@480dpi (360x780vp)" — px is what coordinates use, vp is what ArkUI breakpoints use,
+// so both matter when reading or changing a size.
+function geometryOf(d) {
+  const [w, h] = d.resolution;
+  const dpi = d.density;
+  return dpi ? `${w}x${h}@${dpi}dpi (${toVp(w, dpi)}x${toVp(h, dpi)}vp)` : `${w}x${h}`;
+}
+
+// Polls until the device's *rendered* frame measures the requested geometry (bridge reports it as
+// frameResolution, read out of the JPEG header). Returns false on timeout rather than failing —
+// the resize itself was already accepted by the engine.
+async function waitForFrameGeometry(id, { width, height }, timeoutMs) {
+  const deadline = Date.now() + timeoutMs;
+  while (Date.now() < deadline) {
+    const d = ((await getStatus()).devices || []).find((x) => x.id === id);
+    const fr = d?.frameResolution;
+    if (fr && fr[0] === width && fr[1] === height) return true;
+    await sleep(200);
+  }
+  return false;
+}
+
 function pickDevice(st) {
   const list = st.devices || [];
   if (!opts.device) return list[0] ?? st;
@@ -250,8 +293,28 @@ const commands = {
     if (!list.length) { console.log('no devices configured'); return; }
     for (const d of list) {
       const state = d.engineConnected && d.hasFrame ? 'online' : d.engineConnected ? 'waiting-for-frame' : 'starting';
-      console.log(`${d.id}  ${d.resolution.join('x')}  port=${d.port}  ${state}${d.engineError ? `  ⚠ ${String(d.engineError).slice(0, 80)}` : ''}`);
+      console.log(`${d.id}  ${geometryOf(d)}  port=${d.port}  ${state}${d.engineError ? `  ⚠ ${String(d.engineError).slice(0, 80)}` : ''}`);
     }
+  },
+
+  // In-place size change via the engine's ResolutionSwitch — no rebuild, no engine restart, and the
+  // bridge replays it after the restarts a rebuild causes, so the new size sticks for the session.
+  async resize() {
+    const m = /^\s*(\d+)\s*x\s*(\d+)\s*(?:@\s*(\d+))?\s*$/i.exec(rest[0] ?? '');
+    if (!m) fail('usage: resize <WxH[@dpi]>   e.g. resize 1440x3200  |  resize 720x1280@240');
+    const device = pickDevice(await getStatus());
+    const geometry = {
+      width: Number(m[1]), height: Number(m[2]), density: m[3] ? Number(m[3]) : device.density,
+    };
+    const problem = checkGeometry(geometry, { maxSize: SIZE_LIMITS.maxResizeSize });
+    if (problem) fail(problem);
+    const { status, body } = await post(deviceRoute('/resize'), geometry);
+    if (status !== 200) fail(`resize rejected (${status}): ${body?.error ?? 'unknown error'}`);
+    // The engine acks immediately but re-renders ~200ms later, so block until the frame in hand
+    // actually measures the new size — otherwise a `shot` right after this would capture the old
+    // geometry and look like the resize silently failed.
+    const settled = await waitForFrameGeometry(body.id, geometry, 10000);
+    console.log(`${body.id} → ${geometryOf(body)}${settled ? '' : '  (frame not resized yet — engine may still be catching up)'}`);
   },
 
   async shot() {
@@ -371,25 +434,31 @@ const commands = {
   },
 
   // Escape hatch for the wider engine command vocabulary (Resolution, LoadDocument, FoldStatus, …):
-  // `raw <Command> ['{"json":"args"}']`. Useful for protocol experiments and features the typed
-  // commands don't cover; the engine acks over the same pipe (watch with PREVIEW_ENGINE_LOG=1).
+  // `raw <Command> ['{"json":"args"}'] [--type set|get|action]`. Useful for protocol experiments and
+  // features the typed commands don't cover; the engine acks over the same pipe (watch with
+  // PREVIEW_ENGINE_LOG=1). --type defaults to `action`; commands that only implement RunSet
+  // (ResolutionSwitch, FoldStatus, …) need `--type set` or the engine drops them silently.
   async raw() {
-    if (!rest[0]) fail('usage: raw <Command> [json-args]');
+    if (!rest[0]) fail('usage: raw <Command> [json-args] [--type set|get|action]');
     let args = {};
     if (rest[1]) {
       try { args = JSON.parse(rest[1]); } catch { fail('args must be valid JSON'); }
     }
-    await postInput({ t: 'raw', command: rest[0], args });
-    console.log(`sent ${rest[0]} ${JSON.stringify(args)}`);
+    if (opts.type && !['set', 'get', 'action'].includes(opts.type)) fail('--type must be set, get or action');
+    await postInput({ t: 'raw', command: rest[0], args, type: opts.type });
+    console.log(`sent ${rest[0]} ${JSON.stringify(args)}${opts.type ? ` (type=${opts.type})` : ''}`);
   },
 
   async sessions() {
-    const sessions = listSessions();
+    const sessions = await probeSessions();
     if (!sessions.length) { console.log('no running previews'); return; }
     for (const s of sessions) {
-      let alive = false;
-      try { process.kill(s.pid, 0); alive = true; } catch {}
-      console.log(`port=${s.port} pid=${s.pid} ${alive ? 'alive' : 'dead'} project=${s.project ?? '?'}`);
+      // A port that doesn't answer while its PID is still around means a wedged orchestrator — worth
+      // telling apart from a plain stale record, since the fix differs (kill it vs. ignore it).
+      let state = 'dead';
+      if (s.live) state = 'alive';
+      else if (s.pid) { try { process.kill(s.pid, 0); state = 'unresponsive'; } catch {} }
+      console.log(`port=${s.port} pid=${s.pid} ${state} project=${s.project ?? '?'}`);
     }
   },
 };

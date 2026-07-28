@@ -5,12 +5,12 @@
 没有任何一条是独立运行场景所特有的。
 
 来源页面（每篇都带有自己的"更新时间"；如果这里的内容看起来过时了，去原文重新核对）：
-[UI预览](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ui-ide-previewer)、
-[支持使用预览器的API清单](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-previewer-api-list)、
-[组件预览 / PreviewParams](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-component-previewer)、
-[PreviewChecker检测规则](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-previewer-previewchecker)、
-[预览数据模拟](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-previewer-mock)、
-[查看多端设备预览效果](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-previewer-multi-profile)。
+[UI预览](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ui-ide-previewer.md)、
+[支持使用预览器的API清单](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-previewer-api-list.md)、
+[组件预览 / PreviewParams](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-universal-component-previewer.md)、
+[PreviewChecker检测规则](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-previewer-previewchecker.md)、
+[预览数据模拟](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-previewer-mock.md)、
+[查看多端设备预览效果](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-previewer-multi-profile.md)。
 抓取于 2026-07-03。
 
 ## 支持的 ArkTS 组件
@@ -50,7 +50,7 @@
 | `@ohos.router` | `pushUrl`, `replaceUrl`, `back`, `clear`, `getLength`, `getState`, `enableAlertBeforeBackPage`, `disableAlertBeforeBackPage`, `getParams`, `RouterMode`, `RouterOptions`, `RouterState`, `EnableAlertOptions`——页面间跳转在普通的页面预览下就能用，不需要 ability 模式 |
 | `@ohos.net.http` | 仅 `http.createHttp`——唯一支持的网络调用。从 API 12 起，如果请求需要走代理，previewer 会遵循系统的 `http_proxy`/`https_proxy`/`no_proxy` 环境变量。 |
 | `@ohos.data.preferences` | `getPreferences`, `deletePreferences`, `removePreferencesFromCache`, `Preferences`, `ValueType` |
-| `@ohos.file.fs` | `open`, `close`, `fdatasync`, `fsync`, `read`, `write`, `mkdir`, `mkdtemp`, `rename`, `rmdir`, `unlink`, `stat`, `truncate`——仅限 Stage 类型的 HAP/HSP，且仅在 DevEco Studio 6.0.0 Beta5 及以上版本、开启了 IDE 侧的**启用文件操作**开关之后才可用。这个开关对应引擎的 `-ilt true` 启动参数（`ide_previewer/util/CommandParser.cpp` 的 `EnableFileOperationValid()`——`-ilt` 直接映射 `options.enableFileOperation`），本 skill 的 `engine.mjs` 现在始终传它；不过"传了这个 flag → `@ohos.file.fs` 调用真的在预览里成功"这条端到端路径本 skill 尚未拿一个真实工程实测过，用之前先小范围验证。 |
+| `@ohos.file.fs` | `open`, `close`, `fdatasync`, `fsync`, `read`, `write`, `mkdir`, `mkdtemp`, `rename`, `rmdir`, `unlink`, `stat`, `truncate`——仅限 Stage 类型的 HAP/HSP，且仅在 DevEco Studio 6.0.0 Beta5 及以上版本、开启了 IDE 侧的**启用文件操作**开关之后才可用。这个开关对应引擎的 `-ilt true` 启动参数（`ide_previewer/util/CommandParser.cpp` 的 `EnableFileOperationValid()`——`-ilt` 直接映射 `options.enableFileOperation`），本 skill 的 `engine.mjs` 始终传它；不过"传了这个 flag → `@ohos.file.fs` 调用真的在预览里成功"这条端到端路径本 skill 尚未拿一个真实工程实测过，用之前先小范围验证。 |
 
 除了这两张表之外的一切——大多数系统能力、除 `http.createHttp` 外的大多数 `@ohos.net.*` 模块、硬件
 传感器、大多数 Ability/Context API——都不会被 previewer 模拟。这些都不会在编译期失败；一个页面可以
@@ -63,13 +63,14 @@ DevEco 可以直接预览一个裸的 `@Component` struct（没有 `@Entry`）�
 每个源文件最多 10 个。启动方式（官方文档，更新时间 2026-03-20）：文件里只有 `@Preview` 时点
 Previewer 按钮默认进组件预览；`@Entry` 和 `@Preview` 并存时先页面预览、再点图标切换。
 **本 skill 不支持这种模式**：编译侧包装（`storePreviewComponents` 门控）和引擎侧开关（`-cpm true`）
-都真实存在且已验证生成，但纯 CLI 启动下引擎只出空帧，缺一步 DevEco IDE 前端的初始化——完整调查
-（含勘误：旧版所记 `pageType=component` 在 hvigor 6.26.1 中不成立，`PageType` 只有 `page|card`）见
+都真实存在且已验证生成，但纯 CLI 启动下引擎只出空帧，缺一步 DevEco IDE 前端的初始化——完整调查见
 [how-it-works.md § 组件预览调查](how-it-works.md#component-preview-investigation)。想在页面模式下
 拿到同样的效果，用 SKILL.md 里的 harness 页面模式；含 `@Preview` 的文件在页面模式下照常预览。
 
-`PreviewParams`（`@Preview({...})` 的参数）控制的是单次预览级别的设备模拟，DevEco 把这些能力暴露给
-用户，本 skill 则把它们固化进了两套 `--device` 档位：
+`PreviewParams`（`@Preview({...})` 的参数）控制的是单次预览级别的设备模拟。本 skill 用 `--device`/
+`--devices` 规格覆盖了其中的几何部分——`width`/`height`/`dpi`/`deviceType`/`orientation`（方向由宽高
+关系推导），运行中还能用 `drive.mjs resize` 或拖 viewer 面板改；`locale`/`colorMode`/`roundScreen`
+目前固定为 `zh_CN`/`light`/方形：
 
 | 字段 | 类型 | 默认值 | 说明 |
 |---|---|---|---|
@@ -160,15 +161,34 @@ DevEco 的 `@ohos/hamock` 包（作为 `devDependency` 加入，然后 resync �
   `@BuilderParam` 子组件，DevEco 依然建议用 harness 父组件模式，而不是属性级 mock。
 
 这是在 hvigor 的 `PreviewArkTS` 步骤里做的编译期源码替换，其生效门槛 `isPreview` 由注入配置
-`buildRoot=.preview` 驱动——本 skill 的 `builder.mjs` 现在始终传它（见
-[how-it-works.md](how-it-works.md#known-issue-previewarkts-crash)），所以 mock 的编译期替换机制在
-纯 CLI 构建下应当同样生效；不过"配置 mock-config.json5 → 页面真的渲染出 mock 数据"这条端到端路径
-本 skill 尚未实测过，用之前先小范围验证。
+`buildRoot=.preview` 驱动——本 skill 的 `builder.mjs` 始终传它（见
+[how-it-works.md](how-it-works.md#known-issue-previewarkts-crash)）。
 
-## 多设备 / 动态分辨率（DevEco IDE 特有功能，本 skill 未复现）
+**端到端已实测通过**（依赖模块 / 系统模块 / 本模块文件三种 key，加 `@MockSetup`，都在真实多模块
+工程上渲染出了 mock 值）。编译期替换只完成一半：产物 `mock-config.json` 里的 source 是带模块名的
+`@normalized:N&entry&&…`，引擎解析它要读 `<module>/.preview/config/buildConfig.json` 的
+`aceModuleBuild` 才能定位 `modules.abc`，而那个文件是 DevEco **IDE 侧**写的、hvigor 只读不写
+（`PreviewUpdateAssets` 消费它的 `stageRouterConfig`）。纯 CLI 下缺失时的症状是
+`load hsp failed, hsp name:<module>` + 白屏。`lib/preview-config.mjs` 在每次构建成功后补齐这个文件，
+所以本 skill 里 mock 开箱可用。实战配方见 [mock-playbook.md](mock-playbook.md)。
+
+**同一个文件也决定 HSP 依赖能不能加载**：`"type": "shared"` 模块是被引擎当独立包加载的，走的是完全
+一样的 `modulePathMap → buildConfig.json → aceModuleBuild → modules.abc` 查找。缺文件时引擎在
+`LoadJSPandaFile` 阶段就 Fatal（`load hsp failed`），业务代码一行都跑不到——表现是**引擎压根连不上、
+零帧**，比白屏更靠前。hvigor 构建 entry 时其实已经顺带编译了这些 HSP 模块（`.preview/<product>/
+intermediates/loader_out/<target>/ets/modules.abc` 是有的），缺的只是这个指针文件，所以
+`preview-config.mjs` 会遍历 `modulePathMap`，给每个有自己预览产物的模块都补一份。
+
+一条实测出来的硬约束：`PreviewArkTS` **只处理被预览模块的 `src/mock/mock-config.json5`**，
+`features/*`、`commons/*` 等依赖模块里的 mock 配置不产生任何产物、被完全忽略——要替换依赖模块的
+实现，也得写在被预览模块下、用包名做 key。
+
+## 多设备 / 动态分辨率
 
 DevEco 的**多设备预览**能同时并排运行最多 4 台设备（必须共享同一种语言，ArkTS 或 JS 二选一），它的
-页面预览还支持自由拖拽改变设备边框大小。本 skill 则是每个编排器实例只针对固定的 `--device
-phone|tablet` 几何尺寸启动一个引擎（参见 `scripts/lib/config.mjs` 的 `DEVICE_PROFILES`）——如果需要
-同时打开两种设备几何尺寸，就跑两个编排器实例（用不同的 `--port`）。另外，DevEco 的多设备预览模式下
+页面预览还支持自由拖拽改变设备边框大小。这两件事本 skill 都有对应实现：`--devices a,b,c` 一次配置多个
+尺寸并排预览（每个尺寸一个引擎进程，数量不设上限），尺寸可以是内置档位也可以是任意 `[类型:]宽x高[@dpi]`；
+运行中还能拖 viewer 面板右下角、或 `drive.mjs resize` 原地改尺寸（引擎自己的 `ResolutionSwitch`，不
+重建不重启）。机制与实测见
+[how-it-works.md § 任意自定义尺寸](how-it-works.md#custom-size)。另外，DevEco 的多设备预览模式下
 动画预览是禁用的；这个限制在这里不适用，因为本 skill 每个引擎从来只跑一种档位。

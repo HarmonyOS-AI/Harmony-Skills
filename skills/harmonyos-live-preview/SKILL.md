@@ -1,6 +1,6 @@
 ---
 name: harmonyos-live-preview
-description: Preview, screenshot, and interact with a HarmonyOS ArkUI app in a browser using only the command-line-tools — no DevEco Studio. Renders any @Entry page, rebuilds on every .ets edit, can preview multiple device sizes side by side (--devices phone,tablet, mirroring DevEco's multi-device preview), and ships a driver CLI (wait for rebuild / capture frame across every size / read the live ArkUI component tree / tap / swipe / type). Use it whenever you modify ArkUI or .ets code and need visual proof it renders correctly (screenshot + component-tree assertions), whenever the user asks to preview, see, demo, or screenshot a HarmonyOS page on one or multiple screen sizes, verify responsive/breakpoint behavior, or debug a blank or wrong-looking ArkUI page. 无需 DevEco Studio 在浏览器实时预览鸿蒙应用：改 .ets 自动重建，可同时预览多个设备尺寸（手机+平板并排），命令行等待构建、截图（支持一次截全部尺寸）、读组件树、点击/滑动/输入。改完 ArkUI 代码要看效果、验证、截图，用户想预览鸿蒙页面效果、验证响应式/多尺寸适配，或排查白屏/样式错乱时都用它。触发词：鸿蒙预览、看下效果、界面截图、HarmonyOS/ArkUI/ArkTS/.ets 预览、可交互预览、热重载、白屏排查、多设备预览、响应式适配、多尺寸同屏。
+description: Preview, screenshot, and interact with a HarmonyOS ArkUI app in a browser using only the command-line-tools — no DevEco Studio. Renders any @Entry page, rebuilds on every .ets edit, previews any device size — presets or arbitrary custom resolutions/densities (--devices phone,tablet,1440x3200@560), several side by side, resizable at runtime by dragging or from the CLI, mirroring DevEco's multi-device preview and its draggable preview window — and ships a driver CLI (wait for rebuild / capture frame across every size / read the live ArkUI component tree / tap / swipe / type / resize). Use it whenever you modify ArkUI or .ets code and need visual proof it renders correctly (screenshot + component-tree assertions), whenever the user asks to preview, see, demo, or screenshot a HarmonyOS page on one or multiple screen sizes, verify responsive/breakpoint behavior at any resolution, or debug a blank or wrong-looking ArkUI page. 无需 DevEco Studio 在浏览器实时预览鸿蒙应用：改 .ets 自动重建，可同时预览多个设备尺寸（手机+平板并排），支持任意自定义分辨率/像素密度，运行中还能拖拽或命令行改尺寸，命令行等待构建、截图（支持一次截全部尺寸）、读组件树、点击/滑动/输入。改完 ArkUI 代码要看效果、验证、截图，用户想预览鸿蒙页面效果、验证响应式/多尺寸适配、换个屏幕尺寸看看，或排查白屏/样式错乱时都用它。触发词：鸿蒙预览、看下效果、界面截图、HarmonyOS/ArkUI/ArkTS/.ets 预览、可交互预览、热重载、白屏排查、多设备预览、响应式适配、多尺寸同屏、自定义分辨率、自定义尺寸、改屏幕尺寸、折叠屏尺寸、指定 dpi。
 ---
 
 # HarmonyOS ArkUI 实时预览
@@ -19,7 +19,10 @@ description: Preview, screenshot, and interact with a HarmonyOS ArkUI app in a b
   `/opt/deveco-studio`、`%ProgramFiles%\Huawei\DevEco Studio`。探测失败就先找到根目录（问用户或搜
   常见安装位置）再传。两种布局（`bin/hvigorw` 或 `tools/hvigor/bin/hvigorw`）都能解析。
 - **Node.js ≥ 21**（需要全局 `WebSocket`）。无 npm 依赖，纯标准库。
-- **可构建的 HarmonyOS 工程**（根目录有 `build-profile.json5`）。
+- **可构建的 HarmonyOS 工程**（根目录有 `build-profile.json5`）。依赖没装（没有 `oh_modules/`）就先
+  `ohpm install --all`。**设了 `http_proxy`/`https_proxy` 时 ohpm 会假报 `NOTFOUND package '…'`**
+  ——包其实在源上，是代理拦了；用
+  `env -u http_proxy -u https_proxy -u all_proxy ohpm install --all` 绕过。
 - **平台：macOS / Linux。** 引擎经 Unix-domain socket 通信，运行时不支持 Windows。
 - **无头 Linux（ECS/容器/CI）可用，无需 GPU：** 没有 `$DISPLAY` 时编排器自动起 Xvfb + Mesa 软件渲染，
   但依赖要预装——Debian/Ubuntu：`apt-get install -y xvfb libgl1 libglu1-mesa libgl1-mesa-dri
@@ -40,8 +43,8 @@ node ${CLAUDE_PLUGIN_ROOT}/skills/harmonyos-live-preview/scripts/preview.mjs \
 | `--project <dir>` | 工程根目录 | 当前目录 |
 | `--module <name>` | 要预览的模块 | entry 类型模块（自动发现） |
 | `--page <route>` | 要预览的 `@Entry` 路由，如 `pages/AdaptiveIndex` | pages 配置里第一个页面 |
-| `--device <type>` | `phone`（1080×2340@480dpi 竖屏 = 360×780vp）或 `tablet`（2048×1280@320dpi 横屏 = 1024×640vp）——断点/响应式调试按 vp 算 | `phone` |
-| `--devices <列表>` | 逗号分隔，**同时**预览多个尺寸，例如 `phone,tablet`，并排显示在浏览器 viewer 里。给了就覆盖 `--device`。 | 未给时等价于 `--device` 的单一档位 |
+| `--device <规格>` | 内置档位 `phone`（1080×2340@480dpi 竖屏 = 360×780vp）/ `tablet`（2048×1280@320dpi 横屏 = 1024×640vp），或**任意自定义尺寸** `宽x高[@dpi]`（见下）——断点/响应式调试按 vp 算 | `phone` |
+| `--devices <列表>` | 逗号分隔，**同时**预览多个尺寸，例如 `phone,tablet,1440x3200@560`，并排显示在浏览器 viewer 里。给了就覆盖 `--device`。 | 未给时等价于 `--device` 的单一档位 |
 | `--clt`/`--sdk <dir>` | 工具链根目录 | 见前置条件 |
 | `--port <n>` | viewer HTTP 端口 | `8088` |
 | `--ability-mode` | 跑真正的 UIAbility 而不是直接渲染 `--page`（见下） | 关（页面模式） |
@@ -49,6 +52,32 @@ node ${CLAUDE_PLUGIN_ROOT}/skills/harmonyos-live-preview/scripts/preview.mjs \
 | `--keep-alive` | 浏览器 tab 关闭后不自动释放（无头/常驻用） | 默认自动释放 |
 
 模块、UIAbility、包名、pages 配置都从工程配置文件自动发现，以上参数只是覆盖项。
+
+### 自定义尺寸
+
+`--device`/`--devices` 除了 `phone`/`tablet` 两个内置档位，还接受**任意尺寸规格**：
+
+```
+[<设备类型>:]<宽>x<高>[@<dpi>]
+```
+
+```bash
+--devices 1440x3200@560           # 自定义手机（411×914vp）
+--devices tablet:1200x800         # tablet 类型 + 自定义尺寸（dpi 沿用该类型默认值 320）
+--devices 2in1:2560x1600@240      # 换设备类型：ArkUI 拿到的 deviceType 也跟着变
+--devices phone,tablet,1440x3200@560   # 混着写，并排预览
+```
+
+- **设备类型**默认 `phone`，可选 `phone`/`tablet`/`wearable`/`tv`/`car`/`2in1`/`default`（引擎
+  `supportedDevices` 全集）。它决定 ArkUI 看到的 `deviceType`，只有 `phone`/`tablet` 有内置默认
+  分辨率，其余类型必须显式写尺寸。
+- **dpi** 默认按类型取（phone 480 / tablet 320 / 2in1 240 / 其余 320）。**真正决定布局断点的是
+  vp = px ÷ (dpi/160)**，只改 px 不改 dpi 等于换了个"更大的屏"，改 dpi 才是换"更密的屏"。
+- **范围**：宽高 50–3840 px，dpi 120–640（引擎自己的校验区间）。
+- 面板 id 由规格生成（`phone-1440x3200-560dpi`、`tablet-1200x800`），`drive.mjs --device` 用它定位；
+  写成和内置档位等价的尺寸（`1080x2340@480`）会回落成 `phone`，不会多开一块面板。
+- 每个尺寸的 `-f` 设备配置文件（vp 分辨率 + 安全区）由脚本按该尺寸现算现生成，放在会话私有临时
+  目录里，退出时删除。安全区按 **dpi** 换算（状态栏 39vp / 导航条 28vp），不会因为分辨率变大就变粗。
 
 ### 同时预览多个尺寸
 
@@ -59,8 +88,6 @@ node ${CLAUDE_PLUGIN_ROOT}/skills/harmonyos-live-preview/scripts/preview.mjs \
 
 每个尺寸各起一个独立的 `Previewer` 引擎进程，浏览器 viewer 里横向并排各画一块面板；每次重建
 （改 `.ets`）会重启**全部**配置的引擎。不传 `--devices` 时单尺寸的行为和开销与以前完全一样。
-尺寸只能从 `phone`/`tablet` 两档里选（`scripts/lib/config.mjs` 的 `DEVICE_PROFILES`），任意
-自定义分辨率暂不支持。
 
 `drive.mjs` 用 `--device <id>` 选定要操作哪个面板：
 
@@ -70,6 +97,26 @@ $DRIVE shot --all                 # 一次性截出所有尺寸，写 <out>-<id>
 $DRIVE tap "提交订单" --device tablet   # 只影响 tablet 那块面板
 $DRIVE tree --device phone         # 不传 --device 时默认第一个配置的尺寸——单尺寸用法完全不用改
 ```
+
+### 运行中改尺寸（不重建、不重启引擎）
+
+对应 DevEco 里拖预览窗口边框那件事，走引擎自己的 `ResolutionSwitch` 命令：**引擎不重启、页面状态
+不丢**，约 200ms 后新尺寸的帧就到了。
+
+```bash
+$DRIVE resize 1440x3000@560              # 改默认面板；省略 @dpi 表示沿用当前密度
+$DRIVE resize 720x1560 --device tablet   # 只改 tablet 那块
+$DRIVE shot /tmp/after.jpg               # resize 会阻塞到新尺寸的帧真的出现，截图不会截到旧尺寸
+```
+
+浏览器 viewer 里则是**拖每块面板右下角的 `⇲`**，松手即生效；面板标题实时显示 `px @dpi · vp`。
+
+- 运行时 resize 的上限比启动参数低：宽高 50–**3000** px（引擎两侧的校验区间本来就不同）。
+- 尺寸**扛得住重建**：改 `.ets` 触发的重建会重启引擎，桥接层会在新引擎出首帧后把当前尺寸重新下发，
+  不会跳回启动尺寸。
+- 设备类型（`deviceType`）不能在运行时改——那是启动参数，换类型要带新 `--device` 重启编排器。
+- 安全区厚度是引擎在 resize 时按 px 沿用的，不会按新 dpi 重算（宽度会跟着新分辨率走）。要精确的安全
+  区，用启动参数指定该尺寸。
 
 **换页面 = 重启编排器**：`--page` 是启动参数，没有运行时切页接口。预览另一个 `@Entry` 就带新
 `--page` 重启（Claude Preview 场景：改 `launch.json` 的 `runtimeArgs` 再 preview-start 一次）。
@@ -146,7 +193,8 @@ $DRIVE tree --depth 6            # 紧凑组件树大纲：type "文本" rect @�
 
 ## 与预览交互
 
-浏览器 viewer 页面本身就能点击/滑动/物理键盘输入/系统返回（给用户演示用）。脚本化驱动用 drive.mjs：
+浏览器 viewer 页面本身就能点击/滑动/物理键盘输入/系统返回/拖右下角改尺寸（给用户演示用）。脚本化
+驱动用 drive.mjs：
 
 ```bash
 $DRIVE tap "登录"                 # 按渲染文本找元素点其中心；多个匹配会列出，加 --index 消歧
@@ -155,11 +203,14 @@ $DRIVE swipe 0.5,0.75 0.5,0.25   # 向上滑=列表向下滚；move 事件按真
 $DRIVE tap "请输入内容" && $DRIVE type "hello 123"   # 先 tap 输入框聚焦，再打字
 $DRIVE key Enter                 # Enter / Backspace / Tab / Space
 $DRIVE back                      # 系统返回：弹路由栈 / 关对话框
-$DRIVE raw FoldStatus '{"FoldStatus":"fold"}'   # 逃生舱：向命令管道发任意引擎命令
+$DRIVE resize 720x1560           # 运行中改这块面板的尺寸（见上）
+$DRIVE raw FoldStatus '{"FoldStatus":"fold"}' --type set   # 逃生舱：向命令管道发任意引擎命令
 ```
 
 `raw` 能发引擎支持的任意命令（`FoldStatus`、`Resolution`、`OrientationChanged`、`LoadDocument`
 等，完整词汇表见 how-it-works.md）；配合 `PREVIEW_ENGINE_LOG=1` 能看到引擎对每条命令的应答。
+`--type` 默认 `action`，**只实现了 `RunSet` 的命令（`ResolutionSwitch`、`FoldStatus`…）必须写
+`--type set`**，否则引擎会静默丢弃。
 
 交互后的验证与编辑后一样：`shot` + `find`/`tree` 断言状态变化（点了"关注"之后 `find "已关注"`）。
 交互能力在热重载之后依然保持——输入通道随引擎重启自动重接。
@@ -185,47 +236,53 @@ $DRIVE raw FoldStatus '{"FoldStatus":"fold"}'   # 逃生舱：向命令管道发
    `$DRIVE devices`（或 `/status` 的 `engineError` 字段）——引擎会把运行时报错主动推回来，常常
    已经有可读的报错文本。更完整的原始输出（ArkTS console、`LoadPage` 失败、JS 异常）用
    `PREVIEW_ENGINE_LOG=1` 启动 `preview.mjs`——引擎 stdout 默认被丢弃，这个开关把它放出来。
-3. **`engineConnected:false` 且不恢复**——引擎进程没起来。无头 Linux 查 Xvfb/Mesa 依赖是否装齐
-   （见前置条件）；查工具链根目录是否解析正确（`--clt`）。
+3. **`engineConnected:false` 且不恢复**——引擎进程没起来，业务代码一行都没跑到。无头 Linux 查
+   Xvfb/Mesa 依赖是否装齐（见前置条件）；查工具链根目录是否解析正确（`--clt`）；`lws` 端口被上一轮
+   的孤儿引擎占着时日志会有 `lws_socket_bind: ERROR on binding`，换 `--lws` 重启即可。
+   `PREVIEW_ENGINE_LOG=1` 里如果是 `load hsp failed, hsp name:<module>`，说明某个 `"type": "shared"`
+   依赖缺 `.preview/config/buildConfig.json`——正常情况下编排器每次构建后会自动补齐（日志里的
+   `preview-config: wired …`），没补上就看那个模块有没有产出 `.preview/<product>/intermediates/
+   loader_out/<target>/ets/modules.abc`。
 4. **组件树只有 root 没 children**——引擎跑的不是 `PreviewBuild` 产物。正常流程不会发生；见
    [how-it-works.md](references/how-it-works.md#getting-the-arkui-inspector-tree)。
 
 <a id="mock-the-dependency"></a>
 
-## 当页面起不来时：模拟依赖（harness 模式）
+## 当页面起不来时：mock 掉依赖
 
-页面依赖真实后端、HSP、UIAbility 注入的状态，或父组件运行时提供的 `@Link`/`@Consume`/`@ObjectLink`
-值时，**不要直接预览真实入口页——加一个小的 harness `@Entry` 页，用 mock 数据渲染同一份 UI**：
+耦合重的真实工程里，入口页往往一开就白屏。**先按报错原文分类，再选招**——不同类别解法完全不同，
+用错了白费功夫。完整决策表、每种配方的可运行代码和验证命令都在
+**[references/mock-playbook.md](references/mock-playbook.md)**，动手写 mock/harness 前先读它。
+分类速查：
 
-1. 在真实路由旁边加 `pages/PreviewProfileCard.ets` 并注册进 pages 配置（`--page` 只认配置里的路由）。
-2. 引入*展示型*组件本身（不是取真实数据的页面/view-model 链路），喂字面量 mock props，回调换桩函数：
+- **F 类（最高频）：组件树只有一个空 `Navigation`。** 现代模板的 entry 页面基本都是"空壳 +
+  `NavPathStack.pushPathByName` 具名路由跳真首页"，具名路由在 Previewer 沙箱里解析不到 builder
+  （`PREVIEW_ENGINE_LOG=1` 可见 `Builder function is empty`），**`--ability-mode` 救不了**。解法：
+  写一个 `@Entry` harness 直接调目标页的 Builder（函数名就在 `router_map.json` 的 `buildFunction`
+  里），注册进 `main_pages.json` 后 `--page` 预览，不动业务代码。同一招直接用于预览二级/三级页面
+  （详情页、设置页）——`XxxBuilder()` 基本都是零参的，真正的参数在 `NavPathStack` 单例 /
+  `AppStorageV2` 这类全局 store 里，**harness 要在渲染前把 store 灌好**；时间主要花在读源码搞清
+  参数从哪来，不是编译。配方见
+  [mock-playbook.md § 绕开具名路由](references/mock-playbook.md#绕开具名路由)。
+- **A 类（页面直接摸 UIAbility/窗口）——改 3 行就好。** 报错形如
+  `Cannot read property getMainWindowSync of undefined`：页面模式不跑 UIAbility，context 上没有
+  `windowStage`，成员初始化就抛异常，整页 build 不出来（`@MockSetup` 也救不了，它跑得更晚）。解法：
+  把这条链路声明成 `| undefined` + `?.`，真机行为不变。变体：初始化逻辑写在 `EntryAbility.onCreate`
+  里、页面模式压根不执行——这类加 `--ability-mode` 就好，0 改动；加完**必须再看一次 `tree`**，别只
+  看异常日志。配方见 [mock-playbook.md § 防御式改写](references/mock-playbook.md#防御式改写)。
+- **B 类（数据层拿不到数据，骨架在但内容空）——用官方 Hamock 模块 mock。** 被预览模块加
+  `@ohos/hamock` devDependency + `src/mock/mock-config.json5`。`preview.mjs` 每次构建后会自动补上
+  DevEco 才写的 `.preview/config/buildConfig.json`，所以这套机制在纯 CLI 下**开箱可用**——启动日志
+  出现 `mock: wired …` 就说明接上了。**mock 只能写在被预览的那个模块里**，替换依赖模块的实现也得在
+  entry 下写、用包名做 key。配方见 [mock-playbook.md § 模块 mock](references/mock-playbook.md#模块-mock)。
+- **D 类（`@Link`/`@Consume`/`@ObjectLink` 缺父级提供者）或只想单独看某个组件——harness 包装页。**
+  加一个 `@Entry` 自己当父组件喂字面量 mock，注册进 pages 配置后 `--page` 预览。注意 ArkTS 的
+  `{...}` 字面量只能初始化没有自定义构造函数/`readonly` 字段/方法的类型，否则构建直接死在
+  `arkts-no-obj-literals-as-types`；验证完删掉 harness 或排除出正式构建——它是普通 `@Entry`，留在
+  pages 配置里会被打进正式包。配方见
+  [mock-playbook.md § harness 包装页](references/mock-playbook.md#harness-包装页)。
 
-   ```ts
-   // pages/PreviewProfileCard.ets — 仅用于预览，不属于真正的导航图
-   import { ProfileCard, UserVO } from '../components/ProfileCard';
-
-   @Entry
-   @Component
-   struct PreviewProfileCard {
-     @State user: UserVO = { name: 'Ada Lovelace', avatar: $r('app.media.startIcon'), followers: 128 };
-
-     build() {
-       Column() {
-         ProfileCard({ user: this.user, onFollow: () => console.info('preview: follow tapped') })
-       }
-       .width('100%').height('100%')
-     }
-   }
-   ```
-
-   注意 ArkTS 的坑：`{...}` 字面量只能初始化没有自定义构造函数/`readonly` 字段/方法的类型——
-   `interface` 天然可以，带构造函数的 `class` 必须 `new UserVO(...)`，否则构建直接死在
-   `arkts-no-obj-literals-as-types`，什么都渲染不出来。
-3. `--page pages/PreviewProfileCard` 预览，热重载循环里迭代 mock 数据。
-4. 完事删掉 harness 或排除出正式构建——它是普通 `@Entry`，留在 pages 配置里会被打进正式包。
-
-要集中式 mock（模块级替身 `src/mock/mock-config.json5`，或 `@MockSetup` 属性级打桩），两套官方机制
-的用法见 [preview-coverage.md](references/preview-coverage.md#official-mock-mechanism-hamock)。
+无论用哪招，都用 `$DRIVE find "<mock 特征文案>"` 断言 mock 真的生效，别靠截图肉眼判断。
 
 ## 预览模式（page vs ability）
 
@@ -241,10 +298,34 @@ $DRIVE raw FoldStatus '{"FoldStatus":"fold"}'   # 逃生舱：向命令管道发
 
 - **关浏览器 tab → 自动释放**（viewer 的 SSE 存活通道断开后 ~10 秒宽限）。只在浏览器连接过之后才
   生效，所以纯 `drive.mjs`/curl 的无头流程不会被误杀；`--keep-alive` 彻底关闭。
-- **会话结束 → 兜底清理**：`SessionEnd` 钩子（[hooks/hooks.json](../../hooks/hooks.json) →
-  `scripts/cleanup.mjs`）按 `$TMPDIR/harmonyos-live-preview/sessions/` 注册表精确终止（不是
-  `pkill`）。
+- **会话结束 → 兜底清理**：`scripts/cleanup.mjs` 按 `$TMPDIR/harmonyos-live-preview/sessions/`
+  注册表精确终止（不是 `pkill`）。Claude Code 用 `SessionEnd` 钩子自动调它
+  （[hooks/hooks.json](../../hooks/hooks.json)）；没有会话结束钩子的宿主（Codex、OpenCode、纯终端）
+  直接跑这个脚本即可——它本来就只是兜底，关标签页和 Ctrl-C 两条路径不依赖它。
 - **手动**：Ctrl-C。三条路径走同一个幂等 shutdown。
+
+注册表是机器上**全局共享**的一个目录，所以每条记录都带一个 owner，cleanup 默认只清自己的——否则多个
+agent 会话并行时，任何一个会话结束都会把别人正在跑的预览一起杀掉。owner 的取值与宿主无关：
+
+```bash
+export HARMONY_PREVIEW_OWNER=<任意标识>   # 任何宿主/脚本都能用这个声明归属
+node cleanup.mjs                          # 只清本 owner 的
+node cleanup.mjs --session <id>           # 清指定 owner 的
+node cleanup.mjs --all                    # 无视归属全清（逃生舱）
+```
+
+不设 `HARMONY_PREVIEW_OWNER` 时会退回读 `CLAUDE_CODE_SESSION_ID`（Claude Code 会注入它，钩子还会把
+`{session_id}` 从 stdin 传进来）；**两者都没有就退化成"全清"**，也就是加这个机制之前的行为，所以在
+Codex/OpenCode 下不会漏清。没有 owner 的旧记录同样照清，兜底不打折。
+
+引擎进程如果因为原生崩溃卡在不可中断等待（`ps` 里 `UE` 状态），`kill -9` 也杀不掉，会一直占着它的
+`--lws` 端口——换一个 `--lws` 重启即可，不用在清理上耗时间。
+
+**同一个工程可以同时开多个预览**（不同 `--port`/`--lws`，比如对照两个页面）：hvigor 的
+`.preview/<product>/` 构建树是按工程共享的，并发跑 `PreviewBuild` 会互相写坏中间产物（症状是
+build FAILED，报 `JSON5: invalid end of input` 或资源重复声明），所以编排器之间用一把跨进程
+锁把构建排队，日志里会看到 `build lock: another preview is building this project — waiting`。等的只是
+构建那几秒，引擎和交互全程并行。**预览不同工程不受影响**，锁按工程+product 分。
 
 ## HTTP 接口（桥接层）
 
@@ -252,14 +333,15 @@ drive.mjs 覆盖了下列接口的常见用法；直接访问适合自定义驱�
 
 | 路由 | 说明 |
 |---|---|
-| `/` | 可交互 viewer 页面，每个配置的设备一块面板（含各自的 `#a11y` 组件树 DOM 叠加层，浏览器自动化可见真实元素） |
-| `/status` | 顶层字段镜像"默认设备"（`--devices` 里第一个）：`{engineConnected, hasFrame, resolution, interactive, frameAgeMs, engineError, build, buildError, buildAgeMs, buildStartedAgoMs, lastChangeAgeMs}`；`build` 状态机：`idle→building→ok\|error`；另加 `devices` 数组，逐个设备给出同样的字段（`id/device/resolution/port/engineConnected/hasFrame/interactive/frameAgeMs/engineError`） |
+| `/` | 可交互 viewer 页面，每个配置的设备一块面板（含各自的 `#a11y` 组件树 DOM 叠加层，浏览器自动化可见真实元素；右下角 `⇲` 可拖拽改尺寸） |
+| `/status` | 顶层字段镜像"默认设备"（`--devices` 里第一个）：`{engineConnected, hasFrame, resolution, density, launchResolution, launchDensity, frameResolution, interactive, frameAgeMs, engineError, build, buildError, buildAgeMs, buildStartedAgoMs, lastChangeAgeMs}`；`build` 状态机：`idle→building→ok\|error`；另加 `devices` 数组，逐个设备给出同样的字段。几何三件套：`resolution/density` 是**当前**尺寸（跟随运行时 resize），`launchResolution/launchDensity` 是引擎启动时的尺寸，`frameResolution` 是手上这一帧的真实像素（resize 后要 ~200ms 才跟上） |
 | `/devices` | 和 `/status.devices` 内容一样，单独暴露一份，方便只要设备列表不要构建状态的场景 |
 | `/frame.jpg` | 默认设备当前帧 JPEG（无帧时 503） |
 | `/devices/:id/frame.jpg` | 指定设备的当前帧 JPEG |
 | `/mjpeg` / `/devices/:id/mjpeg` | `multipart/x-mixed-replace` 流，默认设备 / 指定设备 |
 | `/inspector` / `/devices/:id/inspector` | ArkUI 组件树 JSON：`{$type, $rect, $debugLine, $attrs（含渲染文本 content/placeholder 与无障碍字段）, $children}`；引擎未就绪 503 |
 | `/input` / `/devices/:id/input` | `POST` 输入事件 → 引擎命令（见上），打给默认设备 / 指定设备 |
+| `/resize` / `/devices/:id/resize` | `POST {width, height, density?}` 运行时改尺寸（引擎 `ResolutionSwitch`，不重建不重启）。越界 400，命令管道没连上 503，成功返回该设备的最新状态 |
 | `/alive` | viewer 的 SSE 存活通道（驱动自动释放，全局一份，不分设备） |
 
 单设备时，`/status` 顶层字段、`/frame.jpg`、`/inspector`、`/input` 的行为与多尺寸支持之前完全
@@ -270,7 +352,7 @@ drive.mjs 覆盖了下列接口的常见用法；直接访问适合自定义驱�
 - **重载更慢**：一次重载 = 完整 `PreviewBuild`（约 3–7 秒）+ 引擎重启，没有 DevEco 的亚秒级原地
   热替换。交互能力则持平（同一条命令通道）。
 - **单次预览级的 `colorMode`/`locale` 不可切换**——固化为档位里的默认值。
-- **无自定义分辨率**——只有 `phone`/`tablet` 固定档位，不支持 DevEco 那种自由拖拽改边框尺寸。
+- **设备类型不能运行时切**——尺寸能拖着改，`deviceType` 只能靠重启编排器换。
 - **裸 `@Preview` 组件预览不支持**——用 harness 模式替代（见上）。
 
 取舍的完整分析见 [how-it-works.md](references/how-it-works.md#trade-offs)。

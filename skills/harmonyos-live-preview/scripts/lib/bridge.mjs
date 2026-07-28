@@ -9,12 +9,19 @@
 // One HTTP server serves N devices (config.devices — one Previewer engine process per configured
 // size/profile, since the engine reads its resolution once at launch and never re-reads it — see
 // engine.mjs). Routes are namespaced per device (`/devices/:id/...`); the unprefixed legacy routes
-// (`/status`, `/frame.jpg`, `/inspector`, `/input`, `/mjpeg`) keep working unchanged as aliases for the
-// first configured device, so every pre-multi-device caller (drive.mjs without --device, host preview
-// tools reading /status) needs no changes.
+// (`/status`, `/frame.jpg`, `/inspector`, `/input`, `/resize`, `/mjpeg`) keep working unchanged as
+// aliases for the first configured device, so every pre-multi-device caller (drive.mjs without
+// --device, host preview tools reading /status) needs no changes.
+//
+// A device's size is not fixed for the life of the run: `/devices/:id/resize` drives the engine's own
+// ResolutionSwitch command in place (no rebuild, no reconnect), and the bridge tracks the resulting
+// geometry so pointer coordinates keep scaling correctly and the size survives the engine restarts a
+// rebuild causes.
 import http from 'node:http';
 import { VIEWER_HTML } from './viewer-page.mjs';
 import { eventToCommands } from './input.mjs';
+import { checkGeometry, SIZE_LIMITS } from './device-profile.mjs';
+import { SERVICE_ID } from './registry.mjs';
 
 const SOI = Buffer.from([0xff, 0xd8, 0xff]);
 const EOI = Buffer.from([0xff, 0xd9]);
@@ -27,6 +34,25 @@ function extractJpeg(buf) {
   return e > s ? buf.subarray(s, e + 2) : null;
 }
 
+// [width, height] straight out of the JPEG's SOF header. A resize lands in the engine before it
+// lands in the pixels (~200ms later), so this is the only way a caller can tell "the frame I'm
+// holding is already the new size" apart from "it's still the old one" — `drive.mjs resize` waits
+// on it so a `shot` right after a resize can't capture the previous geometry.
+function jpegDimensions(buf) {
+  let i = 2;
+  while (i + 9 < buf.length) {
+    if (buf[i] !== 0xff) { i++; continue; }
+    const marker = buf[i + 1];
+    // SOFn carries the dimensions; 0xc4/0xc8/0xcc are DHT/JPG/DAC, which do not.
+    if (marker >= 0xc0 && marker <= 0xcf && ![0xc4, 0xc8, 0xcc].includes(marker)) {
+      return [buf.readUInt16BE(i + 7), buf.readUInt16BE(i + 5)];
+    }
+    if (marker === 0xd8 || (marker >= 0xd0 && marker <= 0xd9)) { i += 2; continue; }
+    i += 2 + buf.readUInt16BE(i + 2);
+  }
+  return null;
+}
+
 export function createBridge(config, status, hooks = {}, log = (...a) => console.log(ts(), '[bridge]', ...a)) {
   const deviceIds = config.devices.map((d) => d.id);
   const defaultId = deviceIds[0];
@@ -36,7 +62,15 @@ export function createBridge(config, status, hooks = {}, log = (...a) => console
   function newSession(d) {
     return {
       id: d.id,
-      resolution: d.resolution,
+      // launch* is the geometry the engine process is started with; resolution/density is what it
+      // is showing *now*. They differ once someone resizes at runtime (ResolutionSwitch) — and
+      // since a rebuild relaunches the engine back at its launch geometry, that difference is
+      // exactly the signal to replay the resize on the new process (see setEngine/connect).
+      launchResolution: d.resolution,
+      launchDensity: d.density,
+      resolution: [...d.resolution],
+      density: d.density,
+      pendingResize: false,
       target: null,          // { port, sid, device } — set via setEngine
       send: null,            // current engine's command sender
       getInspectorTree: null,
@@ -45,6 +79,7 @@ export function createBridge(config, status, hooks = {}, log = (...a) => console
       connected: false,
       lastFrame: null,
       lastFrameAt: 0,
+      frameResolution: null, // geometry of the pixels actually held, from the JPEG header
       generation: 0,         // bumped on every setEngine; stale closures bail when it changes
       reconnectTimer: null,
       kickTimer: null,
@@ -104,8 +139,24 @@ export function createBridge(config, status, hooks = {}, log = (...a) => console
       if (!primed) {
         primed = true; session.connected = true; clearTimeout(session.kickTimer);
         log(`[${session.id}] first frame (${jpeg.length}B)`);
+        // A rendered frame proves the engine is up and its command pipe connected, which is the
+        // earliest safe moment to re-apply a runtime resize the last engine had (see newSession).
+        if (session.pendingResize) {
+          session.pendingResize = false;
+          const [w, h] = session.resolution;
+          if (applyResize(session, { width: w, height: h, density: session.density })) {
+            log(`[${session.id}] re-applied ${w}x${h}@${session.density}dpi after engine restart`);
+          } else {
+            log(`[${session.id}] could not re-apply ${w}x${h} — engine kept its launch size`);
+            session.resolution = [...session.launchResolution];
+            session.density = session.launchDensity;
+          }
+        }
       }
-      session.lastFrame = jpeg; session.lastFrameAt = Date.now(); pushToClients(session, jpeg);
+      session.lastFrame = jpeg;
+      session.lastFrameAt = Date.now();
+      session.frameResolution = jpegDimensions(jpeg) ?? session.frameResolution;
+      pushToClients(session, jpeg);
     };
     const retry = () => {
       if (gen !== session.generation) return;
@@ -131,9 +182,23 @@ export function createBridge(config, status, hooks = {}, log = (...a) => console
     session.getInspectorTree = typeof next.getInspectorTree === 'function' ? next.getInspectorTree : null;
     session.getLastEngineError = typeof next.getLastEngineError === 'function' ? next.getLastEngineError : null;
     session.connected = false;
+    // A fresh engine process always starts at its launch geometry, so a runtime resize has to be
+    // replayed once it renders. Reconnects to the *same* engine keep their size, but replaying is
+    // idempotent, so it costs nothing to be safe here.
+    session.pendingResize = session.resolution[0] !== session.launchResolution[0]
+      || session.resolution[1] !== session.launchResolution[1]
+      || session.density !== session.launchDensity;
     if (session.ws) { try { session.ws.onmessage = session.ws.onclose = session.ws.onerror = null; session.ws.close(); } catch {} session.ws = null; }
     log(`[${deviceId}] engine target :${next.port} (device=${next.device})`);
     connect(session, session.generation);
+  }
+
+  // Sends the engine's own in-place resolution change (ResolutionSwitch). Returns false when the
+  // command pipe isn't connected — the caller decides whether that's a 503 or a dropped replay.
+  function applyResize(session, geometry) {
+    if (!session.send) return false;
+    const [cmd] = eventToCommands({ t: 'resize', ...geometry }, session.resolution);
+    return !!cmd && session.send(cmd);
   }
 
   // MJPEG keepalive: re-push each device's last frame so single-frame streams still render and stay
@@ -155,7 +220,15 @@ export function createBridge(config, status, hooks = {}, log = (...a) => console
     return {
       id: session.id,
       device: session.target?.device ?? session.id,
+      // Live geometry: `resolution`/`density` follow runtime resizes, launchResolution/launchDensity
+      // stay at what the engine process was started with.
       resolution: session.resolution,
+      density: session.density,
+      launchResolution: session.launchResolution,
+      launchDensity: session.launchDensity,
+      // What the frame currently in hand actually measures — lags `resolution` by the ~200ms the
+      // engine needs to re-render after a resize.
+      frameResolution: session.frameResolution,
       port: session.target?.port ?? null,
       engineConnected: session.connected,
       hasFrame: !!session.lastFrame,
@@ -181,6 +254,40 @@ export function createBridge(config, status, hooks = {}, log = (...a) => console
       } catch { /* malformed body → no-op */ }
       res.writeHead(session.send ? 200 : 503, { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' });
       res.end(JSON.stringify({ sent }));
+    });
+  }
+
+  // Runtime size change for one panel — the engine keeps running, so there's no rebuild and no
+  // reconnect; the frame simply comes back at the new geometry. This is what the viewer's drag
+  // handle and `drive.mjs resize` both go through.
+  function resizeDevice(session, req, res) {
+    let body = '';
+    req.on('data', (d) => { body += d; if (body.length > 1e4) req.destroy(); });
+    req.on('end', () => {
+      const reply = (code, payload) => {
+        res.writeHead(code, { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' });
+        res.end(JSON.stringify(payload));
+      };
+      let geometry;
+      try {
+        const parsed = JSON.parse(body);
+        geometry = {
+          width: Math.round(Number(parsed.width)),
+          height: Math.round(Number(parsed.height)),
+          density: Math.round(Number(parsed.density ?? session.density)),
+        };
+      } catch { return reply(400, { error: 'body must be JSON {width, height, density?}' }); }
+
+      // The runtime command tops out lower than the launch parameter does (see device-profile.mjs).
+      const problem = checkGeometry(geometry, { maxSize: SIZE_LIMITS.maxResizeSize });
+      if (problem) return reply(400, { error: problem });
+      if (!session.send) return reply(503, { error: 'engine command pipe not connected' });
+      if (!applyResize(session, geometry)) return reply(503, { error: 'engine dropped the resize command' });
+
+      session.resolution = [geometry.width, geometry.height];
+      session.density = geometry.density;
+      log(`[${session.id}] resized to ${geometry.width}x${geometry.height}@${geometry.density}dpi`);
+      return reply(200, deviceStatus(session));
     });
   }
 
@@ -239,16 +346,18 @@ export function createBridge(config, status, hooks = {}, log = (...a) => console
 
     // Per-device namespace: /devices/:id/{frame.jpg,inspector,input,mjpeg}
     if (parts[0] === 'devices' && parts[1]) {
-      const session = sessions.get(parts[1]);
+      const id = decodeURIComponent(parts[1]);
+      const session = sessions.get(id);
       if (!session) {
         res.writeHead(404, { 'Content-Type': 'application/json' });
-        res.end(JSON.stringify({ error: `unknown device "${parts[1]}" (known: ${deviceIds.join(', ')})` }));
+        res.end(JSON.stringify({ error: `unknown device "${id}" (known: ${deviceIds.join(', ')})` }));
         return;
       }
       const sub = '/' + parts.slice(2).join('/');
       if (sub === '/frame.jpg') return sendFrame(session, res);
       if (sub === '/inspector') return sendInspector(session, res);
       if (sub === '/input' && req.method === 'POST') return sendInput(session, req, res);
+      if (sub === '/resize' && req.method === 'POST') return resizeDevice(session, req, res);
       if (sub === '/mjpeg') return sendMjpeg(session, req, res);
       res.writeHead(404); res.end('not found');
       return;
@@ -258,6 +367,9 @@ export function createBridge(config, status, hooks = {}, log = (...a) => console
       const bs = status.get();
       res.writeHead(200, { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' });
       res.end(JSON.stringify({
+        // Lets a caller probing this port confirm it reached *our* preview and not some other
+        // service that happens to be listening (registry.probe).
+        service: SERVICE_ID,
         // Legacy top-level fields mirror the default (first configured) device — unchanged shape for
         // every pre-multi-device consumer. `devices` is the additive full breakdown.
         ...deviceStatus(sessions.get(defaultId)),
@@ -276,6 +388,7 @@ export function createBridge(config, status, hooks = {}, log = (...a) => console
     // Unprefixed legacy routes alias the default device.
     const defaultSession = sessions.get(defaultId);
     if (route === '/input' && req.method === 'POST') return sendInput(defaultSession, req, res);
+    if (route === '/resize' && req.method === 'POST') return resizeDevice(defaultSession, req, res);
     if (route === '/inspector') return sendInspector(defaultSession, res);
     if (route === '/mjpeg') return sendMjpeg(defaultSession, req, res);
     if (route === '/frame.jpg') return sendFrame(defaultSession, res);

@@ -14,8 +14,9 @@ import { build } from './lib/builder.mjs';
 import { launchEngine, stopEngine } from './lib/engine.mjs';
 import { createBridge } from './lib/bridge.mjs';
 import { createStatus, extractError } from './lib/status.mjs';
-import { register } from './lib/registry.mjs';
+import { register, deviceConfigDir } from './lib/registry.mjs';
 import { ensureDisplay } from './lib/display.mjs';
+import { materializeDeviceConfigs } from './lib/device-profile.mjs';
 
 const log = (...a) => console.log(new Date().toISOString().slice(11, 19), '[preview]', ...a);
 
@@ -28,12 +29,16 @@ Options:
   --module <name>    Module to preview. Default: the entry-type module
   --page <route>     @Entry route to preview, e.g. pages/Index. Default: first page in the profile.
                      Any @Entry in the pages profile works (DevEco-style per-page preview).
-  --device <type>    Device profile (geometry + type): phone (1080x2340 portrait) or
-                     tablet (2048x1280 landscape). Default: phone
-  --devices <list>   Comma-separated device profiles to preview *simultaneously*, side by side —
-                     e.g. --devices phone,tablet. One Previewer engine process per entry (each engine
-                     reads its resolution once at launch, so simultaneous sizes need one process per
-                     size — see references/how-it-works.md). Overrides --device when both are given.
+  --device <spec>    Device size: a preset — phone (1080x2340@480dpi portrait) / tablet
+                     (2048x1280@320dpi landscape) — or a custom size WxH[@dpi], optionally prefixed
+                     with a device type: 1440x3200@560, tablet:1200x800, 2in1:2560x1600@240.
+                     Sizes are 50-3840 px, dpi 120-640. Default: phone
+  --devices <list>   Comma-separated device specs to preview *simultaneously*, side by side —
+                     e.g. --devices phone,tablet,1440x3200@560. One Previewer engine process per
+                     entry (each engine reads its resolution once at launch, so simultaneous sizes
+                     need one process per size — see references/how-it-works.md). Overrides --device.
+                     Sizes are also adjustable at runtime without a restart: drag a panel's corner in
+                     the viewer, or \`drive.mjs resize <WxH[@dpi]>\`.
   --clt, --sdk <dir> HarmonyOS command-line-tools or DevEco bundle root (hvigorw + sdk/ derived from it).
                      Default: $HARMONY_SDK / $HARMONY_CLT, else common install locations are probed.
   --port <n>         Browser viewer HTTP port. Default: 8088
@@ -95,6 +100,13 @@ async function main() {
     process.exit(1);
   }
 
+  // One -f settings file per configured size, generated from that size's own geometry (vp
+  // resolution + dpi-scaled safe area), in this port's own temp dir — removed on shutdown, and
+  // known to cleanup.mjs by port in case we're killed before that runs. A caller-supplied
+  // --device-config passes straight through instead.
+  const deviceConfigs = materializeDeviceConfigs(config.devices, { dir: deviceConfigDir(config.ports.http) });
+  const deviceSessions = config.devices.map((d) => ({ ...d, deviceConfig: deviceConfigs.paths.get(d.id) }));
+
   const status = createStatus();
 
   // deviceId -> engine handle. One Previewer process per configured device (see config.mjs
@@ -117,6 +129,7 @@ async function main() {
     deregister();
     stopAllEngines();
     display.stop();
+    deviceConfigs.cleanup();
     bridge.close();
     process.exit(0);
   };
@@ -134,7 +147,7 @@ async function main() {
     const { ok, output } = await build(config, log);
     if (ok) {
       stopAllEngines();
-      for (const d of config.devices) {
+      for (const d of deviceSessions) {
         const engine = launchEngine(d, { lws: d.lwsPort, display: display.display }, log);
         engines.set(d.id, engine);
         bridge.setEngine(d.id, {

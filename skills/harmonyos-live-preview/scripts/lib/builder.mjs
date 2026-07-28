@@ -7,8 +7,20 @@
 // back with a real component tree instead of a bare root. `previewer.replace.page` targets the exact
 // @Entry route being previewed, mirroring the --page override.
 import { spawn } from 'node:child_process';
+import { buildPaths } from './config.mjs';
+import { syncPreviewBuildConfigs } from './preview-config.mjs';
+import { withBuildLock } from './build-lock.mjs';
 
+// Two previews of the same project share one hvigor build tree, so their builds have to take turns —
+// see build-lock.mjs. Keyed by project+product because that's exactly the .preview/<product> subtree
+// they contend over; previewing two different projects, or two products of one project, still runs
+// fully in parallel.
 export function build(config, log = console.log) {
+  const { dir, product } = config.project;
+  return withBuildLock(`${dir}::${product}`, () => runPreviewBuild(config, log), { log });
+}
+
+function runPreviewBuild(config, log) {
   return new Promise((resolve) => {
     const { dir, moduleName, target, product, entryPage } = config.project;
     const t0 = Date.now();
@@ -48,6 +60,10 @@ export function build(config, log = console.log) {
       if (settled) return;
       settled = true;
       log(`build ${ok ? 'OK' : 'FAILED'} in ${((Date.now() - t0) / 1000).toFixed(1)}s${ok ? '' : '\n' + tail.slice(-1200)}`);
+      // The engine reads these right after launch (HSP loading happens before any app code runs),
+      // so they have to exist before the engine starts — and they point at paths this build just
+      // produced.
+      if (ok) syncPreviewBuildConfigs(config, buildPaths(config), log);
       resolve({ ok, output: tail });
       try { process.kill(-child.pid, 'SIGKILL'); } catch { try { child.kill('SIGKILL'); } catch {} }
     };

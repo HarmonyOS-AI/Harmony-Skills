@@ -4,50 +4,18 @@
 // the layout knowledge lives in one place.
 import fs from 'node:fs';
 import path from 'node:path';
-import { fileURLToPath } from 'node:url';
 import { discoverToolchain, discoverProject } from './discovery.mjs';
+import { parseDeviceSpecs } from './device-profile.mjs';
 
-const HERE = path.dirname(fileURLToPath(import.meta.url));
-const asset = (file) => path.resolve(HERE, '../assets', file);
-
-// Per-device render geometry. The Previewer engine needs three pieces that must agree:
+// Per-device render geometry comes from device-profile.mjs, which turns each --device/--devices
+// entry (a preset name like `phone`, or a custom size like `1440x3200@560` / `tablet:1200x800`)
+// into the three pieces the Previewer engine needs, and which must agree:
 //   resolution   — physical framebuffer px, passed as -or/-cr (this IS the frame size)
 //   density      — screen dpi, passed as -sd; logical vp = px / (density / 160)
 //   deviceConfig — the -f settings file, whose "Resolution" is that same logical vp and
 //                  whose DeviceType drives which ArkUI deviceType/breakpoints the app sees.
-// Consistency check: resolution / (density / 160) === the config's vp Resolution.
-//   phone : 1080x2340 @480dpi → 360x780 vp  (portrait)
-//   tablet: 2048x1280 @320dpi → 1024x640 vp (landscape, matches DevEco's tablet profile)
-const DEVICE_PROFILES = {
-  phone: {
-    deviceConfig: asset('phoneSettingConfig_Phone.json'),
-    resolution: [1080, 2340],
-    density: 480,
-    orientation: 'portrait',
-  },
-  tablet: {
-    deviceConfig: asset('tabletSettingConfig_Tablet.json'),
-    resolution: [2048, 1280],
-    density: 320,
-    orientation: 'landscape',
-  },
-};
-
-// One or more device profiles to preview simultaneously. --devices (plural, comma-separated) is the
-// multi-size entry point; --device (singular, existing) is kept as a one-element shortcut so every
-// pre-existing single-device invocation resolves to exactly the same devices[0] it always got.
-function parseDeviceIds(opts) {
-  const raw = opts.devices ?? opts.device ?? 'phone';
-  const ids = [...new Set((Array.isArray(raw) ? raw : String(raw).split(','))
-    .map((s) => s.trim()).filter(Boolean))];
-  if (!ids.length) throw new Error('at least one --device/--devices value is required');
-  for (const id of ids) {
-    if (!DEVICE_PROFILES[id]) {
-      throw new Error(`unsupported device "${id}"; supported: ${Object.keys(DEVICE_PROFILES).join(', ')}`);
-    }
-  }
-  return ids;
-}
+// The config file is generated from the same profile (see materializeDeviceConfigs), so the three
+// can't drift apart the way a hand-maintained per-device JSON asset could.
 
 export function resolveConfig(opts = {}) {
   const projectDir = path.resolve(opts.project || process.cwd());
@@ -66,25 +34,22 @@ export function resolveConfig(opts = {}) {
   // --lws override.
   const lwsBase = Number(opts.lwsPort ?? process.env.LWS ?? 41200);
 
+  // An explicit -f override applies to every device (it's a single file); otherwise deviceConfig is
+  // left null here and preview.mjs materializes one file per profile before launching the engines.
+  const deviceConfigOverride = opts.deviceConfig || process.env.HARMONY_DEVICE_CONFIG || null;
+
   // Every device entry is a complete, self-contained "engine session config" (project/toolchain/
   // abilityMode/componentMode + its own geometry) — engine.mjs's launchEngine() takes exactly this
   // shape already, so passing devices[i] straight through needs no changes there.
-  const devices = parseDeviceIds(opts).map((id, i) => {
-    const profile = DEVICE_PROFILES[id];
-    return Object.freeze({
-      id,
-      device: id,
-      project,
-      toolchain,
-      abilityMode,
-      componentMode,
-      deviceConfig: opts.deviceConfig || process.env.HARMONY_DEVICE_CONFIG || profile.deviceConfig,
-      resolution: profile.resolution,
-      density: profile.density,
-      orientation: profile.orientation,
-      lwsPort: lwsBase + i,
-    });
-  });
+  const devices = parseDeviceSpecs(opts.devices ?? opts.device ?? 'phone').map((profile, i) => Object.freeze({
+    ...profile,
+    project,
+    toolchain,
+    abilityMode,
+    componentMode,
+    deviceConfig: deviceConfigOverride,
+    lwsPort: lwsBase + i,
+  }));
 
   return Object.freeze({
     toolchain,

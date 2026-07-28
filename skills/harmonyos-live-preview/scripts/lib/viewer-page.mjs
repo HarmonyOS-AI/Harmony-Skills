@@ -12,8 +12,13 @@
 // which also carries each device's own status (engineConnected/hasFrame/port/engineError) in its
 // `devices` array — so there's exactly one status poll per tick, not one per panel. Coordinates are
 // sent normalized (0..1) over each panel's own rendered frame; the bridge scales them to that
-// device's px, so the mapping is exact as long as the screen box matches the device aspect ratio (set
-// once at panel creation from the device's resolution — it does not change for the life of a run).
+// device's px, so the mapping is exact as long as the screen box matches the device aspect ratio.
+//
+// A panel's size is not fixed for the life of the run: dragging its `.grip` corner posts to
+// /devices/:id/resize (the engine's own in-place ResolutionSwitch — no rebuild, no reconnect), and
+// every panel also follows the geometry reported by /status, so a resize done elsewhere (drive.mjs,
+// a second open tab) shows up here too. Everything derived from the geometry — the screen box, the
+// $rect basis of the a11y overlay, the displayed px/vp label — is recomputed in setGeometry().
 //
 // On top of each panel's pixel frame, its own #a11y mirrors that device's inspector tree (GET
 // /devices/:id/inspector) as a real DOM tree positioned over the image — one element per ArkUI
@@ -48,8 +53,15 @@ export const VIEWER_HTML = `<!doctype html><html lang="zh"><head><meta charset="
   .panel { display:flex; flex-direction:column; align-items:center; gap:10px; }
   .phone { position:relative; padding:12px; border-radius:44px; background:#1b1e26;
     box-shadow:0 20px 60px rgba(0,0,0,.5), inset 0 0 0 1px #2a2f3a; }
-  .screen { aspect-ratio:1080/2340; max-height:72vh; border-radius:32px;
+  .screen { border-radius:32px;
     overflow:hidden; background:#fff; position:relative; touch-action:none; cursor:default; outline:none; }
+  .grip { position:absolute; right:-4px; bottom:-4px; width:26px; height:26px; border-radius:9px;
+    background:#2a2f3a; border:1px solid #3b4250; color:#9aa3b2; cursor:nwse-resize;
+    touch-action:none; display:flex; align-items:center; justify-content:center; font-size:11px;
+    user-select:none; }
+  .grip:hover, .grip.on { border-color:#3b82f6; color:#e6e8ee; }
+  .size { color:#9aa3b2; }
+  .size.on { color:#3b82f6; }
   .screen.kb { box-shadow:0 0 0 3px #22c55e; }
   .screen img { width:100%; height:100%; object-fit:fill; display:block; -webkit-user-drag:none; user-select:none; }
   .a11y { position:absolute; inset:0; pointer-events:none; overflow:hidden; }
@@ -71,7 +83,7 @@ export const VIEWER_HTML = `<!doctype html><html lang="zh"><head><meta charset="
 </style></head><body>
   <div class="bar"><span class="dot" id="gdot"></span><span id="gstatus">连接中…</span><span id="building"></span></div>
   <div id="panels"></div>
-  <div class="bar">点按 / 拖动 / 滑动屏幕即可交互 · 改 <code>.ets</code> 保存自动重建 · 零 DevEco</div>
+  <div class="bar">点按 / 拖动 / 滑动屏幕即可交互 · 拖右下角 <code>⇲</code> 改设备尺寸 · 改 <code>.ets</code> 保存自动重建 · 零 DevEco</div>
 <script>
   const panelsEl = document.getElementById('panels'), gdot = document.getElementById('gdot'),
         gstatus = document.getElementById('gstatus'), buildingEl = document.getElementById('building');
@@ -88,19 +100,19 @@ export const VIEWER_HTML = `<!doctype html><html lang="zh"><head><meta charset="
     const bar = document.createElement('div'); bar.className = 'bar';
     const dot = document.createElement('span'); dot.className = 'dot';
     const label = document.createElement('span');
-    bar.append(dot, label);
+    const sizeEl = document.createElement('span'); sizeEl.className = 'size';
+    bar.append(dot, label, sizeEl);
 
     const phone = document.createElement('div'); phone.className = 'phone';
     const screen = document.createElement('div'); screen.className = 'screen'; screen.tabIndex = 0;
-    const [rw, rh] = device.resolution;
-    screen.style.aspectRatio = rw + '/' + rh;
-    screen.style.width = (rw >= rh ? 360 : 220) + 'px';
     const img = document.createElement('img'); img.alt = ''; img.draggable = false;
     const a11y = document.createElement('div'); a11y.className = 'a11y';
     const ph = document.createElement('div'); ph.className = 'ph'; ph.textContent = '连接中…';
     const errEl = document.createElement('div'); errEl.className = 'err';
+    const grip = document.createElement('div'); grip.className = 'grip'; grip.textContent = '⇲';
+    grip.title = '拖动改变这块面板的设备尺寸（引擎原地改，不重建）';
     screen.append(img, a11y, ph, errEl);
-    phone.append(screen);
+    phone.append(screen, grip);
 
     const tools = document.createElement('div'); tools.className = 'tools';
     const backBtn = document.createElement('button'); backBtn.title = '系统返回'; backBtn.textContent = '← 返回';
@@ -109,6 +121,80 @@ export const VIEWER_HTML = `<!doctype html><html lang="zh"><head><meta charset="
 
     root.append(bar, phone, tools);
     panelsEl.appendChild(root);
+
+    // ---- geometry: device px ⇄ on-screen px ------------------------------
+    // rw/rh/dpi是这块面板“当前”的设备几何——它会变（拖 .grip 改尺寸、或别的客户端改了尺寸后从
+    // /status 同步回来），所以凡是依赖它的地方（截图框比例、inspector 的 $rect 基准、坐标归一化的
+    // 分母在服务端）都要跟着重算。scale 是设备像素 ÷ 屏幕显示像素，纯展示用：保证再大的设备也不
+    // 会把页面撑出视口。
+    let rw = device.resolution[0], rh = device.resolution[1], dpi = device.density || 480;
+    let scale = 1;
+    const MIN_PX = 50, MAX_PX = 3000; // 与引擎 ResolutionSwitch 的合法区间一致
+    const clampPx = (v) => Math.min(MAX_PX, Math.max(MIN_PX, Math.round(v)));
+
+    function fitScale(w, h) {
+      const maxW = 380, maxH = Math.max(320, window.innerHeight * 0.66);
+      return Math.max(w / maxW, h / maxH, 1); // 只缩不放
+    }
+    function applyDisplaySize(w, h, s) {
+      screen.style.width = Math.round(w / s) + 'px';
+      screen.style.height = Math.round(h / s) + 'px';
+    }
+    function renderSize(pending) {
+      const vp = (px) => Math.round(px / (dpi / 160));
+      sizeEl.textContent = pending
+        ? '· ' + pending.w + '×' + pending.h + ' @' + dpi + 'dpi'
+        : '· ' + rw + '×' + rh + ' @' + dpi + 'dpi · ' + vp(rw) + '×' + vp(rh) + 'vp';
+      sizeEl.classList.toggle('on', !!pending);
+    }
+    function setGeometry(w, h, d) {
+      const changed = w !== rw || h !== rh || d !== dpi;
+      rw = w; rh = h; dpi = d;
+      scale = fitScale(rw, rh);
+      applyDisplaySize(rw, rh, scale);
+      // $rect 是以帧分辨率为基准的绝对坐标，尺寸变了整棵叠加层都得按新基准重建。
+      if (changed) lastInspectorText = '';
+      renderSize();
+    }
+
+    // 拖右下角改尺寸：拖动过程只改本地显示（引擎不受打扰），松手才发一次 /resize。
+    let resizing = null;
+    grip.addEventListener('pointerdown', (e) => {
+      e.preventDefault(); e.stopPropagation();
+      try { grip.setPointerCapture(e.pointerId); } catch {}
+      resizing = { x: e.clientX, y: e.clientY, w: rw, h: rh, scale, target: { w: rw, h: rh } };
+      grip.classList.add('on');
+    });
+    grip.addEventListener('pointermove', (e) => {
+      if (!resizing) return;
+      const w = clampPx(resizing.w + (e.clientX - resizing.x) * resizing.scale);
+      const h = clampPx(resizing.h + (e.clientY - resizing.y) * resizing.scale);
+      resizing.target = { w, h };
+      applyDisplaySize(w, h, resizing.scale);
+      renderSize({ w, h });
+    });
+    async function endResize() {
+      if (!resizing) return;
+      const { w, h } = resizing.target;
+      resizing = null;
+      grip.classList.remove('on');
+      if (w === rw && h === rh) { setGeometry(rw, rh, dpi); return; }
+      try {
+        const r = await fetch(prefix + '/resize', {
+          method: 'POST', headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ width: w, height: h, density: dpi }),
+        });
+        if (r.ok) {
+          const s = await r.json();
+          setGeometry(s.resolution[0], s.resolution[1], s.density);
+          bumpFast(); // 新尺寸的第一帧尽快取回来
+          return;
+        }
+      } catch {}
+      setGeometry(rw, rh, dpi); // 引擎没接受 → 回到它真正在显示的尺寸
+    }
+    grip.addEventListener('pointerup', endResize);
+    grip.addEventListener('pointercancel', endResize);
 
     // ---- input → POST prefix/input --------------------------------------
     let kbOn = false, dragging = false, lastMoveAt = 0, fastUntil = 0;
@@ -224,7 +310,13 @@ export const VIEWER_HTML = `<!doctype html><html lang="zh"><head><meta charset="
 
     // ---- status (driven by the shared /status poll, not a per-panel fetch) ----
     function applyStatus(s) {
-      label.textContent = device.id + ' · ' + rw + '×' + rh;
+      label.textContent = device.id;
+      // 尺寸可能是被别人改的（drive.mjs resize、另一个打开着的 viewer），服务端状态是唯一真源——
+      // 除非此刻本地正在拖动，否则一律跟随它。
+      if (!resizing && Array.isArray(s.resolution)
+        && (s.resolution[0] !== rw || s.resolution[1] !== rh || (s.density && s.density !== dpi))) {
+        setGeometry(s.resolution[0], s.resolution[1], s.density || dpi);
+      }
       kbBtn.style.display = s.interactive ? '' : 'none';
       backBtn.style.display = s.interactive ? '' : 'none';
       if (s.engineError) {
@@ -240,8 +332,9 @@ export const VIEWER_HTML = `<!doctype html><html lang="zh"><head><meta charset="
       if (!s.hasFrame) { ph.textContent = text; ph.style.display = 'flex'; }
     }
 
+    setGeometry(rw, rh, dpi);
     pollFrame(); pollInspector();
-    return { applyStatus };
+    return { applyStatus, refit: () => { scale = fitScale(rw, rh); applyDisplaySize(rw, rh, scale); } };
   }
 
   // ---- bootstrap: discover configured devices, then start polling loops ----
@@ -273,6 +366,8 @@ export const VIEWER_HTML = `<!doctype html><html lang="zh"><head><meta charset="
     for (const d of devices) panels.set(d.id, createPanel(d));
     pollStatus();
     setInterval(pollStatus, 400);
+    // 窗口变大/变小时只重算展示缩放，设备几何本身不动。
+    window.addEventListener('resize', () => { for (const p of panels.values()) p.refit(); });
   }
   boot();
 

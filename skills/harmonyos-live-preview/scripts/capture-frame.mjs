@@ -3,6 +3,11 @@
 // Useful for headless verification that a frame is rendering. Auto-discovers the engine's -lws
 // port and -sid from `ps` (override with argv).
 //   node capture-frame.mjs [out.jpg] [port] [sid]
+//
+// Positional args only — there is no --out/--help. For everyday screenshots use
+// `drive.mjs shot <out.jpg>` instead: it goes through the orchestrator, so it targets the preview
+// you actually mean. This script's `ps` sniffing picks the *first* engine it finds, which is the
+// wrong one as soon as more than one preview is running.
 import { writeFileSync } from 'node:fs';
 import { execSync } from 'node:child_process';
 
