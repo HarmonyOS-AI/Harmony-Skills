@@ -1,0 +1,118 @@
+import { cp, mkdir, writeFile } from "node:fs/promises";
+import path from "node:path";
+import { syncAll, repositoryRoot } from "./sync-manifests.mjs";
+import { validatePluginConfig } from "./lib/plugin-config.mjs";
+
+const options = parseArguments(process.argv.slice(2));
+if (options.help) {
+  printHelp();
+  process.exit(0);
+}
+
+if (options.skills.length === 0 && !options.mcp) {
+  throw new Error("A plugin group must include at least one --skill source or an --mcp config.");
+}
+
+const pluginRoot = path.join(repositoryRoot, "plugins", options.name);
+const config = createConfig(options);
+validatePluginConfig(config, options.name);
+await mkdir(path.dirname(pluginRoot), { recursive: true });
+await mkdir(pluginRoot, { recursive: false });
+
+if (options.skills.length > 0) {
+  await mkdir(path.join(pluginRoot, "skills"));
+  for (const skillSource of options.skills) {
+    await cp(skillSource, path.join(pluginRoot, "skills", path.basename(skillSource)), {
+      recursive: true,
+      errorOnExist: true
+    });
+  }
+}
+if (options.mcp) {
+  await cp(options.mcp, path.join(pluginRoot, ".mcp.json"), { errorOnExist: true });
+}
+
+await writeFile(
+  path.join(pluginRoot, "plugin.config.json"),
+  `${JSON.stringify(config, null, 2)}\n`,
+  "utf8"
+);
+await syncAll(repositoryRoot);
+console.log(`Created plugins/${options.name}.`);
+
+function createConfig(input) {
+  return {
+    name: input.name,
+    version: "0.1.0",
+    displayName: input.displayName,
+    description: input.description,
+    shortDescription: input.description.slice(0, 100),
+    longDescription: input.description,
+    author: {
+      name: "HarmonyOS-AI",
+      url: "https://github.com/HarmonyOS-AI"
+    },
+    homepage: "https://github.com/HarmonyOS-AI/Harmony-Skills",
+    repository: "https://github.com/HarmonyOS-AI/Harmony-Skills",
+    keywords: [input.name, "harmonyos"],
+    category: "Developer Tools",
+    capabilities: ["Read"],
+    defaultPrompt: [],
+    brandColor: "#CE0E2D",
+    components: {
+      ...(input.skills.length > 0 ? { skills: "./skills/" } : {}),
+      ...(input.mcp ? { mcpServers: "./.mcp.json" } : {})
+    },
+    opencode: {
+      packageName: `@harmonyos-ai/${input.name}`,
+      toolName: `${input.name.replaceAll("-", "_")}_skill`
+    }
+  };
+}
+
+function parseArguments(args) {
+  const result = { skills: [] };
+  for (let index = 0; index < args.length; index += 1) {
+    const argument = args[index];
+    if (argument === "--help" || argument === "-h") {
+      result.help = true;
+    } else if (argument === "--display-name") {
+      result.displayName = requiredValue(args, ++index, argument);
+    } else if (argument === "--description") {
+      result.description = requiredValue(args, ++index, argument);
+    } else if (argument === "--skill") {
+      result.skills.push(path.resolve(requiredValue(args, ++index, argument)));
+    } else if (argument === "--mcp") {
+      result.mcp = path.resolve(requiredValue(args, ++index, argument));
+    } else if (!result.name) {
+      result.name = argument;
+    } else {
+      throw new Error(`Unknown argument: ${argument}`);
+    }
+  }
+
+  if (!result.help) {
+    for (const field of ["name", "displayName", "description"]) {
+      if (!result[field]) {
+        throw new Error(`Missing required ${field}.`);
+      }
+    }
+  }
+  return result;
+}
+
+function requiredValue(args, index, flag) {
+  const value = args[index];
+  if (!value || value.startsWith("--")) {
+    throw new Error(`${flag} requires a value.`);
+  }
+  return value;
+}
+
+function printHelp() {
+  console.log(`Usage:
+  npm run plugins:create -- <name> --display-name <label> --description <text> \\
+    [--skill /path/to/skill]... [--mcp /path/to/.mcp.json]
+
+At least one --skill or --mcp component is required.`);
+}

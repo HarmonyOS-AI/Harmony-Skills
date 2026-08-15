@@ -1,127 +1,134 @@
-# Harmony Skills · Claude Code / Codex 插件
+# HarmonyOS-AI Plugin Marketplace
 
-HarmonyOS / ArkTS 开发技能集，已封装为 **Claude Code 插件**和 **Codex 插件**，可从公开 GitHub 仓库直接安装。
+面向 Claude Code、Codex、Qoder 和 OpenCode 的 HarmonyOS 插件仓库。仓库根目录是 marketplace，每个 `plugins/<name>/` 子目录都是可独立安装、版本化和发布的插件组。
 
-## 包含的 Skills
+## 插件目录
+
+### `harmonyos-dev-toolkit`
+
+HarmonyOS / ArkTS 开发工具包，包含以下共享 Skills：
 
 | Skill | 说明 |
 | --- | --- |
-| `arkts-rules` | ArkTS（鸿蒙）语言规则与约束，用于生成可编译的 `.ets` 代码、修复 ArkTS 编译错误、TS→ArkTS 迁移。 |
-| `harmonyos-docs-lookup` | 在内置的约 2860 个官方文档 Markdown 中快速检索开发文档、API 参考、开发指导、常见问题。 |
-| `harmonyos-sdk-api-lookup` | 在内置的 4000+ 个 API 参考 Markdown 中查找模块、API 签名、类型、权限、系统能力与示例。 |
-| `harmonyos-live-preview` | 零 DevEco 的 ArkUI 实时预览：在浏览器中渲染 `.ets` 页面、支持点击/滑动/输入等交互，编辑后自动刷新。 |
+| `arkts-rules` | ArkTS 语言规则、编译约束和 TypeScript → ArkTS 迁移。 |
+| `harmonyos-docs-lookup` | 检索内置的 HarmonyOS 官方开发文档。 |
+| `harmonyos-sdk-api-lookup` | 查询 SDK API、类型、权限和系统能力。 |
+| `harmonyos-live-preview` | 在浏览器中预览和交互 ArkUI 页面，无需启动 DevEco Studio。 |
 
-加载插件后，这些 Skill 会以 `harmony-skills:<skill-name>` 命名空间暴露，并按各自 `description` 中的触发条件自动触发。
+原插件 ID `harmony-skills` 已更名为 `harmonyos-dev-toolkit`。升级时需要使用新 ID 重新安装。
 
-## 目录结构
-
-```
-Harmony-Skills/                    # 仓库根 = 插件根 = marketplace 根
-├── .claude-plugin/
-│   ├── plugin.json                # Claude Code 插件清单
-│   └── marketplace.json           # Claude Code 本地市场清单
-├── .codex-plugin/
-│   └── plugin.json                # Codex 插件清单（skills 指向同一个 skills/ 目录）
-├── .agents/
-│   └── plugins/
-│       └── marketplace.json       # Codex 本地市场清单
-├── hooks/
-│   └── hooks.json                 # SessionEnd 时清理仍在运行的 live-preview 进程（Claude Code）
-└── skills/
-    ├── arkts-rules/
-    │   ├── SKILL.md
-    │   └── agents/openai.yaml     # Codex 侧 UI 元数据（可选）
-    ├── harmonyos-docs-lookup/
-    │   ├── SKILL.md
-    │   ├── agents/openai.yaml
-    │   ├── references/            # 官方文档 Markdown
-    │   └── scripts/
-    ├── harmonyos-sdk-api-lookup/
-    │   ├── SKILL.md
-    │   ├── agents/openai.yaml
-    │   ├── api-references/        # API 参考 Markdown
-    │   └── sdk/
-    └── harmonyos-live-preview/
-        ├── SKILL.md
-        ├── agents/openai.yaml
-        ├── references/            # 引擎原理与协议说明
-        └── scripts/                # 预览编排器（Node.js，无 npm 依赖）
-```
-
-同一份 `skills/` 目录被两个插件清单共用：Claude 侧靠 `skills/` 这一约定目录自动发现，Codex 侧通过 `.codex-plugin/plugin.json` 里的 `"skills": "./skills/"` 显式指向同一目录，没有任何内容需要复制或维护两份。
-
-## 安装（Claude Code）
-
-本仓库已发布到 GitHub，直接以 `owner/repo` 形式从公开仓库加载，无需 clone。
-
-在 Claude Code 会话中执行：
+## 架构
 
 ```text
-# 1. 把本仓库添加为插件市场
-/plugin marketplace add HarmonyOS-AI/Harmony-Skills
-
-# 2. 从该市场安装插件
-/plugin install harmony-skills@harmonyos-ai
+Harmony-Skills/
+├── .agents/plugins/marketplace.json       # Codex marketplace
+├── .claude-plugin/marketplace.json        # Claude Code marketplace
+├── marketplace.config.json                # marketplace 公共元数据
+├── plugins/
+│   └── harmonyos-dev-toolkit/
+│       ├── plugin.config.json             # 插件公共元数据唯一来源
+│       ├── .codex-plugin/plugin.json      # 生成：Codex
+│       ├── .claude-plugin/plugin.json     # 生成：Claude Code
+│       ├── .qoder-plugin/plugin.json      # 生成：Qoder
+│       ├── package.json                   # 生成：OpenCode npm 包
+│       ├── opencode/plugin.js             # 生成：OpenCode 适配器
+│       ├── skills/                        # 四个宿主共用的实际内容
+│       └── hooks/
+└── scripts/
+    ├── create-plugin-group.mjs
+    ├── sync-manifests.mjs
+    └── validate-plugins.mjs
 ```
 
-或使用命令行：
+Claude Code、Codex 和 Qoder 直接扫描同一个 `skills/`。OpenCode 适配器只提供按需加载 Skill 的工具和 MCP 配置转换，仍读取相同目录，不复制文档、脚本或 SDK 数据。
+
+## 安装
+
+### Claude Code
 
 ```bash
 claude plugin marketplace add HarmonyOS-AI/Harmony-Skills
-claude plugin install harmony-skills@harmonyos-ai
+claude plugin install harmonyos-dev-toolkit@harmonyos-ai
 ```
 
-> `harmony-skills` 是插件名，`harmonyos-ai` 是市场名（见 `.claude-plugin/marketplace.json` 的 `name` 字段）。
+本地验证：
 
-更新与刷新：
+```bash
+claude plugin validate plugins/harmonyos-dev-toolkit
+claude --plugin-dir plugins/harmonyos-dev-toolkit
+```
+
+### Codex
+
+```bash
+codex plugin marketplace add HarmonyOS-AI/Harmony-Skills
+codex plugin add harmonyos-dev-toolkit@harmonyos-ai
+```
+
+本地 marketplace：
+
+```bash
+codex plugin marketplace add /absolute/path/to/Harmony-Skills
+codex plugin add harmonyos-dev-toolkit@harmonyos-ai
+```
+
+### Qoder
+
+在 Qoder 的插件管理页面选择导入本地插件，然后选择：
 
 ```text
-# 仓库有更新后，刷新市场再升级插件
-/plugin marketplace update harmonyos-ai
+plugins/harmonyos-dev-toolkit
 ```
 
-### 本地开发 / 调试（可选）
+该目录同时包含原生 `.qoder-plugin/plugin.json` 和 Claude Code 兼容清单。Qoder Agent SDK 也可以把这个目录作为 local plugin path 传入。
 
-如果你 clone 了本仓库、想在提交前本地验证，可把仓库目录当作市场加载：
+### OpenCode
+
+发布到 npm 后，可以直接安装：
 
 ```bash
-# 校验插件与市场清单是否合法
-claude plugin validate <仓库目录>
-
-# 临时挂载插件目录（不安装，便于快速调试）
-claude --plugin-dir <仓库目录>
+opencode plugin @harmonyos-ai/harmonyos-dev-toolkit
 ```
 
-安装后可用 `/plugin` 面板查看已启用的插件与 Skills。
-
-## 安装（Codex）
-
-同一个仓库根目录也是一个合法的 Codex 插件 + 本地市场（`.codex-plugin/plugin.json` + `.agents/plugins/marketplace.json`），同样可以直接从公开 GitHub 仓库加载：
+仓库内调试时先安装 workspace 依赖，再把适配器链接到目标项目：
 
 ```bash
-# 1. 把本仓库添加为插件市场（owner/repo 形式，等价于 git 市场源）
-codex plugin marketplace add HarmonyOS-AI/Harmony-Skills
-
-# 2. 从该市场安装插件
-codex plugin add harmony-skills@harmonyos-ai
+npm install
+mkdir -p /path/to/project/.opencode/plugins
+ln -s /absolute/path/to/Harmony-Skills/plugins/harmonyos-dev-toolkit/opencode/plugin.js \
+  /path/to/project/.opencode/plugins/harmonyos-dev-toolkit.js
 ```
 
-> 市场名同样是 `harmonyos-ai`（见 `.agents/plugins/marketplace.json` 的 `name` 字段），与 Claude 侧保持一致，方便对照记忆。
+OpenCode 会通过 `harmonyos_dev_skill` 工具按需加载 Skill。若插件组包含 `.mcp.json`，适配器会把标准 MCP 配置转换成 OpenCode 配置。
 
-安装后新开一个 Codex 会话即可让四个 Skill 生效（Codex 在会话启动时加载已安装插件的 Skill）。
+## 创建新的插件组
 
-### 本地开发 / 调试（可选）
+新插件组必须带至少一个 Skill 或一份 MCP 配置，脚手架不会生成空插件或 TODO 占位内容。
 
 ```bash
-# 把仓库目录当作本地市场加载并安装，便于提交前验证
-codex plugin marketplace add <仓库目录>
-codex plugin add harmony-skills@harmonyos-ai
-
-# 确认插件与技能被正确发现
-codex plugin list --marketplace harmonyos-ai --json
+npm run plugins:create -- my-plugin \
+  --display-name "My Plugin" \
+  --description "A focused HarmonyOS workflow plugin." \
+  --skill /absolute/path/to/my-skill
 ```
 
-### Claude / Codex 两侧插件清单的差异
+可以重复传入 `--skill`，也可以使用 `--mcp /absolute/path/to/.mcp.json`。脚手架会创建插件目录，并同步四个平台的清单和两个 marketplace。
 
-- Claude 侧 `plugin.json` 不带 `version` 字段，版本以 GitHub commit SHA 为准（见提交历史）；Codex 的插件校验要求 `version` 必须是合法 semver，因此 `.codex-plugin/plugin.json` 单独维护一个 `version` 字段，两者互不影响。
-- `hooks/hooks.json`（SessionEnd 清理钩子）只被 Claude Code 识别；Codex 插件清单不支持 `hooks` 字段，`harmonyos-live-preview` 在 Codex 下依旧可用，只是少了这一层"会话结束自动兜底清理"，预览进程仍会在浏览器标签页关闭、或用户 `Ctrl-C` 时自行释放。
+修改 `plugin.config.json` 后重新生成：
+
+```bash
+npm run plugins:sync
+```
+
+## 验证
+
+```bash
+npm test
+npm run plugins:validate
+python3 /Users/legend/.codex/skills/.system/plugin-creator/scripts/validate_plugin.py \
+  plugins/harmonyos-dev-toolkit
+claude plugin validate plugins/harmonyos-dev-toolkit
+node --check plugins/harmonyos-dev-toolkit/opencode/plugin.js
+```
+
+`plugins:validate` 会检查插件名与目录一致性、版本格式、清单是否由公共配置同步生成、marketplace 路径、Skill 入口、MCP JSON 和 OpenCode 适配器模板。

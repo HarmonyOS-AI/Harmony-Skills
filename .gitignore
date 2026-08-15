@@ -3,3 +3,4 @@
 *.pyc
 __pycache__/
 .skill-workspaces/
+node_modules/

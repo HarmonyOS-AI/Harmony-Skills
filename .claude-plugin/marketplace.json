@@ -1,17 +1,26 @@
 {
   "name": "harmonyos-ai",
-  "description": "HarmonyOS-AI 本地插件市场：HarmonyOS / ArkTS 开发技能。",
+  "description": "HarmonyOS-AI plugin marketplace for reusable HarmonyOS development capabilities.",
   "owner": {
     "name": "HarmonyOS-AI",
     "url": "https://github.com/HarmonyOS-AI"
   },
   "plugins": [
     {
-      "name": "harmony-skills",
-      "source": "./",
-      "description": "HarmonyOS / ArkTS 开发技能集：ArkTS 编程规则、官方文档查找、SDK API 查找、零 DevEco 实时预览。",
+      "name": "harmonyos-dev-toolkit",
+      "source": "./plugins/harmonyos-dev-toolkit",
+      "description": "HarmonyOS and ArkTS development toolkit with language rules, official documentation lookup, SDK API lookup, and zero-DevEco live UI preview.",
       "category": "development",
-      "tags": ["harmonyos", "arkts", "arkui", "ohos", "live-preview"]
+      "tags": [
+        "harmonyos",
+        "arkts",
+        "arkui",
+        "ohos",
+        "ets",
+        "skills",
+        "live-preview",
+        "hot-reload"
+      ]
     }
   ]
 }

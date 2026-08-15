@@ -1,0 +1,35 @@
+{
+  "name": "@harmonyos-ai/harmonyos-dev-toolkit",
+  "version": "0.1.0",
+  "description": "HarmonyOS and ArkTS development toolkit with language rules, official documentation lookup, SDK API lookup, and zero-DevEco live UI preview.",
+  "type": "module",
+  "exports": "./opencode/plugin.js",
+  "files": [
+    ".claude-plugin",
+    ".codex-plugin",
+    ".qoder-plugin",
+    ".mcp.json",
+    "hooks",
+    "opencode",
+    "plugin.config.json",
+    "skills"
+  ],
+  "keywords": [
+    "harmonyos",
+    "arkts",
+    "arkui",
+    "ohos",
+    "ets",
+    "skills",
+    "live-preview",
+    "hot-reload"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarmonyOS-AI/Harmony-Skills.git",
+    "directory": "plugins/harmonyos-dev-toolkit"
+  },
+  "dependencies": {
+    "@opencode-ai/plugin": "^1.14.0"
+  }
+}

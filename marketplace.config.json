@@ -1,0 +1,9 @@
+{
+  "name": "harmonyos-ai",
+  "displayName": "HarmonyOS-AI",
+  "description": "HarmonyOS-AI plugin marketplace for reusable HarmonyOS development capabilities.",
+  "owner": {
+    "name": "HarmonyOS-AI",
+    "url": "https://github.com/HarmonyOS-AI"
+  }
+}

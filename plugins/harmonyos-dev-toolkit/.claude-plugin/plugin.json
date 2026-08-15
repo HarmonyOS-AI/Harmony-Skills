@@ -1,7 +1,8 @@
 {
-  "name": "harmony-skills",
-  "displayName": "HarmonyOS Skills",
-  "description": "HarmonyOS / ArkTS 开发技能集：ArkTS 编程规则、官方文档查找、SDK API 查找、零 DevEco 实时预览。",
+  "name": "harmonyos-dev-toolkit",
+  "version": "0.1.0",
+  "displayName": "HarmonyOS Dev Toolkit",
+  "description": "HarmonyOS and ArkTS development toolkit with language rules, official documentation lookup, SDK API lookup, and zero-DevEco live UI preview.",
   "author": {
     "name": "HarmonyOS-AI",
     "url": "https://github.com/HarmonyOS-AI"

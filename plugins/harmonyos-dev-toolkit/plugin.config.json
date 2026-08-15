@@ -1,0 +1,43 @@
+{
+  "name": "harmonyos-dev-toolkit",
+  "version": "0.1.0",
+  "displayName": "HarmonyOS Dev Toolkit",
+  "description": "HarmonyOS and ArkTS development toolkit with language rules, official documentation lookup, SDK API lookup, and zero-DevEco live UI preview.",
+  "shortDescription": "ArkTS rules, HarmonyOS docs and API lookup, plus live ArkUI preview",
+  "longDescription": "A HarmonyOS and ArkTS development toolkit with compilable ArkTS language rules, fast lookup across the bundled official documentation and SDK API references, and a zero-DevEco live preview for rendering and interacting with ArkUI pages in a browser.",
+  "author": {
+    "name": "HarmonyOS-AI",
+    "url": "https://github.com/HarmonyOS-AI"
+  },
+  "homepage": "https://github.com/HarmonyOS-AI/Harmony-Skills",
+  "repository": "https://github.com/HarmonyOS-AI/Harmony-Skills",
+  "keywords": [
+    "harmonyos",
+    "arkts",
+    "arkui",
+    "ohos",
+    "ets",
+    "skills",
+    "live-preview",
+    "hot-reload"
+  ],
+  "category": "Developer Tools",
+  "capabilities": [
+    "Interactive",
+    "Read",
+    "Write"
+  ],
+  "defaultPrompt": [
+    "Check this ArkTS code against HarmonyOS language rules.",
+    "Look up a HarmonyOS SDK API and its permissions.",
+    "Preview this ArkUI page live in the browser."
+  ],
+  "brandColor": "#CE0E2D",
+  "components": {
+    "skills": "./skills/"
+  },
+  "opencode": {
+    "packageName": "@harmonyos-ai/harmonyos-dev-toolkit",
+    "toolName": "harmonyos_dev_skill"
+  }
+}

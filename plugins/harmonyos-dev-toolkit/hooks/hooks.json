@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node --input-type=module -e \"const root=process.env.CLAUDE_PLUGIN_ROOT ?? process.env.QODER_PLUGIN_ROOT; if (root) await import((await import('node:url')).pathToFileURL(root + '/skills/harmonyos-live-preview/scripts/cleanup.mjs').href)\""
+          }
+        ]
+      }
+    ]
+  }
+}

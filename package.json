@@ -1,0 +1,14 @@
+{
+  "name": "harmonyos-ai-plugin-marketplace",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "plugins/*"
+  ],
+  "scripts": {
+    "plugins:create": "node scripts/create-plugin-group.mjs",
+    "plugins:sync": "node scripts/sync-manifests.mjs",
+    "plugins:validate": "node scripts/validate-plugins.mjs",
+    "test": "node --test scripts/tests/*.test.mjs"
+  }
+}

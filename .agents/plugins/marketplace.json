@@ -5,10 +5,10 @@
   },
   "plugins": [
     {
-      "name": "harmony-skills",
+      "name": "harmonyos-dev-toolkit",
       "source": {
         "source": "local",
-        "path": "./"
+        "path": "./plugins/harmonyos-dev-toolkit"
       },
       "policy": {
         "installation": "AVAILABLE",
